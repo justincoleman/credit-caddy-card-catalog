@@ -1,0 +1,3201 @@
+{
+  "schemaVersion": 1,
+  "version": "2026.04.24",
+  "lastUpdated": "2026-04-24T12:00:00Z",
+  "cards": [
+    {
+      "id": "american-express-platinum-card",
+      "cardName": "Platinum Card",
+      "issuer": "American Express",
+      "annualFee": 895,
+      "noForeignTransactionFees": true,
+      "earnRates": [
+        {
+          "category": "travel",
+          "multiplier": 5.0,
+          "cap": null,
+          "notes": "Flights booked directly or via Amex Travel"
+        },
+        {
+          "category": "dining",
+          "multiplier": 1.0,
+          "cap": null,
+          "notes": null
+        }
+      ],
+      "baseEarnRate": 1.0,
+      "rewardProgram": "American Express Membership Rewards",
+      "affiliateUrl": null,
+      "colorHex": "BFC0C0",
+      "benefits": [
+        {
+          "name": "Uber Cash",
+          "amount": 15,
+          "renewalPeriod": "Monthly",
+          "periodBasis": "Calendar Year",
+          "category": "Travel Credits",
+          "allowsPartialUse": false,
+          "notes": null,
+          "availableMonths": [],
+          "notificationsEnabled": true
+        },
+        {
+          "name": "Uber Cash (December Bonus)",
+          "amount": 20,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Calendar Year",
+          "category": "Travel Credits",
+          "allowsPartialUse": false,
+          "notes": null,
+          "availableMonths": [
+            12
+          ],
+          "notificationsEnabled": true
+        },
+        {
+          "name": "Digital Entertainment Credit",
+          "amount": 25,
+          "renewalPeriod": "Monthly",
+          "periodBasis": "Calendar Year",
+          "category": "Shopping Credits",
+          "allowsPartialUse": true,
+          "notes": null,
+          "availableMonths": [],
+          "notificationsEnabled": true
+        },
+        {
+          "name": "Walmart+ Membership Credit",
+          "amount": 12.95,
+          "renewalPeriod": "Monthly",
+          "periodBasis": "Calendar Year",
+          "category": "Shopping Credits",
+          "allowsPartialUse": false,
+          "notes": "Plus taxes and fees",
+          "availableMonths": [],
+          "notificationsEnabled": true
+        },
+        {
+          "name": "Uber One Membership Credit",
+          "amount": 10,
+          "renewalPeriod": "Monthly",
+          "periodBasis": "Calendar Year",
+          "category": "Travel Credits",
+          "allowsPartialUse": false,
+          "notes": null,
+          "availableMonths": [],
+          "notificationsEnabled": true
+        },
+        {
+          "name": "lululemon Credit",
+          "amount": 75,
+          "renewalPeriod": "Every 3 months",
+          "periodBasis": "Calendar Year",
+          "category": "Shopping Credits",
+          "allowsPartialUse": true,
+          "notes": null,
+          "availableMonths": [],
+          "notificationsEnabled": true
+        },
+        {
+          "name": "Resy Credit",
+          "amount": 100,
+          "renewalPeriod": "Every 3 months",
+          "periodBasis": "Calendar Year",
+          "category": "Dining Credits",
+          "allowsPartialUse": true,
+          "notes": null,
+          "availableMonths": [],
+          "notificationsEnabled": true
+        },
+        {
+          "name": "Saks Fifth Avenue Credit",
+          "amount": 50,
+          "renewalPeriod": "Every 6 months",
+          "periodBasis": "Calendar Year",
+          "category": "Shopping Credits",
+          "allowsPartialUse": false,
+          "notes": null,
+          "availableMonths": [],
+          "notificationsEnabled": true
+        },
+        {
+          "name": "Airline Fee Credit",
+          "amount": 200,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Calendar Year",
+          "category": "Travel Credits",
+          "allowsPartialUse": true,
+          "notes": null,
+          "availableMonths": [],
+          "notificationsEnabled": true
+        },
+        {
+          "name": "Hotel Credit (FHR/THC)",
+          "amount": 600,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Calendar Year",
+          "category": "Travel Credits",
+          "allowsPartialUse": true,
+          "notes": null,
+          "availableMonths": [],
+          "notificationsEnabled": true
+        },
+        {
+          "name": "CLEAR Plus Credit",
+          "amount": 209,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Calendar Year",
+          "category": "Travel Credits",
+          "allowsPartialUse": false,
+          "notes": null,
+          "availableMonths": [],
+          "notificationsEnabled": true
+        },
+        {
+          "name": "Equinox Credit",
+          "amount": 300,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Calendar Year",
+          "category": "Shopping Credits",
+          "allowsPartialUse": true,
+          "notes": null,
+          "availableMonths": [],
+          "notificationsEnabled": true
+        },
+        {
+          "name": "Oura Ring Credit",
+          "amount": 200,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Calendar Year",
+          "category": "Shopping Credits",
+          "allowsPartialUse": true,
+          "notes": null,
+          "availableMonths": [],
+          "notificationsEnabled": true
+        },
+        {
+          "name": "Global Entry/TSA PreCheck Credit",
+          "amount": 100,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Cardmember Year",
+          "category": "Travel Credits",
+          "allowsPartialUse": false,
+          "notes": "Every 4 years",
+          "availableMonths": [],
+          "notificationsEnabled": true
+        }
+      ]
+    },
+    {
+      "id": "american-express-gold-card",
+      "cardName": "Gold Card",
+      "issuer": "American Express",
+      "annualFee": 325,
+      "noForeignTransactionFees": true,
+      "earnRates": [
+        {
+          "category": "dining",
+          "multiplier": 4.0,
+          "cap": null,
+          "notes": "Restaurants worldwide"
+        },
+        {
+          "category": "groceries",
+          "multiplier": 4.0,
+          "cap": 25000,
+          "notes": "U.S. supermarkets, up to $25K/yr"
+        },
+        {
+          "category": "travel",
+          "multiplier": 3.0,
+          "cap": null,
+          "notes": "Flights booked directly with airlines or via Amex Travel"
+        }
+      ],
+      "baseEarnRate": 1.0,
+      "rewardProgram": "American Express Membership Rewards",
+      "affiliateUrl": null,
+      "colorHex": "D4AF37",
+      "benefits": [
+        {
+          "name": "Uber Cash",
+          "amount": 10,
+          "renewalPeriod": "Monthly",
+          "periodBasis": "Calendar Year",
+          "category": "Dining Credits",
+          "allowsPartialUse": false,
+          "notes": null,
+          "availableMonths": [],
+          "notificationsEnabled": true
+        },
+        {
+          "name": "Dining Credit",
+          "amount": 10,
+          "renewalPeriod": "Monthly",
+          "periodBasis": "Calendar Year",
+          "category": "Dining Credits",
+          "allowsPartialUse": false,
+          "notes": null,
+          "availableMonths": [],
+          "notificationsEnabled": true
+        },
+        {
+          "name": "Dunkin' Credit",
+          "amount": 7,
+          "renewalPeriod": "Monthly",
+          "periodBasis": "Calendar Year",
+          "category": "Dining Credits",
+          "allowsPartialUse": false,
+          "notes": null,
+          "availableMonths": [],
+          "notificationsEnabled": true
+        },
+        {
+          "name": "Resy Credit",
+          "amount": 50,
+          "renewalPeriod": "Every 6 months",
+          "periodBasis": "Calendar Year",
+          "category": "Dining Credits",
+          "allowsPartialUse": true,
+          "notes": null,
+          "availableMonths": [],
+          "notificationsEnabled": true
+        }
+      ]
+    },
+    {
+      "id": "american-express-green-card",
+      "cardName": "Green Card",
+      "issuer": "American Express",
+      "annualFee": 150,
+      "noForeignTransactionFees": true,
+      "earnRates": [
+        {
+          "category": "travel",
+          "multiplier": 3.0,
+          "cap": null,
+          "notes": "Transit, flights, hotels"
+        },
+        {
+          "category": "dining",
+          "multiplier": 3.0,
+          "cap": null,
+          "notes": "Restaurants worldwide"
+        }
+      ],
+      "baseEarnRate": 1.0,
+      "rewardProgram": "American Express Membership Rewards",
+      "affiliateUrl": null,
+      "colorHex": "50C878",
+      "benefits": [
+        {
+          "name": "CLEAR Plus Credit",
+          "amount": 209,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Calendar Year",
+          "category": "Travel Credits",
+          "allowsPartialUse": false,
+          "notes": null,
+          "availableMonths": [],
+          "notificationsEnabled": true
+        }
+      ]
+    },
+    {
+      "id": "american-express-marriott-bonvoy-brilliant",
+      "cardName": "Marriott Bonvoy Brilliant",
+      "issuer": "American Express",
+      "annualFee": 650,
+      "noForeignTransactionFees": true,
+      "earnRates": [
+        {
+          "category": "dining",
+          "multiplier": 3.0,
+          "cap": null,
+          "notes": "Restaurants worldwide"
+        },
+        {
+          "category": "travel",
+          "multiplier": 3.0,
+          "cap": null,
+          "notes": "Flights booked directly"
+        }
+      ],
+      "baseEarnRate": 2.0,
+      "rewardProgram": "Marriott Bonvoy",
+      "affiliateUrl": null,
+      "colorHex": "1A365D",
+      "benefits": [
+        {
+          "name": "Free Night Award (up to 85K)",
+          "amount": null,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Cardmember Year",
+          "category": "Travel Credits",
+          "allowsPartialUse": false,
+          "notes": "Enter your redemption value",
+          "availableMonths": [],
+          "notificationsEnabled": true
+        },
+        {
+          "name": "Dining Credit",
+          "amount": 25,
+          "renewalPeriod": "Monthly",
+          "periodBasis": "Calendar Year",
+          "category": "Dining Credits",
+          "allowsPartialUse": true,
+          "notes": null,
+          "availableMonths": [],
+          "notificationsEnabled": true
+        },
+        {
+          "name": "Marriott Property Credit",
+          "amount": 100,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Calendar Year",
+          "category": "Travel Credits",
+          "allowsPartialUse": true,
+          "notes": null,
+          "availableMonths": [],
+          "notificationsEnabled": true
+        },
+        {
+          "name": "Global Entry/TSA PreCheck Credit",
+          "amount": 100,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Cardmember Year",
+          "category": "Travel Credits",
+          "allowsPartialUse": false,
+          "notes": "Every 4 years",
+          "availableMonths": [],
+          "notificationsEnabled": true
+        }
+      ]
+    },
+    {
+      "id": "american-express-blue-cash-preferred",
+      "cardName": "Blue Cash Preferred",
+      "issuer": "American Express",
+      "annualFee": 95,
+      "noForeignTransactionFees": false,
+      "earnRates": [
+        {
+          "category": "groceries",
+          "multiplier": 6.0,
+          "cap": 6000,
+          "notes": "U.S. supermarkets, up to $6K/year then 1%"
+        },
+        {
+          "category": "streaming",
+          "multiplier": 6.0,
+          "cap": null,
+          "notes": "U.S. streaming subscriptions"
+        },
+        {
+          "category": "transit",
+          "multiplier": 3.0,
+          "cap": null,
+          "notes": "U.S. transit including taxis and rideshare"
+        },
+        {
+          "category": "gas",
+          "multiplier": 3.0,
+          "cap": null,
+          "notes": "U.S. gas stations"
+        }
+      ],
+      "baseEarnRate": 1.0,
+      "rewardProgram": "Cash Back",
+      "affiliateUrl": null,
+      "colorHex": "1E3A5F",
+      "benefits": [
+        {
+          "name": "Equinox+ Credit",
+          "amount": 7,
+          "renewalPeriod": "Monthly",
+          "periodBasis": "Calendar Year",
+          "category": "Shopping Credits",
+          "allowsPartialUse": false,
+          "notes": "Statement credit for Equinox+ app subscription",
+          "availableMonths": [],
+          "notificationsEnabled": true
+        },
+        {
+          "name": "Disney Bundle Credit",
+          "amount": 7,
+          "renewalPeriod": "Monthly",
+          "periodBasis": "Calendar Year",
+          "category": "Streaming Credits",
+          "allowsPartialUse": false,
+          "notes": "Statement credit toward Disney+, Hulu, or ESPN+ bundle",
+          "availableMonths": [],
+          "notificationsEnabled": true
+        }
+      ]
+    },
+    {
+      "id": "american-express-blue-cash-everyday",
+      "cardName": "Blue Cash Everyday",
+      "issuer": "American Express",
+      "annualFee": 0,
+      "noForeignTransactionFees": false,
+      "earnRates": [
+        {
+          "category": "groceries",
+          "multiplier": 3.0,
+          "cap": 6000,
+          "notes": "U.S. supermarkets, up to $6K/year then 1%"
+        },
+        {
+          "category": "onlineShopping",
+          "multiplier": 3.0,
+          "cap": 6000,
+          "notes": "U.S. online retail purchases, up to $6K/year then 1%"
+        },
+        {
+          "category": "gas",
+          "multiplier": 3.0,
+          "cap": null,
+          "notes": "U.S. gas stations"
+        }
+      ],
+      "baseEarnRate": 1.0,
+      "rewardProgram": "Cash Back",
+      "affiliateUrl": null,
+      "colorHex": "2980B9",
+      "benefits": [
+        {
+          "name": "Disney Bundle Credit",
+          "amount": 7,
+          "renewalPeriod": "Monthly",
+          "periodBasis": "Calendar Year",
+          "category": "Streaming Credits",
+          "allowsPartialUse": false,
+          "notes": "Statement credit toward Disney+, Hulu, or ESPN+ bundle",
+          "availableMonths": [],
+          "notificationsEnabled": true
+        }
+      ]
+    },
+    {
+      "id": "american-express-delta-skymiles-gold",
+      "cardName": "Delta SkyMiles Gold",
+      "issuer": "American Express",
+      "annualFee": 150,
+      "noForeignTransactionFees": false,
+      "earnRates": [
+        {
+          "category": "travel",
+          "multiplier": 2.0,
+          "cap": null,
+          "notes": "Delta purchases"
+        },
+        {
+          "category": "dining",
+          "multiplier": 2.0,
+          "cap": null,
+          "notes": "Restaurants worldwide"
+        },
+        {
+          "category": "groceries",
+          "multiplier": 2.0,
+          "cap": null,
+          "notes": "U.S. supermarkets"
+        }
+      ],
+      "baseEarnRate": 1.0,
+      "rewardProgram": "Delta SkyMiles",
+      "affiliateUrl": null,
+      "colorHex": "B8860B",
+      "benefits": [
+        {
+          "name": "Delta Flight Credit",
+          "amount": 200,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Cardmember Year",
+          "category": "Travel Credits",
+          "allowsPartialUse": false,
+          "notes": "Awarded after $10K in eligible purchases per cardmember year",
+          "availableMonths": [],
+          "notificationsEnabled": true
+        }
+      ]
+    },
+    {
+      "id": "american-express-delta-skymiles-platinum",
+      "cardName": "Delta SkyMiles Platinum",
+      "issuer": "American Express",
+      "annualFee": 350,
+      "noForeignTransactionFees": false,
+      "earnRates": [
+        {
+          "category": "travel",
+          "multiplier": 3.0,
+          "cap": null,
+          "notes": "Delta purchases and Delta Stays"
+        },
+        {
+          "category": "dining",
+          "multiplier": 2.0,
+          "cap": null,
+          "notes": "Restaurants worldwide"
+        }
+      ],
+      "baseEarnRate": 1.0,
+      "rewardProgram": "Delta SkyMiles",
+      "affiliateUrl": null,
+      "colorHex": "708090",
+      "benefits": [
+        {
+          "name": "Delta Stays Credit",
+          "amount": 150,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Cardmember Year",
+          "category": "Travel Credits",
+          "allowsPartialUse": false,
+          "notes": "Prepaid hotels booked on deltastays.com",
+          "availableMonths": [],
+          "notificationsEnabled": true
+        },
+        {
+          "name": "TakeOff 15 Benefit",
+          "amount": null,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Cardmember Year",
+          "category": "Travel Credits",
+          "allowsPartialUse": false,
+          "notes": "15% discount on Delta award flights — no dollar amount to track",
+          "availableMonths": [],
+          "notificationsEnabled": false
+        }
+      ]
+    },
+    {
+      "id": "american-express-delta-skymiles-reserve",
+      "cardName": "Delta SkyMiles Reserve",
+      "issuer": "American Express",
+      "annualFee": 650,
+      "noForeignTransactionFees": false,
+      "earnRates": [
+        {
+          "category": "travel",
+          "multiplier": 3.0,
+          "cap": null,
+          "notes": "Delta purchases"
+        }
+      ],
+      "baseEarnRate": 1.0,
+      "rewardProgram": "Delta SkyMiles",
+      "affiliateUrl": null,
+      "colorHex": "1C1C1C",
+      "benefits": [
+        {
+          "name": "Resy Credit",
+          "amount": 20,
+          "renewalPeriod": "Monthly",
+          "periodBasis": "Calendar Year",
+          "category": "Dining Credits",
+          "allowsPartialUse": false,
+          "notes": "Restaurants booked on Resy",
+          "availableMonths": [],
+          "notificationsEnabled": true
+        },
+        {
+          "name": "Rideshare Credit",
+          "amount": 10,
+          "renewalPeriod": "Monthly",
+          "periodBasis": "Calendar Year",
+          "category": "Travel Credits",
+          "allowsPartialUse": false,
+          "notes": "Lyft or Uber rides",
+          "availableMonths": [],
+          "notificationsEnabled": true
+        }
+      ]
+    },
+    {
+      "id": "american-express-hilton-honors-surpass",
+      "cardName": "Hilton Honors Surpass",
+      "issuer": "American Express",
+      "annualFee": 150,
+      "noForeignTransactionFees": true,
+      "earnRates": [
+        {
+          "category": "travel",
+          "multiplier": 12.0,
+          "cap": null,
+          "notes": "Hilton hotels and resorts"
+        },
+        {
+          "category": "dining",
+          "multiplier": 6.0,
+          "cap": null,
+          "notes": "Restaurants worldwide"
+        },
+        {
+          "category": "groceries",
+          "multiplier": 6.0,
+          "cap": null,
+          "notes": "U.S. supermarkets"
+        },
+        {
+          "category": "gas",
+          "multiplier": 6.0,
+          "cap": null,
+          "notes": "U.S. gas stations"
+        }
+      ],
+      "baseEarnRate": 3.0,
+      "rewardProgram": "Hilton Honors",
+      "affiliateUrl": null,
+      "colorHex": "002F6C",
+      "benefits": [
+        {
+          "name": "Hilton Resort Credit",
+          "amount": 50,
+          "renewalPeriod": "Every 3 months",
+          "periodBasis": "Calendar Year",
+          "category": "Travel Credits",
+          "allowsPartialUse": false,
+          "notes": "Eligible purchases at Hilton Resorts",
+          "availableMonths": [],
+          "notificationsEnabled": true
+        }
+      ]
+    },
+    {
+      "id": "american-express-hilton-honors-aspire",
+      "cardName": "Hilton Honors Aspire",
+      "issuer": "American Express",
+      "annualFee": 550,
+      "noForeignTransactionFees": true,
+      "earnRates": [
+        {
+          "category": "travel",
+          "multiplier": 14.0,
+          "cap": null,
+          "notes": "Hilton hotels and resorts"
+        },
+        {
+          "category": "dining",
+          "multiplier": 7.0,
+          "cap": null,
+          "notes": "Restaurants worldwide"
+        }
+      ],
+      "baseEarnRate": 3.0,
+      "rewardProgram": "Hilton Honors",
+      "affiliateUrl": null,
+      "colorHex": "8B7536",
+      "benefits": [
+        {
+          "name": "Hilton Resort Credit",
+          "amount": 200,
+          "renewalPeriod": "Every 6 months",
+          "periodBasis": "Calendar Year",
+          "category": "Travel Credits",
+          "allowsPartialUse": false,
+          "notes": "Eligible purchases at Hilton Resorts",
+          "availableMonths": [],
+          "notificationsEnabled": true
+        },
+        {
+          "name": "Flight Credit",
+          "amount": 200,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Calendar Year",
+          "category": "Travel Credits",
+          "allowsPartialUse": false,
+          "notes": "Eligible flight purchases",
+          "availableMonths": [],
+          "notificationsEnabled": true
+        },
+        {
+          "name": "Hilton On-Property Credit",
+          "amount": 100,
+          "renewalPeriod": "Every 6 months",
+          "periodBasis": "Calendar Year",
+          "category": "Travel Credits",
+          "allowsPartialUse": false,
+          "notes": "Usable at Waldorf Astoria and Conrad properties",
+          "availableMonths": [],
+          "notificationsEnabled": true
+        }
+      ]
+    },
+    {
+      "id": "american-express-business-gold",
+      "cardName": "Business Gold",
+      "issuer": "American Express",
+      "annualFee": 375,
+      "noForeignTransactionFees": false,
+      "earnRates": [
+        {
+          "category": "dining",
+          "multiplier": 4.0,
+          "cap": 150000,
+          "notes": "4x on top 2 eligible spend categories each month, up to $150K combined/year"
+        },
+        {
+          "category": "travel",
+          "multiplier": 4.0,
+          "cap": 150000,
+          "notes": "4x on top 2 eligible spend categories each month, up to $150K combined/year"
+        },
+        {
+          "category": "transit",
+          "multiplier": 4.0,
+          "cap": 150000,
+          "notes": "4x on top 2 eligible spend categories each month, up to $150K combined/year"
+        },
+        {
+          "category": "gas",
+          "multiplier": 4.0,
+          "cap": 150000,
+          "notes": "4x on top 2 eligible spend categories each month, up to $150K combined/year"
+        }
+      ],
+      "baseEarnRate": 1.0,
+      "rewardProgram": "American Express Membership Rewards",
+      "affiliateUrl": null,
+      "colorHex": "B8860B",
+      "benefits": []
+    },
+    {
+      "id": "american-express-business-platinum",
+      "cardName": "Business Platinum",
+      "issuer": "American Express",
+      "annualFee": 695,
+      "noForeignTransactionFees": true,
+      "earnRates": [
+        {
+          "category": "travel",
+          "multiplier": 5.0,
+          "cap": null,
+          "notes": "Flights and prepaid hotels booked via Amex Travel"
+        }
+      ],
+      "baseEarnRate": 1.0,
+      "rewardProgram": "American Express Membership Rewards",
+      "affiliateUrl": null,
+      "colorHex": "A8A9AD",
+      "benefits": [
+        {
+          "name": "Airline Fee Credit",
+          "amount": 200,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Calendar Year",
+          "category": "Travel Credits",
+          "allowsPartialUse": false,
+          "notes": "Incidental fees on one selected qualifying airline",
+          "availableMonths": [],
+          "notificationsEnabled": true
+        },
+        {
+          "name": "CLEAR Plus Credit",
+          "amount": 189,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Calendar Year",
+          "category": "Travel Credits",
+          "allowsPartialUse": false,
+          "notes": "Annual CLEAR Plus membership fee",
+          "availableMonths": [],
+          "notificationsEnabled": true
+        },
+        {
+          "name": "Dell Credit (Jan–Jun)",
+          "amount": 150,
+          "renewalPeriod": "Every 6 months",
+          "periodBasis": "Calendar Year",
+          "category": "Shopping Credits",
+          "allowsPartialUse": false,
+          "notes": "U.S. Dell Technologies purchases, Jan–Jun",
+          "availableMonths": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "notificationsEnabled": true
+        },
+        {
+          "name": "Dell Credit (Jul–Dec)",
+          "amount": 150,
+          "renewalPeriod": "Every 6 months",
+          "periodBasis": "Calendar Year",
+          "category": "Shopping Credits",
+          "allowsPartialUse": false,
+          "notes": "U.S. Dell Technologies purchases, Jul–Dec",
+          "availableMonths": [
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "notificationsEnabled": true
+        },
+        {
+          "name": "Wireless Credit",
+          "amount": 20,
+          "renewalPeriod": "Monthly",
+          "periodBasis": "Calendar Year",
+          "category": "Shopping Credits",
+          "allowsPartialUse": false,
+          "notes": "U.S. wireless telephone service providers",
+          "availableMonths": [],
+          "notificationsEnabled": true
+        },
+        {
+          "name": "Hotel Credit",
+          "amount": 200,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Calendar Year",
+          "category": "Travel Credits",
+          "allowsPartialUse": false,
+          "notes": "Prepaid Fine Hotels + Resorts or The Hotel Collection (min 2-night stay) bookings via Amex Travel",
+          "availableMonths": [],
+          "notificationsEnabled": true
+        }
+      ]
+    },
+    {
+      "id": "barclays-aadvantage-aviator-red-world-elite",
+      "cardName": "AAdvantage Aviator Red World Elite",
+      "issuer": "Barclays",
+      "annualFee": 99,
+      "noForeignTransactionFees": true,
+      "earnRates": [],
+      "baseEarnRate": 2.0,
+      "rewardProgram": "American AAdvantage",
+      "affiliateUrl": null,
+      "colorHex": "E0115F",
+      "benefits": [
+        {
+          "name": "AA Wi-Fi Credit",
+          "amount": 25,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Cardmember Year",
+          "category": "Travel Credits",
+          "allowsPartialUse": true,
+          "notes": null,
+          "availableMonths": [],
+          "notificationsEnabled": true
+        },
+        {
+          "name": "Companion Certificate ($99+tax)",
+          "amount": null,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Cardmember Year",
+          "category": "Travel Credits",
+          "allowsPartialUse": false,
+          "notes": "Requires $20K spend",
+          "availableMonths": [],
+          "notificationsEnabled": true
+        }
+      ]
+    },
+    {
+      "id": "barclays-hawaiian-airlines-world-elite",
+      "cardName": "Hawaiian Airlines World Elite",
+      "issuer": "Barclays",
+      "annualFee": 99,
+      "noForeignTransactionFees": true,
+      "earnRates": [],
+      "baseEarnRate": 1.0,
+      "rewardProgram": "Other",
+      "affiliateUrl": null,
+      "colorHex": "0F52BA",
+      "benefits": [
+        {
+          "name": "Companion Discount",
+          "amount": 100,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Cardmember Year",
+          "category": "Travel Credits",
+          "allowsPartialUse": false,
+          "notes": null,
+          "availableMonths": [],
+          "notificationsEnabled": true
+        }
+      ]
+    },
+    {
+      "id": "barclays-jetblue-plus",
+      "cardName": "JetBlue Plus",
+      "issuer": "Barclays",
+      "annualFee": 99,
+      "noForeignTransactionFees": true,
+      "earnRates": [
+        {
+          "category": "travel",
+          "multiplier": 6.0,
+          "cap": null,
+          "notes": "JetBlue purchases"
+        },
+        {
+          "category": "dining",
+          "multiplier": 2.0,
+          "cap": null,
+          "notes": null
+        },
+        {
+          "category": "groceries",
+          "multiplier": 2.0,
+          "cap": null,
+          "notes": null
+        }
+      ],
+      "baseEarnRate": 1.0,
+      "rewardProgram": "Other",
+      "affiliateUrl": null,
+      "colorHex": "003876",
+      "benefits": [
+        {
+          "name": "JetBlue Statement Credit",
+          "amount": 100,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Cardmember Year",
+          "category": "Travel Credits",
+          "allowsPartialUse": true,
+          "notes": "Earned with $100+ JetBlue Vacations purchase",
+          "availableMonths": [],
+          "notificationsEnabled": true
+        },
+        {
+          "name": "First Checked Bag",
+          "amount": null,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Calendar Year",
+          "category": "Travel Credits",
+          "allowsPartialUse": false,
+          "notes": "Free first checked bag for you and up to 3 companions",
+          "availableMonths": [],
+          "notificationsEnabled": false
+        }
+      ]
+    },
+    {
+      "id": "barclays-jetblue-business",
+      "cardName": "JetBlue Business",
+      "issuer": "Barclays",
+      "annualFee": 99,
+      "noForeignTransactionFees": true,
+      "earnRates": [
+        {
+          "category": "travel",
+          "multiplier": 6.0,
+          "cap": null,
+          "notes": "JetBlue purchases"
+        },
+        {
+          "category": "dining",
+          "multiplier": 2.0,
+          "cap": null,
+          "notes": null
+        },
+        {
+          "category": "other",
+          "multiplier": 2.0,
+          "cap": null,
+          "notes": "Office supplies"
+        }
+      ],
+      "baseEarnRate": 1.0,
+      "rewardProgram": "Other",
+      "affiliateUrl": null,
+      "colorHex": "005DA0",
+      "benefits": [
+        {
+          "name": "JetBlue Vacations Credit",
+          "amount": 100,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Cardmember Year",
+          "category": "Travel Credits",
+          "allowsPartialUse": false,
+          "notes": "Statement credit on JetBlue Vacations package",
+          "availableMonths": [],
+          "notificationsEnabled": true
+        },
+        {
+          "name": "First Checked Bag",
+          "amount": null,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Calendar Year",
+          "category": "Travel Credits",
+          "allowsPartialUse": false,
+          "notes": "Free first checked bag for cardholder and companions",
+          "availableMonths": [],
+          "notificationsEnabled": false
+        }
+      ]
+    },
+    {
+      "id": "barclays-wyndham-rewards-earner-plus",
+      "cardName": "Wyndham Rewards Earner Plus",
+      "issuer": "Barclays",
+      "annualFee": 75,
+      "noForeignTransactionFees": false,
+      "earnRates": [
+        {
+          "category": "travel",
+          "multiplier": 6.0,
+          "cap": null,
+          "notes": "Wyndham hotels and gas"
+        },
+        {
+          "category": "gas",
+          "multiplier": 6.0,
+          "cap": null,
+          "notes": null
+        },
+        {
+          "category": "dining",
+          "multiplier": 4.0,
+          "cap": null,
+          "notes": null
+        },
+        {
+          "category": "groceries",
+          "multiplier": 4.0,
+          "cap": null,
+          "notes": null
+        }
+      ],
+      "baseEarnRate": 1.0,
+      "rewardProgram": "Other",
+      "affiliateUrl": null,
+      "colorHex": "004B8D",
+      "benefits": []
+    },
+    {
+      "id": "chase-freedom-flex",
+      "cardName": "Freedom Flex",
+      "issuer": "Chase",
+      "annualFee": 0,
+      "noForeignTransactionFees": false,
+      "earnRates": [
+        {
+          "category": "dining",
+          "multiplier": 3.0,
+          "cap": null,
+          "notes": "Restaurants and takeout"
+        },
+        {
+          "category": "drugstores",
+          "multiplier": 3.0,
+          "cap": null,
+          "notes": "U.S. drugstores"
+        },
+        {
+          "category": "travel",
+          "multiplier": 5.0,
+          "cap": null,
+          "notes": "Chase Travel portal purchases"
+        },
+        {
+          "category": "other",
+          "multiplier": 5.0,
+          "cap": 1500,
+          "notes": "Rotating quarterly categories, up to $1,500/quarter then 1%"
+        }
+      ],
+      "baseEarnRate": 1.0,
+      "rewardProgram": "Chase Ultimate Rewards",
+      "affiliateUrl": null,
+      "colorHex": "1A3C6B",
+      "benefits": []
+    },
+    {
+      "id": "chase-freedom-unlimited",
+      "cardName": "Freedom Unlimited",
+      "issuer": "Chase",
+      "annualFee": 0,
+      "noForeignTransactionFees": false,
+      "earnRates": [
+        {
+          "category": "dining",
+          "multiplier": 3.0,
+          "cap": null,
+          "notes": "Restaurants and takeout"
+        },
+        {
+          "category": "drugstores",
+          "multiplier": 3.0,
+          "cap": null,
+          "notes": "U.S. drugstores"
+        },
+        {
+          "category": "travel",
+          "multiplier": 5.0,
+          "cap": null,
+          "notes": "Chase Travel portal purchases"
+        }
+      ],
+      "baseEarnRate": 1.5,
+      "rewardProgram": "Chase Ultimate Rewards",
+      "affiliateUrl": null,
+      "colorHex": "2E4A7A",
+      "benefits": []
+    },
+    {
+      "id": "chase-ink-business-preferred",
+      "cardName": "Ink Business Preferred",
+      "issuer": "Chase",
+      "annualFee": 95,
+      "noForeignTransactionFees": false,
+      "earnRates": [
+        {
+          "category": "travel",
+          "multiplier": 3.0,
+          "cap": 150000,
+          "notes": "Travel, shipping, advertising, and telecom, up to $150K/year combined"
+        },
+        {
+          "category": "transit",
+          "multiplier": 3.0,
+          "cap": 150000,
+          "notes": "Combined with travel/shipping/advertising/telecom"
+        }
+      ],
+      "baseEarnRate": 1.0,
+      "rewardProgram": "Chase Ultimate Rewards",
+      "affiliateUrl": null,
+      "colorHex": "1C3A5E",
+      "benefits": []
+    },
+    {
+      "id": "chase-ink-business-cash",
+      "cardName": "Ink Business Cash",
+      "issuer": "Chase",
+      "annualFee": 0,
+      "noForeignTransactionFees": false,
+      "earnRates": [
+        {
+          "category": "other",
+          "multiplier": 5.0,
+          "cap": 25000,
+          "notes": "Office supply stores and internet/cable/phone, up to $25K/year"
+        },
+        {
+          "category": "dining",
+          "multiplier": 2.0,
+          "cap": 25000,
+          "notes": "Gas stations and restaurants, up to $25K/year combined"
+        },
+        {
+          "category": "gas",
+          "multiplier": 2.0,
+          "cap": 25000,
+          "notes": "Gas stations and restaurants, up to $25K/year combined"
+        }
+      ],
+      "baseEarnRate": 1.0,
+      "rewardProgram": "Chase Ultimate Rewards",
+      "affiliateUrl": null,
+      "colorHex": "2C3E7A",
+      "benefits": []
+    },
+    {
+      "id": "chase-ink-business-unlimited",
+      "cardName": "Ink Business Unlimited",
+      "issuer": "Chase",
+      "annualFee": 0,
+      "noForeignTransactionFees": false,
+      "earnRates": [],
+      "baseEarnRate": 1.5,
+      "rewardProgram": "Chase Ultimate Rewards",
+      "affiliateUrl": null,
+      "colorHex": "3B5998",
+      "benefits": []
+    },
+    {
+      "id": "chase-united-explorer",
+      "cardName": "United Explorer",
+      "issuer": "Chase",
+      "annualFee": 95,
+      "noForeignTransactionFees": false,
+      "earnRates": [
+        {
+          "category": "travel",
+          "multiplier": 2.0,
+          "cap": null,
+          "notes": "United purchases and hotels"
+        },
+        {
+          "category": "dining",
+          "multiplier": 2.0,
+          "cap": null,
+          "notes": "Restaurants worldwide"
+        }
+      ],
+      "baseEarnRate": 1.0,
+      "rewardProgram": "United MileagePlus",
+      "affiliateUrl": null,
+      "colorHex": "005DAA",
+      "benefits": [
+        {
+          "name": "Global Entry/TSA PreCheck Credit",
+          "amount": 100,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Cardmember Year",
+          "category": "Travel Credits",
+          "allowsPartialUse": false,
+          "notes": "Every 4 years",
+          "availableMonths": [],
+          "notificationsEnabled": true
+        },
+        {
+          "name": "United Club Passes",
+          "amount": null,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Cardmember Year",
+          "category": "Travel Credits",
+          "allowsPartialUse": false,
+          "notes": "2 one-time United Club passes per year — no dollar amount to track",
+          "availableMonths": [],
+          "notificationsEnabled": false
+        }
+      ]
+    },
+    {
+      "id": "chase-united-club-infinite",
+      "cardName": "United Club Infinite",
+      "issuer": "Chase",
+      "annualFee": 525,
+      "noForeignTransactionFees": false,
+      "earnRates": [
+        {
+          "category": "travel",
+          "multiplier": 4.0,
+          "cap": null,
+          "notes": "United purchases"
+        },
+        {
+          "category": "dining",
+          "multiplier": 2.0,
+          "cap": null,
+          "notes": "Restaurants and travel purchases"
+        }
+      ],
+      "baseEarnRate": 1.0,
+      "rewardProgram": "United MileagePlus",
+      "affiliateUrl": null,
+      "colorHex": "003366",
+      "benefits": [
+        {
+          "name": "United Club Membership",
+          "amount": null,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Cardmember Year",
+          "category": "Travel Credits",
+          "allowsPartialUse": false,
+          "notes": "Complimentary United Club lounge access — no dollar amount to track",
+          "availableMonths": [],
+          "notificationsEnabled": false
+        }
+      ]
+    },
+    {
+      "id": "chase-amazon-prime-visa",
+      "cardName": "Amazon Prime Visa",
+      "issuer": "Chase",
+      "annualFee": 0,
+      "noForeignTransactionFees": false,
+      "earnRates": [
+        {
+          "category": "onlineShopping",
+          "multiplier": 5.0,
+          "cap": null,
+          "notes": "Amazon.com and Whole Foods Market (requires Prime membership)"
+        },
+        {
+          "category": "dining",
+          "multiplier": 2.0,
+          "cap": null,
+          "notes": "Restaurants"
+        },
+        {
+          "category": "gas",
+          "multiplier": 2.0,
+          "cap": null,
+          "notes": "Gas stations"
+        },
+        {
+          "category": "transit",
+          "multiplier": 2.0,
+          "cap": null,
+          "notes": "Local transit and commuting"
+        },
+        {
+          "category": "drugstores",
+          "multiplier": 2.0,
+          "cap": null,
+          "notes": "Drugstores"
+        }
+      ],
+      "baseEarnRate": 1.0,
+      "rewardProgram": "Amazon Rewards",
+      "affiliateUrl": null,
+      "colorHex": "FF9900",
+      "benefits": []
+    },
+    {
+      "id": "chase-aeroplan",
+      "cardName": "Aeroplan",
+      "issuer": "Chase",
+      "annualFee": 95,
+      "noForeignTransactionFees": false,
+      "earnRates": [
+        {
+          "category": "travel",
+          "multiplier": 3.0,
+          "cap": null,
+          "notes": "Air Canada and Air Canada Vacations purchases"
+        },
+        {
+          "category": "dining",
+          "multiplier": 3.0,
+          "cap": null,
+          "notes": "Restaurants worldwide"
+        },
+        {
+          "category": "groceries",
+          "multiplier": 3.0,
+          "cap": null,
+          "notes": "U.S. grocery stores"
+        }
+      ],
+      "baseEarnRate": 1.0,
+      "rewardProgram": "Air Canada Aeroplan",
+      "affiliateUrl": null,
+      "colorHex": "CC0000",
+      "benefits": [
+        {
+          "name": "Travel Credit",
+          "amount": 50,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Cardmember Year",
+          "category": "Travel Credits",
+          "allowsPartialUse": false,
+          "notes": "Any airline ticket purchased through Chase Travel",
+          "availableMonths": [],
+          "notificationsEnabled": true
+        }
+      ]
+    },
+    {
+      "id": "capital-one-venture-x",
+      "cardName": "Venture X",
+      "issuer": "Capital One",
+      "annualFee": 395,
+      "noForeignTransactionFees": true,
+      "earnRates": [
+        {
+          "category": "travel",
+          "multiplier": 10.0,
+          "cap": null,
+          "notes": "Hotels and car rentals booked via Capital One Travel"
+        },
+        {
+          "category": "travel",
+          "multiplier": 5.0,
+          "cap": null,
+          "notes": "Flights booked via Capital One Travel"
+        }
+      ],
+      "baseEarnRate": 2.0,
+      "rewardProgram": "Capital One Venture Rewards",
+      "affiliateUrl": null,
+      "colorHex": "1C1C1C",
+      "benefits": [
+        {
+          "name": "Travel Credit",
+          "amount": 300,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Cardmember Year",
+          "category": "Travel Credits",
+          "allowsPartialUse": true,
+          "notes": null,
+          "availableMonths": [],
+          "notificationsEnabled": true
+        },
+        {
+          "name": "Anniversary Bonus (10K miles)",
+          "amount": null,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Cardmember Year",
+          "category": "Travel Credits",
+          "allowsPartialUse": false,
+          "notes": "Enter your miles value",
+          "availableMonths": [],
+          "notificationsEnabled": true
+        },
+        {
+          "name": "Global Entry/TSA PreCheck Credit",
+          "amount": 100,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Cardmember Year",
+          "category": "Travel Credits",
+          "allowsPartialUse": false,
+          "notes": "Every 4 years",
+          "availableMonths": [],
+          "notificationsEnabled": true
+        }
+      ]
+    },
+    {
+      "id": "capital-one-venture",
+      "cardName": "Venture",
+      "issuer": "Capital One",
+      "annualFee": 95,
+      "noForeignTransactionFees": true,
+      "earnRates": [
+        {
+          "category": "travel",
+          "multiplier": 5.0,
+          "cap": null,
+          "notes": "Hotels and car rentals via Capital One Travel"
+        }
+      ],
+      "baseEarnRate": 2.0,
+      "rewardProgram": "Capital One Venture Rewards",
+      "affiliateUrl": null,
+      "colorHex": "1C1C1C",
+      "benefits": [
+        {
+          "name": "Global Entry/TSA PreCheck Credit",
+          "amount": 100,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Cardmember Year",
+          "category": "Travel Credits",
+          "allowsPartialUse": false,
+          "notes": "Every 4 years",
+          "availableMonths": [],
+          "notificationsEnabled": true
+        }
+      ]
+    },
+    {
+      "id": "capital-one-venture-x-business",
+      "cardName": "Venture X Business",
+      "issuer": "Capital One",
+      "annualFee": 395,
+      "noForeignTransactionFees": true,
+      "earnRates": [
+        {
+          "category": "travel",
+          "multiplier": 10.0,
+          "cap": null,
+          "notes": "Hotels and rental cars via Capital One Travel"
+        },
+        {
+          "category": "travel",
+          "multiplier": 5.0,
+          "cap": null,
+          "notes": "Flights via Capital One Travel"
+        }
+      ],
+      "baseEarnRate": 2.0,
+      "rewardProgram": "Capital One Venture Rewards",
+      "affiliateUrl": null,
+      "colorHex": "2C2C2C",
+      "benefits": [
+        {
+          "name": "Travel Credit",
+          "amount": 300,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Cardmember Year",
+          "category": "Travel Credits",
+          "allowsPartialUse": true,
+          "notes": "Bookings via Capital One Travel",
+          "availableMonths": [],
+          "notificationsEnabled": true
+        },
+        {
+          "name": "Global Entry/TSA PreCheck Credit",
+          "amount": 100,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Cardmember Year",
+          "category": "Travel Credits",
+          "allowsPartialUse": false,
+          "notes": "Every 4 years",
+          "availableMonths": [],
+          "notificationsEnabled": true
+        }
+      ]
+    },
+    {
+      "id": "capital-one-savorone",
+      "cardName": "SavorOne",
+      "issuer": "Capital One",
+      "annualFee": 0,
+      "noForeignTransactionFees": true,
+      "earnRates": [
+        {
+          "category": "dining",
+          "multiplier": 3.0,
+          "cap": null,
+          "notes": null
+        },
+        {
+          "category": "streaming",
+          "multiplier": 3.0,
+          "cap": null,
+          "notes": null
+        },
+        {
+          "category": "groceries",
+          "multiplier": 3.0,
+          "cap": null,
+          "notes": null
+        }
+      ],
+      "baseEarnRate": 1.0,
+      "rewardProgram": "Capital One Venture Rewards",
+      "affiliateUrl": null,
+      "colorHex": "C0392B",
+      "benefits": []
+    },
+    {
+      "id": "capital-one-savor",
+      "cardName": "Savor",
+      "issuer": "Capital One",
+      "annualFee": 95,
+      "noForeignTransactionFees": true,
+      "earnRates": [
+        {
+          "category": "dining",
+          "multiplier": 4.0,
+          "cap": null,
+          "notes": null
+        },
+        {
+          "category": "streaming",
+          "multiplier": 4.0,
+          "cap": null,
+          "notes": null
+        },
+        {
+          "category": "groceries",
+          "multiplier": 3.0,
+          "cap": null,
+          "notes": null
+        }
+      ],
+      "baseEarnRate": 1.0,
+      "rewardProgram": "Capital One Venture Rewards",
+      "affiliateUrl": null,
+      "colorHex": "922B21",
+      "benefits": []
+    },
+    {
+      "id": "chase-sapphire-preferred",
+      "cardName": "Sapphire Preferred",
+      "issuer": "Chase",
+      "annualFee": 95,
+      "noForeignTransactionFees": true,
+      "earnRates": [
+        {
+          "category": "dining",
+          "multiplier": 3.0,
+          "cap": null,
+          "notes": null
+        },
+        {
+          "category": "streaming",
+          "multiplier": 3.0,
+          "cap": null,
+          "notes": null
+        },
+        {
+          "category": "onlineShopping",
+          "multiplier": 3.0,
+          "cap": null,
+          "notes": "Online grocery"
+        },
+        {
+          "category": "travel",
+          "multiplier": 5.0,
+          "cap": null,
+          "notes": "Via Chase Travel; 2x other travel"
+        }
+      ],
+      "baseEarnRate": 1.0,
+      "rewardProgram": "Chase Ultimate Rewards",
+      "affiliateUrl": null,
+      "colorHex": "0F52BA",
+      "benefits": [
+        {
+          "name": "Hotel Credit (Anniversary)",
+          "amount": 50,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Cardmember Year",
+          "category": "Travel Credits",
+          "allowsPartialUse": false,
+          "notes": null,
+          "availableMonths": [],
+          "notificationsEnabled": true
+        }
+      ]
+    },
+    {
+      "id": "chase-sapphire-reserve",
+      "cardName": "Sapphire Reserve",
+      "issuer": "Chase",
+      "annualFee": 795,
+      "noForeignTransactionFees": true,
+      "earnRates": [
+        {
+          "category": "dining",
+          "multiplier": 3.0,
+          "cap": null,
+          "notes": null
+        },
+        {
+          "category": "travel",
+          "multiplier": 10.0,
+          "cap": null,
+          "notes": "Via Chase Travel; 3x other travel"
+        },
+        {
+          "category": "streaming",
+          "multiplier": 3.0,
+          "cap": null,
+          "notes": null
+        }
+      ],
+      "baseEarnRate": 1.0,
+      "rewardProgram": "Chase Ultimate Rewards",
+      "affiliateUrl": null,
+      "colorHex": "1A365D",
+      "benefits": [
+        {
+          "name": "Lyft Credit",
+          "amount": 10,
+          "renewalPeriod": "Monthly",
+          "periodBasis": "Calendar Year",
+          "category": "Travel Credits",
+          "allowsPartialUse": false,
+          "notes": null,
+          "availableMonths": [],
+          "notificationsEnabled": true
+        },
+        {
+          "name": "Peloton Credit",
+          "amount": 10,
+          "renewalPeriod": "Monthly",
+          "periodBasis": "Calendar Year",
+          "category": "Shopping Credits",
+          "allowsPartialUse": false,
+          "notes": null,
+          "availableMonths": [],
+          "notificationsEnabled": true
+        },
+        {
+          "name": "DoorDash Credit",
+          "amount": 25,
+          "renewalPeriod": "Monthly",
+          "periodBasis": "Calendar Year",
+          "category": "Dining Credits",
+          "allowsPartialUse": false,
+          "notes": "Through 12/31/2027",
+          "availableMonths": [],
+          "notificationsEnabled": true
+        },
+        {
+          "name": "The Edit Hotel Credit",
+          "amount": 250,
+          "renewalPeriod": "Every 6 months",
+          "periodBasis": "Calendar Year",
+          "category": "Travel Credits",
+          "allowsPartialUse": true,
+          "notes": null,
+          "availableMonths": [],
+          "notificationsEnabled": true
+        },
+        {
+          "name": "Sapphire Tables Dining Credit",
+          "amount": 150,
+          "renewalPeriod": "Every 6 months",
+          "periodBasis": "Calendar Year",
+          "category": "Dining Credits",
+          "allowsPartialUse": true,
+          "notes": null,
+          "availableMonths": [],
+          "notificationsEnabled": true
+        },
+        {
+          "name": "StubHub Credit",
+          "amount": 150,
+          "renewalPeriod": "Every 6 months",
+          "periodBasis": "Calendar Year",
+          "category": "Shopping Credits",
+          "allowsPartialUse": true,
+          "notes": "Through 12/31/2027",
+          "availableMonths": [],
+          "notificationsEnabled": true
+        },
+        {
+          "name": "Travel Credit",
+          "amount": 300,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Cardmember Year",
+          "category": "Travel Credits",
+          "allowsPartialUse": true,
+          "notes": null,
+          "availableMonths": [],
+          "notificationsEnabled": true
+        },
+        {
+          "name": "DoorDash DashPass",
+          "amount": 0,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Calendar Year",
+          "category": "Dining Credits",
+          "allowsPartialUse": false,
+          "notes": "Through 12/31/2027",
+          "availableMonths": [],
+          "notificationsEnabled": true
+        },
+        {
+          "name": "Apple TV+ & Apple Music",
+          "amount": 288,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Calendar Year",
+          "category": "Shopping Credits",
+          "allowsPartialUse": false,
+          "notes": "Through 6/22/2027",
+          "availableMonths": [],
+          "notificationsEnabled": true
+        },
+        {
+          "name": "Global Entry/TSA PreCheck Credit",
+          "amount": 120,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Cardmember Year",
+          "category": "Travel Credits",
+          "allowsPartialUse": false,
+          "notes": "Every 4 years",
+          "availableMonths": [],
+          "notificationsEnabled": true
+        }
+      ]
+    },
+    {
+      "id": "chase-ihg-one-rewards-premier",
+      "cardName": "IHG One Rewards Premier",
+      "issuer": "Chase",
+      "annualFee": 99,
+      "noForeignTransactionFees": true,
+      "earnRates": [],
+      "baseEarnRate": 1.0,
+      "rewardProgram": "IHG One Rewards",
+      "affiliateUrl": null,
+      "colorHex": "4A5568",
+      "benefits": [
+        {
+          "name": "Free Night (up to 40K)",
+          "amount": null,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Cardmember Year",
+          "category": "Travel Credits",
+          "allowsPartialUse": false,
+          "notes": "Enter your redemption value",
+          "availableMonths": [],
+          "notificationsEnabled": true
+        },
+        {
+          "name": "United TravelBank Cash",
+          "amount": 50,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Calendar Year",
+          "category": "Travel Credits",
+          "allowsPartialUse": false,
+          "notes": null,
+          "availableMonths": [],
+          "notificationsEnabled": true
+        },
+        {
+          "name": "Global Entry/TSA PreCheck Credit",
+          "amount": 100,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Cardmember Year",
+          "category": "Travel Credits",
+          "allowsPartialUse": false,
+          "notes": "Every 4 years",
+          "availableMonths": [],
+          "notificationsEnabled": true
+        }
+      ]
+    },
+    {
+      "id": "chase-marriott-bonvoy-boundless",
+      "cardName": "Marriott Bonvoy Boundless",
+      "issuer": "Chase",
+      "annualFee": 95,
+      "noForeignTransactionFees": true,
+      "earnRates": [],
+      "baseEarnRate": 2.0,
+      "rewardProgram": "Marriott Bonvoy",
+      "affiliateUrl": null,
+      "colorHex": "4A5568",
+      "benefits": [
+        {
+          "name": "Free Night Award (up to 35K)",
+          "amount": null,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Cardmember Year",
+          "category": "Travel Credits",
+          "allowsPartialUse": false,
+          "notes": "Enter your redemption value",
+          "availableMonths": [],
+          "notificationsEnabled": true
+        }
+      ]
+    },
+    {
+      "id": "chase-ritz-carlton",
+      "cardName": "Ritz-Carlton",
+      "issuer": "Chase",
+      "annualFee": 595,
+      "noForeignTransactionFees": true,
+      "earnRates": [],
+      "baseEarnRate": 2.0,
+      "rewardProgram": "Marriott Bonvoy",
+      "affiliateUrl": null,
+      "colorHex": "1C1C1C",
+      "benefits": [
+        {
+          "name": "Airline Credit",
+          "amount": 300,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Calendar Year",
+          "category": "Travel Credits",
+          "allowsPartialUse": true,
+          "notes": null,
+          "availableMonths": [],
+          "notificationsEnabled": true
+        },
+        {
+          "name": "Free Night Award (up to 85K)",
+          "amount": null,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Cardmember Year",
+          "category": "Travel Credits",
+          "allowsPartialUse": false,
+          "notes": "Enter your redemption value",
+          "availableMonths": [],
+          "notificationsEnabled": true
+        },
+        {
+          "name": "Elite Night Credits",
+          "amount": null,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Calendar Year",
+          "category": "Travel Credits",
+          "allowsPartialUse": false,
+          "notes": "15 nights per year",
+          "availableMonths": [],
+          "notificationsEnabled": true
+        },
+        {
+          "name": "Ritz-Carlton Club Upgrades",
+          "amount": null,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Calendar Year",
+          "category": "Travel Credits",
+          "allowsPartialUse": false,
+          "notes": "3 certificates per year",
+          "availableMonths": [],
+          "notificationsEnabled": true
+        },
+        {
+          "name": "Global Entry Credit",
+          "amount": 100,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Cardmember Year",
+          "category": "Travel Credits",
+          "allowsPartialUse": false,
+          "notes": "Every 4 years",
+          "availableMonths": [],
+          "notificationsEnabled": true
+        }
+      ]
+    },
+    {
+      "id": "chase-southwest-rapid-rewards-premier",
+      "cardName": "Southwest Rapid Rewards Premier",
+      "issuer": "Chase",
+      "annualFee": 149,
+      "noForeignTransactionFees": false,
+      "earnRates": [
+        {
+          "category": "travel",
+          "multiplier": 2.0,
+          "cap": null,
+          "notes": "Southwest purchases"
+        }
+      ],
+      "baseEarnRate": 1.0,
+      "rewardProgram": "Southwest Rapid Rewards",
+      "affiliateUrl": null,
+      "colorHex": "FF9800",
+      "benefits": [
+        {
+          "name": "Anniversary Bonus (6K points)",
+          "amount": null,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Cardmember Year",
+          "category": "Travel Credits",
+          "allowsPartialUse": false,
+          "notes": "Enter your points value",
+          "availableMonths": [],
+          "notificationsEnabled": true
+        },
+        {
+          "name": "Companion Pass Points (10K)",
+          "amount": null,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Calendar Year",
+          "category": "Travel Credits",
+          "allowsPartialUse": false,
+          "notes": "Qualifying points boost",
+          "availableMonths": [],
+          "notificationsEnabled": true
+        }
+      ]
+    },
+    {
+      "id": "chase-southwest-rapid-rewards-priority",
+      "cardName": "Southwest Rapid Rewards Priority",
+      "issuer": "Chase",
+      "annualFee": 149,
+      "noForeignTransactionFees": false,
+      "earnRates": [
+        {
+          "category": "travel",
+          "multiplier": 2.0,
+          "cap": null,
+          "notes": "Southwest purchases"
+        }
+      ],
+      "baseEarnRate": 1.0,
+      "rewardProgram": "Southwest Rapid Rewards",
+      "affiliateUrl": null,
+      "colorHex": "FF9800",
+      "benefits": [
+        {
+          "name": "Southwest Travel Credit",
+          "amount": 75,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Cardmember Year",
+          "category": "Travel Credits",
+          "allowsPartialUse": true,
+          "notes": "Expires 12/31/2025",
+          "availableMonths": [],
+          "notificationsEnabled": true
+        },
+        {
+          "name": "Anniversary Bonus (7.5K points)",
+          "amount": null,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Cardmember Year",
+          "category": "Travel Credits",
+          "allowsPartialUse": false,
+          "notes": "Enter your points value",
+          "availableMonths": [],
+          "notificationsEnabled": true
+        },
+        {
+          "name": "Upgraded Boardings",
+          "amount": null,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Calendar Year",
+          "category": "Travel Credits",
+          "allowsPartialUse": false,
+          "notes": "4 per year, expires 12/31/2025",
+          "availableMonths": [],
+          "notificationsEnabled": true
+        },
+        {
+          "name": "Companion Pass Points (10K)",
+          "amount": null,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Calendar Year",
+          "category": "Travel Credits",
+          "allowsPartialUse": false,
+          "notes": "Qualifying points boost",
+          "availableMonths": [],
+          "notificationsEnabled": true
+        }
+      ]
+    },
+    {
+      "id": "chase-world-of-hyatt",
+      "cardName": "World of Hyatt",
+      "issuer": "Chase",
+      "annualFee": 95,
+      "noForeignTransactionFees": true,
+      "earnRates": [
+        {
+          "category": "dining",
+          "multiplier": 2.0,
+          "cap": null,
+          "notes": null
+        },
+        {
+          "category": "travel",
+          "multiplier": 2.0,
+          "cap": null,
+          "notes": "Flights, hotels, car rental"
+        },
+        {
+          "category": "transit",
+          "multiplier": 2.0,
+          "cap": null,
+          "notes": null
+        },
+        {
+          "category": "groceries",
+          "multiplier": 2.0,
+          "cap": null,
+          "notes": null
+        }
+      ],
+      "baseEarnRate": 1.0,
+      "rewardProgram": "World of Hyatt",
+      "affiliateUrl": null,
+      "colorHex": "4A5568",
+      "benefits": [
+        {
+          "name": "Free Night (Category 1-4)",
+          "amount": null,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Cardmember Year",
+          "category": "Travel Credits",
+          "allowsPartialUse": false,
+          "notes": "Enter your redemption value",
+          "availableMonths": [],
+          "notificationsEnabled": true
+        },
+        {
+          "name": "Bonus Free Night ($15K spend)",
+          "amount": null,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Calendar Year",
+          "category": "Travel Credits",
+          "allowsPartialUse": false,
+          "notes": "After $15K spend, Cat 1-4",
+          "availableMonths": [],
+          "notificationsEnabled": true
+        },
+        {
+          "name": "Qualifying Night Credits",
+          "amount": null,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Calendar Year",
+          "category": "Travel Credits",
+          "allowsPartialUse": false,
+          "notes": "5 nights per year",
+          "availableMonths": [],
+          "notificationsEnabled": true
+        }
+      ]
+    },
+    {
+      "id": "chase-southwest-rapid-rewards-premier-business",
+      "cardName": "Southwest Rapid Rewards Premier Business",
+      "issuer": "Chase",
+      "annualFee": 149,
+      "noForeignTransactionFees": false,
+      "earnRates": [
+        {
+          "category": "travel",
+          "multiplier": 2.0,
+          "cap": null,
+          "notes": "Southwest purchases"
+        }
+      ],
+      "baseEarnRate": 1.0,
+      "rewardProgram": "Southwest Rapid Rewards",
+      "affiliateUrl": null,
+      "colorHex": "FF9800",
+      "benefits": [
+        {
+          "name": "Anniversary Bonus (6K points)",
+          "amount": null,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Cardmember Year",
+          "category": "Travel Credits",
+          "allowsPartialUse": false,
+          "notes": "Enter your points value",
+          "availableMonths": [],
+          "notificationsEnabled": true
+        },
+        {
+          "name": "EarlyBird Check-In",
+          "amount": null,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Calendar Year",
+          "category": "Travel Credits",
+          "allowsPartialUse": false,
+          "notes": "2 per year, expires 12/31/2025",
+          "availableMonths": [],
+          "notificationsEnabled": true
+        },
+        {
+          "name": "Points Transfer Credit",
+          "amount": 500,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Cardmember Year",
+          "category": "Travel Credits",
+          "allowsPartialUse": true,
+          "notes": "Expires 12/31/2025",
+          "availableMonths": [],
+          "notificationsEnabled": true
+        }
+      ]
+    },
+    {
+      "id": "chase-southwest-rapid-rewards-performance-business",
+      "cardName": "Southwest Rapid Rewards Performance Business",
+      "issuer": "Chase",
+      "annualFee": 199,
+      "noForeignTransactionFees": false,
+      "earnRates": [
+        {
+          "category": "travel",
+          "multiplier": 3.0,
+          "cap": null,
+          "notes": "Southwest purchases"
+        }
+      ],
+      "baseEarnRate": 1.0,
+      "rewardProgram": "Southwest Rapid Rewards",
+      "affiliateUrl": null,
+      "colorHex": "FF9800",
+      "benefits": [
+        {
+          "name": "Anniversary Bonus (9K points)",
+          "amount": null,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Cardmember Year",
+          "category": "Travel Credits",
+          "allowsPartialUse": false,
+          "notes": "Enter your points value",
+          "availableMonths": [],
+          "notificationsEnabled": true
+        },
+        {
+          "name": "Upgraded Boardings",
+          "amount": null,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Calendar Year",
+          "category": "Travel Credits",
+          "allowsPartialUse": false,
+          "notes": "4 per year",
+          "availableMonths": [],
+          "notificationsEnabled": true
+        },
+        {
+          "name": "In-flight Wi-Fi Credits",
+          "amount": null,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Calendar Year",
+          "category": "Travel Credits",
+          "allowsPartialUse": false,
+          "notes": "365 credits per year",
+          "availableMonths": [],
+          "notificationsEnabled": true
+        },
+        {
+          "name": "Points Transfer Credit",
+          "amount": 500,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Cardmember Year",
+          "category": "Travel Credits",
+          "allowsPartialUse": true,
+          "notes": "Expires 12/31/2025",
+          "availableMonths": [],
+          "notificationsEnabled": true
+        },
+        {
+          "name": "Global Entry/TSA PreCheck Credit",
+          "amount": 100,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Cardmember Year",
+          "category": "Travel Credits",
+          "allowsPartialUse": false,
+          "notes": "Every 4 years",
+          "availableMonths": [],
+          "notificationsEnabled": true
+        }
+      ]
+    },
+    {
+      "id": "citi-aadvantage-executive-world-elite",
+      "cardName": "AAdvantage Executive World Elite",
+      "issuer": "Citi",
+      "annualFee": 595,
+      "noForeignTransactionFees": true,
+      "earnRates": [],
+      "baseEarnRate": 1.0,
+      "rewardProgram": "American AAdvantage",
+      "affiliateUrl": null,
+      "colorHex": "1C1C1C",
+      "benefits": [
+        {
+          "name": "Avis/Budget Car Rental Credit",
+          "amount": 120,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Calendar Year",
+          "category": "Travel Credits",
+          "allowsPartialUse": true,
+          "notes": null,
+          "availableMonths": [],
+          "notificationsEnabled": true
+        },
+        {
+          "name": "Lyft Credit",
+          "amount": 120,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Calendar Year",
+          "category": "Travel Credits",
+          "allowsPartialUse": true,
+          "notes": null,
+          "availableMonths": [],
+          "notificationsEnabled": true
+        },
+        {
+          "name": "Grubhub Credit",
+          "amount": 120,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Calendar Year",
+          "category": "Dining Credits",
+          "allowsPartialUse": true,
+          "notes": null,
+          "availableMonths": [],
+          "notificationsEnabled": true
+        },
+        {
+          "name": "Global Entry/TSA PreCheck Credit",
+          "amount": 100,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Cardmember Year",
+          "category": "Travel Credits",
+          "allowsPartialUse": false,
+          "notes": "Every 4 years",
+          "availableMonths": [],
+          "notificationsEnabled": true
+        }
+      ]
+    },
+    {
+      "id": "citi-prestige",
+      "cardName": "Prestige",
+      "issuer": "Citi",
+      "annualFee": 495,
+      "noForeignTransactionFees": true,
+      "earnRates": [
+        {
+          "category": "travel",
+          "multiplier": 5.0,
+          "cap": null,
+          "notes": "Flights"
+        },
+        {
+          "category": "dining",
+          "multiplier": 3.0,
+          "cap": null,
+          "notes": null
+        }
+      ],
+      "baseEarnRate": 1.0,
+      "rewardProgram": "Citi ThankYou Points",
+      "affiliateUrl": null,
+      "colorHex": "1A365D",
+      "benefits": [
+        {
+          "name": "Travel Credit",
+          "amount": 250,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Calendar Year",
+          "category": "Travel Credits",
+          "allowsPartialUse": true,
+          "notes": null,
+          "availableMonths": [],
+          "notificationsEnabled": true
+        },
+        {
+          "name": "4th Night Free Benefit",
+          "amount": null,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Calendar Year",
+          "category": "Travel Credits",
+          "allowsPartialUse": false,
+          "notes": "2x per year via ThankYou portal",
+          "availableMonths": [],
+          "notificationsEnabled": true
+        },
+        {
+          "name": "Global Entry/TSA PreCheck Credit",
+          "amount": 100,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Cardmember Year",
+          "category": "Travel Credits",
+          "allowsPartialUse": false,
+          "notes": "Every 4 years",
+          "availableMonths": [],
+          "notificationsEnabled": true
+        }
+      ]
+    },
+    {
+      "id": "citi-strata-premier",
+      "cardName": "Strata Premier",
+      "issuer": "Citi",
+      "annualFee": 95,
+      "noForeignTransactionFees": true,
+      "earnRates": [
+        {
+          "category": "dining",
+          "multiplier": 3.0,
+          "cap": null,
+          "notes": null
+        },
+        {
+          "category": "groceries",
+          "multiplier": 3.0,
+          "cap": null,
+          "notes": null
+        },
+        {
+          "category": "travel",
+          "multiplier": 3.0,
+          "cap": null,
+          "notes": "Flights, hotels, car rental"
+        },
+        {
+          "category": "gas",
+          "multiplier": 3.0,
+          "cap": null,
+          "notes": null
+        }
+      ],
+      "baseEarnRate": 1.0,
+      "rewardProgram": "Citi ThankYou Points",
+      "affiliateUrl": null,
+      "colorHex": "0F52BA",
+      "benefits": [
+        {
+          "name": "Hotel Credit",
+          "amount": 100,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Calendar Year",
+          "category": "Travel Credits",
+          "allowsPartialUse": false,
+          "notes": "$100 off $500+ hotel stay via CitiTravel",
+          "availableMonths": [],
+          "notificationsEnabled": true
+        }
+      ]
+    },
+    {
+      "id": "citi-strata-elite",
+      "cardName": "Strata Elite",
+      "issuer": "Citi",
+      "annualFee": 595,
+      "noForeignTransactionFees": true,
+      "earnRates": [
+        {
+          "category": "dining",
+          "multiplier": 5.0,
+          "cap": null,
+          "notes": null
+        },
+        {
+          "category": "travel",
+          "multiplier": 5.0,
+          "cap": null,
+          "notes": "Flights"
+        },
+        {
+          "category": "groceries",
+          "multiplier": 3.0,
+          "cap": null,
+          "notes": null
+        }
+      ],
+      "baseEarnRate": 1.0,
+      "rewardProgram": "Citi ThankYou Points",
+      "affiliateUrl": null,
+      "colorHex": "1C1C1C",
+      "benefits": [
+        {
+          "name": "Blacklane Credit",
+          "amount": 100,
+          "renewalPeriod": "Every 6 months",
+          "periodBasis": "Calendar Year",
+          "category": "Travel Credits",
+          "allowsPartialUse": true,
+          "notes": null,
+          "availableMonths": [],
+          "notificationsEnabled": true
+        },
+        {
+          "name": "Hotel Credit",
+          "amount": 300,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Calendar Year",
+          "category": "Travel Credits",
+          "allowsPartialUse": true,
+          "notes": "2+ night prepaid stays via Citi Travel",
+          "availableMonths": [],
+          "notificationsEnabled": true
+        },
+        {
+          "name": "Splurge Credit",
+          "amount": 200,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Calendar Year",
+          "category": "Shopping Credits",
+          "allowsPartialUse": true,
+          "notes": "1stDibs, AA, Best Buy, Live Nation, Future",
+          "availableMonths": [],
+          "notificationsEnabled": true
+        },
+        {
+          "name": "Global Entry/TSA PreCheck Credit",
+          "amount": 120,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Cardmember Year",
+          "category": "Travel Credits",
+          "allowsPartialUse": false,
+          "notes": "Every 4 years",
+          "availableMonths": [],
+          "notificationsEnabled": true
+        }
+      ]
+    },
+    {
+      "id": "citi-double-cash",
+      "cardName": "Double Cash",
+      "issuer": "Citi",
+      "annualFee": 0,
+      "noForeignTransactionFees": false,
+      "earnRates": [],
+      "baseEarnRate": 2.0,
+      "rewardProgram": "Citi ThankYou Points",
+      "affiliateUrl": null,
+      "colorHex": "1A365D",
+      "benefits": []
+    },
+    {
+      "id": "citi-custom-cash",
+      "cardName": "Custom Cash",
+      "issuer": "Citi",
+      "annualFee": 0,
+      "noForeignTransactionFees": false,
+      "earnRates": [
+        {
+          "category": "other",
+          "multiplier": 5.0,
+          "cap": 500,
+          "notes": "Top eligible spend category per billing cycle"
+        }
+      ],
+      "baseEarnRate": 1.0,
+      "rewardProgram": "Citi ThankYou Points",
+      "affiliateUrl": null,
+      "colorHex": "2E86AB",
+      "benefits": []
+    },
+    {
+      "id": "bofa-premium-rewards",
+      "cardName": "Premium Rewards",
+      "issuer": "Bank of America",
+      "annualFee": 95,
+      "noForeignTransactionFees": true,
+      "earnRates": [
+        {
+          "category": "travel",
+          "multiplier": 2.0,
+          "cap": null,
+          "notes": null
+        },
+        {
+          "category": "dining",
+          "multiplier": 2.0,
+          "cap": null,
+          "notes": null
+        }
+      ],
+      "baseEarnRate": 1.5,
+      "rewardProgram": "Bank of America Rewards",
+      "affiliateUrl": null,
+      "colorHex": "E31837",
+      "benefits": [
+        {
+          "name": "Airline Incidental Credit",
+          "amount": 100,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Calendar Year",
+          "category": "Travel Credits",
+          "allowsPartialUse": true,
+          "notes": "Airline fees, seat upgrades, baggage",
+          "availableMonths": [],
+          "notificationsEnabled": true
+        },
+        {
+          "name": "Global Entry/TSA PreCheck Credit",
+          "amount": 100,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Cardmember Year",
+          "category": "Travel Credits",
+          "allowsPartialUse": false,
+          "notes": "Every 4 years",
+          "availableMonths": [],
+          "notificationsEnabled": true
+        }
+      ]
+    },
+    {
+      "id": "bofa-premium-rewards-elite",
+      "cardName": "Premium Rewards Elite",
+      "issuer": "Bank of America",
+      "annualFee": 550,
+      "noForeignTransactionFees": true,
+      "earnRates": [
+        {
+          "category": "travel",
+          "multiplier": 2.0,
+          "cap": null,
+          "notes": null
+        },
+        {
+          "category": "dining",
+          "multiplier": 2.0,
+          "cap": null,
+          "notes": null
+        }
+      ],
+      "baseEarnRate": 1.5,
+      "rewardProgram": "Bank of America Rewards",
+      "affiliateUrl": null,
+      "colorHex": "8B0000",
+      "benefits": [
+        {
+          "name": "Lifestyle Credit",
+          "amount": 150,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Calendar Year",
+          "category": "Shopping Credits",
+          "allowsPartialUse": true,
+          "notes": "Fitness, streaming, food delivery",
+          "availableMonths": [],
+          "notificationsEnabled": true
+        },
+        {
+          "name": "Airline Incidental Credit",
+          "amount": 150,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Calendar Year",
+          "category": "Travel Credits",
+          "allowsPartialUse": true,
+          "notes": "Airline fees, seat upgrades, baggage",
+          "availableMonths": [],
+          "notificationsEnabled": true
+        },
+        {
+          "name": "Global Entry/TSA PreCheck Credit",
+          "amount": 100,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Cardmember Year",
+          "category": "Travel Credits",
+          "allowsPartialUse": false,
+          "notes": "Every 4 years",
+          "availableMonths": [],
+          "notificationsEnabled": true
+        },
+        {
+          "name": "Priority Pass Lounge Access",
+          "amount": null,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Calendar Year",
+          "category": "Travel Credits",
+          "allowsPartialUse": false,
+          "notes": "Unlimited Priority Pass Select membership included",
+          "availableMonths": [],
+          "notificationsEnabled": true
+        }
+      ]
+    },
+    {
+      "id": "bofa-travel-rewards",
+      "cardName": "Travel Rewards",
+      "issuer": "Bank of America",
+      "annualFee": 0,
+      "noForeignTransactionFees": true,
+      "earnRates": [],
+      "baseEarnRate": 1.5,
+      "rewardProgram": "Bank of America Rewards",
+      "affiliateUrl": null,
+      "colorHex": "C0392B",
+      "benefits": []
+    },
+    {
+      "id": "alaska-atmos-ascent",
+      "cardName": "Atmos Rewards Ascent Visa Signature",
+      "issuer": "Bank of America",
+      "annualFee": 95,
+      "noForeignTransactionFees": true,
+      "earnRates": [
+        {
+          "category": "travel",
+          "multiplier": 3.0,
+          "cap": null,
+          "notes": "Alaska Airlines and Hawaiian Airlines purchases"
+        },
+        {
+          "category": "gas",
+          "multiplier": 2.0,
+          "cap": null,
+          "notes": "Gas and EV charging"
+        },
+        {
+          "category": "transit",
+          "multiplier": 2.0,
+          "cap": null,
+          "notes": "Local transit and rideshare"
+        },
+        {
+          "category": "streaming",
+          "multiplier": 2.0,
+          "cap": null,
+          "notes": "Select streaming services"
+        }
+      ],
+      "baseEarnRate": 1.0,
+      "rewardProgram": "Alaska Airlines Mileage Plan",
+      "affiliateUrl": null,
+      "colorHex": "00539B",
+      "benefits": [
+        {
+          "name": "Companion Fare Certificate",
+          "amount": null,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Cardmember Year",
+          "category": "Travel Credits",
+          "allowsPartialUse": false,
+          "notes": "$99 + taxes companion ticket on Alaska/Hawaiian flights; requires $6,000 annual spend",
+          "availableMonths": [],
+          "notificationsEnabled": true
+        },
+        {
+          "name": "Inflight Discount",
+          "amount": null,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Calendar Year",
+          "category": "Travel Credits",
+          "allowsPartialUse": false,
+          "notes": "20% back on inflight food, beverage, and Wi-Fi on Alaska/Hawaiian flights",
+          "availableMonths": [],
+          "notificationsEnabled": false
+        }
+      ]
+    },
+    {
+      "id": "alaska-atmos-summit",
+      "cardName": "Atmos Rewards Summit Visa Infinite",
+      "issuer": "Bank of America",
+      "annualFee": 395,
+      "noForeignTransactionFees": true,
+      "earnRates": [
+        {
+          "category": "travel",
+          "multiplier": 3.0,
+          "cap": null,
+          "notes": "Alaska Airlines and Hawaiian Airlines purchases"
+        },
+        {
+          "category": "travel",
+          "multiplier": 3.0,
+          "cap": null,
+          "notes": "All foreign currency transactions"
+        },
+        {
+          "category": "dining",
+          "multiplier": 3.0,
+          "cap": null,
+          "notes": null
+        }
+      ],
+      "baseEarnRate": 1.0,
+      "rewardProgram": "Alaska Airlines Mileage Plan",
+      "affiliateUrl": null,
+      "colorHex": "1A1A2E",
+      "benefits": [
+        {
+          "name": "Global Companion Award (25K miles)",
+          "amount": null,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Cardmember Year",
+          "category": "Travel Credits",
+          "allowsPartialUse": false,
+          "notes": "25,000-mile companion award each anniversary; redeemable for a companion ticket",
+          "availableMonths": [],
+          "notificationsEnabled": true
+        },
+        {
+          "name": "Flight Delay Voucher",
+          "amount": 50,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Calendar Year",
+          "category": "Travel Credits",
+          "allowsPartialUse": false,
+          "notes": "$50 voucher issued automatically if Alaska flight is delayed 2+ hours or cancelled within 24h",
+          "availableMonths": [],
+          "notificationsEnabled": false
+        }
+      ]
+    },
+    {
+      "id": "wells-fargo-autograph-journey",
+      "cardName": "Autograph Journey",
+      "issuer": "Wells Fargo",
+      "annualFee": 95,
+      "noForeignTransactionFees": true,
+      "earnRates": [
+        {
+          "category": "travel",
+          "multiplier": 5.0,
+          "cap": null,
+          "notes": "Hotels"
+        },
+        {
+          "category": "travel",
+          "multiplier": 4.0,
+          "cap": null,
+          "notes": "Airlines"
+        },
+        {
+          "category": "dining",
+          "multiplier": 3.0,
+          "cap": null,
+          "notes": null
+        },
+        {
+          "category": "travel",
+          "multiplier": 3.0,
+          "cap": null,
+          "notes": "Other travel"
+        }
+      ],
+      "baseEarnRate": 1.0,
+      "rewardProgram": "Wells Fargo Rewards",
+      "affiliateUrl": null,
+      "colorHex": "E0115F",
+      "benefits": [
+        {
+          "name": "Airline Credit",
+          "amount": 50,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Calendar Year",
+          "category": "Travel Credits",
+          "allowsPartialUse": false,
+          "notes": "$50 min airline purchase required",
+          "availableMonths": [],
+          "notificationsEnabled": true
+        }
+      ]
+    },
+    {
+      "id": "wells-fargo-autograph",
+      "cardName": "Autograph",
+      "issuer": "Wells Fargo",
+      "annualFee": 0,
+      "noForeignTransactionFees": true,
+      "earnRates": [
+        {
+          "category": "dining",
+          "multiplier": 3.0,
+          "cap": null,
+          "notes": null
+        },
+        {
+          "category": "travel",
+          "multiplier": 3.0,
+          "cap": null,
+          "notes": null
+        },
+        {
+          "category": "transit",
+          "multiplier": 3.0,
+          "cap": null,
+          "notes": null
+        },
+        {
+          "category": "gas",
+          "multiplier": 3.0,
+          "cap": null,
+          "notes": "Including EV charging"
+        },
+        {
+          "category": "streaming",
+          "multiplier": 3.0,
+          "cap": null,
+          "notes": null
+        },
+        {
+          "category": "other",
+          "multiplier": 3.0,
+          "cap": null,
+          "notes": "Phone plans"
+        }
+      ],
+      "baseEarnRate": 1.0,
+      "rewardProgram": "Wells Fargo Rewards",
+      "affiliateUrl": null,
+      "colorHex": "CC0033",
+      "benefits": [
+        {
+          "name": "Cellphone Protection",
+          "amount": 600,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Calendar Year",
+          "category": "Shopping Credits",
+          "allowsPartialUse": false,
+          "notes": "$25 deductible per claim; requires paying monthly phone bill with card. Not a statement credit.",
+          "availableMonths": [],
+          "notificationsEnabled": false
+        }
+      ]
+    },
+    {
+      "id": "wells-fargo-active-cash",
+      "cardName": "Active Cash",
+      "issuer": "Wells Fargo",
+      "annualFee": 0,
+      "noForeignTransactionFees": false,
+      "earnRates": [],
+      "baseEarnRate": 2.0,
+      "rewardProgram": "Wells Fargo Rewards",
+      "affiliateUrl": null,
+      "colorHex": "CC0000",
+      "benefits": [
+        {
+          "name": "Cellphone Protection",
+          "amount": 600,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Calendar Year",
+          "category": "Shopping Credits",
+          "allowsPartialUse": false,
+          "notes": "$25 deductible per claim; requires paying monthly phone bill with card. Not a statement credit.",
+          "availableMonths": [],
+          "notificationsEnabled": false
+        }
+      ]
+    },
+    {
+      "id": "usbank-altitude-reserve",
+      "cardName": "Altitude Reserve",
+      "issuer": "US Bank",
+      "annualFee": 400,
+      "noForeignTransactionFees": true,
+      "earnRates": [
+        {
+          "category": "travel",
+          "multiplier": 3.0,
+          "cap": null,
+          "notes": "Mobile wallet purchases"
+        },
+        {
+          "category": "other",
+          "multiplier": 3.0,
+          "cap": null,
+          "notes": "Mobile wallet purchases"
+        }
+      ],
+      "baseEarnRate": 1.0,
+      "rewardProgram": "US Bank Altitude Points",
+      "affiliateUrl": null,
+      "colorHex": "002D72",
+      "benefits": [
+        {
+          "name": "Travel and Dining Credit",
+          "amount": 325,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Cardmember Year",
+          "category": "Travel Credits",
+          "allowsPartialUse": true,
+          "notes": "Travel and dining purchases",
+          "availableMonths": [],
+          "notificationsEnabled": true
+        }
+      ]
+    },
+    {
+      "id": "usbank-altitude-connect",
+      "cardName": "Altitude Connect",
+      "issuer": "US Bank",
+      "annualFee": 95,
+      "noForeignTransactionFees": true,
+      "earnRates": [
+        {
+          "category": "travel",
+          "multiplier": 4.0,
+          "cap": null,
+          "notes": null
+        },
+        {
+          "category": "gas",
+          "multiplier": 2.0,
+          "cap": null,
+          "notes": "Including EV charging"
+        },
+        {
+          "category": "streaming",
+          "multiplier": 2.0,
+          "cap": null,
+          "notes": null
+        },
+        {
+          "category": "groceries",
+          "multiplier": 2.0,
+          "cap": null,
+          "notes": null
+        }
+      ],
+      "baseEarnRate": 1.0,
+      "rewardProgram": "US Bank Altitude Points",
+      "affiliateUrl": null,
+      "colorHex": "003087",
+      "benefits": [
+        {
+          "name": "TSA PreCheck Credit",
+          "amount": 100,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Cardmember Year",
+          "category": "Travel Credits",
+          "allowsPartialUse": false,
+          "notes": "Every 4 years; redeemable once per card",
+          "availableMonths": [],
+          "notificationsEnabled": true
+        },
+        {
+          "name": "Priority Pass Visits",
+          "amount": null,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Calendar Year",
+          "category": "Travel Credits",
+          "allowsPartialUse": false,
+          "notes": "4 Priority Pass lounge visits per year",
+          "availableMonths": [],
+          "notificationsEnabled": false
+        }
+      ]
+    },
+    {
+      "id": "usbank-cash-plus",
+      "cardName": "Cash+",
+      "issuer": "US Bank",
+      "annualFee": 0,
+      "noForeignTransactionFees": false,
+      "earnRates": [
+        {
+          "category": "other",
+          "multiplier": 5.0,
+          "cap": 2000,
+          "notes": "Two chosen categories per quarter"
+        },
+        {
+          "category": "other",
+          "multiplier": 2.0,
+          "cap": null,
+          "notes": "One everyday category"
+        }
+      ],
+      "baseEarnRate": 1.0,
+      "rewardProgram": "US Bank Rewards",
+      "affiliateUrl": null,
+      "colorHex": "004B87",
+      "benefits": []
+    },
+    {
+      "id": "discover-it-cash-back",
+      "cardName": "it Cash Back",
+      "issuer": "Discover",
+      "annualFee": 0,
+      "noForeignTransactionFees": true,
+      "earnRates": [
+        {
+          "category": "other",
+          "multiplier": 5.0,
+          "cap": 1500,
+          "notes": "Rotating categories per quarter; activation required"
+        }
+      ],
+      "baseEarnRate": 1.0,
+      "rewardProgram": "Discover Cashback Bonus",
+      "affiliateUrl": null,
+      "colorHex": "FF6600",
+      "benefits": []
+    },
+    {
+      "id": "discover-it-miles",
+      "cardName": "it Miles",
+      "issuer": "Discover",
+      "annualFee": 0,
+      "noForeignTransactionFees": true,
+      "earnRates": [],
+      "baseEarnRate": 1.5,
+      "rewardProgram": "Discover Miles",
+      "affiliateUrl": null,
+      "colorHex": "FF8800",
+      "benefits": []
+    },
+    {
+      "id": "apple-card",
+      "cardName": "Apple Card",
+      "issuer": "Apple",
+      "annualFee": 0,
+      "noForeignTransactionFees": true,
+      "earnRates": [
+        {
+          "category": "other",
+          "multiplier": 3.0,
+          "cap": null,
+          "notes": "Apple purchases"
+        },
+        {
+          "category": "other",
+          "multiplier": 2.0,
+          "cap": null,
+          "notes": "Apple Pay purchases"
+        }
+      ],
+      "baseEarnRate": 1.0,
+      "rewardProgram": "Apple Daily Cash",
+      "affiliateUrl": null,
+      "colorHex": "1C1C1C",
+      "benefits": []
+    },
+    {
+      "id": "bilt-blue",
+      "cardName": "Bilt Blue",
+      "issuer": "Column N.A.",
+      "annualFee": 0,
+      "noForeignTransactionFees": true,
+      "earnRates": [
+        {
+          "category": "rent",
+          "multiplier": 1.0,
+          "cap": null,
+          "notes": "Up to 1.25x based on everyday spend ratio to housing payment; no transaction fee"
+        }
+      ],
+      "baseEarnRate": 1.0,
+      "rewardProgram": "Bilt Rewards",
+      "affiliateUrl": null,
+      "colorHex": "3D5AFE",
+      "benefits": []
+    },
+    {
+      "id": "bilt-obsidian",
+      "cardName": "Bilt Obsidian",
+      "issuer": "Column N.A.",
+      "annualFee": 95,
+      "noForeignTransactionFees": true,
+      "earnRates": [
+        {
+          "category": "dining",
+          "multiplier": 3.0,
+          "cap": 25000,
+          "notes": "Or groceries — choose one category per calendar year"
+        },
+        {
+          "category": "groceries",
+          "multiplier": 3.0,
+          "cap": 25000,
+          "notes": "Or dining — choose one category per calendar year"
+        },
+        {
+          "category": "travel",
+          "multiplier": 2.0,
+          "cap": null,
+          "notes": null
+        },
+        {
+          "category": "rent",
+          "multiplier": 1.0,
+          "cap": null,
+          "notes": "Up to 1.25x based on everyday spend ratio to housing payment; no transaction fee"
+        }
+      ],
+      "baseEarnRate": 1.0,
+      "rewardProgram": "Bilt Rewards",
+      "affiliateUrl": null,
+      "colorHex": "1C1C2E",
+      "benefits": [
+        {
+          "name": "Hotel Credit",
+          "amount": 50,
+          "renewalPeriod": "Every 6 months",
+          "periodBasis": "Calendar Year",
+          "category": "Travel Credits",
+          "allowsPartialUse": false,
+          "notes": "$50 credit for 2+ night hotel bookings via Bilt Travel portal; issued twice per year",
+          "availableMonths": [],
+          "notificationsEnabled": true
+        }
+      ]
+    },
+    {
+      "id": "bilt-palladium",
+      "cardName": "Bilt Palladium",
+      "issuer": "Column N.A.",
+      "annualFee": 495,
+      "noForeignTransactionFees": true,
+      "earnRates": [
+        {
+          "category": "rent",
+          "multiplier": 1.0,
+          "cap": null,
+          "notes": "Up to 1.25x based on everyday spend ratio to housing payment; no transaction fee"
+        }
+      ],
+      "baseEarnRate": 2.0,
+      "rewardProgram": "Bilt Rewards",
+      "affiliateUrl": null,
+      "colorHex": "5C5C5C",
+      "benefits": [
+        {
+          "name": "Hotel Credit",
+          "amount": 200,
+          "renewalPeriod": "Every 6 months",
+          "periodBasis": "Calendar Year",
+          "category": "Travel Credits",
+          "allowsPartialUse": false,
+          "notes": "$200 credit for qualifying hotel bookings via Bilt Travel portal; issued twice per year",
+          "availableMonths": [],
+          "notificationsEnabled": true
+        },
+        {
+          "name": "Bilt Cash Credit",
+          "amount": 200,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Cardmember Year",
+          "category": "Travel Credits",
+          "allowsPartialUse": false,
+          "notes": "$200 Bilt Cash awarded annually; usable toward rent/housing payments",
+          "availableMonths": [],
+          "notificationsEnabled": true
+        }
+      ]
+    }
+  ]
+}
