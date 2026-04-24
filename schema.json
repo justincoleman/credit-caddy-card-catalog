@@ -55,7 +55,7 @@
           "type": "array",
           "items": { "$ref": "#/$defs/earnRate" }
         },
-        "baseEarnRate": { "type": "number", "minimum": 0.5, "maximum": 10 },
+        "baseEarnRate": { "type": "number", "minimum": 0.5, "maximum": 20 },
         "rewardProgram": { "type": "string" },
         "affiliateUrl": { "type": ["string", "null"], "format": "uri" },
         "colorHex": {
@@ -110,7 +110,7 @@
             "travel"
           ]
         },
-        "multiplier": { "type": "number", "minimum": 0.5, "maximum": 10 },
+        "multiplier": { "type": "number", "minimum": 0.5, "maximum": 20 },
         "cap": { "type": ["number", "null"], "minimum": 0 },
         "notes": { "type": ["string", "null"] }
       }

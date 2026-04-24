@@ -1,0 +1,34 @@
+name: validate
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - 'cards.json'
+      - 'schema.json'
+      - 'scripts/**'
+      - '.github/workflows/validate.yml'
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # full history so scripts/validate.mjs can diff against origin/main
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          cache-dependency-path: scripts/package-lock.json
+
+      - name: Install validator deps
+        working-directory: scripts
+        run: npm ci
+
+      - name: Run validator
+        run: node scripts/validate.mjs
