@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "version": "2026.04.24",
-  "lastUpdated": "2026-04-24T00:00:00Z",
+  "lastUpdated": "2026-04-24T14:00:00Z",
   "cards": [
     {
       "id": "american-express-platinum-card",
@@ -386,7 +386,11 @@
           "availableMonths": [],
           "notificationsEnabled": true
         }
-      ]
+      ],
+      "sources": {
+        "annualFee": "https://www.americanexpress.com/us/credit-cards/card/marriott-bonvoy-brilliant/"
+      },
+      "lastVerified": "2026-04-24T00:00:00Z"
     },
     {
       "id": "american-express-blue-cash-preferred",
@@ -592,7 +596,7 @@
           "periodBasis": "Cardmember Year",
           "category": "Travel Credits",
           "allowsPartialUse": false,
-          "notes": "15% discount on Delta award flights \u2014 no dollar amount to track",
+          "notes": "15% discount on Delta award flights — no dollar amount to track",
           "availableMonths": [],
           "notificationsEnabled": false
         }
@@ -697,7 +701,11 @@
           "availableMonths": [],
           "notificationsEnabled": true
         }
-      ]
+      ],
+      "sources": {
+        "annualFee": "https://www.americanexpress.com/us/credit-cards/card/hilton-honors-surpass/"
+      },
+      "lastVerified": "2026-04-24T00:00:00Z"
     },
     {
       "id": "american-express-hilton-honors-aspire",
@@ -757,7 +765,11 @@
           "availableMonths": [],
           "notificationsEnabled": true
         }
-      ]
+      ],
+      "sources": {
+        "annualFee": "https://www.americanexpress.com/us/credit-cards/card/hilton-honors-aspire/"
+      },
+      "lastVerified": "2026-04-24T00:00:00Z"
     },
     {
       "id": "american-express-business-gold",
@@ -789,6 +801,12 @@
           "multiplier": 4.0,
           "cap": 150000,
           "notes": "4x on top 2 eligible spend categories each month, up to $150K combined/year"
+        },
+        {
+          "category": "travel",
+          "multiplier": 3.0,
+          "cap": null,
+          "notes": "3X on flights and prepaid hotels booked on AmexTravel.com"
         }
       ],
       "baseEarnRate": 1.0,
@@ -822,7 +840,8 @@
       "sources": {
         "annualFee": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/65147/",
         "benefits.flexible-business-credit": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/65147/",
-        "benefits.walmart-membership-credit": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/65147/"
+        "benefits.walmart-membership-credit": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/65147/",
+        "earnRates.travel.3x": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/american-express-business-gold-card-amex/"
       },
       "lastVerified": "2026-04-24T00:00:00Z"
     },
@@ -858,7 +877,7 @@
         },
         {
           "name": "CLEAR Plus Credit",
-          "amount": 189,
+          "amount": 209,
           "renewalPeriod": "Yearly",
           "periodBasis": "Calendar Year",
           "category": "Travel Credits",
@@ -868,13 +887,13 @@
           "notificationsEnabled": true
         },
         {
-          "name": "Dell Credit (Jan\u2013Jun)",
+          "name": "Dell Credit (Jan–Jun)",
           "amount": 150,
           "renewalPeriod": "Every 6 months",
           "periodBasis": "Calendar Year",
           "category": "Shopping Credits",
           "allowsPartialUse": false,
-          "notes": "U.S. Dell Technologies purchases, Jan\u2013Jun",
+          "notes": "U.S. Dell Technologies purchases, Jan–Jun",
           "availableMonths": [
             1,
             2,
@@ -886,13 +905,13 @@
           "notificationsEnabled": true
         },
         {
-          "name": "Dell Credit (Jul\u2013Dec)",
+          "name": "Dell Credit (Jul–Dec)",
           "amount": 150,
           "renewalPeriod": "Every 6 months",
           "periodBasis": "Calendar Year",
           "category": "Shopping Credits",
           "allowsPartialUse": false,
-          "notes": "U.S. Dell Technologies purchases, Jul\u2013Dec",
+          "notes": "U.S. Dell Technologies purchases, Jul–Dec",
           "availableMonths": [
             7,
             8,
@@ -905,7 +924,7 @@
         },
         {
           "name": "Wireless Credit",
-          "amount": 20,
+          "amount": 10,
           "renewalPeriod": "Monthly",
           "periodBasis": "Calendar Year",
           "category": "Shopping Credits",
@@ -924,6 +943,17 @@
           "notes": "Prepaid Fine Hotels + Resorts or The Hotel Collection (min 2-night stay) bookings via Amex Travel",
           "availableMonths": [],
           "notificationsEnabled": true
+        },
+        {
+          "name": "Hilton Credit",
+          "amount": 50,
+          "renewalPeriod": "Every 3 months",
+          "periodBasis": "Calendar Year",
+          "category": "Travel Credits",
+          "allowsPartialUse": false,
+          "notes": "Eligible purchases made directly with Hilton. Hilton for Business enrollment required.",
+          "availableMonths": [],
+          "notificationsEnabled": true
         }
       ],
       "sources": {
@@ -931,7 +961,10 @@
           "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/65147/",
           "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/american-express-business-platinum-credit-card-amex/"
         ],
-        "benefits.hotel-credit": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/65147/"
+        "benefits.hotel-credit": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/65147/",
+        "benefits.clear-plus-credit": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/american-express-business-platinum-credit-card-amex/",
+        "benefits.wireless-credit": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/american-express-business-platinum-credit-card-amex/",
+        "benefits.hilton-credit": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/american-express-business-platinum-credit-card-amex/"
       },
       "lastVerified": "2026-04-24T00:00:00Z"
     },
@@ -1753,7 +1786,7 @@
           "periodBasis": "Cardmember Year",
           "category": "Travel Credits",
           "allowsPartialUse": false,
-          "notes": "2 one-time United Club passes per year \u2014 no dollar amount to track",
+          "notes": "2 one-time United Club passes per year — no dollar amount to track",
           "availableMonths": [],
           "notificationsEnabled": false
         }
@@ -1791,7 +1824,7 @@
           "periodBasis": "Cardmember Year",
           "category": "Travel Credits",
           "allowsPartialUse": false,
-          "notes": "Complimentary United Club lounge access \u2014 no dollar amount to track",
+          "notes": "Complimentary United Club lounge access — no dollar amount to track",
           "availableMonths": [],
           "notificationsEnabled": false
         }
@@ -3613,13 +3646,13 @@
           "category": "dining",
           "multiplier": 3.0,
           "cap": 25000,
-          "notes": "Or groceries \u2014 choose one category per calendar year"
+          "notes": "Or groceries — choose one category per calendar year"
         },
         {
           "category": "groceries",
           "multiplier": 3.0,
           "cap": 25000,
-          "notes": "Or dining \u2014 choose one category per calendar year"
+          "notes": "Or dining — choose one category per calendar year"
         },
         {
           "category": "travel",
