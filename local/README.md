@@ -20,8 +20,8 @@ WAF/proxy-pool blocking we hit from cloud IPs against issuer sites.
 The runner needs these on `PATH` (Homebrew Apple Silicon defaults work):
 
 - `claude` — Claude Code CLI, **logged in** (run `claude` once interactively to verify)
-- `git` — installed and configured for HTTPS push to `justincoleman/credit-caddy-card-catalog`
-- `gh` — GitHub CLI, authenticated with `repo` scope (`gh auth status` should pass)
+- `git` — installed, with an **SSH key registered with GitHub** (the wrapper uses SSH for push, so OAuth-token scopes don't matter for push)
+- `gh` — GitHub CLI, authenticated with `repo` scope (`gh auth status` should pass; needed for `gh pr create`)
 - `node`, `npm` — for the validator
 - `jq`, `curl` — for the FireCrawl fetch pattern
 
@@ -29,6 +29,22 @@ Quick check:
 ```sh
 for cmd in claude git gh jq node npm curl; do command -v $cmd >/dev/null && echo "✓ $cmd" || echo "✗ $cmd MISSING"; done
 gh auth status
+ssh -T git@github.com   # should print "Hi <username>! You've successfully authenticated"
+```
+
+If SSH auth doesn't work yet:
+```sh
+# Generate a key if you don't have one
+[ -f ~/.ssh/id_ed25519 ] || ssh-keygen -t ed25519 -C "$(hostname)-credit-caddy"
+# Register the public key with GitHub
+gh ssh-key add ~/.ssh/id_ed25519.pub --title "$(hostname) credit-caddy"
+# Verify
+ssh -T git@github.com
+```
+
+If `gh` is missing the `repo` scope:
+```sh
+gh auth refresh -h github.com -s repo
 ```
 
 ## Setup

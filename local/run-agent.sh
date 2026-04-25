@@ -68,13 +68,29 @@ if ! gh auth status >/dev/null 2>&1; then
   exit 1
 fi
 
-# Clone or refresh the catalog repo
+# Pre-flight: gh scopes — need 'repo' (or contents:write+pull-requests:write) to push and open PRs.
+# Fail fast here rather than after 16 min of agent work.
+GH_SCOPES=$(gh auth status 2>&1 | grep -E '^\s*-?\s*Token scopes:' | head -1 || true)
+if ! echo "${GH_SCOPES}" | grep -qE "'repo'|'public_repo'"; then
+  log "WARNING: gh CLI may lack 'repo' scope (push + PR create). Detected: ${GH_SCOPES}"
+  log "If push fails, run: gh auth refresh -h github.com -s repo"
+fi
+
+# Clone or refresh the catalog repo. We use SSH for the remote so git push doesn't
+# depend on gh's OAuth token scopes (which can be fine-grained-PAT-restricted).
+SSH_REMOTE="git@github.com:justincoleman/credit-caddy-card-catalog.git"
 if [[ ! -d "${REPO_DIR}/.git" ]]; then
-  log "Cloning catalog repo into ${REPO_DIR}"
-  git clone https://github.com/justincoleman/credit-caddy-card-catalog "${REPO_DIR}" >>"${LOG_FILE}" 2>&1
+  log "Cloning catalog repo into ${REPO_DIR} (via SSH)"
+  git clone "${SSH_REMOTE}" "${REPO_DIR}" >>"${LOG_FILE}" 2>&1
 else
   log "Refreshing existing checkout"
   cd "${REPO_DIR}"
+  # Migrate from HTTPS to SSH if needed
+  CURRENT_REMOTE=$(git remote get-url origin 2>/dev/null || echo "")
+  if [[ "${CURRENT_REMOTE}" != "${SSH_REMOTE}" ]]; then
+    log "Switching origin from ${CURRENT_REMOTE} to SSH"
+    git remote set-url origin "${SSH_REMOTE}"
+  fi
   git fetch origin >>"${LOG_FILE}" 2>&1
   git checkout main >>"${LOG_FILE}" 2>&1
   git reset --hard origin/main >>"${LOG_FILE}" 2>&1
@@ -111,6 +127,23 @@ set -e
 
 log "----- agent output ends -----"
 log "claude exited with status ${EXIT}"
+
+# Detect run outcome: did a new PR get opened?
+PR_URL=$(gh pr list --repo justincoleman/credit-caddy-card-catalog --state open \
+  --search "in:title Catalog refresh $(date -u +%Y-%m-%d)" \
+  --json url --jq '.[0].url // empty' 2>/dev/null || true)
+
+if [[ -n "${PR_URL}" ]]; then
+  log "✓ PR opened: ${PR_URL}"
+  # macOS Notification Center banner (visible if you're near the mini)
+  osascript -e "display notification \"Review and merge: ${PR_URL}\" with title \"Credit Caddy: catalog PR ready\" sound name \"Glass\"" 2>/dev/null || true
+elif [[ "${EXIT}" -eq 0 ]]; then
+  log "No PR opened — agent reported no changes needed"
+  osascript -e "display notification \"No changes this month.\" with title \"Credit Caddy: catalog refresh\" sound name \"Pop\"" 2>/dev/null || true
+else
+  log "Run failed — see log above"
+  osascript -e "display notification \"Run failed (exit ${EXIT}). Check logs.\" with title \"Credit Caddy: catalog refresh ERROR\" sound name \"Basso\"" 2>/dev/null || true
+fi
 
 # Rotate logs: keep last 12 (one year of monthly runs)
 cd "${LOG_DIR}"
