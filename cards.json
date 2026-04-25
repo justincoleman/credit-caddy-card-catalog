@@ -12,18 +12,18 @@
       "earnRates": [
         {
           "category": "travel",
-          "multiplier": 5.0,
+          "multiplier": 5,
           "cap": 500000,
           "notes": "Flights booked directly with airlines or via Amex Travel, and prepaid hotels via Amex Travel; up to $500,000 per calendar year"
         },
         {
           "category": "dining",
-          "multiplier": 1.0,
+          "multiplier": 1,
           "cap": null,
           "notes": null
         }
       ],
-      "baseEarnRate": 1.0,
+      "baseEarnRate": 1,
       "rewardProgram": "American Express Membership Rewards",
       "affiliateUrl": null,
       "colorHex": "BFC0C0",
@@ -202,24 +202,24 @@
       "earnRates": [
         {
           "category": "dining",
-          "multiplier": 4.0,
+          "multiplier": 4,
           "cap": 50000,
           "notes": "Restaurants worldwide"
         },
         {
           "category": "groceries",
-          "multiplier": 4.0,
+          "multiplier": 4,
           "cap": 25000,
           "notes": "U.S. supermarkets, up to $25K/yr"
         },
         {
           "category": "travel",
-          "multiplier": 3.0,
+          "multiplier": 3,
           "cap": null,
           "notes": "Flights booked directly with airlines or via Amex Travel"
         }
       ],
-      "baseEarnRate": 1.0,
+      "baseEarnRate": 1,
       "rewardProgram": "American Express Membership Rewards",
       "affiliateUrl": null,
       "colorHex": "D4AF37",
@@ -284,18 +284,18 @@
       "earnRates": [
         {
           "category": "travel",
-          "multiplier": 3.0,
+          "multiplier": 3,
           "cap": null,
           "notes": "Transit, flights, hotels"
         },
         {
           "category": "dining",
-          "multiplier": 3.0,
+          "multiplier": 3,
           "cap": null,
           "notes": "Restaurants worldwide"
         }
       ],
-      "baseEarnRate": 1.0,
+      "baseEarnRate": 1,
       "rewardProgram": "American Express Membership Rewards",
       "affiliateUrl": null,
       "colorHex": "50C878",
@@ -326,32 +326,33 @@
       "earnRates": [
         {
           "category": "dining",
-          "multiplier": 3.0,
+          "multiplier": 3,
           "cap": null,
           "notes": "Restaurants worldwide"
         },
         {
           "category": "travel",
-          "multiplier": 3.0,
+          "multiplier": 3,
           "cap": null,
           "notes": "Flights booked directly"
         }
       ],
-      "baseEarnRate": 2.0,
+      "baseEarnRate": 2,
       "rewardProgram": "Marriott Bonvoy",
       "affiliateUrl": null,
       "colorHex": "1A365D",
       "benefits": [
         {
           "name": "Free Night Award (up to 85K)",
-          "amount": null,
+          "amount": 595,
           "renewalPeriod": "Yearly",
           "periodBasis": "Cardmember Year",
           "category": "Travel Credits",
           "allowsPartialUse": false,
           "notes": "Enter your redemption value",
           "availableMonths": [],
-          "notificationsEnabled": true
+          "notificationsEnabled": true,
+          "requiresValueOnUse": true
         },
         {
           "name": "Dining Credit",
@@ -401,30 +402,30 @@
       "earnRates": [
         {
           "category": "groceries",
-          "multiplier": 6.0,
+          "multiplier": 6,
           "cap": 6000,
           "notes": "U.S. supermarkets, up to $6K/year then 1%"
         },
         {
           "category": "streaming",
-          "multiplier": 6.0,
+          "multiplier": 6,
           "cap": null,
           "notes": "U.S. streaming subscriptions"
         },
         {
           "category": "transit",
-          "multiplier": 3.0,
+          "multiplier": 3,
           "cap": null,
           "notes": "U.S. transit including taxis and rideshare"
         },
         {
           "category": "gas",
-          "multiplier": 3.0,
+          "multiplier": 3,
           "cap": null,
           "notes": "U.S. gas stations"
         }
       ],
-      "baseEarnRate": 1.0,
+      "baseEarnRate": 1,
       "rewardProgram": "Cash Back",
       "affiliateUrl": null,
       "colorHex": "1E3A5F",
@@ -466,24 +467,24 @@
       "earnRates": [
         {
           "category": "groceries",
-          "multiplier": 3.0,
+          "multiplier": 3,
           "cap": 6000,
           "notes": "U.S. supermarkets, up to $6K/year then 1%"
         },
         {
           "category": "onlineShopping",
-          "multiplier": 3.0,
+          "multiplier": 3,
           "cap": 6000,
           "notes": "U.S. online retail purchases, up to $6K/year then 1%"
         },
         {
           "category": "gas",
-          "multiplier": 3.0,
+          "multiplier": 3,
           "cap": null,
           "notes": "U.S. gas stations"
         }
       ],
-      "baseEarnRate": 1.0,
+      "baseEarnRate": 1,
       "rewardProgram": "Cash Back",
       "affiliateUrl": null,
       "colorHex": "2980B9",
@@ -514,24 +515,24 @@
       "earnRates": [
         {
           "category": "travel",
-          "multiplier": 2.0,
+          "multiplier": 2,
           "cap": null,
           "notes": "Delta purchases"
         },
         {
           "category": "dining",
-          "multiplier": 2.0,
+          "multiplier": 2,
           "cap": null,
           "notes": "Restaurants worldwide"
         },
         {
           "category": "groceries",
-          "multiplier": 2.0,
+          "multiplier": 2,
           "cap": null,
           "notes": "U.S. supermarkets"
         }
       ],
-      "baseEarnRate": 1.0,
+      "baseEarnRate": 1,
       "rewardProgram": "Delta SkyMiles",
       "affiliateUrl": null,
       "colorHex": "B8860B",
@@ -562,18 +563,18 @@
       "earnRates": [
         {
           "category": "travel",
-          "multiplier": 3.0,
+          "multiplier": 3,
           "cap": null,
           "notes": "Delta purchases and Delta Stays"
         },
         {
           "category": "dining",
-          "multiplier": 2.0,
+          "multiplier": 2,
           "cap": null,
           "notes": "Restaurants worldwide"
         }
       ],
-      "baseEarnRate": 1.0,
+      "baseEarnRate": 1,
       "rewardProgram": "Delta SkyMiles",
       "affiliateUrl": null,
       "colorHex": "708090",
@@ -615,12 +616,12 @@
       "earnRates": [
         {
           "category": "travel",
-          "multiplier": 3.0,
+          "multiplier": 3,
           "cap": null,
           "notes": "Delta purchases"
         }
       ],
-      "baseEarnRate": 1.0,
+      "baseEarnRate": 1,
       "rewardProgram": "Delta SkyMiles",
       "affiliateUrl": null,
       "colorHex": "1C1C1C",
@@ -662,30 +663,30 @@
       "earnRates": [
         {
           "category": "travel",
-          "multiplier": 12.0,
+          "multiplier": 12,
           "cap": null,
           "notes": "Hilton hotels and resorts"
         },
         {
           "category": "dining",
-          "multiplier": 6.0,
+          "multiplier": 6,
           "cap": null,
           "notes": "Restaurants worldwide"
         },
         {
           "category": "groceries",
-          "multiplier": 6.0,
+          "multiplier": 6,
           "cap": null,
           "notes": "U.S. supermarkets"
         },
         {
           "category": "gas",
-          "multiplier": 6.0,
+          "multiplier": 6,
           "cap": null,
           "notes": "U.S. gas stations"
         }
       ],
-      "baseEarnRate": 3.0,
+      "baseEarnRate": 3,
       "rewardProgram": "Hilton Honors",
       "affiliateUrl": null,
       "colorHex": "002F6C",
@@ -716,18 +717,18 @@
       "earnRates": [
         {
           "category": "travel",
-          "multiplier": 14.0,
+          "multiplier": 14,
           "cap": null,
           "notes": "Hilton hotels and resorts"
         },
         {
           "category": "dining",
-          "multiplier": 7.0,
+          "multiplier": 7,
           "cap": null,
           "notes": "Restaurants worldwide"
         }
       ],
-      "baseEarnRate": 3.0,
+      "baseEarnRate": 3,
       "rewardProgram": "Hilton Honors",
       "affiliateUrl": null,
       "colorHex": "8B7536",
@@ -780,36 +781,36 @@
       "earnRates": [
         {
           "category": "dining",
-          "multiplier": 4.0,
+          "multiplier": 4,
           "cap": 150000,
           "notes": "4x on top 2 eligible spend categories each month, up to $150K combined/year"
         },
         {
           "category": "travel",
-          "multiplier": 4.0,
+          "multiplier": 4,
           "cap": 150000,
           "notes": "4x on top 2 eligible spend categories each month, up to $150K combined/year"
         },
         {
           "category": "transit",
-          "multiplier": 4.0,
+          "multiplier": 4,
           "cap": 150000,
           "notes": "4x on top 2 eligible spend categories each month, up to $150K combined/year"
         },
         {
           "category": "gas",
-          "multiplier": 4.0,
+          "multiplier": 4,
           "cap": 150000,
           "notes": "4x on top 2 eligible spend categories each month, up to $150K combined/year"
         },
         {
           "category": "travel",
-          "multiplier": 3.0,
+          "multiplier": 3,
           "cap": null,
           "notes": "3X on flights and prepaid hotels booked on AmexTravel.com"
         }
       ],
-      "baseEarnRate": 1.0,
+      "baseEarnRate": 1,
       "rewardProgram": "American Express Membership Rewards",
       "affiliateUrl": null,
       "colorHex": "B8860B",
@@ -854,12 +855,12 @@
       "earnRates": [
         {
           "category": "travel",
-          "multiplier": 5.0,
+          "multiplier": 5,
           "cap": null,
           "notes": "Flights and prepaid hotels booked via Amex Travel"
         }
       ],
-      "baseEarnRate": 1.0,
+      "baseEarnRate": 1,
       "rewardProgram": "American Express Membership Rewards",
       "affiliateUrl": null,
       "colorHex": "A8A9AD",
@@ -975,7 +976,7 @@
       "annualFee": 0,
       "noForeignTransactionFees": true,
       "earnRates": [],
-      "baseEarnRate": 3.0,
+      "baseEarnRate": 3,
       "rewardProgram": "Hilton Honors",
       "affiliateUrl": null,
       "colorHex": null,
@@ -996,32 +997,33 @@
       "earnRates": [
         {
           "category": "dining",
-          "multiplier": 4.0,
+          "multiplier": 4,
           "cap": 15000,
           "notes": "Restaurants worldwide; up to $15,000 combined with U.S. supermarkets per calendar year, then 2X"
         },
         {
           "category": "groceries",
-          "multiplier": 4.0,
+          "multiplier": 4,
           "cap": 15000,
           "notes": "U.S. supermarkets; up to $15,000 combined with restaurants per calendar year, then 2X"
         }
       ],
-      "baseEarnRate": 2.0,
+      "baseEarnRate": 2,
       "rewardProgram": "Marriott Bonvoy",
       "affiliateUrl": null,
       "colorHex": null,
       "benefits": [
         {
           "name": "Free Night Award",
-          "amount": null,
+          "amount": 245,
           "renewalPeriod": "Yearly",
           "periodBasis": "Cardmember Year",
           "category": "Travel Credits",
           "allowsPartialUse": false,
           "notes": "One free night at hotels up to 50,000 Marriott Bonvoy points per calendar year.",
           "availableMonths": [],
-          "notificationsEnabled": true
+          "notificationsEnabled": true,
+          "requiresValueOnUse": true
         }
       ],
       "lastVerified": "2026-04-24T00:00:00Z",
@@ -1043,12 +1045,12 @@
       "earnRates": [
         {
           "category": "dining",
-          "multiplier": 2.0,
+          "multiplier": 2,
           "cap": null,
           "notes": "Restaurants worldwide"
         }
       ],
-      "baseEarnRate": 1.0,
+      "baseEarnRate": 1,
       "rewardProgram": "Delta SkyMiles",
       "affiliateUrl": null,
       "colorHex": null,
@@ -1070,12 +1072,12 @@
       "earnRates": [
         {
           "category": "travel",
-          "multiplier": 2.0,
+          "multiplier": 2,
           "cap": null,
           "notes": "Flights and prepaid hotels booked on AmexTravel.com"
         }
       ],
-      "baseEarnRate": 1.0,
+      "baseEarnRate": 1,
       "rewardProgram": "American Express Membership Rewards",
       "affiliateUrl": null,
       "colorHex": null,
@@ -1096,12 +1098,12 @@
       "earnRates": [
         {
           "category": "other",
-          "multiplier": 2.0,
+          "multiplier": 2,
           "cap": 50000,
           "notes": "2% cash back on all eligible purchases, up to $50,000 per calendar year, then 1%"
         }
       ],
-      "baseEarnRate": 1.0,
+      "baseEarnRate": 1,
       "rewardProgram": "Cash Back",
       "affiliateUrl": null,
       "colorHex": null,
@@ -1122,12 +1124,12 @@
       "earnRates": [
         {
           "category": "other",
-          "multiplier": 2.0,
+          "multiplier": 2,
           "cap": 50000,
           "notes": "2X Membership Rewards points on all eligible purchases, up to $50,000 per calendar year, then 1X"
         }
       ],
-      "baseEarnRate": 1.0,
+      "baseEarnRate": 1,
       "rewardProgram": "American Express Membership Rewards",
       "affiliateUrl": null,
       "colorHex": null,
@@ -1148,7 +1150,7 @@
       "earnRates": [
         {
           "category": "travel",
-          "multiplier": 3.0,
+          "multiplier": 3,
           "cap": null,
           "notes": "Delta purchases"
         },
@@ -1159,7 +1161,7 @@
           "notes": "Transit including rideshares, taxicabs, and more; also U.S. shipping providers and U.S. office supply stores"
         }
       ],
-      "baseEarnRate": 1.0,
+      "baseEarnRate": 1,
       "rewardProgram": "Delta SkyMiles",
       "affiliateUrl": null,
       "colorHex": null,
@@ -1181,7 +1183,7 @@
       "earnRates": [
         {
           "category": "travel",
-          "multiplier": 3.0,
+          "multiplier": 3,
           "cap": null,
           "notes": "Delta purchases and purchases made directly with hotels"
         },
@@ -1192,7 +1194,7 @@
           "notes": "Transit/rideshares, U.S. shipping, and single eligible purchases of $5,000+; up to $100,000 combined per calendar year"
         }
       ],
-      "baseEarnRate": 1.0,
+      "baseEarnRate": 1,
       "rewardProgram": "Delta SkyMiles",
       "affiliateUrl": null,
       "colorHex": null,
@@ -1214,24 +1216,24 @@
       "earnRates": [
         {
           "category": "travel",
-          "multiplier": 2.0,
+          "multiplier": 2,
           "cap": null,
           "notes": "Delta purchases"
         },
         {
           "category": "dining",
-          "multiplier": 2.0,
+          "multiplier": 2,
           "cap": null,
           "notes": "Restaurants worldwide"
         },
         {
           "category": "other",
-          "multiplier": 2.0,
+          "multiplier": 2,
           "cap": 50000,
           "notes": "U.S. shipping providers and U.S. advertising in select media; up to $50,000 per category per calendar year"
         }
       ],
-      "baseEarnRate": 1.0,
+      "baseEarnRate": 1,
       "rewardProgram": "Delta SkyMiles",
       "affiliateUrl": null,
       "colorHex": null,
@@ -1267,44 +1269,45 @@
       "earnRates": [
         {
           "category": "travel",
-          "multiplier": 6.0,
+          "multiplier": 6,
           "cap": null,
           "notes": "Hotels participating in the Marriott Bonvoy program"
         },
         {
           "category": "dining",
-          "multiplier": 4.0,
+          "multiplier": 4,
           "cap": null,
           "notes": "Restaurants worldwide"
         },
         {
           "category": "gas",
-          "multiplier": 4.0,
+          "multiplier": 4,
           "cap": null,
           "notes": "U.S. gas stations"
         },
         {
           "category": "other",
-          "multiplier": 4.0,
+          "multiplier": 4,
           "cap": null,
           "notes": "U.S. wireless telephone service providers and U.S. shipping providers"
         }
       ],
-      "baseEarnRate": 2.0,
+      "baseEarnRate": 2,
       "rewardProgram": "Marriott Bonvoy",
       "affiliateUrl": null,
       "colorHex": null,
       "benefits": [
         {
           "name": "Free Night Award",
-          "amount": null,
+          "amount": 245,
           "renewalPeriod": "Yearly",
           "periodBasis": "Cardmember Year",
           "category": "Travel Credits",
           "allowsPartialUse": false,
           "notes": "One free night at hotels up to 35,000 Marriott Bonvoy points per card renewal month. Additional award earned at $60K annual spend.",
           "availableMonths": [],
-          "notificationsEnabled": true
+          "notificationsEnabled": true,
+          "requiresValueOnUse": true
         }
       ],
       "lastVerified": "2026-04-24T00:00:00Z",
@@ -1328,18 +1331,18 @@
       "earnRates": [
         {
           "category": "travel",
-          "multiplier": 12.0,
+          "multiplier": 12,
           "cap": null,
           "notes": "Hotels and resorts within the Hilton portfolio"
         },
         {
           "category": "other",
-          "multiplier": 5.0,
+          "multiplier": 5,
           "cap": 100000,
           "notes": "All other eligible purchases; up to $100,000 per calendar year, then 3X"
         }
       ],
-      "baseEarnRate": 3.0,
+      "baseEarnRate": 3,
       "rewardProgram": "Hilton Honors",
       "affiliateUrl": null,
       "colorHex": null,
@@ -1375,12 +1378,12 @@
       "earnRates": [
         {
           "category": "travel",
-          "multiplier": 5.0,
+          "multiplier": 5,
           "cap": null,
           "notes": "Flights and prepaid hotels booked through American Express Travel Online"
         }
       ],
-      "baseEarnRate": 2.0,
+      "baseEarnRate": 2,
       "rewardProgram": "Cash Back",
       "affiliateUrl": null,
       "colorHex": null,
@@ -1400,7 +1403,7 @@
       "annualFee": 99,
       "noForeignTransactionFees": true,
       "earnRates": [],
-      "baseEarnRate": 2.0,
+      "baseEarnRate": 2,
       "rewardProgram": "American AAdvantage",
       "affiliateUrl": null,
       "colorHex": "E0115F",
@@ -1418,14 +1421,15 @@
         },
         {
           "name": "Companion Certificate ($99+tax)",
-          "amount": null,
+          "amount": 300,
           "renewalPeriod": "Yearly",
           "periodBasis": "Cardmember Year",
           "category": "Travel Credits",
           "allowsPartialUse": false,
           "notes": "Requires $20K spend",
           "availableMonths": [],
-          "notificationsEnabled": true
+          "notificationsEnabled": true,
+          "requiresValueOnUse": true
         }
       ]
     },
@@ -1436,7 +1440,7 @@
       "annualFee": 99,
       "noForeignTransactionFees": true,
       "earnRates": [],
-      "baseEarnRate": 1.0,
+      "baseEarnRate": 1,
       "rewardProgram": "Other",
       "affiliateUrl": null,
       "colorHex": "0F52BA",
@@ -1463,24 +1467,24 @@
       "earnRates": [
         {
           "category": "travel",
-          "multiplier": 6.0,
+          "multiplier": 6,
           "cap": null,
           "notes": "JetBlue purchases"
         },
         {
           "category": "dining",
-          "multiplier": 2.0,
+          "multiplier": 2,
           "cap": null,
           "notes": null
         },
         {
           "category": "groceries",
-          "multiplier": 2.0,
+          "multiplier": 2,
           "cap": null,
           "notes": null
         }
       ],
-      "baseEarnRate": 1.0,
+      "baseEarnRate": 1,
       "rewardProgram": "Other",
       "affiliateUrl": null,
       "colorHex": "003876",
@@ -1518,24 +1522,24 @@
       "earnRates": [
         {
           "category": "travel",
-          "multiplier": 6.0,
+          "multiplier": 6,
           "cap": null,
           "notes": "JetBlue purchases"
         },
         {
           "category": "dining",
-          "multiplier": 2.0,
+          "multiplier": 2,
           "cap": null,
           "notes": null
         },
         {
           "category": "other",
-          "multiplier": 2.0,
+          "multiplier": 2,
           "cap": null,
           "notes": "Office supplies"
         }
       ],
-      "baseEarnRate": 1.0,
+      "baseEarnRate": 1,
       "rewardProgram": "Other",
       "affiliateUrl": null,
       "colorHex": "005DA0",
@@ -1573,30 +1577,30 @@
       "earnRates": [
         {
           "category": "travel",
-          "multiplier": 6.0,
+          "multiplier": 6,
           "cap": null,
           "notes": "Wyndham hotels and gas"
         },
         {
           "category": "gas",
-          "multiplier": 6.0,
+          "multiplier": 6,
           "cap": null,
           "notes": null
         },
         {
           "category": "dining",
-          "multiplier": 4.0,
+          "multiplier": 4,
           "cap": null,
           "notes": null
         },
         {
           "category": "groceries",
-          "multiplier": 4.0,
+          "multiplier": 4,
           "cap": null,
           "notes": null
         }
       ],
-      "baseEarnRate": 1.0,
+      "baseEarnRate": 1,
       "rewardProgram": "Other",
       "affiliateUrl": null,
       "colorHex": "004B8D",
@@ -1611,30 +1615,30 @@
       "earnRates": [
         {
           "category": "dining",
-          "multiplier": 3.0,
+          "multiplier": 3,
           "cap": null,
           "notes": "Restaurants and takeout"
         },
         {
           "category": "drugstores",
-          "multiplier": 3.0,
+          "multiplier": 3,
           "cap": null,
           "notes": "U.S. drugstores"
         },
         {
           "category": "travel",
-          "multiplier": 5.0,
+          "multiplier": 5,
           "cap": null,
           "notes": "Chase Travel portal purchases"
         },
         {
           "category": "other",
-          "multiplier": 5.0,
+          "multiplier": 5,
           "cap": 1500,
           "notes": "Rotating quarterly categories, up to $1,500/quarter then 1%"
         }
       ],
-      "baseEarnRate": 1.0,
+      "baseEarnRate": 1,
       "rewardProgram": "Chase Ultimate Rewards",
       "affiliateUrl": null,
       "colorHex": "1A3C6B",
@@ -1649,19 +1653,19 @@
       "earnRates": [
         {
           "category": "dining",
-          "multiplier": 3.0,
+          "multiplier": 3,
           "cap": null,
           "notes": "Restaurants and takeout"
         },
         {
           "category": "drugstores",
-          "multiplier": 3.0,
+          "multiplier": 3,
           "cap": null,
           "notes": "U.S. drugstores"
         },
         {
           "category": "travel",
-          "multiplier": 5.0,
+          "multiplier": 5,
           "cap": null,
           "notes": "Chase Travel portal purchases"
         }
@@ -1681,18 +1685,18 @@
       "earnRates": [
         {
           "category": "travel",
-          "multiplier": 3.0,
+          "multiplier": 3,
           "cap": 150000,
           "notes": "Travel, shipping, advertising, and telecom, up to $150K/year combined"
         },
         {
           "category": "transit",
-          "multiplier": 3.0,
+          "multiplier": 3,
           "cap": 150000,
           "notes": "Combined with travel/shipping/advertising/telecom"
         }
       ],
-      "baseEarnRate": 1.0,
+      "baseEarnRate": 1,
       "rewardProgram": "Chase Ultimate Rewards",
       "affiliateUrl": null,
       "colorHex": "1C3A5E",
@@ -1707,24 +1711,24 @@
       "earnRates": [
         {
           "category": "other",
-          "multiplier": 5.0,
+          "multiplier": 5,
           "cap": 25000,
           "notes": "Office supply stores and internet/cable/phone, up to $25K/year"
         },
         {
           "category": "dining",
-          "multiplier": 2.0,
+          "multiplier": 2,
           "cap": 25000,
           "notes": "Gas stations and restaurants, up to $25K/year combined"
         },
         {
           "category": "gas",
-          "multiplier": 2.0,
+          "multiplier": 2,
           "cap": 25000,
           "notes": "Gas stations and restaurants, up to $25K/year combined"
         }
       ],
-      "baseEarnRate": 1.0,
+      "baseEarnRate": 1,
       "rewardProgram": "Chase Ultimate Rewards",
       "affiliateUrl": null,
       "colorHex": "2C3E7A",
@@ -1752,18 +1756,18 @@
       "earnRates": [
         {
           "category": "travel",
-          "multiplier": 2.0,
+          "multiplier": 2,
           "cap": null,
           "notes": "United purchases and hotels"
         },
         {
           "category": "dining",
-          "multiplier": 2.0,
+          "multiplier": 2,
           "cap": null,
           "notes": "Restaurants worldwide"
         }
       ],
-      "baseEarnRate": 1.0,
+      "baseEarnRate": 1,
       "rewardProgram": "United MileagePlus",
       "affiliateUrl": null,
       "colorHex": "005DAA",
@@ -1801,18 +1805,18 @@
       "earnRates": [
         {
           "category": "travel",
-          "multiplier": 4.0,
+          "multiplier": 4,
           "cap": null,
           "notes": "United purchases"
         },
         {
           "category": "dining",
-          "multiplier": 2.0,
+          "multiplier": 2,
           "cap": null,
           "notes": "Restaurants and travel purchases"
         }
       ],
-      "baseEarnRate": 1.0,
+      "baseEarnRate": 1,
       "rewardProgram": "United MileagePlus",
       "affiliateUrl": null,
       "colorHex": "003366",
@@ -1839,36 +1843,36 @@
       "earnRates": [
         {
           "category": "onlineShopping",
-          "multiplier": 5.0,
+          "multiplier": 5,
           "cap": null,
           "notes": "Amazon.com and Whole Foods Market (requires Prime membership)"
         },
         {
           "category": "dining",
-          "multiplier": 2.0,
+          "multiplier": 2,
           "cap": null,
           "notes": "Restaurants"
         },
         {
           "category": "gas",
-          "multiplier": 2.0,
+          "multiplier": 2,
           "cap": null,
           "notes": "Gas stations"
         },
         {
           "category": "transit",
-          "multiplier": 2.0,
+          "multiplier": 2,
           "cap": null,
           "notes": "Local transit and commuting"
         },
         {
           "category": "drugstores",
-          "multiplier": 2.0,
+          "multiplier": 2,
           "cap": null,
           "notes": "Drugstores"
         }
       ],
-      "baseEarnRate": 1.0,
+      "baseEarnRate": 1,
       "rewardProgram": "Amazon Rewards",
       "affiliateUrl": null,
       "colorHex": "FF9900",
@@ -1883,24 +1887,24 @@
       "earnRates": [
         {
           "category": "travel",
-          "multiplier": 3.0,
+          "multiplier": 3,
           "cap": null,
           "notes": "Air Canada and Air Canada Vacations purchases"
         },
         {
           "category": "dining",
-          "multiplier": 3.0,
+          "multiplier": 3,
           "cap": null,
           "notes": "Restaurants worldwide"
         },
         {
           "category": "groceries",
-          "multiplier": 3.0,
+          "multiplier": 3,
           "cap": null,
           "notes": "U.S. grocery stores"
         }
       ],
-      "baseEarnRate": 1.0,
+      "baseEarnRate": 1,
       "rewardProgram": "Air Canada Aeroplan",
       "affiliateUrl": null,
       "colorHex": "CC0000",
@@ -1927,18 +1931,18 @@
       "earnRates": [
         {
           "category": "travel",
-          "multiplier": 10.0,
+          "multiplier": 10,
           "cap": null,
           "notes": "Hotels and car rentals booked via Capital One Travel"
         },
         {
           "category": "travel",
-          "multiplier": 5.0,
+          "multiplier": 5,
           "cap": null,
           "notes": "Flights booked via Capital One Travel"
         }
       ],
-      "baseEarnRate": 2.0,
+      "baseEarnRate": 2,
       "rewardProgram": "Capital One Venture Rewards",
       "affiliateUrl": null,
       "colorHex": "1C1C1C",
@@ -1956,14 +1960,15 @@
         },
         {
           "name": "Anniversary Bonus (10K miles)",
-          "amount": null,
+          "amount": 170,
           "renewalPeriod": "Yearly",
           "periodBasis": "Cardmember Year",
           "category": "Travel Credits",
           "allowsPartialUse": false,
           "notes": "Enter your miles value",
           "availableMonths": [],
-          "notificationsEnabled": true
+          "notificationsEnabled": true,
+          "requiresValueOnUse": true
         },
         {
           "name": "Global Entry/TSA PreCheck Credit",
@@ -1987,12 +1992,12 @@
       "earnRates": [
         {
           "category": "travel",
-          "multiplier": 5.0,
+          "multiplier": 5,
           "cap": null,
           "notes": "Hotels and car rentals via Capital One Travel"
         }
       ],
-      "baseEarnRate": 2.0,
+      "baseEarnRate": 2,
       "rewardProgram": "Capital One Venture Rewards",
       "affiliateUrl": null,
       "colorHex": "1C1C1C",
@@ -2019,18 +2024,18 @@
       "earnRates": [
         {
           "category": "travel",
-          "multiplier": 10.0,
+          "multiplier": 10,
           "cap": null,
           "notes": "Hotels and rental cars via Capital One Travel"
         },
         {
           "category": "travel",
-          "multiplier": 5.0,
+          "multiplier": 5,
           "cap": null,
           "notes": "Flights via Capital One Travel"
         }
       ],
-      "baseEarnRate": 2.0,
+      "baseEarnRate": 2,
       "rewardProgram": "Capital One Venture Rewards",
       "affiliateUrl": null,
       "colorHex": "2C2C2C",
@@ -2068,24 +2073,24 @@
       "earnRates": [
         {
           "category": "dining",
-          "multiplier": 3.0,
+          "multiplier": 3,
           "cap": null,
           "notes": null
         },
         {
           "category": "streaming",
-          "multiplier": 3.0,
+          "multiplier": 3,
           "cap": null,
           "notes": null
         },
         {
           "category": "groceries",
-          "multiplier": 3.0,
+          "multiplier": 3,
           "cap": null,
           "notes": null
         }
       ],
-      "baseEarnRate": 1.0,
+      "baseEarnRate": 1,
       "rewardProgram": "Capital One Venture Rewards",
       "affiliateUrl": null,
       "colorHex": "C0392B",
@@ -2100,24 +2105,24 @@
       "earnRates": [
         {
           "category": "dining",
-          "multiplier": 4.0,
+          "multiplier": 4,
           "cap": null,
           "notes": null
         },
         {
           "category": "streaming",
-          "multiplier": 4.0,
+          "multiplier": 4,
           "cap": null,
           "notes": null
         },
         {
           "category": "groceries",
-          "multiplier": 3.0,
+          "multiplier": 3,
           "cap": null,
           "notes": null
         }
       ],
-      "baseEarnRate": 1.0,
+      "baseEarnRate": 1,
       "rewardProgram": "Capital One Venture Rewards",
       "affiliateUrl": null,
       "colorHex": "922B21",
@@ -2132,30 +2137,30 @@
       "earnRates": [
         {
           "category": "dining",
-          "multiplier": 3.0,
+          "multiplier": 3,
           "cap": null,
           "notes": null
         },
         {
           "category": "streaming",
-          "multiplier": 3.0,
+          "multiplier": 3,
           "cap": null,
           "notes": null
         },
         {
           "category": "onlineShopping",
-          "multiplier": 3.0,
+          "multiplier": 3,
           "cap": null,
           "notes": "Online grocery"
         },
         {
           "category": "travel",
-          "multiplier": 5.0,
+          "multiplier": 5,
           "cap": null,
           "notes": "Via Chase Travel; 2x other travel"
         }
       ],
-      "baseEarnRate": 1.0,
+      "baseEarnRate": 1,
       "rewardProgram": "Chase Ultimate Rewards",
       "affiliateUrl": null,
       "colorHex": "0F52BA",
@@ -2182,24 +2187,24 @@
       "earnRates": [
         {
           "category": "dining",
-          "multiplier": 3.0,
+          "multiplier": 3,
           "cap": null,
           "notes": null
         },
         {
           "category": "travel",
-          "multiplier": 10.0,
+          "multiplier": 10,
           "cap": null,
           "notes": "Via Chase Travel; 3x other travel"
         },
         {
           "category": "streaming",
-          "multiplier": 3.0,
+          "multiplier": 3,
           "cap": null,
           "notes": null
         }
       ],
-      "baseEarnRate": 1.0,
+      "baseEarnRate": 1,
       "rewardProgram": "Chase Ultimate Rewards",
       "affiliateUrl": null,
       "colorHex": "1A365D",
@@ -2323,21 +2328,22 @@
       "annualFee": 99,
       "noForeignTransactionFees": true,
       "earnRates": [],
-      "baseEarnRate": 1.0,
+      "baseEarnRate": 1,
       "rewardProgram": "IHG One Rewards",
       "affiliateUrl": null,
       "colorHex": "4A5568",
       "benefits": [
         {
           "name": "Free Night (up to 40K)",
-          "amount": null,
+          "amount": 200,
           "renewalPeriod": "Yearly",
           "periodBasis": "Cardmember Year",
           "category": "Travel Credits",
           "allowsPartialUse": false,
           "notes": "Enter your redemption value",
           "availableMonths": [],
-          "notificationsEnabled": true
+          "notificationsEnabled": true,
+          "requiresValueOnUse": true
         },
         {
           "name": "United TravelBank Cash",
@@ -2370,21 +2376,22 @@
       "annualFee": 95,
       "noForeignTransactionFees": true,
       "earnRates": [],
-      "baseEarnRate": 2.0,
+      "baseEarnRate": 2,
       "rewardProgram": "Marriott Bonvoy",
       "affiliateUrl": null,
       "colorHex": "4A5568",
       "benefits": [
         {
           "name": "Free Night Award (up to 35K)",
-          "amount": null,
+          "amount": 245,
           "renewalPeriod": "Yearly",
           "periodBasis": "Cardmember Year",
           "category": "Travel Credits",
           "allowsPartialUse": false,
           "notes": "Enter your redemption value",
           "availableMonths": [],
-          "notificationsEnabled": true
+          "notificationsEnabled": true,
+          "requiresValueOnUse": true
         }
       ]
     },
@@ -2395,7 +2402,7 @@
       "annualFee": 595,
       "noForeignTransactionFees": true,
       "earnRates": [],
-      "baseEarnRate": 2.0,
+      "baseEarnRate": 2,
       "rewardProgram": "Marriott Bonvoy",
       "affiliateUrl": null,
       "colorHex": "1C1C1C",
@@ -2413,14 +2420,15 @@
         },
         {
           "name": "Free Night Award (up to 85K)",
-          "amount": null,
+          "amount": 595,
           "renewalPeriod": "Yearly",
           "periodBasis": "Cardmember Year",
           "category": "Travel Credits",
           "allowsPartialUse": false,
           "notes": "Enter your redemption value",
           "availableMonths": [],
-          "notificationsEnabled": true
+          "notificationsEnabled": true,
+          "requiresValueOnUse": true
         },
         {
           "name": "Elite Night Credits",
@@ -2466,26 +2474,27 @@
       "earnRates": [
         {
           "category": "travel",
-          "multiplier": 2.0,
+          "multiplier": 2,
           "cap": null,
           "notes": "Southwest purchases"
         }
       ],
-      "baseEarnRate": 1.0,
+      "baseEarnRate": 1,
       "rewardProgram": "Southwest Rapid Rewards",
       "affiliateUrl": null,
       "colorHex": "FF9800",
       "benefits": [
         {
           "name": "Anniversary Bonus (6K points)",
-          "amount": null,
+          "amount": 81,
           "renewalPeriod": "Yearly",
           "periodBasis": "Cardmember Year",
           "category": "Travel Credits",
           "allowsPartialUse": false,
           "notes": "Enter your points value",
           "availableMonths": [],
-          "notificationsEnabled": true
+          "notificationsEnabled": true,
+          "requiresValueOnUse": true
         },
         {
           "name": "Companion Pass Points (10K)",
@@ -2509,12 +2518,12 @@
       "earnRates": [
         {
           "category": "travel",
-          "multiplier": 2.0,
+          "multiplier": 2,
           "cap": null,
           "notes": "Southwest purchases"
         }
       ],
-      "baseEarnRate": 1.0,
+      "baseEarnRate": 1,
       "rewardProgram": "Southwest Rapid Rewards",
       "affiliateUrl": null,
       "colorHex": "FF9800",
@@ -2532,14 +2541,15 @@
         },
         {
           "name": "Anniversary Bonus (7.5K points)",
-          "amount": null,
+          "amount": 101,
           "renewalPeriod": "Yearly",
           "periodBasis": "Cardmember Year",
           "category": "Travel Credits",
           "allowsPartialUse": false,
           "notes": "Enter your points value",
           "availableMonths": [],
-          "notificationsEnabled": true
+          "notificationsEnabled": true,
+          "requiresValueOnUse": true
         },
         {
           "name": "Upgraded Boardings",
@@ -2574,55 +2584,57 @@
       "earnRates": [
         {
           "category": "dining",
-          "multiplier": 2.0,
+          "multiplier": 2,
           "cap": null,
           "notes": null
         },
         {
           "category": "travel",
-          "multiplier": 2.0,
+          "multiplier": 2,
           "cap": null,
           "notes": "Flights, hotels, car rental"
         },
         {
           "category": "transit",
-          "multiplier": 2.0,
+          "multiplier": 2,
           "cap": null,
           "notes": null
         },
         {
           "category": "groceries",
-          "multiplier": 2.0,
+          "multiplier": 2,
           "cap": null,
           "notes": null
         }
       ],
-      "baseEarnRate": 1.0,
+      "baseEarnRate": 1,
       "rewardProgram": "World of Hyatt",
       "affiliateUrl": null,
       "colorHex": "4A5568",
       "benefits": [
         {
           "name": "Free Night (Category 1-4)",
-          "amount": null,
+          "amount": 255,
           "renewalPeriod": "Yearly",
           "periodBasis": "Cardmember Year",
           "category": "Travel Credits",
           "allowsPartialUse": false,
           "notes": "Enter your redemption value",
           "availableMonths": [],
-          "notificationsEnabled": true
+          "notificationsEnabled": true,
+          "requiresValueOnUse": true
         },
         {
           "name": "Bonus Free Night ($15K spend)",
-          "amount": null,
+          "amount": 255,
           "renewalPeriod": "Yearly",
           "periodBasis": "Calendar Year",
           "category": "Travel Credits",
           "allowsPartialUse": false,
           "notes": "After $15K spend, Cat 1-4",
           "availableMonths": [],
-          "notificationsEnabled": true
+          "notificationsEnabled": true,
+          "requiresValueOnUse": true
         },
         {
           "name": "Qualifying Night Credits",
@@ -2646,26 +2658,27 @@
       "earnRates": [
         {
           "category": "travel",
-          "multiplier": 2.0,
+          "multiplier": 2,
           "cap": null,
           "notes": "Southwest purchases"
         }
       ],
-      "baseEarnRate": 1.0,
+      "baseEarnRate": 1,
       "rewardProgram": "Southwest Rapid Rewards",
       "affiliateUrl": null,
       "colorHex": "FF9800",
       "benefits": [
         {
           "name": "Anniversary Bonus (6K points)",
-          "amount": null,
+          "amount": 81,
           "renewalPeriod": "Yearly",
           "periodBasis": "Cardmember Year",
           "category": "Travel Credits",
           "allowsPartialUse": false,
           "notes": "Enter your points value",
           "availableMonths": [],
-          "notificationsEnabled": true
+          "notificationsEnabled": true,
+          "requiresValueOnUse": true
         },
         {
           "name": "EarlyBird Check-In",
@@ -2700,26 +2713,27 @@
       "earnRates": [
         {
           "category": "travel",
-          "multiplier": 3.0,
+          "multiplier": 3,
           "cap": null,
           "notes": "Southwest purchases"
         }
       ],
-      "baseEarnRate": 1.0,
+      "baseEarnRate": 1,
       "rewardProgram": "Southwest Rapid Rewards",
       "affiliateUrl": null,
       "colorHex": "FF9800",
       "benefits": [
         {
           "name": "Anniversary Bonus (9K points)",
-          "amount": null,
+          "amount": 122,
           "renewalPeriod": "Yearly",
           "periodBasis": "Cardmember Year",
           "category": "Travel Credits",
           "allowsPartialUse": false,
           "notes": "Enter your points value",
           "availableMonths": [],
-          "notificationsEnabled": true
+          "notificationsEnabled": true,
+          "requiresValueOnUse": true
         },
         {
           "name": "Upgraded Boardings",
@@ -2774,7 +2788,7 @@
       "annualFee": 595,
       "noForeignTransactionFees": true,
       "earnRates": [],
-      "baseEarnRate": 1.0,
+      "baseEarnRate": 1,
       "rewardProgram": "American AAdvantage",
       "affiliateUrl": null,
       "colorHex": "1C1C1C",
@@ -2834,18 +2848,18 @@
       "earnRates": [
         {
           "category": "travel",
-          "multiplier": 5.0,
+          "multiplier": 5,
           "cap": null,
           "notes": "Flights"
         },
         {
           "category": "dining",
-          "multiplier": 3.0,
+          "multiplier": 3,
           "cap": null,
           "notes": null
         }
       ],
-      "baseEarnRate": 1.0,
+      "baseEarnRate": 1,
       "rewardProgram": "Citi ThankYou Points",
       "affiliateUrl": null,
       "colorHex": "1A365D",
@@ -2894,30 +2908,30 @@
       "earnRates": [
         {
           "category": "dining",
-          "multiplier": 3.0,
+          "multiplier": 3,
           "cap": null,
           "notes": null
         },
         {
           "category": "groceries",
-          "multiplier": 3.0,
+          "multiplier": 3,
           "cap": null,
           "notes": null
         },
         {
           "category": "travel",
-          "multiplier": 3.0,
+          "multiplier": 3,
           "cap": null,
           "notes": "Flights, hotels, car rental"
         },
         {
           "category": "gas",
-          "multiplier": 3.0,
+          "multiplier": 3,
           "cap": null,
           "notes": null
         }
       ],
-      "baseEarnRate": 1.0,
+      "baseEarnRate": 1,
       "rewardProgram": "Citi ThankYou Points",
       "affiliateUrl": null,
       "colorHex": "0F52BA",
@@ -2944,24 +2958,24 @@
       "earnRates": [
         {
           "category": "dining",
-          "multiplier": 5.0,
+          "multiplier": 5,
           "cap": null,
           "notes": null
         },
         {
           "category": "travel",
-          "multiplier": 5.0,
+          "multiplier": 5,
           "cap": null,
           "notes": "Flights"
         },
         {
           "category": "groceries",
-          "multiplier": 3.0,
+          "multiplier": 3,
           "cap": null,
           "notes": null
         }
       ],
-      "baseEarnRate": 1.0,
+      "baseEarnRate": 1,
       "rewardProgram": "Citi ThankYou Points",
       "affiliateUrl": null,
       "colorHex": "1C1C1C",
@@ -3019,7 +3033,7 @@
       "annualFee": 0,
       "noForeignTransactionFees": false,
       "earnRates": [],
-      "baseEarnRate": 2.0,
+      "baseEarnRate": 2,
       "rewardProgram": "Citi ThankYou Points",
       "affiliateUrl": null,
       "colorHex": "1A365D",
@@ -3034,12 +3048,12 @@
       "earnRates": [
         {
           "category": "other",
-          "multiplier": 5.0,
+          "multiplier": 5,
           "cap": 500,
           "notes": "Top eligible spend category per billing cycle"
         }
       ],
-      "baseEarnRate": 1.0,
+      "baseEarnRate": 1,
       "rewardProgram": "Citi ThankYou Points",
       "affiliateUrl": null,
       "colorHex": "2E86AB",
@@ -3054,13 +3068,13 @@
       "earnRates": [
         {
           "category": "travel",
-          "multiplier": 2.0,
+          "multiplier": 2,
           "cap": null,
           "notes": null
         },
         {
           "category": "dining",
-          "multiplier": 2.0,
+          "multiplier": 2,
           "cap": null,
           "notes": null
         }
@@ -3103,13 +3117,13 @@
       "earnRates": [
         {
           "category": "travel",
-          "multiplier": 2.0,
+          "multiplier": 2,
           "cap": null,
           "notes": null
         },
         {
           "category": "dining",
-          "multiplier": 2.0,
+          "multiplier": 2,
           "cap": null,
           "notes": null
         }
@@ -3187,44 +3201,45 @@
       "earnRates": [
         {
           "category": "travel",
-          "multiplier": 3.0,
+          "multiplier": 3,
           "cap": null,
           "notes": "Alaska Airlines and Hawaiian Airlines purchases"
         },
         {
           "category": "gas",
-          "multiplier": 2.0,
+          "multiplier": 2,
           "cap": null,
           "notes": "Gas and EV charging"
         },
         {
           "category": "transit",
-          "multiplier": 2.0,
+          "multiplier": 2,
           "cap": null,
           "notes": "Local transit and rideshare"
         },
         {
           "category": "streaming",
-          "multiplier": 2.0,
+          "multiplier": 2,
           "cap": null,
           "notes": "Select streaming services"
         }
       ],
-      "baseEarnRate": 1.0,
+      "baseEarnRate": 1,
       "rewardProgram": "Alaska Airlines Mileage Plan",
       "affiliateUrl": null,
       "colorHex": "00539B",
       "benefits": [
         {
           "name": "Companion Fare Certificate",
-          "amount": null,
+          "amount": 300,
           "renewalPeriod": "Yearly",
           "periodBasis": "Cardmember Year",
           "category": "Travel Credits",
           "allowsPartialUse": false,
           "notes": "$99 + taxes companion ticket on Alaska/Hawaiian flights; requires $6,000 annual spend",
           "availableMonths": [],
-          "notificationsEnabled": true
+          "notificationsEnabled": true,
+          "requiresValueOnUse": true
         },
         {
           "name": "Inflight Discount",
@@ -3248,24 +3263,24 @@
       "earnRates": [
         {
           "category": "travel",
-          "multiplier": 3.0,
+          "multiplier": 3,
           "cap": null,
           "notes": "Alaska Airlines and Hawaiian Airlines purchases"
         },
         {
           "category": "travel",
-          "multiplier": 3.0,
+          "multiplier": 3,
           "cap": null,
           "notes": "All foreign currency transactions"
         },
         {
           "category": "dining",
-          "multiplier": 3.0,
+          "multiplier": 3,
           "cap": null,
           "notes": null
         }
       ],
-      "baseEarnRate": 1.0,
+      "baseEarnRate": 1,
       "rewardProgram": "Alaska Airlines Mileage Plan",
       "affiliateUrl": null,
       "colorHex": "1A1A2E",
@@ -3303,30 +3318,30 @@
       "earnRates": [
         {
           "category": "travel",
-          "multiplier": 5.0,
+          "multiplier": 5,
           "cap": null,
           "notes": "Hotels"
         },
         {
           "category": "travel",
-          "multiplier": 4.0,
+          "multiplier": 4,
           "cap": null,
           "notes": "Airlines"
         },
         {
           "category": "dining",
-          "multiplier": 3.0,
+          "multiplier": 3,
           "cap": null,
           "notes": null
         },
         {
           "category": "travel",
-          "multiplier": 3.0,
+          "multiplier": 3,
           "cap": null,
           "notes": "Other travel"
         }
       ],
-      "baseEarnRate": 1.0,
+      "baseEarnRate": 1,
       "rewardProgram": "Wells Fargo Rewards",
       "affiliateUrl": null,
       "colorHex": "E0115F",
@@ -3353,42 +3368,42 @@
       "earnRates": [
         {
           "category": "dining",
-          "multiplier": 3.0,
+          "multiplier": 3,
           "cap": null,
           "notes": null
         },
         {
           "category": "travel",
-          "multiplier": 3.0,
+          "multiplier": 3,
           "cap": null,
           "notes": null
         },
         {
           "category": "transit",
-          "multiplier": 3.0,
+          "multiplier": 3,
           "cap": null,
           "notes": null
         },
         {
           "category": "gas",
-          "multiplier": 3.0,
+          "multiplier": 3,
           "cap": null,
           "notes": "Including EV charging"
         },
         {
           "category": "streaming",
-          "multiplier": 3.0,
+          "multiplier": 3,
           "cap": null,
           "notes": null
         },
         {
           "category": "other",
-          "multiplier": 3.0,
+          "multiplier": 3,
           "cap": null,
           "notes": "Phone plans"
         }
       ],
-      "baseEarnRate": 1.0,
+      "baseEarnRate": 1,
       "rewardProgram": "Wells Fargo Rewards",
       "affiliateUrl": null,
       "colorHex": "CC0033",
@@ -3413,7 +3428,7 @@
       "annualFee": 0,
       "noForeignTransactionFees": false,
       "earnRates": [],
-      "baseEarnRate": 2.0,
+      "baseEarnRate": 2,
       "rewardProgram": "Wells Fargo Rewards",
       "affiliateUrl": null,
       "colorHex": "CC0000",
@@ -3440,18 +3455,18 @@
       "earnRates": [
         {
           "category": "travel",
-          "multiplier": 3.0,
+          "multiplier": 3,
           "cap": null,
           "notes": "Mobile wallet purchases"
         },
         {
           "category": "other",
-          "multiplier": 3.0,
+          "multiplier": 3,
           "cap": null,
           "notes": "Mobile wallet purchases"
         }
       ],
-      "baseEarnRate": 1.0,
+      "baseEarnRate": 1,
       "rewardProgram": "US Bank Altitude Points",
       "affiliateUrl": null,
       "colorHex": "002D72",
@@ -3478,30 +3493,30 @@
       "earnRates": [
         {
           "category": "travel",
-          "multiplier": 4.0,
+          "multiplier": 4,
           "cap": null,
           "notes": null
         },
         {
           "category": "gas",
-          "multiplier": 2.0,
+          "multiplier": 2,
           "cap": null,
           "notes": "Including EV charging"
         },
         {
           "category": "streaming",
-          "multiplier": 2.0,
+          "multiplier": 2,
           "cap": null,
           "notes": null
         },
         {
           "category": "groceries",
-          "multiplier": 2.0,
+          "multiplier": 2,
           "cap": null,
           "notes": null
         }
       ],
-      "baseEarnRate": 1.0,
+      "baseEarnRate": 1,
       "rewardProgram": "US Bank Altitude Points",
       "affiliateUrl": null,
       "colorHex": "003087",
@@ -3539,18 +3554,18 @@
       "earnRates": [
         {
           "category": "other",
-          "multiplier": 5.0,
+          "multiplier": 5,
           "cap": 2000,
           "notes": "Two chosen categories per quarter"
         },
         {
           "category": "other",
-          "multiplier": 2.0,
+          "multiplier": 2,
           "cap": null,
           "notes": "One everyday category"
         }
       ],
-      "baseEarnRate": 1.0,
+      "baseEarnRate": 1,
       "rewardProgram": "US Bank Rewards",
       "affiliateUrl": null,
       "colorHex": "004B87",
@@ -3565,12 +3580,12 @@
       "earnRates": [
         {
           "category": "other",
-          "multiplier": 5.0,
+          "multiplier": 5,
           "cap": 1500,
           "notes": "Rotating categories per quarter; activation required"
         }
       ],
-      "baseEarnRate": 1.0,
+      "baseEarnRate": 1,
       "rewardProgram": "Discover Cashback Bonus",
       "affiliateUrl": null,
       "colorHex": "FF6600",
@@ -3598,18 +3613,18 @@
       "earnRates": [
         {
           "category": "other",
-          "multiplier": 3.0,
+          "multiplier": 3,
           "cap": null,
           "notes": "Apple purchases"
         },
         {
           "category": "other",
-          "multiplier": 2.0,
+          "multiplier": 2,
           "cap": null,
           "notes": "Apple Pay purchases"
         }
       ],
-      "baseEarnRate": 1.0,
+      "baseEarnRate": 1,
       "rewardProgram": "Apple Daily Cash",
       "affiliateUrl": null,
       "colorHex": "1C1C1C",
@@ -3624,12 +3639,12 @@
       "earnRates": [
         {
           "category": "rent",
-          "multiplier": 1.0,
+          "multiplier": 1,
           "cap": null,
           "notes": "Up to 1.25x based on everyday spend ratio to housing payment; no transaction fee"
         }
       ],
-      "baseEarnRate": 1.0,
+      "baseEarnRate": 1,
       "rewardProgram": "Bilt Rewards",
       "affiliateUrl": null,
       "colorHex": "3D5AFE",
@@ -3644,30 +3659,30 @@
       "earnRates": [
         {
           "category": "dining",
-          "multiplier": 3.0,
+          "multiplier": 3,
           "cap": 25000,
           "notes": "Or groceries — choose one category per calendar year"
         },
         {
           "category": "groceries",
-          "multiplier": 3.0,
+          "multiplier": 3,
           "cap": 25000,
           "notes": "Or dining — choose one category per calendar year"
         },
         {
           "category": "travel",
-          "multiplier": 2.0,
+          "multiplier": 2,
           "cap": null,
           "notes": null
         },
         {
           "category": "rent",
-          "multiplier": 1.0,
+          "multiplier": 1,
           "cap": null,
           "notes": "Up to 1.25x based on everyday spend ratio to housing payment; no transaction fee"
         }
       ],
-      "baseEarnRate": 1.0,
+      "baseEarnRate": 1,
       "rewardProgram": "Bilt Rewards",
       "affiliateUrl": null,
       "colorHex": "1C1C2E",
@@ -3694,12 +3709,12 @@
       "earnRates": [
         {
           "category": "rent",
-          "multiplier": 1.0,
+          "multiplier": 1,
           "cap": null,
           "notes": "Up to 1.25x based on everyday spend ratio to housing payment; no transaction fee"
         }
       ],
-      "baseEarnRate": 2.0,
+      "baseEarnRate": 2,
       "rewardProgram": "Bilt Rewards",
       "affiliateUrl": null,
       "colorHex": "5C5C5C",

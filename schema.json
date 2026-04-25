@@ -132,6 +132,7 @@
         },
         "category": { "type": "string" },
         "allowsPartialUse": { "type": "boolean" },
+        "requiresValueOnUse": { "type": "boolean" },
         "notes": { "type": ["string", "null"] },
         "availableMonths": {
           "type": "array",
