@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "version": "2026.04.24",
-  "lastUpdated": "2026-04-24T12:00:00Z",
+  "lastUpdated": "2026-04-24T00:00:00Z",
   "cards": [
     {
       "id": "american-express-platinum-card",
@@ -13,8 +13,8 @@
         {
           "category": "travel",
           "multiplier": 5.0,
-          "cap": null,
-          "notes": "Flights booked directly or via Amex Travel"
+          "cap": 500000,
+          "notes": "Flights booked directly with airlines or via Amex Travel, and prepaid hotels via Amex Travel; up to $500,000 per calendar year"
         },
         {
           "category": "dining",
@@ -131,8 +131,8 @@
         },
         {
           "name": "Hotel Credit (FHR/THC)",
-          "amount": 600,
-          "renewalPeriod": "Yearly",
+          "amount": 300,
+          "renewalPeriod": "Every 6 months",
           "periodBasis": "Calendar Year",
           "category": "Travel Credits",
           "allowsPartialUse": true,
@@ -175,7 +175,7 @@
         },
         {
           "name": "Global Entry/TSA PreCheck Credit",
-          "amount": 100,
+          "amount": 120,
           "renewalPeriod": "Yearly",
           "periodBasis": "Cardmember Year",
           "category": "Travel Credits",
@@ -184,7 +184,14 @@
           "availableMonths": [],
           "notificationsEnabled": true
         }
-      ]
+      ],
+      "sources": {
+        "annualFee": "https://www.americanexpress.com/us/credit-cards/card/platinum/",
+        "earnRates.travel": "https://www.americanexpress.com/us/credit-cards/card/platinum/",
+        "benefits.hotel-credit-fhr-thc": "https://www.americanexpress.com/us/credit-cards/card/platinum/",
+        "benefits.global-entry-tsa-precheck-credit": "https://www.americanexpress.com/us/credit-cards/card/platinum/"
+      },
+      "lastVerified": "2026-04-24T00:00:00Z"
     },
     {
       "id": "american-express-gold-card",
@@ -196,7 +203,7 @@
         {
           "category": "dining",
           "multiplier": 4.0,
-          "cap": null,
+          "cap": 50000,
           "notes": "Restaurants worldwide"
         },
         {
@@ -261,7 +268,12 @@
           "availableMonths": [],
           "notificationsEnabled": true
         }
-      ]
+      ],
+      "sources": {
+        "earnRates.dining": "https://www.americanexpress.com/us/credit-cards/all-cards/",
+        "annualFee": "https://www.americanexpress.com/us/credit-cards/card/gold-card/"
+      },
+      "lastVerified": "2026-04-24T00:00:00Z"
     },
     {
       "id": "american-express-green-card",
@@ -299,7 +311,11 @@
           "availableMonths": [],
           "notificationsEnabled": true
         }
-      ]
+      ],
+      "sources": {
+        "annualFee": "https://www.americanexpress.com/us/credit-cards/card/green/"
+      },
+      "lastVerified": "2026-04-24T00:00:00Z"
     },
     {
       "id": "american-express-marriott-bonvoy-brilliant",
@@ -431,7 +447,11 @@
           "availableMonths": [],
           "notificationsEnabled": true
         }
-      ]
+      ],
+      "sources": {
+        "annualFee": "https://www.americanexpress.com/us/credit-cards/card/blue-cash-preferred/"
+      },
+      "lastVerified": "2026-04-24T00:00:00Z"
     },
     {
       "id": "american-express-blue-cash-everyday",
@@ -475,7 +495,11 @@
           "availableMonths": [],
           "notificationsEnabled": true
         }
-      ]
+      ],
+      "sources": {
+        "annualFee": "https://www.americanexpress.com/us/credit-cards/card/blue-cash-everyday/"
+      },
+      "lastVerified": "2026-04-24T00:00:00Z"
     },
     {
       "id": "american-express-delta-skymiles-gold",
@@ -519,7 +543,11 @@
           "availableMonths": [],
           "notificationsEnabled": true
         }
-      ]
+      ],
+      "sources": {
+        "annualFee": "https://www.americanexpress.com/us/credit-cards/card/delta-skymiles-gold-american-express-card/"
+      },
+      "lastVerified": "2026-04-24T00:00:00Z"
     },
     {
       "id": "american-express-delta-skymiles-platinum",
@@ -564,11 +592,15 @@
           "periodBasis": "Cardmember Year",
           "category": "Travel Credits",
           "allowsPartialUse": false,
-          "notes": "15% discount on Delta award flights — no dollar amount to track",
+          "notes": "15% discount on Delta award flights \u2014 no dollar amount to track",
           "availableMonths": [],
           "notificationsEnabled": false
         }
-      ]
+      ],
+      "sources": {
+        "annualFee": "https://www.americanexpress.com/us/credit-cards/card/delta-skymiles-platinum-american-express-card/"
+      },
+      "lastVerified": "2026-04-24T00:00:00Z"
     },
     {
       "id": "american-express-delta-skymiles-reserve",
@@ -611,7 +643,11 @@
           "availableMonths": [],
           "notificationsEnabled": true
         }
-      ]
+      ],
+      "sources": {
+        "annualFee": "https://www.americanexpress.com/us/credit-cards/card/delta-skymiles-reserve-american-express-card/"
+      },
+      "lastVerified": "2026-04-24T00:00:00Z"
     },
     {
       "id": "american-express-hilton-honors-surpass",
@@ -759,13 +795,42 @@
       "rewardProgram": "American Express Membership Rewards",
       "affiliateUrl": null,
       "colorHex": "B8860B",
-      "benefits": []
+      "benefits": [
+        {
+          "name": "Flexible Business Credit",
+          "amount": 20,
+          "renewalPeriod": "Monthly",
+          "periodBasis": "Calendar Year",
+          "category": "Shopping Credits",
+          "allowsPartialUse": true,
+          "notes": "Up to $20/month at FedEx, Grubhub, and U.S. office supply stores. Enrollment required.",
+          "availableMonths": [],
+          "notificationsEnabled": true
+        },
+        {
+          "name": "Walmart+ Membership Credit",
+          "amount": 12.95,
+          "renewalPeriod": "Monthly",
+          "periodBasis": "Calendar Year",
+          "category": "Shopping Credits",
+          "allowsPartialUse": false,
+          "notes": "Up to $12.95 plus applicable taxes on one monthly Walmart+ membership fee.",
+          "availableMonths": [],
+          "notificationsEnabled": true
+        }
+      ],
+      "sources": {
+        "annualFee": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/65147/",
+        "benefits.flexible-business-credit": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/65147/",
+        "benefits.walmart-membership-credit": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/65147/"
+      },
+      "lastVerified": "2026-04-24T00:00:00Z"
     },
     {
       "id": "american-express-business-platinum",
       "cardName": "Business Platinum",
       "issuer": "American Express",
-      "annualFee": 695,
+      "annualFee": 895,
       "noForeignTransactionFees": true,
       "earnRates": [
         {
@@ -803,13 +868,13 @@
           "notificationsEnabled": true
         },
         {
-          "name": "Dell Credit (Jan–Jun)",
+          "name": "Dell Credit (Jan\u2013Jun)",
           "amount": 150,
           "renewalPeriod": "Every 6 months",
           "periodBasis": "Calendar Year",
           "category": "Shopping Credits",
           "allowsPartialUse": false,
-          "notes": "U.S. Dell Technologies purchases, Jan–Jun",
+          "notes": "U.S. Dell Technologies purchases, Jan\u2013Jun",
           "availableMonths": [
             1,
             2,
@@ -821,13 +886,13 @@
           "notificationsEnabled": true
         },
         {
-          "name": "Dell Credit (Jul–Dec)",
+          "name": "Dell Credit (Jul\u2013Dec)",
           "amount": 150,
           "renewalPeriod": "Every 6 months",
           "periodBasis": "Calendar Year",
           "category": "Shopping Credits",
           "allowsPartialUse": false,
-          "notes": "U.S. Dell Technologies purchases, Jul–Dec",
+          "notes": "U.S. Dell Technologies purchases, Jul\u2013Dec",
           "availableMonths": [
             7,
             8,
@@ -851,8 +916,8 @@
         },
         {
           "name": "Hotel Credit",
-          "amount": 200,
-          "renewalPeriod": "Yearly",
+          "amount": 300,
+          "renewalPeriod": "Every 6 months",
           "periodBasis": "Calendar Year",
           "category": "Travel Credits",
           "allowsPartialUse": false,
@@ -860,7 +925,440 @@
           "availableMonths": [],
           "notificationsEnabled": true
         }
-      ]
+      ],
+      "sources": {
+        "annualFee": [
+          "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/65147/",
+          "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/american-express-business-platinum-credit-card-amex/"
+        ],
+        "benefits.hotel-credit": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/65147/"
+      },
+      "lastVerified": "2026-04-24T00:00:00Z"
+    },
+    {
+      "id": "american-express-hilton-honors-card",
+      "cardName": "Hilton Honors Card",
+      "issuer": "American Express",
+      "annualFee": 0,
+      "noForeignTransactionFees": true,
+      "earnRates": [],
+      "baseEarnRate": 3.0,
+      "rewardProgram": "Hilton Honors",
+      "affiliateUrl": null,
+      "colorHex": null,
+      "benefits": [],
+      "lastVerified": "2026-04-24T00:00:00Z",
+      "sources": {
+        "annualFee": "https://www.americanexpress.com/us/credit-cards/card/hilton-honors/",
+        "noForeignTransactionFees": "https://www.americanexpress.com/us/credit-cards/card-application/apply/prospect/terms/hilton-honors-credit-card/25330-10-0",
+        "baseEarnRate": "https://www.americanexpress.com/us/credit-cards/card-application/apply/prospect/terms/hilton-honors-credit-card/25330-10-0"
+      }
+    },
+    {
+      "id": "american-express-marriott-bonvoy-bevy",
+      "cardName": "Marriott Bonvoy Bevy",
+      "issuer": "American Express",
+      "annualFee": 250,
+      "noForeignTransactionFees": true,
+      "earnRates": [
+        {
+          "category": "dining",
+          "multiplier": 4.0,
+          "cap": 15000,
+          "notes": "Restaurants worldwide; up to $15,000 combined with U.S. supermarkets per calendar year, then 2X"
+        },
+        {
+          "category": "groceries",
+          "multiplier": 4.0,
+          "cap": 15000,
+          "notes": "U.S. supermarkets; up to $15,000 combined with restaurants per calendar year, then 2X"
+        }
+      ],
+      "baseEarnRate": 2.0,
+      "rewardProgram": "Marriott Bonvoy",
+      "affiliateUrl": null,
+      "colorHex": null,
+      "benefits": [
+        {
+          "name": "Free Night Award",
+          "amount": null,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Cardmember Year",
+          "category": "Travel Credits",
+          "allowsPartialUse": false,
+          "notes": "One free night at hotels up to 50,000 Marriott Bonvoy points per calendar year.",
+          "availableMonths": [],
+          "notificationsEnabled": true
+        }
+      ],
+      "lastVerified": "2026-04-24T00:00:00Z",
+      "sources": {
+        "annualFee": "https://www.americanexpress.com/us/credit-cards/card/marriott-bonvoy-bevy/",
+        "noForeignTransactionFees": "https://www.americanexpress.com/us/credit-cards/card-application/apply/prospect/terms/marriott-bonvoy-bevy-card/25330-10-0",
+        "earnRates.dining": "https://www.americanexpress.com/us/credit-cards/card-application/apply/prospect/terms/marriott-bonvoy-bevy-card/25330-10-0",
+        "earnRates.groceries": "https://www.americanexpress.com/us/credit-cards/card-application/apply/prospect/terms/marriott-bonvoy-bevy-card/25330-10-0",
+        "baseEarnRate": "https://www.americanexpress.com/us/credit-cards/card-application/apply/prospect/terms/marriott-bonvoy-bevy-card/25330-10-0",
+        "benefits.free-night-award": "https://www.americanexpress.com/us/credit-cards/card-application/apply/prospect/terms/marriott-bonvoy-bevy-card/25330-10-0"
+      }
+    },
+    {
+      "id": "american-express-delta-skymiles-blue",
+      "cardName": "Delta SkyMiles Blue",
+      "issuer": "American Express",
+      "annualFee": 0,
+      "noForeignTransactionFees": true,
+      "earnRates": [
+        {
+          "category": "dining",
+          "multiplier": 2.0,
+          "cap": null,
+          "notes": "Restaurants worldwide"
+        }
+      ],
+      "baseEarnRate": 1.0,
+      "rewardProgram": "Delta SkyMiles",
+      "affiliateUrl": null,
+      "colorHex": null,
+      "benefits": [],
+      "lastVerified": "2026-04-24T00:00:00Z",
+      "sources": {
+        "annualFee": "https://www.americanexpress.com/us/credit-cards/card/delta-skymiles-blue-american-express-card/",
+        "noForeignTransactionFees": "https://www.americanexpress.com/us/credit-cards/card-application/apply/prospect/terms/delta-skymiles-blue-american-express-card/25330-10-0",
+        "earnRates.dining": "https://www.americanexpress.com/us/credit-cards/card-application/apply/prospect/terms/delta-skymiles-blue-american-express-card/25330-10-0",
+        "baseEarnRate": "https://www.americanexpress.com/us/credit-cards/card-application/apply/prospect/terms/delta-skymiles-blue-american-express-card/25330-10-0"
+      }
+    },
+    {
+      "id": "american-express-business-green-rewards",
+      "cardName": "Business Green Rewards",
+      "issuer": "American Express",
+      "annualFee": 95,
+      "noForeignTransactionFees": false,
+      "earnRates": [
+        {
+          "category": "travel",
+          "multiplier": 2.0,
+          "cap": null,
+          "notes": "Flights and prepaid hotels booked on AmexTravel.com"
+        }
+      ],
+      "baseEarnRate": 1.0,
+      "rewardProgram": "American Express Membership Rewards",
+      "affiliateUrl": null,
+      "colorHex": null,
+      "benefits": [],
+      "lastVerified": "2026-04-24T00:00:00Z",
+      "sources": {
+        "annualFee": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/65147/",
+        "noForeignTransactionFees": "https://www.americanexpress.com/us/credit-cards/card-application/apply/prospect/terms/business-green-rewards-charge-card/65147-9-0",
+        "earnRates.travel": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/65147/"
+      }
+    },
+    {
+      "id": "american-express-blue-business-cash",
+      "cardName": "Blue Business Cash",
+      "issuer": "American Express",
+      "annualFee": 0,
+      "noForeignTransactionFees": false,
+      "earnRates": [
+        {
+          "category": "other",
+          "multiplier": 2.0,
+          "cap": 50000,
+          "notes": "2% cash back on all eligible purchases, up to $50,000 per calendar year, then 1%"
+        }
+      ],
+      "baseEarnRate": 1.0,
+      "rewardProgram": "Cash Back",
+      "affiliateUrl": null,
+      "colorHex": null,
+      "benefits": [],
+      "lastVerified": "2026-04-24T00:00:00Z",
+      "sources": {
+        "annualFee": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/65147/",
+        "noForeignTransactionFees": "https://www.americanexpress.com/us/credit-cards/card-application/apply/prospect/terms/bluebusinesscash-credit-card/45094-9-0",
+        "earnRates.other": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/65147/"
+      }
+    },
+    {
+      "id": "american-express-blue-business-plus",
+      "cardName": "Blue Business Plus",
+      "issuer": "American Express",
+      "annualFee": 0,
+      "noForeignTransactionFees": false,
+      "earnRates": [
+        {
+          "category": "other",
+          "multiplier": 2.0,
+          "cap": 50000,
+          "notes": "2X Membership Rewards points on all eligible purchases, up to $50,000 per calendar year, then 1X"
+        }
+      ],
+      "baseEarnRate": 1.0,
+      "rewardProgram": "American Express Membership Rewards",
+      "affiliateUrl": null,
+      "colorHex": null,
+      "benefits": [],
+      "lastVerified": "2026-04-24T00:00:00Z",
+      "sources": {
+        "annualFee": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/65147/",
+        "noForeignTransactionFees": "https://www.americanexpress.com/us/credit-cards/card-application/apply/prospect/terms/bluebusinessplus-credit-card/65147-9-0",
+        "earnRates.other": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/65147/"
+      }
+    },
+    {
+      "id": "american-express-delta-skymiles-reserve-business",
+      "cardName": "Delta SkyMiles Reserve Business",
+      "issuer": "American Express",
+      "annualFee": 650,
+      "noForeignTransactionFees": true,
+      "earnRates": [
+        {
+          "category": "travel",
+          "multiplier": 3.0,
+          "cap": null,
+          "notes": "Delta purchases"
+        },
+        {
+          "category": "transit",
+          "multiplier": 1.5,
+          "cap": null,
+          "notes": "Transit including rideshares, taxicabs, and more; also U.S. shipping providers and U.S. office supply stores"
+        }
+      ],
+      "baseEarnRate": 1.0,
+      "rewardProgram": "Delta SkyMiles",
+      "affiliateUrl": null,
+      "colorHex": null,
+      "benefits": [],
+      "lastVerified": "2026-04-24T00:00:00Z",
+      "sources": {
+        "annualFee": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/65147/",
+        "noForeignTransactionFees": "https://www.americanexpress.com/us/credit-cards/card-application/apply/prospect/terms/delta-skymiles-reserve/68733-9-0",
+        "earnRates.travel": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/65147/",
+        "earnRates.transit": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/65147/"
+      }
+    },
+    {
+      "id": "american-express-delta-skymiles-platinum-business",
+      "cardName": "Delta SkyMiles Platinum Business",
+      "issuer": "American Express",
+      "annualFee": 350,
+      "noForeignTransactionFees": true,
+      "earnRates": [
+        {
+          "category": "travel",
+          "multiplier": 3.0,
+          "cap": null,
+          "notes": "Delta purchases and purchases made directly with hotels"
+        },
+        {
+          "category": "transit",
+          "multiplier": 1.5,
+          "cap": 100000,
+          "notes": "Transit/rideshares, U.S. shipping, and single eligible purchases of $5,000+; up to $100,000 combined per calendar year"
+        }
+      ],
+      "baseEarnRate": 1.0,
+      "rewardProgram": "Delta SkyMiles",
+      "affiliateUrl": null,
+      "colorHex": null,
+      "benefits": [],
+      "lastVerified": "2026-04-24T00:00:00Z",
+      "sources": {
+        "annualFee": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/65147/",
+        "noForeignTransactionFees": "https://www.americanexpress.com/us/credit-cards/card-application/apply/prospect/terms/delta-skymiles-platinum/45094-9-0",
+        "earnRates.travel": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/65147/",
+        "earnRates.transit": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/65147/"
+      }
+    },
+    {
+      "id": "american-express-delta-skymiles-gold-business",
+      "cardName": "Delta SkyMiles Gold Business",
+      "issuer": "American Express",
+      "annualFee": 150,
+      "noForeignTransactionFees": true,
+      "earnRates": [
+        {
+          "category": "travel",
+          "multiplier": 2.0,
+          "cap": null,
+          "notes": "Delta purchases"
+        },
+        {
+          "category": "dining",
+          "multiplier": 2.0,
+          "cap": null,
+          "notes": "Restaurants worldwide"
+        },
+        {
+          "category": "other",
+          "multiplier": 2.0,
+          "cap": 50000,
+          "notes": "U.S. shipping providers and U.S. advertising in select media; up to $50,000 per category per calendar year"
+        }
+      ],
+      "baseEarnRate": 1.0,
+      "rewardProgram": "Delta SkyMiles",
+      "affiliateUrl": null,
+      "colorHex": null,
+      "benefits": [
+        {
+          "name": "Delta Flight Credit",
+          "amount": 200,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Calendar Year",
+          "category": "Travel Credits",
+          "allowsPartialUse": false,
+          "notes": "Awarded after $10,000 in purchases on the Card in a calendar year.",
+          "availableMonths": [],
+          "notificationsEnabled": true
+        }
+      ],
+      "lastVerified": "2026-04-24T00:00:00Z",
+      "sources": {
+        "annualFee": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/65147/",
+        "noForeignTransactionFees": "https://www.americanexpress.com/us/credit-cards/card-application/apply/prospect/terms/delta-skymiles-gold/65147-9-0",
+        "earnRates.travel": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/65147/",
+        "earnRates.dining": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/65147/",
+        "earnRates.other": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/65147/",
+        "benefits.delta-flight-credit": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/65147/"
+      }
+    },
+    {
+      "id": "american-express-marriott-bonvoy-business",
+      "cardName": "Marriott Bonvoy Business",
+      "issuer": "American Express",
+      "annualFee": 125,
+      "noForeignTransactionFees": true,
+      "earnRates": [
+        {
+          "category": "travel",
+          "multiplier": 6.0,
+          "cap": null,
+          "notes": "Hotels participating in the Marriott Bonvoy program"
+        },
+        {
+          "category": "dining",
+          "multiplier": 4.0,
+          "cap": null,
+          "notes": "Restaurants worldwide"
+        },
+        {
+          "category": "gas",
+          "multiplier": 4.0,
+          "cap": null,
+          "notes": "U.S. gas stations"
+        },
+        {
+          "category": "other",
+          "multiplier": 4.0,
+          "cap": null,
+          "notes": "U.S. wireless telephone service providers and U.S. shipping providers"
+        }
+      ],
+      "baseEarnRate": 2.0,
+      "rewardProgram": "Marriott Bonvoy",
+      "affiliateUrl": null,
+      "colorHex": null,
+      "benefits": [
+        {
+          "name": "Free Night Award",
+          "amount": null,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Cardmember Year",
+          "category": "Travel Credits",
+          "allowsPartialUse": false,
+          "notes": "One free night at hotels up to 35,000 Marriott Bonvoy points per card renewal month. Additional award earned at $60K annual spend.",
+          "availableMonths": [],
+          "notificationsEnabled": true
+        }
+      ],
+      "lastVerified": "2026-04-24T00:00:00Z",
+      "sources": {
+        "annualFee": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/65147/",
+        "noForeignTransactionFees": "https://www.americanexpress.com/us/credit-cards/card-application/apply/prospect/terms/marriott-bonvoy-business-american-express-card/65147-9-0",
+        "earnRates.travel": "https://www.americanexpress.com/us/credit-cards/card-application/apply/prospect/terms/marriott-bonvoy-business-american-express-card/65147-9-0",
+        "earnRates.dining": "https://www.americanexpress.com/us/credit-cards/card-application/apply/prospect/terms/marriott-bonvoy-business-american-express-card/65147-9-0",
+        "earnRates.gas": "https://www.americanexpress.com/us/credit-cards/card-application/apply/prospect/terms/marriott-bonvoy-business-american-express-card/65147-9-0",
+        "earnRates.other": "https://www.americanexpress.com/us/credit-cards/card-application/apply/prospect/terms/marriott-bonvoy-business-american-express-card/65147-9-0",
+        "baseEarnRate": "https://www.americanexpress.com/us/credit-cards/card-application/apply/prospect/terms/marriott-bonvoy-business-american-express-card/65147-9-0",
+        "benefits.free-night-award": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/65147/"
+      }
+    },
+    {
+      "id": "american-express-hilton-honors-business",
+      "cardName": "Hilton Honors Business",
+      "issuer": "American Express",
+      "annualFee": 195,
+      "noForeignTransactionFees": true,
+      "earnRates": [
+        {
+          "category": "travel",
+          "multiplier": 12.0,
+          "cap": null,
+          "notes": "Hotels and resorts within the Hilton portfolio"
+        },
+        {
+          "category": "other",
+          "multiplier": 5.0,
+          "cap": 100000,
+          "notes": "All other eligible purchases; up to $100,000 per calendar year, then 3X"
+        }
+      ],
+      "baseEarnRate": 3.0,
+      "rewardProgram": "Hilton Honors",
+      "affiliateUrl": null,
+      "colorHex": null,
+      "benefits": [
+        {
+          "name": "Hilton Property Credit",
+          "amount": 60,
+          "renewalPeriod": "Every 3 months",
+          "periodBasis": "Calendar Year",
+          "category": "Travel Credits",
+          "allowsPartialUse": true,
+          "notes": "Up to $60 per quarter (up to $240 annually) for eligible purchases made directly with a Hilton property.",
+          "availableMonths": [],
+          "notificationsEnabled": true
+        }
+      ],
+      "lastVerified": "2026-04-24T00:00:00Z",
+      "sources": {
+        "annualFee": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/65147/",
+        "noForeignTransactionFees": "https://www.americanexpress.com/us/credit-cards/card-application/apply/prospect/terms/hilton-honors-american-express-business-credit-card/65147-9-0",
+        "earnRates.travel": "https://www.americanexpress.com/us/credit-cards/card-application/apply/prospect/terms/hilton-honors-american-express-business-credit-card/65147-9-0",
+        "earnRates.other": "https://www.americanexpress.com/us/credit-cards/card-application/apply/prospect/terms/hilton-honors-american-express-business-credit-card/65147-9-0",
+        "baseEarnRate": "https://www.americanexpress.com/us/credit-cards/card-application/apply/prospect/terms/hilton-honors-american-express-business-credit-card/65147-9-0",
+        "benefits.hilton-property-credit": "https://www.americanexpress.com/us/credit-cards/card-application/apply/prospect/terms/hilton-honors-american-express-business-credit-card/65147-9-0"
+      }
+    },
+    {
+      "id": "american-express-graphite-business-cash-unlimited",
+      "cardName": "Graphite Business Cash Unlimited",
+      "issuer": "American Express",
+      "annualFee": 295,
+      "noForeignTransactionFees": true,
+      "earnRates": [
+        {
+          "category": "travel",
+          "multiplier": 5.0,
+          "cap": null,
+          "notes": "Flights and prepaid hotels booked through American Express Travel Online"
+        }
+      ],
+      "baseEarnRate": 2.0,
+      "rewardProgram": "Cash Back",
+      "affiliateUrl": null,
+      "colorHex": null,
+      "benefits": [],
+      "lastVerified": "2026-04-24T00:00:00Z",
+      "sources": {
+        "annualFee": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/65147/",
+        "noForeignTransactionFees": "https://www.americanexpress.com/us/credit-cards/card-application/apply/prospect/terms/graphite-business-card/73056-9-0",
+        "earnRates.travel": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/65147/",
+        "baseEarnRate": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/65147/"
+      }
     },
     {
       "id": "barclays-aadvantage-aviator-red-world-elite",
@@ -1255,7 +1753,7 @@
           "periodBasis": "Cardmember Year",
           "category": "Travel Credits",
           "allowsPartialUse": false,
-          "notes": "2 one-time United Club passes per year — no dollar amount to track",
+          "notes": "2 one-time United Club passes per year \u2014 no dollar amount to track",
           "availableMonths": [],
           "notificationsEnabled": false
         }
@@ -1293,7 +1791,7 @@
           "periodBasis": "Cardmember Year",
           "category": "Travel Credits",
           "allowsPartialUse": false,
-          "notes": "Complimentary United Club lounge access — no dollar amount to track",
+          "notes": "Complimentary United Club lounge access \u2014 no dollar amount to track",
           "availableMonths": [],
           "notificationsEnabled": false
         }
@@ -3115,13 +3613,13 @@
           "category": "dining",
           "multiplier": 3.0,
           "cap": 25000,
-          "notes": "Or groceries — choose one category per calendar year"
+          "notes": "Or groceries \u2014 choose one category per calendar year"
         },
         {
           "category": "groceries",
           "multiplier": 3.0,
           "cap": 25000,
-          "notes": "Or dining — choose one category per calendar year"
+          "notes": "Or dining \u2014 choose one category per calendar year"
         },
         {
           "category": "travel",
