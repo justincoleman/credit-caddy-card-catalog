@@ -34,7 +34,7 @@
           "renewalPeriod": "Monthly",
           "periodBasis": "Calendar Year",
           "category": "Travel Credits",
-          "allowsPartialUse": false,
+          "allowsPartialUse": true,
           "notes": null,
           "availableMonths": [],
           "notificationsEnabled": true
@@ -45,7 +45,7 @@
           "renewalPeriod": "Yearly",
           "periodBasis": "Calendar Year",
           "category": "Travel Credits",
-          "allowsPartialUse": false,
+          "allowsPartialUse": true,
           "notes": null,
           "availableMonths": [
             12
@@ -69,7 +69,7 @@
           "renewalPeriod": "Monthly",
           "periodBasis": "Calendar Year",
           "category": "Shopping Credits",
-          "allowsPartialUse": false,
+          "allowsPartialUse": true,
           "notes": "Plus taxes and fees",
           "availableMonths": [],
           "notificationsEnabled": true
@@ -80,7 +80,7 @@
           "renewalPeriod": "Monthly",
           "periodBasis": "Calendar Year",
           "category": "Travel Credits",
-          "allowsPartialUse": false,
+          "allowsPartialUse": true,
           "notes": null,
           "availableMonths": [],
           "notificationsEnabled": true
@@ -113,7 +113,7 @@
           "renewalPeriod": "Every 6 months",
           "periodBasis": "Calendar Year",
           "category": "Shopping Credits",
-          "allowsPartialUse": false,
+          "allowsPartialUse": true,
           "notes": null,
           "availableMonths": [],
           "notificationsEnabled": true
@@ -146,7 +146,7 @@
           "renewalPeriod": "Yearly",
           "periodBasis": "Calendar Year",
           "category": "Travel Credits",
-          "allowsPartialUse": false,
+          "allowsPartialUse": true,
           "notes": null,
           "availableMonths": [],
           "notificationsEnabled": true
@@ -179,7 +179,7 @@
           "renewalPeriod": "Yearly",
           "periodBasis": "Cardmember Year",
           "category": "Travel Credits",
-          "allowsPartialUse": false,
+          "allowsPartialUse": true,
           "notes": "Every 4 years",
           "availableMonths": [],
           "notificationsEnabled": true
@@ -230,7 +230,7 @@
           "renewalPeriod": "Monthly",
           "periodBasis": "Calendar Year",
           "category": "Dining Credits",
-          "allowsPartialUse": false,
+          "allowsPartialUse": true,
           "notes": null,
           "availableMonths": [],
           "notificationsEnabled": true
@@ -241,7 +241,7 @@
           "renewalPeriod": "Monthly",
           "periodBasis": "Calendar Year",
           "category": "Dining Credits",
-          "allowsPartialUse": false,
+          "allowsPartialUse": true,
           "notes": null,
           "availableMonths": [],
           "notificationsEnabled": true
@@ -252,7 +252,7 @@
           "renewalPeriod": "Monthly",
           "periodBasis": "Calendar Year",
           "category": "Dining Credits",
-          "allowsPartialUse": false,
+          "allowsPartialUse": true,
           "notes": null,
           "availableMonths": [],
           "notificationsEnabled": true
@@ -306,7 +306,7 @@
           "renewalPeriod": "Yearly",
           "periodBasis": "Calendar Year",
           "category": "Travel Credits",
-          "allowsPartialUse": false,
+          "allowsPartialUse": true,
           "notes": null,
           "availableMonths": [],
           "notificationsEnabled": true
@@ -382,7 +382,7 @@
           "renewalPeriod": "Yearly",
           "periodBasis": "Cardmember Year",
           "category": "Travel Credits",
-          "allowsPartialUse": false,
+          "allowsPartialUse": true,
           "notes": "Every 4 years",
           "availableMonths": [],
           "notificationsEnabled": true
@@ -436,7 +436,7 @@
           "renewalPeriod": "Monthly",
           "periodBasis": "Calendar Year",
           "category": "Shopping Credits",
-          "allowsPartialUse": false,
+          "allowsPartialUse": true,
           "notes": "Statement credit for Equinox+ app subscription",
           "availableMonths": [],
           "notificationsEnabled": true
@@ -447,7 +447,7 @@
           "renewalPeriod": "Monthly",
           "periodBasis": "Calendar Year",
           "category": "Streaming Credits",
-          "allowsPartialUse": false,
+          "allowsPartialUse": true,
           "notes": "Statement credit toward Disney+, Hulu, or ESPN+ bundle",
           "availableMonths": [],
           "notificationsEnabled": true
@@ -495,7 +495,7 @@
           "renewalPeriod": "Monthly",
           "periodBasis": "Calendar Year",
           "category": "Streaming Credits",
-          "allowsPartialUse": false,
+          "allowsPartialUse": true,
           "notes": "Statement credit toward Disney+, Hulu, or ESPN+ bundle",
           "availableMonths": [],
           "notificationsEnabled": true
@@ -543,7 +543,7 @@
           "renewalPeriod": "Yearly",
           "periodBasis": "Cardmember Year",
           "category": "Travel Credits",
-          "allowsPartialUse": false,
+          "allowsPartialUse": true,
           "notes": "Awarded after $10K in eligible purchases per cardmember year",
           "availableMonths": [],
           "notificationsEnabled": true
@@ -585,7 +585,7 @@
           "renewalPeriod": "Yearly",
           "periodBasis": "Cardmember Year",
           "category": "Travel Credits",
-          "allowsPartialUse": false,
+          "allowsPartialUse": true,
           "notes": "Prepaid hotels booked on deltastays.com",
           "availableMonths": [],
           "notificationsEnabled": true
@@ -632,7 +632,7 @@
           "renewalPeriod": "Monthly",
           "periodBasis": "Calendar Year",
           "category": "Dining Credits",
-          "allowsPartialUse": false,
+          "allowsPartialUse": true,
           "notes": "Restaurants booked on Resy",
           "availableMonths": [],
           "notificationsEnabled": true
@@ -643,7 +643,7 @@
           "renewalPeriod": "Monthly",
           "periodBasis": "Calendar Year",
           "category": "Travel Credits",
-          "allowsPartialUse": false,
+          "allowsPartialUse": true,
           "notes": "Lyft or Uber rides",
           "availableMonths": [],
           "notificationsEnabled": true
@@ -697,7 +697,7 @@
           "renewalPeriod": "Every 3 months",
           "periodBasis": "Calendar Year",
           "category": "Travel Credits",
-          "allowsPartialUse": false,
+          "allowsPartialUse": true,
           "notes": "Eligible purchases at Hilton Resorts",
           "availableMonths": [],
           "notificationsEnabled": true
@@ -739,7 +739,7 @@
           "renewalPeriod": "Every 6 months",
           "periodBasis": "Calendar Year",
           "category": "Travel Credits",
-          "allowsPartialUse": false,
+          "allowsPartialUse": true,
           "notes": "Eligible purchases at Hilton Resorts",
           "availableMonths": [],
           "notificationsEnabled": true
@@ -750,7 +750,7 @@
           "renewalPeriod": "Yearly",
           "periodBasis": "Calendar Year",
           "category": "Travel Credits",
-          "allowsPartialUse": false,
+          "allowsPartialUse": true,
           "notes": "Eligible flight purchases",
           "availableMonths": [],
           "notificationsEnabled": true
@@ -761,7 +761,7 @@
           "renewalPeriod": "Every 6 months",
           "periodBasis": "Calendar Year",
           "category": "Travel Credits",
-          "allowsPartialUse": false,
+          "allowsPartialUse": true,
           "notes": "Usable at Waldorf Astoria and Conrad properties",
           "availableMonths": [],
           "notificationsEnabled": true
@@ -832,7 +832,7 @@
           "renewalPeriod": "Monthly",
           "periodBasis": "Calendar Year",
           "category": "Shopping Credits",
-          "allowsPartialUse": false,
+          "allowsPartialUse": true,
           "notes": "Up to $12.95 plus applicable taxes on one monthly Walmart+ membership fee.",
           "availableMonths": [],
           "notificationsEnabled": true
@@ -871,7 +871,7 @@
           "renewalPeriod": "Yearly",
           "periodBasis": "Calendar Year",
           "category": "Travel Credits",
-          "allowsPartialUse": false,
+          "allowsPartialUse": true,
           "notes": "Incidental fees on one selected qualifying airline",
           "availableMonths": [],
           "notificationsEnabled": true
@@ -882,7 +882,7 @@
           "renewalPeriod": "Yearly",
           "periodBasis": "Calendar Year",
           "category": "Travel Credits",
-          "allowsPartialUse": false,
+          "allowsPartialUse": true,
           "notes": "Annual CLEAR Plus membership fee",
           "availableMonths": [],
           "notificationsEnabled": true
@@ -893,7 +893,7 @@
           "renewalPeriod": "Every 6 months",
           "periodBasis": "Calendar Year",
           "category": "Shopping Credits",
-          "allowsPartialUse": false,
+          "allowsPartialUse": true,
           "notes": "U.S. Dell Technologies purchases, Jan–Jun",
           "availableMonths": [
             1,
@@ -911,7 +911,7 @@
           "renewalPeriod": "Every 6 months",
           "periodBasis": "Calendar Year",
           "category": "Shopping Credits",
-          "allowsPartialUse": false,
+          "allowsPartialUse": true,
           "notes": "U.S. Dell Technologies purchases, Jul–Dec",
           "availableMonths": [
             7,
@@ -929,7 +929,7 @@
           "renewalPeriod": "Monthly",
           "periodBasis": "Calendar Year",
           "category": "Shopping Credits",
-          "allowsPartialUse": false,
+          "allowsPartialUse": true,
           "notes": "U.S. wireless telephone service providers",
           "availableMonths": [],
           "notificationsEnabled": true
@@ -940,7 +940,7 @@
           "renewalPeriod": "Every 6 months",
           "periodBasis": "Calendar Year",
           "category": "Travel Credits",
-          "allowsPartialUse": false,
+          "allowsPartialUse": true,
           "notes": "Prepaid Fine Hotels + Resorts or The Hotel Collection (min 2-night stay) bookings via Amex Travel",
           "availableMonths": [],
           "notificationsEnabled": true
@@ -951,7 +951,7 @@
           "renewalPeriod": "Every 3 months",
           "periodBasis": "Calendar Year",
           "category": "Travel Credits",
-          "allowsPartialUse": false,
+          "allowsPartialUse": true,
           "notes": "Eligible purchases made directly with Hilton. Hilton for Business enrollment required.",
           "availableMonths": [],
           "notificationsEnabled": true
@@ -1244,7 +1244,7 @@
           "renewalPeriod": "Yearly",
           "periodBasis": "Calendar Year",
           "category": "Travel Credits",
-          "allowsPartialUse": false,
+          "allowsPartialUse": true,
           "notes": "Awarded after $10,000 in purchases on the Card in a calendar year.",
           "availableMonths": [],
           "notificationsEnabled": true
@@ -1451,7 +1451,7 @@
           "renewalPeriod": "Yearly",
           "periodBasis": "Cardmember Year",
           "category": "Travel Credits",
-          "allowsPartialUse": false,
+          "allowsPartialUse": true,
           "notes": null,
           "availableMonths": [],
           "notificationsEnabled": true
@@ -1550,7 +1550,7 @@
           "renewalPeriod": "Yearly",
           "periodBasis": "Cardmember Year",
           "category": "Travel Credits",
-          "allowsPartialUse": false,
+          "allowsPartialUse": true,
           "notes": "Statement credit on JetBlue Vacations package",
           "availableMonths": [],
           "notificationsEnabled": true
@@ -1778,7 +1778,7 @@
           "renewalPeriod": "Yearly",
           "periodBasis": "Cardmember Year",
           "category": "Travel Credits",
-          "allowsPartialUse": false,
+          "allowsPartialUse": true,
           "notes": "Every 4 years",
           "availableMonths": [],
           "notificationsEnabled": true
@@ -1915,7 +1915,7 @@
           "renewalPeriod": "Yearly",
           "periodBasis": "Cardmember Year",
           "category": "Travel Credits",
-          "allowsPartialUse": false,
+          "allowsPartialUse": true,
           "notes": "Any airline ticket purchased through Chase Travel",
           "availableMonths": [],
           "notificationsEnabled": true
@@ -1976,7 +1976,7 @@
           "renewalPeriod": "Yearly",
           "periodBasis": "Cardmember Year",
           "category": "Travel Credits",
-          "allowsPartialUse": false,
+          "allowsPartialUse": true,
           "notes": "Every 4 years",
           "availableMonths": [],
           "notificationsEnabled": true
@@ -2008,7 +2008,7 @@
           "renewalPeriod": "Yearly",
           "periodBasis": "Cardmember Year",
           "category": "Travel Credits",
-          "allowsPartialUse": false,
+          "allowsPartialUse": true,
           "notes": "Every 4 years",
           "availableMonths": [],
           "notificationsEnabled": true
@@ -2057,7 +2057,7 @@
           "renewalPeriod": "Yearly",
           "periodBasis": "Cardmember Year",
           "category": "Travel Credits",
-          "allowsPartialUse": false,
+          "allowsPartialUse": true,
           "notes": "Every 4 years",
           "availableMonths": [],
           "notificationsEnabled": true
@@ -2171,7 +2171,7 @@
           "renewalPeriod": "Yearly",
           "periodBasis": "Cardmember Year",
           "category": "Travel Credits",
-          "allowsPartialUse": false,
+          "allowsPartialUse": true,
           "notes": null,
           "availableMonths": [],
           "notificationsEnabled": true
@@ -2215,7 +2215,7 @@
           "renewalPeriod": "Monthly",
           "periodBasis": "Calendar Year",
           "category": "Travel Credits",
-          "allowsPartialUse": false,
+          "allowsPartialUse": true,
           "notes": null,
           "availableMonths": [],
           "notificationsEnabled": true
@@ -2226,7 +2226,7 @@
           "renewalPeriod": "Monthly",
           "periodBasis": "Calendar Year",
           "category": "Shopping Credits",
-          "allowsPartialUse": false,
+          "allowsPartialUse": true,
           "notes": null,
           "availableMonths": [],
           "notificationsEnabled": true
@@ -2237,7 +2237,7 @@
           "renewalPeriod": "Monthly",
           "periodBasis": "Calendar Year",
           "category": "Dining Credits",
-          "allowsPartialUse": false,
+          "allowsPartialUse": true,
           "notes": "Through 12/31/2027",
           "availableMonths": [],
           "notificationsEnabled": true
@@ -2303,7 +2303,7 @@
           "renewalPeriod": "Yearly",
           "periodBasis": "Calendar Year",
           "category": "Shopping Credits",
-          "allowsPartialUse": false,
+          "allowsPartialUse": true,
           "notes": "Through 6/22/2027",
           "availableMonths": [],
           "notificationsEnabled": true
@@ -2314,7 +2314,7 @@
           "renewalPeriod": "Yearly",
           "periodBasis": "Cardmember Year",
           "category": "Travel Credits",
-          "allowsPartialUse": false,
+          "allowsPartialUse": true,
           "notes": "Every 4 years",
           "availableMonths": [],
           "notificationsEnabled": true
@@ -2351,7 +2351,7 @@
           "renewalPeriod": "Yearly",
           "periodBasis": "Calendar Year",
           "category": "Travel Credits",
-          "allowsPartialUse": false,
+          "allowsPartialUse": true,
           "notes": null,
           "availableMonths": [],
           "notificationsEnabled": true
@@ -2362,7 +2362,7 @@
           "renewalPeriod": "Yearly",
           "periodBasis": "Cardmember Year",
           "category": "Travel Credits",
-          "allowsPartialUse": false,
+          "allowsPartialUse": true,
           "notes": "Every 4 years",
           "availableMonths": [],
           "notificationsEnabled": true
@@ -2458,7 +2458,7 @@
           "renewalPeriod": "Yearly",
           "periodBasis": "Cardmember Year",
           "category": "Travel Credits",
-          "allowsPartialUse": false,
+          "allowsPartialUse": true,
           "notes": "Every 4 years",
           "availableMonths": [],
           "notificationsEnabled": true
@@ -2774,7 +2774,7 @@
           "renewalPeriod": "Yearly",
           "periodBasis": "Cardmember Year",
           "category": "Travel Credits",
-          "allowsPartialUse": false,
+          "allowsPartialUse": true,
           "notes": "Every 4 years",
           "availableMonths": [],
           "notificationsEnabled": true
@@ -2832,7 +2832,7 @@
           "renewalPeriod": "Yearly",
           "periodBasis": "Cardmember Year",
           "category": "Travel Credits",
-          "allowsPartialUse": false,
+          "allowsPartialUse": true,
           "notes": "Every 4 years",
           "availableMonths": [],
           "notificationsEnabled": true
@@ -2892,7 +2892,7 @@
           "renewalPeriod": "Yearly",
           "periodBasis": "Cardmember Year",
           "category": "Travel Credits",
-          "allowsPartialUse": false,
+          "allowsPartialUse": true,
           "notes": "Every 4 years",
           "availableMonths": [],
           "notificationsEnabled": true
@@ -2942,7 +2942,7 @@
           "renewalPeriod": "Yearly",
           "periodBasis": "Calendar Year",
           "category": "Travel Credits",
-          "allowsPartialUse": false,
+          "allowsPartialUse": true,
           "notes": "$100 off $500+ hotel stay via CitiTravel",
           "availableMonths": [],
           "notificationsEnabled": true
@@ -3019,7 +3019,7 @@
           "renewalPeriod": "Yearly",
           "periodBasis": "Cardmember Year",
           "category": "Travel Credits",
-          "allowsPartialUse": false,
+          "allowsPartialUse": true,
           "notes": "Every 4 years",
           "availableMonths": [],
           "notificationsEnabled": true
@@ -3101,7 +3101,7 @@
           "renewalPeriod": "Yearly",
           "periodBasis": "Cardmember Year",
           "category": "Travel Credits",
-          "allowsPartialUse": false,
+          "allowsPartialUse": true,
           "notes": "Every 4 years",
           "availableMonths": [],
           "notificationsEnabled": true
@@ -3161,7 +3161,7 @@
           "renewalPeriod": "Yearly",
           "periodBasis": "Cardmember Year",
           "category": "Travel Credits",
-          "allowsPartialUse": false,
+          "allowsPartialUse": true,
           "notes": "Every 4 years",
           "availableMonths": [],
           "notificationsEnabled": true
@@ -3302,7 +3302,7 @@
           "renewalPeriod": "Yearly",
           "periodBasis": "Calendar Year",
           "category": "Travel Credits",
-          "allowsPartialUse": false,
+          "allowsPartialUse": true,
           "notes": "$50 voucher issued automatically if Alaska flight is delayed 2+ hours or cancelled within 24h",
           "availableMonths": [],
           "notificationsEnabled": false
@@ -3352,7 +3352,7 @@
           "renewalPeriod": "Yearly",
           "periodBasis": "Calendar Year",
           "category": "Travel Credits",
-          "allowsPartialUse": false,
+          "allowsPartialUse": true,
           "notes": "$50 min airline purchase required",
           "availableMonths": [],
           "notificationsEnabled": true
@@ -3414,7 +3414,7 @@
           "renewalPeriod": "Yearly",
           "periodBasis": "Calendar Year",
           "category": "Shopping Credits",
-          "allowsPartialUse": false,
+          "allowsPartialUse": true,
           "notes": "$25 deductible per claim; requires paying monthly phone bill with card. Not a statement credit.",
           "availableMonths": [],
           "notificationsEnabled": false
@@ -3439,7 +3439,7 @@
           "renewalPeriod": "Yearly",
           "periodBasis": "Calendar Year",
           "category": "Shopping Credits",
-          "allowsPartialUse": false,
+          "allowsPartialUse": true,
           "notes": "$25 deductible per claim; requires paying monthly phone bill with card. Not a statement credit.",
           "availableMonths": [],
           "notificationsEnabled": false
@@ -3527,7 +3527,7 @@
           "renewalPeriod": "Yearly",
           "periodBasis": "Cardmember Year",
           "category": "Travel Credits",
-          "allowsPartialUse": false,
+          "allowsPartialUse": true,
           "notes": "Every 4 years; redeemable once per card",
           "availableMonths": [],
           "notificationsEnabled": true
@@ -3693,7 +3693,7 @@
           "renewalPeriod": "Every 6 months",
           "periodBasis": "Calendar Year",
           "category": "Travel Credits",
-          "allowsPartialUse": false,
+          "allowsPartialUse": true,
           "notes": "$50 credit for 2+ night hotel bookings via Bilt Travel portal; issued twice per year",
           "availableMonths": [],
           "notificationsEnabled": true
@@ -3725,7 +3725,7 @@
           "renewalPeriod": "Every 6 months",
           "periodBasis": "Calendar Year",
           "category": "Travel Credits",
-          "allowsPartialUse": false,
+          "allowsPartialUse": true,
           "notes": "$200 credit for qualifying hotel bookings via Bilt Travel portal; issued twice per year",
           "availableMonths": [],
           "notificationsEnabled": true
@@ -3736,7 +3736,7 @@
           "renewalPeriod": "Yearly",
           "periodBasis": "Cardmember Year",
           "category": "Travel Credits",
-          "allowsPartialUse": false,
+          "allowsPartialUse": true,
           "notes": "$200 Bilt Cash awarded annually; usable toward rent/housing payments",
           "availableMonths": [],
           "notificationsEnabled": true
