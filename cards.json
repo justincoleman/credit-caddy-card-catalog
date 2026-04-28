@@ -2498,14 +2498,15 @@
         },
         {
           "name": "Companion Pass Points (10K)",
-          "amount": null,
+          "amount": 135,
           "renewalPeriod": "Yearly",
           "periodBasis": "Calendar Year",
           "category": "Travel Credits",
           "allowsPartialUse": false,
           "notes": "Qualifying points boost",
           "availableMonths": [],
-          "notificationsEnabled": true
+          "notificationsEnabled": true,
+          "requiresValueOnUse": true
         }
       ]
     },
@@ -2564,14 +2565,15 @@
         },
         {
           "name": "Companion Pass Points (10K)",
-          "amount": null,
+          "amount": 135,
           "renewalPeriod": "Yearly",
           "periodBasis": "Calendar Year",
           "category": "Travel Credits",
           "allowsPartialUse": false,
           "notes": "Qualifying points boost",
           "availableMonths": [],
-          "notificationsEnabled": true
+          "notificationsEnabled": true,
+          "requiresValueOnUse": true
         }
       ]
     },
@@ -2877,14 +2879,15 @@
         },
         {
           "name": "4th Night Free Benefit",
-          "amount": null,
+          "amount": 250,
           "renewalPeriod": "Yearly",
           "periodBasis": "Calendar Year",
           "category": "Travel Credits",
           "allowsPartialUse": false,
           "notes": "2x per year via ThankYou portal",
           "availableMonths": [],
-          "notificationsEnabled": true
+          "notificationsEnabled": true,
+          "requiresValueOnUse": true
         },
         {
           "name": "Global Entry/TSA PreCheck Credit",
@@ -3287,14 +3290,15 @@
       "benefits": [
         {
           "name": "Global Companion Award (25K miles)",
-          "amount": null,
+          "amount": 350,
           "renewalPeriod": "Yearly",
           "periodBasis": "Cardmember Year",
           "category": "Travel Credits",
           "allowsPartialUse": false,
           "notes": "25,000-mile companion award each anniversary; redeemable for a companion ticket",
           "availableMonths": [],
-          "notificationsEnabled": true
+          "notificationsEnabled": true,
+          "requiresValueOnUse": true
         },
         {
           "name": "Flight Delay Voucher",
