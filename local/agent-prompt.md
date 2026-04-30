@@ -145,11 +145,23 @@ For each of the 13 existing cards:
      "No foreign transaction fees"; false if a fee is stated in the
      rates & fees table.
    - `earnRates` — every point/mile multiplier on the page. Map to
-     this exact category enum: `dining, drugstores, gas, groceries,
-     onlineShopping, other, rent, streaming, transit, travel`. Use
-     `"other"` with a descriptive `notes` string for categories that
-     do not fit any of the above (e.g. "U.S. streaming subscriptions",
-     "Hilton hotels", "direct-booked airfare").
+     this exact category enum: `airfare, dining, drugstores, gas,
+     groceries, hotels, onlineShopping, other, rent, streaming,
+     transit, travel`.
+       - Use `airfare` for flight-specific multipliers (direct-with-
+         airline, Amex Travel flights, "flights booked through ___").
+       - Use `hotels` for hotel-specific multipliers (direct-with-
+         brand, Amex Travel hotels, FHR/THC, "hotels booked through ___").
+       - Use `travel` only for the general everywhere-travel category
+         that doesn't single out flights or hotels (e.g. taxis, parking,
+         tolls, transit, cruises, vacation packages — what most cards
+         label "travel" or "transportation").
+       - Use `"other"` with a descriptive `notes` string for everything
+         that doesn't fit any of the above.
+     For each earn rate, set `isConditional: true` when the multiplier
+     requires booking via a specific channel (Amex Travel portal,
+     issuer portal, direct with merchant). Set `isConditional: false`
+     for everywhere-applicable category bonuses (e.g. 4x dining anywhere).
    - `baseEarnRate` — the "all other purchases" multiplier, usually 1.0.
    - `rewardProgram` — program name, exactly as Amex writes it
      (e.g. "American Express Membership Rewards", "Hilton Honors",

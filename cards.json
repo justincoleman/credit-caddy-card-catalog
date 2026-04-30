@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "version": "2026.04.24",
-  "lastUpdated": "2026-04-24T14:00:00Z",
+  "version": "2026.04.30",
+  "lastUpdated": "2026-04-30T16:00:00Z",
   "cards": [
     {
       "id": "american-express-platinum-card",
@@ -11,16 +11,24 @@
       "noForeignTransactionFees": true,
       "earnRates": [
         {
-          "category": "travel",
+          "category": "hotels",
           "multiplier": 5,
           "cap": 500000,
-          "notes": "Flights booked directly with airlines or via Amex Travel, and prepaid hotels via Amex Travel; up to $500,000 per calendar year"
+          "notes": "Flights booked directly with airlines or via Amex Travel, and prepaid hotels via Amex Travel; up to $500,000 per calendar year",
+          "isConditional": false
         },
         {
           "category": "dining",
           "multiplier": 1,
           "cap": null,
           "notes": null
+        },
+        {
+          "category": "airfare",
+          "multiplier": 5,
+          "cap": 500000,
+          "notes": "Flights booked directly with airlines or via Amex Travel, and prepaid hotels via Amex Travel; up to $500,000 per calendar year",
+          "isConditional": false
         }
       ],
       "baseEarnRate": 1,
@@ -213,10 +221,11 @@
           "notes": "U.S. supermarkets, up to $25K/yr"
         },
         {
-          "category": "travel",
+          "category": "airfare",
           "multiplier": 3,
           "cap": null,
-          "notes": "Flights booked directly with airlines or via Amex Travel"
+          "notes": "Flights booked directly with airlines or via Amex Travel",
+          "isConditional": false
         }
       ],
       "baseEarnRate": 1,
@@ -331,7 +340,7 @@
           "notes": "Restaurants worldwide"
         },
         {
-          "category": "travel",
+          "category": "airfare",
           "multiplier": 3,
           "cap": null,
           "notes": "Flights booked directly"
@@ -514,10 +523,11 @@
       "noForeignTransactionFees": false,
       "earnRates": [
         {
-          "category": "travel",
+          "category": "airfare",
           "multiplier": 2,
           "cap": null,
-          "notes": "Delta purchases"
+          "notes": "Delta purchases",
+          "isConditional": true
         },
         {
           "category": "dining",
@@ -562,10 +572,11 @@
       "noForeignTransactionFees": false,
       "earnRates": [
         {
-          "category": "travel",
+          "category": "airfare",
           "multiplier": 3,
           "cap": null,
-          "notes": "Delta purchases and Delta Stays"
+          "notes": "Delta purchases and Delta Stays",
+          "isConditional": true
         },
         {
           "category": "dining",
@@ -615,10 +626,11 @@
       "noForeignTransactionFees": false,
       "earnRates": [
         {
-          "category": "travel",
+          "category": "airfare",
           "multiplier": 3,
           "cap": null,
-          "notes": "Delta purchases"
+          "notes": "Delta purchases",
+          "isConditional": true
         }
       ],
       "baseEarnRate": 1,
@@ -662,10 +674,11 @@
       "noForeignTransactionFees": true,
       "earnRates": [
         {
-          "category": "travel",
+          "category": "hotels",
           "multiplier": 12,
           "cap": null,
-          "notes": "Hilton hotels and resorts"
+          "notes": "Hilton hotels and resorts",
+          "isConditional": true
         },
         {
           "category": "dining",
@@ -716,10 +729,11 @@
       "noForeignTransactionFees": true,
       "earnRates": [
         {
-          "category": "travel",
+          "category": "hotels",
           "multiplier": 14,
           "cap": null,
-          "notes": "Hilton hotels and resorts"
+          "notes": "Hilton hotels and resorts",
+          "isConditional": true
         },
         {
           "category": "dining",
@@ -804,10 +818,18 @@
           "notes": "4x on top 2 eligible spend categories each month, up to $150K combined/year"
         },
         {
-          "category": "travel",
+          "category": "hotels",
           "multiplier": 3,
           "cap": null,
-          "notes": "3X on flights and prepaid hotels booked on AmexTravel.com"
+          "notes": "3X on flights and prepaid hotels booked on AmexTravel.com",
+          "isConditional": true
+        },
+        {
+          "category": "airfare",
+          "multiplier": 3,
+          "cap": null,
+          "notes": "3X on flights and prepaid hotels booked on AmexTravel.com",
+          "isConditional": true
         }
       ],
       "baseEarnRate": 1,
@@ -854,10 +876,18 @@
       "noForeignTransactionFees": true,
       "earnRates": [
         {
-          "category": "travel",
+          "category": "hotels",
           "multiplier": 5,
           "cap": null,
-          "notes": "Flights and prepaid hotels booked via Amex Travel"
+          "notes": "Flights and prepaid hotels booked via Amex Travel",
+          "isConditional": true
+        },
+        {
+          "category": "airfare",
+          "multiplier": 5,
+          "cap": null,
+          "notes": "Flights and prepaid hotels booked via Amex Travel",
+          "isConditional": true
         }
       ],
       "baseEarnRate": 1,
@@ -1071,10 +1101,18 @@
       "noForeignTransactionFees": false,
       "earnRates": [
         {
-          "category": "travel",
+          "category": "hotels",
           "multiplier": 2,
           "cap": null,
-          "notes": "Flights and prepaid hotels booked on AmexTravel.com"
+          "notes": "Flights and prepaid hotels booked on AmexTravel.com",
+          "isConditional": true
+        },
+        {
+          "category": "airfare",
+          "multiplier": 2,
+          "cap": null,
+          "notes": "Flights and prepaid hotels booked on AmexTravel.com",
+          "isConditional": true
         }
       ],
       "baseEarnRate": 1,
@@ -1149,10 +1187,11 @@
       "noForeignTransactionFees": true,
       "earnRates": [
         {
-          "category": "travel",
+          "category": "airfare",
           "multiplier": 3,
           "cap": null,
-          "notes": "Delta purchases"
+          "notes": "Delta purchases",
+          "isConditional": true
         },
         {
           "category": "transit",
@@ -1182,10 +1221,11 @@
       "noForeignTransactionFees": true,
       "earnRates": [
         {
-          "category": "travel",
+          "category": "airfare",
           "multiplier": 3,
           "cap": null,
-          "notes": "Delta purchases and purchases made directly with hotels"
+          "notes": "Delta purchases and purchases made directly with hotels",
+          "isConditional": false
         },
         {
           "category": "transit",
@@ -1215,10 +1255,11 @@
       "noForeignTransactionFees": true,
       "earnRates": [
         {
-          "category": "travel",
+          "category": "airfare",
           "multiplier": 2,
           "cap": null,
-          "notes": "Delta purchases"
+          "notes": "Delta purchases",
+          "isConditional": true
         },
         {
           "category": "dining",
@@ -1268,10 +1309,11 @@
       "noForeignTransactionFees": true,
       "earnRates": [
         {
-          "category": "travel",
+          "category": "hotels",
           "multiplier": 6,
           "cap": null,
-          "notes": "Hotels participating in the Marriott Bonvoy program"
+          "notes": "Hotels participating in the Marriott Bonvoy program",
+          "isConditional": true
         },
         {
           "category": "dining",
@@ -1330,10 +1372,11 @@
       "noForeignTransactionFees": true,
       "earnRates": [
         {
-          "category": "travel",
+          "category": "hotels",
           "multiplier": 12,
           "cap": null,
-          "notes": "Hotels and resorts within the Hilton portfolio"
+          "notes": "Hotels and resorts within the Hilton portfolio",
+          "isConditional": true
         },
         {
           "category": "other",
@@ -1377,10 +1420,18 @@
       "noForeignTransactionFees": true,
       "earnRates": [
         {
-          "category": "travel",
+          "category": "hotels",
           "multiplier": 5,
           "cap": null,
-          "notes": "Flights and prepaid hotels booked through American Express Travel Online"
+          "notes": "Flights and prepaid hotels booked through American Express Travel Online",
+          "isConditional": true
+        },
+        {
+          "category": "airfare",
+          "multiplier": 5,
+          "cap": null,
+          "notes": "Flights and prepaid hotels booked through American Express Travel Online",
+          "isConditional": true
         }
       ],
       "baseEarnRate": 2,
@@ -1466,10 +1517,11 @@
       "noForeignTransactionFees": true,
       "earnRates": [
         {
-          "category": "travel",
+          "category": "airfare",
           "multiplier": 6,
           "cap": null,
-          "notes": "JetBlue purchases"
+          "notes": "JetBlue purchases",
+          "isConditional": true
         },
         {
           "category": "dining",
@@ -1521,10 +1573,11 @@
       "noForeignTransactionFees": true,
       "earnRates": [
         {
-          "category": "travel",
+          "category": "airfare",
           "multiplier": 6,
           "cap": null,
-          "notes": "JetBlue purchases"
+          "notes": "JetBlue purchases",
+          "isConditional": true
         },
         {
           "category": "dining",
@@ -1576,10 +1629,11 @@
       "noForeignTransactionFees": false,
       "earnRates": [
         {
-          "category": "travel",
+          "category": "hotels",
           "multiplier": 6,
           "cap": null,
-          "notes": "Wyndham hotels and gas"
+          "notes": "Wyndham hotels and gas",
+          "isConditional": true
         },
         {
           "category": "gas",
@@ -1635,7 +1689,8 @@
           "category": "other",
           "multiplier": 5,
           "cap": 1500,
-          "notes": "Rotating quarterly categories, up to $1,500/quarter then 1%"
+          "notes": "Rotating quarterly categories, up to $1,500/quarter then 1%",
+          "isConditional": true
         }
       ],
       "baseEarnRate": 1,
@@ -1755,10 +1810,11 @@
       "noForeignTransactionFees": false,
       "earnRates": [
         {
-          "category": "travel",
+          "category": "airfare",
           "multiplier": 2,
           "cap": null,
-          "notes": "United purchases and hotels"
+          "notes": "United purchases and hotels",
+          "isConditional": true
         },
         {
           "category": "dining",
@@ -1804,10 +1860,11 @@
       "noForeignTransactionFees": false,
       "earnRates": [
         {
-          "category": "travel",
+          "category": "airfare",
           "multiplier": 4,
           "cap": null,
-          "notes": "United purchases"
+          "notes": "United purchases",
+          "isConditional": true
         },
         {
           "category": "dining",
@@ -1886,10 +1943,11 @@
       "noForeignTransactionFees": false,
       "earnRates": [
         {
-          "category": "travel",
+          "category": "airfare",
           "multiplier": 3,
           "cap": null,
-          "notes": "Air Canada and Air Canada Vacations purchases"
+          "notes": "Air Canada and Air Canada Vacations purchases",
+          "isConditional": true
         },
         {
           "category": "dining",
@@ -1930,16 +1988,18 @@
       "noForeignTransactionFees": true,
       "earnRates": [
         {
-          "category": "travel",
+          "category": "hotels",
           "multiplier": 10,
           "cap": null,
-          "notes": "Hotels and car rentals booked via Capital One Travel"
+          "notes": "Hotels and car rentals booked via Capital One Travel",
+          "isConditional": true
         },
         {
-          "category": "travel",
+          "category": "airfare",
           "multiplier": 5,
           "cap": null,
-          "notes": "Flights booked via Capital One Travel"
+          "notes": "Flights booked via Capital One Travel",
+          "isConditional": true
         }
       ],
       "baseEarnRate": 2,
@@ -1991,10 +2051,11 @@
       "noForeignTransactionFees": true,
       "earnRates": [
         {
-          "category": "travel",
+          "category": "hotels",
           "multiplier": 5,
           "cap": null,
-          "notes": "Hotels and car rentals via Capital One Travel"
+          "notes": "Hotels and car rentals via Capital One Travel",
+          "isConditional": true
         }
       ],
       "baseEarnRate": 2,
@@ -2023,16 +2084,18 @@
       "noForeignTransactionFees": true,
       "earnRates": [
         {
-          "category": "travel",
+          "category": "hotels",
           "multiplier": 10,
           "cap": null,
-          "notes": "Hotels and rental cars via Capital One Travel"
+          "notes": "Hotels and rental cars via Capital One Travel",
+          "isConditional": true
         },
         {
           "category": "travel",
           "multiplier": 5,
           "cap": null,
-          "notes": "Flights via Capital One Travel"
+          "notes": "Flights via Capital One Travel",
+          "isConditional": true
         }
       ],
       "baseEarnRate": 2,
@@ -2157,7 +2220,15 @@
           "category": "travel",
           "multiplier": 5,
           "cap": null,
-          "notes": "Via Chase Travel; 2x other travel"
+          "notes": "Via Chase Travel",
+          "isConditional": true
+        },
+        {
+          "category": "travel",
+          "multiplier": 2.0,
+          "cap": null,
+          "notes": "All other travel",
+          "isConditional": false
         }
       ],
       "baseEarnRate": 1,
@@ -2195,13 +2266,21 @@
           "category": "travel",
           "multiplier": 10,
           "cap": null,
-          "notes": "Via Chase Travel; 3x other travel"
+          "notes": "Via Chase Travel",
+          "isConditional": true
         },
         {
           "category": "streaming",
           "multiplier": 3,
           "cap": null,
           "notes": null
+        },
+        {
+          "category": "travel",
+          "multiplier": 3.0,
+          "cap": null,
+          "notes": "All other travel",
+          "isConditional": false
         }
       ],
       "baseEarnRate": 1,
@@ -2473,10 +2552,11 @@
       "noForeignTransactionFees": false,
       "earnRates": [
         {
-          "category": "travel",
+          "category": "airfare",
           "multiplier": 2,
           "cap": null,
-          "notes": "Southwest purchases"
+          "notes": "Southwest purchases",
+          "isConditional": true
         }
       ],
       "baseEarnRate": 1,
@@ -2518,10 +2598,11 @@
       "noForeignTransactionFees": false,
       "earnRates": [
         {
-          "category": "travel",
+          "category": "airfare",
           "multiplier": 2,
           "cap": null,
-          "notes": "Southwest purchases"
+          "notes": "Southwest purchases",
+          "isConditional": true
         }
       ],
       "baseEarnRate": 1,
@@ -2659,10 +2740,11 @@
       "noForeignTransactionFees": false,
       "earnRates": [
         {
-          "category": "travel",
+          "category": "airfare",
           "multiplier": 2,
           "cap": null,
-          "notes": "Southwest purchases"
+          "notes": "Southwest purchases",
+          "isConditional": true
         }
       ],
       "baseEarnRate": 1,
@@ -2714,10 +2796,11 @@
       "noForeignTransactionFees": false,
       "earnRates": [
         {
-          "category": "travel",
+          "category": "airfare",
           "multiplier": 3,
           "cap": null,
-          "notes": "Southwest purchases"
+          "notes": "Southwest purchases",
+          "isConditional": true
         }
       ],
       "baseEarnRate": 1,
@@ -2849,7 +2932,7 @@
       "noForeignTransactionFees": true,
       "earnRates": [
         {
-          "category": "travel",
+          "category": "airfare",
           "multiplier": 5,
           "cap": null,
           "notes": "Flights"
@@ -2963,10 +3046,11 @@
           "category": "dining",
           "multiplier": 5,
           "cap": null,
-          "notes": null
+          "notes": "Available during limited hours — see card terms",
+          "isConditional": true
         },
         {
-          "category": "travel",
+          "category": "airfare",
           "multiplier": 5,
           "cap": null,
           "notes": "Flights"
@@ -3053,7 +3137,8 @@
           "category": "other",
           "multiplier": 5,
           "cap": 500,
-          "notes": "Top eligible spend category per billing cycle"
+          "notes": "Top eligible spend category per billing cycle",
+          "isConditional": true
         }
       ],
       "baseEarnRate": 1,
@@ -3586,7 +3671,8 @@
           "category": "other",
           "multiplier": 5,
           "cap": 1500,
-          "notes": "Rotating categories per quarter; activation required"
+          "notes": "Rotating categories per quarter; activation required",
+          "isConditional": true
         }
       ],
       "baseEarnRate": 1,
@@ -3645,7 +3731,8 @@
           "category": "rent",
           "multiplier": 1,
           "cap": null,
-          "notes": "Up to 1.25x based on everyday spend ratio to housing payment; no transaction fee"
+          "notes": "Up to 1.25x based on everyday spend ratio to housing payment; no transaction fee",
+          "isConditional": false
         }
       ],
       "baseEarnRate": 1,
@@ -3665,13 +3752,15 @@
           "category": "dining",
           "multiplier": 3,
           "cap": 25000,
-          "notes": "Or groceries — choose one category per calendar year"
+          "notes": "Or groceries — choose one category per calendar year",
+          "isConditional": true
         },
         {
           "category": "groceries",
           "multiplier": 3,
           "cap": 25000,
-          "notes": "Or dining — choose one category per calendar year"
+          "notes": "Or dining — choose one category per calendar year",
+          "isConditional": true
         },
         {
           "category": "travel",
@@ -3683,7 +3772,8 @@
           "category": "rent",
           "multiplier": 1,
           "cap": null,
-          "notes": "Up to 1.25x based on everyday spend ratio to housing payment; no transaction fee"
+          "notes": "Up to 1.25x based on everyday spend ratio to housing payment; no transaction fee",
+          "isConditional": false
         }
       ],
       "baseEarnRate": 1,
@@ -3715,7 +3805,8 @@
           "category": "rent",
           "multiplier": 1,
           "cap": null,
-          "notes": "Up to 1.25x based on everyday spend ratio to housing payment; no transaction fee"
+          "notes": "Up to 1.25x based on everyday spend ratio to housing payment; no transaction fee",
+          "isConditional": false
         }
       ],
       "baseEarnRate": 2,

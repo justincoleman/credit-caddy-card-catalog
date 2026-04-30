@@ -98,10 +98,12 @@
         "category": {
           "type": "string",
           "enum": [
+            "airfare",
             "dining",
             "drugstores",
             "gas",
             "groceries",
+            "hotels",
             "onlineShopping",
             "other",
             "rent",
@@ -112,6 +114,10 @@
         },
         "multiplier": { "type": "number", "minimum": 0.5, "maximum": 20 },
         "cap": { "type": ["number", "null"], "minimum": 0 },
+        "isConditional": {
+          "type": "boolean",
+          "description": "True when the multiplier requires a specific booking channel (Amex Travel, issuer portal, direct with merchant). False for everywhere-applicable category bonuses."
+        },
         "notes": { "type": ["string", "null"] }
       }
     },
