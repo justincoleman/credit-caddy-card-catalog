@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "version": "2026.04.30",
-  "lastUpdated": "2026-04-30T16:00:00Z",
+  "version": "2026.05.01",
+  "lastUpdated": "2026-05-01T00:00:00Z",
   "cards": [
     {
       "id": "american-express-platinum-card",
@@ -15,7 +15,7 @@
           "multiplier": 5,
           "cap": 500000,
           "notes": "Flights booked directly with airlines or via Amex Travel, and prepaid hotels via Amex Travel; up to $500,000 per calendar year",
-          "isConditional": false
+          "isConditional": true
         },
         {
           "category": "dining",
@@ -197,9 +197,11 @@
         "annualFee": "https://www.americanexpress.com/us/credit-cards/card/platinum/",
         "earnRates.travel": "https://www.americanexpress.com/us/credit-cards/card/platinum/",
         "benefits.hotel-credit-fhr-thc": "https://www.americanexpress.com/us/credit-cards/card/platinum/",
-        "benefits.global-entry-tsa-precheck-credit": "https://www.americanexpress.com/us/credit-cards/card/platinum/"
+        "benefits.global-entry-tsa-precheck-credit": "https://www.americanexpress.com/us/credit-cards/card/platinum/",
+        "earnRates.hotels": "https://www.americanexpress.com/us/credit-cards/card/platinum/",
+        "earnRates.airfare": "https://www.americanexpress.com/us/credit-cards/card/platinum/"
       },
-      "lastVerified": "2026-04-24T00:00:00Z"
+      "lastVerified": "2026-05-01T00:00:00Z"
     },
     {
       "id": "american-express-gold-card",
@@ -208,6 +210,13 @@
       "annualFee": 325,
       "noForeignTransactionFees": true,
       "earnRates": [
+        {
+          "category": "hotels",
+          "multiplier": 5,
+          "cap": null,
+          "notes": "Prepaid hotels booked through AmexTravel.com or Amex Travel App™",
+          "isConditional": true
+        },
         {
           "category": "dining",
           "multiplier": 4,
@@ -280,9 +289,11 @@
       ],
       "sources": {
         "earnRates.dining": "https://www.americanexpress.com/us/credit-cards/all-cards/",
-        "annualFee": "https://www.americanexpress.com/us/credit-cards/card/gold-card/"
+        "annualFee": "https://www.americanexpress.com/us/credit-cards/card/gold-card/",
+        "earnRates.hotels": "https://www.americanexpress.com/us/credit-cards/card/gold-card/",
+        "earnRates.airfare": "https://www.americanexpress.com/us/credit-cards/card/gold-card/"
       },
-      "lastVerified": "2026-04-24T00:00:00Z"
+      "lastVerified": "2026-05-01T00:00:00Z"
     },
     {
       "id": "american-express-green-card",
@@ -324,7 +335,7 @@
       "sources": {
         "annualFee": "https://www.americanexpress.com/us/credit-cards/card/green/"
       },
-      "lastVerified": "2026-04-24T00:00:00Z"
+      "lastVerified": "2026-05-01T00:00:00Z"
     },
     {
       "id": "american-express-marriott-bonvoy-brilliant",
@@ -400,7 +411,7 @@
       "sources": {
         "annualFee": "https://www.americanexpress.com/us/credit-cards/card/marriott-bonvoy-brilliant/"
       },
-      "lastVerified": "2026-04-24T00:00:00Z"
+      "lastVerified": "2026-05-01T00:00:00Z"
     },
     {
       "id": "american-express-blue-cash-preferred",
@@ -465,7 +476,7 @@
       "sources": {
         "annualFee": "https://www.americanexpress.com/us/credit-cards/card/blue-cash-preferred/"
       },
-      "lastVerified": "2026-04-24T00:00:00Z"
+      "lastVerified": "2026-05-01T00:00:00Z"
     },
     {
       "id": "american-express-blue-cash-everyday",
@@ -513,7 +524,7 @@
       "sources": {
         "annualFee": "https://www.americanexpress.com/us/credit-cards/card/blue-cash-everyday/"
       },
-      "lastVerified": "2026-04-24T00:00:00Z"
+      "lastVerified": "2026-05-01T00:00:00Z"
     },
     {
       "id": "american-express-delta-skymiles-gold",
@@ -562,7 +573,7 @@
       "sources": {
         "annualFee": "https://www.americanexpress.com/us/credit-cards/card/delta-skymiles-gold-american-express-card/"
       },
-      "lastVerified": "2026-04-24T00:00:00Z"
+      "lastVerified": "2026-05-01T00:00:00Z"
     },
     {
       "id": "american-express-delta-skymiles-platinum",
@@ -616,7 +627,7 @@
       "sources": {
         "annualFee": "https://www.americanexpress.com/us/credit-cards/card/delta-skymiles-platinum-american-express-card/"
       },
-      "lastVerified": "2026-04-24T00:00:00Z"
+      "lastVerified": "2026-05-01T00:00:00Z"
     },
     {
       "id": "american-express-delta-skymiles-reserve",
@@ -664,7 +675,7 @@
       "sources": {
         "annualFee": "https://www.americanexpress.com/us/credit-cards/card/delta-skymiles-reserve-american-express-card/"
       },
-      "lastVerified": "2026-04-24T00:00:00Z"
+      "lastVerified": "2026-05-01T00:00:00Z"
     },
     {
       "id": "american-express-hilton-honors-surpass",
@@ -719,7 +730,7 @@
       "sources": {
         "annualFee": "https://www.americanexpress.com/us/credit-cards/card/hilton-honors-surpass/"
       },
-      "lastVerified": "2026-04-24T00:00:00Z"
+      "lastVerified": "2026-05-01T00:00:00Z"
     },
     {
       "id": "american-express-hilton-honors-aspire",
@@ -784,7 +795,7 @@
       "sources": {
         "annualFee": "https://www.americanexpress.com/us/credit-cards/card/hilton-honors-aspire/"
       },
-      "lastVerified": "2026-04-24T00:00:00Z"
+      "lastVerified": "2026-05-01T00:00:00Z"
     },
     {
       "id": "american-express-business-gold",
@@ -861,12 +872,12 @@
         }
       ],
       "sources": {
-        "annualFee": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/65147/",
+        "annualFee": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/american-express-business-gold-card-amex/",
         "benefits.flexible-business-credit": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/65147/",
         "benefits.walmart-membership-credit": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/65147/",
         "earnRates.travel.3x": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/american-express-business-gold-card-amex/"
       },
-      "lastVerified": "2026-04-24T00:00:00Z"
+      "lastVerified": "2026-05-01T00:00:00Z"
     },
     {
       "id": "american-express-business-platinum",
@@ -997,7 +1008,7 @@
         "benefits.wireless-credit": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/american-express-business-platinum-credit-card-amex/",
         "benefits.hilton-credit": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/american-express-business-platinum-credit-card-amex/"
       },
-      "lastVerified": "2026-04-24T00:00:00Z"
+      "lastVerified": "2026-05-01T00:00:00Z"
     },
     {
       "id": "american-express-hilton-honors-card",
