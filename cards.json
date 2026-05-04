@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "version": "2026.05.03",
-  "lastUpdated": "2026-05-03T00:00:00Z",
+  "version": "2026.05.04",
+  "lastUpdated": "2026-05-04T00:00:00Z",
   "cards": [
     {
       "id": "american-express-platinum-card",
@@ -203,7 +203,7 @@
         "earnRates.hotels": "https://www.americanexpress.com/us/credit-cards/card/platinum/",
         "earnRates.dining": "https://www.americanexpress.com/us/credit-cards/card/platinum/"
       },
-      "lastVerified": "2026-05-03T00:00:00Z"
+      "lastVerified": "2026-05-04T00:00:00Z"
     },
     {
       "id": "american-express-gold-card",
@@ -229,6 +229,20 @@
           "multiplier": 3,
           "cap": null,
           "notes": "Flights booked directly with airlines or via Amex Travel"
+        },
+        {
+          "category": "hotels",
+          "multiplier": 5,
+          "cap": null,
+          "notes": "Prepaid hotels booked through AmexTravel.com or Amex Travel App™",
+          "isConditional": true
+        },
+        {
+          "category": "travel",
+          "multiplier": 2,
+          "cap": null,
+          "notes": "Prepaid car rentals and cruises booked through AmexTravel.com or Amex Travel App™",
+          "isConditional": true
         }
       ],
       "baseEarnRate": 1,
@@ -288,9 +302,11 @@
         "rewardProgram": "https://www.americanexpress.com/us/credit-cards/card/gold-card/",
         "earnRates.dining": "https://www.americanexpress.com/us/credit-cards/card/gold-card/",
         "earnRates.groceries": "https://www.americanexpress.com/us/credit-cards/card/gold-card/",
-        "earnRates.airfare": "https://www.americanexpress.com/us/credit-cards/card/gold-card/"
+        "earnRates.airfare": "https://www.americanexpress.com/us/credit-cards/card/gold-card/",
+        "earnRates.hotels": "https://www.americanexpress.com/us/credit-cards/card/gold-card/",
+        "earnRates.travel": "https://www.americanexpress.com/us/credit-cards/card/gold-card/"
       },
-      "lastVerified": "2026-05-03T00:00:00Z"
+      "lastVerified": "2026-05-04T00:00:00Z"
     },
     {
       "id": "american-express-green-card",
@@ -344,7 +360,7 @@
         "earnRates.transit": "https://www.americanexpress.com/us/credit-cards/card/green/",
         "earnRates.dining": "https://www.americanexpress.com/us/credit-cards/card/green/"
       },
-      "lastVerified": "2026-05-03T00:00:00Z"
+      "lastVerified": "2026-05-04T00:00:00Z"
     },
     {
       "id": "american-express-marriott-bonvoy-brilliant",
@@ -433,7 +449,7 @@
         "earnRates.dining": "https://www.americanexpress.com/us/credit-cards/card/marriott-bonvoy-brilliant/",
         "earnRates.airfare": "https://www.americanexpress.com/us/credit-cards/card/marriott-bonvoy-brilliant/"
       },
-      "lastVerified": "2026-05-03T00:00:00Z"
+      "lastVerified": "2026-05-04T00:00:00Z"
     },
     {
       "id": "american-express-blue-cash-preferred",
@@ -505,7 +521,7 @@
         "earnRates.transit": "https://www.americanexpress.com/us/credit-cards/card/blue-cash-preferred/",
         "earnRates.gas": "https://www.americanexpress.com/us/credit-cards/card/blue-cash-preferred/"
       },
-      "lastVerified": "2026-05-03T00:00:00Z"
+      "lastVerified": "2026-05-04T00:00:00Z"
     },
     {
       "id": "american-express-blue-cash-everyday",
@@ -559,7 +575,7 @@
         "earnRates.onlineShopping": "https://www.americanexpress.com/us/credit-cards/card/blue-cash-everyday/",
         "earnRates.gas": "https://www.americanexpress.com/us/credit-cards/card/blue-cash-everyday/"
       },
-      "lastVerified": "2026-05-03T00:00:00Z"
+      "lastVerified": "2026-05-04T00:00:00Z"
     },
     {
       "id": "american-express-delta-skymiles-gold",
@@ -614,7 +630,7 @@
         "earnRates.dining": "https://www.americanexpress.com/us/credit-cards/card/delta-skymiles-gold-american-express-card/",
         "earnRates.groceries": "https://www.americanexpress.com/us/credit-cards/card/delta-skymiles-gold-american-express-card/"
       },
-      "lastVerified": "2026-05-03T00:00:00Z"
+      "lastVerified": "2026-05-04T00:00:00Z"
     },
     {
       "id": "american-express-delta-skymiles-platinum",
@@ -687,7 +703,7 @@
         "earnRates.dining": "https://www.americanexpress.com/us/credit-cards/card/delta-skymiles-platinum-american-express-card/",
         "earnRates.groceries": "https://www.americanexpress.com/us/credit-cards/card/delta-skymiles-platinum-american-express-card/"
       },
-      "lastVerified": "2026-05-03T00:00:00Z"
+      "lastVerified": "2026-05-04T00:00:00Z"
     },
     {
       "id": "american-express-delta-skymiles-reserve",
@@ -739,7 +755,7 @@
         "rewardProgram": "https://www.americanexpress.com/us/credit-cards/card/delta-skymiles-reserve-american-express-card/",
         "earnRates.airfare": "https://www.americanexpress.com/us/credit-cards/card/delta-skymiles-reserve-american-express-card/"
       },
-      "lastVerified": "2026-05-03T00:00:00Z"
+      "lastVerified": "2026-05-04T00:00:00Z"
     },
     {
       "id": "american-express-hilton-honors-surpass",
@@ -801,7 +817,7 @@
         "earnRates.groceries": "https://www.americanexpress.com/us/credit-cards/card/hilton-honors-surpass/",
         "earnRates.gas": "https://www.americanexpress.com/us/credit-cards/card/hilton-honors-surpass/"
       },
-      "lastVerified": "2026-05-03T00:00:00Z"
+      "lastVerified": "2026-05-04T00:00:00Z"
     },
     {
       "id": "american-express-hilton-honors-aspire",
@@ -885,7 +901,7 @@
         "earnRates.travel": "https://www.americanexpress.com/us/credit-cards/card/hilton-honors-aspire/",
         "earnRates.dining": "https://www.americanexpress.com/us/credit-cards/card/hilton-honors-aspire/"
       },
-      "lastVerified": "2026-05-03T00:00:00Z"
+      "lastVerified": "2026-05-04T00:00:00Z"
     },
     {
       "id": "american-express-business-gold",
@@ -979,7 +995,7 @@
         "earnRates.airfare": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/american-express-business-gold-card-amex/",
         "earnRates.hotels": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/american-express-business-gold-card-amex/"
       },
-      "lastVerified": "2026-05-03T00:00:00Z"
+      "lastVerified": "2026-05-04T00:00:00Z"
     },
     {
       "id": "american-express-business-platinum",
@@ -1105,6 +1121,39 @@
           "notes": "Eligible purchases made directly with Hilton. Hilton for Business enrollment required.",
           "availableMonths": [],
           "notificationsEnabled": true
+        },
+        {
+          "name": "Adobe Credit",
+          "amount": 250,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Calendar Year",
+          "category": "Shopping Credits",
+          "allowsPartialUse": false,
+          "notes": "Statement credit after spending $600 or more on U.S. purchases directly with Adobe in a calendar year. Enrollment required.",
+          "availableMonths": [],
+          "notificationsEnabled": true
+        },
+        {
+          "name": "Indeed Credit",
+          "amount": 90,
+          "renewalPeriod": "Every 3 months",
+          "periodBasis": "Calendar Year",
+          "category": "Shopping Credits",
+          "allowsPartialUse": true,
+          "notes": "Up to $90 per quarter for U.S. purchases made directly with Indeed. Enrollment required.",
+          "availableMonths": [],
+          "notificationsEnabled": true
+        },
+        {
+          "name": "Global Entry/TSA PreCheck Credit",
+          "amount": 120,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Cardmember Year",
+          "category": "Travel Credits",
+          "allowsPartialUse": true,
+          "notes": "Every 4 years. Global Entry ($120) or TSA PreCheck (up to $85) application fee credit.",
+          "availableMonths": [],
+          "notificationsEnabled": true
         }
       ],
       "sources": {
@@ -1118,9 +1167,12 @@
         "rewardProgram": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/american-express-business-platinum-credit-card-amex/",
         "earnRates.airfare": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/american-express-business-platinum-credit-card-amex/",
         "earnRates.hotels": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/american-express-business-platinum-credit-card-amex/",
-        "earnRates.other": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/american-express-business-platinum-credit-card-amex/"
+        "earnRates.other": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/american-express-business-platinum-credit-card-amex/",
+        "benefits.adobe-credit": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/american-express-business-platinum-credit-card-amex/",
+        "benefits.indeed-credit": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/american-express-business-platinum-credit-card-amex/",
+        "benefits.global-entry-tsa-precheck-credit": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/american-express-business-platinum-credit-card-amex/"
       },
-      "lastVerified": "2026-05-03T00:00:00Z"
+      "lastVerified": "2026-05-04T00:00:00Z"
     },
     {
       "id": "american-express-hilton-honors-card",
