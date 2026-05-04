@@ -77,15 +77,15 @@ launchctl start com.creditcaddy.catalog-agent
 tail -f ~/Library/Logs/credit-caddy-agent/run-*.log
 ```
 
-Expected outcome on a successful run: a new branch `refresh/<date>` and an open PR titled "Catalog refresh `<date>` (Amex pilot)" in [credit-caddy-card-catalog](https://github.com/justincoleman/credit-caddy-card-catalog/pulls).
+Expected outcome on a successful run: a new branch `refresh/<date>` and an open PR titled "Catalog refresh `<date>`" in [credit-caddy-card-catalog](https://github.com/justincoleman/credit-caddy-card-catalog/pulls).
 
 If FireCrawl fails or no cards changed, the agent should print "no changes" and **not** open a PR (per the prompt's Step 5 + Step 7 rules — version bumps are conditional on real card-level changes).
 
 ## Cost
 
-Each run uses your Anthropic API quota via Claude Code (Sonnet 4.6). The wrapper caps each run at **\$5** via `--max-budget-usd`. Typical monthly run is well under \$2 for the 13-card Amex pilot.
+Each run uses your Anthropic API quota via Claude Code (Sonnet 4.6). The wrapper caps each run at **\$5** via `--max-budget-usd`. Full-catalog runs inspect more issuer pages than the earlier narrower setup, so review the first few full runs and adjust the cap if the agent exits early before completing useful coverage.
 
-FireCrawl free tier covers ~500 scrapes/month, which is plenty (we use ~20-30 per run).
+FireCrawl usage depends on how many issuer pages changed or need re-checking. The prompt caches fetches per run and should avoid repeated scrapes for the same URL.
 
 ## Updating the prompt
 

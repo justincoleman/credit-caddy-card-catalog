@@ -14,9 +14,11 @@ This repo is the source of truth for the in-app card catalog. The iOS client fet
 - **Annual fee changes require two independent citations** on the issuer's domain.
 - **Nothing gets deleted.** Cards that go away are marked `discontinued: true`; they stay in the catalog so that users who still have the card continue to have their stable id resolve.
 
-## Pilot scope
+## Agent scope
 
-The initial agent run covers **American Express only** (13 cards). Remaining issuers — Chase, Citi, Capital One, Bank of America, US Bank, Discover, Wells Fargo, Barclays — are added in waves after the Amex pipeline produces a clean monthly PR.
+The scheduled agent audits the full catalog. It derives the work queue from
+`cards.json`, groups cards by issuer, verifies card facts against issuer-owned
+sources, and opens a PR only when catalog data changes.
 
 ## File layout
 
@@ -24,6 +26,7 @@ The initial agent run covers **American Express only** (13 cards). Remaining iss
 | --- | --- |
 | `cards.json` | The live catalog the iOS app consumes |
 | `schema.json` | JSON Schema used by the PR validation workflow |
+| `scripts/audit_card_catalog.py` | Local optimizer-readiness audit for source coverage, verification coverage, and earn-rate quality |
 | `.github/workflows/validate.yml` | Validates every PR: schema, sanity ranges, issuer-domain sources, link-rot |
 
 ## Schema
@@ -64,9 +67,10 @@ See [`schema.json`](schema.json) for the authoritative spec. Summary:
 ## Source of truth rules
 
 - URLs in `sources` must be HTTPS and must be on the issuer's own domain. No third-party blogs, press-release wires, or aggregators.
-- Approved issuer domains for the pilot:
-  - `americanexpress.com`
-  - Other issuer domains added alongside their first agent wave (Chase → `chase.com`, etc.)
+- Approved issuer domains are maintained in `scripts/validate.mjs` and mirrored
+  in `local/agent-prompt.md`. The current full-catalog set covers American
+  Express, Apple, Bank of America/Alaska, Barclays/co-brand airline domains,
+  Capital One, Chase, Citi, Bilt, Discover, US Bank, and Wells Fargo.
 - The validation workflow re-checks every `sources` URL on every PR and blocks merge on 404/5xx.
 
 ## Consuming this catalog
