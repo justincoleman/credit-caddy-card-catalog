@@ -34,7 +34,16 @@ const SCHEMA_PATH = path.join(ROOT, 'schema.json');
 // is allowed under "chase.com").
 const ISSUER_DOMAINS = {
   'American Express': ['americanexpress.com'],
-  // Additional issuers are added here as each wave rolls out (Task 5b).
+  Chase: ['chase.com'],
+  Citi: ['citi.com'],
+  'Capital One': ['capitalone.com'],
+  'Bank of America': ['bankofamerica.com', 'alaskaair.com'],
+  'US Bank': ['usbank.com'],
+  Discover: ['discover.com'],
+  'Wells Fargo': ['wellsfargo.com'],
+  Barclays: ['barclaycardus.com', 'aa.com', 'hawaiianairlines.com'],
+  Apple: ['apple.com'],
+  'Column N.A.': ['biltrewards.com'],
 };
 
 const errors = [];
