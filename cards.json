@@ -3920,7 +3920,18 @@
           "multiplier": 6,
           "cap": null,
           "notes": "Restaurants during Citi Nights: Friday and Saturday from 6 PM to 6 AM ET",
-          "isConditional": true
+          "isConditional": true,
+          "timeWindows": [
+            {
+              "days": [
+                "friday",
+                "saturday"
+              ],
+              "startMinute": 1080,
+              "endMinute": 360,
+              "timeZone": "America/New_York"
+            }
+          ]
         },
         {
           "category": "dining",

@@ -118,6 +118,36 @@
           "type": "boolean",
           "description": "True when the multiplier requires a specific booking channel (Amex Travel, issuer portal, direct with merchant). False for everywhere-applicable category bonuses."
         },
+        "timeWindows": {
+          "type": "array",
+          "description": "Local time windows where a time-sensitive conditional rate is active.",
+          "items": {
+            "type": "object",
+            "required": ["days", "startMinute", "endMinute"],
+            "additionalProperties": false,
+            "properties": {
+              "days": {
+                "type": "array",
+                "minItems": 1,
+                "items": {
+                  "type": "string",
+                  "enum": [
+                    "sunday",
+                    "monday",
+                    "tuesday",
+                    "wednesday",
+                    "thursday",
+                    "friday",
+                    "saturday"
+                  ]
+                }
+              },
+              "startMinute": { "type": "integer", "minimum": 0, "maximum": 1439 },
+              "endMinute": { "type": "integer", "minimum": 0, "maximum": 1440 },
+              "timeZone": { "type": "string", "minLength": 1 }
+            }
+          }
+        },
         "notes": { "type": ["string", "null"] }
       }
     },
