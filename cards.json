@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "version": "2026.05.07",
-  "lastUpdated": "2026-05-07T22:11:51Z",
+  "lastUpdated": "2026-05-07T22:23:36Z",
   "cards": [
     {
       "id": "american-express-platinum-card",
@@ -250,7 +250,21 @@
           "category": "airfare",
           "multiplier": 3,
           "cap": null,
-          "notes": "Flights booked directly with airlines or via Amex Travel"
+          "notes": "Flights booked directly with airlines or via Amex Travel",
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "directBooking",
+              "label": "Direct with provider",
+              "details": "Booked directly with the provider"
+            },
+            {
+              "type": "travelPortal",
+              "label": "Or via Amex Travel",
+              "provider": "Amex Travel",
+              "details": "Or booked through Amex Travel"
+            }
+          ]
         },
         {
           "category": "hotels",
@@ -441,7 +455,15 @@
           "category": "airfare",
           "multiplier": 3,
           "cap": null,
-          "notes": "Flights booked directly with airlines"
+          "notes": "Flights booked directly with airlines",
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "directBooking",
+              "label": "Direct with provider",
+              "details": "Flights booked directly with airlines"
+            }
+          ]
         }
       ],
       "baseEarnRate": 2,
@@ -932,7 +954,21 @@
           "category": "airfare",
           "multiplier": 7,
           "cap": null,
-          "notes": "Flights booked directly with airlines or via Amex Travel"
+          "notes": "Flights booked directly with airlines or via Amex Travel",
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "directBooking",
+              "label": "Direct with provider",
+              "details": "Booked directly with the provider"
+            },
+            {
+              "type": "travelPortal",
+              "label": "Or via Amex Travel",
+              "provider": "Amex Travel",
+              "details": "Or booked through Amex Travel"
+            }
+          ]
         },
         {
           "category": "travel",
@@ -941,6 +977,14 @@
           "notes": "Car rentals booked directly with select car rental companies",
           "appliesToCategories": [
             "travel"
+          ],
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "directBooking",
+              "label": "Direct with provider",
+              "details": "Car rentals booked directly with select car rental companies"
+            }
           ]
         },
         {
@@ -2556,7 +2600,15 @@
           "category": "hotels",
           "multiplier": 2,
           "cap": null,
-          "notes": "Hotel stays booked directly with the hotel"
+          "notes": "Hotel stays booked directly with the hotel",
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "directBooking",
+              "label": "Direct with provider",
+              "details": "Hotel stays booked directly with the hotel"
+            }
+          ]
         },
         {
           "category": "dining",
@@ -3313,13 +3365,29 @@
           "category": "airfare",
           "multiplier": 4,
           "cap": null,
-          "notes": "Flights booked directly with airlines"
+          "notes": "Flights booked directly with airlines",
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "directBooking",
+              "label": "Direct with provider",
+              "details": "Flights booked directly with airlines"
+            }
+          ]
         },
         {
           "category": "hotels",
           "multiplier": 4,
           "cap": null,
-          "notes": "Hotels booked directly with hotels"
+          "notes": "Hotels booked directly with hotels",
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "directBooking",
+              "label": "Direct with provider",
+              "details": "Hotels booked directly with hotels"
+            }
+          ]
         },
         {
           "category": "dining",
