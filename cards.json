@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "version": "2026.05.04",
-  "lastUpdated": "2026-05-04T00:00:00Z",
+  "version": "2026.05.07",
+  "lastUpdated": "2026-05-07T22:11:51Z",
   "cards": [
     {
       "id": "american-express-platinum-card",
@@ -14,14 +14,36 @@
           "category": "airfare",
           "multiplier": 5,
           "cap": 500000,
-          "notes": "Flights booked directly with airlines or via Amex Travel, up to $500,000 per calendar year, then 1x"
+          "notes": "Flights booked directly with airlines or via Amex Travel, up to $500,000 per calendar year, then 1x",
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "directBooking",
+              "label": "Direct with airline",
+              "details": "Flights booked directly with the airline website or app"
+            },
+            {
+              "type": "travelPortal",
+              "label": "Or via Amex Travel",
+              "provider": "Amex Travel",
+              "details": "Or flights booked via Amex Travel"
+            }
+          ]
         },
         {
           "category": "hotels",
           "multiplier": 5,
           "cap": 500000,
           "notes": "Prepaid hotels booked via Amex Travel, up to $500,000 per calendar year, then 1x",
-          "isConditional": true
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "travelPortal",
+              "label": "Amex Travel required",
+              "provider": "Amex Travel",
+              "details": "Prepaid hotels booked via Amex Travel, up to $500,000 per calendar year, then 1x"
+            }
+          ]
         },
         {
           "category": "dining",
@@ -235,14 +257,33 @@
           "multiplier": 5,
           "cap": null,
           "notes": "Prepaid hotels booked through AmexTravel.com or Amex Travel App™",
-          "isConditional": true
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "travelPortal",
+              "label": "Amex Travel required",
+              "provider": "Amex Travel",
+              "details": "Prepaid hotels booked through AmexTravel.com or Amex Travel App™"
+            }
+          ]
         },
         {
           "category": "travel",
           "multiplier": 2,
           "cap": null,
           "notes": "Prepaid car rentals and cruises booked through AmexTravel.com or Amex Travel App™",
-          "isConditional": true
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "travelPortal",
+              "label": "Amex Travel required",
+              "provider": "Amex Travel",
+              "details": "Prepaid car rentals and cruises booked through AmexTravel.com or Amex Travel App™"
+            }
+          ],
+          "appliesToCategories": [
+            "travel"
+          ]
         }
       ],
       "baseEarnRate": 1,
@@ -319,7 +360,13 @@
           "category": "travel",
           "multiplier": 3,
           "cap": null,
-          "notes": "Eligible travel purchases"
+          "notes": "Eligible travel purchases",
+          "appliesToCategories": [
+            "travel",
+            "airfare",
+            "hotels",
+            "transit"
+          ]
         },
         {
           "category": "transit",
@@ -374,7 +421,15 @@
           "multiplier": 6,
           "cap": null,
           "notes": "Hotels participating in Marriott Bonvoy",
-          "isConditional": true
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "merchant",
+              "label": "Marriott Bonvoy purchases",
+              "merchant": "Marriott Bonvoy",
+              "details": "Hotels participating in Marriott Bonvoy"
+            }
+          ]
         },
         {
           "category": "dining",
@@ -589,7 +644,15 @@
           "multiplier": 2,
           "cap": null,
           "notes": "Delta purchases",
-          "isConditional": true
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "merchant",
+              "label": "Delta Air Lines purchases",
+              "merchant": "Delta Air Lines",
+              "details": "Delta purchases"
+            }
+          ]
         },
         {
           "category": "dining",
@@ -644,7 +707,15 @@
           "multiplier": 3,
           "cap": null,
           "notes": "Eligible Delta purchases",
-          "isConditional": true
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "merchant",
+              "label": "Delta Air Lines purchases",
+              "merchant": "Delta Air Lines",
+              "details": "Eligible Delta purchases"
+            }
+          ]
         },
         {
           "category": "hotels",
@@ -717,7 +788,15 @@
           "multiplier": 3,
           "cap": null,
           "notes": "Delta purchases",
-          "isConditional": true
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "merchant",
+              "label": "Delta Air Lines purchases",
+              "merchant": "Delta Air Lines",
+              "details": "Delta purchases"
+            }
+          ]
         }
       ],
       "baseEarnRate": 1,
@@ -769,7 +848,15 @@
           "multiplier": 12,
           "cap": null,
           "notes": "Hilton hotels and resorts",
-          "isConditional": true
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "merchant",
+              "label": "Hilton purchases",
+              "merchant": "Hilton",
+              "details": "Hilton hotels and resorts"
+            }
+          ]
         },
         {
           "category": "dining",
@@ -831,7 +918,15 @@
           "multiplier": 14,
           "cap": null,
           "notes": "Hotels and resorts within the Hilton portfolio",
-          "isConditional": true
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "merchant",
+              "label": "Hilton purchases",
+              "merchant": "Hilton",
+              "details": "Hotels and resorts within the Hilton portfolio"
+            }
+          ]
         },
         {
           "category": "airfare",
@@ -843,7 +938,10 @@
           "category": "travel",
           "multiplier": 7,
           "cap": null,
-          "notes": "Car rentals booked directly with select car rental companies"
+          "notes": "Car rentals booked directly with select car rental companies",
+          "appliesToCategories": [
+            "travel"
+          ]
         },
         {
           "category": "dining",
@@ -915,42 +1013,92 @@
           "multiplier": 4,
           "cap": 150000,
           "notes": "One of the top 2 eligible business categories each billing cycle, up to $150,000 combined per calendar year, then 1x",
-          "isConditional": true
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "businessCategoryTopSpend",
+              "label": "Top 2 eligible business categories",
+              "details": "One of the top 2 eligible business categories each billing cycle, up to $150,000 combined per calendar year, then 1x"
+            }
+          ]
         },
         {
           "category": "travel",
           "multiplier": 4,
           "cap": 150000,
           "notes": "One of the top 2 eligible business categories each billing cycle, up to $150,000 combined per calendar year, then 1x",
-          "isConditional": true
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "businessCategoryTopSpend",
+              "label": "Top 2 eligible business categories",
+              "details": "One of the top 2 eligible business categories each billing cycle, up to $150,000 combined per calendar year, then 1x"
+            }
+          ],
+          "appliesToCategories": [
+            "travel",
+            "airfare",
+            "hotels",
+            "transit"
+          ]
         },
         {
           "category": "transit",
           "multiplier": 4,
           "cap": 150000,
           "notes": "One of the top 2 eligible business categories each billing cycle, up to $150,000 combined per calendar year, then 1x",
-          "isConditional": true
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "businessCategoryTopSpend",
+              "label": "Top 2 eligible business categories",
+              "details": "One of the top 2 eligible business categories each billing cycle, up to $150,000 combined per calendar year, then 1x"
+            }
+          ]
         },
         {
           "category": "gas",
           "multiplier": 4,
           "cap": 150000,
           "notes": "One of the top 2 eligible business categories each billing cycle, up to $150,000 combined per calendar year, then 1x",
-          "isConditional": true
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "businessCategoryTopSpend",
+              "label": "Top 2 eligible business categories",
+              "details": "One of the top 2 eligible business categories each billing cycle, up to $150,000 combined per calendar year, then 1x"
+            }
+          ]
         },
         {
           "category": "airfare",
           "multiplier": 3,
           "cap": null,
           "notes": "Flights and prepaid hotels booked on AmexTravel.com",
-          "isConditional": true
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "travelPortal",
+              "label": "Amex Travel required",
+              "provider": "Amex Travel",
+              "details": "Flights and prepaid hotels booked on AmexTravel.com"
+            }
+          ]
         },
         {
           "category": "hotels",
           "multiplier": 3,
           "cap": null,
           "notes": "Flights and prepaid hotels booked on AmexTravel.com",
-          "isConditional": true
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "travelPortal",
+              "label": "Amex Travel required",
+              "provider": "Amex Travel",
+              "details": "Flights and prepaid hotels booked on AmexTravel.com"
+            }
+          ]
         }
       ],
       "baseEarnRate": 1,
@@ -1009,21 +1157,49 @@
           "multiplier": 5,
           "cap": null,
           "notes": "Flights booked via Amex Travel",
-          "isConditional": true
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "travelPortal",
+              "label": "Amex Travel required",
+              "provider": "Amex Travel",
+              "details": "Flights booked via Amex Travel"
+            }
+          ]
         },
         {
           "category": "hotels",
           "multiplier": 5,
           "cap": null,
           "notes": "Prepaid hotels booked via Amex Travel",
-          "isConditional": true
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "travelPortal",
+              "label": "Amex Travel required",
+              "provider": "Amex Travel",
+              "details": "Prepaid hotels booked via Amex Travel"
+            }
+          ]
         },
         {
           "category": "other",
           "multiplier": 1.5,
           "cap": 2000000,
           "notes": "Eligible U.S. construction material, electronic goods, software/cloud, shipping, and single purchases of $5,000+; up to $2,000,000 combined per calendar year, then 1x",
-          "isConditional": true
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "businessCategoryTopSpend",
+              "label": "Eligible U.S. business categories",
+              "details": "Eligible U.S. construction material, electronic goods, software/cloud, shipping, and single purchases of $5,000+; up to $2,000,000 combined per calendar year, then 1x"
+            },
+            {
+              "type": "largePurchase",
+              "label": "Single purchases of $5,000+",
+              "details": "Eligible U.S. construction material, electronic goods, software/cloud, shipping, and single purchases of $5,000+; up to $2,000,000 combined per calendar year, then 1x"
+            }
+          ]
         }
       ],
       "baseEarnRate": 1,
@@ -1186,7 +1362,15 @@
           "multiplier": 7,
           "cap": null,
           "notes": "Hotels and resorts within the Hilton portfolio",
-          "isConditional": true
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "merchant",
+              "label": "Hilton purchases",
+              "merchant": "Hilton",
+              "details": "Hotels and resorts within the Hilton portfolio"
+            }
+          ]
         },
         {
           "category": "dining",
@@ -1236,7 +1420,15 @@
           "multiplier": 6,
           "cap": null,
           "notes": "Hotels participating in Marriott Bonvoy",
-          "isConditional": true
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "merchant",
+              "label": "Marriott Bonvoy purchases",
+              "merchant": "Marriott Bonvoy",
+              "details": "Hotels participating in Marriott Bonvoy"
+            }
+          ]
         },
         {
           "category": "dining",
@@ -1293,7 +1485,15 @@
           "multiplier": 2,
           "cap": null,
           "notes": "Eligible Delta purchases",
-          "isConditional": true
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "merchant",
+              "label": "Delta Air Lines purchases",
+              "merchant": "Delta Air Lines",
+              "details": "Eligible Delta purchases"
+            }
+          ]
         },
         {
           "category": "dining",
@@ -1329,14 +1529,30 @@
           "multiplier": 2,
           "cap": null,
           "notes": "Flights and prepaid hotels booked on AmexTravel.com",
-          "isConditional": true
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "travelPortal",
+              "label": "Amex Travel required",
+              "provider": "Amex Travel",
+              "details": "Flights and prepaid hotels booked on AmexTravel.com"
+            }
+          ]
         },
         {
           "category": "airfare",
           "multiplier": 2,
           "cap": null,
           "notes": "Flights and prepaid hotels booked on AmexTravel.com",
-          "isConditional": true
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "travelPortal",
+              "label": "Amex Travel required",
+              "provider": "Amex Travel",
+              "details": "Flights and prepaid hotels booked on AmexTravel.com"
+            }
+          ]
         }
       ],
       "baseEarnRate": 1,
@@ -1422,7 +1638,15 @@
           "multiplier": 3,
           "cap": null,
           "notes": "Delta purchases",
-          "isConditional": true
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "merchant",
+              "label": "Delta Air Lines purchases",
+              "merchant": "Delta Air Lines",
+              "details": "Delta purchases"
+            }
+          ]
         },
         {
           "category": "transit",
@@ -1458,7 +1682,15 @@
           "multiplier": 3,
           "cap": null,
           "notes": "Eligible Delta purchases",
-          "isConditional": true
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "merchant",
+              "label": "Delta Air Lines purchases",
+              "merchant": "Delta Air Lines",
+              "details": "Eligible Delta purchases"
+            }
+          ]
         },
         {
           "category": "hotels",
@@ -1501,7 +1733,15 @@
           "multiplier": 2,
           "cap": null,
           "notes": "Eligible Delta purchases",
-          "isConditional": true
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "merchant",
+              "label": "Delta Air Lines purchases",
+              "merchant": "Delta Air Lines",
+              "details": "Eligible Delta purchases"
+            }
+          ]
         },
         {
           "category": "dining",
@@ -1557,7 +1797,15 @@
           "multiplier": 6,
           "cap": null,
           "notes": "Hotels participating in the Marriott Bonvoy program",
-          "isConditional": true
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "merchant",
+              "label": "Marriott Bonvoy purchases",
+              "merchant": "Marriott Bonvoy",
+              "details": "Hotels participating in the Marriott Bonvoy program"
+            }
+          ]
         },
         {
           "category": "dining",
@@ -1621,7 +1869,15 @@
           "multiplier": 12,
           "cap": null,
           "notes": "Hotels and resorts within the Hilton portfolio",
-          "isConditional": true
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "merchant",
+              "label": "Hilton purchases",
+              "merchant": "Hilton",
+              "details": "Hotels and resorts within the Hilton portfolio"
+            }
+          ]
         },
         {
           "category": "other",
@@ -1670,14 +1926,30 @@
           "multiplier": 5,
           "cap": null,
           "notes": "Flights and prepaid hotels booked through American Express Travel Online",
-          "isConditional": true
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "travelPortal",
+              "label": "American Express Travel required",
+              "provider": "American Express Travel",
+              "details": "Flights and prepaid hotels booked through American Express Travel Online"
+            }
+          ]
         },
         {
           "category": "airfare",
           "multiplier": 5,
           "cap": null,
           "notes": "Flights and prepaid hotels booked through American Express Travel Online",
-          "isConditional": true
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "travelPortal",
+              "label": "American Express Travel required",
+              "provider": "American Express Travel",
+              "details": "Flights and prepaid hotels booked through American Express Travel Online"
+            }
+          ]
         }
       ],
       "baseEarnRate": 2,
@@ -1707,7 +1979,15 @@
           "multiplier": 2,
           "cap": null,
           "notes": "Eligible American Airlines purchases",
-          "isConditional": true
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "merchant",
+              "label": "American Airlines purchases",
+              "merchant": "American Airlines",
+              "details": "Eligible American Airlines purchases"
+            }
+          ]
         }
       ],
       "baseEarnRate": 1,
@@ -1760,7 +2040,15 @@
           "multiplier": 3,
           "cap": null,
           "notes": "Eligible Hawaiian Airlines purchases",
-          "isConditional": true
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "merchant",
+              "label": "Hawaiian Airlines purchases",
+              "merchant": "Hawaiian Airlines",
+              "details": "Eligible Hawaiian Airlines purchases"
+            }
+          ]
         },
         {
           "category": "gas",
@@ -1822,7 +2110,15 @@
           "multiplier": 6,
           "cap": null,
           "notes": "JetBlue purchases",
-          "isConditional": true
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "merchant",
+              "label": "JetBlue purchases",
+              "merchant": "JetBlue",
+              "details": "JetBlue purchases"
+            }
+          ]
         },
         {
           "category": "dining",
@@ -1888,7 +2184,15 @@
           "multiplier": 6,
           "cap": null,
           "notes": "JetBlue purchases",
-          "isConditional": true
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "merchant",
+              "label": "JetBlue purchases",
+              "merchant": "JetBlue",
+              "details": "JetBlue purchases"
+            }
+          ]
         },
         {
           "category": "dining",
@@ -1954,7 +2258,15 @@
           "multiplier": 6,
           "cap": null,
           "notes": "Wyndham hotels and gas",
-          "isConditional": true
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "merchant",
+              "label": "Wyndham purchases",
+              "merchant": "Wyndham",
+              "details": "Wyndham hotels and gas"
+            }
+          ]
         },
         {
           "category": "gas",
@@ -2015,14 +2327,33 @@
           "category": "travel",
           "multiplier": 5,
           "cap": null,
-          "notes": "Chase Travel portal purchases"
+          "notes": "Chase Travel portal purchases",
+          "appliesToCategories": [
+            "travel",
+            "airfare",
+            "hotels"
+          ],
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "travelPortal",
+              "provider": "Chase Travel"
+            }
+          ]
         },
         {
           "category": "other",
           "multiplier": 5,
           "cap": 1500,
           "notes": "Rotating quarterly categories, up to $1,500/quarter then 1%",
-          "isConditional": true
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "rotatingCategory",
+              "label": "Rotating quarterly categories",
+              "details": "Rotating quarterly categories, up to $1,500/quarter then 1%"
+            }
+          ]
         }
       ],
       "baseEarnRate": 1,
@@ -2065,7 +2396,19 @@
           "category": "travel",
           "multiplier": 5,
           "cap": null,
-          "notes": "Chase Travel portal purchases"
+          "notes": "Chase Travel portal purchases",
+          "appliesToCategories": [
+            "travel",
+            "airfare",
+            "hotels"
+          ],
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "travelPortal",
+              "provider": "Chase Travel"
+            }
+          ]
         }
       ],
       "baseEarnRate": 1.5,
@@ -2095,7 +2438,13 @@
           "category": "travel",
           "multiplier": 3,
           "cap": 150000,
-          "notes": "Travel, shipping, advertising, and internet/cable/phone services, up to $150,000 combined per account anniversary year, then 1x"
+          "notes": "Travel, shipping, advertising, and internet/cable/phone services, up to $150,000 combined per account anniversary year, then 1x",
+          "appliesToCategories": [
+            "travel",
+            "airfare",
+            "hotels",
+            "transit"
+          ]
         },
         {
           "category": "transit",
@@ -2193,7 +2542,15 @@
           "multiplier": 3,
           "cap": null,
           "notes": "Eligible United purchases",
-          "isConditional": true
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "merchant",
+              "label": "United Airlines purchases",
+              "merchant": "United Airlines",
+              "details": "Eligible United purchases"
+            }
+          ]
         },
         {
           "category": "hotels",
@@ -2262,20 +2619,42 @@
           "multiplier": 5,
           "cap": null,
           "notes": "Eligible United purchases",
-          "isConditional": true
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "merchant",
+              "label": "United Airlines purchases",
+              "merchant": "United Airlines",
+              "details": "Eligible United purchases"
+            }
+          ]
         },
         {
           "category": "hotels",
           "multiplier": 5,
           "cap": null,
           "notes": "Prepaid hotel stays through Renowned Hotels and Resorts for United Cardmembers",
-          "isConditional": true
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "travelPortal",
+              "label": "Renowned Hotels and Resorts required",
+              "provider": "Renowned Hotels and Resorts",
+              "details": "Prepaid hotel stays through Renowned Hotels and Resorts for United Cardmembers"
+            }
+          ]
         },
         {
           "category": "travel",
           "multiplier": 2,
           "cap": null,
-          "notes": "Other travel, including airfare, trains, local transit, cruise lines, hotels, car rentals, taxicabs, resorts, ride share, and tolls"
+          "notes": "Other travel, including airfare, trains, local transit, cruise lines, hotels, car rentals, taxicabs, resorts, ride share, and tolls",
+          "appliesToCategories": [
+            "travel",
+            "airfare",
+            "hotels",
+            "transit"
+          ]
         },
         {
           "category": "dining",
@@ -2334,7 +2713,26 @@
           "multiplier": 5,
           "cap": null,
           "notes": "Chase Travel purchases with an eligible Prime membership",
-          "isConditional": true
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "travelPortal",
+              "label": "Chase Travel required",
+              "provider": "Chase Travel",
+              "details": "Chase Travel purchases with an eligible Prime membership"
+            },
+            {
+              "type": "membershipRequired",
+              "label": "Eligible Prime membership required",
+              "provider": "Amazon Prime",
+              "details": "Chase Travel purchases with an eligible Prime membership"
+            }
+          ],
+          "appliesToCategories": [
+            "travel",
+            "airfare",
+            "hotels"
+          ]
         },
         {
           "category": "dining",
@@ -2392,7 +2790,15 @@
           "multiplier": 3,
           "cap": null,
           "notes": "Air Canada and Air Canada Vacations purchases",
-          "isConditional": true
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "merchant",
+              "label": "Air Canada purchases",
+              "merchant": "Air Canada",
+              "details": "Air Canada and Air Canada Vacations purchases"
+            }
+          ]
         },
         {
           "category": "dining",
@@ -2447,14 +2853,30 @@
           "multiplier": 10,
           "cap": null,
           "notes": "Hotels and rental cars booked through Capital One Travel",
-          "isConditional": true
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "travelPortal",
+              "label": "Capital One Travel required",
+              "provider": "Capital One Travel",
+              "details": "Hotels and rental cars booked through Capital One Travel"
+            }
+          ]
         },
         {
           "category": "airfare",
           "multiplier": 5,
           "cap": null,
           "notes": "Flights and vacation rentals booked through Capital One Travel",
-          "isConditional": true
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "travelPortal",
+              "label": "Capital One Travel required",
+              "provider": "Capital One Travel",
+              "details": "Flights and vacation rentals booked through Capital One Travel"
+            }
+          ]
         }
       ],
       "baseEarnRate": 2,
@@ -2519,7 +2941,15 @@
           "multiplier": 5,
           "cap": null,
           "notes": "Hotels, vacation rentals, and rental cars booked through Capital One Travel",
-          "isConditional": true
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "travelPortal",
+              "label": "Capital One Travel required",
+              "provider": "Capital One Travel",
+              "details": "Hotels, vacation rentals, and rental cars booked through Capital One Travel"
+            }
+          ]
         }
       ],
       "baseEarnRate": 2,
@@ -2560,14 +2990,30 @@
           "multiplier": 10,
           "cap": null,
           "notes": "Hotels and rental cars booked through Capital One Travel",
-          "isConditional": true
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "travelPortal",
+              "label": "Capital One Travel required",
+              "provider": "Capital One Travel",
+              "details": "Hotels and rental cars booked through Capital One Travel"
+            }
+          ]
         },
         {
           "category": "airfare",
           "multiplier": 5,
           "cap": null,
           "notes": "Flights booked through Capital One Travel",
-          "isConditional": true
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "travelPortal",
+              "label": "Capital One Travel required",
+              "provider": "Capital One Travel",
+              "details": "Flights booked through Capital One Travel"
+            }
+          ]
         }
       ],
       "baseEarnRate": 2,
@@ -2620,7 +3066,19 @@
           "multiplier": 5,
           "cap": null,
           "notes": "Hotels and rental cars booked through Capital One Travel",
-          "isConditional": true
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "travelPortal",
+              "label": "Capital One Travel required",
+              "provider": "Capital One Travel",
+              "details": "Hotels and rental cars booked through Capital One Travel"
+            }
+          ],
+          "appliesToCategories": [
+            "travel",
+            "hotels"
+          ]
         },
         {
           "category": "dining",
@@ -2677,7 +3135,19 @@
           "multiplier": 5,
           "cap": null,
           "notes": "Hotels and rental cars booked through Capital One Travel",
-          "isConditional": true
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "travelPortal",
+              "label": "Capital One Travel required",
+              "provider": "Capital One Travel",
+              "details": "Hotels and rental cars booked through Capital One Travel"
+            }
+          ],
+          "appliesToCategories": [
+            "travel",
+            "hotels"
+          ]
         },
         {
           "category": "dining",
@@ -2737,7 +3207,20 @@
           "multiplier": 5,
           "cap": null,
           "notes": "Chase Travel purchases",
-          "isConditional": true
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "travelPortal",
+              "label": "Chase Travel required",
+              "provider": "Chase Travel",
+              "details": "Chase Travel purchases"
+            }
+          ],
+          "appliesToCategories": [
+            "travel",
+            "airfare",
+            "hotels"
+          ]
         },
         {
           "category": "dining",
@@ -2761,7 +3244,13 @@
           "category": "travel",
           "multiplier": 2,
           "cap": null,
-          "notes": "Other travel purchases"
+          "notes": "Other travel purchases",
+          "appliesToCategories": [
+            "travel",
+            "airfare",
+            "hotels",
+            "transit"
+          ]
         }
       ],
       "baseEarnRate": 1,
@@ -2805,7 +3294,20 @@
           "multiplier": 8,
           "cap": null,
           "notes": "Chase Travel purchases",
-          "isConditional": true
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "travelPortal",
+              "label": "Chase Travel required",
+              "provider": "Chase Travel",
+              "details": "Chase Travel purchases"
+            }
+          ],
+          "appliesToCategories": [
+            "travel",
+            "airfare",
+            "hotels"
+          ]
         },
         {
           "category": "airfare",
@@ -2966,13 +3468,27 @@
           "multiplier": 10,
           "cap": null,
           "notes": "IHG Hotels & Resorts purchases",
-          "isConditional": true
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "merchant",
+              "label": "IHG Hotels & Resorts purchases",
+              "merchant": "IHG Hotels & Resorts",
+              "details": "IHG Hotels & Resorts purchases"
+            }
+          ]
         },
         {
           "category": "travel",
           "multiplier": 5,
           "cap": null,
-          "notes": "Travel purchases"
+          "notes": "Travel purchases",
+          "appliesToCategories": [
+            "travel",
+            "airfare",
+            "hotels",
+            "transit"
+          ]
         },
         {
           "category": "dining",
@@ -3051,7 +3567,15 @@
           "multiplier": 6,
           "cap": null,
           "notes": "Participating Marriott Bonvoy hotels",
-          "isConditional": true
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "merchant",
+              "label": "Marriott Bonvoy purchases",
+              "merchant": "Marriott Bonvoy",
+              "details": "Participating Marriott Bonvoy hotels"
+            }
+          ]
         },
         {
           "category": "dining",
@@ -3114,7 +3638,15 @@
           "multiplier": 6,
           "cap": null,
           "notes": "Hotels participating in Marriott Bonvoy",
-          "isConditional": true
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "merchant",
+              "label": "Marriott Bonvoy purchases",
+              "merchant": "Marriott Bonvoy",
+              "details": "Hotels participating in Marriott Bonvoy"
+            }
+          ]
         },
         {
           "category": "dining",
@@ -3132,7 +3664,10 @@
           "category": "travel",
           "multiplier": 3,
           "cap": null,
-          "notes": "Car rental purchases"
+          "notes": "Car rental purchases",
+          "appliesToCategories": [
+            "travel"
+          ]
         }
       ],
       "baseEarnRate": 2,
@@ -3221,7 +3756,21 @@
           "multiplier": 3,
           "cap": null,
           "notes": "Purchases made directly with Southwest Airlines",
-          "isConditional": true
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "merchant",
+              "label": "Southwest Airlines purchases",
+              "merchant": "Southwest Airlines",
+              "details": "Purchases made directly with Southwest Airlines"
+            },
+            {
+              "type": "directBooking",
+              "label": "Book directly with Southwest",
+              "merchant": "Southwest Airlines",
+              "details": "Purchases made directly with Southwest Airlines"
+            }
+          ]
         },
         {
           "category": "groceries",
@@ -3289,7 +3838,21 @@
           "multiplier": 4,
           "cap": null,
           "notes": "Purchases made directly with Southwest Airlines",
-          "isConditional": true
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "merchant",
+              "label": "Southwest Airlines purchases",
+              "merchant": "Southwest Airlines",
+              "details": "Purchases made directly with Southwest Airlines"
+            },
+            {
+              "type": "directBooking",
+              "label": "Book directly with Southwest",
+              "merchant": "Southwest Airlines",
+              "details": "Purchases made directly with Southwest Airlines"
+            }
+          ]
         },
         {
           "category": "gas",
@@ -3382,7 +3945,15 @@
           "multiplier": 4,
           "cap": null,
           "notes": "Hyatt hotels and resorts",
-          "isConditional": true
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "merchant",
+              "label": "Hyatt purchases",
+              "merchant": "Hyatt",
+              "details": "Hyatt hotels and resorts"
+            }
+          ]
         },
         {
           "category": "dining",
@@ -3475,7 +4046,21 @@
           "multiplier": 3,
           "cap": null,
           "notes": "Purchases made directly with Southwest Airlines",
-          "isConditional": true
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "merchant",
+              "label": "Southwest Airlines purchases",
+              "merchant": "Southwest Airlines",
+              "details": "Purchases made directly with Southwest Airlines"
+            },
+            {
+              "type": "directBooking",
+              "label": "Book directly with Southwest",
+              "merchant": "Southwest Airlines",
+              "details": "Purchases made directly with Southwest Airlines"
+            }
+          ]
         }
       ],
       "baseEarnRate": 1,
@@ -3539,14 +4124,40 @@
           "multiplier": 4,
           "cap": null,
           "notes": "Purchases made directly with Southwest Airlines",
-          "isConditional": true
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "merchant",
+              "label": "Southwest Airlines purchases",
+              "merchant": "Southwest Airlines",
+              "details": "Purchases made directly with Southwest Airlines"
+            },
+            {
+              "type": "directBooking",
+              "label": "Book directly with Southwest",
+              "merchant": "Southwest Airlines",
+              "details": "Purchases made directly with Southwest Airlines"
+            }
+          ]
         },
         {
           "category": "travel",
           "multiplier": 3,
           "cap": null,
           "notes": "Participating Rapid Rewards hotel and rental car partners",
-          "isConditional": true
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "partnerProgram",
+              "label": "Participating Rapid Rewards partners",
+              "provider": "Southwest Rapid Rewards",
+              "details": "Participating Rapid Rewards hotel and rental car partners"
+            }
+          ],
+          "appliesToCategories": [
+            "travel",
+            "hotels"
+          ]
         },
         {
           "category": "gas",
@@ -3664,14 +4275,30 @@
           "multiplier": 10,
           "cap": null,
           "notes": "Hotels and rental cars booked through Citi Travel",
-          "isConditional": true
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "travelPortal",
+              "label": "Citi Travel required",
+              "provider": "Citi Travel",
+              "details": "Hotels and rental cars booked through Citi Travel"
+            }
+          ]
         },
         {
           "category": "airfare",
           "multiplier": 4,
           "cap": 150000,
           "notes": "Eligible American Airlines purchases up to $150,000 per calendar year, then 1x",
-          "isConditional": true
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "merchant",
+              "label": "American Airlines purchases",
+              "merchant": "American Airlines",
+              "details": "Eligible American Airlines purchases up to $150,000 per calendar year, then 1x"
+            }
+          ]
         }
       ],
       "baseEarnRate": 1,
@@ -3763,7 +4390,10 @@
           "category": "travel",
           "multiplier": 3,
           "cap": null,
-          "notes": "Cruise line purchases"
+          "notes": "Cruise line purchases",
+          "appliesToCategories": [
+            "travel"
+          ]
         }
       ],
       "baseEarnRate": 1,
@@ -3830,7 +4460,19 @@
           "multiplier": 10,
           "cap": null,
           "notes": "Hotels, car rentals, and attractions booked on Citi Travel",
-          "isConditional": true
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "travelPortal",
+              "label": "Citi Travel required",
+              "provider": "Citi Travel",
+              "details": "Hotels, car rentals, and attractions booked on Citi Travel"
+            }
+          ],
+          "appliesToCategories": [
+            "travel",
+            "hotels"
+          ]
         },
         {
           "category": "airfare",
@@ -3906,14 +4548,34 @@
           "multiplier": 12,
           "cap": null,
           "notes": "Hotels, car rentals, and attractions booked on Citi Travel",
-          "isConditional": true
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "travelPortal",
+              "label": "Citi Travel required",
+              "provider": "Citi Travel",
+              "details": "Hotels, car rentals, and attractions booked on Citi Travel"
+            }
+          ],
+          "appliesToCategories": [
+            "travel",
+            "hotels"
+          ]
         },
         {
           "category": "airfare",
           "multiplier": 6,
           "cap": null,
           "notes": "Air travel booked on Citi Travel",
-          "isConditional": true
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "travelPortal",
+              "label": "Citi Travel required",
+              "provider": "Citi Travel",
+              "details": "Air travel booked on Citi Travel"
+            }
+          ]
         },
         {
           "category": "dining",
@@ -4040,14 +4702,33 @@
           "multiplier": 5,
           "cap": null,
           "notes": "Hotels, car rentals, and attractions booked on Citi Travel",
-          "isConditional": true
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "travelPortal",
+              "label": "Citi Travel required",
+              "provider": "Citi Travel",
+              "details": "Hotels, car rentals, and attractions booked on Citi Travel"
+            }
+          ],
+          "appliesToCategories": [
+            "travel",
+            "hotels"
+          ]
         },
         {
           "category": "other",
           "multiplier": 5,
           "cap": 500,
           "notes": "Top eligible spend category each billing cycle, up to $500 per billing cycle, then 1x",
-          "isConditional": true
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "chosenCategory",
+              "label": "Top eligible spend category",
+              "details": "Top eligible spend category each billing cycle, up to $500 per billing cycle, then 1x"
+            }
+          ]
         }
       ],
       "baseEarnRate": 1,
@@ -4076,7 +4757,13 @@
           "category": "travel",
           "multiplier": 2,
           "cap": null,
-          "notes": null
+          "notes": null,
+          "appliesToCategories": [
+            "travel",
+            "airfare",
+            "hotels",
+            "transit"
+          ]
         },
         {
           "category": "dining",
@@ -4134,7 +4821,13 @@
           "category": "travel",
           "multiplier": 2,
           "cap": null,
-          "notes": null
+          "notes": null,
+          "appliesToCategories": [
+            "travel",
+            "airfare",
+            "hotels",
+            "transit"
+          ]
         },
         {
           "category": "dining",
@@ -4235,7 +4928,15 @@
           "multiplier": 3,
           "cap": null,
           "notes": "Eligible Alaska Airlines and Hawaiian Airlines purchases",
-          "isConditional": true
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "merchant",
+              "label": "Hawaiian Airlines purchases",
+              "merchant": "Hawaiian Airlines",
+              "details": "Eligible Alaska Airlines and Hawaiian Airlines purchases"
+            }
+          ]
         },
         {
           "category": "gas",
@@ -4309,14 +5010,29 @@
           "multiplier": 3,
           "cap": null,
           "notes": "Eligible Alaska Airlines and Hawaiian Airlines purchases",
-          "isConditional": true
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "merchant",
+              "label": "Hawaiian Airlines purchases",
+              "merchant": "Hawaiian Airlines",
+              "details": "Eligible Alaska Airlines and Hawaiian Airlines purchases"
+            }
+          ]
         },
         {
           "category": "other",
           "multiplier": 3,
           "cap": null,
           "notes": "Foreign currency transactions",
-          "isConditional": true
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "foreignCurrency",
+              "label": "Foreign currency transactions",
+              "details": "Foreign currency transactions"
+            }
+          ]
         },
         {
           "category": "dining",
@@ -4388,7 +5104,13 @@
           "category": "travel",
           "multiplier": 3,
           "cap": null,
-          "notes": "Other travel"
+          "notes": "Other travel",
+          "appliesToCategories": [
+            "travel",
+            "airfare",
+            "hotels",
+            "transit"
+          ]
         },
         {
           "category": "dining",
@@ -4443,7 +5165,13 @@
           "category": "travel",
           "multiplier": 3,
           "cap": null,
-          "notes": null
+          "notes": null,
+          "appliesToCategories": [
+            "travel",
+            "airfare",
+            "hotels",
+            "transit"
+          ]
         },
         {
           "category": "transit",
@@ -4544,7 +5272,12 @@
           "category": "travel",
           "multiplier": 3,
           "cap": null,
-          "notes": "Mobile wallet purchases"
+          "notes": "Mobile wallet purchases",
+          "appliesToCategories": [
+            "travel",
+            "airfare",
+            "hotels"
+          ]
         },
         {
           "category": "other",
@@ -4592,13 +5325,31 @@
           "multiplier": 5,
           "cap": null,
           "notes": "Prepaid hotels and car rentals booked directly in the Travel Center",
-          "isConditional": true
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "travelPortal",
+              "label": "US Bank Travel Center required",
+              "provider": "US Bank Travel Center",
+              "details": "Prepaid hotels and car rentals booked directly in the Travel Center"
+            }
+          ],
+          "appliesToCategories": [
+            "travel",
+            "hotels"
+          ]
         },
         {
           "category": "travel",
           "multiplier": 4,
           "cap": null,
-          "notes": "Travel purchases"
+          "notes": "Travel purchases",
+          "appliesToCategories": [
+            "travel",
+            "airfare",
+            "hotels",
+            "transit"
+          ]
         },
         {
           "category": "gas",
@@ -4681,7 +5432,14 @@
           "multiplier": 5,
           "cap": 2000,
           "notes": "Two chosen 5% categories, up to $2,000 in combined eligible net purchases each quarter, then 1x",
-          "isConditional": true
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "chosenCategory",
+              "label": "User-selected category",
+              "details": "Two chosen 5% categories, up to $2,000 in combined eligible net purchases each quarter, then 1x"
+            }
+          ]
         }
       ],
       "baseEarnRate": 1,
@@ -4710,7 +5468,19 @@
           "multiplier": 5,
           "cap": 1500,
           "notes": "Rotating quarterly categories after activation, up to the quarterly maximum each quarter, then 1x",
-          "isConditional": true
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "rotatingCategory",
+              "label": "Rotating quarterly categories",
+              "details": "Rotating quarterly categories after activation, up to the quarterly maximum each quarter, then 1x"
+            },
+            {
+              "type": "activationRequired",
+              "label": "Activation required",
+              "details": "Rotating quarterly categories after activation, up to the quarterly maximum each quarter, then 1x"
+            }
+          ]
         }
       ],
       "baseEarnRate": 1,
@@ -4822,14 +5592,28 @@
           "multiplier": 3,
           "cap": 25000,
           "notes": "Choose dining or groceries as a 3x category, up to $25,000 per calendar year, then 1x",
-          "isConditional": true
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "chosenCategory",
+              "label": "User-selected category",
+              "details": "Choose dining or groceries as a 3x category, up to $25,000 per calendar year, then 1x"
+            }
+          ]
         },
         {
           "category": "groceries",
           "multiplier": 3,
           "cap": 25000,
           "notes": "Choose groceries or dining as a 3x category, up to $25,000 per calendar year, then 1x",
-          "isConditional": true
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "chosenCategory",
+              "label": "User-selected category",
+              "details": "Choose groceries or dining as a 3x category, up to $25,000 per calendar year, then 1x"
+            }
+          ]
         },
         {
           "category": "rent",
@@ -4841,7 +5625,13 @@
           "category": "travel",
           "multiplier": 2,
           "cap": null,
-          "notes": "Travel purchases"
+          "notes": "Travel purchases",
+          "appliesToCategories": [
+            "travel",
+            "airfare",
+            "hotels",
+            "transit"
+          ]
         }
       ],
       "baseEarnRate": 1,
