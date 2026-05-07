@@ -12,6 +12,7 @@
 //      means "our runner is blocked", not "the source URL is dead".
 //   4. Two-citation rule for annualFee changes vs origin/main — HARD
 //   5. No id may be deleted from cards (use `discontinued: true` instead) — HARD
+//   6. Conditional earn rates must include structured condition metadata — HARD
 //
 // Env:
 //   SKIP_HTTP_CHECK=1  — skip the network-dependent link-rot check (local dev)
@@ -50,6 +51,36 @@ const errors = [];
 const warnings = [];
 const err = (msg) => errors.push(msg);
 const warn = (msg) => warnings.push(msg);
+
+const CONDITION_TYPES = new Set([
+  'activationRequired',
+  'businessCategoryTopSpend',
+  'chosenCategory',
+  'directBooking',
+  'foreignCurrency',
+  'largePurchase',
+  'merchant',
+  'membershipRequired',
+  'partnerProgram',
+  'rotatingCategory',
+  'travelPortal',
+]);
+
+const SPENDING_CATEGORIES = new Set([
+  'airfare',
+  'dining',
+  'drugstores',
+  'gas',
+  'groceries',
+  'hotels',
+  'homeImprovement',
+  'onlineShopping',
+  'other',
+  'rent',
+  'streaming',
+  'transit',
+  'travel',
+]);
 
 // -------- load --------
 const [cardsRaw, schemaRaw] = await Promise.all([
@@ -101,6 +132,74 @@ for (const card of cards.cards || []) {
         );
       }
       urlEntries.push({ url, card: card.id, field });
+    }
+  }
+}
+
+// -------- conditional earn-rate metadata --------
+for (const card of cards.cards || []) {
+  for (const [index, rate] of (card.earnRates || []).entries()) {
+    if (rate.category === 'travel') {
+      const scopes = Array.isArray(rate.appliesToCategories) ? rate.appliesToCategories : [];
+      if (scopes.length === 0) {
+        err(
+          `${card.id}.earnRates[${index}]: travel ${rate.multiplier}x needs appliesToCategories[] ` +
+            `so airfare/hotels inheritance cannot use the wrong travel sub-scope.`
+        );
+      }
+
+      if (!scopes.includes('travel')) {
+        err(`${card.id}.earnRates[${index}].appliesToCategories: travel rates must include "travel"`);
+      }
+
+      for (const scope of scopes) {
+        if (!SPENDING_CATEGORIES.has(scope)) {
+          err(`${card.id}.earnRates[${index}].appliesToCategories: unsupported category "${scope}"`);
+        }
+      }
+
+      const notes = typeof rate.notes === 'string' ? rate.notes.toLowerCase() : '';
+      const looksPortalScoped =
+        notes.includes('portal')
+        || notes.includes('travel center')
+        || notes.includes('booked through')
+        || notes.includes('chase travel')
+        || notes.includes('citi travel')
+        || notes.includes('capital one travel');
+      if (looksPortalScoped && rate.isConditional !== true) {
+        err(
+          `${card.id}.earnRates[${index}]: travel ${rate.multiplier}x looks portal-scoped, ` +
+            `so mark isConditional=true and add conditions[].`
+        );
+      }
+    }
+
+    if (!rate.isConditional) continue;
+
+    const hasConditions = Array.isArray(rate.conditions) && rate.conditions.length > 0;
+    const hasTimeWindows = Array.isArray(rate.timeWindows) && rate.timeWindows.length > 0;
+    if (!hasConditions && !hasTimeWindows) {
+      err(
+        `${card.id}.earnRates[${index}]: conditional ${rate.category} ${rate.multiplier}x needs ` +
+          `structured conditions[] or timeWindows[] metadata. Notes alone are not enough.`
+      );
+      continue;
+    }
+
+    for (const [conditionIndex, condition] of (rate.conditions || []).entries()) {
+      if (!CONDITION_TYPES.has(condition.type)) {
+        err(
+          `${card.id}.earnRates[${index}].conditions[${conditionIndex}]: unsupported type "${condition.type}"`
+        );
+      }
+
+      const hasDescriptor = [condition.label, condition.provider, condition.merchant, condition.details]
+        .some((value) => typeof value === 'string' && value.trim().length > 0);
+      if (!hasDescriptor) {
+        err(
+          `${card.id}.earnRates[${index}].conditions[${conditionIndex}]: add label, provider, merchant, or details`
+        );
+      }
     }
   }
 }

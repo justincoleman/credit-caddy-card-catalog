@@ -104,6 +104,7 @@
             "gas",
             "groceries",
             "hotels",
+            "homeImprovement",
             "onlineShopping",
             "other",
             "rent",
@@ -117,6 +118,29 @@
         "isConditional": {
           "type": "boolean",
           "description": "True when the multiplier requires a specific booking channel (Amex Travel, issuer portal, direct with merchant). False for everywhere-applicable category bonuses."
+        },
+        "appliesToCategories": {
+          "type": "array",
+          "description": "Optional category scope for parent-category inheritance. For example, a travel portal hotel/car-rental rate can apply to travel and hotels without applying to airfare.",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "enum": [
+              "airfare",
+              "dining",
+              "drugstores",
+              "gas",
+              "groceries",
+              "hotels",
+              "homeImprovement",
+              "onlineShopping",
+              "other",
+              "rent",
+              "streaming",
+              "transit",
+              "travel"
+            ]
+          }
         },
         "timeWindows": {
           "type": "array",
@@ -148,8 +172,46 @@
             }
           }
         },
+        "conditions": {
+          "type": "array",
+          "description": "Structured non-time caveats for conditional earn rates.",
+          "items": { "$ref": "#/$defs/earnRateCondition" }
+        },
         "notes": { "type": ["string", "null"] }
       }
+    },
+    "earnRateCondition": {
+      "type": "object",
+      "required": ["type"],
+      "additionalProperties": false,
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "activationRequired",
+            "businessCategoryTopSpend",
+            "chosenCategory",
+            "directBooking",
+            "foreignCurrency",
+            "largePurchase",
+            "merchant",
+            "membershipRequired",
+            "partnerProgram",
+            "rotatingCategory",
+            "travelPortal"
+          ]
+        },
+        "label": { "type": "string", "minLength": 1 },
+        "provider": { "type": "string", "minLength": 1 },
+        "merchant": { "type": "string", "minLength": 1 },
+        "details": { "type": "string", "minLength": 1 }
+      },
+      "anyOf": [
+        { "required": ["label"] },
+        { "required": ["provider"] },
+        { "required": ["merchant"] },
+        { "required": ["details"] }
+      ]
     },
     "benefit": {
       "type": "object",
