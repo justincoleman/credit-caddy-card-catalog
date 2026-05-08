@@ -13,6 +13,8 @@
 //   4. Two-citation rule for annualFee changes vs origin/main — HARD
 //   5. No id may be deleted from cards (use `discontinued: true` instead) — HARD
 //   6. Conditional earn rates must include structured condition metadata — HARD
+//   7. Recently verified cards must cite every card field, earn-rate category,
+//      and benefit with approved source URLs — HARD
 //
 // Env:
 //   SKIP_HTTP_CHECK=1  — skip the network-dependent link-rot check (local dev)
@@ -45,6 +47,7 @@ const ISSUER_DOMAINS = {
   Barclays: ['barclaycardus.com', 'aa.com', 'hawaiianairlines.com'],
   Apple: ['apple.com'],
   'Column N.A.': ['biltrewards.com'],
+  'Synchrony Bank': ['synchrony.com', 'amazon.com'],
 };
 
 const errors = [];
@@ -81,6 +84,35 @@ const SPENDING_CATEGORIES = new Set([
   'transit',
   'travel',
 ]);
+
+const SOURCE_REQUIRED_CARD_FIELDS = [
+  'annualFee',
+  'noForeignTransactionFees',
+  'baseEarnRate',
+  'rewardProgram',
+];
+
+function sourceUrls(value) {
+  if (typeof value === 'string') return [value];
+  if (Array.isArray(value) && value.every((item) => typeof item === 'string')) return value;
+  return [];
+}
+
+function benefitSourceKey(name) {
+  return `benefits.${String(name)
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-|-$/g, '')}`;
+}
+
+function validateSourcePresent(card, key) {
+  const urls = sourceUrls(card.sources?.[key]);
+  if (urls.length === 0) {
+    err(`${card.id}: missing source for ${key}`);
+  }
+}
 
 // -------- load --------
 const [cardsRaw, schemaRaw] = await Promise.all([
@@ -133,6 +165,33 @@ for (const card of cards.cards || []) {
       }
       urlEntries.push({ url, card: card.id, field });
     }
+  }
+}
+
+// -------- recently verified source completeness --------
+//
+// Older catalog records are being hardened issuer-by-issuer, so this gate is
+// intentionally scoped to cards verified under the stricter 2026-05-08+
+// standard. Any future agent-edited card that advances lastVerified must carry
+// complete citations for the fields it claims to have verified.
+for (const card of cards.cards || []) {
+  if (typeof card.lastVerified !== 'string' || card.lastVerified < '2026-05-08') continue;
+
+  if (!card.sources) {
+    err(`${card.id}: recently verified card is missing sources`);
+    continue;
+  }
+
+  for (const field of SOURCE_REQUIRED_CARD_FIELDS) {
+    validateSourcePresent(card, field);
+  }
+
+  for (const rate of card.earnRates || []) {
+    validateSourcePresent(card, `earnRates.${rate.category}`);
+  }
+
+  for (const benefit of card.benefits || []) {
+    validateSourcePresent(card, benefitSourceKey(benefit.name));
   }
 }
 

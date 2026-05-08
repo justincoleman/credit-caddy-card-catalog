@@ -19,7 +19,7 @@ Audit the entire catalog in `cards.json`.
 Do not use a hard-coded card list. Build the work queue by reading
 `cards.json` and iterating every card in `.cards[]`.
 
-Current catalog coverage is expected to include 77 cards across these issuers:
+Current catalog coverage is expected to include 114 cards across these issuers:
 
 - American Express
 - Apple
@@ -32,6 +32,7 @@ Current catalog coverage is expected to include 77 cards across these issuers:
 - Discover
 - US Bank
 - Wells Fargo
+- Synchrony Bank
 
 If the catalog grows, include new cards automatically. If an issuer appears
 that is not in the approved-domain table below, do not edit that issuer's
@@ -56,6 +57,7 @@ Approved issuer source domains:
 - Discover: `discover.com`
 - US Bank: `usbank.com`
 - Wells Fargo: `wellsfargo.com`
+- Synchrony Bank: `synchrony.com`, `amazon.com`
 
 Subdomains are allowed. Example: `creditcards.chase.com` is allowed because
 it is under `chase.com`.
@@ -163,6 +165,7 @@ For earn rates, map issuer language to this exact category enum:
 - `gas`
 - `groceries`
 - `hotels`
+- `homeImprovement`
 - `onlineShopping`
 - `other`
 - `rent`
@@ -177,6 +180,8 @@ Mapping rules:
 - Use `travel` only for broad travel categories that are not specifically
   flights or hotels.
 - Use `other` with clear notes when the issuer category does not fit the enum.
+- Use `homeImprovement` for issuer categories that explicitly call out home
+  improvement stores.
 - Set `isConditional: true` when a multiplier requires a portal, specific
   merchant, time window, enrollment, activation, selected category, direct
   booking, or other real-world condition.
@@ -184,6 +189,18 @@ Mapping rules:
   the normal default for that category.
 - Preserve cap amounts when the issuer states them. Include after-cap language
   in `notes` when the catalog format does not have a dedicated after-cap field.
+- `baseEarnRate` may be `0` for store cards that do not earn on uncategorized
+  spend. Do not force 1x onto a store card unless the issuer actually says it
+  earns 1x everywhere.
+- Every earn-rate category written to a card must have a matching
+  `sources.earnRates.<category>` citation.
+- Every measurable benefit written to a card must have a matching
+  `sources.benefits.<slug>` citation, where `<slug>` is lowercase ASCII with
+  non-alphanumeric runs collapsed to hyphens.
+- Benefits should be app-trackable credits/perks. Do not add generic travel
+  insurance, purchase protections, elite status, lounge access, baggage, or
+  boarding perks unless there is a user-trackable amount or an explicit
+  `requiresValueOnUse` path.
 
 ## Workflow
 
