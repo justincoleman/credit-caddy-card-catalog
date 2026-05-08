@@ -85,6 +85,12 @@ const SPENDING_CATEGORIES = new Set([
   'travel',
 ]);
 
+const BENEFIT_CATEGORIES = new Set(['Dining', 'Travel', 'Shopping', 'Entertainment', 'Lifestyle']);
+const ENTERTAINMENT_BENEFIT_PATTERN =
+  /\b(apple tv|apple music|digital entertainment|disney|hulu|espn|streaming|stubhub|ticket|tickets|fandango|movie|movies|theater|concert|entertainment|peacock|paramount|netflix|spotify|audible|sirius|siriusxm|youtube tv|max|hbo|showtime|starz)\b/i;
+const LIFESTYLE_BENEFIT_PATTERN =
+  /\b(equinox|peloton|oura|fitness|wellness|lifestyle|gym|health)\b/i;
+
 const SOURCE_REQUIRED_CARD_FIELDS = [
   'annualFee',
   'noForeignTransactionFees',
@@ -192,6 +198,22 @@ for (const card of cards.cards || []) {
 
   for (const benefit of card.benefits || []) {
     validateSourcePresent(card, benefitSourceKey(benefit.name));
+    validateBenefitCategory(card, benefit);
+  }
+}
+
+function validateBenefitCategory(card, benefit) {
+  if (!BENEFIT_CATEGORIES.has(benefit.category)) {
+    err(`${card.id}: benefit "${benefit.name}" uses unsupported category "${benefit.category}"`);
+    return;
+  }
+
+  const text = benefit.name || '';
+  if (ENTERTAINMENT_BENEFIT_PATTERN.test(text) && benefit.category !== 'Entertainment') {
+    err(`${card.id}: benefit "${benefit.name}" should use Entertainment, not ${benefit.category}`);
+  }
+  if (LIFESTYLE_BENEFIT_PATTERN.test(text) && benefit.category !== 'Lifestyle') {
+    err(`${card.id}: benefit "${benefit.name}" should use Lifestyle, not ${benefit.category}`);
   }
 }
 

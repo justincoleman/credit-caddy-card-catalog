@@ -201,6 +201,19 @@ Mapping rules:
   insurance, purchase protections, elite status, lounge access, baggage, or
   boarding perks unless there is a user-trackable amount or an explicit
   `requiresValueOnUse` path.
+- Benefit `category` values should use the app's default benefit taxonomy:
+  `Dining`, `Travel`, `Shopping`, `Entertainment`, or `Lifestyle`.
+  - Use `Entertainment` for streaming, digital entertainment, media
+    subscriptions, Apple TV+/Apple Music, tickets/events, StubHub, and similar
+    leisure credits.
+  - Use `Lifestyle` for fitness, wellness, personal-care, device/membership,
+    and mixed lifestyle credits.
+  - Use `Shopping` for retailer, delivery, store, and merchandise credits that
+    are not primarily entertainment or lifestyle/wellness.
+  - Use `Travel` for airline, hotel, rideshare/travel, security screening, and
+    companion-ticket credits.
+  - Use `Dining` for restaurant, food delivery, cafe, Resy, Dunkin', and
+    dining-specific credits.
 
 ## Workflow
 
