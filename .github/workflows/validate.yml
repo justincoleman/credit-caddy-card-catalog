@@ -32,3 +32,6 @@ jobs:
 
       - name: Run validator
         run: node scripts/validate.mjs
+
+      - name: Run optimizer-readiness audit
+        run: python3 scripts/audit_card_catalog.py

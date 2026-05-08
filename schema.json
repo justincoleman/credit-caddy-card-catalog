@@ -55,7 +55,12 @@
           "type": "array",
           "items": { "$ref": "#/$defs/earnRate" }
         },
-        "baseEarnRate": { "type": "number", "minimum": 0.5, "maximum": 20 },
+        "baseEarnRate": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 20,
+          "description": "Default earn rate for uncategorized spend. May be 0 for store cards that earn only in explicitly listed categories."
+        },
         "rewardProgram": { "type": "string" },
         "affiliateUrl": { "type": ["string", "null"], "format": "uri" },
         "colorHex": {

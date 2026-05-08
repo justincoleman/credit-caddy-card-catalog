@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "version": "2026.05.07",
-  "lastUpdated": "2026-05-07T22:23:36Z",
+  "version": "2026.05.08",
+  "lastUpdated": "2026-05-08T00:00:00Z",
   "cards": [
     {
       "id": "american-express-platinum-card",
@@ -5782,6 +5782,2106 @@
         "earnRates.rent": "https://www.biltrewards.com/terms/bilt-card-offer-terms"
       },
       "lastVerified": "2026-05-03T00:00:00Z"
+    },
+    {
+      "id": "chase-freedom-rise",
+      "cardName": "Freedom Rise",
+      "issuer": "Chase",
+      "annualFee": 0,
+      "noForeignTransactionFees": false,
+      "earnRates": [],
+      "baseEarnRate": 1.5,
+      "rewardProgram": "Chase Ultimate Rewards",
+      "affiliateUrl": null,
+      "colorHex": "2E7D32",
+      "benefits": [],
+      "sources": {
+        "annualFee": "https://creditcards.chase.com/all-credit-cards",
+        "noForeignTransactionFees": "https://creditcards.chase.com/all-credit-cards",
+        "baseEarnRate": "https://creditcards.chase.com/all-credit-cards",
+        "rewardProgram": "https://creditcards.chase.com/all-credit-cards"
+      },
+      "lastVerified": "2026-05-08T00:00:00Z"
+    },
+    {
+      "id": "chase-slate",
+      "cardName": "Slate",
+      "issuer": "Chase",
+      "annualFee": 0,
+      "noForeignTransactionFees": false,
+      "earnRates": [],
+      "baseEarnRate": 1,
+      "rewardProgram": "Chase",
+      "affiliateUrl": null,
+      "colorHex": "7A7F86",
+      "benefits": [],
+      "sources": {
+        "annualFee": "https://creditcards.chase.com/all-credit-cards",
+        "noForeignTransactionFees": "https://creditcards.chase.com/all-credit-cards",
+        "baseEarnRate": "https://creditcards.chase.com/all-credit-cards",
+        "rewardProgram": "https://creditcards.chase.com/all-credit-cards"
+      },
+      "lastVerified": "2026-05-08T00:00:00Z"
+    },
+    {
+      "id": "chase-slate-edge",
+      "cardName": "Slate Edge",
+      "issuer": "Chase",
+      "annualFee": 0,
+      "noForeignTransactionFees": false,
+      "earnRates": [],
+      "baseEarnRate": 1,
+      "rewardProgram": "Chase",
+      "affiliateUrl": null,
+      "colorHex": "4F5B66",
+      "benefits": [],
+      "sources": {
+        "annualFee": "https://creditcards.chase.com/all-credit-cards",
+        "noForeignTransactionFees": "https://creditcards.chase.com/all-credit-cards",
+        "baseEarnRate": "https://creditcards.chase.com/all-credit-cards",
+        "rewardProgram": "https://creditcards.chase.com/all-credit-cards"
+      },
+      "lastVerified": "2026-05-08T00:00:00Z"
+    },
+    {
+      "id": "chase-united-gateway",
+      "cardName": "United Gateway",
+      "issuer": "Chase",
+      "annualFee": 0,
+      "noForeignTransactionFees": true,
+      "earnRates": [
+        {
+          "category": "airfare",
+          "multiplier": 2,
+          "cap": null,
+          "notes": "United purchases",
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "merchant",
+              "label": "United Airlines purchases",
+              "merchant": "United Airlines",
+              "details": "Eligible United purchases"
+            }
+          ]
+        },
+        {
+          "category": "gas",
+          "multiplier": 2,
+          "cap": null,
+          "notes": "Gas stations"
+        },
+        {
+          "category": "transit",
+          "multiplier": 2,
+          "cap": null,
+          "notes": "Local transit and commuting"
+        }
+      ],
+      "baseEarnRate": 1,
+      "rewardProgram": "United MileagePlus",
+      "affiliateUrl": null,
+      "colorHex": "005DAA",
+      "benefits": [],
+      "sources": {
+        "annualFee": "https://creditcards.chase.com/all-credit-cards",
+        "noForeignTransactionFees": "https://creditcards.chase.com/all-credit-cards",
+        "baseEarnRate": "https://creditcards.chase.com/all-credit-cards",
+        "rewardProgram": "https://creditcards.chase.com/all-credit-cards",
+        "earnRates.airfare": "https://creditcards.chase.com/travel-credit-cards/united",
+        "earnRates.gas": "https://creditcards.chase.com/travel-credit-cards/united",
+        "earnRates.transit": "https://creditcards.chase.com/travel-credit-cards/united"
+      },
+      "lastVerified": "2026-05-08T00:00:00Z"
+    },
+    {
+      "id": "chase-united-quest",
+      "cardName": "United Quest",
+      "issuer": "Chase",
+      "annualFee": 350,
+      "noForeignTransactionFees": true,
+      "earnRates": [
+        {
+          "category": "hotels",
+          "multiplier": 5,
+          "cap": null,
+          "notes": "Renowned Hotels and Resorts for United Cardmembers through Chase Travel",
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "travelPortal",
+              "label": "Renowned Hotels and Resorts required",
+              "provider": "Renowned Hotels and Resorts",
+              "details": "Hotel accommodation purchases through Renowned Hotels and Resorts for United Cardmembers through Chase Travel"
+            }
+          ]
+        },
+        {
+          "category": "airfare",
+          "multiplier": 3,
+          "cap": null,
+          "notes": "Eligible United purchases",
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "merchant",
+              "label": "United Airlines purchases",
+              "merchant": "United Airlines",
+              "details": "Eligible United purchases"
+            }
+          ]
+        },
+        {
+          "category": "travel",
+          "multiplier": 2,
+          "cap": null,
+          "notes": "Other travel purchases",
+          "appliesToCategories": [
+            "travel",
+            "airfare",
+            "hotels",
+            "transit"
+          ]
+        },
+        {
+          "category": "dining",
+          "multiplier": 2,
+          "cap": null,
+          "notes": "Dining"
+        },
+        {
+          "category": "streaming",
+          "multiplier": 2,
+          "cap": null,
+          "notes": "Select streaming services"
+        }
+      ],
+      "baseEarnRate": 1,
+      "rewardProgram": "United MileagePlus",
+      "affiliateUrl": null,
+      "colorHex": "1A365D",
+      "benefits": [
+        {
+          "name": "United Travel Credit",
+          "amount": 200,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Cardmember Year",
+          "category": "Travel Credits",
+          "allowsPartialUse": true,
+          "notes": "For eligible United purchases",
+          "availableMonths": [],
+          "notificationsEnabled": true
+        },
+        {
+          "name": "Avis/Budget TravelBank Cash",
+          "amount": 80,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Cardmember Year",
+          "category": "Travel Credits",
+          "allowsPartialUse": true,
+          "notes": "$40 TravelBank cash for the first and second eligible Avis or Budget rental booked through cars.united.com",
+          "availableMonths": [],
+          "notificationsEnabled": true
+        },
+        {
+          "name": "Instacart Credit",
+          "amount": 15,
+          "renewalPeriod": "Monthly",
+          "periodBasis": "Calendar Year",
+          "category": "Shopping Credits",
+          "allowsPartialUse": true,
+          "notes": "One $10 and one $5 Instacart credit monthly, up to $180 per calendar year",
+          "availableMonths": [],
+          "notificationsEnabled": true
+        },
+        {
+          "name": "Global Entry/TSA PreCheck/NEXUS Credit",
+          "amount": 120,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Cardmember Year",
+          "category": "Travel Credits",
+          "allowsPartialUse": true,
+          "notes": "Every 4 years",
+          "availableMonths": [],
+          "notificationsEnabled": true
+        }
+      ],
+      "sources": {
+        "annualFee": "https://creditcards.chase.com/all-credit-cards",
+        "noForeignTransactionFees": "https://creditcards.chase.com/all-credit-cards",
+        "baseEarnRate": "https://creditcards.chase.com/all-credit-cards",
+        "rewardProgram": "https://creditcards.chase.com/all-credit-cards",
+        "earnRates.hotels": "https://creditcards.chase.com/travel-credit-cards/united/united-quest",
+        "earnRates.airfare": "https://creditcards.chase.com/travel-credit-cards/united/united-quest",
+        "earnRates.travel": "https://creditcards.chase.com/travel-credit-cards/united/united-quest",
+        "earnRates.dining": "https://creditcards.chase.com/travel-credit-cards/united/united-quest",
+        "earnRates.streaming": "https://creditcards.chase.com/travel-credit-cards/united/united-quest",
+        "benefits.united-travel-credit": "https://creditcards.chase.com/travel-credit-cards/united/united-quest",
+        "benefits.avis-budget-travelbank-cash": "https://creditcards.chase.com/travel-credit-cards/united/united-quest",
+        "benefits.instacart-credit": "https://creditcards.chase.com/travel-credit-cards/united/united-quest",
+        "benefits.global-entry-tsa-precheck-nexus-credit": "https://creditcards.chase.com/travel-credit-cards/united/united-quest"
+      },
+      "lastVerified": "2026-05-08T00:00:00Z"
+    },
+    {
+      "id": "chase-southwest-rapid-rewards-plus",
+      "cardName": "Southwest Rapid Rewards Plus",
+      "issuer": "Chase",
+      "annualFee": 99,
+      "noForeignTransactionFees": true,
+      "earnRates": [
+        {
+          "category": "airfare",
+          "multiplier": 2,
+          "cap": null,
+          "notes": "Southwest Airlines purchases",
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "merchant",
+              "label": "Southwest Airlines purchases",
+              "merchant": "Southwest Airlines",
+              "details": "Purchases made directly with Southwest Airlines"
+            }
+          ]
+        },
+        {
+          "category": "gas",
+          "multiplier": 2,
+          "cap": 5000,
+          "notes": "Gas stations on the first $5,000 in combined purchases per account anniversary year, then 1x"
+        },
+        {
+          "category": "groceries",
+          "multiplier": 2,
+          "cap": 5000,
+          "notes": "Grocery stores on the first $5,000 in combined purchases per account anniversary year, then 1x"
+        }
+      ],
+      "baseEarnRate": 1,
+      "rewardProgram": "Southwest Rapid Rewards",
+      "affiliateUrl": null,
+      "colorHex": "FF9800",
+      "benefits": [
+        {
+          "name": "Anniversary Bonus (3K points)",
+          "amount": 41,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Cardmember Year",
+          "category": "Travel Credits",
+          "allowsPartialUse": false,
+          "notes": "Enter your points value",
+          "availableMonths": [],
+          "notificationsEnabled": true,
+          "requiresValueOnUse": true
+        }
+      ],
+      "sources": {
+        "annualFee": "https://creditcards.chase.com/all-credit-cards",
+        "noForeignTransactionFees": "https://creditcards.chase.com/all-credit-cards",
+        "baseEarnRate": "https://creditcards.chase.com/all-credit-cards",
+        "rewardProgram": "https://creditcards.chase.com/all-credit-cards",
+        "earnRates.airfare": "https://creditcards.chase.com/travel-credit-cards/southwest/plus",
+        "earnRates.gas": "https://creditcards.chase.com/travel-credit-cards/southwest/plus",
+        "earnRates.groceries": "https://creditcards.chase.com/travel-credit-cards/southwest/plus",
+        "benefits.anniversary-bonus-3k-points": "https://creditcards.chase.com/travel-credit-cards/southwest/plus"
+      },
+      "lastVerified": "2026-05-08T00:00:00Z"
+    },
+    {
+      "id": "chase-marriott-bonvoy-bold",
+      "cardName": "Marriott Bonvoy Bold",
+      "issuer": "Chase",
+      "annualFee": 0,
+      "noForeignTransactionFees": true,
+      "earnRates": [
+        {
+          "category": "hotels",
+          "multiplier": 3,
+          "cap": null,
+          "notes": "Hotels participating in Marriott Bonvoy",
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "partnerProgram",
+              "label": "Marriott Bonvoy purchases",
+              "provider": "Marriott Bonvoy",
+              "details": "Hotels participating in Marriott Bonvoy"
+            }
+          ]
+        },
+        {
+          "category": "groceries",
+          "multiplier": 2,
+          "cap": null,
+          "notes": "Grocery stores"
+        },
+        {
+          "category": "streaming",
+          "multiplier": 2,
+          "cap": null,
+          "notes": "Select streaming, internet, cable, and phone services"
+        },
+        {
+          "category": "other",
+          "multiplier": 2,
+          "cap": null,
+          "notes": "Rideshare and select food delivery services"
+        }
+      ],
+      "baseEarnRate": 1,
+      "rewardProgram": "Marriott Bonvoy",
+      "affiliateUrl": null,
+      "colorHex": "1C1C1C",
+      "benefits": [],
+      "sources": {
+        "annualFee": "https://creditcards.chase.com/all-credit-cards",
+        "noForeignTransactionFees": "https://creditcards.chase.com/all-credit-cards",
+        "baseEarnRate": "https://creditcards.chase.com/all-credit-cards",
+        "rewardProgram": "https://creditcards.chase.com/all-credit-cards",
+        "earnRates.hotels": "https://creditcards.chase.com/travel-credit-cards/marriott-bonvoy/bold",
+        "earnRates.groceries": "https://creditcards.chase.com/travel-credit-cards/marriott-bonvoy/bold",
+        "earnRates.streaming": "https://creditcards.chase.com/travel-credit-cards/marriott-bonvoy/bold",
+        "earnRates.other": "https://creditcards.chase.com/travel-credit-cards/marriott-bonvoy/bold"
+      },
+      "lastVerified": "2026-05-08T00:00:00Z"
+    },
+    {
+      "id": "chase-marriott-bonvoy-bountiful",
+      "cardName": "Marriott Bonvoy Bountiful",
+      "issuer": "Chase",
+      "annualFee": 250,
+      "noForeignTransactionFees": true,
+      "earnRates": [
+        {
+          "category": "hotels",
+          "multiplier": 6,
+          "cap": null,
+          "notes": "Hotels participating in Marriott Bonvoy",
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "partnerProgram",
+              "label": "Marriott Bonvoy properties",
+              "provider": "Marriott Bonvoy",
+              "details": "Hotels participating in Marriott Bonvoy"
+            }
+          ]
+        },
+        {
+          "category": "dining",
+          "multiplier": 4,
+          "cap": null,
+          "notes": "Restaurants"
+        },
+        {
+          "category": "groceries",
+          "multiplier": 4,
+          "cap": null,
+          "notes": "Grocery stores"
+        },
+        {
+          "category": "gas",
+          "multiplier": 4,
+          "cap": null,
+          "notes": "Gas stations"
+        }
+      ],
+      "baseEarnRate": 1,
+      "rewardProgram": "Marriott Bonvoy",
+      "affiliateUrl": null,
+      "colorHex": "8B6F47",
+      "benefits": [],
+      "sources": {
+        "annualFee": "https://creditcards.chase.com/all-credit-cards",
+        "noForeignTransactionFees": "https://creditcards.chase.com/all-credit-cards",
+        "baseEarnRate": "https://creditcards.chase.com/all-credit-cards",
+        "rewardProgram": "https://creditcards.chase.com/all-credit-cards",
+        "earnRates.hotels": "https://creditcards.chase.com/travel-credit-cards/marriott-bonvoy/bountiful",
+        "earnRates.dining": "https://creditcards.chase.com/travel-credit-cards/marriott-bonvoy/bountiful",
+        "earnRates.groceries": "https://creditcards.chase.com/travel-credit-cards/marriott-bonvoy/bountiful",
+        "earnRates.gas": "https://creditcards.chase.com/travel-credit-cards/marriott-bonvoy/bountiful"
+      },
+      "lastVerified": "2026-05-08T00:00:00Z"
+    },
+    {
+      "id": "chase-ihg-one-rewards-traveler",
+      "cardName": "IHG One Rewards Traveler",
+      "issuer": "Chase",
+      "annualFee": 0,
+      "noForeignTransactionFees": true,
+      "earnRates": [
+        {
+          "category": "hotels",
+          "multiplier": 5,
+          "cap": null,
+          "notes": "IHG Hotels & Resorts",
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "partnerProgram",
+              "label": "IHG One Rewards purchases",
+              "provider": "IHG One Rewards",
+              "details": "IHG Hotels & Resorts purchases"
+            }
+          ]
+        },
+        {
+          "category": "gas",
+          "multiplier": 3,
+          "cap": null,
+          "notes": "Gas stations"
+        },
+        {
+          "category": "dining",
+          "multiplier": 3,
+          "cap": null,
+          "notes": "Dining"
+        },
+        {
+          "category": "streaming",
+          "multiplier": 3,
+          "cap": null,
+          "notes": "Select streaming services"
+        },
+        {
+          "category": "other",
+          "multiplier": 3,
+          "cap": null,
+          "notes": "Utilities"
+        }
+      ],
+      "baseEarnRate": 2,
+      "rewardProgram": "IHG One Rewards",
+      "affiliateUrl": null,
+      "colorHex": "6F263D",
+      "benefits": [],
+      "sources": {
+        "annualFee": "https://creditcards.chase.com/travel-credit-cards/ihg-rewards-club/traveler",
+        "noForeignTransactionFees": "https://creditcards.chase.com/travel-credit-cards/ihg-rewards-club/traveler",
+        "baseEarnRate": "https://creditcards.chase.com/travel-credit-cards/ihg-rewards-club/traveler",
+        "rewardProgram": "https://creditcards.chase.com/travel-credit-cards/ihg-rewards-club/traveler",
+        "earnRates.hotels": "https://creditcards.chase.com/travel-credit-cards/ihg-rewards-club/traveler",
+        "earnRates.gas": "https://creditcards.chase.com/travel-credit-cards/ihg-rewards-club/traveler",
+        "earnRates.dining": "https://creditcards.chase.com/travel-credit-cards/ihg-rewards-club/traveler",
+        "earnRates.other": "https://creditcards.chase.com/travel-credit-cards/ihg-rewards-club/traveler",
+        "earnRates.streaming": "https://creditcards.chase.com/travel-credit-cards/ihg-rewards-club/traveler"
+      },
+      "lastVerified": "2026-05-08T00:00:00Z"
+    },
+    {
+      "id": "chase-amazon-visa",
+      "cardName": "Amazon Visa",
+      "issuer": "Chase",
+      "annualFee": 0,
+      "noForeignTransactionFees": true,
+      "earnRates": [
+        {
+          "category": "onlineShopping",
+          "multiplier": 3,
+          "cap": null,
+          "notes": "Amazon.com, Amazon Fresh, and Whole Foods Market without eligible Prime membership"
+        },
+        {
+          "category": "travel",
+          "multiplier": 3,
+          "cap": null,
+          "notes": "Chase Travel purchases",
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "travelPortal",
+              "label": "Chase Travel required",
+              "provider": "Chase Travel",
+              "details": "Chase Travel purchases"
+            }
+          ],
+          "appliesToCategories": [
+            "travel",
+            "airfare",
+            "hotels"
+          ]
+        },
+        {
+          "category": "dining",
+          "multiplier": 2,
+          "cap": null,
+          "notes": "Restaurants"
+        },
+        {
+          "category": "gas",
+          "multiplier": 2,
+          "cap": null,
+          "notes": "Gas stations"
+        },
+        {
+          "category": "transit",
+          "multiplier": 2,
+          "cap": null,
+          "notes": "Local transit and commuting"
+        },
+        {
+          "category": "drugstores",
+          "multiplier": 2,
+          "cap": null,
+          "notes": "Drugstores"
+        }
+      ],
+      "baseEarnRate": 1,
+      "rewardProgram": "Amazon Rewards",
+      "affiliateUrl": null,
+      "colorHex": "FF9900",
+      "benefits": [],
+      "sources": {
+        "annualFee": "https://creditcards.chase.com/all-credit-cards",
+        "noForeignTransactionFees": "https://creditcards.chase.com/all-credit-cards",
+        "baseEarnRate": "https://creditcards.chase.com/all-credit-cards",
+        "rewardProgram": "https://creditcards.chase.com/all-credit-cards",
+        "earnRates.onlineShopping": "https://creditcards.chase.com/cash-back-credit-cards/amazon-rewards",
+        "earnRates.travel": "https://creditcards.chase.com/cash-back-credit-cards/amazon-rewards",
+        "earnRates.dining": "https://creditcards.chase.com/cash-back-credit-cards/amazon-rewards",
+        "earnRates.gas": "https://creditcards.chase.com/cash-back-credit-cards/amazon-rewards",
+        "earnRates.transit": "https://creditcards.chase.com/cash-back-credit-cards/amazon-rewards",
+        "earnRates.drugstores": "https://creditcards.chase.com/cash-back-credit-cards/amazon-rewards"
+      },
+      "lastVerified": "2026-05-08T00:00:00Z"
+    },
+    {
+      "id": "chase-ink-business-premier",
+      "cardName": "Ink Business Premier",
+      "issuer": "Chase",
+      "annualFee": 195,
+      "noForeignTransactionFees": true,
+      "earnRates": [
+        {
+          "category": "other",
+          "multiplier": 2.5,
+          "cap": null,
+          "notes": "Purchases of $5,000 or more"
+        },
+        {
+          "category": "other",
+          "multiplier": 2,
+          "cap": null,
+          "notes": "All other purchases"
+        }
+      ],
+      "baseEarnRate": 2,
+      "rewardProgram": "Chase Ultimate Rewards",
+      "affiliateUrl": null,
+      "colorHex": "1C3A5E",
+      "benefits": [],
+      "sources": {
+        "annualFee": "https://creditcards.chase.com/business-credit-cards/ink/premier",
+        "noForeignTransactionFees": "https://creditcards.chase.com/business-credit-cards/ink/premier",
+        "baseEarnRate": "https://creditcards.chase.com/business-credit-cards/ink/premier",
+        "rewardProgram": "https://creditcards.chase.com/business-credit-cards/ink/premier",
+        "earnRates.other": "https://creditcards.chase.com/business-credit-cards/ink/premier"
+      },
+      "lastVerified": "2026-05-08T00:00:00Z"
+    },
+    {
+      "id": "chase-sapphire-reserve-for-business",
+      "cardName": "Sapphire Reserve for Business",
+      "issuer": "Chase",
+      "annualFee": 795,
+      "noForeignTransactionFees": true,
+      "earnRates": [
+        {
+          "category": "travel",
+          "multiplier": 8,
+          "cap": null,
+          "notes": "Chase Travel purchases",
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "travelPortal",
+              "label": "Chase Travel required",
+              "provider": "Chase Travel",
+              "details": "Chase Travel purchases"
+            }
+          ],
+          "appliesToCategories": [
+            "travel",
+            "airfare",
+            "hotels"
+          ]
+        },
+        {
+          "category": "airfare",
+          "multiplier": 4,
+          "cap": null,
+          "notes": "Flights booked directly with airlines",
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "directBooking",
+              "label": "Direct with airline",
+              "details": "Flights booked directly with airlines"
+            }
+          ]
+        },
+        {
+          "category": "hotels",
+          "multiplier": 4,
+          "cap": null,
+          "notes": "Hotels booked directly with hotels",
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "directBooking",
+              "label": "Direct with hotel",
+              "details": "Hotels booked directly with hotels"
+            }
+          ]
+        },
+        {
+          "category": "dining",
+          "multiplier": 3,
+          "cap": null,
+          "notes": "Dining"
+        },
+        {
+          "category": "other",
+          "multiplier": 3,
+          "cap": null,
+          "notes": "Social media and search engine advertising"
+        }
+      ],
+      "baseEarnRate": 1,
+      "rewardProgram": "Chase Ultimate Rewards",
+      "affiliateUrl": null,
+      "colorHex": "1A365D",
+      "benefits": [
+        {
+          "name": "Travel Credit",
+          "amount": 300,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Cardmember Year",
+          "category": "Travel Credits",
+          "allowsPartialUse": true,
+          "notes": null,
+          "availableMonths": [],
+          "notificationsEnabled": true
+        },
+        {
+          "name": "The Edit Hotel Credit",
+          "amount": 250,
+          "renewalPeriod": "Every 6 months",
+          "periodBasis": "Calendar Year",
+          "category": "Travel Credits",
+          "allowsPartialUse": true,
+          "notes": "Prepaid bookings with The Edit; maximum $250 per transaction; two-night minimum",
+          "availableMonths": [],
+          "notificationsEnabled": true
+        },
+        {
+          "name": "Select Chase Travel Hotel Credit",
+          "amount": 250,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Calendar Year",
+          "category": "Travel Credits",
+          "allowsPartialUse": true,
+          "notes": "Prepaid Chase Travel hotel bookings through 12/31/2026; two-night minimum",
+          "availableMonths": [],
+          "notificationsEnabled": true
+        },
+        {
+          "name": "Global Entry/TSA PreCheck/NEXUS Credit",
+          "amount": 120,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Cardmember Year",
+          "category": "Travel Credits",
+          "allowsPartialUse": true,
+          "notes": "Every 4 years",
+          "availableMonths": [],
+          "notificationsEnabled": true
+        }
+      ],
+      "sources": {
+        "annualFee": "https://creditcards.chase.com/all-credit-cards",
+        "noForeignTransactionFees": "https://creditcards.chase.com/all-credit-cards",
+        "baseEarnRate": "https://creditcards.chase.com/all-credit-cards",
+        "rewardProgram": "https://creditcards.chase.com/all-credit-cards",
+        "earnRates.travel": "https://creditcards.chase.com/business-credit-cards/sapphire/reserve",
+        "earnRates.airfare": "https://creditcards.chase.com/business-credit-cards/sapphire/reserve",
+        "earnRates.hotels": "https://creditcards.chase.com/business-credit-cards/sapphire/reserve",
+        "earnRates.dining": "https://creditcards.chase.com/business-credit-cards/sapphire/reserve",
+        "earnRates.other": "https://creditcards.chase.com/business-credit-cards/sapphire/reserve",
+        "benefits.travel-credit": "https://creditcards.chase.com/business-credit-cards/sapphire/reserve",
+        "benefits.the-edit-hotel-credit": "https://creditcards.chase.com/business-credit-cards/sapphire/reserve",
+        "benefits.select-chase-travel-hotel-credit": "https://creditcards.chase.com/business-credit-cards/sapphire/reserve",
+        "benefits.global-entry-tsa-precheck-nexus-credit": "https://creditcards.chase.com/business-credit-cards/sapphire/reserve"
+      },
+      "lastVerified": "2026-05-08T00:00:00Z"
+    },
+    {
+      "id": "chase-united-business",
+      "cardName": "United Business",
+      "issuer": "Chase",
+      "annualFee": 150,
+      "noForeignTransactionFees": true,
+      "earnRates": [
+        {
+          "category": "airfare",
+          "multiplier": 2,
+          "cap": null,
+          "notes": "Eligible United purchases",
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "merchant",
+              "label": "United Airlines purchases",
+              "merchant": "United Airlines",
+              "details": "Eligible United purchases"
+            }
+          ]
+        },
+        {
+          "category": "dining",
+          "multiplier": 2,
+          "cap": null,
+          "notes": "Dining, including eligible delivery services"
+        },
+        {
+          "category": "gas",
+          "multiplier": 2,
+          "cap": null,
+          "notes": "Gas stations"
+        },
+        {
+          "category": "transit",
+          "multiplier": 2,
+          "cap": null,
+          "notes": "Local transit and commuting"
+        },
+        {
+          "category": "other",
+          "multiplier": 2,
+          "cap": null,
+          "notes": "Office supply stores"
+        }
+      ],
+      "baseEarnRate": 1,
+      "rewardProgram": "United MileagePlus",
+      "affiliateUrl": null,
+      "colorHex": "005DAA",
+      "benefits": [
+        {
+          "name": "United Travel Credit",
+          "amount": 125,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Calendar Year",
+          "category": "Travel Credits",
+          "allowsPartialUse": true,
+          "notes": "After making five United flight purchases of $100+ each calendar year",
+          "availableMonths": [],
+          "notificationsEnabled": true
+        },
+        {
+          "name": "United Hotels Credit",
+          "amount": 100,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Calendar Year",
+          "category": "Travel Credits",
+          "allowsPartialUse": true,
+          "notes": "Prepaid hotel stays purchased directly through United Hotels",
+          "availableMonths": [],
+          "notificationsEnabled": true
+        },
+        {
+          "name": "Rideshare Credit",
+          "amount": 100,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Calendar Year",
+          "category": "Travel Credits",
+          "allowsPartialUse": true,
+          "notes": "Enrollment required",
+          "availableMonths": [],
+          "notificationsEnabled": true
+        },
+        {
+          "name": "Avis/Budget TravelBank Cash",
+          "amount": 50,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Cardmember Year",
+          "category": "Travel Credits",
+          "allowsPartialUse": true,
+          "notes": "For eligible Avis or Budget rentals booked through cars.united.com",
+          "availableMonths": [],
+          "notificationsEnabled": true
+        },
+        {
+          "name": "Instacart Credit",
+          "amount": 10,
+          "renewalPeriod": "Monthly",
+          "periodBasis": "Calendar Year",
+          "category": "Shopping Credits",
+          "allowsPartialUse": true,
+          "notes": "Up to $120 per calendar year with active Instacart+ membership",
+          "availableMonths": [],
+          "notificationsEnabled": true
+        },
+        {
+          "name": "JSX Credit",
+          "amount": 100,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Cardmember Year",
+          "category": "Travel Credits",
+          "allowsPartialUse": true,
+          "notes": "For flights booked directly with JSX",
+          "availableMonths": [],
+          "notificationsEnabled": true
+        }
+      ],
+      "sources": {
+        "annualFee": "https://creditcards.chase.com/business-credit-cards/united/united-business-card",
+        "noForeignTransactionFees": "https://creditcards.chase.com/business-credit-cards/united/united-business-card",
+        "baseEarnRate": "https://creditcards.chase.com/business-credit-cards/united/united-business-card",
+        "rewardProgram": "https://creditcards.chase.com/business-credit-cards/united/united-business-card",
+        "earnRates.airfare": "https://creditcards.chase.com/business-credit-cards/united/united-business-card",
+        "earnRates.dining": "https://creditcards.chase.com/business-credit-cards/united/united-business-card",
+        "earnRates.gas": "https://creditcards.chase.com/business-credit-cards/united/united-business-card",
+        "earnRates.transit": "https://creditcards.chase.com/business-credit-cards/united/united-business-card",
+        "earnRates.other": "https://creditcards.chase.com/business-credit-cards/united/united-business-card",
+        "benefits.united-travel-credit": "https://creditcards.chase.com/business-credit-cards/united/united-business-card",
+        "benefits.united-hotels-credit": "https://creditcards.chase.com/business-credit-cards/united/united-business-card",
+        "benefits.rideshare-credit": "https://creditcards.chase.com/business-credit-cards/united/united-business-card",
+        "benefits.avis-budget-travelbank-cash": "https://creditcards.chase.com/business-credit-cards/united/united-business-card",
+        "benefits.instacart-credit": "https://creditcards.chase.com/business-credit-cards/united/united-business-card",
+        "benefits.jsx-credit": "https://creditcards.chase.com/business-credit-cards/united/united-business-card"
+      },
+      "lastVerified": "2026-05-08T00:00:00Z"
+    },
+    {
+      "id": "chase-united-club-business",
+      "cardName": "United Club Business",
+      "issuer": "Chase",
+      "annualFee": 695,
+      "noForeignTransactionFees": true,
+      "earnRates": [
+        {
+          "category": "airfare",
+          "multiplier": 2,
+          "cap": null,
+          "notes": "Eligible United purchases",
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "merchant",
+              "label": "United Airlines purchases",
+              "merchant": "United Airlines",
+              "details": "Eligible United purchases"
+            }
+          ]
+        },
+        {
+          "category": "hotels",
+          "multiplier": 5,
+          "cap": null,
+          "notes": "Prepaid hotel stays through Renowned Hotels and Resorts for United Cardmembers",
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "travelPortal",
+              "label": "Renowned Hotels and Resorts required",
+              "provider": "Renowned Hotels and Resorts",
+              "details": "Prepaid hotel stays through Renowned Hotels and Resorts for United Cardmembers"
+            }
+          ]
+        },
+        {
+          "category": "dining",
+          "multiplier": 2,
+          "cap": null,
+          "notes": "Dining"
+        },
+        {
+          "category": "travel",
+          "multiplier": 2,
+          "cap": null,
+          "notes": "Other travel",
+          "appliesToCategories": [
+            "travel",
+            "airfare",
+            "hotels",
+            "transit"
+          ]
+        }
+      ],
+      "baseEarnRate": 1.5,
+      "rewardProgram": "United MileagePlus",
+      "affiliateUrl": null,
+      "colorHex": "003366",
+      "benefits": [
+        {
+          "name": "Renowned Hotels Credit",
+          "amount": 200,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Cardmember Year",
+          "category": "Travel Credits",
+          "allowsPartialUse": true,
+          "notes": "Prepaid hotel stays purchased through Renowned Hotels and Resorts for United Cardmembers",
+          "availableMonths": [],
+          "notificationsEnabled": true
+        },
+        {
+          "name": "Rideshare Credit",
+          "amount": 150,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Calendar Year",
+          "category": "Travel Credits",
+          "allowsPartialUse": true,
+          "notes": "Enrollment required; monthly credits with December bonus",
+          "availableMonths": [],
+          "notificationsEnabled": true
+        },
+        {
+          "name": "Avis/Budget TravelBank Cash",
+          "amount": 100,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Cardmember Year",
+          "category": "Travel Credits",
+          "allowsPartialUse": true,
+          "notes": "For eligible Avis or Budget rentals booked through cars.united.com",
+          "availableMonths": [],
+          "notificationsEnabled": true
+        },
+        {
+          "name": "Instacart Credit",
+          "amount": 20,
+          "renewalPeriod": "Monthly",
+          "periodBasis": "Calendar Year",
+          "category": "Shopping Credits",
+          "allowsPartialUse": true,
+          "notes": "Two $10 monthly credits, up to $240 per calendar year",
+          "availableMonths": [],
+          "notificationsEnabled": true
+        },
+        {
+          "name": "JSX Credit",
+          "amount": 200,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Cardmember Year",
+          "category": "Travel Credits",
+          "allowsPartialUse": true,
+          "notes": "For flights booked directly with JSX",
+          "availableMonths": [],
+          "notificationsEnabled": true
+        },
+        {
+          "name": "FareLock Credit",
+          "amount": 50,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Calendar Year",
+          "category": "Travel Credits",
+          "allowsPartialUse": true,
+          "notes": "For FareLock purchases on United or United Express operated flights",
+          "availableMonths": [],
+          "notificationsEnabled": true
+        },
+        {
+          "name": "United Club Membership",
+          "amount": null,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Cardmember Year",
+          "category": "Travel Credits",
+          "allowsPartialUse": false,
+          "notes": "Complimentary United Club lounge access",
+          "availableMonths": [],
+          "notificationsEnabled": false
+        }
+      ],
+      "sources": {
+        "annualFee": "https://creditcards.chase.com/business-credit-cards/united/united-club-business",
+        "noForeignTransactionFees": "https://creditcards.chase.com/business-credit-cards/united/united-club-business",
+        "baseEarnRate": "https://creditcards.chase.com/business-credit-cards/united/united-club-business",
+        "rewardProgram": "https://creditcards.chase.com/business-credit-cards/united/united-club-business",
+        "earnRates.airfare": "https://creditcards.chase.com/business-credit-cards/united/united-club-business",
+        "earnRates.travel": "https://creditcards.chase.com/business-credit-cards/united/united-club-business",
+        "earnRates.dining": "https://creditcards.chase.com/business-credit-cards/united/united-club-business",
+        "benefits.united-club-membership": "https://creditcards.chase.com/business-credit-cards/united/united-club-business",
+        "earnRates.hotels": "https://creditcards.chase.com/business-credit-cards/united/united-club-business",
+        "benefits.renowned-hotels-credit": "https://creditcards.chase.com/business-credit-cards/united/united-club-business",
+        "benefits.rideshare-credit": "https://creditcards.chase.com/business-credit-cards/united/united-club-business",
+        "benefits.avis-budget-travelbank-cash": "https://creditcards.chase.com/business-credit-cards/united/united-club-business",
+        "benefits.instacart-credit": "https://creditcards.chase.com/business-credit-cards/united/united-club-business",
+        "benefits.jsx-credit": "https://creditcards.chase.com/business-credit-cards/united/united-club-business",
+        "benefits.farelock-credit": "https://creditcards.chase.com/business-credit-cards/united/united-club-business"
+      },
+      "lastVerified": "2026-05-08T00:00:00Z"
+    },
+    {
+      "id": "chase-ihg-one-rewards-premier-business",
+      "cardName": "IHG One Rewards Premier Business",
+      "issuer": "Chase",
+      "annualFee": 99,
+      "noForeignTransactionFees": true,
+      "earnRates": [
+        {
+          "category": "hotels",
+          "multiplier": 10,
+          "cap": null,
+          "notes": "IHG Hotels & Resorts",
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "partnerProgram",
+              "label": "IHG One Rewards purchases",
+              "provider": "IHG One Rewards",
+              "details": "IHG Hotels & Resorts purchases"
+            }
+          ]
+        },
+        {
+          "category": "travel",
+          "multiplier": 5,
+          "cap": null,
+          "notes": "Travel excluding IHG hotel purchases that qualify for 10x",
+          "appliesToCategories": [
+            "travel",
+            "airfare",
+            "hotels",
+            "transit"
+          ]
+        },
+        {
+          "category": "dining",
+          "multiplier": 5,
+          "cap": null,
+          "notes": "Dining at restaurants, including takeout and eligible delivery"
+        },
+        {
+          "category": "gas",
+          "multiplier": 5,
+          "cap": null,
+          "notes": "Gas stations"
+        },
+        {
+          "category": "other",
+          "multiplier": 5,
+          "cap": null,
+          "notes": "Select business purchases including social media/search advertising and office supply stores"
+        }
+      ],
+      "baseEarnRate": 3,
+      "rewardProgram": "IHG One Rewards",
+      "affiliateUrl": null,
+      "colorHex": "6F263D",
+      "benefits": [
+        {
+          "name": "Global Entry/TSA PreCheck/NEXUS Credit",
+          "amount": 120,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Cardmember Year",
+          "category": "Travel Credits",
+          "allowsPartialUse": true,
+          "notes": "Every 4 years",
+          "availableMonths": [],
+          "notificationsEnabled": true
+        }
+      ],
+      "sources": {
+        "annualFee": "https://creditcards.chase.com/business-credit-cards/ihg/business-premier",
+        "noForeignTransactionFees": "https://creditcards.chase.com/business-credit-cards/ihg/business-premier",
+        "baseEarnRate": "https://creditcards.chase.com/business-credit-cards/ihg/business-premier",
+        "rewardProgram": "https://creditcards.chase.com/business-credit-cards/ihg/business-premier",
+        "earnRates.hotels": "https://creditcards.chase.com/business-credit-cards/ihg/business-premier",
+        "earnRates.gas": "https://creditcards.chase.com/business-credit-cards/ihg/business-premier",
+        "earnRates.dining": "https://creditcards.chase.com/business-credit-cards/ihg/business-premier",
+        "earnRates.travel": "https://creditcards.chase.com/business-credit-cards/ihg/business-premier",
+        "earnRates.other": "https://creditcards.chase.com/business-credit-cards/ihg/business-premier",
+        "benefits.global-entry-tsa-precheck-nexus-credit": "https://creditcards.chase.com/business-credit-cards/ihg/business-premier"
+      },
+      "lastVerified": "2026-05-08T00:00:00Z"
+    },
+    {
+      "id": "chase-world-of-hyatt-business",
+      "cardName": "World of Hyatt Business",
+      "issuer": "Chase",
+      "annualFee": 199,
+      "noForeignTransactionFees": true,
+      "earnRates": [
+        {
+          "category": "hotels",
+          "multiplier": 4,
+          "cap": null,
+          "notes": "Hyatt hotels",
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "partnerProgram",
+              "label": "Hyatt properties",
+              "provider": "World of Hyatt",
+              "details": "Hyatt hotel purchases"
+            }
+          ]
+        },
+        {
+          "category": "dining",
+          "multiplier": 2,
+          "cap": null,
+          "notes": "Dining"
+        },
+        {
+          "category": "airfare",
+          "multiplier": 2,
+          "cap": null,
+          "notes": "Airline tickets purchased directly from the airline"
+        },
+        {
+          "category": "gas",
+          "multiplier": 2,
+          "cap": null,
+          "notes": "Gas stations"
+        },
+        {
+          "category": "transit",
+          "multiplier": 2,
+          "cap": null,
+          "notes": "Local transit and commuting"
+        }
+      ],
+      "baseEarnRate": 1,
+      "rewardProgram": "World of Hyatt",
+      "affiliateUrl": null,
+      "colorHex": "1F4E79",
+      "benefits": [
+        {
+          "name": "Hyatt Credit",
+          "amount": 100,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Cardmember Year",
+          "category": "Travel Credits",
+          "allowsPartialUse": true,
+          "notes": "Up to $100 in Hyatt statement credits each anniversary year",
+          "availableMonths": [],
+          "notificationsEnabled": true
+        }
+      ],
+      "sources": {
+        "annualFee": "https://creditcards.chase.com/travel-credit-cards/world-of-hyatt",
+        "noForeignTransactionFees": "https://creditcards.chase.com/travel-credit-cards/world-of-hyatt",
+        "baseEarnRate": "https://creditcards.chase.com/travel-credit-cards/world-of-hyatt",
+        "rewardProgram": "https://creditcards.chase.com/travel-credit-cards/world-of-hyatt",
+        "earnRates.hotels": "https://creditcards.chase.com/travel-credit-cards/world-of-hyatt",
+        "earnRates.dining": "https://creditcards.chase.com/travel-credit-cards/world-of-hyatt",
+        "earnRates.airfare": "https://creditcards.chase.com/travel-credit-cards/world-of-hyatt",
+        "earnRates.gas": "https://creditcards.chase.com/travel-credit-cards/world-of-hyatt",
+        "earnRates.transit": "https://creditcards.chase.com/travel-credit-cards/world-of-hyatt",
+        "benefits.hyatt-credit": "https://creditcards.chase.com/travel-credit-cards/world-of-hyatt"
+      },
+      "lastVerified": "2026-05-08T00:00:00Z"
+    },
+    {
+      "id": "citi-diamond-preferred",
+      "cardName": "Diamond Preferred",
+      "issuer": "Citi",
+      "annualFee": 0,
+      "noForeignTransactionFees": false,
+      "earnRates": [],
+      "baseEarnRate": 1,
+      "rewardProgram": "Citi",
+      "affiliateUrl": null,
+      "colorHex": "9AA0A6",
+      "benefits": [],
+      "sources": {
+        "annualFee": "https://www.citi.com/credit-cards/view-all-credit-cards",
+        "noForeignTransactionFees": "https://www.citi.com/credit-cards/view-all-credit-cards",
+        "baseEarnRate": "https://www.citi.com/credit-cards/view-all-credit-cards",
+        "rewardProgram": "https://www.citi.com/credit-cards/view-all-credit-cards"
+      },
+      "lastVerified": "2026-05-08T00:00:00Z"
+    },
+    {
+      "id": "citi-simplicity",
+      "cardName": "Simplicity",
+      "issuer": "Citi",
+      "annualFee": 0,
+      "noForeignTransactionFees": false,
+      "earnRates": [],
+      "baseEarnRate": 1,
+      "rewardProgram": "Citi",
+      "affiliateUrl": null,
+      "colorHex": "4A90E2",
+      "benefits": [],
+      "sources": {
+        "annualFee": "https://www.citi.com/credit-cards/view-all-credit-cards",
+        "noForeignTransactionFees": "https://www.citi.com/credit-cards/view-all-credit-cards",
+        "baseEarnRate": "https://www.citi.com/credit-cards/view-all-credit-cards",
+        "rewardProgram": "https://www.citi.com/credit-cards/view-all-credit-cards"
+      },
+      "lastVerified": "2026-05-08T00:00:00Z"
+    },
+    {
+      "id": "citi-strata",
+      "cardName": "Strata",
+      "issuer": "Citi",
+      "annualFee": 0,
+      "noForeignTransactionFees": false,
+      "earnRates": [
+        {
+          "category": "groceries",
+          "multiplier": 3,
+          "cap": null,
+          "notes": "Supermarkets"
+        },
+        {
+          "category": "gas",
+          "multiplier": 3,
+          "cap": null,
+          "notes": "Gas and EV charging stations"
+        },
+        {
+          "category": "dining",
+          "multiplier": 3,
+          "cap": null,
+          "notes": "Restaurants"
+        },
+        {
+          "category": "other",
+          "multiplier": 3,
+          "cap": null,
+          "notes": "Select transit"
+        }
+      ],
+      "baseEarnRate": 1,
+      "rewardProgram": "Citi ThankYou Points",
+      "affiliateUrl": null,
+      "colorHex": "1A365D",
+      "benefits": [],
+      "sources": {
+        "annualFee": "https://www.citi.com/credit-cards/view-all-credit-cards",
+        "noForeignTransactionFees": "https://www.citi.com/credit-cards/view-all-credit-cards",
+        "baseEarnRate": "https://www.citi.com/credit-cards/view-all-credit-cards",
+        "rewardProgram": "https://www.citi.com/credit-cards/view-all-credit-cards",
+        "earnRates.groceries": "https://www.citi.com/credit-cards/citi-strata-card",
+        "earnRates.gas": "https://www.citi.com/credit-cards/citi-strata-card",
+        "earnRates.dining": "https://www.citi.com/credit-cards/citi-strata-card",
+        "earnRates.other": "https://www.citi.com/credit-cards/citi-strata-card"
+      },
+      "lastVerified": "2026-05-08T00:00:00Z"
+    },
+    {
+      "id": "citi-aadvantage-platinum-select",
+      "cardName": "AAdvantage Platinum Select",
+      "issuer": "Citi",
+      "annualFee": 99,
+      "noForeignTransactionFees": true,
+      "earnRates": [
+        {
+          "category": "airfare",
+          "multiplier": 2,
+          "cap": null,
+          "notes": "Eligible American Airlines purchases",
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "merchant",
+              "label": "American Airlines purchases",
+              "merchant": "American Airlines",
+              "details": "Eligible American Airlines purchases"
+            }
+          ]
+        },
+        {
+          "category": "dining",
+          "multiplier": 2,
+          "cap": null,
+          "notes": "Restaurants"
+        },
+        {
+          "category": "gas",
+          "multiplier": 2,
+          "cap": null,
+          "notes": "Gas stations"
+        }
+      ],
+      "baseEarnRate": 1,
+      "rewardProgram": "American AAdvantage",
+      "affiliateUrl": null,
+      "colorHex": "A7A9AC",
+      "benefits": [],
+      "sources": {
+        "annualFee": "https://www.citi.com/credit-cards/view-all-credit-cards",
+        "noForeignTransactionFees": "https://www.citi.com/credit-cards/view-all-credit-cards",
+        "baseEarnRate": "https://www.citi.com/credit-cards/view-all-credit-cards",
+        "rewardProgram": "https://www.citi.com/credit-cards/view-all-credit-cards",
+        "earnRates.airfare": "https://www.citi.com/credit-cards/citi-aadvantage-platinum-select-credit-card",
+        "earnRates.dining": "https://www.citi.com/credit-cards/citi-aadvantage-platinum-select-credit-card",
+        "earnRates.gas": "https://www.citi.com/credit-cards/citi-aadvantage-platinum-select-credit-card"
+      },
+      "lastVerified": "2026-05-08T00:00:00Z"
+    },
+    {
+      "id": "citi-aadvantage-globe",
+      "cardName": "AAdvantage Globe",
+      "issuer": "Citi",
+      "annualFee": 350,
+      "noForeignTransactionFees": true,
+      "earnRates": [
+        {
+          "category": "hotels",
+          "multiplier": 6,
+          "cap": null,
+          "notes": "AAdvantage Hotels bookings",
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "travelPortal",
+              "label": "AAdvantage Hotels required",
+              "provider": "AAdvantage Hotels",
+              "details": "Eligible AAdvantage Hotels bookings"
+            }
+          ]
+        },
+        {
+          "category": "airfare",
+          "multiplier": 3,
+          "cap": null,
+          "notes": "Eligible American Airlines purchases",
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "merchant",
+              "label": "American Airlines purchases",
+              "merchant": "American Airlines",
+              "details": "Eligible American Airlines purchases"
+            }
+          ]
+        },
+        {
+          "category": "dining",
+          "multiplier": 2,
+          "cap": null,
+          "notes": "Restaurants"
+        },
+        {
+          "category": "travel",
+          "multiplier": 2,
+          "cap": null,
+          "notes": "Eligible Rides and Rails purchases",
+          "appliesToCategories": [
+            "travel",
+            "transit"
+          ]
+        }
+      ],
+      "baseEarnRate": 1,
+      "rewardProgram": "American AAdvantage",
+      "affiliateUrl": null,
+      "colorHex": "1C1C1C",
+      "benefits": [
+        {
+          "name": "Admirals Club Globe Passes",
+          "amount": null,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Calendar Year",
+          "category": "Travel Credits",
+          "allowsPartialUse": false,
+          "notes": "Four passes per calendar year",
+          "availableMonths": [],
+          "notificationsEnabled": true
+        }
+      ],
+      "sources": {
+        "annualFee": "https://www.citi.com/credit-cards/view-all-credit-cards",
+        "noForeignTransactionFees": "https://www.citi.com/credit-cards/view-all-credit-cards",
+        "baseEarnRate": "https://www.citi.com/credit-cards/view-all-credit-cards",
+        "rewardProgram": "https://www.citi.com/credit-cards/view-all-credit-cards",
+        "earnRates.hotels": "https://www.citi.com/credit-cards/citi-aadvantage-globe-mastercard",
+        "earnRates.airfare": "https://www.citi.com/credit-cards/citi-aadvantage-globe-mastercard",
+        "earnRates.dining": "https://www.citi.com/credit-cards/citi-aadvantage-globe-mastercard",
+        "earnRates.travel": "https://www.citi.com/credit-cards/citi-aadvantage-globe-mastercard",
+        "benefits.admirals-club-globe-passes": "https://www.citi.com/credit-cards/citi-aadvantage-globe-mastercard"
+      },
+      "lastVerified": "2026-05-08T00:00:00Z"
+    },
+    {
+      "id": "citi-aadvantage-business",
+      "cardName": "AAdvantage Business",
+      "issuer": "Citi",
+      "annualFee": 99,
+      "noForeignTransactionFees": true,
+      "earnRates": [
+        {
+          "category": "airfare",
+          "multiplier": 2,
+          "cap": null,
+          "notes": "Eligible American Airlines purchases",
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "merchant",
+              "label": "American Airlines purchases",
+              "merchant": "American Airlines",
+              "details": "Eligible American Airlines purchases"
+            }
+          ]
+        },
+        {
+          "category": "gas",
+          "multiplier": 2,
+          "cap": null,
+          "notes": "Gas stations"
+        },
+        {
+          "category": "other",
+          "multiplier": 2,
+          "cap": null,
+          "notes": "Telecommunications merchants, cable and satellite providers, car rental merchants"
+        }
+      ],
+      "baseEarnRate": 1,
+      "rewardProgram": "American AAdvantage",
+      "affiliateUrl": null,
+      "colorHex": "263238",
+      "benefits": [],
+      "sources": {
+        "annualFee": "https://www.citi.com/credit-cards/view-all-credit-cards",
+        "noForeignTransactionFees": "https://www.citi.com/credit-cards/view-all-credit-cards",
+        "baseEarnRate": "https://www.citi.com/credit-cards/view-all-credit-cards",
+        "rewardProgram": "https://www.citi.com/credit-cards/view-all-credit-cards",
+        "earnRates.airfare": "https://www.citi.com/credit-cards/citi-business-aadvantage-credit-card",
+        "earnRates.gas": "https://www.citi.com/credit-cards/citi-business-aadvantage-credit-card",
+        "earnRates.other": "https://www.citi.com/credit-cards/citi-business-aadvantage-credit-card"
+      },
+      "lastVerified": "2026-05-08T00:00:00Z"
+    },
+    {
+      "id": "citi-aadvantage-mileup",
+      "cardName": "AAdvantage MileUp",
+      "issuer": "Citi",
+      "annualFee": 0,
+      "noForeignTransactionFees": false,
+      "earnRates": [
+        {
+          "category": "airfare",
+          "multiplier": 2,
+          "cap": null,
+          "notes": "Eligible American Airlines purchases",
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "merchant",
+              "label": "American Airlines purchases",
+              "merchant": "American Airlines",
+              "details": "Eligible American Airlines purchases"
+            }
+          ]
+        },
+        {
+          "category": "groceries",
+          "multiplier": 2,
+          "cap": null,
+          "notes": "Grocery stores"
+        }
+      ],
+      "baseEarnRate": 1,
+      "rewardProgram": "American AAdvantage",
+      "affiliateUrl": null,
+      "colorHex": "5C6BC0",
+      "benefits": [],
+      "sources": {
+        "annualFee": "https://www.citi.com/credit-cards/view-all-credit-cards",
+        "noForeignTransactionFees": "https://www.citi.com/credit-cards/view-all-credit-cards",
+        "baseEarnRate": "https://www.citi.com/credit-cards/view-all-credit-cards",
+        "rewardProgram": "https://www.citi.com/credit-cards/view-all-credit-cards",
+        "earnRates.airfare": "https://www.citi.com/credit-cards/citi-aadvantage-mileup-credit-card",
+        "earnRates.groceries": "https://www.citi.com/credit-cards/citi-aadvantage-mileup-credit-card"
+      },
+      "lastVerified": "2026-05-08T00:00:00Z"
+    },
+    {
+      "id": "citi-costco-anywhere-visa",
+      "cardName": "Costco Anywhere Visa",
+      "issuer": "Citi",
+      "annualFee": 0,
+      "noForeignTransactionFees": true,
+      "earnRates": [
+        {
+          "category": "gas",
+          "multiplier": 4,
+          "cap": 7000,
+          "notes": "Eligible gas and EV charging worldwide, including Costco, on first $7,000 per year then 1%"
+        },
+        {
+          "category": "dining",
+          "multiplier": 3,
+          "cap": null,
+          "notes": "Restaurants"
+        },
+        {
+          "category": "travel",
+          "multiplier": 3,
+          "cap": null,
+          "notes": "Eligible travel",
+          "appliesToCategories": [
+            "travel",
+            "airfare",
+            "hotels",
+            "transit"
+          ]
+        },
+        {
+          "category": "other",
+          "multiplier": 2,
+          "cap": null,
+          "notes": "Costco and Costco.com"
+        }
+      ],
+      "baseEarnRate": 1,
+      "rewardProgram": "Costco Cash Rewards",
+      "affiliateUrl": null,
+      "colorHex": "005DAA",
+      "benefits": [],
+      "sources": {
+        "annualFee": "https://www.citi.com/credit-cards/view-all-credit-cards",
+        "noForeignTransactionFees": "https://www.citi.com/credit-cards/view-all-credit-cards",
+        "baseEarnRate": "https://www.citi.com/credit-cards/view-all-credit-cards",
+        "rewardProgram": "https://www.citi.com/credit-cards/view-all-credit-cards",
+        "earnRates.gas": "https://www.citi.com/credit-cards/citi-costco-anywhere-visa-credit-card",
+        "earnRates.dining": "https://www.citi.com/credit-cards/citi-costco-anywhere-visa-credit-card",
+        "earnRates.travel": "https://www.citi.com/credit-cards/citi-costco-anywhere-visa-credit-card",
+        "earnRates.other": "https://www.citi.com/credit-cards/citi-costco-anywhere-visa-credit-card"
+      },
+      "lastVerified": "2026-05-08T00:00:00Z"
+    },
+    {
+      "id": "citi-costco-anywhere-visa-business",
+      "cardName": "Costco Anywhere Visa Business",
+      "issuer": "Citi",
+      "annualFee": 0,
+      "noForeignTransactionFees": true,
+      "earnRates": [
+        {
+          "category": "gas",
+          "multiplier": 4,
+          "cap": 7000,
+          "notes": "Eligible gas and EV charging worldwide, including Costco, on first $7,000 per year then 1%"
+        },
+        {
+          "category": "dining",
+          "multiplier": 3,
+          "cap": null,
+          "notes": "Restaurants"
+        },
+        {
+          "category": "travel",
+          "multiplier": 3,
+          "cap": null,
+          "notes": "Eligible travel",
+          "appliesToCategories": [
+            "travel",
+            "airfare",
+            "hotels",
+            "transit"
+          ]
+        },
+        {
+          "category": "other",
+          "multiplier": 2,
+          "cap": null,
+          "notes": "Costco and Costco.com"
+        }
+      ],
+      "baseEarnRate": 1,
+      "rewardProgram": "Costco Cash Rewards",
+      "affiliateUrl": null,
+      "colorHex": "005DAA",
+      "benefits": [],
+      "sources": {
+        "annualFee": "https://www.citi.com/credit-cards/view-all-credit-cards",
+        "noForeignTransactionFees": "https://www.citi.com/credit-cards/view-all-credit-cards",
+        "baseEarnRate": "https://www.citi.com/credit-cards/view-all-credit-cards",
+        "rewardProgram": "https://www.citi.com/credit-cards/view-all-credit-cards",
+        "earnRates.gas": "https://www.citi.com/credit-cards/citi-costco-anywhere-visa-business-credit-card",
+        "earnRates.dining": "https://www.citi.com/credit-cards/citi-costco-anywhere-visa-business-credit-card",
+        "earnRates.travel": "https://www.citi.com/credit-cards/citi-costco-anywhere-visa-business-credit-card",
+        "earnRates.other": "https://www.citi.com/credit-cards/citi-costco-anywhere-visa-business-credit-card"
+      },
+      "lastVerified": "2026-05-08T00:00:00Z"
+    },
+    {
+      "id": "citi-att-points-plus",
+      "cardName": "AT&T Points Plus",
+      "issuer": "Citi",
+      "annualFee": 0,
+      "noForeignTransactionFees": true,
+      "earnRates": [
+        {
+          "category": "gas",
+          "multiplier": 3,
+          "cap": null,
+          "notes": "Gas stations"
+        },
+        {
+          "category": "groceries",
+          "multiplier": 3,
+          "cap": null,
+          "notes": "Supermarkets"
+        }
+      ],
+      "baseEarnRate": 1,
+      "rewardProgram": "Citi ThankYou Points",
+      "affiliateUrl": null,
+      "colorHex": "00A8E0",
+      "benefits": [
+        {
+          "name": "AT&T Bill Credit",
+          "amount": 20,
+          "renewalPeriod": "Monthly",
+          "periodBasis": "Calendar Year",
+          "category": "Shopping Credits",
+          "allowsPartialUse": true,
+          "notes": "After qualifying spend",
+          "availableMonths": [],
+          "notificationsEnabled": true
+        }
+      ],
+      "sources": {
+        "annualFee": "https://www.citi.com/credit-cards/view-all-credit-cards",
+        "noForeignTransactionFees": "https://www.citi.com/credit-cards/view-all-credit-cards",
+        "baseEarnRate": "https://www.citi.com/credit-cards/view-all-credit-cards",
+        "rewardProgram": "https://www.citi.com/credit-cards/view-all-credit-cards",
+        "earnRates.gas": "https://www.citi.com/credit-cards/att-points-plus-credit-card",
+        "earnRates.groceries": "https://www.citi.com/credit-cards/att-points-plus-credit-card",
+        "benefits.at-t-bill-credit": "https://www.citi.com/credit-cards/att-points-plus-credit-card"
+      },
+      "lastVerified": "2026-05-08T00:00:00Z"
+    },
+    {
+      "id": "citi-secured-mastercard",
+      "cardName": "Secured Mastercard",
+      "issuer": "Citi",
+      "annualFee": 0,
+      "noForeignTransactionFees": false,
+      "earnRates": [],
+      "baseEarnRate": 1,
+      "rewardProgram": "Citi",
+      "affiliateUrl": null,
+      "colorHex": "6D7278",
+      "benefits": [],
+      "sources": {
+        "annualFee": "https://www.citi.com/credit-cards/view-all-credit-cards",
+        "noForeignTransactionFees": "https://www.citi.com/credit-cards/view-all-credit-cards",
+        "baseEarnRate": "https://www.citi.com/credit-cards/view-all-credit-cards",
+        "rewardProgram": "https://www.citi.com/credit-cards/view-all-credit-cards"
+      },
+      "lastVerified": "2026-05-08T00:00:00Z"
+    },
+    {
+      "id": "wells-fargo-reflect",
+      "cardName": "Reflect",
+      "issuer": "Wells Fargo",
+      "annualFee": 0,
+      "noForeignTransactionFees": false,
+      "earnRates": [],
+      "baseEarnRate": 1,
+      "rewardProgram": "Wells Fargo",
+      "affiliateUrl": null,
+      "colorHex": "B31B1B",
+      "benefits": [],
+      "sources": {
+        "annualFee": "https://creditcards.wellsfargo.com/",
+        "noForeignTransactionFees": "https://creditcards.wellsfargo.com/",
+        "baseEarnRate": "https://creditcards.wellsfargo.com/",
+        "rewardProgram": "https://creditcards.wellsfargo.com/"
+      },
+      "lastVerified": "2026-05-08T00:00:00Z"
+    },
+    {
+      "id": "wells-fargo-attune",
+      "cardName": "Attune",
+      "issuer": "Wells Fargo",
+      "annualFee": 0,
+      "noForeignTransactionFees": false,
+      "earnRates": [
+        {
+          "category": "other",
+          "multiplier": 4,
+          "cap": null,
+          "notes": "Gym memberships, salons and spas, select sports, recreation, entertainment, public transit, EV charging, and select thrift stores"
+        },
+        {
+          "category": "transit",
+          "multiplier": 4,
+          "cap": null,
+          "notes": "Public transit"
+        },
+        {
+          "category": "gas",
+          "multiplier": 4,
+          "cap": null,
+          "notes": "EV charging"
+        }
+      ],
+      "baseEarnRate": 1,
+      "rewardProgram": "Wells Fargo Rewards",
+      "affiliateUrl": null,
+      "colorHex": "326B5F",
+      "benefits": [],
+      "sources": {
+        "annualFee": "https://creditcards.wellsfargo.com/",
+        "noForeignTransactionFees": "https://creditcards.wellsfargo.com/",
+        "baseEarnRate": "https://creditcards.wellsfargo.com/",
+        "rewardProgram": "https://creditcards.wellsfargo.com/",
+        "earnRates.other": "https://creditcards.wellsfargo.com/attune-credit-card/",
+        "earnRates.transit": "https://creditcards.wellsfargo.com/attune-credit-card/",
+        "earnRates.gas": "https://creditcards.wellsfargo.com/attune-credit-card/"
+      },
+      "lastVerified": "2026-05-08T00:00:00Z"
+    },
+    {
+      "id": "wells-fargo-one-key",
+      "cardName": "One Key",
+      "issuer": "Wells Fargo",
+      "annualFee": 0,
+      "noForeignTransactionFees": true,
+      "earnRates": [
+        {
+          "category": "travel",
+          "multiplier": 3,
+          "cap": null,
+          "notes": "Expedia, Hotels.com, and Vrbo",
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "travelPortal",
+              "label": "One Key brands required",
+              "provider": "Expedia Group",
+              "details": "Expedia, Hotels.com, and Vrbo purchases"
+            }
+          ],
+          "appliesToCategories": [
+            "travel",
+            "hotels"
+          ]
+        },
+        {
+          "category": "gas",
+          "multiplier": 3,
+          "cap": null,
+          "notes": "Gas stations"
+        },
+        {
+          "category": "groceries",
+          "multiplier": 3,
+          "cap": null,
+          "notes": "Grocery stores"
+        },
+        {
+          "category": "dining",
+          "multiplier": 3,
+          "cap": null,
+          "notes": "Dining"
+        }
+      ],
+      "baseEarnRate": 1.5,
+      "rewardProgram": "OneKeyCash",
+      "affiliateUrl": null,
+      "colorHex": "5B4B8A",
+      "benefits": [],
+      "sources": {
+        "annualFee": "https://creditcards.wellsfargo.com/",
+        "noForeignTransactionFees": "https://creditcards.wellsfargo.com/",
+        "baseEarnRate": "https://creditcards.wellsfargo.com/",
+        "rewardProgram": "https://creditcards.wellsfargo.com/",
+        "earnRates.travel": "https://creditcards.wellsfargo.com/one-key-credit-card/",
+        "earnRates.gas": "https://creditcards.wellsfargo.com/one-key-credit-card/",
+        "earnRates.groceries": "https://creditcards.wellsfargo.com/one-key-credit-card/",
+        "earnRates.dining": "https://creditcards.wellsfargo.com/one-key-credit-card/"
+      },
+      "lastVerified": "2026-05-08T00:00:00Z"
+    },
+    {
+      "id": "wells-fargo-one-key-plus",
+      "cardName": "One Key+",
+      "issuer": "Wells Fargo",
+      "annualFee": 99,
+      "noForeignTransactionFees": true,
+      "earnRates": [
+        {
+          "category": "travel",
+          "multiplier": 3,
+          "cap": null,
+          "notes": "Expedia, Hotels.com, and Vrbo",
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "travelPortal",
+              "label": "One Key brands required",
+              "provider": "Expedia Group",
+              "details": "Expedia, Hotels.com, and Vrbo purchases"
+            }
+          ],
+          "appliesToCategories": [
+            "travel",
+            "hotels"
+          ]
+        },
+        {
+          "category": "gas",
+          "multiplier": 3,
+          "cap": null,
+          "notes": "Gas stations"
+        },
+        {
+          "category": "groceries",
+          "multiplier": 3,
+          "cap": null,
+          "notes": "Grocery stores"
+        },
+        {
+          "category": "dining",
+          "multiplier": 3,
+          "cap": null,
+          "notes": "Dining"
+        }
+      ],
+      "baseEarnRate": 2,
+      "rewardProgram": "OneKeyCash",
+      "affiliateUrl": null,
+      "colorHex": "3C2F5F",
+      "benefits": [],
+      "sources": {
+        "annualFee": "https://creditcards.wellsfargo.com/",
+        "noForeignTransactionFees": "https://creditcards.wellsfargo.com/",
+        "baseEarnRate": "https://creditcards.wellsfargo.com/",
+        "rewardProgram": "https://creditcards.wellsfargo.com/",
+        "earnRates.travel": "https://creditcards.wellsfargo.com/one-key-plus-credit-card/",
+        "earnRates.gas": "https://creditcards.wellsfargo.com/one-key-plus-credit-card/",
+        "earnRates.groceries": "https://creditcards.wellsfargo.com/one-key-plus-credit-card/",
+        "earnRates.dining": "https://creditcards.wellsfargo.com/one-key-plus-credit-card/"
+      },
+      "lastVerified": "2026-05-08T00:00:00Z"
+    },
+    {
+      "id": "wells-fargo-choice-privileges",
+      "cardName": "Choice Privileges Mastercard",
+      "issuer": "Wells Fargo",
+      "annualFee": 0,
+      "noForeignTransactionFees": false,
+      "earnRates": [
+        {
+          "category": "hotels",
+          "multiplier": 5,
+          "cap": null,
+          "notes": "Participating Choice Hotels properties",
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "partnerProgram",
+              "label": "Choice Hotels properties",
+              "provider": "Choice Privileges",
+              "details": "Participating Choice Hotels properties and point purchases"
+            }
+          ]
+        },
+        {
+          "category": "gas",
+          "multiplier": 3,
+          "cap": null,
+          "notes": "Gas stations"
+        },
+        {
+          "category": "groceries",
+          "multiplier": 3,
+          "cap": null,
+          "notes": "Grocery stores"
+        },
+        {
+          "category": "homeImprovement",
+          "multiplier": 3,
+          "cap": null,
+          "notes": "Home improvement stores"
+        },
+        {
+          "category": "other",
+          "multiplier": 3,
+          "cap": null,
+          "notes": "Phone plan services"
+        }
+      ],
+      "baseEarnRate": 1,
+      "rewardProgram": "Choice Privileges",
+      "affiliateUrl": null,
+      "colorHex": "005DAA",
+      "benefits": [],
+      "sources": {
+        "annualFee": "https://www.wellsfargo.com/credit-cards/choice/terms/",
+        "noForeignTransactionFees": "https://www.wellsfargo.com/credit-cards/choice/terms/",
+        "baseEarnRate": "https://www.wellsfargo.com/credit-cards/choice/terms/",
+        "rewardProgram": "https://www.wellsfargo.com/credit-cards/choice/terms/",
+        "earnRates.hotels": "https://www.wellsfargo.com/credit-cards/choice/terms/",
+        "earnRates.gas": "https://www.wellsfargo.com/credit-cards/choice/terms/",
+        "earnRates.groceries": "https://www.wellsfargo.com/credit-cards/choice/terms/",
+        "earnRates.homeImprovement": "https://www.wellsfargo.com/credit-cards/choice/terms/",
+        "earnRates.other": "https://www.wellsfargo.com/credit-cards/choice/terms/"
+      },
+      "lastVerified": "2026-05-08T00:00:00Z"
+    },
+    {
+      "id": "wells-fargo-choice-privileges-select",
+      "cardName": "Choice Privileges Select Mastercard",
+      "issuer": "Wells Fargo",
+      "annualFee": 95,
+      "noForeignTransactionFees": false,
+      "earnRates": [
+        {
+          "category": "hotels",
+          "multiplier": 10,
+          "cap": null,
+          "notes": "Participating Choice Hotels properties",
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "partnerProgram",
+              "label": "Choice Hotels properties",
+              "provider": "Choice Privileges",
+              "details": "Participating Choice Hotels properties and point purchases"
+            }
+          ]
+        },
+        {
+          "category": "gas",
+          "multiplier": 5,
+          "cap": null,
+          "notes": "Gas stations"
+        },
+        {
+          "category": "groceries",
+          "multiplier": 5,
+          "cap": null,
+          "notes": "Grocery stores"
+        },
+        {
+          "category": "homeImprovement",
+          "multiplier": 5,
+          "cap": null,
+          "notes": "Home improvement stores"
+        },
+        {
+          "category": "other",
+          "multiplier": 5,
+          "cap": null,
+          "notes": "Phone plan services"
+        }
+      ],
+      "baseEarnRate": 1,
+      "rewardProgram": "Choice Privileges",
+      "affiliateUrl": null,
+      "colorHex": "003B71",
+      "benefits": [],
+      "sources": {
+        "annualFee": "https://www.wellsfargo.com/credit-cards/choice/terms/",
+        "noForeignTransactionFees": "https://www.wellsfargo.com/credit-cards/choice/terms/",
+        "baseEarnRate": "https://www.wellsfargo.com/credit-cards/choice/terms/",
+        "rewardProgram": "https://www.wellsfargo.com/credit-cards/choice/terms/",
+        "earnRates.hotels": "https://www.wellsfargo.com/credit-cards/choice/terms/",
+        "earnRates.gas": "https://www.wellsfargo.com/credit-cards/choice/terms/",
+        "earnRates.groceries": "https://www.wellsfargo.com/credit-cards/choice/terms/",
+        "earnRates.homeImprovement": "https://www.wellsfargo.com/credit-cards/choice/terms/",
+        "earnRates.other": "https://www.wellsfargo.com/credit-cards/choice/terms/"
+      },
+      "lastVerified": "2026-05-08T00:00:00Z"
+    },
+    {
+      "id": "wells-fargo-signify-business-cash",
+      "cardName": "Signify Business Cash",
+      "issuer": "Wells Fargo",
+      "annualFee": 0,
+      "noForeignTransactionFees": false,
+      "earnRates": [],
+      "baseEarnRate": 2,
+      "rewardProgram": "Wells Fargo Rewards",
+      "affiliateUrl": null,
+      "colorHex": "CC0033",
+      "benefits": [],
+      "sources": {
+        "annualFee": "https://creditcards.wellsfargo.com/",
+        "noForeignTransactionFees": "https://creditcards.wellsfargo.com/",
+        "baseEarnRate": "https://creditcards.wellsfargo.com/",
+        "rewardProgram": "https://creditcards.wellsfargo.com/"
+      },
+      "lastVerified": "2026-05-08T00:00:00Z"
+    },
+    {
+      "id": "synchrony-amazon-store-card",
+      "cardName": "Amazon Store Card",
+      "issuer": "Synchrony Bank",
+      "annualFee": 0,
+      "noForeignTransactionFees": false,
+      "earnRates": [],
+      "baseEarnRate": 0,
+      "rewardProgram": "Amazon Rewards",
+      "affiliateUrl": null,
+      "colorHex": "FF9900",
+      "benefits": [],
+      "sources": {
+        "annualFee": "https://www.synchrony.com/amazon",
+        "noForeignTransactionFees": "https://www.synchrony.com/amazon",
+        "baseEarnRate": "https://www.synchrony.com/amazon",
+        "rewardProgram": "https://www.synchrony.com/amazon"
+      },
+      "lastVerified": "2026-05-08T00:00:00Z"
+    },
+    {
+      "id": "synchrony-amazon-prime-store-card",
+      "cardName": "Amazon Prime Store Card",
+      "issuer": "Synchrony Bank",
+      "annualFee": 0,
+      "noForeignTransactionFees": false,
+      "earnRates": [
+        {
+          "category": "onlineShopping",
+          "multiplier": 5,
+          "cap": null,
+          "notes": "Amazon.com purchases with an eligible Prime membership",
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "membershipRequired",
+              "label": "Eligible Prime membership required",
+              "provider": "Amazon Prime",
+              "details": "5% back applies when signed into an Amazon account with eligible Prime membership"
+            }
+          ]
+        }
+      ],
+      "baseEarnRate": 0,
+      "rewardProgram": "Amazon Rewards",
+      "affiliateUrl": null,
+      "colorHex": "FF9900",
+      "benefits": [],
+      "sources": {
+        "annualFee": "https://www.synchrony.com/amazon",
+        "noForeignTransactionFees": "https://www.synchrony.com/amazon",
+        "baseEarnRate": "https://www.synchrony.com/amazon",
+        "rewardProgram": "https://www.synchrony.com/amazon",
+        "earnRates.onlineShopping": "https://www.synchrony.com/amazon"
+      },
+      "lastVerified": "2026-05-08T00:00:00Z"
+    },
+    {
+      "id": "synchrony-amazon-secured-card",
+      "cardName": "Amazon Secured Card",
+      "issuer": "Synchrony Bank",
+      "annualFee": 0,
+      "noForeignTransactionFees": false,
+      "earnRates": [],
+      "baseEarnRate": 0,
+      "rewardProgram": "Amazon Rewards",
+      "affiliateUrl": null,
+      "colorHex": "7A7F86",
+      "benefits": [],
+      "sources": {
+        "annualFee": "https://www.synchrony.com/amazon",
+        "noForeignTransactionFees": "https://www.synchrony.com/amazon",
+        "baseEarnRate": "https://www.synchrony.com/amazon",
+        "rewardProgram": "https://www.synchrony.com/amazon"
+      },
+      "lastVerified": "2026-05-08T00:00:00Z"
     }
   ]
 }

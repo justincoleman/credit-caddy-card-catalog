@@ -10,6 +10,7 @@ rates that should be split into airfare/hotels/portal/other travel.
 from __future__ import annotations
 
 import json
+import sys
 from collections import Counter
 from datetime import datetime, timezone
 from pathlib import Path
@@ -29,6 +30,15 @@ def source_keys(card: dict) -> set[str]:
     return set(sources.keys())
 
 
+def benefit_source_key(name: str) -> str:
+    import re
+    import unicodedata
+
+    normalized = unicodedata.normalize("NFD", name)
+    stripped = "".join(ch for ch in normalized if unicodedata.category(ch) != "Mn")
+    return "benefits." + re.sub(r"[^a-z0-9]+", "-", stripped.lower()).strip("-")
+
+
 def issue_list(card: dict) -> list[str]:
     issues: list[str] = []
     rates = card.get("earnRates") or []
@@ -39,7 +49,12 @@ def issue_list(card: dict) -> list[str]:
         issues.append("missing lastVerified")
     if not card.get("sources"):
         issues.append("missing sources")
-    if not rates and float(card.get("baseEarnRate") or 0) <= 1:
+    sources = card.get("sources") or {}
+    has_core_sources = all(
+        field in sources
+        for field in ("annualFee", "noForeignTransactionFees", "baseEarnRate", "rewardProgram")
+    )
+    if not rates and float(card.get("baseEarnRate") or 0) <= 1 and not has_core_sources:
         issues.append("no explicit earn rates and base is not a bonus")
 
     for field in ("annualFee", "noForeignTransactionFees", "baseEarnRate", "rewardProgram"):
@@ -63,10 +78,21 @@ def issue_list(card: dict) -> list[str]:
                 continue
             issues.append("duplicate travel rules should be split or deduped")
         if rate.get("cap") is not None:
-            if "up to" not in notes and "cap" not in notes and "combined" not in notes:
+            if (
+                "up to" not in notes
+                and "cap" not in notes
+                and "combined" not in notes
+                and "first $" not in notes
+            ):
                 issues.append(f"cap without readable note:{category}")
             if "then" not in notes and "after" not in notes:
                 issues.append(f"cap missing after-cap language:{category}")
+
+    if str(card.get("lastVerified") or "") >= "2026-05-08":
+        for benefit in card.get("benefits") or []:
+            key = benefit_source_key(benefit.get("name", ""))
+            if card.get("sources") is not None and key not in keys:
+                issues.append(f"missing source:{key}")
 
     return sorted(set(issues))
 
@@ -110,6 +136,9 @@ def main() -> None:
     for issuer, _card_id, name, issues in sorted(rows):
         issue_text = "<br>".join(issues) if issues else "Ready"
         print(f"| {issuer} | {name} | {issue_text} |")
+
+    if any(issues for _, _, _, issues in rows):
+        sys.exit(1)
 
 
 if __name__ == "__main__":
