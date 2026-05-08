@@ -19,7 +19,7 @@ Audit the entire catalog in `cards.json`.
 Do not use a hard-coded card list. Build the work queue by reading
 `cards.json` and iterating every card in `.cards[]`.
 
-Current catalog coverage is expected to include 114 cards across these issuers:
+Current catalog coverage is expected to include 146 cards across these issuers:
 
 - American Express
 - Apple

@@ -7882,6 +7882,1148 @@
         "rewardProgram": "https://www.synchrony.com/amazon"
       },
       "lastVerified": "2026-05-08T00:00:00Z"
+    },
+    {
+      "id": "bofa-customized-cash-rewards",
+      "cardName": "Customized Cash Rewards",
+      "issuer": "Bank of America",
+      "annualFee": 0,
+      "noForeignTransactionFees": false,
+      "earnRates": [
+        {
+          "category": "other",
+          "multiplier": 3,
+          "cap": 2500,
+          "notes": "Choice category on first $2,500 in combined choice-category, grocery, and wholesale club purchases each quarter, then 1%; first-year bonus may temporarily double published earn",
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "chosenCategory",
+              "label": "Chosen category",
+              "details": "Choose one eligible category; combined choice-category, grocery, and wholesale club purchases up to $2,500 each quarter, then 1%"
+            }
+          ]
+        },
+        {
+          "category": "groceries",
+          "multiplier": 2,
+          "cap": 2500,
+          "notes": "Grocery stores and wholesale clubs; combined with choice category up to $2,500 each quarter, then 1%"
+        }
+      ],
+      "baseEarnRate": 1,
+      "rewardProgram": "Bank of America Cash Rewards",
+      "affiliateUrl": null,
+      "colorHex": "C41230",
+      "benefits": [],
+      "sources": {
+        "annualFee": "https://www.bankofamerica.com/credit-cards/products/cash-back-credit-card/",
+        "noForeignTransactionFees": "https://www.bankofamerica.com/credit-cards/products/cash-back-credit-card/",
+        "baseEarnRate": "https://www.bankofamerica.com/credit-cards/products/cash-back-credit-card/",
+        "rewardProgram": "https://www.bankofamerica.com/credit-cards/products/cash-back-credit-card/",
+        "earnRates.other": "https://www.bankofamerica.com/credit-cards/products/cash-back-credit-card/",
+        "earnRates.groceries": "https://www.bankofamerica.com/credit-cards/products/cash-back-credit-card/"
+      },
+      "lastVerified": "2026-05-08T00:00:00Z"
+    },
+    {
+      "id": "bofa-unlimited-cash-rewards",
+      "cardName": "Unlimited Cash Rewards",
+      "issuer": "Bank of America",
+      "annualFee": 0,
+      "noForeignTransactionFees": false,
+      "earnRates": [],
+      "baseEarnRate": 1.5,
+      "rewardProgram": "Bank of America Cash Rewards",
+      "affiliateUrl": null,
+      "colorHex": "0A5DA8",
+      "benefits": [],
+      "sources": {
+        "annualFee": "https://www.bankofamerica.com/credit-cards/products/unlimited-cash-back-credit-card/",
+        "noForeignTransactionFees": "https://www.bankofamerica.com/credit-cards/products/unlimited-cash-back-credit-card/",
+        "baseEarnRate": "https://www.bankofamerica.com/credit-cards/products/unlimited-cash-back-credit-card/",
+        "rewardProgram": "https://www.bankofamerica.com/credit-cards/products/unlimited-cash-back-credit-card/"
+      },
+      "lastVerified": "2026-05-08T00:00:00Z"
+    },
+    {
+      "id": "bofa-bankamericard",
+      "cardName": "BankAmericard",
+      "issuer": "Bank of America",
+      "annualFee": 0,
+      "noForeignTransactionFees": false,
+      "earnRates": [],
+      "baseEarnRate": 0,
+      "rewardProgram": "Bank of America",
+      "affiliateUrl": null,
+      "colorHex": "7A7F86",
+      "benefits": [],
+      "sources": {
+        "annualFee": "https://www.bankofamerica.com/credit-cards/products/bankamericard-credit-card/",
+        "noForeignTransactionFees": "https://www.bankofamerica.com/credit-cards/products/bankamericard-credit-card/",
+        "baseEarnRate": "https://www.bankofamerica.com/credit-cards/products/bankamericard-credit-card/",
+        "rewardProgram": "https://www.bankofamerica.com/credit-cards/products/bankamericard-credit-card/"
+      },
+      "lastVerified": "2026-05-08T00:00:00Z"
+    },
+    {
+      "id": "bofa-customized-cash-rewards-student",
+      "cardName": "Customized Cash Rewards for Students",
+      "issuer": "Bank of America",
+      "annualFee": 0,
+      "noForeignTransactionFees": false,
+      "earnRates": [
+        {
+          "category": "other",
+          "multiplier": 3,
+          "cap": 2500,
+          "notes": "Choice category on first $2,500 in combined choice-category, grocery, and wholesale club purchases each quarter, then 1%; first-year bonus may temporarily double published earn",
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "chosenCategory",
+              "label": "Chosen category",
+              "details": "Choose one eligible category; combined choice-category, grocery, and wholesale club purchases up to $2,500 each quarter, then 1%"
+            }
+          ]
+        },
+        {
+          "category": "groceries",
+          "multiplier": 2,
+          "cap": 2500,
+          "notes": "Grocery stores and wholesale clubs; combined with choice category up to $2,500 each quarter, then 1%"
+        }
+      ],
+      "baseEarnRate": 1,
+      "rewardProgram": "Bank of America Cash Rewards",
+      "affiliateUrl": null,
+      "colorHex": "C41230",
+      "benefits": [],
+      "sources": {
+        "annualFee": "https://www.bankofamerica.com/credit-cards/products/student-cash-back-credit-card/",
+        "noForeignTransactionFees": "https://www.bankofamerica.com/credit-cards/products/student-cash-back-credit-card/",
+        "baseEarnRate": "https://www.bankofamerica.com/credit-cards/products/student-cash-back-credit-card/",
+        "rewardProgram": "https://www.bankofamerica.com/credit-cards/products/student-cash-back-credit-card/",
+        "earnRates.other": "https://www.bankofamerica.com/credit-cards/products/student-cash-back-credit-card/",
+        "earnRates.groceries": "https://www.bankofamerica.com/credit-cards/products/student-cash-back-credit-card/"
+      },
+      "lastVerified": "2026-05-08T00:00:00Z"
+    },
+    {
+      "id": "bofa-unlimited-cash-rewards-student",
+      "cardName": "Unlimited Cash Rewards for Students",
+      "issuer": "Bank of America",
+      "annualFee": 0,
+      "noForeignTransactionFees": false,
+      "earnRates": [],
+      "baseEarnRate": 1.5,
+      "rewardProgram": "Bank of America Cash Rewards",
+      "affiliateUrl": null,
+      "colorHex": "0A5DA8",
+      "benefits": [],
+      "sources": {
+        "annualFee": "https://www.bankofamerica.com/credit-cards/student-credit-cards/",
+        "noForeignTransactionFees": "https://www.bankofamerica.com/credit-cards/student-credit-cards/",
+        "baseEarnRate": "https://www.bankofamerica.com/credit-cards/student-credit-cards/",
+        "rewardProgram": "https://www.bankofamerica.com/credit-cards/student-credit-cards/"
+      },
+      "lastVerified": "2026-05-08T00:00:00Z"
+    },
+    {
+      "id": "bofa-bankamericard-student",
+      "cardName": "BankAmericard for Students",
+      "issuer": "Bank of America",
+      "annualFee": 0,
+      "noForeignTransactionFees": false,
+      "earnRates": [],
+      "baseEarnRate": 0,
+      "rewardProgram": "Bank of America",
+      "affiliateUrl": null,
+      "colorHex": "7A7F86",
+      "benefits": [],
+      "sources": {
+        "annualFee": "https://www.bankofamerica.com/credit-cards/student-credit-cards/",
+        "noForeignTransactionFees": "https://www.bankofamerica.com/credit-cards/student-credit-cards/",
+        "baseEarnRate": "https://www.bankofamerica.com/credit-cards/student-credit-cards/",
+        "rewardProgram": "https://www.bankofamerica.com/credit-cards/student-credit-cards/"
+      },
+      "lastVerified": "2026-05-08T00:00:00Z"
+    },
+    {
+      "id": "bofa-customized-cash-rewards-secured",
+      "cardName": "Customized Cash Rewards Secured",
+      "issuer": "Bank of America",
+      "annualFee": 0,
+      "noForeignTransactionFees": false,
+      "earnRates": [
+        {
+          "category": "other",
+          "multiplier": 3,
+          "cap": 2500,
+          "notes": "Choice category on first $2,500 in combined choice-category, grocery, and wholesale club purchases each quarter, then 1%; first-year bonus may temporarily double published earn",
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "chosenCategory",
+              "label": "Chosen category",
+              "details": "Choose one eligible category; combined choice-category, grocery, and wholesale club purchases up to $2,500 each quarter, then 1%"
+            }
+          ]
+        },
+        {
+          "category": "groceries",
+          "multiplier": 2,
+          "cap": 2500,
+          "notes": "Grocery stores and wholesale clubs; combined with choice category up to $2,500 each quarter, then 1%"
+        }
+      ],
+      "baseEarnRate": 1,
+      "rewardProgram": "Bank of America Cash Rewards",
+      "affiliateUrl": null,
+      "colorHex": "C41230",
+      "benefits": [],
+      "sources": {
+        "annualFee": "https://www.bankofamerica.com/credit-cards/products/cash-back-secured-credit-card/",
+        "noForeignTransactionFees": "https://www.bankofamerica.com/credit-cards/products/cash-back-secured-credit-card/",
+        "baseEarnRate": "https://www.bankofamerica.com/credit-cards/products/cash-back-secured-credit-card/",
+        "rewardProgram": "https://www.bankofamerica.com/credit-cards/products/cash-back-secured-credit-card/",
+        "earnRates.other": "https://www.bankofamerica.com/credit-cards/products/cash-back-secured-credit-card/",
+        "earnRates.groceries": "https://www.bankofamerica.com/credit-cards/products/cash-back-secured-credit-card/"
+      },
+      "lastVerified": "2026-05-08T00:00:00Z"
+    },
+    {
+      "id": "bofa-unlimited-cash-rewards-secured",
+      "cardName": "Unlimited Cash Rewards Secured",
+      "issuer": "Bank of America",
+      "annualFee": 0,
+      "noForeignTransactionFees": false,
+      "earnRates": [],
+      "baseEarnRate": 1.5,
+      "rewardProgram": "Bank of America Cash Rewards",
+      "affiliateUrl": null,
+      "colorHex": "0A5DA8",
+      "benefits": [],
+      "sources": {
+        "annualFee": "https://www.bankofamerica.com/credit-cards/products/unlimited-cash-back-secured-credit-card/",
+        "noForeignTransactionFees": "https://www.bankofamerica.com/credit-cards/products/unlimited-cash-back-secured-credit-card/",
+        "baseEarnRate": "https://www.bankofamerica.com/credit-cards/products/unlimited-cash-back-secured-credit-card/",
+        "rewardProgram": "https://www.bankofamerica.com/credit-cards/products/unlimited-cash-back-secured-credit-card/"
+      },
+      "lastVerified": "2026-05-08T00:00:00Z"
+    },
+    {
+      "id": "capital-one-platinum",
+      "cardName": "Platinum Mastercard",
+      "issuer": "Capital One",
+      "annualFee": 0,
+      "noForeignTransactionFees": false,
+      "earnRates": [],
+      "baseEarnRate": 0,
+      "rewardProgram": "Capital One",
+      "affiliateUrl": null,
+      "colorHex": "7A7F86",
+      "benefits": [],
+      "sources": {
+        "annualFee": "https://www.capitalone.com/credit-cards/platinum/",
+        "noForeignTransactionFees": "https://www.capitalone.com/credit-cards/platinum/",
+        "baseEarnRate": "https://www.capitalone.com/credit-cards/platinum/",
+        "rewardProgram": "https://www.capitalone.com/credit-cards/platinum/"
+      },
+      "lastVerified": "2026-05-08T00:00:00Z"
+    },
+    {
+      "id": "capital-one-quicksilver",
+      "cardName": "Quicksilver Cash Rewards",
+      "issuer": "Capital One",
+      "annualFee": 0,
+      "noForeignTransactionFees": false,
+      "earnRates": [
+        {
+          "category": "hotels",
+          "multiplier": 5,
+          "cap": null,
+          "notes": "Hotels and rental cars booked through Capital One Travel",
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "travelPortal",
+              "label": "Capital One Travel required",
+              "provider": "Capital One Travel",
+              "details": "Hotels and rental cars booked through Capital One Travel"
+            }
+          ]
+        }
+      ],
+      "baseEarnRate": 1.5,
+      "rewardProgram": "Cash Back",
+      "affiliateUrl": null,
+      "colorHex": "C0C0C0",
+      "benefits": [],
+      "sources": {
+        "annualFee": "https://www.capitalone.com/credit-cards/cash-back/quicksilver/",
+        "noForeignTransactionFees": "https://www.capitalone.com/credit-cards/cash-back/quicksilver/",
+        "baseEarnRate": "https://www.capitalone.com/credit-cards/cash-back/quicksilver/",
+        "rewardProgram": "https://www.capitalone.com/credit-cards/cash-back/quicksilver/",
+        "earnRates.hotels": "https://www.capitalone.com/credit-cards/cash-back/quicksilver/"
+      },
+      "lastVerified": "2026-05-08T00:00:00Z"
+    },
+    {
+      "id": "capital-one-quicksilverone",
+      "cardName": "QuicksilverOne Cash Rewards",
+      "issuer": "Capital One",
+      "annualFee": 39,
+      "noForeignTransactionFees": false,
+      "earnRates": [
+        {
+          "category": "hotels",
+          "multiplier": 5,
+          "cap": null,
+          "notes": "Hotels and rental cars booked through Capital One Travel",
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "travelPortal",
+              "label": "Capital One Travel required",
+              "provider": "Capital One Travel",
+              "details": "Hotels and rental cars booked through Capital One Travel"
+            }
+          ]
+        }
+      ],
+      "baseEarnRate": 1.5,
+      "rewardProgram": "Cash Back",
+      "affiliateUrl": null,
+      "colorHex": "8A8F98",
+      "benefits": [],
+      "sources": {
+        "annualFee": "https://www.capitalone.com/credit-cards/cash-back/quicksilver/",
+        "noForeignTransactionFees": "https://www.capitalone.com/credit-cards/cash-back/quicksilver/",
+        "baseEarnRate": "https://www.capitalone.com/credit-cards/cash-back/quicksilver/",
+        "rewardProgram": "https://www.capitalone.com/credit-cards/cash-back/quicksilver/",
+        "earnRates.hotels": "https://www.capitalone.com/credit-cards/cash-back/quicksilver/"
+      },
+      "lastVerified": "2026-05-08T00:00:00Z"
+    },
+    {
+      "id": "capital-one-quicksilver-secured",
+      "cardName": "Quicksilver Secured Cash Rewards",
+      "issuer": "Capital One",
+      "annualFee": 0,
+      "noForeignTransactionFees": false,
+      "earnRates": [],
+      "baseEarnRate": 1.5,
+      "rewardProgram": "Cash Back",
+      "affiliateUrl": null,
+      "colorHex": "A6A6A6",
+      "benefits": [],
+      "sources": {
+        "annualFee": "https://www.capitalone.com/credit-cards/quicksilver-secured/",
+        "noForeignTransactionFees": "https://www.capitalone.com/credit-cards/quicksilver-secured/",
+        "baseEarnRate": "https://www.capitalone.com/credit-cards/quicksilver-secured/",
+        "rewardProgram": "https://www.capitalone.com/credit-cards/quicksilver-secured/"
+      },
+      "lastVerified": "2026-05-08T00:00:00Z"
+    },
+    {
+      "id": "capital-one-ventureone",
+      "cardName": "VentureOne Rewards",
+      "issuer": "Capital One",
+      "annualFee": 0,
+      "noForeignTransactionFees": true,
+      "earnRates": [
+        {
+          "category": "hotels",
+          "multiplier": 5,
+          "cap": null,
+          "notes": "Hotels and rental cars booked through Capital One Travel",
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "travelPortal",
+              "label": "Capital One Travel required",
+              "provider": "Capital One Travel",
+              "details": "Hotels and rental cars booked through Capital One Travel"
+            }
+          ]
+        }
+      ],
+      "baseEarnRate": 1.25,
+      "rewardProgram": "Capital One Venture Rewards",
+      "affiliateUrl": null,
+      "colorHex": "1F6F8B",
+      "benefits": [],
+      "sources": {
+        "annualFee": "https://www.capitalone.com/credit-cards/ventureone/",
+        "noForeignTransactionFees": "https://www.capitalone.com/credit-cards/ventureone/",
+        "baseEarnRate": "https://www.capitalone.com/credit-cards/ventureone/",
+        "rewardProgram": "https://www.capitalone.com/credit-cards/ventureone/",
+        "earnRates.hotels": "https://www.capitalone.com/credit-cards/ventureone/"
+      },
+      "lastVerified": "2026-05-08T00:00:00Z"
+    },
+    {
+      "id": "capital-one-savor-student",
+      "cardName": "Savor Student Cash Rewards",
+      "issuer": "Capital One",
+      "annualFee": 0,
+      "noForeignTransactionFees": true,
+      "earnRates": [
+        {
+          "category": "dining",
+          "multiplier": 3,
+          "cap": null,
+          "notes": "Dining"
+        },
+        {
+          "category": "groceries",
+          "multiplier": 3,
+          "cap": null,
+          "notes": "Grocery stores, excluding superstores like Walmart and Target"
+        },
+        {
+          "category": "streaming",
+          "multiplier": 3,
+          "cap": null,
+          "notes": "Popular streaming services"
+        },
+        {
+          "category": "other",
+          "multiplier": 8,
+          "cap": null,
+          "notes": "Capital One Entertainment purchases",
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "merchant",
+              "label": "Capital One Entertainment",
+              "merchant": "Capital One Entertainment",
+              "details": "Capital One Entertainment purchases"
+            }
+          ]
+        },
+        {
+          "category": "hotels",
+          "multiplier": 5,
+          "cap": null,
+          "notes": "Hotels and rental cars booked through Capital One Travel",
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "travelPortal",
+              "label": "Capital One Travel required",
+              "provider": "Capital One Travel",
+              "details": "Hotels and rental cars booked through Capital One Travel"
+            }
+          ]
+        }
+      ],
+      "baseEarnRate": 1,
+      "rewardProgram": "Cash Back",
+      "affiliateUrl": null,
+      "colorHex": "E85D4A",
+      "benefits": [],
+      "sources": {
+        "annualFee": "https://www.capitalone.com/credit-cards/savor-student/",
+        "noForeignTransactionFees": "https://www.capitalone.com/credit-cards/savor-student/",
+        "baseEarnRate": "https://www.capitalone.com/credit-cards/savor-student/",
+        "rewardProgram": "https://www.capitalone.com/credit-cards/savor-student/",
+        "earnRates.dining": "https://www.capitalone.com/credit-cards/savor-student/",
+        "earnRates.groceries": "https://www.capitalone.com/credit-cards/savor-student/",
+        "earnRates.streaming": "https://www.capitalone.com/credit-cards/savor-student/",
+        "earnRates.other": "https://www.capitalone.com/credit-cards/savor-student/",
+        "earnRates.hotels": "https://www.capitalone.com/credit-cards/savor-student/"
+      },
+      "lastVerified": "2026-05-08T00:00:00Z"
+    },
+    {
+      "id": "capital-one-quicksilver-student",
+      "cardName": "Quicksilver Student Cash Rewards",
+      "issuer": "Capital One",
+      "annualFee": 0,
+      "noForeignTransactionFees": true,
+      "earnRates": [
+        {
+          "category": "hotels",
+          "multiplier": 5,
+          "cap": null,
+          "notes": "Hotels and rental cars booked through Capital One Travel",
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "travelPortal",
+              "label": "Capital One Travel required",
+              "provider": "Capital One Travel",
+              "details": "Hotels and rental cars booked through Capital One Travel"
+            }
+          ]
+        }
+      ],
+      "baseEarnRate": 1.5,
+      "rewardProgram": "Cash Back",
+      "affiliateUrl": null,
+      "colorHex": "BFC0C0",
+      "benefits": [],
+      "sources": {
+        "annualFee": "https://www.capitalone.com/credit-cards/quicksilver-student/",
+        "noForeignTransactionFees": "https://www.capitalone.com/credit-cards/quicksilver-student/",
+        "baseEarnRate": "https://www.capitalone.com/credit-cards/quicksilver-student/",
+        "rewardProgram": "https://www.capitalone.com/credit-cards/quicksilver-student/",
+        "earnRates.hotels": "https://www.capitalone.com/credit-cards/quicksilver-student/"
+      },
+      "lastVerified": "2026-05-08T00:00:00Z"
+    },
+    {
+      "id": "capital-one-spark-cash-select",
+      "cardName": "Spark Cash Select",
+      "issuer": "Capital One",
+      "annualFee": 0,
+      "noForeignTransactionFees": true,
+      "earnRates": [
+        {
+          "category": "hotels",
+          "multiplier": 5,
+          "cap": null,
+          "notes": "Hotels and rental cars booked through Capital One Travel",
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "travelPortal",
+              "label": "Capital One Travel required",
+              "provider": "Capital One Travel",
+              "details": "Hotels and rental cars booked through Capital One Travel"
+            }
+          ]
+        }
+      ],
+      "baseEarnRate": 1.5,
+      "rewardProgram": "Cash Back",
+      "affiliateUrl": null,
+      "colorHex": "2C3E7A",
+      "benefits": [],
+      "sources": {
+        "annualFee": "https://www.capitalone.com/small-business/credit-cards/spark-cash-select/",
+        "noForeignTransactionFees": "https://www.capitalone.com/small-business/credit-cards/spark-cash-select/",
+        "baseEarnRate": "https://www.capitalone.com/small-business/credit-cards/spark-cash-select/",
+        "rewardProgram": "https://www.capitalone.com/small-business/credit-cards/spark-cash-select/",
+        "earnRates.hotels": "https://www.capitalone.com/small-business/credit-cards/spark-cash-select/"
+      },
+      "lastVerified": "2026-05-08T00:00:00Z"
+    },
+    {
+      "id": "capital-one-spark-cash-plus",
+      "cardName": "Spark Cash Plus",
+      "issuer": "Capital One",
+      "annualFee": 150,
+      "noForeignTransactionFees": true,
+      "earnRates": [
+        {
+          "category": "hotels",
+          "multiplier": 5,
+          "cap": null,
+          "notes": "Hotels and rental cars booked through Capital One Travel",
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "travelPortal",
+              "label": "Capital One Travel required",
+              "provider": "Capital One Travel",
+              "details": "Hotels and rental cars booked through Capital One Travel"
+            }
+          ]
+        }
+      ],
+      "baseEarnRate": 2,
+      "rewardProgram": "Cash Back",
+      "affiliateUrl": null,
+      "colorHex": "1C1C1C",
+      "benefits": [],
+      "sources": {
+        "annualFee": "https://www.capitalone.com/small-business/credit-cards/spark-cash-plus/",
+        "noForeignTransactionFees": "https://www.capitalone.com/small-business/credit-cards/spark-cash-plus/",
+        "baseEarnRate": "https://www.capitalone.com/small-business/credit-cards/spark-cash-plus/",
+        "rewardProgram": "https://www.capitalone.com/small-business/credit-cards/spark-cash-plus/",
+        "earnRates.hotels": "https://www.capitalone.com/small-business/credit-cards/spark-cash-plus/"
+      },
+      "lastVerified": "2026-05-08T00:00:00Z"
+    },
+    {
+      "id": "capital-one-spark-miles",
+      "cardName": "Spark Miles for Business",
+      "issuer": "Capital One",
+      "annualFee": 95,
+      "noForeignTransactionFees": true,
+      "earnRates": [
+        {
+          "category": "hotels",
+          "multiplier": 5,
+          "cap": null,
+          "notes": "Hotels and rental cars booked through Capital One Travel",
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "travelPortal",
+              "label": "Capital One Travel required",
+              "provider": "Capital One Travel",
+              "details": "Hotels and rental cars booked through Capital One Travel"
+            }
+          ]
+        }
+      ],
+      "baseEarnRate": 2,
+      "rewardProgram": "Capital One Venture Rewards",
+      "affiliateUrl": null,
+      "colorHex": "1F4E79",
+      "benefits": [
+        {
+          "name": "Global Entry/TSA PreCheck Credit",
+          "amount": 120,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Cardmember Year",
+          "category": "Travel Credits",
+          "allowsPartialUse": true,
+          "notes": "Every 4 years",
+          "availableMonths": [],
+          "notificationsEnabled": true
+        }
+      ],
+      "sources": {
+        "annualFee": "https://www.capitalone.com/small-business/credit-cards/spark-miles/",
+        "noForeignTransactionFees": "https://www.capitalone.com/small-business/credit-cards/spark-miles/",
+        "baseEarnRate": "https://www.capitalone.com/small-business/credit-cards/spark-miles/",
+        "rewardProgram": "https://www.capitalone.com/small-business/credit-cards/spark-miles/",
+        "earnRates.hotels": "https://www.capitalone.com/small-business/credit-cards/spark-miles/",
+        "benefits.global-entry-tsa-precheck-credit": "https://www.capitalone.com/small-business/credit-cards/spark-miles/"
+      },
+      "lastVerified": "2026-05-08T00:00:00Z"
+    },
+    {
+      "id": "capital-one-spark-miles-select",
+      "cardName": "Spark Miles Select for Business",
+      "issuer": "Capital One",
+      "annualFee": 0,
+      "noForeignTransactionFees": true,
+      "earnRates": [
+        {
+          "category": "hotels",
+          "multiplier": 5,
+          "cap": null,
+          "notes": "Hotels and rental cars booked through Capital One Travel",
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "travelPortal",
+              "label": "Capital One Travel required",
+              "provider": "Capital One Travel",
+              "details": "Hotels and rental cars booked through Capital One Travel"
+            }
+          ]
+        }
+      ],
+      "baseEarnRate": 1.5,
+      "rewardProgram": "Capital One Venture Rewards",
+      "affiliateUrl": null,
+      "colorHex": "4F6F8F",
+      "benefits": [],
+      "sources": {
+        "annualFee": "https://www.capitalone.com/small-business/credit-cards/spark-miles-select/",
+        "noForeignTransactionFees": "https://www.capitalone.com/small-business/credit-cards/spark-miles-select/",
+        "baseEarnRate": "https://www.capitalone.com/small-business/credit-cards/spark-miles-select/",
+        "rewardProgram": "https://www.capitalone.com/small-business/credit-cards/spark-miles-select/",
+        "earnRates.hotels": "https://www.capitalone.com/small-business/credit-cards/spark-miles-select/"
+      },
+      "lastVerified": "2026-05-08T00:00:00Z"
+    },
+    {
+      "id": "usbank-smartly-visa-signature",
+      "cardName": "Smartly Visa Signature",
+      "issuer": "US Bank",
+      "annualFee": 0,
+      "noForeignTransactionFees": false,
+      "earnRates": [
+        {
+          "category": "other",
+          "multiplier": 2,
+          "cap": null,
+          "notes": "Eligible purchases; up to 4% total with qualifying U.S. Bank balances on first $10,000 each billing cycle",
+          "isConditional": false
+        }
+      ],
+      "baseEarnRate": 2,
+      "rewardProgram": "US Bank Smartly Rewards",
+      "affiliateUrl": null,
+      "colorHex": "1A5D57",
+      "benefits": [],
+      "sources": {
+        "annualFee": "https://www.usbank.com/credit-cards/bank-smartly-visa-signature-credit-card.html",
+        "noForeignTransactionFees": "https://www.usbank.com/credit-cards/bank-smartly-visa-signature-credit-card.html",
+        "baseEarnRate": "https://www.usbank.com/credit-cards/bank-smartly-visa-signature-credit-card.html",
+        "rewardProgram": "https://www.usbank.com/credit-cards/bank-smartly-visa-signature-credit-card.html",
+        "earnRates.other": "https://www.usbank.com/credit-cards/bank-smartly-visa-signature-credit-card.html"
+      },
+      "lastVerified": "2026-05-08T00:00:00Z"
+    },
+    {
+      "id": "usbank-shield-visa",
+      "cardName": "Shield Visa",
+      "issuer": "US Bank",
+      "annualFee": 0,
+      "noForeignTransactionFees": false,
+      "earnRates": [],
+      "baseEarnRate": 0,
+      "rewardProgram": "US Bank",
+      "affiliateUrl": null,
+      "colorHex": "5F6B7A",
+      "benefits": [],
+      "sources": {
+        "annualFee": "https://www.usbank.com/credit-cards/shield-visa-credit-card.html",
+        "noForeignTransactionFees": "https://www.usbank.com/credit-cards/shield-visa-credit-card.html",
+        "baseEarnRate": "https://www.usbank.com/credit-cards/shield-visa-credit-card.html",
+        "rewardProgram": "https://www.usbank.com/credit-cards/shield-visa-credit-card.html"
+      },
+      "lastVerified": "2026-05-08T00:00:00Z"
+    },
+    {
+      "id": "usbank-altitude-go",
+      "cardName": "Altitude Go",
+      "issuer": "US Bank",
+      "annualFee": 0,
+      "noForeignTransactionFees": true,
+      "earnRates": [
+        {
+          "category": "dining",
+          "multiplier": 4,
+          "cap": null,
+          "notes": "Dining, takeout, and restaurant delivery"
+        },
+        {
+          "category": "groceries",
+          "multiplier": 2,
+          "cap": null,
+          "notes": "Grocery stores"
+        },
+        {
+          "category": "gas",
+          "multiplier": 2,
+          "cap": null,
+          "notes": "Gas stations and EV charging stations"
+        },
+        {
+          "category": "streaming",
+          "multiplier": 2,
+          "cap": null,
+          "notes": "Streaming services"
+        }
+      ],
+      "baseEarnRate": 1,
+      "rewardProgram": "US Bank Altitude Points",
+      "affiliateUrl": null,
+      "colorHex": "D85A2A",
+      "benefits": [
+        {
+          "name": "Streaming Service Credit",
+          "amount": 15,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Cardmember Year",
+          "category": "Shopping Credits",
+          "allowsPartialUse": true,
+          "notes": "Annual streaming service credit",
+          "availableMonths": [],
+          "notificationsEnabled": true
+        }
+      ],
+      "sources": {
+        "annualFee": "https://www.usbank.com/credit-cards/altitude-go-visa-signature-credit-card.html",
+        "noForeignTransactionFees": "https://www.usbank.com/credit-cards/altitude-go-visa-signature-credit-card.html",
+        "baseEarnRate": "https://www.usbank.com/credit-cards/altitude-go-visa-signature-credit-card.html",
+        "rewardProgram": "https://www.usbank.com/credit-cards/altitude-go-visa-signature-credit-card.html",
+        "earnRates.dining": "https://www.usbank.com/credit-cards/altitude-go-visa-signature-credit-card.html",
+        "earnRates.groceries": "https://www.usbank.com/credit-cards/altitude-go-visa-signature-credit-card.html",
+        "earnRates.gas": "https://www.usbank.com/credit-cards/altitude-go-visa-signature-credit-card.html",
+        "earnRates.streaming": "https://www.usbank.com/credit-cards/altitude-go-visa-signature-credit-card.html",
+        "benefits.streaming-service-credit": "https://www.usbank.com/credit-cards/altitude-go-visa-signature-credit-card.html"
+      },
+      "lastVerified": "2026-05-08T00:00:00Z"
+    },
+    {
+      "id": "usbank-shopper-cash-rewards",
+      "cardName": "Shopper Cash Rewards",
+      "issuer": "US Bank",
+      "annualFee": 95,
+      "noForeignTransactionFees": false,
+      "earnRates": [
+        {
+          "category": "other",
+          "multiplier": 6,
+          "cap": 1500,
+          "notes": "Two chosen eligible retailers on first $1,500 in combined purchases each quarter, then 1.5%",
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "chosenCategory",
+              "label": "Chosen category",
+              "details": "Choose two eligible retailers each quarter"
+            }
+          ]
+        },
+        {
+          "category": "other",
+          "multiplier": 3,
+          "cap": 1500,
+          "notes": "One chosen everyday category on first $1,500 in purchases each quarter, then 1.5%",
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "chosenCategory",
+              "label": "Chosen category",
+              "details": "Choose one everyday category each quarter"
+            }
+          ]
+        }
+      ],
+      "baseEarnRate": 1.5,
+      "rewardProgram": "US Bank Rewards",
+      "affiliateUrl": null,
+      "colorHex": "6A1B9A",
+      "benefits": [],
+      "sources": {
+        "annualFee": "https://www.usbank.com/credit-cards/shopper-cash-rewards-visa-signature-credit-card.html",
+        "noForeignTransactionFees": "https://www.usbank.com/credit-cards/shopper-cash-rewards-visa-signature-credit-card.html",
+        "baseEarnRate": "https://www.usbank.com/credit-cards/shopper-cash-rewards-visa-signature-credit-card.html",
+        "rewardProgram": "https://www.usbank.com/credit-cards/shopper-cash-rewards-visa-signature-credit-card.html",
+        "earnRates.other": "https://www.usbank.com/credit-cards/shopper-cash-rewards-visa-signature-credit-card.html"
+      },
+      "lastVerified": "2026-05-08T00:00:00Z"
+    },
+    {
+      "id": "usbank-split-world-mastercard",
+      "cardName": "Split World Mastercard",
+      "issuer": "US Bank",
+      "annualFee": 0,
+      "noForeignTransactionFees": false,
+      "earnRates": [],
+      "baseEarnRate": 0,
+      "rewardProgram": "US Bank",
+      "affiliateUrl": null,
+      "colorHex": "2F5F8F",
+      "benefits": [],
+      "sources": {
+        "annualFee": "https://www.usbank.com/credit-cards/split-card-world-mastercard-credit-card.html",
+        "noForeignTransactionFees": "https://www.usbank.com/credit-cards/split-card-world-mastercard-credit-card.html",
+        "baseEarnRate": "https://www.usbank.com/credit-cards/split-card-world-mastercard-credit-card.html",
+        "rewardProgram": "https://www.usbank.com/credit-cards/split-card-world-mastercard-credit-card.html"
+      },
+      "lastVerified": "2026-05-08T00:00:00Z"
+    },
+    {
+      "id": "usbank-altitude-go-secured",
+      "cardName": "Altitude Go Secured",
+      "issuer": "US Bank",
+      "annualFee": 0,
+      "noForeignTransactionFees": false,
+      "earnRates": [
+        {
+          "category": "dining",
+          "multiplier": 4,
+          "cap": 2000,
+          "notes": "Dining, takeout, and restaurant delivery on first $2,000 each quarter, then 1x"
+        },
+        {
+          "category": "groceries",
+          "multiplier": 2,
+          "cap": null,
+          "notes": "Grocery stores"
+        },
+        {
+          "category": "gas",
+          "multiplier": 2,
+          "cap": null,
+          "notes": "Gas stations and EV charging stations"
+        },
+        {
+          "category": "streaming",
+          "multiplier": 2,
+          "cap": null,
+          "notes": "Streaming services"
+        }
+      ],
+      "baseEarnRate": 1,
+      "rewardProgram": "US Bank Altitude Points",
+      "affiliateUrl": null,
+      "colorHex": "D85A2A",
+      "benefits": [
+        {
+          "name": "Streaming Service Credit",
+          "amount": 15,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Cardmember Year",
+          "category": "Shopping Credits",
+          "allowsPartialUse": true,
+          "notes": "Annual streaming service credit",
+          "availableMonths": [],
+          "notificationsEnabled": true
+        }
+      ],
+      "sources": {
+        "annualFee": "https://www.usbank.com/credit-cards/altitude-go-secured-visa-credit-card.html",
+        "noForeignTransactionFees": "https://www.usbank.com/credit-cards/altitude-go-secured-visa-credit-card.html",
+        "baseEarnRate": "https://www.usbank.com/credit-cards/altitude-go-secured-visa-credit-card.html",
+        "rewardProgram": "https://www.usbank.com/credit-cards/altitude-go-secured-visa-credit-card.html",
+        "earnRates.dining": "https://www.usbank.com/credit-cards/altitude-go-secured-visa-credit-card.html",
+        "earnRates.groceries": "https://www.usbank.com/credit-cards/altitude-go-secured-visa-credit-card.html",
+        "earnRates.gas": "https://www.usbank.com/credit-cards/altitude-go-secured-visa-credit-card.html",
+        "earnRates.streaming": "https://www.usbank.com/credit-cards/altitude-go-secured-visa-credit-card.html",
+        "benefits.streaming-service-credit": "https://www.usbank.com/credit-cards/altitude-go-secured-visa-credit-card.html"
+      },
+      "lastVerified": "2026-05-08T00:00:00Z"
+    },
+    {
+      "id": "usbank-cash-plus-secured",
+      "cardName": "Cash+ Secured",
+      "issuer": "US Bank",
+      "annualFee": 0,
+      "noForeignTransactionFees": false,
+      "earnRates": [
+        {
+          "category": "other",
+          "multiplier": 5,
+          "cap": 2000,
+          "notes": "Two chosen categories on first $2,000 in combined purchases each quarter, then 1x",
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "chosenCategory",
+              "label": "Chosen category",
+              "details": "Choose two eligible categories each quarter"
+            }
+          ]
+        },
+        {
+          "category": "other",
+          "multiplier": 2,
+          "cap": null,
+          "notes": "One chosen everyday category, then 1x outside selected 5% categories",
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "chosenCategory",
+              "label": "Chosen category",
+              "details": "Choose one everyday category"
+            }
+          ]
+        }
+      ],
+      "baseEarnRate": 1,
+      "rewardProgram": "US Bank Rewards",
+      "affiliateUrl": null,
+      "colorHex": "1F4E79",
+      "benefits": [],
+      "sources": {
+        "annualFee": "https://www.usbank.com/credit-cards/cash-plus-secured-visa-credit-card.html",
+        "noForeignTransactionFees": "https://www.usbank.com/credit-cards/cash-plus-secured-visa-credit-card.html",
+        "baseEarnRate": "https://www.usbank.com/credit-cards/cash-plus-secured-visa-credit-card.html",
+        "rewardProgram": "https://www.usbank.com/credit-cards/cash-plus-secured-visa-credit-card.html",
+        "earnRates.other": "https://www.usbank.com/credit-cards/cash-plus-secured-visa-credit-card.html"
+      },
+      "lastVerified": "2026-05-08T00:00:00Z"
+    },
+    {
+      "id": "usbank-secured-visa",
+      "cardName": "Secured Visa",
+      "issuer": "US Bank",
+      "annualFee": 0,
+      "noForeignTransactionFees": false,
+      "earnRates": [],
+      "baseEarnRate": 0,
+      "rewardProgram": "US Bank",
+      "affiliateUrl": null,
+      "colorHex": "7A7F86",
+      "benefits": [],
+      "sources": {
+        "annualFee": "https://www.usbank.com/credit-cards/secured-visa-credit-card.html",
+        "noForeignTransactionFees": "https://www.usbank.com/credit-cards/secured-visa-credit-card.html",
+        "baseEarnRate": "https://www.usbank.com/credit-cards/secured-visa-credit-card.html",
+        "rewardProgram": "https://www.usbank.com/credit-cards/secured-visa-credit-card.html"
+      },
+      "lastVerified": "2026-05-08T00:00:00Z"
+    },
+    {
+      "id": "discover-it-chrome",
+      "cardName": "it Chrome",
+      "issuer": "Discover",
+      "annualFee": 0,
+      "noForeignTransactionFees": false,
+      "earnRates": [
+        {
+          "category": "gas",
+          "multiplier": 2,
+          "cap": 1000,
+          "notes": "Gas stations and restaurants on up to $1,000 in combined purchases each quarter, then 1%"
+        },
+        {
+          "category": "dining",
+          "multiplier": 2,
+          "cap": 1000,
+          "notes": "Gas stations and restaurants on up to $1,000 in combined purchases each quarter, then 1%"
+        }
+      ],
+      "baseEarnRate": 1,
+      "rewardProgram": "Discover Cashback Bonus",
+      "affiliateUrl": null,
+      "colorHex": "F58220",
+      "benefits": [],
+      "sources": {
+        "annualFee": "https://www.discover.com/credit-cards/cash-back/chrome.html",
+        "noForeignTransactionFees": "https://www.discover.com/credit-cards/cash-back/chrome.html",
+        "baseEarnRate": "https://www.discover.com/credit-cards/cash-back/chrome.html",
+        "rewardProgram": "https://www.discover.com/credit-cards/cash-back/chrome.html",
+        "earnRates.gas": "https://www.discover.com/credit-cards/cash-back/chrome.html",
+        "earnRates.dining": "https://www.discover.com/credit-cards/cash-back/chrome.html"
+      },
+      "lastVerified": "2026-05-08T00:00:00Z"
+    },
+    {
+      "id": "discover-it-student-cash-back",
+      "cardName": "it Student Cash Back",
+      "issuer": "Discover",
+      "annualFee": 0,
+      "noForeignTransactionFees": false,
+      "earnRates": [
+        {
+          "category": "other",
+          "multiplier": 5,
+          "cap": 1500,
+          "notes": "Rotating quarterly categories after activation, up to the quarterly maximum, then 1%",
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "rotatingCategory",
+              "label": "Quarterly activation required",
+              "details": "Rotating quarterly categories require activation and are capped each quarter"
+            }
+          ]
+        }
+      ],
+      "baseEarnRate": 1,
+      "rewardProgram": "Discover Cashback Bonus",
+      "affiliateUrl": null,
+      "colorHex": "F58220",
+      "benefits": [],
+      "sources": {
+        "annualFee": "https://www.discover.com/credit-cards/student-credit-card/it-card.html",
+        "noForeignTransactionFees": "https://www.discover.com/credit-cards/student-credit-card/it-card.html",
+        "baseEarnRate": "https://www.discover.com/credit-cards/student-credit-card/it-card.html",
+        "rewardProgram": "https://www.discover.com/credit-cards/student-credit-card/it-card.html",
+        "earnRates.other": "https://www.discover.com/credit-cards/student-credit-card/it-card.html"
+      },
+      "lastVerified": "2026-05-08T00:00:00Z"
+    },
+    {
+      "id": "discover-it-student-chrome",
+      "cardName": "it Student Chrome",
+      "issuer": "Discover",
+      "annualFee": 0,
+      "noForeignTransactionFees": false,
+      "earnRates": [
+        {
+          "category": "gas",
+          "multiplier": 2,
+          "cap": 1000,
+          "notes": "Gas stations and restaurants on up to $1,000 in combined purchases each quarter, then 1%"
+        },
+        {
+          "category": "dining",
+          "multiplier": 2,
+          "cap": 1000,
+          "notes": "Gas stations and restaurants on up to $1,000 in combined purchases each quarter, then 1%"
+        }
+      ],
+      "baseEarnRate": 1,
+      "rewardProgram": "Discover Cashback Bonus",
+      "affiliateUrl": null,
+      "colorHex": "F58220",
+      "benefits": [],
+      "sources": {
+        "annualFee": "https://www.discover.com/credit-cards/student-credit-card/chrome-card.html",
+        "noForeignTransactionFees": "https://www.discover.com/credit-cards/student-credit-card/chrome-card.html",
+        "baseEarnRate": "https://www.discover.com/credit-cards/student-credit-card/chrome-card.html",
+        "rewardProgram": "https://www.discover.com/credit-cards/student-credit-card/chrome-card.html",
+        "earnRates.gas": "https://www.discover.com/credit-cards/student-credit-card/chrome-card.html",
+        "earnRates.dining": "https://www.discover.com/credit-cards/student-credit-card/chrome-card.html"
+      },
+      "lastVerified": "2026-05-08T00:00:00Z"
+    },
+    {
+      "id": "discover-it-secured",
+      "cardName": "it Secured",
+      "issuer": "Discover",
+      "annualFee": 0,
+      "noForeignTransactionFees": false,
+      "earnRates": [
+        {
+          "category": "gas",
+          "multiplier": 2,
+          "cap": 1000,
+          "notes": "Gas stations and restaurants on up to $1,000 in combined purchases each quarter, then 1%"
+        },
+        {
+          "category": "dining",
+          "multiplier": 2,
+          "cap": 1000,
+          "notes": "Gas stations and restaurants on up to $1,000 in combined purchases each quarter, then 1%"
+        }
+      ],
+      "baseEarnRate": 1,
+      "rewardProgram": "Discover Cashback Bonus",
+      "affiliateUrl": null,
+      "colorHex": "F58220",
+      "benefits": [],
+      "sources": {
+        "annualFee": "https://www.discover.com/credit-cards/secured/",
+        "noForeignTransactionFees": "https://www.discover.com/credit-cards/secured/",
+        "baseEarnRate": "https://www.discover.com/credit-cards/secured/",
+        "rewardProgram": "https://www.discover.com/credit-cards/secured/",
+        "earnRates.gas": "https://www.discover.com/credit-cards/secured/",
+        "earnRates.dining": "https://www.discover.com/credit-cards/secured/"
+      },
+      "lastVerified": "2026-05-08T00:00:00Z"
+    },
+    {
+      "id": "discover-it-nhl",
+      "cardName": "NHL Discover it",
+      "issuer": "Discover",
+      "annualFee": 0,
+      "noForeignTransactionFees": false,
+      "earnRates": [
+        {
+          "category": "other",
+          "multiplier": 5,
+          "cap": 1500,
+          "notes": "Rotating quarterly categories after activation, up to the quarterly maximum, then 1%",
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "rotatingCategory",
+              "label": "Quarterly activation required",
+              "details": "Rotating quarterly categories require activation and are capped each quarter"
+            }
+          ]
+        }
+      ],
+      "baseEarnRate": 1,
+      "rewardProgram": "Discover Cashback Bonus",
+      "affiliateUrl": null,
+      "colorHex": "F58220",
+      "benefits": [],
+      "sources": {
+        "annualFee": "https://www.discover.com/credit-cards/cash-back/nhl-card.html",
+        "noForeignTransactionFees": "https://www.discover.com/credit-cards/cash-back/nhl-card.html",
+        "baseEarnRate": "https://www.discover.com/credit-cards/cash-back/nhl-card.html",
+        "rewardProgram": "https://www.discover.com/credit-cards/cash-back/nhl-card.html",
+        "earnRates.other": "https://www.discover.com/credit-cards/cash-back/nhl-card.html"
+      },
+      "lastVerified": "2026-05-08T00:00:00Z"
     }
   ]
 }
