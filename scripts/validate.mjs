@@ -90,6 +90,12 @@ const ENTERTAINMENT_BENEFIT_PATTERN =
   /\b(apple tv|apple music|digital entertainment|disney|hulu|espn|streaming|stubhub|ticket|tickets|fandango|movie|movies|theater|concert|entertainment|peacock|paramount|netflix|spotify|audible|sirius|siriusxm|youtube tv|max|hbo|showtime|starz)\b/i;
 const LIFESTYLE_BENEFIT_PATTERN =
   /\b(equinox|peloton|oura|fitness|wellness|lifestyle|gym|health)\b/i;
+const BROAD_OTHER_EARN_PATTERN =
+  /\b(all purchases|every purchase|everything else|other purchases|all other purchases|all eligible purchases|all other eligible purchases|non[- ]?bonus|base)\b/i;
+const CONDITIONAL_OTHER_EARN_PATTERN =
+  /\b(choice category|chosen category|select category|one chosen|two chosen|top eligible|top 2|top spend|rotating|activate|eligible business categories|large purchase|single purchases)\b/i;
+const NARROW_UNSUPPORTED_OTHER_EARN_PATTERN =
+  /\b(apple pay|apple purchases|mobile wallet|office suppl|advertising|phone plan|telephone|wireless|utilities|utility|fitness|gym|costco|entertainment|foreign currency|construction material|software\/cloud|shipping provider|internet, cable|cable and phone|social media|search engine)\b/i;
 
 const SOURCE_REQUIRED_CARD_FIELDS = [
   'annualFee',
@@ -255,6 +261,8 @@ for (const card of cards.cards || []) {
       }
     }
 
+    validateEarnRateCategory(card, rate, index);
+
     if (!rate.isConditional) continue;
 
     const hasConditions = Array.isArray(rate.conditions) && rate.conditions.length > 0;
@@ -282,6 +290,26 @@ for (const card of cards.cards || []) {
         );
       }
     }
+  }
+}
+
+function validateEarnRateCategory(card, rate, index) {
+  if (rate.category !== 'other') return;
+
+  const conditionText = (rate.conditions || [])
+    .map((condition) => [condition.label, condition.provider, condition.merchant, condition.details].join(' '))
+    .join(' ');
+  const text = `${rate.notes || ''} ${conditionText}`;
+
+  if (
+    NARROW_UNSUPPORTED_OTHER_EARN_PATTERN.test(text)
+    && !BROAD_OTHER_EARN_PATTERN.test(text)
+    && !CONDITIONAL_OTHER_EARN_PATTERN.test(text)
+  ) {
+    err(
+      `${card.id}.earnRates[${index}]: ${rate.multiplier}x is mapped to "other" but describes a narrow ` +
+        `merchant/category the app does not model. Add a supported category or omit it from optimizer data.`
+    );
   }
 }
 
@@ -341,6 +369,21 @@ try {
 
 if (prevCards) {
   const prevById = new Map((prevCards.cards || []).map((c) => [c.id, c]));
+
+  const currentCardsJson = JSON.stringify(cards.cards || []);
+  const previousCardsJson = JSON.stringify(prevCards.cards || []);
+  if (currentCardsJson !== previousCardsJson) {
+    if (cards.version <= prevCards.version) {
+      err(
+        `catalog version must advance when cards.json data changes (${prevCards.version} → ${cards.version}).`
+      );
+    }
+    if (cards.lastUpdated <= prevCards.lastUpdated) {
+      err(
+        `catalog lastUpdated must advance when cards.json data changes (${prevCards.lastUpdated} → ${cards.lastUpdated}).`
+      );
+    }
+  }
 
   // 4. annualFee two-citation rule
   for (const card of cards.cards || []) {

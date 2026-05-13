@@ -310,6 +310,10 @@ For new cards, a single approved `sources.annualFee` URL is sufficient.
 
 ### Step 5: Update top-level fields conditionally
 
+GitHub `main` is the iOS app's source of truth. The app compares
+`lastUpdated` before caching the remote feed and reconciling user wallet
+earn-rate metadata, so freshness metadata is part of the data change.
+
 Only update `version` and `lastUpdated` if at least one real card-level change
 was made:
 
@@ -326,6 +330,10 @@ When updated:
 - `version`: today's date in `YYYY.MM.DD`
 - `lastUpdated`: current ISO 8601 UTC timestamp
 - `schemaVersion`: stays `1` unless explicitly told otherwise
+
+Do not open a PR where `cards.json` data differs from `origin/main` but either
+`version` or `lastUpdated` failed to advance; the validator should block this,
+and the app may otherwise keep stale cached card data.
 
 ### Step 6: Validate locally
 
@@ -410,7 +418,8 @@ If `cards.json` did not change, make no commit and open no PR. Print
 5. Never open a PR with failing validation or audit output.
 6. Never push directly to main. Always work on a `refresh/<date>` branch.
 7. Never bump `version` or `lastUpdated` when no card data changed.
-8. Never write secrets to disk, logs, commits, PR text, or source files.
+8. Never change card data without advancing both `version` and `lastUpdated`.
+9. Never write secrets to disk, logs, commits, PR text, or source files.
 
 ## Final report
 

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "version": "2026.05.08",
-  "lastUpdated": "2026-05-08T00:00:00Z",
+  "version": "2026.05.13",
+  "lastUpdated": "2026-05-13T14:38:26Z",
   "cards": [
     {
       "id": "american-express-platinum-card",
@@ -1225,25 +1225,6 @@
               "details": "Prepaid hotels booked via Amex Travel"
             }
           ]
-        },
-        {
-          "category": "other",
-          "multiplier": 1.5,
-          "cap": 2000000,
-          "notes": "Eligible U.S. construction material, electronic goods, software/cloud, shipping, and single purchases of $5,000+; up to $2,000,000 combined per calendar year, then 1x",
-          "isConditional": true,
-          "conditions": [
-            {
-              "type": "businessCategoryTopSpend",
-              "label": "Eligible U.S. business categories",
-              "details": "Eligible U.S. construction material, electronic goods, software/cloud, shipping, and single purchases of $5,000+; up to $2,000,000 combined per calendar year, then 1x"
-            },
-            {
-              "type": "largePurchase",
-              "label": "Single purchases of $5,000+",
-              "details": "Eligible U.S. construction material, electronic goods, software/cloud, shipping, and single purchases of $5,000+; up to $2,000,000 combined per calendar year, then 1x"
-            }
-          ]
         }
       ],
       "baseEarnRate": 1,
@@ -1387,7 +1368,6 @@
         "rewardProgram": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/american-express-business-platinum-credit-card-amex/",
         "earnRates.airfare": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/american-express-business-platinum-credit-card-amex/",
         "earnRates.hotels": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/american-express-business-platinum-credit-card-amex/",
-        "earnRates.other": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/american-express-business-platinum-credit-card-amex/",
         "benefits.adobe-credit": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/american-express-business-platinum-credit-card-amex/",
         "benefits.indeed-credit": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/american-express-business-platinum-credit-card-amex/",
         "benefits.global-entry-tsa-precheck-credit": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/american-express-business-platinum-credit-card-amex/"
@@ -1696,7 +1676,7 @@
           "category": "transit",
           "multiplier": 1.5,
           "cap": null,
-          "notes": "Transit including rideshares, taxicabs, and more; also U.S. shipping providers and U.S. office supply stores"
+          "notes": "Transit including rideshares, taxicabs, and more"
         }
       ],
       "baseEarnRate": 1,
@@ -1792,12 +1772,6 @@
           "multiplier": 2,
           "cap": null,
           "notes": "Dining at restaurants"
-        },
-        {
-          "category": "other",
-          "multiplier": 2,
-          "cap": 50000,
-          "notes": "U.S. shipping providers and U.S. advertising in select media; up to $50,000 per category per calendar year, then 1x"
         }
       ],
       "baseEarnRate": 1,
@@ -1825,8 +1799,7 @@
         "baseEarnRate": "https://www.americanexpress.com/en-us/business/credit-cards/delta-skymiles-gold/",
         "rewardProgram": "https://www.americanexpress.com/en-us/business/credit-cards/delta-skymiles-gold/",
         "earnRates.airfare": "https://www.americanexpress.com/en-us/business/credit-cards/delta-skymiles-gold/",
-        "earnRates.dining": "https://www.americanexpress.com/en-us/business/credit-cards/delta-skymiles-gold/",
-        "earnRates.other": "https://www.americanexpress.com/en-us/business/credit-cards/delta-skymiles-gold/"
+        "earnRates.dining": "https://www.americanexpress.com/en-us/business/credit-cards/delta-skymiles-gold/"
       }
     },
     {
@@ -1862,12 +1835,6 @@
           "multiplier": 4,
           "cap": null,
           "notes": "U.S. gas stations"
-        },
-        {
-          "category": "other",
-          "multiplier": 4,
-          "cap": null,
-          "notes": "U.S. wireless telephone service providers and U.S. shipping providers"
         }
       ],
       "baseEarnRate": 2,
@@ -1897,8 +1864,7 @@
         "rewardProgram": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/amex-marriott-bonvoy-business-credit-card/",
         "earnRates.hotels": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/amex-marriott-bonvoy-business-credit-card/",
         "earnRates.dining": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/amex-marriott-bonvoy-business-credit-card/",
-        "earnRates.gas": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/amex-marriott-bonvoy-business-credit-card/",
-        "earnRates.other": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/amex-marriott-bonvoy-business-credit-card/"
+        "earnRates.gas": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/amex-marriott-bonvoy-business-credit-card/"
       }
     },
     {
@@ -2243,12 +2209,6 @@
           "multiplier": 2,
           "cap": null,
           "notes": null
-        },
-        {
-          "category": "other",
-          "multiplier": 2,
-          "cap": null,
-          "notes": "Office supplies"
         }
       ],
       "baseEarnRate": 1,
@@ -2285,8 +2245,7 @@
         "baseEarnRate": "https://cards.barclaycardus.com/banking/cards/jetblue-business-card/",
         "rewardProgram": "https://cards.barclaycardus.com/banking/cards/jetblue-business-card/",
         "earnRates.airfare": "https://cards.barclaycardus.com/banking/cards/jetblue-business-card/",
-        "earnRates.dining": "https://cards.barclaycardus.com/banking/cards/jetblue-business-card/",
-        "earnRates.other": "https://cards.barclaycardus.com/banking/cards/jetblue-business-card/"
+        "earnRates.dining": "https://cards.barclaycardus.com/banking/cards/jetblue-business-card/"
       },
       "lastVerified": "2026-05-03T00:00:00Z"
     },
@@ -2482,19 +2441,13 @@
           "category": "travel",
           "multiplier": 3,
           "cap": 150000,
-          "notes": "Travel, shipping, advertising, and internet/cable/phone services, up to $150,000 combined per account anniversary year, then 1x",
+          "notes": "Travel purchases, up to $150,000 combined per account anniversary year, then 1x",
           "appliesToCategories": [
             "travel",
             "airfare",
             "hotels",
             "transit"
           ]
-        },
-        {
-          "category": "transit",
-          "multiplier": 3,
-          "cap": 150000,
-          "notes": "Combined with travel, shipping, advertising, and internet/cable/phone services, up to $150,000 per account anniversary year, then 1x"
         }
       ],
       "baseEarnRate": 1,
@@ -2507,8 +2460,7 @@
         "noForeignTransactionFees": "https://creditcards.chase.com/business-credit-cards/ink/business-preferred",
         "baseEarnRate": "https://creditcards.chase.com/business-credit-cards/ink/business-preferred",
         "rewardProgram": "https://creditcards.chase.com/business-credit-cards/ink/business-preferred",
-        "earnRates.travel": "https://creditcards.chase.com/business-credit-cards/ink/business-preferred",
-        "earnRates.transit": "https://creditcards.chase.com/business-credit-cards/ink/business-preferred"
+        "earnRates.travel": "https://creditcards.chase.com/business-credit-cards/ink/business-preferred"
       },
       "lastVerified": "2026-05-03T00:00:00Z"
     },
@@ -2519,12 +2471,6 @@
       "annualFee": 0,
       "noForeignTransactionFees": false,
       "earnRates": [
-        {
-          "category": "other",
-          "multiplier": 5,
-          "cap": 25000,
-          "notes": "Office supply stores and internet/cable/phone services, up to $25,000 combined per account anniversary year, then 1x"
-        },
         {
           "category": "dining",
           "multiplier": 2,
@@ -2548,7 +2494,6 @@
         "noForeignTransactionFees": "https://creditcards.chase.com/business-credit-cards/ink/cash",
         "baseEarnRate": "https://creditcards.chase.com/business-credit-cards/ink/cash",
         "rewardProgram": "https://creditcards.chase.com/business-credit-cards/ink/cash",
-        "earnRates.other": "https://creditcards.chase.com/business-credit-cards/ink/cash",
         "earnRates.dining": "https://creditcards.chase.com/business-credit-cards/ink/cash",
         "earnRates.gas": "https://creditcards.chase.com/business-credit-cards/ink/cash"
       },
@@ -3149,12 +3094,6 @@
           "multiplier": 3,
           "cap": null,
           "notes": "Popular streaming services"
-        },
-        {
-          "category": "other",
-          "multiplier": 3,
-          "cap": null,
-          "notes": "Entertainment purchases"
         }
       ],
       "baseEarnRate": 1,
@@ -3170,8 +3109,7 @@
         "earnRates.travel": "https://www.capitalone.com/credit-cards/savorone-dining-rewards/",
         "earnRates.dining": "https://www.capitalone.com/credit-cards/savorone-dining-rewards/",
         "earnRates.groceries": "https://www.capitalone.com/credit-cards/savorone-dining-rewards/",
-        "earnRates.streaming": "https://www.capitalone.com/credit-cards/savorone-dining-rewards/",
-        "earnRates.other": "https://www.capitalone.com/credit-cards/savorone-dining-rewards/"
+        "earnRates.streaming": "https://www.capitalone.com/credit-cards/savorone-dining-rewards/"
       },
       "lastVerified": "2026-05-03T00:00:00Z"
     },
@@ -3218,12 +3156,6 @@
           "multiplier": 3,
           "cap": null,
           "notes": "Popular streaming services"
-        },
-        {
-          "category": "other",
-          "multiplier": 3,
-          "cap": null,
-          "notes": "Entertainment purchases"
         }
       ],
       "baseEarnRate": 1,
@@ -3242,8 +3174,7 @@
         "earnRates.travel": "https://www.capitalone.com/credit-cards/savor/",
         "earnRates.dining": "https://www.capitalone.com/credit-cards/savor/",
         "earnRates.groceries": "https://www.capitalone.com/credit-cards/savor/",
-        "earnRates.streaming": "https://www.capitalone.com/credit-cards/savor/",
-        "earnRates.other": "https://www.capitalone.com/credit-cards/savor/"
+        "earnRates.streaming": "https://www.capitalone.com/credit-cards/savor/"
       },
       "lastVerified": "2026-05-03T00:00:00Z"
     },
@@ -4040,12 +3971,6 @@
           "multiplier": 2,
           "cap": null,
           "notes": "Local transit and commuting"
-        },
-        {
-          "category": "other",
-          "multiplier": 2,
-          "cap": null,
-          "notes": "Fitness club and gym memberships"
         }
       ],
       "baseEarnRate": 1,
@@ -4097,8 +4022,7 @@
         "earnRates.hotels": "https://creditcards.chase.com/travel-credit-cards/world-of-hyatt-credit-card",
         "earnRates.dining": "https://creditcards.chase.com/travel-credit-cards/world-of-hyatt-credit-card",
         "earnRates.airfare": "https://creditcards.chase.com/travel-credit-cards/world-of-hyatt-credit-card",
-        "earnRates.transit": "https://creditcards.chase.com/travel-credit-cards/world-of-hyatt-credit-card",
-        "earnRates.other": "https://creditcards.chase.com/travel-credit-cards/world-of-hyatt-credit-card"
+        "earnRates.transit": "https://creditcards.chase.com/travel-credit-cards/world-of-hyatt-credit-card"
       },
       "lastVerified": "2026-05-03T00:00:00Z"
     },
@@ -4244,12 +4168,6 @@
           "multiplier": 2,
           "cap": null,
           "notes": "Hotel accommodations purchased directly with the hotel"
-        },
-        {
-          "category": "other",
-          "multiplier": 2,
-          "cap": null,
-          "notes": "Social media/search engine advertising and internet, cable, and phone services"
         }
       ],
       "baseEarnRate": 1,
@@ -4326,8 +4244,7 @@
         "earnRates.travel": "https://creditcards.chase.com/business-credit-cards/southwest/performance-business",
         "earnRates.gas": "https://creditcards.chase.com/business-credit-cards/southwest/performance-business",
         "earnRates.dining": "https://creditcards.chase.com/business-credit-cards/southwest/performance-business",
-        "earnRates.hotels": "https://creditcards.chase.com/business-credit-cards/southwest/performance-business",
-        "earnRates.other": "https://creditcards.chase.com/business-credit-cards/southwest/performance-business"
+        "earnRates.hotels": "https://creditcards.chase.com/business-credit-cards/southwest/performance-business"
       },
       "lastVerified": "2026-05-03T00:00:00Z"
     },
@@ -5089,20 +5006,6 @@
           ]
         },
         {
-          "category": "other",
-          "multiplier": 3,
-          "cap": null,
-          "notes": "Foreign currency transactions",
-          "isConditional": true,
-          "conditions": [
-            {
-              "type": "foreignCurrency",
-              "label": "Foreign currency transactions",
-              "details": "Foreign currency transactions"
-            }
-          ]
-        },
-        {
           "category": "dining",
           "multiplier": 3,
           "cap": null,
@@ -5144,7 +5047,6 @@
         "baseEarnRate": "https://www.alaskaair.com/atmosrewards/content/credit-cards/visa-summit",
         "rewardProgram": "https://www.alaskaair.com/atmosrewards/content/credit-cards/visa-summit",
         "earnRates.airfare": "https://www.alaskaair.com/atmosrewards/content/credit-cards/visa-summit",
-        "earnRates.other": "https://www.alaskaair.com/atmosrewards/content/credit-cards/visa-summit",
         "earnRates.dining": "https://www.alaskaair.com/atmosrewards/content/credit-cards/visa-summit"
       },
       "lastVerified": "2026-05-03T00:00:00Z"
@@ -5258,12 +5160,6 @@
           "multiplier": 3,
           "cap": null,
           "notes": null
-        },
-        {
-          "category": "other",
-          "multiplier": 3,
-          "cap": null,
-          "notes": "Phone plans"
         }
       ],
       "baseEarnRate": 1,
@@ -5292,8 +5188,7 @@
         "earnRates.travel": "https://creditcards.wellsfargo.com/autograph-visa-credit-card/",
         "earnRates.transit": "https://creditcards.wellsfargo.com/autograph-visa-credit-card/",
         "earnRates.gas": "https://creditcards.wellsfargo.com/autograph-visa-credit-card/",
-        "earnRates.streaming": "https://creditcards.wellsfargo.com/autograph-visa-credit-card/",
-        "earnRates.other": "https://creditcards.wellsfargo.com/autograph-visa-credit-card/"
+        "earnRates.streaming": "https://creditcards.wellsfargo.com/autograph-visa-credit-card/"
       },
       "lastVerified": "2026-05-03T00:00:00Z"
     },
@@ -5340,18 +5235,13 @@
           "category": "travel",
           "multiplier": 3,
           "cap": null,
-          "notes": "Mobile wallet purchases",
+          "notes": "Travel purchases",
           "appliesToCategories": [
             "travel",
             "airfare",
-            "hotels"
+            "hotels",
+            "transit"
           ]
-        },
-        {
-          "category": "other",
-          "multiplier": 3,
-          "cap": null,
-          "notes": "Mobile wallet purchases"
         }
       ],
       "baseEarnRate": 1,
@@ -5376,8 +5266,7 @@
         "noForeignTransactionFees": "https://www.usbank.com/credit-cards/altitude-reserve-visa-infinite-credit-card.html",
         "baseEarnRate": "https://www.usbank.com/credit-cards/altitude-reserve-visa-infinite-credit-card.html",
         "rewardProgram": "https://www.usbank.com/credit-cards/altitude-reserve-visa-infinite-credit-card.html",
-        "earnRates.travel": "https://www.usbank.com/credit-cards/altitude-reserve-visa-infinite-credit-card.html",
-        "earnRates.other": "https://www.usbank.com/credit-cards/altitude-reserve-visa-infinite-credit-card.html"
+        "earnRates.travel": "https://www.usbank.com/credit-cards/altitude-reserve-visa-infinite-credit-card.html"
       },
       "lastVerified": "2026-05-03T00:00:00Z"
     },
@@ -5591,20 +5480,7 @@
       "issuer": "Apple",
       "annualFee": 0,
       "noForeignTransactionFees": true,
-      "earnRates": [
-        {
-          "category": "other",
-          "multiplier": 3,
-          "cap": null,
-          "notes": "Apple purchases"
-        },
-        {
-          "category": "other",
-          "multiplier": 2,
-          "cap": null,
-          "notes": "Apple Pay purchases"
-        }
-      ],
+      "earnRates": [],
       "baseEarnRate": 1,
       "rewardProgram": "Apple Daily Cash",
       "affiliateUrl": null,
@@ -5614,8 +5490,7 @@
         "annualFee": "https://www.apple.com/apple-card/",
         "noForeignTransactionFees": "https://www.apple.com/apple-card/",
         "baseEarnRate": "https://www.apple.com/apple-card/",
-        "rewardProgram": "https://www.apple.com/apple-card/",
-        "earnRates.other": "https://www.apple.com/apple-card/"
+        "rewardProgram": "https://www.apple.com/apple-card/"
       },
       "lastVerified": "2026-05-03T00:00:00Z"
     },
@@ -6123,10 +5998,16 @@
           "notes": "Select streaming, internet, cable, and phone services"
         },
         {
-          "category": "other",
+          "category": "transit",
           "multiplier": 2,
           "cap": null,
-          "notes": "Rideshare and select food delivery services"
+          "notes": "Rideshare services"
+        },
+        {
+          "category": "dining",
+          "multiplier": 2,
+          "cap": null,
+          "notes": "Select food delivery services"
         }
       ],
       "baseEarnRate": 1,
@@ -6142,7 +6023,8 @@
         "earnRates.hotels": "https://creditcards.chase.com/travel-credit-cards/marriott-bonvoy/bold",
         "earnRates.groceries": "https://creditcards.chase.com/travel-credit-cards/marriott-bonvoy/bold",
         "earnRates.streaming": "https://creditcards.chase.com/travel-credit-cards/marriott-bonvoy/bold",
-        "earnRates.other": "https://creditcards.chase.com/travel-credit-cards/marriott-bonvoy/bold"
+        "earnRates.transit": "https://creditcards.chase.com/travel-credit-cards/marriott-bonvoy/bold",
+        "earnRates.dining": "https://creditcards.chase.com/travel-credit-cards/marriott-bonvoy/bold"
       },
       "lastVerified": "2026-05-08T00:00:00Z"
     },
@@ -6243,12 +6125,6 @@
           "multiplier": 3,
           "cap": null,
           "notes": "Select streaming services"
-        },
-        {
-          "category": "other",
-          "multiplier": 3,
-          "cap": null,
-          "notes": "Utilities"
         }
       ],
       "baseEarnRate": 2,
@@ -6264,7 +6140,6 @@
         "earnRates.hotels": "https://creditcards.chase.com/travel-credit-cards/ihg-rewards-club/traveler",
         "earnRates.gas": "https://creditcards.chase.com/travel-credit-cards/ihg-rewards-club/traveler",
         "earnRates.dining": "https://creditcards.chase.com/travel-credit-cards/ihg-rewards-club/traveler",
-        "earnRates.other": "https://creditcards.chase.com/travel-credit-cards/ihg-rewards-club/traveler",
         "earnRates.streaming": "https://creditcards.chase.com/travel-credit-cards/ihg-rewards-club/traveler"
       },
       "lastVerified": "2026-05-08T00:00:00Z"
@@ -6357,7 +6232,15 @@
           "category": "other",
           "multiplier": 2.5,
           "cap": null,
-          "notes": "Purchases of $5,000 or more"
+          "notes": "Purchases of $5,000 or more",
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "largePurchase",
+              "label": "Single purchases of $5,000+",
+              "details": "Purchases of $5,000 or more"
+            }
+          ]
         },
         {
           "category": "other",
@@ -6440,12 +6323,6 @@
           "multiplier": 3,
           "cap": null,
           "notes": "Dining"
-        },
-        {
-          "category": "other",
-          "multiplier": 3,
-          "cap": null,
-          "notes": "Social media and search engine advertising"
         }
       ],
       "baseEarnRate": 1,
@@ -6507,7 +6384,6 @@
         "earnRates.airfare": "https://creditcards.chase.com/business-credit-cards/sapphire/reserve",
         "earnRates.hotels": "https://creditcards.chase.com/business-credit-cards/sapphire/reserve",
         "earnRates.dining": "https://creditcards.chase.com/business-credit-cards/sapphire/reserve",
-        "earnRates.other": "https://creditcards.chase.com/business-credit-cards/sapphire/reserve",
         "benefits.travel-credit": "https://creditcards.chase.com/business-credit-cards/sapphire/reserve",
         "benefits.the-edit-hotel-credit": "https://creditcards.chase.com/business-credit-cards/sapphire/reserve",
         "benefits.select-chase-travel-hotel-credit": "https://creditcards.chase.com/business-credit-cards/sapphire/reserve",
@@ -6554,12 +6430,6 @@
           "multiplier": 2,
           "cap": null,
           "notes": "Local transit and commuting"
-        },
-        {
-          "category": "other",
-          "multiplier": 2,
-          "cap": null,
-          "notes": "Office supply stores"
         }
       ],
       "baseEarnRate": 1,
@@ -6643,7 +6513,6 @@
         "earnRates.dining": "https://creditcards.chase.com/business-credit-cards/united/united-business-card",
         "earnRates.gas": "https://creditcards.chase.com/business-credit-cards/united/united-business-card",
         "earnRates.transit": "https://creditcards.chase.com/business-credit-cards/united/united-business-card",
-        "earnRates.other": "https://creditcards.chase.com/business-credit-cards/united/united-business-card",
         "benefits.united-travel-credit": "https://creditcards.chase.com/business-credit-cards/united/united-business-card",
         "benefits.united-hotels-credit": "https://creditcards.chase.com/business-credit-cards/united/united-business-card",
         "benefits.rideshare-credit": "https://creditcards.chase.com/business-credit-cards/united/united-business-card",
@@ -6856,12 +6725,6 @@
           "multiplier": 5,
           "cap": null,
           "notes": "Gas stations"
-        },
-        {
-          "category": "other",
-          "multiplier": 5,
-          "cap": null,
-          "notes": "Select business purchases including social media/search advertising and office supply stores"
         }
       ],
       "baseEarnRate": 3,
@@ -6890,7 +6753,6 @@
         "earnRates.gas": "https://creditcards.chase.com/business-credit-cards/ihg/business-premier",
         "earnRates.dining": "https://creditcards.chase.com/business-credit-cards/ihg/business-premier",
         "earnRates.travel": "https://creditcards.chase.com/business-credit-cards/ihg/business-premier",
-        "earnRates.other": "https://creditcards.chase.com/business-credit-cards/ihg/business-premier",
         "benefits.global-entry-tsa-precheck-nexus-credit": "https://creditcards.chase.com/business-credit-cards/ihg/business-premier"
       },
       "lastVerified": "2026-05-08T00:00:00Z"
@@ -7039,7 +6901,7 @@
           "notes": "Restaurants"
         },
         {
-          "category": "other",
+          "category": "transit",
           "multiplier": 3,
           "cap": null,
           "notes": "Select transit"
@@ -7058,7 +6920,7 @@
         "earnRates.groceries": "https://www.citi.com/credit-cards/citi-strata-card",
         "earnRates.gas": "https://www.citi.com/credit-cards/citi-strata-card",
         "earnRates.dining": "https://www.citi.com/credit-cards/citi-strata-card",
-        "earnRates.other": "https://www.citi.com/credit-cards/citi-strata-card"
+        "earnRates.transit": "https://www.citi.com/credit-cards/citi-strata-card"
       },
       "lastVerified": "2026-05-08T00:00:00Z"
     },
@@ -7226,10 +7088,13 @@
           "notes": "Gas stations"
         },
         {
-          "category": "other",
+          "category": "travel",
           "multiplier": 2,
           "cap": null,
-          "notes": "Telecommunications merchants, cable and satellite providers, car rental merchants"
+          "notes": "Car rental merchants",
+          "appliesToCategories": [
+            "travel"
+          ]
         }
       ],
       "baseEarnRate": 1,
@@ -7244,7 +7109,7 @@
         "rewardProgram": "https://www.citi.com/credit-cards/view-all-credit-cards",
         "earnRates.airfare": "https://www.citi.com/credit-cards/citi-business-aadvantage-credit-card",
         "earnRates.gas": "https://www.citi.com/credit-cards/citi-business-aadvantage-credit-card",
-        "earnRates.other": "https://www.citi.com/credit-cards/citi-business-aadvantage-credit-card"
+        "earnRates.travel": "https://www.citi.com/credit-cards/citi-business-aadvantage-credit-card"
       },
       "lastVerified": "2026-05-08T00:00:00Z"
     },
@@ -7322,12 +7187,6 @@
             "hotels",
             "transit"
           ]
-        },
-        {
-          "category": "other",
-          "multiplier": 2,
-          "cap": null,
-          "notes": "Costco and Costco.com"
         }
       ],
       "baseEarnRate": 1,
@@ -7342,8 +7201,7 @@
         "rewardProgram": "https://www.citi.com/credit-cards/view-all-credit-cards",
         "earnRates.gas": "https://www.citi.com/credit-cards/citi-costco-anywhere-visa-credit-card",
         "earnRates.dining": "https://www.citi.com/credit-cards/citi-costco-anywhere-visa-credit-card",
-        "earnRates.travel": "https://www.citi.com/credit-cards/citi-costco-anywhere-visa-credit-card",
-        "earnRates.other": "https://www.citi.com/credit-cards/citi-costco-anywhere-visa-credit-card"
+        "earnRates.travel": "https://www.citi.com/credit-cards/citi-costco-anywhere-visa-credit-card"
       },
       "lastVerified": "2026-05-08T00:00:00Z"
     },
@@ -7377,12 +7235,6 @@
             "hotels",
             "transit"
           ]
-        },
-        {
-          "category": "other",
-          "multiplier": 2,
-          "cap": null,
-          "notes": "Costco and Costco.com"
         }
       ],
       "baseEarnRate": 1,
@@ -7397,8 +7249,7 @@
         "rewardProgram": "https://www.citi.com/credit-cards/view-all-credit-cards",
         "earnRates.gas": "https://www.citi.com/credit-cards/citi-costco-anywhere-visa-business-credit-card",
         "earnRates.dining": "https://www.citi.com/credit-cards/citi-costco-anywhere-visa-business-credit-card",
-        "earnRates.travel": "https://www.citi.com/credit-cards/citi-costco-anywhere-visa-business-credit-card",
-        "earnRates.other": "https://www.citi.com/credit-cards/citi-costco-anywhere-visa-business-credit-card"
+        "earnRates.travel": "https://www.citi.com/credit-cards/citi-costco-anywhere-visa-business-credit-card"
       },
       "lastVerified": "2026-05-08T00:00:00Z"
     },
@@ -7498,12 +7349,6 @@
       "noForeignTransactionFees": false,
       "earnRates": [
         {
-          "category": "other",
-          "multiplier": 4,
-          "cap": null,
-          "notes": "Gym memberships, salons and spas, select sports, recreation, entertainment, public transit, EV charging, and select thrift stores"
-        },
-        {
           "category": "transit",
           "multiplier": 4,
           "cap": null,
@@ -7526,7 +7371,6 @@
         "noForeignTransactionFees": "https://creditcards.wellsfargo.com/",
         "baseEarnRate": "https://creditcards.wellsfargo.com/",
         "rewardProgram": "https://creditcards.wellsfargo.com/",
-        "earnRates.other": "https://creditcards.wellsfargo.com/attune-credit-card/",
         "earnRates.transit": "https://creditcards.wellsfargo.com/attune-credit-card/",
         "earnRates.gas": "https://creditcards.wellsfargo.com/attune-credit-card/"
       },
@@ -7695,12 +7539,6 @@
           "multiplier": 3,
           "cap": null,
           "notes": "Home improvement stores"
-        },
-        {
-          "category": "other",
-          "multiplier": 3,
-          "cap": null,
-          "notes": "Phone plan services"
         }
       ],
       "baseEarnRate": 1,
@@ -7716,8 +7554,7 @@
         "earnRates.hotels": "https://www.wellsfargo.com/credit-cards/choice/terms/",
         "earnRates.gas": "https://www.wellsfargo.com/credit-cards/choice/terms/",
         "earnRates.groceries": "https://www.wellsfargo.com/credit-cards/choice/terms/",
-        "earnRates.homeImprovement": "https://www.wellsfargo.com/credit-cards/choice/terms/",
-        "earnRates.other": "https://www.wellsfargo.com/credit-cards/choice/terms/"
+        "earnRates.homeImprovement": "https://www.wellsfargo.com/credit-cards/choice/terms/"
       },
       "lastVerified": "2026-05-08T00:00:00Z"
     },
@@ -7760,12 +7597,6 @@
           "multiplier": 5,
           "cap": null,
           "notes": "Home improvement stores"
-        },
-        {
-          "category": "other",
-          "multiplier": 5,
-          "cap": null,
-          "notes": "Phone plan services"
         }
       ],
       "baseEarnRate": 1,
@@ -7781,8 +7612,7 @@
         "earnRates.hotels": "https://www.wellsfargo.com/credit-cards/choice/terms/",
         "earnRates.gas": "https://www.wellsfargo.com/credit-cards/choice/terms/",
         "earnRates.groceries": "https://www.wellsfargo.com/credit-cards/choice/terms/",
-        "earnRates.homeImprovement": "https://www.wellsfargo.com/credit-cards/choice/terms/",
-        "earnRates.other": "https://www.wellsfargo.com/credit-cards/choice/terms/"
+        "earnRates.homeImprovement": "https://www.wellsfargo.com/credit-cards/choice/terms/"
       },
       "lastVerified": "2026-05-08T00:00:00Z"
     },
@@ -8289,21 +8119,6 @@
           "notes": "Popular streaming services"
         },
         {
-          "category": "other",
-          "multiplier": 8,
-          "cap": null,
-          "notes": "Capital One Entertainment purchases",
-          "isConditional": true,
-          "conditions": [
-            {
-              "type": "merchant",
-              "label": "Capital One Entertainment",
-              "merchant": "Capital One Entertainment",
-              "details": "Capital One Entertainment purchases"
-            }
-          ]
-        },
-        {
           "category": "hotels",
           "multiplier": 5,
           "cap": null,
@@ -8332,7 +8147,6 @@
         "earnRates.dining": "https://www.capitalone.com/credit-cards/savor-student/",
         "earnRates.groceries": "https://www.capitalone.com/credit-cards/savor-student/",
         "earnRates.streaming": "https://www.capitalone.com/credit-cards/savor-student/",
-        "earnRates.other": "https://www.capitalone.com/credit-cards/savor-student/",
         "earnRates.hotels": "https://www.capitalone.com/credit-cards/savor-student/"
       },
       "lastVerified": "2026-05-08T00:00:00Z"
