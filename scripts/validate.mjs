@@ -85,6 +85,18 @@ const SPENDING_CATEGORIES = new Set([
   'travel',
 ]);
 
+const BENEFIT_CATEGORIES = new Set(['Dining', 'Travel', 'Shopping', 'Entertainment', 'Lifestyle']);
+const ENTERTAINMENT_BENEFIT_PATTERN =
+  /\b(apple tv|apple music|digital entertainment|disney|hulu|espn|streaming|stubhub|ticket|tickets|fandango|movie|movies|theater|concert|entertainment|peacock|paramount|netflix|spotify|audible|sirius|siriusxm|youtube tv|max|hbo|showtime|starz)\b/i;
+const LIFESTYLE_BENEFIT_PATTERN =
+  /\b(equinox|peloton|oura|fitness|wellness|lifestyle|gym|health)\b/i;
+const BROAD_OTHER_EARN_PATTERN =
+  /\b(all purchases|every purchase|everything else|other purchases|all other purchases|all eligible purchases|all other eligible purchases|non[- ]?bonus|base)\b/i;
+const CONDITIONAL_OTHER_EARN_PATTERN =
+  /\b(choice category|chosen category|select category|one chosen|two chosen|top eligible|top 2|top spend|rotating|activate|eligible business categories|large purchase|single purchases)\b/i;
+const NARROW_UNSUPPORTED_OTHER_EARN_PATTERN =
+  /\b(apple pay|apple purchases|mobile wallet|office suppl|advertising|phone plan|telephone|wireless|utilities|utility|fitness|gym|costco|entertainment|foreign currency|construction material|software\/cloud|shipping provider|internet, cable|cable and phone|social media|search engine)\b/i;
+
 const SOURCE_REQUIRED_CARD_FIELDS = [
   'annualFee',
   'noForeignTransactionFees',
@@ -192,6 +204,22 @@ for (const card of cards.cards || []) {
 
   for (const benefit of card.benefits || []) {
     validateSourcePresent(card, benefitSourceKey(benefit.name));
+    validateBenefitCategory(card, benefit);
+  }
+}
+
+function validateBenefitCategory(card, benefit) {
+  if (!BENEFIT_CATEGORIES.has(benefit.category)) {
+    err(`${card.id}: benefit "${benefit.name}" uses unsupported category "${benefit.category}"`);
+    return;
+  }
+
+  const text = benefit.name || '';
+  if (ENTERTAINMENT_BENEFIT_PATTERN.test(text) && benefit.category !== 'Entertainment') {
+    err(`${card.id}: benefit "${benefit.name}" should use Entertainment, not ${benefit.category}`);
+  }
+  if (LIFESTYLE_BENEFIT_PATTERN.test(text) && benefit.category !== 'Lifestyle') {
+    err(`${card.id}: benefit "${benefit.name}" should use Lifestyle, not ${benefit.category}`);
   }
 }
 
@@ -233,6 +261,8 @@ for (const card of cards.cards || []) {
       }
     }
 
+    validateEarnRateCategory(card, rate, index);
+
     if (!rate.isConditional) continue;
 
     const hasConditions = Array.isArray(rate.conditions) && rate.conditions.length > 0;
@@ -260,6 +290,26 @@ for (const card of cards.cards || []) {
         );
       }
     }
+  }
+}
+
+function validateEarnRateCategory(card, rate, index) {
+  if (rate.category !== 'other') return;
+
+  const conditionText = (rate.conditions || [])
+    .map((condition) => [condition.label, condition.provider, condition.merchant, condition.details].join(' '))
+    .join(' ');
+  const text = `${rate.notes || ''} ${conditionText}`;
+
+  if (
+    NARROW_UNSUPPORTED_OTHER_EARN_PATTERN.test(text)
+    && !BROAD_OTHER_EARN_PATTERN.test(text)
+    && !CONDITIONAL_OTHER_EARN_PATTERN.test(text)
+  ) {
+    err(
+      `${card.id}.earnRates[${index}]: ${rate.multiplier}x is mapped to "other" but describes a narrow ` +
+        `merchant/category the app does not model. Add a supported category or omit it from optimizer data.`
+    );
   }
 }
 
@@ -319,6 +369,21 @@ try {
 
 if (prevCards) {
   const prevById = new Map((prevCards.cards || []).map((c) => [c.id, c]));
+
+  const currentCardsJson = JSON.stringify(cards.cards || []);
+  const previousCardsJson = JSON.stringify(prevCards.cards || []);
+  if (currentCardsJson !== previousCardsJson) {
+    if (cards.version <= prevCards.version) {
+      err(
+        `catalog version must advance when cards.json data changes (${prevCards.version} → ${cards.version}).`
+      );
+    }
+    if (cards.lastUpdated <= prevCards.lastUpdated) {
+      err(
+        `catalog lastUpdated must advance when cards.json data changes (${prevCards.lastUpdated} → ${cards.lastUpdated}).`
+      );
+    }
+  }
 
   // 4. annualFee two-citation rule
   for (const card of cards.cards || []) {

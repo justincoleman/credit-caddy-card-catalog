@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "version": "2026.05.08",
-  "lastUpdated": "2026-05-08T00:00:00Z",
+  "version": "2026.05.13",
+  "lastUpdated": "2026-05-13T14:38:26Z",
   "cards": [
     {
       "id": "american-express-platinum-card",
@@ -62,7 +62,7 @@
           "amount": 15,
           "renewalPeriod": "Monthly",
           "periodBasis": "Calendar Year",
-          "category": "Travel Credits",
+          "category": "Travel",
           "allowsPartialUse": true,
           "notes": null,
           "availableMonths": [],
@@ -73,7 +73,7 @@
           "amount": 20,
           "renewalPeriod": "Yearly",
           "periodBasis": "Calendar Year",
-          "category": "Travel Credits",
+          "category": "Travel",
           "allowsPartialUse": true,
           "notes": null,
           "availableMonths": [
@@ -86,7 +86,7 @@
           "amount": 25,
           "renewalPeriod": "Monthly",
           "periodBasis": "Calendar Year",
-          "category": "Shopping Credits",
+          "category": "Entertainment",
           "allowsPartialUse": true,
           "notes": null,
           "availableMonths": [],
@@ -97,7 +97,7 @@
           "amount": 12.95,
           "renewalPeriod": "Monthly",
           "periodBasis": "Calendar Year",
-          "category": "Shopping Credits",
+          "category": "Shopping",
           "allowsPartialUse": true,
           "notes": "Plus taxes and fees",
           "availableMonths": [],
@@ -108,7 +108,7 @@
           "amount": 10,
           "renewalPeriod": "Monthly",
           "periodBasis": "Calendar Year",
-          "category": "Travel Credits",
+          "category": "Travel",
           "allowsPartialUse": true,
           "notes": null,
           "availableMonths": [],
@@ -119,7 +119,7 @@
           "amount": 75,
           "renewalPeriod": "Every 3 months",
           "periodBasis": "Calendar Year",
-          "category": "Shopping Credits",
+          "category": "Shopping",
           "allowsPartialUse": true,
           "notes": null,
           "availableMonths": [],
@@ -130,7 +130,7 @@
           "amount": 100,
           "renewalPeriod": "Every 3 months",
           "periodBasis": "Calendar Year",
-          "category": "Dining Credits",
+          "category": "Dining",
           "allowsPartialUse": true,
           "notes": null,
           "availableMonths": [],
@@ -141,7 +141,7 @@
           "amount": 50,
           "renewalPeriod": "Every 6 months",
           "periodBasis": "Calendar Year",
-          "category": "Shopping Credits",
+          "category": "Shopping",
           "allowsPartialUse": true,
           "notes": null,
           "availableMonths": [],
@@ -152,7 +152,7 @@
           "amount": 200,
           "renewalPeriod": "Yearly",
           "periodBasis": "Calendar Year",
-          "category": "Travel Credits",
+          "category": "Travel",
           "allowsPartialUse": true,
           "notes": null,
           "availableMonths": [],
@@ -163,7 +163,7 @@
           "amount": 300,
           "renewalPeriod": "Every 6 months",
           "periodBasis": "Calendar Year",
-          "category": "Travel Credits",
+          "category": "Travel",
           "allowsPartialUse": true,
           "notes": null,
           "availableMonths": [],
@@ -174,7 +174,7 @@
           "amount": 209,
           "renewalPeriod": "Yearly",
           "periodBasis": "Calendar Year",
-          "category": "Travel Credits",
+          "category": "Travel",
           "allowsPartialUse": true,
           "notes": null,
           "availableMonths": [],
@@ -185,7 +185,7 @@
           "amount": 300,
           "renewalPeriod": "Yearly",
           "periodBasis": "Calendar Year",
-          "category": "Shopping Credits",
+          "category": "Lifestyle",
           "allowsPartialUse": true,
           "notes": null,
           "availableMonths": [],
@@ -196,7 +196,7 @@
           "amount": 200,
           "renewalPeriod": "Yearly",
           "periodBasis": "Calendar Year",
-          "category": "Shopping Credits",
+          "category": "Lifestyle",
           "allowsPartialUse": true,
           "notes": null,
           "availableMonths": [],
@@ -207,7 +207,7 @@
           "amount": 120,
           "renewalPeriod": "Yearly",
           "periodBasis": "Cardmember Year",
-          "category": "Travel Credits",
+          "category": "Travel",
           "allowsPartialUse": true,
           "notes": "Every 4 years",
           "availableMonths": [],
@@ -310,7 +310,7 @@
           "amount": 10,
           "renewalPeriod": "Monthly",
           "periodBasis": "Calendar Year",
-          "category": "Dining Credits",
+          "category": "Dining",
           "allowsPartialUse": true,
           "notes": null,
           "availableMonths": [],
@@ -321,7 +321,7 @@
           "amount": 10,
           "renewalPeriod": "Monthly",
           "periodBasis": "Calendar Year",
-          "category": "Dining Credits",
+          "category": "Dining",
           "allowsPartialUse": true,
           "notes": null,
           "availableMonths": [],
@@ -332,7 +332,7 @@
           "amount": 7,
           "renewalPeriod": "Monthly",
           "periodBasis": "Calendar Year",
-          "category": "Dining Credits",
+          "category": "Dining",
           "allowsPartialUse": true,
           "notes": null,
           "availableMonths": [],
@@ -343,7 +343,7 @@
           "amount": 50,
           "renewalPeriod": "Every 6 months",
           "periodBasis": "Calendar Year",
-          "category": "Dining Credits",
+          "category": "Dining",
           "allowsPartialUse": true,
           "notes": null,
           "availableMonths": [],
@@ -405,7 +405,7 @@
           "amount": 209,
           "renewalPeriod": "Yearly",
           "periodBasis": "Calendar Year",
-          "category": "Travel Credits",
+          "category": "Travel",
           "allowsPartialUse": true,
           "notes": null,
           "availableMonths": [],
@@ -476,7 +476,7 @@
           "amount": 595,
           "renewalPeriod": "Yearly",
           "periodBasis": "Cardmember Year",
-          "category": "Travel Credits",
+          "category": "Travel",
           "allowsPartialUse": false,
           "notes": "Enter your redemption value",
           "availableMonths": [],
@@ -488,7 +488,7 @@
           "amount": 25,
           "renewalPeriod": "Monthly",
           "periodBasis": "Calendar Year",
-          "category": "Dining Credits",
+          "category": "Dining",
           "allowsPartialUse": true,
           "notes": null,
           "availableMonths": [],
@@ -499,7 +499,7 @@
           "amount": 100,
           "renewalPeriod": "Yearly",
           "periodBasis": "Calendar Year",
-          "category": "Travel Credits",
+          "category": "Travel",
           "allowsPartialUse": true,
           "notes": null,
           "availableMonths": [],
@@ -510,7 +510,7 @@
           "amount": 100,
           "renewalPeriod": "Yearly",
           "periodBasis": "Cardmember Year",
-          "category": "Travel Credits",
+          "category": "Travel",
           "allowsPartialUse": true,
           "notes": "Every 4 years",
           "availableMonths": [],
@@ -570,7 +570,7 @@
           "amount": 7,
           "renewalPeriod": "Monthly",
           "periodBasis": "Calendar Year",
-          "category": "Shopping Credits",
+          "category": "Lifestyle",
           "allowsPartialUse": true,
           "notes": "Statement credit for Equinox+ app subscription",
           "availableMonths": [],
@@ -581,7 +581,7 @@
           "amount": 7,
           "renewalPeriod": "Monthly",
           "periodBasis": "Calendar Year",
-          "category": "Streaming Credits",
+          "category": "Entertainment",
           "allowsPartialUse": true,
           "notes": "Statement credit toward Disney+, Hulu, or ESPN+ bundle",
           "availableMonths": [],
@@ -636,7 +636,7 @@
           "amount": 7,
           "renewalPeriod": "Monthly",
           "periodBasis": "Calendar Year",
-          "category": "Streaming Credits",
+          "category": "Entertainment",
           "allowsPartialUse": true,
           "notes": "Statement credit toward Disney+, Hulu, or ESPN+ bundle",
           "availableMonths": [],
@@ -699,7 +699,7 @@
           "amount": 200,
           "renewalPeriod": "Yearly",
           "periodBasis": "Cardmember Year",
-          "category": "Travel Credits",
+          "category": "Travel",
           "allowsPartialUse": true,
           "notes": "Awarded after $10K in eligible purchases per cardmember year",
           "availableMonths": [],
@@ -768,7 +768,7 @@
           "amount": 150,
           "renewalPeriod": "Yearly",
           "periodBasis": "Cardmember Year",
-          "category": "Travel Credits",
+          "category": "Travel",
           "allowsPartialUse": true,
           "notes": "Prepaid hotels booked on deltastays.com",
           "availableMonths": [],
@@ -779,7 +779,7 @@
           "amount": null,
           "renewalPeriod": "Yearly",
           "periodBasis": "Cardmember Year",
-          "category": "Travel Credits",
+          "category": "Travel",
           "allowsPartialUse": false,
           "notes": "15% discount on Delta award flights — no dollar amount to track",
           "availableMonths": [],
@@ -831,7 +831,7 @@
           "amount": 20,
           "renewalPeriod": "Monthly",
           "periodBasis": "Calendar Year",
-          "category": "Dining Credits",
+          "category": "Dining",
           "allowsPartialUse": true,
           "notes": "Restaurants booked on Resy",
           "availableMonths": [],
@@ -842,7 +842,7 @@
           "amount": 10,
           "renewalPeriod": "Monthly",
           "periodBasis": "Calendar Year",
-          "category": "Travel Credits",
+          "category": "Travel",
           "allowsPartialUse": true,
           "notes": "Lyft or Uber rides",
           "availableMonths": [],
@@ -909,7 +909,7 @@
           "amount": 50,
           "renewalPeriod": "Every 3 months",
           "periodBasis": "Calendar Year",
-          "category": "Travel Credits",
+          "category": "Travel",
           "allowsPartialUse": true,
           "notes": "Eligible purchases at Hilton Resorts",
           "availableMonths": [],
@@ -1004,7 +1004,7 @@
           "amount": 200,
           "renewalPeriod": "Every 6 months",
           "periodBasis": "Calendar Year",
-          "category": "Travel Credits",
+          "category": "Travel",
           "allowsPartialUse": true,
           "notes": "Eligible purchases at Hilton Resorts",
           "availableMonths": [],
@@ -1015,7 +1015,7 @@
           "amount": 200,
           "renewalPeriod": "Yearly",
           "periodBasis": "Calendar Year",
-          "category": "Travel Credits",
+          "category": "Travel",
           "allowsPartialUse": true,
           "notes": "Eligible flight purchases",
           "availableMonths": [],
@@ -1026,7 +1026,7 @@
           "amount": 100,
           "renewalPeriod": "Every 6 months",
           "periodBasis": "Calendar Year",
-          "category": "Travel Credits",
+          "category": "Travel",
           "allowsPartialUse": true,
           "notes": "Usable at Waldorf Astoria and Conrad properties",
           "availableMonths": [],
@@ -1155,7 +1155,7 @@
           "amount": 20,
           "renewalPeriod": "Monthly",
           "periodBasis": "Calendar Year",
-          "category": "Shopping Credits",
+          "category": "Shopping",
           "allowsPartialUse": true,
           "notes": "Up to $20/month at FedEx, Grubhub, and U.S. office supply stores. Enrollment required.",
           "availableMonths": [],
@@ -1166,7 +1166,7 @@
           "amount": 12.95,
           "renewalPeriod": "Monthly",
           "periodBasis": "Calendar Year",
-          "category": "Shopping Credits",
+          "category": "Shopping",
           "allowsPartialUse": true,
           "notes": "Up to $12.95 plus applicable taxes on one monthly Walmart+ membership fee.",
           "availableMonths": [],
@@ -1225,25 +1225,6 @@
               "details": "Prepaid hotels booked via Amex Travel"
             }
           ]
-        },
-        {
-          "category": "other",
-          "multiplier": 1.5,
-          "cap": 2000000,
-          "notes": "Eligible U.S. construction material, electronic goods, software/cloud, shipping, and single purchases of $5,000+; up to $2,000,000 combined per calendar year, then 1x",
-          "isConditional": true,
-          "conditions": [
-            {
-              "type": "businessCategoryTopSpend",
-              "label": "Eligible U.S. business categories",
-              "details": "Eligible U.S. construction material, electronic goods, software/cloud, shipping, and single purchases of $5,000+; up to $2,000,000 combined per calendar year, then 1x"
-            },
-            {
-              "type": "largePurchase",
-              "label": "Single purchases of $5,000+",
-              "details": "Eligible U.S. construction material, electronic goods, software/cloud, shipping, and single purchases of $5,000+; up to $2,000,000 combined per calendar year, then 1x"
-            }
-          ]
         }
       ],
       "baseEarnRate": 1,
@@ -1256,7 +1237,7 @@
           "amount": 200,
           "renewalPeriod": "Yearly",
           "periodBasis": "Calendar Year",
-          "category": "Travel Credits",
+          "category": "Travel",
           "allowsPartialUse": true,
           "notes": "Incidental fees on one selected qualifying airline",
           "availableMonths": [],
@@ -1267,7 +1248,7 @@
           "amount": 209,
           "renewalPeriod": "Yearly",
           "periodBasis": "Calendar Year",
-          "category": "Travel Credits",
+          "category": "Travel",
           "allowsPartialUse": true,
           "notes": "Annual CLEAR Plus membership fee",
           "availableMonths": [],
@@ -1278,7 +1259,7 @@
           "amount": 150,
           "renewalPeriod": "Every 6 months",
           "periodBasis": "Calendar Year",
-          "category": "Shopping Credits",
+          "category": "Shopping",
           "allowsPartialUse": true,
           "notes": "U.S. Dell Technologies purchases, Jan–Jun",
           "availableMonths": [
@@ -1296,7 +1277,7 @@
           "amount": 150,
           "renewalPeriod": "Every 6 months",
           "periodBasis": "Calendar Year",
-          "category": "Shopping Credits",
+          "category": "Shopping",
           "allowsPartialUse": true,
           "notes": "U.S. Dell Technologies purchases, Jul–Dec",
           "availableMonths": [
@@ -1314,7 +1295,7 @@
           "amount": 10,
           "renewalPeriod": "Monthly",
           "periodBasis": "Calendar Year",
-          "category": "Shopping Credits",
+          "category": "Shopping",
           "allowsPartialUse": true,
           "notes": "U.S. wireless telephone service providers",
           "availableMonths": [],
@@ -1325,7 +1306,7 @@
           "amount": 300,
           "renewalPeriod": "Every 6 months",
           "periodBasis": "Calendar Year",
-          "category": "Travel Credits",
+          "category": "Travel",
           "allowsPartialUse": true,
           "notes": "Prepaid Fine Hotels + Resorts or The Hotel Collection (min 2-night stay) bookings via Amex Travel",
           "availableMonths": [],
@@ -1336,7 +1317,7 @@
           "amount": 50,
           "renewalPeriod": "Every 3 months",
           "periodBasis": "Calendar Year",
-          "category": "Travel Credits",
+          "category": "Travel",
           "allowsPartialUse": true,
           "notes": "Eligible purchases made directly with Hilton. Hilton for Business enrollment required.",
           "availableMonths": [],
@@ -1347,7 +1328,7 @@
           "amount": 250,
           "renewalPeriod": "Yearly",
           "periodBasis": "Calendar Year",
-          "category": "Shopping Credits",
+          "category": "Shopping",
           "allowsPartialUse": false,
           "notes": "Statement credit after spending $600 or more on U.S. purchases directly with Adobe in a calendar year. Enrollment required.",
           "availableMonths": [],
@@ -1358,7 +1339,7 @@
           "amount": 90,
           "renewalPeriod": "Every 3 months",
           "periodBasis": "Calendar Year",
-          "category": "Shopping Credits",
+          "category": "Shopping",
           "allowsPartialUse": true,
           "notes": "Up to $90 per quarter for U.S. purchases made directly with Indeed. Enrollment required.",
           "availableMonths": [],
@@ -1369,7 +1350,7 @@
           "amount": 120,
           "renewalPeriod": "Yearly",
           "periodBasis": "Cardmember Year",
-          "category": "Travel Credits",
+          "category": "Travel",
           "allowsPartialUse": true,
           "notes": "Every 4 years. Global Entry ($120) or TSA PreCheck (up to $85) application fee credit.",
           "availableMonths": [],
@@ -1387,7 +1368,6 @@
         "rewardProgram": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/american-express-business-platinum-credit-card-amex/",
         "earnRates.airfare": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/american-express-business-platinum-credit-card-amex/",
         "earnRates.hotels": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/american-express-business-platinum-credit-card-amex/",
-        "earnRates.other": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/american-express-business-platinum-credit-card-amex/",
         "benefits.adobe-credit": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/american-express-business-platinum-credit-card-amex/",
         "benefits.indeed-credit": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/american-express-business-platinum-credit-card-amex/",
         "benefits.global-entry-tsa-precheck-credit": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/american-express-business-platinum-credit-card-amex/"
@@ -1497,7 +1477,7 @@
           "amount": 245,
           "renewalPeriod": "Yearly",
           "periodBasis": "Cardmember Year",
-          "category": "Travel Credits",
+          "category": "Travel",
           "allowsPartialUse": false,
           "notes": "One free night at hotels up to 50,000 Marriott Bonvoy points per calendar year.",
           "availableMonths": [],
@@ -1696,7 +1676,7 @@
           "category": "transit",
           "multiplier": 1.5,
           "cap": null,
-          "notes": "Transit including rideshares, taxicabs, and more; also U.S. shipping providers and U.S. office supply stores"
+          "notes": "Transit including rideshares, taxicabs, and more"
         }
       ],
       "baseEarnRate": 1,
@@ -1792,12 +1772,6 @@
           "multiplier": 2,
           "cap": null,
           "notes": "Dining at restaurants"
-        },
-        {
-          "category": "other",
-          "multiplier": 2,
-          "cap": 50000,
-          "notes": "U.S. shipping providers and U.S. advertising in select media; up to $50,000 per category per calendar year, then 1x"
         }
       ],
       "baseEarnRate": 1,
@@ -1810,7 +1784,7 @@
           "amount": 200,
           "renewalPeriod": "Yearly",
           "periodBasis": "Calendar Year",
-          "category": "Travel Credits",
+          "category": "Travel",
           "allowsPartialUse": true,
           "notes": "Awarded after $10,000 in purchases on the Card in a calendar year.",
           "availableMonths": [],
@@ -1825,8 +1799,7 @@
         "baseEarnRate": "https://www.americanexpress.com/en-us/business/credit-cards/delta-skymiles-gold/",
         "rewardProgram": "https://www.americanexpress.com/en-us/business/credit-cards/delta-skymiles-gold/",
         "earnRates.airfare": "https://www.americanexpress.com/en-us/business/credit-cards/delta-skymiles-gold/",
-        "earnRates.dining": "https://www.americanexpress.com/en-us/business/credit-cards/delta-skymiles-gold/",
-        "earnRates.other": "https://www.americanexpress.com/en-us/business/credit-cards/delta-skymiles-gold/"
+        "earnRates.dining": "https://www.americanexpress.com/en-us/business/credit-cards/delta-skymiles-gold/"
       }
     },
     {
@@ -1862,12 +1835,6 @@
           "multiplier": 4,
           "cap": null,
           "notes": "U.S. gas stations"
-        },
-        {
-          "category": "other",
-          "multiplier": 4,
-          "cap": null,
-          "notes": "U.S. wireless telephone service providers and U.S. shipping providers"
         }
       ],
       "baseEarnRate": 2,
@@ -1880,7 +1847,7 @@
           "amount": 245,
           "renewalPeriod": "Yearly",
           "periodBasis": "Cardmember Year",
-          "category": "Travel Credits",
+          "category": "Travel",
           "allowsPartialUse": false,
           "notes": "One free night at hotels up to 35,000 Marriott Bonvoy points per card renewal month. Additional award earned at $60K annual spend.",
           "availableMonths": [],
@@ -1897,8 +1864,7 @@
         "rewardProgram": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/amex-marriott-bonvoy-business-credit-card/",
         "earnRates.hotels": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/amex-marriott-bonvoy-business-credit-card/",
         "earnRates.dining": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/amex-marriott-bonvoy-business-credit-card/",
-        "earnRates.gas": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/amex-marriott-bonvoy-business-credit-card/",
-        "earnRates.other": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/amex-marriott-bonvoy-business-credit-card/"
+        "earnRates.gas": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/amex-marriott-bonvoy-business-credit-card/"
       }
     },
     {
@@ -1940,7 +1906,7 @@
           "amount": 60,
           "renewalPeriod": "Every 3 months",
           "periodBasis": "Calendar Year",
-          "category": "Travel Credits",
+          "category": "Travel",
           "allowsPartialUse": true,
           "notes": "Up to $60 per quarter (up to $240 annually) for eligible purchases made directly with a Hilton property.",
           "availableMonths": [],
@@ -2044,7 +2010,7 @@
           "amount": 25,
           "renewalPeriod": "Yearly",
           "periodBasis": "Cardmember Year",
-          "category": "Travel Credits",
+          "category": "Travel",
           "allowsPartialUse": true,
           "notes": null,
           "availableMonths": [],
@@ -2055,7 +2021,7 @@
           "amount": 300,
           "renewalPeriod": "Yearly",
           "periodBasis": "Cardmember Year",
-          "category": "Travel Credits",
+          "category": "Travel",
           "allowsPartialUse": false,
           "notes": "Requires $20K spend",
           "availableMonths": [],
@@ -2123,7 +2089,7 @@
           "amount": 100,
           "renewalPeriod": "Yearly",
           "periodBasis": "Cardmember Year",
-          "category": "Travel Credits",
+          "category": "Travel",
           "allowsPartialUse": true,
           "notes": null,
           "availableMonths": [],
@@ -2187,7 +2153,7 @@
           "amount": 100,
           "renewalPeriod": "Yearly",
           "periodBasis": "Cardmember Year",
-          "category": "Travel Credits",
+          "category": "Travel",
           "allowsPartialUse": true,
           "notes": "Earned with $100+ JetBlue Vacations purchase",
           "availableMonths": [],
@@ -2198,7 +2164,7 @@
           "amount": null,
           "renewalPeriod": "Yearly",
           "periodBasis": "Calendar Year",
-          "category": "Travel Credits",
+          "category": "Travel",
           "allowsPartialUse": false,
           "notes": "Free first checked bag for you and up to 3 companions",
           "availableMonths": [],
@@ -2243,12 +2209,6 @@
           "multiplier": 2,
           "cap": null,
           "notes": null
-        },
-        {
-          "category": "other",
-          "multiplier": 2,
-          "cap": null,
-          "notes": "Office supplies"
         }
       ],
       "baseEarnRate": 1,
@@ -2261,7 +2221,7 @@
           "amount": 100,
           "renewalPeriod": "Yearly",
           "periodBasis": "Cardmember Year",
-          "category": "Travel Credits",
+          "category": "Travel",
           "allowsPartialUse": true,
           "notes": "Statement credit on JetBlue Vacations package",
           "availableMonths": [],
@@ -2272,7 +2232,7 @@
           "amount": null,
           "renewalPeriod": "Yearly",
           "periodBasis": "Calendar Year",
-          "category": "Travel Credits",
+          "category": "Travel",
           "allowsPartialUse": false,
           "notes": "Free first checked bag for cardholder and companions",
           "availableMonths": [],
@@ -2285,8 +2245,7 @@
         "baseEarnRate": "https://cards.barclaycardus.com/banking/cards/jetblue-business-card/",
         "rewardProgram": "https://cards.barclaycardus.com/banking/cards/jetblue-business-card/",
         "earnRates.airfare": "https://cards.barclaycardus.com/banking/cards/jetblue-business-card/",
-        "earnRates.dining": "https://cards.barclaycardus.com/banking/cards/jetblue-business-card/",
-        "earnRates.other": "https://cards.barclaycardus.com/banking/cards/jetblue-business-card/"
+        "earnRates.dining": "https://cards.barclaycardus.com/banking/cards/jetblue-business-card/"
       },
       "lastVerified": "2026-05-03T00:00:00Z"
     },
@@ -2482,19 +2441,13 @@
           "category": "travel",
           "multiplier": 3,
           "cap": 150000,
-          "notes": "Travel, shipping, advertising, and internet/cable/phone services, up to $150,000 combined per account anniversary year, then 1x",
+          "notes": "Travel purchases, up to $150,000 combined per account anniversary year, then 1x",
           "appliesToCategories": [
             "travel",
             "airfare",
             "hotels",
             "transit"
           ]
-        },
-        {
-          "category": "transit",
-          "multiplier": 3,
-          "cap": 150000,
-          "notes": "Combined with travel, shipping, advertising, and internet/cable/phone services, up to $150,000 per account anniversary year, then 1x"
         }
       ],
       "baseEarnRate": 1,
@@ -2507,8 +2460,7 @@
         "noForeignTransactionFees": "https://creditcards.chase.com/business-credit-cards/ink/business-preferred",
         "baseEarnRate": "https://creditcards.chase.com/business-credit-cards/ink/business-preferred",
         "rewardProgram": "https://creditcards.chase.com/business-credit-cards/ink/business-preferred",
-        "earnRates.travel": "https://creditcards.chase.com/business-credit-cards/ink/business-preferred",
-        "earnRates.transit": "https://creditcards.chase.com/business-credit-cards/ink/business-preferred"
+        "earnRates.travel": "https://creditcards.chase.com/business-credit-cards/ink/business-preferred"
       },
       "lastVerified": "2026-05-03T00:00:00Z"
     },
@@ -2519,12 +2471,6 @@
       "annualFee": 0,
       "noForeignTransactionFees": false,
       "earnRates": [
-        {
-          "category": "other",
-          "multiplier": 5,
-          "cap": 25000,
-          "notes": "Office supply stores and internet/cable/phone services, up to $25,000 combined per account anniversary year, then 1x"
-        },
         {
           "category": "dining",
           "multiplier": 2,
@@ -2548,7 +2494,6 @@
         "noForeignTransactionFees": "https://creditcards.chase.com/business-credit-cards/ink/cash",
         "baseEarnRate": "https://creditcards.chase.com/business-credit-cards/ink/cash",
         "rewardProgram": "https://creditcards.chase.com/business-credit-cards/ink/cash",
-        "earnRates.other": "https://creditcards.chase.com/business-credit-cards/ink/cash",
         "earnRates.dining": "https://creditcards.chase.com/business-credit-cards/ink/cash",
         "earnRates.gas": "https://creditcards.chase.com/business-credit-cards/ink/cash"
       },
@@ -2627,7 +2572,7 @@
           "amount": 100,
           "renewalPeriod": "Yearly",
           "periodBasis": "Cardmember Year",
-          "category": "Travel Credits",
+          "category": "Travel",
           "allowsPartialUse": true,
           "notes": "Every 4 years",
           "availableMonths": [],
@@ -2638,7 +2583,7 @@
           "amount": null,
           "renewalPeriod": "Yearly",
           "periodBasis": "Cardmember Year",
-          "category": "Travel Credits",
+          "category": "Travel",
           "allowsPartialUse": false,
           "notes": "2 one-time United Club passes per year — no dollar amount to track",
           "availableMonths": [],
@@ -2725,7 +2670,7 @@
           "amount": null,
           "renewalPeriod": "Yearly",
           "periodBasis": "Cardmember Year",
-          "category": "Travel Credits",
+          "category": "Travel",
           "allowsPartialUse": false,
           "notes": "Complimentary United Club lounge access — no dollar amount to track",
           "availableMonths": [],
@@ -2875,7 +2820,7 @@
           "amount": 50,
           "renewalPeriod": "Yearly",
           "periodBasis": "Cardmember Year",
-          "category": "Travel Credits",
+          "category": "Travel",
           "allowsPartialUse": true,
           "notes": "Any airline ticket purchased through Chase Travel",
           "availableMonths": [],
@@ -2941,7 +2886,7 @@
           "amount": 300,
           "renewalPeriod": "Yearly",
           "periodBasis": "Cardmember Year",
-          "category": "Travel Credits",
+          "category": "Travel",
           "allowsPartialUse": true,
           "notes": null,
           "availableMonths": [],
@@ -2952,7 +2897,7 @@
           "amount": 170,
           "renewalPeriod": "Yearly",
           "periodBasis": "Cardmember Year",
-          "category": "Travel Credits",
+          "category": "Travel",
           "allowsPartialUse": false,
           "notes": "Enter your miles value",
           "availableMonths": [],
@@ -2964,7 +2909,7 @@
           "amount": 100,
           "renewalPeriod": "Yearly",
           "periodBasis": "Cardmember Year",
-          "category": "Travel Credits",
+          "category": "Travel",
           "allowsPartialUse": true,
           "notes": "Every 4 years",
           "availableMonths": [],
@@ -3014,7 +2959,7 @@
           "amount": 100,
           "renewalPeriod": "Yearly",
           "periodBasis": "Cardmember Year",
-          "category": "Travel Credits",
+          "category": "Travel",
           "allowsPartialUse": true,
           "notes": "Every 4 years",
           "availableMonths": [],
@@ -3078,7 +3023,7 @@
           "amount": 300,
           "renewalPeriod": "Yearly",
           "periodBasis": "Cardmember Year",
-          "category": "Travel Credits",
+          "category": "Travel",
           "allowsPartialUse": true,
           "notes": "Bookings via Capital One Travel",
           "availableMonths": [],
@@ -3089,7 +3034,7 @@
           "amount": 100,
           "renewalPeriod": "Yearly",
           "periodBasis": "Cardmember Year",
-          "category": "Travel Credits",
+          "category": "Travel",
           "allowsPartialUse": true,
           "notes": "Every 4 years",
           "availableMonths": [],
@@ -3149,12 +3094,6 @@
           "multiplier": 3,
           "cap": null,
           "notes": "Popular streaming services"
-        },
-        {
-          "category": "other",
-          "multiplier": 3,
-          "cap": null,
-          "notes": "Entertainment purchases"
         }
       ],
       "baseEarnRate": 1,
@@ -3170,8 +3109,7 @@
         "earnRates.travel": "https://www.capitalone.com/credit-cards/savorone-dining-rewards/",
         "earnRates.dining": "https://www.capitalone.com/credit-cards/savorone-dining-rewards/",
         "earnRates.groceries": "https://www.capitalone.com/credit-cards/savorone-dining-rewards/",
-        "earnRates.streaming": "https://www.capitalone.com/credit-cards/savorone-dining-rewards/",
-        "earnRates.other": "https://www.capitalone.com/credit-cards/savorone-dining-rewards/"
+        "earnRates.streaming": "https://www.capitalone.com/credit-cards/savorone-dining-rewards/"
       },
       "lastVerified": "2026-05-03T00:00:00Z"
     },
@@ -3218,12 +3156,6 @@
           "multiplier": 3,
           "cap": null,
           "notes": "Popular streaming services"
-        },
-        {
-          "category": "other",
-          "multiplier": 3,
-          "cap": null,
-          "notes": "Entertainment purchases"
         }
       ],
       "baseEarnRate": 1,
@@ -3242,8 +3174,7 @@
         "earnRates.travel": "https://www.capitalone.com/credit-cards/savor/",
         "earnRates.dining": "https://www.capitalone.com/credit-cards/savor/",
         "earnRates.groceries": "https://www.capitalone.com/credit-cards/savor/",
-        "earnRates.streaming": "https://www.capitalone.com/credit-cards/savor/",
-        "earnRates.other": "https://www.capitalone.com/credit-cards/savor/"
+        "earnRates.streaming": "https://www.capitalone.com/credit-cards/savor/"
       },
       "lastVerified": "2026-05-03T00:00:00Z"
     },
@@ -3315,7 +3246,7 @@
           "amount": 50,
           "renewalPeriod": "Yearly",
           "periodBasis": "Cardmember Year",
-          "category": "Travel Credits",
+          "category": "Travel",
           "allowsPartialUse": true,
           "notes": null,
           "availableMonths": [],
@@ -3406,7 +3337,7 @@
           "amount": 10,
           "renewalPeriod": "Monthly",
           "periodBasis": "Calendar Year",
-          "category": "Travel Credits",
+          "category": "Travel",
           "allowsPartialUse": true,
           "notes": null,
           "availableMonths": [],
@@ -3417,7 +3348,7 @@
           "amount": 10,
           "renewalPeriod": "Monthly",
           "periodBasis": "Calendar Year",
-          "category": "Shopping Credits",
+          "category": "Lifestyle",
           "allowsPartialUse": true,
           "notes": null,
           "availableMonths": [],
@@ -3428,7 +3359,7 @@
           "amount": 25,
           "renewalPeriod": "Monthly",
           "periodBasis": "Calendar Year",
-          "category": "Dining Credits",
+          "category": "Dining",
           "allowsPartialUse": true,
           "notes": "Through 12/31/2027",
           "availableMonths": [],
@@ -3439,7 +3370,7 @@
           "amount": 250,
           "renewalPeriod": "Every 6 months",
           "periodBasis": "Calendar Year",
-          "category": "Travel Credits",
+          "category": "Travel",
           "allowsPartialUse": true,
           "notes": null,
           "availableMonths": [],
@@ -3450,7 +3381,7 @@
           "amount": 150,
           "renewalPeriod": "Every 6 months",
           "periodBasis": "Calendar Year",
-          "category": "Dining Credits",
+          "category": "Dining",
           "allowsPartialUse": true,
           "notes": null,
           "availableMonths": [],
@@ -3461,7 +3392,7 @@
           "amount": 150,
           "renewalPeriod": "Every 6 months",
           "periodBasis": "Calendar Year",
-          "category": "Shopping Credits",
+          "category": "Entertainment",
           "allowsPartialUse": true,
           "notes": "Through 12/31/2027",
           "availableMonths": [],
@@ -3472,7 +3403,7 @@
           "amount": 300,
           "renewalPeriod": "Yearly",
           "periodBasis": "Cardmember Year",
-          "category": "Travel Credits",
+          "category": "Travel",
           "allowsPartialUse": true,
           "notes": null,
           "availableMonths": [],
@@ -3483,7 +3414,7 @@
           "amount": 0,
           "renewalPeriod": "Yearly",
           "periodBasis": "Calendar Year",
-          "category": "Dining Credits",
+          "category": "Dining",
           "allowsPartialUse": false,
           "notes": "Through 12/31/2027",
           "availableMonths": [],
@@ -3494,7 +3425,7 @@
           "amount": 288,
           "renewalPeriod": "Yearly",
           "periodBasis": "Calendar Year",
-          "category": "Shopping Credits",
+          "category": "Entertainment",
           "allowsPartialUse": true,
           "notes": "Through 6/22/2027",
           "availableMonths": [],
@@ -3505,7 +3436,7 @@
           "amount": 120,
           "renewalPeriod": "Yearly",
           "periodBasis": "Cardmember Year",
-          "category": "Travel Credits",
+          "category": "Travel",
           "allowsPartialUse": true,
           "notes": "Every 4 years",
           "availableMonths": [],
@@ -3581,7 +3512,7 @@
           "amount": 200,
           "renewalPeriod": "Yearly",
           "periodBasis": "Cardmember Year",
-          "category": "Travel Credits",
+          "category": "Travel",
           "allowsPartialUse": false,
           "notes": "Enter your redemption value",
           "availableMonths": [],
@@ -3593,7 +3524,7 @@
           "amount": 50,
           "renewalPeriod": "Yearly",
           "periodBasis": "Calendar Year",
-          "category": "Travel Credits",
+          "category": "Travel",
           "allowsPartialUse": true,
           "notes": null,
           "availableMonths": [],
@@ -3604,7 +3535,7 @@
           "amount": 100,
           "renewalPeriod": "Yearly",
           "periodBasis": "Cardmember Year",
-          "category": "Travel Credits",
+          "category": "Travel",
           "allowsPartialUse": true,
           "notes": "Every 4 years",
           "availableMonths": [],
@@ -3674,7 +3605,7 @@
           "amount": 245,
           "renewalPeriod": "Yearly",
           "periodBasis": "Cardmember Year",
-          "category": "Travel Credits",
+          "category": "Travel",
           "allowsPartialUse": false,
           "notes": "Enter your redemption value",
           "availableMonths": [],
@@ -3748,7 +3679,7 @@
           "amount": 300,
           "renewalPeriod": "Yearly",
           "periodBasis": "Calendar Year",
-          "category": "Travel Credits",
+          "category": "Travel",
           "allowsPartialUse": true,
           "notes": null,
           "availableMonths": [],
@@ -3759,7 +3690,7 @@
           "amount": 595,
           "renewalPeriod": "Yearly",
           "periodBasis": "Cardmember Year",
-          "category": "Travel Credits",
+          "category": "Travel",
           "allowsPartialUse": false,
           "notes": "Enter your redemption value",
           "availableMonths": [],
@@ -3771,7 +3702,7 @@
           "amount": null,
           "renewalPeriod": "Yearly",
           "periodBasis": "Calendar Year",
-          "category": "Travel Credits",
+          "category": "Travel",
           "allowsPartialUse": false,
           "notes": "15 nights per year",
           "availableMonths": [],
@@ -3782,7 +3713,7 @@
           "amount": null,
           "renewalPeriod": "Yearly",
           "periodBasis": "Calendar Year",
-          "category": "Travel Credits",
+          "category": "Travel",
           "allowsPartialUse": false,
           "notes": "3 certificates per year",
           "availableMonths": [],
@@ -3793,7 +3724,7 @@
           "amount": 100,
           "renewalPeriod": "Yearly",
           "periodBasis": "Cardmember Year",
-          "category": "Travel Credits",
+          "category": "Travel",
           "allowsPartialUse": true,
           "notes": "Every 4 years",
           "availableMonths": [],
@@ -3863,7 +3794,7 @@
           "amount": 81,
           "renewalPeriod": "Yearly",
           "periodBasis": "Cardmember Year",
-          "category": "Travel Credits",
+          "category": "Travel",
           "allowsPartialUse": false,
           "notes": "Enter your points value",
           "availableMonths": [],
@@ -3875,7 +3806,7 @@
           "amount": 135,
           "renewalPeriod": "Yearly",
           "periodBasis": "Calendar Year",
-          "category": "Travel Credits",
+          "category": "Travel",
           "allowsPartialUse": false,
           "notes": "Qualifying points boost",
           "availableMonths": [],
@@ -3945,7 +3876,7 @@
           "amount": 75,
           "renewalPeriod": "Yearly",
           "periodBasis": "Cardmember Year",
-          "category": "Travel Credits",
+          "category": "Travel",
           "allowsPartialUse": true,
           "notes": "Expires 12/31/2025",
           "availableMonths": [],
@@ -3956,7 +3887,7 @@
           "amount": 101,
           "renewalPeriod": "Yearly",
           "periodBasis": "Cardmember Year",
-          "category": "Travel Credits",
+          "category": "Travel",
           "allowsPartialUse": false,
           "notes": "Enter your points value",
           "availableMonths": [],
@@ -3968,7 +3899,7 @@
           "amount": null,
           "renewalPeriod": "Yearly",
           "periodBasis": "Calendar Year",
-          "category": "Travel Credits",
+          "category": "Travel",
           "allowsPartialUse": false,
           "notes": "4 per year, expires 12/31/2025",
           "availableMonths": [],
@@ -3979,7 +3910,7 @@
           "amount": 135,
           "renewalPeriod": "Yearly",
           "periodBasis": "Calendar Year",
-          "category": "Travel Credits",
+          "category": "Travel",
           "allowsPartialUse": false,
           "notes": "Qualifying points boost",
           "availableMonths": [],
@@ -4040,12 +3971,6 @@
           "multiplier": 2,
           "cap": null,
           "notes": "Local transit and commuting"
-        },
-        {
-          "category": "other",
-          "multiplier": 2,
-          "cap": null,
-          "notes": "Fitness club and gym memberships"
         }
       ],
       "baseEarnRate": 1,
@@ -4058,7 +3983,7 @@
           "amount": 255,
           "renewalPeriod": "Yearly",
           "periodBasis": "Cardmember Year",
-          "category": "Travel Credits",
+          "category": "Travel",
           "allowsPartialUse": false,
           "notes": "Enter your redemption value",
           "availableMonths": [],
@@ -4070,7 +3995,7 @@
           "amount": 255,
           "renewalPeriod": "Yearly",
           "periodBasis": "Calendar Year",
-          "category": "Travel Credits",
+          "category": "Travel",
           "allowsPartialUse": false,
           "notes": "After $15K spend, Cat 1-4",
           "availableMonths": [],
@@ -4082,7 +4007,7 @@
           "amount": null,
           "renewalPeriod": "Yearly",
           "periodBasis": "Calendar Year",
-          "category": "Travel Credits",
+          "category": "Travel",
           "allowsPartialUse": false,
           "notes": "5 nights per year",
           "availableMonths": [],
@@ -4097,8 +4022,7 @@
         "earnRates.hotels": "https://creditcards.chase.com/travel-credit-cards/world-of-hyatt-credit-card",
         "earnRates.dining": "https://creditcards.chase.com/travel-credit-cards/world-of-hyatt-credit-card",
         "earnRates.airfare": "https://creditcards.chase.com/travel-credit-cards/world-of-hyatt-credit-card",
-        "earnRates.transit": "https://creditcards.chase.com/travel-credit-cards/world-of-hyatt-credit-card",
-        "earnRates.other": "https://creditcards.chase.com/travel-credit-cards/world-of-hyatt-credit-card"
+        "earnRates.transit": "https://creditcards.chase.com/travel-credit-cards/world-of-hyatt-credit-card"
       },
       "lastVerified": "2026-05-03T00:00:00Z"
     },
@@ -4141,7 +4065,7 @@
           "amount": 81,
           "renewalPeriod": "Yearly",
           "periodBasis": "Cardmember Year",
-          "category": "Travel Credits",
+          "category": "Travel",
           "allowsPartialUse": false,
           "notes": "Enter your points value",
           "availableMonths": [],
@@ -4153,7 +4077,7 @@
           "amount": null,
           "renewalPeriod": "Yearly",
           "periodBasis": "Calendar Year",
-          "category": "Travel Credits",
+          "category": "Travel",
           "allowsPartialUse": false,
           "notes": "2 per year, expires 12/31/2025",
           "availableMonths": [],
@@ -4164,7 +4088,7 @@
           "amount": 500,
           "renewalPeriod": "Yearly",
           "periodBasis": "Cardmember Year",
-          "category": "Travel Credits",
+          "category": "Travel",
           "allowsPartialUse": true,
           "notes": "Expires 12/31/2025",
           "availableMonths": [],
@@ -4244,12 +4168,6 @@
           "multiplier": 2,
           "cap": null,
           "notes": "Hotel accommodations purchased directly with the hotel"
-        },
-        {
-          "category": "other",
-          "multiplier": 2,
-          "cap": null,
-          "notes": "Social media/search engine advertising and internet, cable, and phone services"
         }
       ],
       "baseEarnRate": 1,
@@ -4262,7 +4180,7 @@
           "amount": 122,
           "renewalPeriod": "Yearly",
           "periodBasis": "Cardmember Year",
-          "category": "Travel Credits",
+          "category": "Travel",
           "allowsPartialUse": false,
           "notes": "Enter your points value",
           "availableMonths": [],
@@ -4274,7 +4192,7 @@
           "amount": null,
           "renewalPeriod": "Yearly",
           "periodBasis": "Calendar Year",
-          "category": "Travel Credits",
+          "category": "Travel",
           "allowsPartialUse": false,
           "notes": "4 per year",
           "availableMonths": [],
@@ -4285,7 +4203,7 @@
           "amount": null,
           "renewalPeriod": "Yearly",
           "periodBasis": "Calendar Year",
-          "category": "Travel Credits",
+          "category": "Travel",
           "allowsPartialUse": false,
           "notes": "365 credits per year",
           "availableMonths": [],
@@ -4296,7 +4214,7 @@
           "amount": 500,
           "renewalPeriod": "Yearly",
           "periodBasis": "Cardmember Year",
-          "category": "Travel Credits",
+          "category": "Travel",
           "allowsPartialUse": true,
           "notes": "Expires 12/31/2025",
           "availableMonths": [],
@@ -4307,7 +4225,7 @@
           "amount": 100,
           "renewalPeriod": "Yearly",
           "periodBasis": "Cardmember Year",
-          "category": "Travel Credits",
+          "category": "Travel",
           "allowsPartialUse": true,
           "notes": "Every 4 years",
           "availableMonths": [],
@@ -4326,8 +4244,7 @@
         "earnRates.travel": "https://creditcards.chase.com/business-credit-cards/southwest/performance-business",
         "earnRates.gas": "https://creditcards.chase.com/business-credit-cards/southwest/performance-business",
         "earnRates.dining": "https://creditcards.chase.com/business-credit-cards/southwest/performance-business",
-        "earnRates.hotels": "https://creditcards.chase.com/business-credit-cards/southwest/performance-business",
-        "earnRates.other": "https://creditcards.chase.com/business-credit-cards/southwest/performance-business"
+        "earnRates.hotels": "https://creditcards.chase.com/business-credit-cards/southwest/performance-business"
       },
       "lastVerified": "2026-05-03T00:00:00Z"
     },
@@ -4379,7 +4296,7 @@
           "amount": 120,
           "renewalPeriod": "Yearly",
           "periodBasis": "Calendar Year",
-          "category": "Travel Credits",
+          "category": "Travel",
           "allowsPartialUse": true,
           "notes": null,
           "availableMonths": [],
@@ -4390,7 +4307,7 @@
           "amount": 120,
           "renewalPeriod": "Yearly",
           "periodBasis": "Calendar Year",
-          "category": "Travel Credits",
+          "category": "Travel",
           "allowsPartialUse": true,
           "notes": null,
           "availableMonths": [],
@@ -4401,7 +4318,7 @@
           "amount": 120,
           "renewalPeriod": "Yearly",
           "periodBasis": "Calendar Year",
-          "category": "Dining Credits",
+          "category": "Dining",
           "allowsPartialUse": true,
           "notes": null,
           "availableMonths": [],
@@ -4412,7 +4329,7 @@
           "amount": 100,
           "renewalPeriod": "Yearly",
           "periodBasis": "Cardmember Year",
-          "category": "Travel Credits",
+          "category": "Travel",
           "allowsPartialUse": true,
           "notes": "Every 4 years",
           "availableMonths": [],
@@ -4474,7 +4391,7 @@
           "amount": 250,
           "renewalPeriod": "Yearly",
           "periodBasis": "Calendar Year",
-          "category": "Travel Credits",
+          "category": "Travel",
           "allowsPartialUse": true,
           "notes": null,
           "availableMonths": [],
@@ -4485,7 +4402,7 @@
           "amount": 250,
           "renewalPeriod": "Yearly",
           "periodBasis": "Calendar Year",
-          "category": "Travel Credits",
+          "category": "Travel",
           "allowsPartialUse": false,
           "notes": "2x per year via ThankYou portal",
           "availableMonths": [],
@@ -4497,7 +4414,7 @@
           "amount": 100,
           "renewalPeriod": "Yearly",
           "periodBasis": "Cardmember Year",
-          "category": "Travel Credits",
+          "category": "Travel",
           "allowsPartialUse": true,
           "notes": "Every 4 years",
           "availableMonths": [],
@@ -4583,7 +4500,7 @@
           "amount": 100,
           "renewalPeriod": "Yearly",
           "periodBasis": "Calendar Year",
-          "category": "Travel Credits",
+          "category": "Travel",
           "allowsPartialUse": true,
           "notes": "$100 off $500+ hotel stay via CitiTravel",
           "availableMonths": [],
@@ -4686,7 +4603,7 @@
           "amount": 100,
           "renewalPeriod": "Every 6 months",
           "periodBasis": "Calendar Year",
-          "category": "Travel Credits",
+          "category": "Travel",
           "allowsPartialUse": true,
           "notes": null,
           "availableMonths": [],
@@ -4697,7 +4614,7 @@
           "amount": 300,
           "renewalPeriod": "Yearly",
           "periodBasis": "Calendar Year",
-          "category": "Travel Credits",
+          "category": "Travel",
           "allowsPartialUse": true,
           "notes": "2+ night prepaid stays via Citi Travel",
           "availableMonths": [],
@@ -4708,7 +4625,7 @@
           "amount": 200,
           "renewalPeriod": "Yearly",
           "periodBasis": "Calendar Year",
-          "category": "Shopping Credits",
+          "category": "Shopping",
           "allowsPartialUse": true,
           "notes": "1stDibs, AA, Best Buy, Live Nation, Future",
           "availableMonths": [],
@@ -4719,7 +4636,7 @@
           "amount": 120,
           "renewalPeriod": "Yearly",
           "periodBasis": "Cardmember Year",
-          "category": "Travel Credits",
+          "category": "Travel",
           "allowsPartialUse": true,
           "notes": "Every 4 years",
           "availableMonths": [],
@@ -4850,7 +4767,7 @@
           "amount": 100,
           "renewalPeriod": "Yearly",
           "periodBasis": "Calendar Year",
-          "category": "Travel Credits",
+          "category": "Travel",
           "allowsPartialUse": true,
           "notes": "Airline fees, seat upgrades, baggage",
           "availableMonths": [],
@@ -4861,7 +4778,7 @@
           "amount": 100,
           "renewalPeriod": "Yearly",
           "periodBasis": "Cardmember Year",
-          "category": "Travel Credits",
+          "category": "Travel",
           "allowsPartialUse": true,
           "notes": "Every 4 years",
           "availableMonths": [],
@@ -4914,7 +4831,7 @@
           "amount": 150,
           "renewalPeriod": "Yearly",
           "periodBasis": "Calendar Year",
-          "category": "Shopping Credits",
+          "category": "Lifestyle",
           "allowsPartialUse": true,
           "notes": "Fitness, streaming, food delivery",
           "availableMonths": [],
@@ -4925,7 +4842,7 @@
           "amount": 150,
           "renewalPeriod": "Yearly",
           "periodBasis": "Calendar Year",
-          "category": "Travel Credits",
+          "category": "Travel",
           "allowsPartialUse": true,
           "notes": "Airline fees, seat upgrades, baggage",
           "availableMonths": [],
@@ -4936,7 +4853,7 @@
           "amount": 100,
           "renewalPeriod": "Yearly",
           "periodBasis": "Cardmember Year",
-          "category": "Travel Credits",
+          "category": "Travel",
           "allowsPartialUse": true,
           "notes": "Every 4 years",
           "availableMonths": [],
@@ -4947,7 +4864,7 @@
           "amount": null,
           "renewalPeriod": "Yearly",
           "periodBasis": "Calendar Year",
-          "category": "Travel Credits",
+          "category": "Travel",
           "allowsPartialUse": false,
           "notes": "Unlimited Priority Pass Select membership included",
           "availableMonths": [],
@@ -5035,7 +4952,7 @@
           "amount": 300,
           "renewalPeriod": "Yearly",
           "periodBasis": "Cardmember Year",
-          "category": "Travel Credits",
+          "category": "Travel",
           "allowsPartialUse": false,
           "notes": "$99 + taxes companion ticket on Alaska/Hawaiian flights; requires $6,000 annual spend",
           "availableMonths": [],
@@ -5047,7 +4964,7 @@
           "amount": null,
           "renewalPeriod": "Yearly",
           "periodBasis": "Calendar Year",
-          "category": "Travel Credits",
+          "category": "Travel",
           "allowsPartialUse": false,
           "notes": "20% back on inflight food, beverage, and Wi-Fi on Alaska/Hawaiian flights",
           "availableMonths": [],
@@ -5089,20 +5006,6 @@
           ]
         },
         {
-          "category": "other",
-          "multiplier": 3,
-          "cap": null,
-          "notes": "Foreign currency transactions",
-          "isConditional": true,
-          "conditions": [
-            {
-              "type": "foreignCurrency",
-              "label": "Foreign currency transactions",
-              "details": "Foreign currency transactions"
-            }
-          ]
-        },
-        {
           "category": "dining",
           "multiplier": 3,
           "cap": null,
@@ -5119,7 +5022,7 @@
           "amount": 350,
           "renewalPeriod": "Yearly",
           "periodBasis": "Cardmember Year",
-          "category": "Travel Credits",
+          "category": "Travel",
           "allowsPartialUse": false,
           "notes": "25,000-mile companion award each anniversary; redeemable for a companion ticket",
           "availableMonths": [],
@@ -5131,7 +5034,7 @@
           "amount": 50,
           "renewalPeriod": "Yearly",
           "periodBasis": "Calendar Year",
-          "category": "Travel Credits",
+          "category": "Travel",
           "allowsPartialUse": true,
           "notes": "$50 voucher issued automatically if Alaska flight is delayed 2+ hours or cancelled within 24h",
           "availableMonths": [],
@@ -5144,7 +5047,6 @@
         "baseEarnRate": "https://www.alaskaair.com/atmosrewards/content/credit-cards/visa-summit",
         "rewardProgram": "https://www.alaskaair.com/atmosrewards/content/credit-cards/visa-summit",
         "earnRates.airfare": "https://www.alaskaair.com/atmosrewards/content/credit-cards/visa-summit",
-        "earnRates.other": "https://www.alaskaair.com/atmosrewards/content/credit-cards/visa-summit",
         "earnRates.dining": "https://www.alaskaair.com/atmosrewards/content/credit-cards/visa-summit"
       },
       "lastVerified": "2026-05-03T00:00:00Z"
@@ -5197,7 +5099,7 @@
           "amount": 50,
           "renewalPeriod": "Yearly",
           "periodBasis": "Calendar Year",
-          "category": "Travel Credits",
+          "category": "Travel",
           "allowsPartialUse": true,
           "notes": "$50 min airline purchase required",
           "availableMonths": [],
@@ -5258,12 +5160,6 @@
           "multiplier": 3,
           "cap": null,
           "notes": null
-        },
-        {
-          "category": "other",
-          "multiplier": 3,
-          "cap": null,
-          "notes": "Phone plans"
         }
       ],
       "baseEarnRate": 1,
@@ -5276,7 +5172,7 @@
           "amount": 600,
           "renewalPeriod": "Yearly",
           "periodBasis": "Calendar Year",
-          "category": "Shopping Credits",
+          "category": "Shopping",
           "allowsPartialUse": true,
           "notes": "$25 deductible per claim; requires paying monthly phone bill with card. Not a statement credit.",
           "availableMonths": [],
@@ -5292,8 +5188,7 @@
         "earnRates.travel": "https://creditcards.wellsfargo.com/autograph-visa-credit-card/",
         "earnRates.transit": "https://creditcards.wellsfargo.com/autograph-visa-credit-card/",
         "earnRates.gas": "https://creditcards.wellsfargo.com/autograph-visa-credit-card/",
-        "earnRates.streaming": "https://creditcards.wellsfargo.com/autograph-visa-credit-card/",
-        "earnRates.other": "https://creditcards.wellsfargo.com/autograph-visa-credit-card/"
+        "earnRates.streaming": "https://creditcards.wellsfargo.com/autograph-visa-credit-card/"
       },
       "lastVerified": "2026-05-03T00:00:00Z"
     },
@@ -5314,7 +5209,7 @@
           "amount": 600,
           "renewalPeriod": "Yearly",
           "periodBasis": "Calendar Year",
-          "category": "Shopping Credits",
+          "category": "Shopping",
           "allowsPartialUse": true,
           "notes": "$25 deductible per claim; requires paying monthly phone bill with card. Not a statement credit.",
           "availableMonths": [],
@@ -5340,18 +5235,13 @@
           "category": "travel",
           "multiplier": 3,
           "cap": null,
-          "notes": "Mobile wallet purchases",
+          "notes": "Travel purchases",
           "appliesToCategories": [
             "travel",
             "airfare",
-            "hotels"
+            "hotels",
+            "transit"
           ]
-        },
-        {
-          "category": "other",
-          "multiplier": 3,
-          "cap": null,
-          "notes": "Mobile wallet purchases"
         }
       ],
       "baseEarnRate": 1,
@@ -5364,7 +5254,7 @@
           "amount": 325,
           "renewalPeriod": "Yearly",
           "periodBasis": "Cardmember Year",
-          "category": "Travel Credits",
+          "category": "Travel",
           "allowsPartialUse": true,
           "notes": "Travel and dining purchases",
           "availableMonths": [],
@@ -5376,8 +5266,7 @@
         "noForeignTransactionFees": "https://www.usbank.com/credit-cards/altitude-reserve-visa-infinite-credit-card.html",
         "baseEarnRate": "https://www.usbank.com/credit-cards/altitude-reserve-visa-infinite-credit-card.html",
         "rewardProgram": "https://www.usbank.com/credit-cards/altitude-reserve-visa-infinite-credit-card.html",
-        "earnRates.travel": "https://www.usbank.com/credit-cards/altitude-reserve-visa-infinite-credit-card.html",
-        "earnRates.other": "https://www.usbank.com/credit-cards/altitude-reserve-visa-infinite-credit-card.html"
+        "earnRates.travel": "https://www.usbank.com/credit-cards/altitude-reserve-visa-infinite-credit-card.html"
       },
       "lastVerified": "2026-05-03T00:00:00Z"
     },
@@ -5454,7 +5343,7 @@
           "amount": 100,
           "renewalPeriod": "Yearly",
           "periodBasis": "Cardmember Year",
-          "category": "Travel Credits",
+          "category": "Travel",
           "allowsPartialUse": true,
           "notes": "Every 4 years; redeemable once per card",
           "availableMonths": [],
@@ -5465,7 +5354,7 @@
           "amount": null,
           "renewalPeriod": "Yearly",
           "periodBasis": "Calendar Year",
-          "category": "Travel Credits",
+          "category": "Travel",
           "allowsPartialUse": false,
           "notes": "4 Priority Pass lounge visits per year",
           "availableMonths": [],
@@ -5591,20 +5480,7 @@
       "issuer": "Apple",
       "annualFee": 0,
       "noForeignTransactionFees": true,
-      "earnRates": [
-        {
-          "category": "other",
-          "multiplier": 3,
-          "cap": null,
-          "notes": "Apple purchases"
-        },
-        {
-          "category": "other",
-          "multiplier": 2,
-          "cap": null,
-          "notes": "Apple Pay purchases"
-        }
-      ],
+      "earnRates": [],
       "baseEarnRate": 1,
       "rewardProgram": "Apple Daily Cash",
       "affiliateUrl": null,
@@ -5614,8 +5490,7 @@
         "annualFee": "https://www.apple.com/apple-card/",
         "noForeignTransactionFees": "https://www.apple.com/apple-card/",
         "baseEarnRate": "https://www.apple.com/apple-card/",
-        "rewardProgram": "https://www.apple.com/apple-card/",
-        "earnRates.other": "https://www.apple.com/apple-card/"
+        "rewardProgram": "https://www.apple.com/apple-card/"
       },
       "lastVerified": "2026-05-03T00:00:00Z"
     },
@@ -5712,7 +5587,7 @@
           "amount": 50,
           "renewalPeriod": "Every 6 months",
           "periodBasis": "Calendar Year",
-          "category": "Travel Credits",
+          "category": "Travel",
           "allowsPartialUse": true,
           "notes": "$50 credit for 2+ night hotel bookings via Bilt Travel portal; issued twice per year",
           "availableMonths": [],
@@ -5756,7 +5631,7 @@
           "amount": 200,
           "renewalPeriod": "Every 6 months",
           "periodBasis": "Calendar Year",
-          "category": "Travel Credits",
+          "category": "Travel",
           "allowsPartialUse": true,
           "notes": "$200 credit for qualifying hotel bookings via Bilt Travel portal; issued twice per year",
           "availableMonths": [],
@@ -5767,7 +5642,7 @@
           "amount": 200,
           "renewalPeriod": "Yearly",
           "periodBasis": "Cardmember Year",
-          "category": "Travel Credits",
+          "category": "Travel",
           "allowsPartialUse": true,
           "notes": "$200 Bilt Cash awarded annually; usable toward rent/housing payments",
           "availableMonths": [],
@@ -5966,7 +5841,7 @@
           "amount": 200,
           "renewalPeriod": "Yearly",
           "periodBasis": "Cardmember Year",
-          "category": "Travel Credits",
+          "category": "Travel",
           "allowsPartialUse": true,
           "notes": "For eligible United purchases",
           "availableMonths": [],
@@ -5977,7 +5852,7 @@
           "amount": 80,
           "renewalPeriod": "Yearly",
           "periodBasis": "Cardmember Year",
-          "category": "Travel Credits",
+          "category": "Travel",
           "allowsPartialUse": true,
           "notes": "$40 TravelBank cash for the first and second eligible Avis or Budget rental booked through cars.united.com",
           "availableMonths": [],
@@ -5988,7 +5863,7 @@
           "amount": 15,
           "renewalPeriod": "Monthly",
           "periodBasis": "Calendar Year",
-          "category": "Shopping Credits",
+          "category": "Shopping",
           "allowsPartialUse": true,
           "notes": "One $10 and one $5 Instacart credit monthly, up to $180 per calendar year",
           "availableMonths": [],
@@ -5999,7 +5874,7 @@
           "amount": 120,
           "renewalPeriod": "Yearly",
           "periodBasis": "Cardmember Year",
-          "category": "Travel Credits",
+          "category": "Travel",
           "allowsPartialUse": true,
           "notes": "Every 4 years",
           "availableMonths": [],
@@ -6068,7 +5943,7 @@
           "amount": 41,
           "renewalPeriod": "Yearly",
           "periodBasis": "Cardmember Year",
-          "category": "Travel Credits",
+          "category": "Travel",
           "allowsPartialUse": false,
           "notes": "Enter your points value",
           "availableMonths": [],
@@ -6123,10 +5998,16 @@
           "notes": "Select streaming, internet, cable, and phone services"
         },
         {
-          "category": "other",
+          "category": "transit",
           "multiplier": 2,
           "cap": null,
-          "notes": "Rideshare and select food delivery services"
+          "notes": "Rideshare services"
+        },
+        {
+          "category": "dining",
+          "multiplier": 2,
+          "cap": null,
+          "notes": "Select food delivery services"
         }
       ],
       "baseEarnRate": 1,
@@ -6142,7 +6023,8 @@
         "earnRates.hotels": "https://creditcards.chase.com/travel-credit-cards/marriott-bonvoy/bold",
         "earnRates.groceries": "https://creditcards.chase.com/travel-credit-cards/marriott-bonvoy/bold",
         "earnRates.streaming": "https://creditcards.chase.com/travel-credit-cards/marriott-bonvoy/bold",
-        "earnRates.other": "https://creditcards.chase.com/travel-credit-cards/marriott-bonvoy/bold"
+        "earnRates.transit": "https://creditcards.chase.com/travel-credit-cards/marriott-bonvoy/bold",
+        "earnRates.dining": "https://creditcards.chase.com/travel-credit-cards/marriott-bonvoy/bold"
       },
       "lastVerified": "2026-05-08T00:00:00Z"
     },
@@ -6243,12 +6125,6 @@
           "multiplier": 3,
           "cap": null,
           "notes": "Select streaming services"
-        },
-        {
-          "category": "other",
-          "multiplier": 3,
-          "cap": null,
-          "notes": "Utilities"
         }
       ],
       "baseEarnRate": 2,
@@ -6264,7 +6140,6 @@
         "earnRates.hotels": "https://creditcards.chase.com/travel-credit-cards/ihg-rewards-club/traveler",
         "earnRates.gas": "https://creditcards.chase.com/travel-credit-cards/ihg-rewards-club/traveler",
         "earnRates.dining": "https://creditcards.chase.com/travel-credit-cards/ihg-rewards-club/traveler",
-        "earnRates.other": "https://creditcards.chase.com/travel-credit-cards/ihg-rewards-club/traveler",
         "earnRates.streaming": "https://creditcards.chase.com/travel-credit-cards/ihg-rewards-club/traveler"
       },
       "lastVerified": "2026-05-08T00:00:00Z"
@@ -6357,7 +6232,15 @@
           "category": "other",
           "multiplier": 2.5,
           "cap": null,
-          "notes": "Purchases of $5,000 or more"
+          "notes": "Purchases of $5,000 or more",
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "largePurchase",
+              "label": "Single purchases of $5,000+",
+              "details": "Purchases of $5,000 or more"
+            }
+          ]
         },
         {
           "category": "other",
@@ -6440,12 +6323,6 @@
           "multiplier": 3,
           "cap": null,
           "notes": "Dining"
-        },
-        {
-          "category": "other",
-          "multiplier": 3,
-          "cap": null,
-          "notes": "Social media and search engine advertising"
         }
       ],
       "baseEarnRate": 1,
@@ -6458,7 +6335,7 @@
           "amount": 300,
           "renewalPeriod": "Yearly",
           "periodBasis": "Cardmember Year",
-          "category": "Travel Credits",
+          "category": "Travel",
           "allowsPartialUse": true,
           "notes": null,
           "availableMonths": [],
@@ -6469,7 +6346,7 @@
           "amount": 250,
           "renewalPeriod": "Every 6 months",
           "periodBasis": "Calendar Year",
-          "category": "Travel Credits",
+          "category": "Travel",
           "allowsPartialUse": true,
           "notes": "Prepaid bookings with The Edit; maximum $250 per transaction; two-night minimum",
           "availableMonths": [],
@@ -6480,7 +6357,7 @@
           "amount": 250,
           "renewalPeriod": "Yearly",
           "periodBasis": "Calendar Year",
-          "category": "Travel Credits",
+          "category": "Travel",
           "allowsPartialUse": true,
           "notes": "Prepaid Chase Travel hotel bookings through 12/31/2026; two-night minimum",
           "availableMonths": [],
@@ -6491,7 +6368,7 @@
           "amount": 120,
           "renewalPeriod": "Yearly",
           "periodBasis": "Cardmember Year",
-          "category": "Travel Credits",
+          "category": "Travel",
           "allowsPartialUse": true,
           "notes": "Every 4 years",
           "availableMonths": [],
@@ -6507,7 +6384,6 @@
         "earnRates.airfare": "https://creditcards.chase.com/business-credit-cards/sapphire/reserve",
         "earnRates.hotels": "https://creditcards.chase.com/business-credit-cards/sapphire/reserve",
         "earnRates.dining": "https://creditcards.chase.com/business-credit-cards/sapphire/reserve",
-        "earnRates.other": "https://creditcards.chase.com/business-credit-cards/sapphire/reserve",
         "benefits.travel-credit": "https://creditcards.chase.com/business-credit-cards/sapphire/reserve",
         "benefits.the-edit-hotel-credit": "https://creditcards.chase.com/business-credit-cards/sapphire/reserve",
         "benefits.select-chase-travel-hotel-credit": "https://creditcards.chase.com/business-credit-cards/sapphire/reserve",
@@ -6554,12 +6430,6 @@
           "multiplier": 2,
           "cap": null,
           "notes": "Local transit and commuting"
-        },
-        {
-          "category": "other",
-          "multiplier": 2,
-          "cap": null,
-          "notes": "Office supply stores"
         }
       ],
       "baseEarnRate": 1,
@@ -6572,7 +6442,7 @@
           "amount": 125,
           "renewalPeriod": "Yearly",
           "periodBasis": "Calendar Year",
-          "category": "Travel Credits",
+          "category": "Travel",
           "allowsPartialUse": true,
           "notes": "After making five United flight purchases of $100+ each calendar year",
           "availableMonths": [],
@@ -6583,7 +6453,7 @@
           "amount": 100,
           "renewalPeriod": "Yearly",
           "periodBasis": "Calendar Year",
-          "category": "Travel Credits",
+          "category": "Travel",
           "allowsPartialUse": true,
           "notes": "Prepaid hotel stays purchased directly through United Hotels",
           "availableMonths": [],
@@ -6594,7 +6464,7 @@
           "amount": 100,
           "renewalPeriod": "Yearly",
           "periodBasis": "Calendar Year",
-          "category": "Travel Credits",
+          "category": "Travel",
           "allowsPartialUse": true,
           "notes": "Enrollment required",
           "availableMonths": [],
@@ -6605,7 +6475,7 @@
           "amount": 50,
           "renewalPeriod": "Yearly",
           "periodBasis": "Cardmember Year",
-          "category": "Travel Credits",
+          "category": "Travel",
           "allowsPartialUse": true,
           "notes": "For eligible Avis or Budget rentals booked through cars.united.com",
           "availableMonths": [],
@@ -6616,7 +6486,7 @@
           "amount": 10,
           "renewalPeriod": "Monthly",
           "periodBasis": "Calendar Year",
-          "category": "Shopping Credits",
+          "category": "Shopping",
           "allowsPartialUse": true,
           "notes": "Up to $120 per calendar year with active Instacart+ membership",
           "availableMonths": [],
@@ -6627,7 +6497,7 @@
           "amount": 100,
           "renewalPeriod": "Yearly",
           "periodBasis": "Cardmember Year",
-          "category": "Travel Credits",
+          "category": "Travel",
           "allowsPartialUse": true,
           "notes": "For flights booked directly with JSX",
           "availableMonths": [],
@@ -6643,7 +6513,6 @@
         "earnRates.dining": "https://creditcards.chase.com/business-credit-cards/united/united-business-card",
         "earnRates.gas": "https://creditcards.chase.com/business-credit-cards/united/united-business-card",
         "earnRates.transit": "https://creditcards.chase.com/business-credit-cards/united/united-business-card",
-        "earnRates.other": "https://creditcards.chase.com/business-credit-cards/united/united-business-card",
         "benefits.united-travel-credit": "https://creditcards.chase.com/business-credit-cards/united/united-business-card",
         "benefits.united-hotels-credit": "https://creditcards.chase.com/business-credit-cards/united/united-business-card",
         "benefits.rideshare-credit": "https://creditcards.chase.com/business-credit-cards/united/united-business-card",
@@ -6719,7 +6588,7 @@
           "amount": 200,
           "renewalPeriod": "Yearly",
           "periodBasis": "Cardmember Year",
-          "category": "Travel Credits",
+          "category": "Travel",
           "allowsPartialUse": true,
           "notes": "Prepaid hotel stays purchased through Renowned Hotels and Resorts for United Cardmembers",
           "availableMonths": [],
@@ -6730,7 +6599,7 @@
           "amount": 150,
           "renewalPeriod": "Yearly",
           "periodBasis": "Calendar Year",
-          "category": "Travel Credits",
+          "category": "Travel",
           "allowsPartialUse": true,
           "notes": "Enrollment required; monthly credits with December bonus",
           "availableMonths": [],
@@ -6741,7 +6610,7 @@
           "amount": 100,
           "renewalPeriod": "Yearly",
           "periodBasis": "Cardmember Year",
-          "category": "Travel Credits",
+          "category": "Travel",
           "allowsPartialUse": true,
           "notes": "For eligible Avis or Budget rentals booked through cars.united.com",
           "availableMonths": [],
@@ -6752,7 +6621,7 @@
           "amount": 20,
           "renewalPeriod": "Monthly",
           "periodBasis": "Calendar Year",
-          "category": "Shopping Credits",
+          "category": "Shopping",
           "allowsPartialUse": true,
           "notes": "Two $10 monthly credits, up to $240 per calendar year",
           "availableMonths": [],
@@ -6763,7 +6632,7 @@
           "amount": 200,
           "renewalPeriod": "Yearly",
           "periodBasis": "Cardmember Year",
-          "category": "Travel Credits",
+          "category": "Travel",
           "allowsPartialUse": true,
           "notes": "For flights booked directly with JSX",
           "availableMonths": [],
@@ -6774,7 +6643,7 @@
           "amount": 50,
           "renewalPeriod": "Yearly",
           "periodBasis": "Calendar Year",
-          "category": "Travel Credits",
+          "category": "Travel",
           "allowsPartialUse": true,
           "notes": "For FareLock purchases on United or United Express operated flights",
           "availableMonths": [],
@@ -6785,7 +6654,7 @@
           "amount": null,
           "renewalPeriod": "Yearly",
           "periodBasis": "Cardmember Year",
-          "category": "Travel Credits",
+          "category": "Travel",
           "allowsPartialUse": false,
           "notes": "Complimentary United Club lounge access",
           "availableMonths": [],
@@ -6856,12 +6725,6 @@
           "multiplier": 5,
           "cap": null,
           "notes": "Gas stations"
-        },
-        {
-          "category": "other",
-          "multiplier": 5,
-          "cap": null,
-          "notes": "Select business purchases including social media/search advertising and office supply stores"
         }
       ],
       "baseEarnRate": 3,
@@ -6874,7 +6737,7 @@
           "amount": 120,
           "renewalPeriod": "Yearly",
           "periodBasis": "Cardmember Year",
-          "category": "Travel Credits",
+          "category": "Travel",
           "allowsPartialUse": true,
           "notes": "Every 4 years",
           "availableMonths": [],
@@ -6890,7 +6753,6 @@
         "earnRates.gas": "https://creditcards.chase.com/business-credit-cards/ihg/business-premier",
         "earnRates.dining": "https://creditcards.chase.com/business-credit-cards/ihg/business-premier",
         "earnRates.travel": "https://creditcards.chase.com/business-credit-cards/ihg/business-premier",
-        "earnRates.other": "https://creditcards.chase.com/business-credit-cards/ihg/business-premier",
         "benefits.global-entry-tsa-precheck-nexus-credit": "https://creditcards.chase.com/business-credit-cards/ihg/business-premier"
       },
       "lastVerified": "2026-05-08T00:00:00Z"
@@ -6952,7 +6814,7 @@
           "amount": 100,
           "renewalPeriod": "Yearly",
           "periodBasis": "Cardmember Year",
-          "category": "Travel Credits",
+          "category": "Travel",
           "allowsPartialUse": true,
           "notes": "Up to $100 in Hyatt statement credits each anniversary year",
           "availableMonths": [],
@@ -7039,7 +6901,7 @@
           "notes": "Restaurants"
         },
         {
-          "category": "other",
+          "category": "transit",
           "multiplier": 3,
           "cap": null,
           "notes": "Select transit"
@@ -7058,7 +6920,7 @@
         "earnRates.groceries": "https://www.citi.com/credit-cards/citi-strata-card",
         "earnRates.gas": "https://www.citi.com/credit-cards/citi-strata-card",
         "earnRates.dining": "https://www.citi.com/credit-cards/citi-strata-card",
-        "earnRates.other": "https://www.citi.com/credit-cards/citi-strata-card"
+        "earnRates.transit": "https://www.citi.com/credit-cards/citi-strata-card"
       },
       "lastVerified": "2026-05-08T00:00:00Z"
     },
@@ -7177,7 +7039,7 @@
           "amount": null,
           "renewalPeriod": "Yearly",
           "periodBasis": "Calendar Year",
-          "category": "Travel Credits",
+          "category": "Travel",
           "allowsPartialUse": false,
           "notes": "Four passes per calendar year",
           "availableMonths": [],
@@ -7226,10 +7088,13 @@
           "notes": "Gas stations"
         },
         {
-          "category": "other",
+          "category": "travel",
           "multiplier": 2,
           "cap": null,
-          "notes": "Telecommunications merchants, cable and satellite providers, car rental merchants"
+          "notes": "Car rental merchants",
+          "appliesToCategories": [
+            "travel"
+          ]
         }
       ],
       "baseEarnRate": 1,
@@ -7244,7 +7109,7 @@
         "rewardProgram": "https://www.citi.com/credit-cards/view-all-credit-cards",
         "earnRates.airfare": "https://www.citi.com/credit-cards/citi-business-aadvantage-credit-card",
         "earnRates.gas": "https://www.citi.com/credit-cards/citi-business-aadvantage-credit-card",
-        "earnRates.other": "https://www.citi.com/credit-cards/citi-business-aadvantage-credit-card"
+        "earnRates.travel": "https://www.citi.com/credit-cards/citi-business-aadvantage-credit-card"
       },
       "lastVerified": "2026-05-08T00:00:00Z"
     },
@@ -7322,12 +7187,6 @@
             "hotels",
             "transit"
           ]
-        },
-        {
-          "category": "other",
-          "multiplier": 2,
-          "cap": null,
-          "notes": "Costco and Costco.com"
         }
       ],
       "baseEarnRate": 1,
@@ -7342,8 +7201,7 @@
         "rewardProgram": "https://www.citi.com/credit-cards/view-all-credit-cards",
         "earnRates.gas": "https://www.citi.com/credit-cards/citi-costco-anywhere-visa-credit-card",
         "earnRates.dining": "https://www.citi.com/credit-cards/citi-costco-anywhere-visa-credit-card",
-        "earnRates.travel": "https://www.citi.com/credit-cards/citi-costco-anywhere-visa-credit-card",
-        "earnRates.other": "https://www.citi.com/credit-cards/citi-costco-anywhere-visa-credit-card"
+        "earnRates.travel": "https://www.citi.com/credit-cards/citi-costco-anywhere-visa-credit-card"
       },
       "lastVerified": "2026-05-08T00:00:00Z"
     },
@@ -7377,12 +7235,6 @@
             "hotels",
             "transit"
           ]
-        },
-        {
-          "category": "other",
-          "multiplier": 2,
-          "cap": null,
-          "notes": "Costco and Costco.com"
         }
       ],
       "baseEarnRate": 1,
@@ -7397,8 +7249,7 @@
         "rewardProgram": "https://www.citi.com/credit-cards/view-all-credit-cards",
         "earnRates.gas": "https://www.citi.com/credit-cards/citi-costco-anywhere-visa-business-credit-card",
         "earnRates.dining": "https://www.citi.com/credit-cards/citi-costco-anywhere-visa-business-credit-card",
-        "earnRates.travel": "https://www.citi.com/credit-cards/citi-costco-anywhere-visa-business-credit-card",
-        "earnRates.other": "https://www.citi.com/credit-cards/citi-costco-anywhere-visa-business-credit-card"
+        "earnRates.travel": "https://www.citi.com/credit-cards/citi-costco-anywhere-visa-business-credit-card"
       },
       "lastVerified": "2026-05-08T00:00:00Z"
     },
@@ -7432,7 +7283,7 @@
           "amount": 20,
           "renewalPeriod": "Monthly",
           "periodBasis": "Calendar Year",
-          "category": "Shopping Credits",
+          "category": "Shopping",
           "allowsPartialUse": true,
           "notes": "After qualifying spend",
           "availableMonths": [],
@@ -7498,12 +7349,6 @@
       "noForeignTransactionFees": false,
       "earnRates": [
         {
-          "category": "other",
-          "multiplier": 4,
-          "cap": null,
-          "notes": "Gym memberships, salons and spas, select sports, recreation, entertainment, public transit, EV charging, and select thrift stores"
-        },
-        {
           "category": "transit",
           "multiplier": 4,
           "cap": null,
@@ -7526,7 +7371,6 @@
         "noForeignTransactionFees": "https://creditcards.wellsfargo.com/",
         "baseEarnRate": "https://creditcards.wellsfargo.com/",
         "rewardProgram": "https://creditcards.wellsfargo.com/",
-        "earnRates.other": "https://creditcards.wellsfargo.com/attune-credit-card/",
         "earnRates.transit": "https://creditcards.wellsfargo.com/attune-credit-card/",
         "earnRates.gas": "https://creditcards.wellsfargo.com/attune-credit-card/"
       },
@@ -7695,12 +7539,6 @@
           "multiplier": 3,
           "cap": null,
           "notes": "Home improvement stores"
-        },
-        {
-          "category": "other",
-          "multiplier": 3,
-          "cap": null,
-          "notes": "Phone plan services"
         }
       ],
       "baseEarnRate": 1,
@@ -7716,8 +7554,7 @@
         "earnRates.hotels": "https://www.wellsfargo.com/credit-cards/choice/terms/",
         "earnRates.gas": "https://www.wellsfargo.com/credit-cards/choice/terms/",
         "earnRates.groceries": "https://www.wellsfargo.com/credit-cards/choice/terms/",
-        "earnRates.homeImprovement": "https://www.wellsfargo.com/credit-cards/choice/terms/",
-        "earnRates.other": "https://www.wellsfargo.com/credit-cards/choice/terms/"
+        "earnRates.homeImprovement": "https://www.wellsfargo.com/credit-cards/choice/terms/"
       },
       "lastVerified": "2026-05-08T00:00:00Z"
     },
@@ -7760,12 +7597,6 @@
           "multiplier": 5,
           "cap": null,
           "notes": "Home improvement stores"
-        },
-        {
-          "category": "other",
-          "multiplier": 5,
-          "cap": null,
-          "notes": "Phone plan services"
         }
       ],
       "baseEarnRate": 1,
@@ -7781,8 +7612,7 @@
         "earnRates.hotels": "https://www.wellsfargo.com/credit-cards/choice/terms/",
         "earnRates.gas": "https://www.wellsfargo.com/credit-cards/choice/terms/",
         "earnRates.groceries": "https://www.wellsfargo.com/credit-cards/choice/terms/",
-        "earnRates.homeImprovement": "https://www.wellsfargo.com/credit-cards/choice/terms/",
-        "earnRates.other": "https://www.wellsfargo.com/credit-cards/choice/terms/"
+        "earnRates.homeImprovement": "https://www.wellsfargo.com/credit-cards/choice/terms/"
       },
       "lastVerified": "2026-05-08T00:00:00Z"
     },
@@ -8289,21 +8119,6 @@
           "notes": "Popular streaming services"
         },
         {
-          "category": "other",
-          "multiplier": 8,
-          "cap": null,
-          "notes": "Capital One Entertainment purchases",
-          "isConditional": true,
-          "conditions": [
-            {
-              "type": "merchant",
-              "label": "Capital One Entertainment",
-              "merchant": "Capital One Entertainment",
-              "details": "Capital One Entertainment purchases"
-            }
-          ]
-        },
-        {
           "category": "hotels",
           "multiplier": 5,
           "cap": null,
@@ -8332,7 +8147,6 @@
         "earnRates.dining": "https://www.capitalone.com/credit-cards/savor-student/",
         "earnRates.groceries": "https://www.capitalone.com/credit-cards/savor-student/",
         "earnRates.streaming": "https://www.capitalone.com/credit-cards/savor-student/",
-        "earnRates.other": "https://www.capitalone.com/credit-cards/savor-student/",
         "earnRates.hotels": "https://www.capitalone.com/credit-cards/savor-student/"
       },
       "lastVerified": "2026-05-08T00:00:00Z"
@@ -8481,7 +8295,7 @@
           "amount": 120,
           "renewalPeriod": "Yearly",
           "periodBasis": "Cardmember Year",
-          "category": "Travel Credits",
+          "category": "Travel",
           "allowsPartialUse": true,
           "notes": "Every 4 years",
           "availableMonths": [],
@@ -8626,7 +8440,7 @@
           "amount": 15,
           "renewalPeriod": "Yearly",
           "periodBasis": "Cardmember Year",
-          "category": "Shopping Credits",
+          "category": "Entertainment",
           "allowsPartialUse": true,
           "notes": "Annual streaming service credit",
           "availableMonths": [],
@@ -8758,7 +8572,7 @@
           "amount": 15,
           "renewalPeriod": "Yearly",
           "periodBasis": "Cardmember Year",
-          "category": "Shopping Credits",
+          "category": "Entertainment",
           "allowsPartialUse": true,
           "notes": "Annual streaming service credit",
           "availableMonths": [],
