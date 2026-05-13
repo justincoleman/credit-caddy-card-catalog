@@ -373,9 +373,9 @@ if (prevCards) {
   const currentCardsJson = JSON.stringify(cards.cards || []);
   const previousCardsJson = JSON.stringify(prevCards.cards || []);
   if (currentCardsJson !== previousCardsJson) {
-    if (cards.version <= prevCards.version) {
+    if (cards.version < prevCards.version) {
       err(
-        `catalog version must advance when cards.json data changes (${prevCards.version} → ${cards.version}).`
+        `catalog version must not move backward when cards.json data changes (${prevCards.version} → ${cards.version}).`
       );
     }
     if (cards.lastUpdated <= prevCards.lastUpdated) {

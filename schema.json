@@ -237,12 +237,33 @@
         "allowsPartialUse": { "type": "boolean" },
         "requiresValueOnUse": { "type": "boolean" },
         "notes": { "type": ["string", "null"] },
+        "guide": { "$ref": "#/$defs/benefitGuide" },
         "availableMonths": {
           "type": "array",
           "items": { "type": "integer", "minimum": 1, "maximum": 12 }
         },
         "notificationsEnabled": { "type": "boolean" }
       }
+    },
+    "benefitGuide": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "whatItIs": { "type": ["string", "null"], "minLength": 1 },
+        "howItWorks": {
+          "type": "array",
+          "items": { "type": "string", "minLength": 1 }
+        },
+        "maximizingTips": {
+          "type": "array",
+          "items": { "type": "string", "minLength": 1 }
+        }
+      },
+      "anyOf": [
+        { "required": ["whatItIs"] },
+        { "required": ["howItWorks"] },
+        { "required": ["maximizingTips"] }
+      ]
     }
   }
 }
