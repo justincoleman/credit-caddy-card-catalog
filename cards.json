@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "version": "2026.05.13",
-  "lastUpdated": "2026-05-13T14:38:26Z",
+  "lastUpdated": "2026-05-13T18:56:13Z",
   "cards": [
     {
       "id": "american-express-platinum-card",
@@ -64,9 +64,21 @@
           "periodBasis": "Calendar Year",
           "category": "Travel",
           "allowsPartialUse": true,
-          "notes": null,
+          "notes": "Monthly Uber Cash for eligible U.S. Uber rides and Uber Eats orders, with an extra December amount.",
           "availableMonths": [],
-          "notificationsEnabled": true
+          "notificationsEnabled": true,
+          "guide": {
+            "whatItIs": "Monthly Uber Cash for eligible U.S. Uber rides and Uber Eats orders, with an extra December amount.",
+            "howItWorks": [
+              "Add the Platinum Card to your Uber account to receive the monthly Uber Cash in the Uber app.",
+              "Use it on eligible U.S. Uber rides or Uber Eats orders when an Amex Card is selected for the transaction.",
+              "The regular monthly amount resets each month; the separate December bonus is tracked as its own benefit."
+            ],
+            "maximizingTips": [
+              "Check the Uber app early each month so you know the credit landed.",
+              "Use it for Uber Eats pickup when you are not taking rides."
+            ]
+          }
         },
         {
           "name": "Uber Cash (December Bonus)",
@@ -75,11 +87,23 @@
           "periodBasis": "Calendar Year",
           "category": "Travel",
           "allowsPartialUse": true,
-          "notes": null,
+          "notes": "The extra December Uber Cash amount that stacks on top of the regular monthly Platinum Uber Cash.",
           "availableMonths": [
             12
           ],
-          "notificationsEnabled": true
+          "notificationsEnabled": true,
+          "guide": {
+            "whatItIs": "The extra December Uber Cash amount that stacks on top of the regular monthly Platinum Uber Cash.",
+            "howItWorks": [
+              "Add the Platinum Card to your Uber account before December use.",
+              "Use it on eligible U.S. Uber rides or Uber Eats orders when an Amex Card is selected for the transaction.",
+              "This bonus is seasonal and should be used before the December window ends."
+            ],
+            "maximizingTips": [
+              "Treat this as a holiday-month deadline item and use it before travel or end-of-year plans get busy.",
+              "If the regular monthly credit is still unused, plan one larger Uber or Uber Eats transaction to use both balances together."
+            ]
+          }
         },
         {
           "name": "Digital Entertainment Credit",
@@ -88,9 +112,21 @@
           "periodBasis": "Calendar Year",
           "category": "Entertainment",
           "allowsPartialUse": true,
-          "notes": null,
+          "notes": "A monthly statement credit for eligible digital entertainment subscriptions and purchases with participating providers.",
           "availableMonths": [],
-          "notificationsEnabled": true
+          "notificationsEnabled": true,
+          "guide": {
+            "whatItIs": "A monthly statement credit for eligible digital entertainment subscriptions and purchases with participating providers.",
+            "howItWorks": [
+              "If the issuer requires enrollment, enroll before relying on the credit.",
+              "Pay the eligible provider directly with the Platinum Card; third-party billing may not qualify.",
+              "Plan to use it before the monthly reset; unused monthly value typically does not roll over."
+            ],
+            "maximizingTips": [
+              "Put one or two recurring subscriptions on the card instead of trying to remember ad hoc purchases.",
+              "Check provider eligibility before moving subscriptions, especially if you currently pay through Apple, Google, Roku, or another platform."
+            ]
+          }
         },
         {
           "name": "Walmart+ Membership Credit",
@@ -101,7 +137,19 @@
           "allowsPartialUse": true,
           "notes": "Plus taxes and fees",
           "availableMonths": [],
-          "notificationsEnabled": true
+          "notificationsEnabled": true,
+          "guide": {
+            "whatItIs": "A monthly statement credit toward one eligible monthly Walmart+ membership fee.",
+            "howItWorks": [
+              "Pay for an eligible monthly Walmart+ membership with the Platinum Card.",
+              "The credit can cover the eligible monthly fee plus applicable taxes, but not every add-on or upgrade is covered.",
+              "Annual Walmart+ plans and some Plus Ups may not qualify."
+            ],
+            "maximizingTips": [
+              "Use a monthly membership instead of an annual plan if you want the credit to offset it.",
+              "Set the Platinum Card as the payment method before the renewal charge runs."
+            ]
+          }
         },
         {
           "name": "Uber One Membership Credit",
@@ -110,9 +158,21 @@
           "periodBasis": "Calendar Year",
           "category": "Travel",
           "allowsPartialUse": true,
-          "notes": null,
+          "notes": "A statement credit toward an eligible auto-renewing Uber One membership paid with the Platinum Card.",
           "availableMonths": [],
-          "notificationsEnabled": true
+          "notificationsEnabled": true,
+          "guide": {
+            "whatItIs": "A statement credit toward an eligible auto-renewing Uber One membership paid with the Platinum Card.",
+            "howItWorks": [
+              "Use the Platinum Card to pay for an eligible auto-renewing Uber One membership.",
+              "The credit is tied to the membership charge, separate from monthly Uber Cash.",
+              "Track it as a subscription-style benefit so you can confirm the charge and credit line up."
+            ],
+            "maximizingTips": [
+              "Only keep the membership if the fees and benefits make sense for your actual Uber or Uber Eats usage.",
+              "Pair this with monthly Uber Cash if Uber is already part of your routine."
+            ]
+          }
         },
         {
           "name": "lululemon Credit",
@@ -121,9 +181,21 @@
           "periodBasis": "Calendar Year",
           "category": "Shopping",
           "allowsPartialUse": true,
-          "notes": null,
+          "notes": "A quarterly statement credit for eligible lululemon purchases.",
           "availableMonths": [],
-          "notificationsEnabled": true
+          "notificationsEnabled": true,
+          "guide": {
+            "whatItIs": "A quarterly statement credit for eligible lululemon purchases.",
+            "howItWorks": [
+              "If the issuer requires enrollment, enroll before relying on the credit.",
+              "Use the Platinum Card for eligible purchases at qualifying lululemon channels listed in Amex terms.",
+              "The credit resets quarterly, so unused value from one quarter should not be assumed to carry forward."
+            ],
+            "maximizingTips": [
+              "Spread purchases across quarters when possible instead of using the whole annual value at once.",
+              "Check exclusions such as outlet or third-party purchases before counting on the credit."
+            ]
+          }
         },
         {
           "name": "Resy Credit",
@@ -132,9 +204,21 @@
           "periodBasis": "Calendar Year",
           "category": "Dining",
           "allowsPartialUse": true,
-          "notes": null,
+          "notes": "A quarterly statement credit for eligible U.S. Resy restaurant purchases.",
           "availableMonths": [],
-          "notificationsEnabled": true
+          "notificationsEnabled": true,
+          "guide": {
+            "whatItIs": "A quarterly statement credit for eligible U.S. Resy restaurant purchases.",
+            "howItWorks": [
+              "If the issuer requires enrollment, enroll before relying on the credit.",
+              "Use the Platinum Card at eligible U.S. Resy restaurants or for other eligible Resy purchases.",
+              "The credit resets quarterly and posts after Amex recognizes the eligible charge."
+            ],
+            "maximizingTips": [
+              "Search Resy for restaurants you already like, then use the credit on normal dining instead of manufacturing a meal.",
+              "Use it before the final week of the quarter in case the charge or credit takes time to post."
+            ]
+          }
         },
         {
           "name": "Saks Fifth Avenue Credit",
@@ -143,9 +227,21 @@
           "periodBasis": "Calendar Year",
           "category": "Shopping",
           "allowsPartialUse": true,
-          "notes": null,
+          "notes": "A semiannual statement credit for eligible Saks Fifth Avenue purchases.",
           "availableMonths": [],
-          "notificationsEnabled": true
+          "notificationsEnabled": true,
+          "guide": {
+            "whatItIs": "A semiannual statement credit for eligible Saks Fifth Avenue purchases.",
+            "howItWorks": [
+              "If the issuer requires enrollment, enroll before relying on the credit.",
+              "Use the Platinum Card for eligible Saks purchases online or in store.",
+              "The credit resets every six months; unused value from one half of the year should not be assumed to roll into the next."
+            ],
+            "maximizingTips": [
+              "Plan one small useful purchase per half-year rather than shopping just to avoid losing the credit.",
+              "Watch shipping, returns, and timing so the eligible charge lands inside the correct period."
+            ]
+          }
         },
         {
           "name": "Airline Fee Credit",
@@ -154,9 +250,21 @@
           "periodBasis": "Calendar Year",
           "category": "Travel",
           "allowsPartialUse": true,
-          "notes": null,
+          "notes": "An annual statement credit for eligible incidental fees charged by one selected qualifying airline.",
           "availableMonths": [],
-          "notificationsEnabled": true
+          "notificationsEnabled": true,
+          "guide": {
+            "whatItIs": "An annual statement credit for eligible incidental fees charged by one selected qualifying airline.",
+            "howItWorks": [
+              "If the issuer requires enrollment, enroll before relying on the credit.",
+              "Choose one qualifying airline before using the credit.",
+              "Eligible incidental fees can include things like checked bags or in-flight refreshments, but airline tickets and many upgrades may not qualify."
+            ],
+            "maximizingTips": [
+              "Select the airline you are most likely to use for real incidental fees this year.",
+              "Make the charge directly with the selected airline and allow time for the credit to post."
+            ]
+          }
         },
         {
           "name": "Hotel Credit (FHR/THC)",
@@ -165,9 +273,21 @@
           "periodBasis": "Calendar Year",
           "category": "Travel",
           "allowsPartialUse": true,
-          "notes": null,
+          "notes": "A semiannual statement credit for prepaid Fine Hotels + Resorts or The Hotel Collection bookings through American Express Travel.",
           "availableMonths": [],
-          "notificationsEnabled": true
+          "notificationsEnabled": true,
+          "guide": {
+            "whatItIs": "A semiannual statement credit for prepaid Fine Hotels + Resorts or The Hotel Collection bookings through American Express Travel.",
+            "howItWorks": [
+              "Book an eligible prepaid Fine Hotels + Resorts or The Hotel Collection stay through American Express Travel with the Platinum Card.",
+              "The Hotel Collection bookings generally require a minimum two-night stay.",
+              "The credit resets every six months, so timing the prepaid charge matters."
+            ],
+            "maximizingTips": [
+              "Compare the Amex Travel prepaid price against booking direct before assuming the credit is pure savings.",
+              "Use it for a stay you already want, especially when the property benefits also matter to you."
+            ]
+          }
         },
         {
           "name": "CLEAR Plus Credit",
@@ -176,9 +296,21 @@
           "periodBasis": "Calendar Year",
           "category": "Travel",
           "allowsPartialUse": true,
-          "notes": null,
+          "notes": "An annual statement credit toward an eligible CLEAR Plus membership fee.",
           "availableMonths": [],
-          "notificationsEnabled": true
+          "notificationsEnabled": true,
+          "guide": {
+            "whatItIs": "An annual statement credit toward an eligible CLEAR Plus membership fee.",
+            "howItWorks": [
+              "Pay for an eligible CLEAR Plus membership with the Platinum Card.",
+              "The credit is annual and tied to the CLEAR Plus membership charge.",
+              "CLEAR Plus availability and usefulness depend on airports and venues you actually use."
+            ],
+            "maximizingTips": [
+              "Make sure CLEAR is useful at your regular airports before valuing the credit at full face value.",
+              "If you already have CLEAR through another card or promotion, avoid duplicating the same membership charge."
+            ]
+          }
         },
         {
           "name": "Equinox Credit",
@@ -187,9 +319,21 @@
           "periodBasis": "Calendar Year",
           "category": "Lifestyle",
           "allowsPartialUse": true,
-          "notes": null,
+          "notes": "An annual statement credit for eligible Equinox purchases or membership charges listed in Amex terms.",
           "availableMonths": [],
-          "notificationsEnabled": true
+          "notificationsEnabled": true,
+          "guide": {
+            "whatItIs": "An annual statement credit for eligible Equinox purchases or membership charges listed in Amex terms.",
+            "howItWorks": [
+              "If the issuer requires enrollment, enroll before relying on the credit.",
+              "Use the Platinum Card for eligible Equinox charges that qualify under the benefit terms.",
+              "The credit is annual, so track both the charge timing and the amount already used."
+            ],
+            "maximizingTips": [
+              "Only count this at full value if Equinox is already part of your routine.",
+              "Confirm the exact membership or app product is eligible before switching payment methods."
+            ]
+          }
         },
         {
           "name": "Oura Ring Credit",
@@ -198,9 +342,21 @@
           "periodBasis": "Calendar Year",
           "category": "Lifestyle",
           "allowsPartialUse": true,
-          "notes": null,
+          "notes": "An annual statement credit for eligible Oura purchases.",
           "availableMonths": [],
-          "notificationsEnabled": true
+          "notificationsEnabled": true,
+          "guide": {
+            "whatItIs": "An annual statement credit for eligible Oura purchases.",
+            "howItWorks": [
+              "If the issuer requires enrollment, enroll before relying on the credit.",
+              "Use the Platinum Card for eligible Oura purchases that qualify under Amex terms.",
+              "This is best treated as a once-per-year hardware or wellness purchase credit, not a monthly credit."
+            ],
+            "maximizingTips": [
+              "Use it only if you actually want an Oura product; otherwise the credit can create unnecessary spend.",
+              "Check model, merchant, and purchase-channel eligibility before counting on the statement credit."
+            ]
+          }
         },
         {
           "name": "Global Entry/TSA PreCheck Credit",
@@ -211,7 +367,19 @@
           "allowsPartialUse": true,
           "notes": "Every 4 years",
           "availableMonths": [],
-          "notificationsEnabled": true
+          "notificationsEnabled": true,
+          "guide": {
+            "whatItIs": "A periodic application-fee statement credit for an eligible trusted traveler program.",
+            "howItWorks": [
+              "Pay the eligible application fee with the Platinum Card.",
+              "The credit is available only once every several years, based on the program and card terms.",
+              "You can use the card to pay an eligible application fee for yourself or another person."
+            ],
+            "maximizingTips": [
+              "Global Entry includes TSA PreCheck for eligible travelers, so it may be the better choice if you travel internationally.",
+              "Track the renewal window because this is not an annual benefit in practice."
+            ]
+          }
         }
       ],
       "sources": {
@@ -223,7 +391,19 @@
         "rewardProgram": "https://www.americanexpress.com/us/credit-cards/card/platinum/",
         "earnRates.airfare": "https://www.americanexpress.com/us/credit-cards/card/platinum/",
         "earnRates.hotels": "https://www.americanexpress.com/us/credit-cards/card/platinum/",
-        "earnRates.dining": "https://www.americanexpress.com/us/credit-cards/card/platinum/"
+        "earnRates.dining": "https://www.americanexpress.com/us/credit-cards/card/platinum/",
+        "benefits.uber-cash": "https://www.americanexpress.com/us/credit-cards/card/platinum/",
+        "benefits.uber-cash-december-bonus": "https://www.americanexpress.com/us/credit-cards/card/platinum/",
+        "benefits.digital-entertainment-credit": "https://www.americanexpress.com/us/credit-cards/card/platinum/",
+        "benefits.walmart-membership-credit": "https://www.americanexpress.com/us/credit-cards/card/platinum/",
+        "benefits.uber-one-membership-credit": "https://www.americanexpress.com/us/credit-cards/card/platinum/",
+        "benefits.lululemon-credit": "https://www.americanexpress.com/us/credit-cards/card/platinum/",
+        "benefits.resy-credit": "https://www.americanexpress.com/us/credit-cards/card/platinum/",
+        "benefits.saks-fifth-avenue-credit": "https://www.americanexpress.com/us/credit-cards/card/platinum/",
+        "benefits.airline-fee-credit": "https://www.americanexpress.com/us/credit-cards/card/platinum/",
+        "benefits.clear-plus-credit": "https://www.americanexpress.com/us/credit-cards/card/platinum/",
+        "benefits.equinox-credit": "https://www.americanexpress.com/us/credit-cards/card/platinum/",
+        "benefits.oura-ring-credit": "https://www.americanexpress.com/us/credit-cards/card/platinum/"
       },
       "lastVerified": "2026-05-04T00:00:00Z"
     },
@@ -312,9 +492,21 @@
           "periodBasis": "Calendar Year",
           "category": "Dining",
           "allowsPartialUse": true,
-          "notes": null,
+          "notes": "Monthly Uber Cash for eligible U.S. Uber rides and Uber Eats orders.",
           "availableMonths": [],
-          "notificationsEnabled": true
+          "notificationsEnabled": true,
+          "guide": {
+            "whatItIs": "Monthly Uber Cash for eligible U.S. Uber rides and Uber Eats orders.",
+            "howItWorks": [
+              "Add the Gold Card to your Uber account so the monthly Uber Cash can appear in the Uber app.",
+              "Use it on eligible U.S. rides or Uber Eats orders when an Amex Card is selected for the transaction.",
+              "Plan to use it before the monthly reset; unused monthly value typically does not roll over."
+            ],
+            "maximizingTips": [
+              "Check the Uber app early in the month to confirm the credit landed.",
+              "If you are not taking rides, an Uber Eats pickup order can be an easy way to avoid wasting the month."
+            ]
+          }
         },
         {
           "name": "Dining Credit",
@@ -323,9 +515,21 @@
           "periodBasis": "Calendar Year",
           "category": "Dining",
           "allowsPartialUse": true,
-          "notes": null,
+          "notes": "A monthly statement credit for eligible dining purchases with participating partners.",
           "availableMonths": [],
-          "notificationsEnabled": true
+          "notificationsEnabled": true,
+          "guide": {
+            "whatItIs": "A monthly statement credit for eligible dining purchases with participating partners.",
+            "howItWorks": [
+              "Pay with the Gold Card at eligible participating dining partners listed in the Amex benefit terms.",
+              "The credit posts as a statement credit after an eligible purchase.",
+              "Plan to use it before the monthly reset; unused monthly value typically does not roll over."
+            ],
+            "maximizingTips": [
+              "Pick one partner you naturally use and make it part of your monthly routine.",
+              "Use the credit earlier in the month so a missed or delayed transaction does not become a scramble."
+            ]
+          }
         },
         {
           "name": "Dunkin' Credit",
@@ -334,9 +538,21 @@
           "periodBasis": "Calendar Year",
           "category": "Dining",
           "allowsPartialUse": true,
-          "notes": null,
+          "notes": "A monthly statement credit for eligible U.S. Dunkin purchases paid with the Gold Card.",
           "availableMonths": [],
-          "notificationsEnabled": true
+          "notificationsEnabled": true,
+          "guide": {
+            "whatItIs": "A monthly statement credit for eligible U.S. Dunkin purchases paid with the Gold Card.",
+            "howItWorks": [
+              "Use the Gold Card for eligible purchases at U.S. Dunkin locations or eligible Dunkin channels.",
+              "The credit posts as a statement credit after the qualifying purchase.",
+              "Plan to use it before the monthly reset; unused monthly value typically does not roll over."
+            ],
+            "maximizingTips": [
+              "Reloading or using the Dunkin app may make the credit easier to use consistently, but confirm the charge codes as eligible for your account.",
+              "Small monthly credits are easiest to waste; set a reminder before the final week."
+            ]
+          }
         },
         {
           "name": "Resy Credit",
@@ -345,9 +561,21 @@
           "periodBasis": "Calendar Year",
           "category": "Dining",
           "allowsPartialUse": true,
-          "notes": null,
+          "notes": "A Resy dining statement credit for eligible U.S. Resy restaurant purchases.",
           "availableMonths": [],
-          "notificationsEnabled": true
+          "notificationsEnabled": true,
+          "guide": {
+            "whatItIs": "A Resy dining statement credit for eligible U.S. Resy restaurant purchases.",
+            "howItWorks": [
+              "Use the Gold Card at eligible U.S. Resy restaurants or for other eligible Resy purchases.",
+              "The credit resets on its semiannual schedule, not every month.",
+              "The statement credit posts after an eligible charge is recognized."
+            ],
+            "maximizingTips": [
+              "Look for Resy restaurants near places you already dine instead of forcing a special meal.",
+              "Because this resets less often than monthly credits, track the end date and use it before the half-year window closes."
+            ]
+          }
         }
       ],
       "sources": {
@@ -359,7 +587,11 @@
         "earnRates.groceries": "https://www.americanexpress.com/us/credit-cards/card/gold-card/",
         "earnRates.airfare": "https://www.americanexpress.com/us/credit-cards/card/gold-card/",
         "earnRates.hotels": "https://www.americanexpress.com/us/credit-cards/card/gold-card/",
-        "earnRates.travel": "https://www.americanexpress.com/us/credit-cards/card/gold-card/"
+        "earnRates.travel": "https://www.americanexpress.com/us/credit-cards/card/gold-card/",
+        "benefits.uber-cash": "https://www.americanexpress.com/us/credit-cards/card/gold-card/",
+        "benefits.dining-credit": "https://www.americanexpress.com/us/credit-cards/card/gold-card/",
+        "benefits.dunkin-credit": "https://www.americanexpress.com/us/credit-cards/card/gold-card/",
+        "benefits.resy-credit": "https://www.americanexpress.com/us/credit-cards/card/gold-card/"
       },
       "lastVerified": "2026-05-04T00:00:00Z"
     },
@@ -2703,7 +2935,17 @@
           "category": "onlineShopping",
           "multiplier": 5,
           "cap": null,
-          "notes": "Amazon.com, Amazon Fresh, Whole Foods Market, and Chase Travel purchases with an eligible Prime membership"
+          "notes": "Amazon.com, Amazon Fresh, Whole Foods Market, and participating Amazon stores/sites with an eligible Prime membership",
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "merchant",
+              "label": "Amazon and Whole Foods only",
+              "merchant": "Amazon.com",
+              "provider": "Amazon Prime",
+              "details": "5% back applies to eligible Amazon.com, Amazon Fresh, Whole Foods Market, and participating Amazon store/site purchases with an eligible Prime membership"
+            }
+          ]
         },
         {
           "category": "travel",
@@ -2773,7 +3015,7 @@
         "earnRates.transit": "https://creditcards.chase.com/cash-back-credit-cards/amazon-prime-rewards",
         "earnRates.drugstores": "https://creditcards.chase.com/cash-back-credit-cards/amazon-prime-rewards"
       },
-      "lastVerified": "2026-05-03T00:00:00Z"
+      "lastVerified": "2026-05-13T00:00:00Z"
     },
     {
       "id": "chase-aeroplan",
@@ -2888,9 +3130,21 @@
           "periodBasis": "Cardmember Year",
           "category": "Travel",
           "allowsPartialUse": true,
-          "notes": null,
+          "notes": "An annual travel credit for eligible bookings made through Capital One Travel.",
           "availableMonths": [],
-          "notificationsEnabled": true
+          "notificationsEnabled": true,
+          "guide": {
+            "whatItIs": "An annual travel credit for eligible bookings made through Capital One Travel.",
+            "howItWorks": [
+              "Book eligible travel through Capital One Travel with the Venture X.",
+              "The credit follows the cardmember-year period tracked here.",
+              "Eligible bookings reduce the remaining annual credit until it is used."
+            ],
+            "maximizingTips": [
+              "Use it on travel you were already going to book and compare Capital One Travel pricing against booking direct.",
+              "Because it is portal-based, do not assume every travel purchase outside Capital One Travel will qualify."
+            ]
+          }
         },
         {
           "name": "Anniversary Bonus (10K miles)",
@@ -2902,7 +3156,19 @@
           "notes": "Enter your miles value",
           "availableMonths": [],
           "notificationsEnabled": true,
-          "requiresValueOnUse": true
+          "requiresValueOnUse": true,
+          "guide": {
+            "whatItIs": "An annual anniversary miles bonus whose real value depends on how you redeem the miles.",
+            "howItWorks": [
+              "The miles are awarded around the card anniversary according to Capital One terms.",
+              "Credit Buddy asks for your realized value because miles are not the same as cash.",
+              "The benefit follows your cardmember-year anniversary schedule."
+            ],
+            "maximizingTips": [
+              "Enter the value based on the trip or cash cost you actually avoided, not a generic points valuation.",
+              "Transferring miles to partners may produce more value, but only if the redemption fits your travel plans."
+            ]
+          }
         },
         {
           "name": "Global Entry/TSA PreCheck Credit",
@@ -2922,7 +3188,9 @@
         "baseEarnRate": "https://www.capitalone.com/credit-cards/venture-x/",
         "rewardProgram": "https://www.capitalone.com/credit-cards/venture-x/",
         "earnRates.hotels": "https://www.capitalone.com/credit-cards/venture-x/",
-        "earnRates.airfare": "https://www.capitalone.com/credit-cards/venture-x/"
+        "earnRates.airfare": "https://www.capitalone.com/credit-cards/venture-x/",
+        "benefits.travel-credit": "https://www.capitalone.com/credit-cards/venture-x/",
+        "benefits.anniversary-bonus-10k-miles": "https://www.capitalone.com/credit-cards/venture-x/"
       },
       "lastVerified": "2026-05-03T00:00:00Z"
     },
@@ -3248,9 +3516,21 @@
           "periodBasis": "Cardmember Year",
           "category": "Travel",
           "allowsPartialUse": true,
-          "notes": null,
+          "notes": "An annual hotel statement credit for eligible hotel bookings through Chase Travel.",
           "availableMonths": [],
-          "notificationsEnabled": true
+          "notificationsEnabled": true,
+          "guide": {
+            "whatItIs": "An annual hotel statement credit for eligible hotel bookings through Chase Travel.",
+            "howItWorks": [
+              "Book an eligible hotel stay through Chase Travel with the Sapphire Preferred.",
+              "The credit follows the cardmember-year anniversary schedule.",
+              "It posts as a statement credit after an eligible hotel purchase is recognized."
+            ],
+            "maximizingTips": [
+              "Use it for a hotel stay you already need, not for a booking that costs more just because it goes through the portal.",
+              "Compare portal pricing against booking direct before valuing the credit at face value."
+            ]
+          }
         }
       ],
       "sources": {
@@ -3261,7 +3541,8 @@
         "earnRates.travel": "https://creditcards.chase.com/rewards-credit-cards/sapphire/preferred",
         "earnRates.dining": "https://creditcards.chase.com/rewards-credit-cards/sapphire/preferred",
         "earnRates.streaming": "https://creditcards.chase.com/rewards-credit-cards/sapphire/preferred",
-        "earnRates.onlineShopping": "https://creditcards.chase.com/rewards-credit-cards/sapphire/preferred"
+        "earnRates.onlineShopping": "https://creditcards.chase.com/rewards-credit-cards/sapphire/preferred",
+        "benefits.hotel-credit-anniversary": "https://creditcards.chase.com/rewards-credit-cards/sapphire/preferred"
       },
       "lastVerified": "2026-05-03T00:00:00Z"
     },
@@ -3372,9 +3653,21 @@
           "periodBasis": "Calendar Year",
           "category": "Travel",
           "allowsPartialUse": true,
-          "notes": null,
+          "notes": "A semiannual hotel statement credit for eligible prepaid bookings with The Edit through Chase Travel.",
           "availableMonths": [],
-          "notificationsEnabled": true
+          "notificationsEnabled": true,
+          "guide": {
+            "whatItIs": "A semiannual hotel statement credit for eligible prepaid bookings with The Edit through Chase Travel.",
+            "howItWorks": [
+              "Book an eligible prepaid The Edit stay through Chase Travel with the Sapphire Reserve.",
+              "The stay generally requires at least two nights.",
+              "The credit resets every six months, so the booking charge needs to land in the right period."
+            ],
+            "maximizingTips": [
+              "Compare the Chase Travel prepaid price against booking direct before treating the credit as full savings.",
+              "Use it on a stay you were already planning so the two-night requirement does not force extra spend."
+            ]
+          }
         },
         {
           "name": "Sapphire Tables Dining Credit",
@@ -3405,9 +3698,21 @@
           "periodBasis": "Cardmember Year",
           "category": "Travel",
           "allowsPartialUse": true,
-          "notes": null,
+          "notes": "An annual travel statement credit for eligible travel purchases.",
           "availableMonths": [],
-          "notificationsEnabled": true
+          "notificationsEnabled": true,
+          "guide": {
+            "whatItIs": "An annual travel statement credit for eligible travel purchases.",
+            "howItWorks": [
+              "Use the Sapphire Reserve for eligible travel purchases.",
+              "The credit applies over the cardmember-year period tracked here.",
+              "Eligible travel purchases reduce the remaining credit until the annual amount is used."
+            ],
+            "maximizingTips": [
+              "This is usually easy to use naturally if you put common travel purchases on the card.",
+              "Track it early in the cardmember year so you know when travel purchases stop being offset by the credit."
+            ]
+          }
         },
         {
           "name": "DoorDash DashPass",
@@ -3451,7 +3756,9 @@
         "earnRates.travel": "https://creditcards.chase.com/rewards-credit-cards/chase-sapphire-reserve",
         "earnRates.airfare": "https://creditcards.chase.com/rewards-credit-cards/chase-sapphire-reserve",
         "earnRates.hotels": "https://creditcards.chase.com/rewards-credit-cards/chase-sapphire-reserve",
-        "earnRates.dining": "https://creditcards.chase.com/rewards-credit-cards/chase-sapphire-reserve"
+        "earnRates.dining": "https://creditcards.chase.com/rewards-credit-cards/chase-sapphire-reserve",
+        "benefits.the-edit-hotel-credit": "https://creditcards.chase.com/rewards-credit-cards/chase-sapphire-reserve",
+        "benefits.travel-credit": "https://creditcards.chase.com/rewards-credit-cards/chase-sapphire-reserve"
       },
       "lastVerified": "2026-05-03T00:00:00Z"
     },
@@ -6155,7 +6462,16 @@
           "category": "onlineShopping",
           "multiplier": 3,
           "cap": null,
-          "notes": "Amazon.com, Amazon Fresh, and Whole Foods Market without eligible Prime membership"
+          "notes": "Amazon.com, Amazon Fresh, Whole Foods Market, and participating Amazon stores/sites without eligible Prime membership",
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "merchant",
+              "label": "Amazon and Whole Foods only",
+              "merchant": "Amazon.com",
+              "details": "3% back applies to eligible Amazon.com, Amazon Fresh, Whole Foods Market, and participating Amazon store/site purchases without eligible Prime membership"
+            }
+          ]
         },
         {
           "category": "travel",

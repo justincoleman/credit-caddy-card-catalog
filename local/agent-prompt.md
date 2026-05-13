@@ -197,6 +197,17 @@ Mapping rules:
 - Every measurable benefit written to a card must have a matching
   `sources.benefits.<slug>` citation, where `<slug>` is lowercase ASCII with
   non-alphanumeric runs collapsed to hyphens.
+- Benefit guide copy lives in optional `benefits[].guide` and should explain
+  the benefit in plain language:
+  - `whatItIs`: one concise sentence describing the credit/perk.
+  - `howItWorks`: short bullets for enrollment, merchant/channel restrictions,
+    redemption mechanics, reset timing, and rollover behavior.
+  - `maximizingTips`: practical tips for using the benefit without overstating
+    anything the issuer does not support.
+- Guide copy is source-of-truth catalog content. Only add or change it when the
+  same `sources.benefits.<slug>` approved issuer/co-brand citation supports the
+  underlying facts. Keep tips conservative when they are practical inferences
+  from the cited terms.
 - Benefits should be app-trackable credits/perks. Do not add generic travel
   insurance, purchase protections, elite status, lounge access, baggage, or
   boarding perks unless there is a user-trackable amount or an explicit

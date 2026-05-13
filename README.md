@@ -10,7 +10,7 @@ This repo is the source of truth for the in-app card catalog. The iOS client fet
 
 - **Catalog updates are agent-maintained.** A scheduled Claude task runs once a month (1st of the month, 12:00 UTC), re-verifies each card's fields against the issuer's own website, and opens a pull request. A human (the app owner) reviews and merges.
 - **No manual edits to `cards.json` on `main`.** All changes land via PR so the validation gate runs. Manual changes are welcome via PR.
-- **Every data change must advance freshness metadata.** If any card data changes, update both top-level `version` (`YYYY.MM.DD`) and `lastUpdated` (ISO 8601 UTC). The iOS app compares `lastUpdated` to decide whether to fetch, cache, and reconcile earn-rate metadata; stale timestamps can leave users on old card data.
+- **Every data change must advance freshness metadata.** If any card data changes, update top-level `lastUpdated` (ISO 8601 UTC). Keep `version` as the current date tag (`YYYY.MM.DD`) and never move it backward. The iOS app compares `lastUpdated` to decide whether to fetch, cache, and reconcile earn-rate metadata; stale timestamps can leave users on old card data.
 - **GitHub `main` is the source of truth.** After a catalog PR merges, sync the app's bundled `Resources/CardCatalog.json` from this repo's `cards.json` before cutting an app build. The bundle is the offline fallback, but it should never be treated as more authoritative than this repo.
 - **Every mutable field requires a citation.** The agent writes a `sources` map on each card whose URLs point back to the issuer's domain. If the agent can't cite a value on a given run, it leaves the prior value in place.
 - **Annual fee changes require two independent citations** on the issuer's domain.
