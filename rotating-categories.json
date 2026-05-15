@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "lastUpdated": "2026-05-15T00:00:00Z",
+  "entries": [
+    {
+      "templateIds": ["chase-freedom-flex"],
+      "quarter": "2026-Q2",
+      "startsAt": "2026-04-01T00:00:00Z",
+      "endsAt": "2026-06-30T23:59:59Z",
+      "categories": ["Amazon", "Whole Foods Market", "Chase Travel", "Feeding America"],
+      "sourceURL": "https://media.chase.com/news/chase-freedom-2026-q2-categories",
+      "verifiedAt": "2026-05-15T00:00:00Z"
+    }
+  ]
+}
