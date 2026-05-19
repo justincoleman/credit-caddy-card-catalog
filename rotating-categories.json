@@ -1,15 +1,38 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-05-15T00:00:00Z",
+  "lastUpdated": "2026-05-18T14:29:33Z",
   "entries": [
     {
-      "templateIds": ["chase-freedom-flex"],
+      "templateIds": [
+        "chase-freedom-flex"
+      ],
       "quarter": "2026-Q2",
       "startsAt": "2026-04-01T00:00:00Z",
       "endsAt": "2026-06-30T23:59:59Z",
-      "categories": ["Amazon", "Whole Foods Market", "Chase Travel", "Feeding America"],
+      "categories": [
+        "Amazon",
+        "Whole Foods Market",
+        "Chase Travel",
+        "Feeding America"
+      ],
       "sourceURL": "https://media.chase.com/news/chase-freedom-2026-q2-categories",
-      "verifiedAt": "2026-05-15T00:00:00Z"
+      "verifiedAt": "2026-05-18T14:29:33Z"
+    },
+    {
+      "templateIds": [
+        "discover-it-cash-back",
+        "discover-it-student-cash-back",
+        "discover-it-nhl"
+      ],
+      "quarter": "2026-Q2",
+      "startsAt": "2026-04-01T00:00:00Z",
+      "endsAt": "2026-06-30T23:59:59Z",
+      "categories": [
+        "Restaurants",
+        "Home Improvement Stores"
+      ],
+      "sourceURL": "https://www.discover.com/credit-cards/cash-back/cashback-calendar.html",
+      "verifiedAt": "2026-05-18T14:29:33Z"
     }
   ]
 }
