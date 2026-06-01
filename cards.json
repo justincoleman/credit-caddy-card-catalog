@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "version": "2026.05.19",
-  "lastUpdated": "2026-05-19T00:00:00Z",
+  "version": "2026.06.01",
+  "lastUpdated": "2026-06-01T00:00:00Z",
   "cards": [
     {
       "id": "american-express-platinum-card",
@@ -450,14 +450,14 @@
           "category": "hotels",
           "multiplier": 5,
           "cap": null,
-          "notes": "Prepaid hotels booked through AmexTravel.com or Amex Travel App™",
+          "notes": "Prepaid hotels booked through AmexTravel.com or Amex Travel App\u2122",
           "isConditional": true,
           "conditions": [
             {
               "type": "travelPortal",
               "label": "Amex Travel required",
               "provider": "Amex Travel",
-              "details": "Prepaid hotels booked through AmexTravel.com or Amex Travel App™"
+              "details": "Prepaid hotels booked through AmexTravel.com or Amex Travel App\u2122"
             }
           ]
         },
@@ -465,14 +465,14 @@
           "category": "travel",
           "multiplier": 2,
           "cap": null,
-          "notes": "Prepaid car rentals and cruises booked through AmexTravel.com or Amex Travel App™",
+          "notes": "Prepaid car rentals and cruises booked through AmexTravel.com or Amex Travel App\u2122",
           "isConditional": true,
           "conditions": [
             {
               "type": "travelPortal",
               "label": "Amex Travel required",
               "provider": "Amex Travel",
-              "details": "Prepaid car rentals and cruises booked through AmexTravel.com or Amex Travel App™"
+              "details": "Prepaid car rentals and cruises booked through AmexTravel.com or Amex Travel App\u2122"
             }
           ],
           "appliesToCategories": [
@@ -1013,7 +1013,7 @@
           "periodBasis": "Cardmember Year",
           "category": "Travel",
           "allowsPartialUse": false,
-          "notes": "15% discount on Delta award flights — no dollar amount to track",
+          "notes": "15% discount on Delta award flights \u2014 no dollar amount to track",
           "availableMonths": [],
           "notificationsEnabled": false
         }
@@ -1487,13 +1487,13 @@
           "notificationsEnabled": true
         },
         {
-          "name": "Dell Credit (Jan–Jun)",
+          "name": "Dell Credit (Jan\u2013Jun)",
           "amount": 150,
           "renewalPeriod": "Every 6 months",
           "periodBasis": "Calendar Year",
           "category": "Shopping",
           "allowsPartialUse": true,
-          "notes": "U.S. Dell Technologies purchases, Jan–Jun",
+          "notes": "U.S. Dell Technologies purchases, Jan\u2013Jun",
           "availableMonths": [
             1,
             2,
@@ -1505,13 +1505,13 @@
           "notificationsEnabled": true
         },
         {
-          "name": "Dell Credit (Jul–Dec)",
+          "name": "Dell Credit (Jul\u2013Dec)",
           "amount": 150,
           "renewalPeriod": "Every 6 months",
           "periodBasis": "Calendar Year",
           "category": "Shopping",
           "allowsPartialUse": true,
-          "notes": "U.S. Dell Technologies purchases, Jul–Dec",
+          "notes": "U.S. Dell Technologies purchases, Jul\u2013Dec",
           "availableMonths": [
             7,
             8,
@@ -2817,7 +2817,7 @@
           "periodBasis": "Cardmember Year",
           "category": "Travel",
           "allowsPartialUse": false,
-          "notes": "2 one-time United Club passes per year — no dollar amount to track",
+          "notes": "2 one-time United Club passes per year \u2014 no dollar amount to track",
           "availableMonths": [],
           "notificationsEnabled": false
         }
@@ -2904,7 +2904,7 @@
           "periodBasis": "Cardmember Year",
           "category": "Travel",
           "allowsPartialUse": false,
-          "notes": "Complimentary United Club lounge access — no dollar amount to track",
+          "notes": "Complimentary United Club lounge access \u2014 no dollar amount to track",
           "availableMonths": [],
           "notificationsEnabled": false
         }
@@ -3015,7 +3015,7 @@
         "earnRates.transit": "https://creditcards.chase.com/cash-back-credit-cards/amazon-prime-rewards",
         "earnRates.drugstores": "https://creditcards.chase.com/cash-back-credit-cards/amazon-prime-rewards"
       },
-      "lastVerified": "2026-05-13T00:00:00Z"
+      "lastVerified": "2026-06-01T00:00:00Z"
     },
     {
       "id": "chase-aeroplan",
@@ -3323,7 +3323,7 @@
       "id": "capital-one-savorone",
       "cardName": "SavorOne",
       "issuer": "Capital One",
-      "annualFee": 0,
+      "annualFee": 39,
       "noForeignTransactionFees": true,
       "earnRates": [
         {
@@ -3370,16 +3370,19 @@
       "colorHex": "C0392B",
       "benefits": [],
       "sources": {
-        "annualFee": "https://www.capitalone.com/credit-cards/savorone-dining-rewards/",
-        "noForeignTransactionFees": "https://www.capitalone.com/credit-cards/savorone-dining-rewards/",
-        "baseEarnRate": "https://www.capitalone.com/credit-cards/savorone-dining-rewards/",
-        "rewardProgram": "https://www.capitalone.com/credit-cards/savorone-dining-rewards/",
-        "earnRates.travel": "https://www.capitalone.com/credit-cards/savorone-dining-rewards/",
-        "earnRates.dining": "https://www.capitalone.com/credit-cards/savorone-dining-rewards/",
-        "earnRates.groceries": "https://www.capitalone.com/credit-cards/savorone-dining-rewards/",
-        "earnRates.streaming": "https://www.capitalone.com/credit-cards/savorone-dining-rewards/"
+        "annualFee": [
+          "https://www.capitalone.com/credit-cards/savorone/",
+          "https://www.capitalone.com/credit-cards/"
+        ],
+        "noForeignTransactionFees": "https://www.capitalone.com/credit-cards/savorone/",
+        "baseEarnRate": "https://www.capitalone.com/credit-cards/savorone/",
+        "rewardProgram": "https://www.capitalone.com/credit-cards/savorone/",
+        "earnRates.travel": "https://www.capitalone.com/credit-cards/savorone/",
+        "earnRates.dining": "https://www.capitalone.com/credit-cards/savorone/",
+        "earnRates.groceries": "https://www.capitalone.com/credit-cards/savorone/",
+        "earnRates.streaming": "https://www.capitalone.com/credit-cards/savorone/"
       },
-      "lastVerified": "2026-05-03T00:00:00Z"
+      "lastVerified": "2026-06-01T00:00:00Z"
     },
     {
       "id": "capital-one-savor",
@@ -3805,7 +3808,7 @@
         "benefits.apple-tv-apple-music": "https://creditcards.chase.com/rewards-credit-cards/chase-sapphire-reserve",
         "benefits.global-entry-tsa-precheck-credit": "https://creditcards.chase.com/rewards-credit-cards/chase-sapphire-reserve"
       },
-      "lastVerified": "2026-05-19T00:00:00Z"
+      "lastVerified": "2026-06-01T00:00:00Z"
     },
     {
       "id": "chase-ihg-one-rewards-premier",
@@ -6028,7 +6031,7 @@
         "baseEarnRate": "https://creditcards.chase.com/all-credit-cards",
         "rewardProgram": "https://creditcards.chase.com/all-credit-cards"
       },
-      "lastVerified": "2026-05-08T00:00:00Z"
+      "lastVerified": "2026-06-01T00:00:00Z"
     },
     {
       "id": "chase-slate",
@@ -6048,7 +6051,7 @@
         "baseEarnRate": "https://creditcards.chase.com/all-credit-cards",
         "rewardProgram": "https://creditcards.chase.com/all-credit-cards"
       },
-      "lastVerified": "2026-05-08T00:00:00Z"
+      "lastVerified": "2026-06-01T00:00:00Z"
     },
     {
       "id": "chase-slate-edge",
@@ -6068,7 +6071,7 @@
         "baseEarnRate": "https://creditcards.chase.com/all-credit-cards",
         "rewardProgram": "https://creditcards.chase.com/all-credit-cards"
       },
-      "lastVerified": "2026-05-08T00:00:00Z"
+      "lastVerified": "2026-06-01T00:00:00Z"
     },
     {
       "id": "chase-united-gateway",
@@ -6119,7 +6122,7 @@
         "earnRates.gas": "https://creditcards.chase.com/travel-credit-cards/united",
         "earnRates.transit": "https://creditcards.chase.com/travel-credit-cards/united"
       },
-      "lastVerified": "2026-05-08T00:00:00Z"
+      "lastVerified": "2026-06-01T00:00:00Z"
     },
     {
       "id": "chase-united-quest",
@@ -6248,7 +6251,7 @@
         "benefits.instacart-credit": "https://creditcards.chase.com/travel-credit-cards/united/united-quest",
         "benefits.global-entry-tsa-precheck-nexus-credit": "https://creditcards.chase.com/travel-credit-cards/united/united-quest"
       },
-      "lastVerified": "2026-05-08T00:00:00Z"
+      "lastVerified": "2026-06-01T00:00:00Z"
     },
     {
       "id": "chase-southwest-rapid-rewards-plus",
@@ -6313,7 +6316,7 @@
         "earnRates.groceries": "https://creditcards.chase.com/travel-credit-cards/southwest/plus",
         "benefits.anniversary-bonus-3k-points": "https://creditcards.chase.com/travel-credit-cards/southwest/plus"
       },
-      "lastVerified": "2026-05-08T00:00:00Z"
+      "lastVerified": "2026-06-01T00:00:00Z"
     },
     {
       "id": "chase-marriott-bonvoy-bold",
@@ -6378,7 +6381,7 @@
         "earnRates.transit": "https://creditcards.chase.com/travel-credit-cards/marriott-bonvoy/bold",
         "earnRates.dining": "https://creditcards.chase.com/travel-credit-cards/marriott-bonvoy/bold"
       },
-      "lastVerified": "2026-05-08T00:00:00Z"
+      "lastVerified": "2026-06-01T00:00:00Z"
     },
     {
       "id": "chase-marriott-bonvoy-bountiful",
@@ -6436,7 +6439,7 @@
         "earnRates.groceries": "https://creditcards.chase.com/travel-credit-cards/marriott-bonvoy/bountiful",
         "earnRates.gas": "https://creditcards.chase.com/travel-credit-cards/marriott-bonvoy/bountiful"
       },
-      "lastVerified": "2026-05-08T00:00:00Z"
+      "lastVerified": "2026-06-01T00:00:00Z"
     },
     {
       "id": "chase-ihg-one-rewards-traveler",
@@ -6494,7 +6497,7 @@
         "earnRates.dining": "https://creditcards.chase.com/travel-credit-cards/ihg-rewards-club/traveler",
         "earnRates.streaming": "https://creditcards.chase.com/travel-credit-cards/ihg-rewards-club/traveler"
       },
-      "lastVerified": "2026-05-08T00:00:00Z"
+      "lastVerified": "2026-06-01T00:00:00Z"
     },
     {
       "id": "chase-amazon-visa",
@@ -6580,7 +6583,7 @@
         "earnRates.transit": "https://creditcards.chase.com/cash-back-credit-cards/amazon-rewards",
         "earnRates.drugstores": "https://creditcards.chase.com/cash-back-credit-cards/amazon-rewards"
       },
-      "lastVerified": "2026-05-08T00:00:00Z"
+      "lastVerified": "2026-06-01T00:00:00Z"
     },
     {
       "id": "chase-ink-business-premier",
@@ -6622,7 +6625,7 @@
         "rewardProgram": "https://creditcards.chase.com/business-credit-cards/ink/premier",
         "earnRates.other": "https://creditcards.chase.com/business-credit-cards/ink/premier"
       },
-      "lastVerified": "2026-05-08T00:00:00Z"
+      "lastVerified": "2026-06-01T00:00:00Z"
     },
     {
       "id": "chase-sapphire-reserve-for-business",
@@ -6763,7 +6766,7 @@
         "benefits.select-chase-travel-hotel-credit": "https://creditcards.chase.com/business-credit-cards/sapphire/reserve",
         "benefits.global-entry-tsa-precheck-nexus-credit": "https://creditcards.chase.com/business-credit-cards/sapphire/reserve"
       },
-      "lastVerified": "2026-05-19T00:00:00Z"
+      "lastVerified": "2026-06-01T00:00:00Z"
     },
     {
       "id": "chase-united-business",
@@ -6894,7 +6897,7 @@
         "benefits.instacart-credit": "https://creditcards.chase.com/business-credit-cards/united/united-business-card",
         "benefits.jsx-credit": "https://creditcards.chase.com/business-credit-cards/united/united-business-card"
       },
-      "lastVerified": "2026-05-08T00:00:00Z"
+      "lastVerified": "2026-06-01T00:00:00Z"
     },
     {
       "id": "chase-united-club-business",
@@ -7052,7 +7055,7 @@
         "benefits.jsx-credit": "https://creditcards.chase.com/business-credit-cards/united/united-club-business",
         "benefits.farelock-credit": "https://creditcards.chase.com/business-credit-cards/united/united-club-business"
       },
-      "lastVerified": "2026-05-08T00:00:00Z"
+      "lastVerified": "2026-06-01T00:00:00Z"
     },
     {
       "id": "chase-ihg-one-rewards-premier-business",
@@ -7129,7 +7132,7 @@
         "earnRates.travel": "https://creditcards.chase.com/business-credit-cards/ihg/business-premier",
         "benefits.global-entry-tsa-precheck-nexus-credit": "https://creditcards.chase.com/business-credit-cards/ihg/business-premier"
       },
-      "lastVerified": "2026-05-08T00:00:00Z"
+      "lastVerified": "2026-06-01T00:00:00Z"
     },
     {
       "id": "chase-world-of-hyatt-business",
@@ -7207,7 +7210,7 @@
         "earnRates.transit": "https://creditcards.chase.com/travel-credit-cards/world-of-hyatt",
         "benefits.hyatt-credit": "https://creditcards.chase.com/travel-credit-cards/world-of-hyatt"
       },
-      "lastVerified": "2026-05-08T00:00:00Z"
+      "lastVerified": "2026-06-01T00:00:00Z"
     },
     {
       "id": "citi-diamond-preferred",
@@ -7227,7 +7230,7 @@
         "baseEarnRate": "https://www.citi.com/credit-cards/view-all-credit-cards",
         "rewardProgram": "https://www.citi.com/credit-cards/view-all-credit-cards"
       },
-      "lastVerified": "2026-05-08T00:00:00Z"
+      "lastVerified": "2026-06-01T00:00:00Z"
     },
     {
       "id": "citi-simplicity",
@@ -7247,7 +7250,7 @@
         "baseEarnRate": "https://www.citi.com/credit-cards/view-all-credit-cards",
         "rewardProgram": "https://www.citi.com/credit-cards/view-all-credit-cards"
       },
-      "lastVerified": "2026-05-08T00:00:00Z"
+      "lastVerified": "2026-06-01T00:00:00Z"
     },
     {
       "id": "citi-strata",
@@ -7296,7 +7299,7 @@
         "earnRates.dining": "https://www.citi.com/credit-cards/citi-strata-card",
         "earnRates.transit": "https://www.citi.com/credit-cards/citi-strata-card"
       },
-      "lastVerified": "2026-05-08T00:00:00Z"
+      "lastVerified": "2026-06-01T00:00:00Z"
     },
     {
       "id": "citi-aadvantage-platinum-select",
@@ -7347,7 +7350,7 @@
         "earnRates.dining": "https://www.citi.com/credit-cards/citi-aadvantage-platinum-select-credit-card",
         "earnRates.gas": "https://www.citi.com/credit-cards/citi-aadvantage-platinum-select-credit-card"
       },
-      "lastVerified": "2026-05-08T00:00:00Z"
+      "lastVerified": "2026-06-01T00:00:00Z"
     },
     {
       "id": "citi-aadvantage-globe",
@@ -7431,7 +7434,7 @@
         "earnRates.travel": "https://www.citi.com/credit-cards/citi-aadvantage-globe-mastercard",
         "benefits.admirals-club-globe-passes": "https://www.citi.com/credit-cards/citi-aadvantage-globe-mastercard"
       },
-      "lastVerified": "2026-05-08T00:00:00Z"
+      "lastVerified": "2026-06-01T00:00:00Z"
     },
     {
       "id": "citi-aadvantage-business",
@@ -7485,7 +7488,7 @@
         "earnRates.gas": "https://www.citi.com/credit-cards/citi-business-aadvantage-credit-card",
         "earnRates.travel": "https://www.citi.com/credit-cards/citi-business-aadvantage-credit-card"
       },
-      "lastVerified": "2026-05-08T00:00:00Z"
+      "lastVerified": "2026-06-01T00:00:00Z"
     },
     {
       "id": "citi-aadvantage-mileup",
@@ -7529,7 +7532,7 @@
         "earnRates.airfare": "https://www.citi.com/credit-cards/citi-aadvantage-mileup-credit-card",
         "earnRates.groceries": "https://www.citi.com/credit-cards/citi-aadvantage-mileup-credit-card"
       },
-      "lastVerified": "2026-05-08T00:00:00Z"
+      "lastVerified": "2026-06-01T00:00:00Z"
     },
     {
       "id": "citi-costco-anywhere-visa",
@@ -7577,7 +7580,7 @@
         "earnRates.dining": "https://www.citi.com/credit-cards/citi-costco-anywhere-visa-credit-card",
         "earnRates.travel": "https://www.citi.com/credit-cards/citi-costco-anywhere-visa-credit-card"
       },
-      "lastVerified": "2026-05-08T00:00:00Z"
+      "lastVerified": "2026-06-01T00:00:00Z"
     },
     {
       "id": "citi-costco-anywhere-visa-business",
@@ -7625,7 +7628,7 @@
         "earnRates.dining": "https://www.citi.com/credit-cards/citi-costco-anywhere-visa-business-credit-card",
         "earnRates.travel": "https://www.citi.com/credit-cards/citi-costco-anywhere-visa-business-credit-card"
       },
-      "lastVerified": "2026-05-08T00:00:00Z"
+      "lastVerified": "2026-06-01T00:00:00Z"
     },
     {
       "id": "citi-att-points-plus",
@@ -7673,7 +7676,7 @@
         "earnRates.groceries": "https://www.citi.com/credit-cards/att-points-plus-credit-card",
         "benefits.at-t-bill-credit": "https://www.citi.com/credit-cards/att-points-plus-credit-card"
       },
-      "lastVerified": "2026-05-08T00:00:00Z"
+      "lastVerified": "2026-06-01T00:00:00Z"
     },
     {
       "id": "citi-secured-mastercard",
@@ -7693,7 +7696,7 @@
         "baseEarnRate": "https://www.citi.com/credit-cards/view-all-credit-cards",
         "rewardProgram": "https://www.citi.com/credit-cards/view-all-credit-cards"
       },
-      "lastVerified": "2026-05-08T00:00:00Z"
+      "lastVerified": "2026-06-01T00:00:00Z"
     },
     {
       "id": "wells-fargo-reflect",
@@ -7713,7 +7716,7 @@
         "baseEarnRate": "https://creditcards.wellsfargo.com/",
         "rewardProgram": "https://creditcards.wellsfargo.com/"
       },
-      "lastVerified": "2026-05-08T00:00:00Z"
+      "lastVerified": "2026-06-01T00:00:00Z"
     },
     {
       "id": "wells-fargo-attune",
@@ -7748,7 +7751,7 @@
         "earnRates.transit": "https://creditcards.wellsfargo.com/attune-credit-card/",
         "earnRates.gas": "https://creditcards.wellsfargo.com/attune-credit-card/"
       },
-      "lastVerified": "2026-05-08T00:00:00Z"
+      "lastVerified": "2026-06-01T00:00:00Z"
     },
     {
       "id": "wells-fargo-one-key",
@@ -7810,7 +7813,7 @@
         "earnRates.groceries": "https://creditcards.wellsfargo.com/one-key-credit-card/",
         "earnRates.dining": "https://creditcards.wellsfargo.com/one-key-credit-card/"
       },
-      "lastVerified": "2026-05-08T00:00:00Z"
+      "lastVerified": "2026-06-01T00:00:00Z"
     },
     {
       "id": "wells-fargo-one-key-plus",
@@ -7872,7 +7875,7 @@
         "earnRates.groceries": "https://creditcards.wellsfargo.com/one-key-plus-credit-card/",
         "earnRates.dining": "https://creditcards.wellsfargo.com/one-key-plus-credit-card/"
       },
-      "lastVerified": "2026-05-08T00:00:00Z"
+      "lastVerified": "2026-06-01T00:00:00Z"
     },
     {
       "id": "wells-fargo-choice-privileges",
@@ -7930,7 +7933,7 @@
         "earnRates.groceries": "https://www.wellsfargo.com/credit-cards/choice/terms/",
         "earnRates.homeImprovement": "https://www.wellsfargo.com/credit-cards/choice/terms/"
       },
-      "lastVerified": "2026-05-08T00:00:00Z"
+      "lastVerified": "2026-06-01T00:00:00Z"
     },
     {
       "id": "wells-fargo-choice-privileges-select",
@@ -7988,7 +7991,7 @@
         "earnRates.groceries": "https://www.wellsfargo.com/credit-cards/choice/terms/",
         "earnRates.homeImprovement": "https://www.wellsfargo.com/credit-cards/choice/terms/"
       },
-      "lastVerified": "2026-05-08T00:00:00Z"
+      "lastVerified": "2026-06-01T00:00:00Z"
     },
     {
       "id": "wells-fargo-signify-business-cash",
@@ -8008,7 +8011,7 @@
         "baseEarnRate": "https://creditcards.wellsfargo.com/",
         "rewardProgram": "https://creditcards.wellsfargo.com/"
       },
-      "lastVerified": "2026-05-08T00:00:00Z"
+      "lastVerified": "2026-06-01T00:00:00Z"
     },
     {
       "id": "synchrony-amazon-store-card",
@@ -8028,7 +8031,7 @@
         "baseEarnRate": "https://www.synchrony.com/amazon",
         "rewardProgram": "https://www.synchrony.com/amazon"
       },
-      "lastVerified": "2026-05-08T00:00:00Z"
+      "lastVerified": "2026-06-01T00:00:00Z"
     },
     {
       "id": "synchrony-amazon-prime-store-card",
@@ -8065,7 +8068,7 @@
         "rewardProgram": "https://www.synchrony.com/amazon",
         "earnRates.onlineShopping": "https://www.synchrony.com/amazon"
       },
-      "lastVerified": "2026-05-08T00:00:00Z"
+      "lastVerified": "2026-06-01T00:00:00Z"
     },
     {
       "id": "synchrony-amazon-secured-card",
@@ -8085,7 +8088,7 @@
         "baseEarnRate": "https://www.synchrony.com/amazon",
         "rewardProgram": "https://www.synchrony.com/amazon"
       },
-      "lastVerified": "2026-05-08T00:00:00Z"
+      "lastVerified": "2026-06-01T00:00:00Z"
     },
     {
       "id": "bofa-customized-cash-rewards",
@@ -8128,7 +8131,7 @@
         "earnRates.other": "https://www.bankofamerica.com/credit-cards/products/cash-back-credit-card/",
         "earnRates.groceries": "https://www.bankofamerica.com/credit-cards/products/cash-back-credit-card/"
       },
-      "lastVerified": "2026-05-08T00:00:00Z"
+      "lastVerified": "2026-06-01T00:00:00Z"
     },
     {
       "id": "bofa-unlimited-cash-rewards",
@@ -8148,7 +8151,7 @@
         "baseEarnRate": "https://www.bankofamerica.com/credit-cards/products/unlimited-cash-back-credit-card/",
         "rewardProgram": "https://www.bankofamerica.com/credit-cards/products/unlimited-cash-back-credit-card/"
       },
-      "lastVerified": "2026-05-08T00:00:00Z"
+      "lastVerified": "2026-06-01T00:00:00Z"
     },
     {
       "id": "bofa-bankamericard",
@@ -8168,7 +8171,7 @@
         "baseEarnRate": "https://www.bankofamerica.com/credit-cards/products/bankamericard-credit-card/",
         "rewardProgram": "https://www.bankofamerica.com/credit-cards/products/bankamericard-credit-card/"
       },
-      "lastVerified": "2026-05-08T00:00:00Z"
+      "lastVerified": "2026-06-01T00:00:00Z"
     },
     {
       "id": "bofa-customized-cash-rewards-student",
@@ -8211,7 +8214,7 @@
         "earnRates.other": "https://www.bankofamerica.com/credit-cards/products/student-cash-back-credit-card/",
         "earnRates.groceries": "https://www.bankofamerica.com/credit-cards/products/student-cash-back-credit-card/"
       },
-      "lastVerified": "2026-05-08T00:00:00Z"
+      "lastVerified": "2026-06-01T00:00:00Z"
     },
     {
       "id": "bofa-unlimited-cash-rewards-student",
@@ -8231,7 +8234,7 @@
         "baseEarnRate": "https://www.bankofamerica.com/credit-cards/student-credit-cards/",
         "rewardProgram": "https://www.bankofamerica.com/credit-cards/student-credit-cards/"
       },
-      "lastVerified": "2026-05-08T00:00:00Z"
+      "lastVerified": "2026-06-01T00:00:00Z"
     },
     {
       "id": "bofa-bankamericard-student",
@@ -8251,7 +8254,7 @@
         "baseEarnRate": "https://www.bankofamerica.com/credit-cards/student-credit-cards/",
         "rewardProgram": "https://www.bankofamerica.com/credit-cards/student-credit-cards/"
       },
-      "lastVerified": "2026-05-08T00:00:00Z"
+      "lastVerified": "2026-06-01T00:00:00Z"
     },
     {
       "id": "bofa-customized-cash-rewards-secured",
@@ -8294,7 +8297,7 @@
         "earnRates.other": "https://www.bankofamerica.com/credit-cards/products/cash-back-secured-credit-card/",
         "earnRates.groceries": "https://www.bankofamerica.com/credit-cards/products/cash-back-secured-credit-card/"
       },
-      "lastVerified": "2026-05-08T00:00:00Z"
+      "lastVerified": "2026-06-01T00:00:00Z"
     },
     {
       "id": "bofa-unlimited-cash-rewards-secured",
@@ -8314,7 +8317,7 @@
         "baseEarnRate": "https://www.bankofamerica.com/credit-cards/products/unlimited-cash-back-secured-credit-card/",
         "rewardProgram": "https://www.bankofamerica.com/credit-cards/products/unlimited-cash-back-secured-credit-card/"
       },
-      "lastVerified": "2026-05-08T00:00:00Z"
+      "lastVerified": "2026-06-01T00:00:00Z"
     },
     {
       "id": "capital-one-platinum",
@@ -8334,7 +8337,7 @@
         "baseEarnRate": "https://www.capitalone.com/credit-cards/platinum/",
         "rewardProgram": "https://www.capitalone.com/credit-cards/platinum/"
       },
-      "lastVerified": "2026-05-08T00:00:00Z"
+      "lastVerified": "2026-06-01T00:00:00Z"
     },
     {
       "id": "capital-one-quicksilver",
@@ -8371,7 +8374,7 @@
         "rewardProgram": "https://www.capitalone.com/credit-cards/cash-back/quicksilver/",
         "earnRates.hotels": "https://www.capitalone.com/credit-cards/cash-back/quicksilver/"
       },
-      "lastVerified": "2026-05-08T00:00:00Z"
+      "lastVerified": "2026-06-01T00:00:00Z"
     },
     {
       "id": "capital-one-quicksilverone",
@@ -8408,7 +8411,7 @@
         "rewardProgram": "https://www.capitalone.com/credit-cards/cash-back/quicksilver/",
         "earnRates.hotels": "https://www.capitalone.com/credit-cards/cash-back/quicksilver/"
       },
-      "lastVerified": "2026-05-08T00:00:00Z"
+      "lastVerified": "2026-06-01T00:00:00Z"
     },
     {
       "id": "capital-one-quicksilver-secured",
@@ -8428,7 +8431,7 @@
         "baseEarnRate": "https://www.capitalone.com/credit-cards/quicksilver-secured/",
         "rewardProgram": "https://www.capitalone.com/credit-cards/quicksilver-secured/"
       },
-      "lastVerified": "2026-05-08T00:00:00Z"
+      "lastVerified": "2026-06-01T00:00:00Z"
     },
     {
       "id": "capital-one-ventureone",
@@ -8465,7 +8468,7 @@
         "rewardProgram": "https://www.capitalone.com/credit-cards/ventureone/",
         "earnRates.hotels": "https://www.capitalone.com/credit-cards/ventureone/"
       },
-      "lastVerified": "2026-05-08T00:00:00Z"
+      "lastVerified": "2026-06-01T00:00:00Z"
     },
     {
       "id": "capital-one-savor-student",
@@ -8523,7 +8526,7 @@
         "earnRates.streaming": "https://www.capitalone.com/credit-cards/savor-student/",
         "earnRates.hotels": "https://www.capitalone.com/credit-cards/savor-student/"
       },
-      "lastVerified": "2026-05-08T00:00:00Z"
+      "lastVerified": "2026-06-01T00:00:00Z"
     },
     {
       "id": "capital-one-quicksilver-student",
@@ -8560,7 +8563,7 @@
         "rewardProgram": "https://www.capitalone.com/credit-cards/quicksilver-student/",
         "earnRates.hotels": "https://www.capitalone.com/credit-cards/quicksilver-student/"
       },
-      "lastVerified": "2026-05-08T00:00:00Z"
+      "lastVerified": "2026-06-01T00:00:00Z"
     },
     {
       "id": "capital-one-spark-cash-select",
@@ -8597,7 +8600,7 @@
         "rewardProgram": "https://www.capitalone.com/small-business/credit-cards/spark-cash-select/",
         "earnRates.hotels": "https://www.capitalone.com/small-business/credit-cards/spark-cash-select/"
       },
-      "lastVerified": "2026-05-08T00:00:00Z"
+      "lastVerified": "2026-06-01T00:00:00Z"
     },
     {
       "id": "capital-one-spark-cash-plus",
@@ -8634,7 +8637,7 @@
         "rewardProgram": "https://www.capitalone.com/small-business/credit-cards/spark-cash-plus/",
         "earnRates.hotels": "https://www.capitalone.com/small-business/credit-cards/spark-cash-plus/"
       },
-      "lastVerified": "2026-05-08T00:00:00Z"
+      "lastVerified": "2026-06-01T00:00:00Z"
     },
     {
       "id": "capital-one-spark-miles",
@@ -8684,7 +8687,7 @@
         "earnRates.hotels": "https://www.capitalone.com/small-business/credit-cards/spark-miles/",
         "benefits.global-entry-tsa-precheck-credit": "https://www.capitalone.com/small-business/credit-cards/spark-miles/"
       },
-      "lastVerified": "2026-05-08T00:00:00Z"
+      "lastVerified": "2026-06-01T00:00:00Z"
     },
     {
       "id": "capital-one-spark-miles-select",
@@ -8721,7 +8724,7 @@
         "rewardProgram": "https://www.capitalone.com/small-business/credit-cards/spark-miles-select/",
         "earnRates.hotels": "https://www.capitalone.com/small-business/credit-cards/spark-miles-select/"
       },
-      "lastVerified": "2026-05-08T00:00:00Z"
+      "lastVerified": "2026-06-01T00:00:00Z"
     },
     {
       "id": "usbank-smartly-visa-signature",
@@ -8750,7 +8753,7 @@
         "rewardProgram": "https://www.usbank.com/credit-cards/bank-smartly-visa-signature-credit-card.html",
         "earnRates.other": "https://www.usbank.com/credit-cards/bank-smartly-visa-signature-credit-card.html"
       },
-      "lastVerified": "2026-05-08T00:00:00Z"
+      "lastVerified": "2026-06-01T00:00:00Z"
     },
     {
       "id": "usbank-shield-visa",
@@ -8770,7 +8773,7 @@
         "baseEarnRate": "https://www.usbank.com/credit-cards/shield-visa-credit-card.html",
         "rewardProgram": "https://www.usbank.com/credit-cards/shield-visa-credit-card.html"
       },
-      "lastVerified": "2026-05-08T00:00:00Z"
+      "lastVerified": "2026-06-01T00:00:00Z"
     },
     {
       "id": "usbank-altitude-go",
@@ -8832,7 +8835,7 @@
         "earnRates.streaming": "https://www.usbank.com/credit-cards/altitude-go-visa-signature-credit-card.html",
         "benefits.streaming-service-credit": "https://www.usbank.com/credit-cards/altitude-go-visa-signature-credit-card.html"
       },
-      "lastVerified": "2026-05-08T00:00:00Z"
+      "lastVerified": "2026-06-01T00:00:00Z"
     },
     {
       "id": "usbank-shopper-cash-rewards",
@@ -8882,7 +8885,7 @@
         "rewardProgram": "https://www.usbank.com/credit-cards/shopper-cash-rewards-visa-signature-credit-card.html",
         "earnRates.other": "https://www.usbank.com/credit-cards/shopper-cash-rewards-visa-signature-credit-card.html"
       },
-      "lastVerified": "2026-05-08T00:00:00Z"
+      "lastVerified": "2026-06-01T00:00:00Z"
     },
     {
       "id": "usbank-split-world-mastercard",
@@ -8902,7 +8905,7 @@
         "baseEarnRate": "https://www.usbank.com/credit-cards/split-card-world-mastercard-credit-card.html",
         "rewardProgram": "https://www.usbank.com/credit-cards/split-card-world-mastercard-credit-card.html"
       },
-      "lastVerified": "2026-05-08T00:00:00Z"
+      "lastVerified": "2026-06-01T00:00:00Z"
     },
     {
       "id": "usbank-altitude-go-secured",
@@ -8964,7 +8967,7 @@
         "earnRates.streaming": "https://www.usbank.com/credit-cards/altitude-go-secured-visa-credit-card.html",
         "benefits.streaming-service-credit": "https://www.usbank.com/credit-cards/altitude-go-secured-visa-credit-card.html"
       },
-      "lastVerified": "2026-05-08T00:00:00Z"
+      "lastVerified": "2026-06-01T00:00:00Z"
     },
     {
       "id": "usbank-cash-plus-secured",
@@ -9014,7 +9017,7 @@
         "rewardProgram": "https://www.usbank.com/credit-cards/cash-plus-secured-visa-credit-card.html",
         "earnRates.other": "https://www.usbank.com/credit-cards/cash-plus-secured-visa-credit-card.html"
       },
-      "lastVerified": "2026-05-08T00:00:00Z"
+      "lastVerified": "2026-06-01T00:00:00Z"
     },
     {
       "id": "usbank-secured-visa",
@@ -9034,7 +9037,7 @@
         "baseEarnRate": "https://www.usbank.com/credit-cards/secured-visa-credit-card.html",
         "rewardProgram": "https://www.usbank.com/credit-cards/secured-visa-credit-card.html"
       },
-      "lastVerified": "2026-05-08T00:00:00Z"
+      "lastVerified": "2026-06-01T00:00:00Z"
     },
     {
       "id": "discover-it-chrome",
@@ -9069,7 +9072,7 @@
         "earnRates.gas": "https://www.discover.com/credit-cards/cash-back/chrome.html",
         "earnRates.dining": "https://www.discover.com/credit-cards/cash-back/chrome.html"
       },
-      "lastVerified": "2026-05-08T00:00:00Z"
+      "lastVerified": "2026-06-01T00:00:00Z"
     },
     {
       "id": "discover-it-student-cash-back",
@@ -9105,7 +9108,7 @@
         "rewardProgram": "https://www.discover.com/credit-cards/student-credit-card/it-card.html",
         "earnRates.other": "https://www.discover.com/credit-cards/student-credit-card/it-card.html"
       },
-      "lastVerified": "2026-05-08T00:00:00Z"
+      "lastVerified": "2026-06-01T00:00:00Z"
     },
     {
       "id": "discover-it-student-chrome",
@@ -9140,7 +9143,7 @@
         "earnRates.gas": "https://www.discover.com/credit-cards/student-credit-card/chrome-card.html",
         "earnRates.dining": "https://www.discover.com/credit-cards/student-credit-card/chrome-card.html"
       },
-      "lastVerified": "2026-05-08T00:00:00Z"
+      "lastVerified": "2026-06-01T00:00:00Z"
     },
     {
       "id": "discover-it-secured",
@@ -9175,7 +9178,7 @@
         "earnRates.gas": "https://www.discover.com/credit-cards/secured/",
         "earnRates.dining": "https://www.discover.com/credit-cards/secured/"
       },
-      "lastVerified": "2026-05-08T00:00:00Z"
+      "lastVerified": "2026-06-01T00:00:00Z"
     },
     {
       "id": "discover-it-nhl",
@@ -9211,7 +9214,231 @@
         "rewardProgram": "https://www.discover.com/credit-cards/cash-back/nhl-card.html",
         "earnRates.other": "https://www.discover.com/credit-cards/cash-back/nhl-card.html"
       },
-      "lastVerified": "2026-05-08T00:00:00Z"
+      "lastVerified": "2026-06-01T00:00:00Z"
+    },
+    {
+      "id": "chase-doordash-rewards-mastercard",
+      "cardName": "DoorDash Rewards Mastercard",
+      "issuer": "Chase",
+      "annualFee": 0,
+      "noForeignTransactionFees": true,
+      "earnRates": [
+        {
+          "category": "other",
+          "multiplier": 4,
+          "cap": null,
+          "notes": "DoorDash and Caviar orders, including restaurants, groceries, retail, and more",
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "merchant",
+              "merchant": "DoorDash and Caviar",
+              "label": "DoorDash and Caviar orders only",
+              "details": "4% cash back on all DoorDash and Caviar orders; no earning caps"
+            }
+          ]
+        },
+        {
+          "category": "dining",
+          "multiplier": 3,
+          "cap": null,
+          "notes": "Dining when purchased directly from a restaurant; DoorDash orders earn under the 4% DoorDash rate instead",
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "directBooking",
+              "label": "Direct restaurant purchase only",
+              "details": "3% cash back on dining when purchased directly from a restaurant, not through third-party delivery apps"
+            }
+          ]
+        },
+        {
+          "category": "groceries",
+          "multiplier": 2,
+          "cap": null,
+          "notes": "Grocery stores online or in-store"
+        }
+      ],
+      "baseEarnRate": 1,
+      "rewardProgram": "Cash Back",
+      "affiliateUrl": null,
+      "colorHex": null,
+      "benefits": [],
+      "sources": {
+        "annualFee": "https://creditcards.chase.com/cash-back-credit-cards/doordash",
+        "noForeignTransactionFees": "https://creditcards.chase.com/cash-back-credit-cards/doordash",
+        "baseEarnRate": "https://creditcards.chase.com/cash-back-credit-cards/doordash",
+        "rewardProgram": "https://creditcards.chase.com/cash-back-credit-cards/doordash",
+        "earnRates.other": "https://creditcards.chase.com/cash-back-credit-cards/doordash",
+        "earnRates.dining": "https://creditcards.chase.com/cash-back-credit-cards/doordash",
+        "earnRates.groceries": "https://creditcards.chase.com/cash-back-credit-cards/doordash"
+      },
+      "lastVerified": "2026-06-01T00:00:00Z"
+    },
+    {
+      "id": "chase-british-airways-visa-signature",
+      "cardName": "British Airways Visa Signature",
+      "issuer": "Chase",
+      "annualFee": 95,
+      "noForeignTransactionFees": true,
+      "earnRates": [
+        {
+          "category": "airfare",
+          "multiplier": 3,
+          "cap": null,
+          "notes": "British Airways, Aer Lingus, and Iberia flight purchases",
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "merchant",
+              "merchant": "British Airways, Aer Lingus, Iberia",
+              "label": "Specific airline purchases only",
+              "details": "3 Avios per $1 on British Airways, Aer Lingus, and Iberia flight purchases"
+            }
+          ]
+        },
+        {
+          "category": "hotels",
+          "multiplier": 2,
+          "cap": null,
+          "notes": "Hotel accommodations booked directly with the hotel",
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "directBooking",
+              "label": "Direct hotel booking required",
+              "details": "2 Avios per $1 on hotel accommodations booked directly with the hotel"
+            }
+          ]
+        }
+      ],
+      "baseEarnRate": 1,
+      "rewardProgram": "British Airways Executive Club",
+      "affiliateUrl": null,
+      "colorHex": null,
+      "benefits": [
+        {
+          "name": "Reward Flight Statement Credits",
+          "amount": 600,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Calendar Year",
+          "category": "Travel",
+          "allowsPartialUse": true,
+          "notes": "Up to $600 annually: $100 statement credit per Economy or Premium Economy Reward Flight, $200 per Business or First Class Reward Flight on British Airways, up to 3 credits per calendar year.",
+          "availableMonths": [],
+          "notificationsEnabled": true,
+          "guide": {
+            "whatItIs": "Statement credits of $100 (Economy/Premium Economy) or $200 (Business/First Class) per British Airways Reward Flight, up to 3 times per calendar year.",
+            "howItWorks": [
+              "Book a British Airways Reward Flight using Avios.",
+              "Pay the taxes, fees, and carrier charges with your British Airways Visa Signature Card.",
+              "A $100 or $200 statement credit is applied based on the cabin class booked.",
+              "Up to 3 statement credits per calendar year (max $600 total)."
+            ],
+            "maximizingTips": [
+              "Use Business or First Class Reward Flights to earn the $200 credit each time.",
+              "Book all three eligible Reward Flights per year to capture the full $600."
+            ]
+          }
+        }
+      ],
+      "sources": {
+        "annualFee": "https://creditcards.chase.com/travel-credit-cards/avios/british-airways",
+        "noForeignTransactionFees": "https://creditcards.chase.com/travel-credit-cards/avios/british-airways",
+        "baseEarnRate": "https://creditcards.chase.com/travel-credit-cards/avios/british-airways",
+        "rewardProgram": "https://creditcards.chase.com/travel-credit-cards/avios/british-airways",
+        "earnRates.airfare": "https://creditcards.chase.com/travel-credit-cards/avios/british-airways",
+        "earnRates.hotels": "https://creditcards.chase.com/travel-credit-cards/avios/british-airways",
+        "benefits.reward-flight-statement-credits": "https://creditcards.chase.com/travel-credit-cards/avios/british-airways"
+      },
+      "lastVerified": "2026-06-01T00:00:00Z"
+    },
+    {
+      "id": "chase-instacart-mastercard",
+      "cardName": "Instacart Mastercard",
+      "issuer": "Chase",
+      "annualFee": 0,
+      "noForeignTransactionFees": true,
+      "earnRates": [
+        {
+          "category": "groceries",
+          "multiplier": 5,
+          "cap": 6000,
+          "notes": "Instacart.com and Instacart app purchases, up to first $6,000 spent annually, then 1%",
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "merchant",
+              "merchant": "Instacart",
+              "label": "Instacart purchases only",
+              "details": "5% cash back on Instacart.com and app purchases on first $6,000 annually"
+            }
+          ]
+        },
+        {
+          "category": "travel",
+          "multiplier": 5,
+          "cap": null,
+          "notes": "Chase Travel purchases including flights, hotels, and more",
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "travelPortal",
+              "label": "Chase Travel required",
+              "provider": "Chase Travel",
+              "details": "5% cash back on purchases made through Chase Travel"
+            }
+          ],
+          "appliesToCategories": [
+            "travel",
+            "airfare",
+            "hotels"
+          ]
+        },
+        {
+          "category": "dining",
+          "multiplier": 2,
+          "cap": null,
+          "notes": "Restaurants, including orders on Instacart powered by Uber Eats"
+        },
+        {
+          "category": "gas",
+          "multiplier": 2,
+          "cap": null,
+          "notes": "Gas stations"
+        },
+        {
+          "category": "streaming",
+          "multiplier": 2,
+          "cap": null,
+          "notes": "Select streaming services",
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "merchant",
+              "label": "Select streaming services only",
+              "details": "2% cash back on select streaming services"
+            }
+          ]
+        }
+      ],
+      "baseEarnRate": 1,
+      "rewardProgram": "Cash Back",
+      "affiliateUrl": null,
+      "colorHex": null,
+      "benefits": [],
+      "sources": {
+        "annualFee": "https://creditcards.chase.com/cash-back-credit-cards/instacart",
+        "noForeignTransactionFees": "https://creditcards.chase.com/cash-back-credit-cards/instacart",
+        "baseEarnRate": "https://creditcards.chase.com/cash-back-credit-cards/instacart",
+        "rewardProgram": "https://creditcards.chase.com/cash-back-credit-cards/instacart",
+        "earnRates.groceries": "https://creditcards.chase.com/cash-back-credit-cards/instacart",
+        "earnRates.travel": "https://creditcards.chase.com/cash-back-credit-cards/instacart",
+        "earnRates.dining": "https://creditcards.chase.com/cash-back-credit-cards/instacart",
+        "earnRates.gas": "https://creditcards.chase.com/cash-back-credit-cards/instacart",
+        "earnRates.streaming": "https://creditcards.chase.com/cash-back-credit-cards/instacart"
+      },
+      "lastVerified": "2026-06-01T00:00:00Z"
     }
   ]
 }
