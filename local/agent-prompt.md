@@ -155,7 +155,39 @@ available:
 - `baseEarnRate`
 - `rewardProgram`
 - recurring measurable `benefits`
+- `signupBonus`, the current public welcome offer (see rules below)
 - `discontinued`, when the issuer no longer offers the card
+
+### Signup bonus (`signupBonus`)
+
+When the issuer publicly advertises a welcome/signup offer on an approved
+source, record it as a `signupBonus` object. Store the raw offer — clients
+value it with their own reward-program cents-per-point model, so do NOT
+pre-compute a dollar value.
+
+```json
+"signupBonus": {
+  "amount": 60000,
+  "kind": "points",
+  "minSpend": 4000,
+  "withinMonths": 3,
+  "notes": "60,000 Membership Rewards points after $4,000 in 3 months"
+}
+```
+
+- `amount`: the points/miles for `kind: "points"`, or US dollars for
+  `kind: "cash"` (statement-credit / cash-back welcome offers).
+- `kind`: `"points"` or `"cash"`.
+- `minSpend`: spend requirement in US dollars.
+- `withinMonths`: months allowed to meet `minSpend` (integer).
+- `notes`: short human-readable summary of the exact offer.
+- Add a matching `sources.signupBonus` citation on an approved domain.
+- Welcome offers change often. If the current published offer differs from
+  what's stored, update it. If no offer is currently advertised (or you
+  can't cite one), omit `signupBonus` rather than guessing — a stale or
+  invented bonus is worse than none.
+- Elevated/limited-time offers are fine to record while live; the monthly
+  re-verification will correct them back to the standard offer when they end.
 
 For earn rates, map issuer language to this exact category enum:
 

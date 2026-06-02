@@ -206,6 +206,12 @@ for (const card of cards.cards || []) {
     validateSourcePresent(card, benefitSourceKey(benefit.name));
     validateBenefitCategory(card, benefit);
   }
+
+  // A populated signup bonus must be cited, same rule as every other field.
+  // Schema (Ajv) already enforces the object shape; this enforces the citation.
+  if (card.signupBonus != null) {
+    validateSourcePresent(card, "signupBonus");
+  }
 }
 
 function validateBenefitCategory(card, benefit) {

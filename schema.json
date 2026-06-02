@@ -73,11 +73,37 @@
         },
         "discontinued": { "type": "boolean" },
         "lastVerified": { "type": "string", "format": "date-time" },
+        "signupBonus": { "$ref": "#/$defs/signupBonus" },
         "sources": {
           "type": "object",
           "additionalProperties": { "$ref": "#/$defs/sourceRef" },
           "description": "Map from field path (e.g. 'annualFee' or 'benefits.uber-cash') to citation URL(s). Any value listed here must be on the issuer's own domain and return HTTP 2xx."
         }
+      }
+    },
+    "signupBonus": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["amount", "kind", "minSpend", "withinMonths"],
+      "description": "Welcome/signup offer. Stored raw so clients value it with their own reward-program cents-per-point model. Must be cited via sources.signupBonus.",
+      "properties": {
+        "amount": {
+          "type": "number",
+          "exclusiveMinimum": 0,
+          "description": "Points/miles when kind=points, or US dollars when kind=cash."
+        },
+        "kind": { "type": "string", "enum": ["points", "cash"] },
+        "minSpend": {
+          "type": "number",
+          "minimum": 0,
+          "description": "Spend required to earn the bonus, in US dollars."
+        },
+        "withinMonths": {
+          "type": "integer",
+          "exclusiveMinimum": 0,
+          "description": "Months allowed to meet minSpend."
+        },
+        "notes": { "type": ["string", "null"] }
       }
     },
     "sourceRef": {
