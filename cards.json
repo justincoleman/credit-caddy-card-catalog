@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "version": "2026.06.02",
-  "lastUpdated": "2026-06-02T21:23:03Z",
+  "version": "2026.06.03",
+  "lastUpdated": "2026-06-03T00:00:00Z",
   "cards": [
     {
       "id": "american-express-platinum-card",
@@ -2611,6 +2611,11 @@
               "type": "rotatingCategory",
               "label": "Rotating quarterly categories",
               "details": "Rotating quarterly categories, up to $1,500/quarter then 1%"
+            },
+            {
+              "type": "activationRequired",
+              "label": "Activate each quarter",
+              "details": "Activate the rotating 5% categories each quarter to earn the bonus rate"
             }
           ]
         }
