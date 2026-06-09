@@ -44,12 +44,6 @@
               "details": "Prepaid hotels booked via Amex Travel, up to $500,000 per calendar year, then 1x"
             }
           ]
-        },
-        {
-          "category": "dining",
-          "multiplier": 1,
-          "cap": null,
-          "notes": "All eligible dining purchases"
         }
       ],
       "baseEarnRate": 1,
@@ -392,7 +386,6 @@
         "rewardProgram": "https://www.americanexpress.com/us/credit-cards/card/platinum/",
         "earnRates.airfare": "https://www.americanexpress.com/us/credit-cards/card/platinum/",
         "earnRates.hotels": "https://www.americanexpress.com/us/credit-cards/card/platinum/",
-        "earnRates.dining": "https://www.americanexpress.com/us/credit-cards/card/platinum/",
         "benefits.uber-cash": "https://www.americanexpress.com/us/credit-cards/card/platinum/",
         "benefits.uber-cash-december-bonus": "https://www.americanexpress.com/us/credit-cards/card/platinum/",
         "benefits.digital-entertainment-credit": "https://www.americanexpress.com/us/credit-cards/card/platinum/",
