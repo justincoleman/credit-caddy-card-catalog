@@ -52,7 +52,11 @@ See [`schema.json`](schema.json) for the authoritative spec. Summary:
       "rewardProgram": "American Express Membership Rewards",
       "affiliateUrl": null,
       "colorHex": "BFC0C0",
-      "benefits": [ /* ... */ ],
+      "benefits": [ /* ... each may carry an optional editorial "guide" ... */ ],
+      "cardGuide": {                     // optional, curated editorial (not agent-maintained)
+        "overview": "How to think about this card…",
+        "sections": [ { "title": "Is the fee worth it?", "points": ["…"] } ]
+      },
       "discontinued": false,             // optional
       "lastVerified": "2026-04-24T12:00:00Z",  // optional; set by the agent on re-verify
       "sources": {                       // optional; set by the agent per changed/new field
@@ -65,6 +69,8 @@ See [`schema.json`](schema.json) for the authoritative spec. Summary:
 ```
 
 `sources.annualFee` may be a single URL (unchanged) or an array of exactly two URLs (on change — see the two-citation rule).
+
+**Editorial content.** `benefits[].guide` (whatItIs / howItWorks / maximizingTips) and the card-level `cardGuide` are curated by hand from research — they answer "how do I get the most out of this card?" The monthly issuer-verification agent **preserves them verbatim and never authors or overwrites them**; it only verifies factual fields (fees, rates, benefit existence, signup bonus) against issuer sources. They're exempt from the issuer-only citation rule.
 
 ## Source of truth rules
 
