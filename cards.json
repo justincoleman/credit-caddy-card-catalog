@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "version": "2026.06.03",
-  "lastUpdated": "2026-06-03T00:00:00Z",
+  "version": "2026.06.09",
+  "lastUpdated": "2026-06-09T00:00:00Z",
   "cards": [
     {
       "id": "american-express-platinum-card",
@@ -75,8 +75,9 @@
               "The regular monthly amount resets each month; the separate December bonus is tracked as its own benefit."
             ],
             "maximizingTips": [
-              "Check the Uber app early each month so you know the credit landed.",
-              "Use it for Uber Eats pickup when you are not taking rides."
+              "Set the Platinum as your payment method INSIDE the Uber app — just adding the card number won't trigger the monthly Uber Cash.",
+              "It's use-it-or-lose-it each month. No rides coming up? Spend it on Uber Eats (pickup avoids delivery fees).",
+              "Gift-card balances in your Uber wallet can get spent before your Amex Cash — check the wallet so the credit isn't stranded."
             ]
           }
         },
@@ -100,8 +101,8 @@
               "This bonus is seasonal and should be used before the December window ends."
             ],
             "maximizingTips": [
-              "Treat this as a holiday-month deadline item and use it before travel or end-of-year plans get busy.",
-              "If the regular monthly credit is still unused, plan one larger Uber or Uber Eats transaction to use both balances together."
+              "December stacks an extra bonus on top of the usual monthly Uber Cash — plan a bigger Uber or Uber Eats spend that month.",
+              "Same rule as always: pay with the Platinum set as your in-app Uber payment method, and use the Uber Cash before month-end."
             ]
           }
         },
@@ -118,13 +119,13 @@
           "guide": {
             "whatItIs": "A monthly statement credit for eligible digital entertainment subscriptions and purchases with participating providers.",
             "howItWorks": [
-              "If the issuer requires enrollment, enroll before relying on the credit.",
-              "Pay the eligible provider directly with the Platinum Card; third-party billing may not qualify.",
-              "Plan to use it before the monthly reset; unused monthly value typically does not roll over."
+              "Enroll the specific service(s) in the Amex Benefits portal first.",
+              "Pay with the Platinum for eligible services (Disney+, Hulu, ESPN+, Peacock, NYT, WSJ, and more).",
+              "The credit is a single monthly cap across ALL eligible services combined — not per service."
             ],
             "maximizingTips": [
-              "Put one or two recurring subscriptions on the card instead of trying to remember ad hoc purchases.",
-              "Check provider eligibility before moving subscriptions, especially if you currently pay through Apple, Google, Roku, or another platform."
+              "The cap is a TOTAL across every eligible service, not per service — pick a mix that adds up to the monthly max.",
+              "Enroll a service, wait for the first credit to confirm, then you're free to switch services later."
             ]
           }
         },
@@ -146,8 +147,8 @@
               "Annual Walmart+ plans and some Plus Ups may not qualify."
             ],
             "maximizingTips": [
-              "Use a monthly membership instead of an annual plan if you want the credit to offset it.",
-              "Set the Platinum Card as the payment method before the renewal charge runs."
+              "No enrollment needed — just pay for Walmart+ MONTHLY (not the annual plan) with the Platinum and the whole charge is refunded.",
+              "Walmart+ bundles a Paramount+ or Peacock plan plus a 10¢/gallon fuel discount — don't pay separately for that streaming."
             ]
           }
         },
@@ -169,8 +170,8 @@
               "Track it as a subscription-style benefit so you can confirm the charge and credit line up."
             ],
             "maximizingTips": [
-              "Only keep the membership if the fees and benefits make sense for your actual Uber or Uber Eats usage.",
-              "Pair this with monthly Uber Cash if Uber is already part of your routine."
+              "Pay the Uber One membership fee with the Platinum to cover it — it stacks on top of your monthly Uber Cash.",
+              "Uber One adds $0 delivery fees and member discounts, so it stretches the Uber Cash you're already getting."
             ]
           }
         },
@@ -192,8 +193,8 @@
               "The credit resets quarterly, so unused value from one quarter should not be assumed to carry forward."
             ],
             "maximizingTips": [
-              "Spread purchases across quarters when possible instead of using the whole annual value at once.",
-              "Check exclusions such as outlet or third-party purchases before counting on the credit."
+              "lululemon stopped selling gift cards online — buy $50 or $100 IN-STORE (or buy items) to reach the quarterly credit.",
+              "Enroll before you buy, and use it every quarter — the credit doesn't roll over."
             ]
           }
         },
@@ -210,13 +211,13 @@
           "guide": {
             "whatItIs": "A quarterly statement credit for eligible U.S. Resy restaurant purchases.",
             "howItWorks": [
-              "If the issuer requires enrollment, enroll before relying on the credit.",
-              "Use the Platinum Card at eligible U.S. Resy restaurants or for other eligible Resy purchases.",
-              "The credit resets quarterly and posts after Amex recognizes the eligible charge."
+              "Enroll in the Amex Benefits portal first.",
+              "Pay with the Platinum at any U.S. Resy-listed restaurant — a reservation is NOT required.",
+              "The credit resets quarterly and posts after Amex recognizes the charge."
             ],
             "maximizingTips": [
-              "Search Resy for restaurants you already like, then use the credit on normal dining instead of manufacturing a meal.",
-              "Use it before the final week of the quarter in case the charge or credit takes time to post."
+              "You don't need a reservation — the credit triggers at ANY Resy-listed restaurant, and many are everyday spots. Check the Resy app to see which of your regulars qualify.",
+              "Buying a gift card in-store at a Resy restaurant usually triggers it too. Use it before the final week of the quarter so the charge has time to post."
             ]
           }
         },
@@ -231,15 +232,15 @@
           "availableMonths": [],
           "notificationsEnabled": true,
           "guide": {
-            "whatItIs": "A semiannual statement credit for eligible Saks Fifth Avenue purchases.",
+            "whatItIs": "A semiannual Saks Fifth Avenue statement credit. Note: Amex is ending this benefit on July 1, 2026.",
             "howItWorks": [
               "If the issuer requires enrollment, enroll before relying on the credit.",
               "Use the Platinum Card for eligible Saks purchases online or in store.",
               "The credit resets every six months; unused value from one half of the year should not be assumed to roll into the next."
             ],
             "maximizingTips": [
-              "Plan one small useful purchase per half-year rather than shopping just to avoid losing the credit.",
-              "Watch shipping, returns, and timing so the eligible charge lands inside the correct period."
+              "Heads up — this credit ends July 1, 2026. Use your remaining half-year windows before then.",
+              "Buy a $100 Saks gift card (covers two $50 windows) in one trip to bank both halves, then spend it across the year. Enroll first; check the sale section for value."
             ]
           }
         },
@@ -261,8 +262,8 @@
               "Eligible incidental fees can include things like checked bags or in-flight refreshments, but airline tickets and many upgrades may not qualify."
             ],
             "maximizingTips": [
-              "Select the airline you are most likely to use for real incidental fees this year.",
-              "Make the charge directly with the selected airline and allow time for the credit to post."
+              "Pre-select your airline in the Amex portal BEFORE the charge posts — it won't apply retroactively, and you can only change carriers once a year.",
+              "It covers incidental fees (checked bags, seat upgrades, some award booking fees), not tickets. Airlines code charges differently — test with a small fee first to confirm it reimburses."
             ]
           }
         },
@@ -284,8 +285,8 @@
               "The credit resets every six months, so timing the prepaid charge matters."
             ],
             "maximizingTips": [
-              "Compare the Amex Travel prepaid price against booking direct before assuming the credit is pure savings.",
-              "Use it for a stay you already want, especially when the property benefits also matter to you."
+              "Book Fine Hotels + Resorts (or The Hotel Collection, 2+ nights). FHR uniquely earns hotel loyalty points AND elite perks on a third-party booking — rare and valuable.",
+              "Most prepaid FHR rates are refundable, so you can book to capture the credit and adjust later. Deal tools like MaxFHR help find the strongest values."
             ]
           }
         },
@@ -307,8 +308,8 @@
               "CLEAR Plus availability and usefulness depend on airports and venues you actually use."
             ],
             "maximizingTips": [
-              "Make sure CLEAR is useful at your regular airports before valuing the credit at full face value.",
-              "If you already have CLEAR through another card or promotion, avoid duplicating the same membership charge."
+              "It applies automatically once you pay the CLEAR+ membership with the Platinum — no enrollment needed.",
+              "Unused credit can cover a family member or friend's CLEAR membership on your account, so it never goes to waste. CLEAR isn't at every airport yet — confirm your home airport has it."
             ]
           }
         },
@@ -330,8 +331,8 @@
               "The credit is annual, so track both the charge timing and the amount already used."
             ],
             "maximizingTips": [
-              "Only count this at full value if Equinox is already part of your routine.",
-              "Confirm the exact membership or app product is eligible before switching payment methods."
+              "Use it on Equinox+ (digital) or a club membership — or put the full amount toward a SoulCycle at-home bike. Enroll first.",
+              "Equinox+ includes a 7-day trial; enroll mid-month to stretch a 12-month membership across two calendar years of credits."
             ]
           }
         },
@@ -353,8 +354,8 @@
               "This is best treated as a once-per-year hardware or wellness purchase credit, not a monthly credit."
             ],
             "maximizingTips": [
-              "Use it only if you actually want an Oura product; otherwise the credit can create unnecessary spend.",
-              "Check model, merchant, and purchase-channel eligibility before counting on the statement credit."
+              "Only purchases on ouraring.com qualify — enroll BEFORE you buy to guarantee the credit posts.",
+              "It's an annual credit, so time a ring or accessory purchase to use the full amount in one go."
             ]
           }
         },
@@ -376,8 +377,8 @@
               "You can use the card to pay an eligible application fee for yourself or another person."
             ],
             "maximizingTips": [
-              "Global Entry includes TSA PreCheck for eligible travelers, so it may be the better choice if you travel internationally.",
-              "Track the renewal window because this is not an annual benefit in practice."
+              "It only resets every ~4 years. If your membership is still current, pay for a family member's Global Entry/TSA PreCheck application instead of letting the credit lapse.",
+              "Charge the application or renewal fee directly to the Platinum and the credit posts automatically."
             ]
           }
         }
@@ -413,6 +414,48 @@
         "minSpend": 8000,
         "withinMonths": 6,
         "notes": "80,000 Membership Rewards points after $8,000 in 6 months"
+      },
+      "cardGuide": {
+        "overview": "The Platinum is a coupon book, not a cash-back card — its real value is $1,500+ in credits you'll only capture if you work them. You don't need every credit to come out ahead, but you do need a system.",
+        "sections": [
+          {
+            "title": "Is the $895 fee worth it?",
+            "points": [
+              "You don't need every credit. The airline credit + a hotel credit + any two others (Resy, Saks, lululemon, Equinox, Oura) already clears ~$1,500 — comfortably past the $895 fee.",
+              "Most credits split into monthly or quarterly chunks (Uber, Resy, entertainment, lululemon). Those are the ones people lose — set reminders so each period's value doesn't expire.",
+              "Be honest about which credits you'll actually use. If it's only one or two, a cheaper card likely nets you more."
+            ]
+          },
+          {
+            "title": "Lounge access — where the value hides",
+            "points": [
+              "Centurion Lounges: you get in free, but your 2 guests are only free after $75K in annual spend — otherwise you pay per guest.",
+              "Delta SkyClubs: capped at 10 visits/year unless you spend $75K in the same or prior calendar year, which unlocks unlimited.",
+              "Priority Pass via Platinum does NOT include restaurants or spas. If you want those, carry a Priority Pass from a different card.",
+              "Amex-owned lounges (Escape, Airspace, Plaza Premium) include you + 2 guests free with no spend threshold — use them freely."
+            ]
+          },
+          {
+            "title": "Membership Rewards points",
+            "points": [
+              "Don't cash out (~0.6¢/pt). Transfer to airline partners (Aeroplan, ANA, Virgin Atlantic, Cathay) for 1–2¢+ — hold your points until you find a specific sweet-spot award.",
+              "You earn 5x on flights booked directly with the airline or via Amex Travel, and 5x on prepaid hotels via amextravel.com. Everything else is 1x — put non-bonus spend on a better-earning card."
+            ]
+          },
+          {
+            "title": "Authorized-user trick",
+            "points": [
+              "Adding an authorized user ($195) gives them lounge access too. Some add a partner before a big trip to double Centurion guest access, then remove them before the next renewal."
+            ]
+          },
+          {
+            "title": "Before you start: enroll",
+            "points": [
+              "Most credits won't trigger until you enroll in the Amex Benefits portal — airline, Resy, lululemon, digital entertainment, Equinox, Oura, and Saks all require it.",
+              "There's usually no confirmation email. Enroll, then check the portal ~24 hours later to confirm the benefit is actually active."
+            ]
+          }
+        ]
       }
     },
     {

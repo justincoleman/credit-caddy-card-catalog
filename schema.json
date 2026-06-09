@@ -74,6 +74,7 @@
         "discontinued": { "type": "boolean" },
         "lastVerified": { "type": "string", "format": "date-time" },
         "signupBonus": { "$ref": "#/$defs/signupBonus" },
+        "cardGuide": { "$ref": "#/$defs/cardGuide" },
         "sources": {
           "type": "object",
           "additionalProperties": { "$ref": "#/$defs/sourceRef" },
@@ -290,6 +291,30 @@
         { "required": ["howItWorks"] },
         { "required": ["maximizingTips"] }
       ]
+    },
+    "cardGuideSection": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["title", "points"],
+      "properties": {
+        "title": { "type": "string", "minLength": 1 },
+        "points": {
+          "type": "array",
+          "items": { "type": "string", "minLength": 1 }
+        }
+      }
+    },
+    "cardGuide": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "Card-wide 'how to get the most out of this card' guidance: fee math, points strategy, lounges, enrollment.",
+      "properties": {
+        "overview": { "type": ["string", "null"], "minLength": 1 },
+        "sections": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/cardGuideSection" }
+        }
+      }
     }
   }
 }
