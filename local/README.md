@@ -10,9 +10,12 @@ WAF/proxy-pool blocking we hit from cloud IPs against issuer sites.
 | --- | --- |
 | `agent-prompt.md` | The canonical prompt the agent receives. Single source of truth. References `$FIRECRAWL_API_KEY` from the environment — never holds the key directly. |
 | `run-agent.sh` | Wrapper: sources secrets, refreshes the repo, runs `claude -p`, logs to `~/Library/Logs/credit-caddy-agent/`. |
+| `watch-news.sh` | Daily news watcher carrying the 48h SLA: free RSS keyword pass against catalog card names, then a Haiku triage pass ($1 cap) only when a headline matches — files `data-report` issues, never edits data. Test with `DRY_RUN=1 ./watch-news.sh`. |
+| `watcher-prompt.md` | Prompt for the watcher's triage pass. |
 | `com.creditcaddy.catalog-agent.plist.template` | launchd job spec — fires monthly on the 1st at 08:00 local. |
-| `install.sh` | Renders the plist with your `$HOME` path and loads the launchd job. |
-| `uninstall.sh` | Unloads + removes the plist. Preserves logs. |
+| `com.creditcaddy.news-watcher.plist.template` | launchd job spec — fires daily at 09:15 local. |
+| `install.sh` | Renders both plists with your `$HOME` path and loads the launchd jobs. |
+| `uninstall.sh` | Unloads + removes both plists. Preserves logs. |
 | `secrets.env.example` | Template for the secrets file you create at `~/.config/credit-caddy/secrets.env` (NOT in this repo). |
 
 ## Prerequisites on the Mac mini

@@ -28,7 +28,7 @@ The changelog above is the public record against these targets:
 | Quarterly rotating 5% categories | Published in `rotating-categories.json` **before the activation window opens** |
 | Everything else | Caught by the monthly full-catalog audit (1st of the month) |
 
-Major-change awareness comes from issuer announcements and points-press coverage (Doctor of Credit, Frequent Miler); a hotfix lands as a normal PR through the same validation gate, without waiting for the monthly run.
+Detection runs on three channels: a daily news watcher (`local/watch-news.sh`) that scans points-press RSS feeds (Doctor of Credit, Frequent Miler, TPG) for headlines matching catalog cards and files a `data-report` issue when it finds a concrete change; community reports via the issue template; and the monthly full audit as the floor for quiet changes that never make the news. A hotfix lands as a normal PR through the same validation gate, without waiting for the monthly run.
 
 ## Agent scope
 
