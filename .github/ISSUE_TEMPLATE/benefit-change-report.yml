@@ -1,0 +1,47 @@
+name: Benefit change report
+description: Report a card benefit, credit, fee, or earn rate that changed or looks wrong in the catalog.
+title: "[card name]: [what changed]"
+labels: ["data-report"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping keep the catalog fresh. Reports with an issuer source link get verified and merged fastest — major changes typically land within 48 hours.
+  - type: input
+    id: card
+    attributes:
+      label: Card
+      description: Which card is affected?
+      placeholder: e.g. Amex Platinum, Chase Sapphire Reserve
+    validations:
+      required: true
+  - type: dropdown
+    id: change-type
+    attributes:
+      label: What kind of change?
+      options:
+        - Statement credit added / removed / amount changed
+        - Annual fee changed
+        - Earn rate changed
+        - Signup bonus changed
+        - Card discontinued or renamed
+        - Rotating 5% category update
+        - Something else
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: What changed?
+      description: What does the catalog say today, and what should it say?
+      placeholder: "The catalog shows a $200 airline fee credit, but Amex replaced it with a $300 travel credit effective June 1."
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Issuer source link
+      description: A URL on the issuer's own site that shows the new value. Catalog rules require issuer-domain citations, so this is the fastest path to a fix.
+      placeholder: https://www.americanexpress.com/...
+    validations:
+      required: false

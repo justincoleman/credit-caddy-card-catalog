@@ -15,6 +15,20 @@ This repo is the source of truth for the in-app card catalog. The iOS client fet
 - **Every mutable field requires a citation.** The agent writes a `sources` map on each card whose URLs point back to the issuer's domain. If the agent can't cite a value on a given run, it leaves the prior value in place.
 - **Annual fee changes require two independent citations** on the issuer's domain.
 - **Nothing gets deleted.** Cards that go away are marked `discontinued: true`; they stay in the catalog so that users who still have the card continue to have their stable id resolve.
+- **Every data PR updates [`CHANGELOG.md`](CHANGELOG.md).** One entry per change, written for app users, under a heading matching the catalog `version` tag. The changelog is the public freshness record the app markets on; a data merge without a changelog entry is incomplete.
+
+## Freshness commitments
+
+The changelog above is the public record against these targets:
+
+| Trigger | Target |
+| --- | --- |
+| Major issuer changes (benefit refresh, fee change on a flagship card — e.g. an Amex Platinum or CSR refresh) | Reflected on `main` within **48 hours** of the issuer's announcement |
+| Community reports via the [benefit change report](.github/ISSUE_TEMPLATE/benefit-change-report.yml) issue template, with an issuer source link | Verified and merged within **48 hours** |
+| Quarterly rotating 5% categories | Published in `rotating-categories.json` **before the activation window opens** |
+| Everything else | Caught by the monthly full-catalog audit (1st of the month) |
+
+Major-change awareness comes from issuer announcements and points-press coverage (Doctor of Credit, Frequent Miler); a hotfix lands as a normal PR through the same validation gate, without waiting for the monthly run.
 
 ## Agent scope
 
@@ -27,6 +41,7 @@ sources, and opens a PR only when catalog data changes.
 | File | Purpose |
 | --- | --- |
 | `cards.json` | The live catalog the iOS app consumes |
+| `CHANGELOG.md` | Public record of every data change, newest first |
 | `schema.json` | JSON Schema used by the PR validation workflow |
 | `scripts/audit_card_catalog.py` | Local optimizer-readiness audit for source coverage, verification coverage, and earn-rate quality |
 | `.github/workflows/validate.yml` | Validates every PR: schema, sanity ranges, issuer-domain sources, link-rot |

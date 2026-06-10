@@ -396,6 +396,14 @@ Do not open a PR where `cards.json` data differs from `origin/main` but either
 `version` or `lastUpdated` failed to advance; the validator should block this,
 and the app may otherwise keep stale cached card data.
 
+When card data changed, also prepend an entry to `CHANGELOG.md` under a
+`## <version>` heading (matching the new `version` tag). One bullet per
+user-visible change, written for app users, plain language — name the card and
+what changed (e.g. "Amex Platinum: airline fee credit replaced by $300 travel
+credit"). The changelog is the public freshness record; a data PR without a
+changelog entry is incomplete. Internal-only changes (sources backfill,
+`lastVerified` bumps with no value changes) get a single summary bullet.
+
 ### Step 6: Validate locally
 
 Run both gates before opening a PR:
