@@ -4,6 +4,19 @@ Every data change to `cards.json` or `rotating-categories.json` gets an entry he
 
 Dates are the catalog `version` tag (`YYYY.MM.DD`). Same-day follow-ups share a heading.
 
+## 2026.06.10
+
+- Chase Sapphire Preferred: signup bonus updated to 75,000 points after $5,000 in 3 months (was 60,000 / $4,000).
+- Chase Sapphire Reserve: signup bonus updated to 125,000 points after $6,000 in 3 months (was 100,000 / $5,000).
+- Amex Gold Card: signup bonus updated to up to 100,000 Membership Rewards points after $8,000 in 6 months (was 60,000 / $6,000).
+- Amex Platinum Card: signup bonus updated to up to 175,000 Membership Rewards points after $12,000 in 6 months (was 80,000 / $8,000).
+- Capital One SavorOne: annual fee updated to $39 (was $0).
+- Citi Strata Elite: added signup bonus — 75,000 ThankYou Points after $6,000 in 3 months.
+- Citi AAdvantage Globe: added signup bonus — 90,000 AAdvantage miles after $5,000 in 4 months.
+- Citi AAdvantage Platinum Select: added signup bonus — 80,000 AAdvantage miles after $3,500 in 4 months.
+- Citi Strata: added signup bonus — 20,000 ThankYou Points after $1,000 in 3 months.
+- Re-verified 20 cards across Chase, Amex, Capital One, and Citi; sources and lastVerified refreshed.
+
 ## 2026.06.09
 
 - Amex Platinum: added card-level guide content and richer per-benefit tips.
