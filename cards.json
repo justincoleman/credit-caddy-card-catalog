@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "version": "2026.07.01",
-  "lastUpdated": "2026-07-01T00:00:00Z",
+  "version": "2026.07.02",
+  "lastUpdated": "2026-07-02T00:00:00Z",
   "cards": [
     {
       "id": "american-express-platinum-card",
@@ -3321,7 +3321,13 @@
               "Use it on travel you were already going to book and compare Capital One Travel pricing against booking direct.",
               "Because it is portal-based, do not assume every travel purchase outside Capital One Travel will qualify."
             ]
-          }
+          },
+          "merchantPatterns": [
+            "CAPITAL ONE TRAVEL",
+            "CAPITALONE TRAVEL",
+            "CAP ONE TRAVEL",
+            "CAPITAL ONE TRVL"
+          ]
         },
         {
           "name": "Anniversary Bonus (10K miles)",
@@ -3356,7 +3362,13 @@
           "allowsPartialUse": true,
           "notes": "Every 4 years",
           "availableMonths": [],
-          "notificationsEnabled": true
+          "notificationsEnabled": true,
+          "merchantPatterns": [
+            "GLOBAL ENTRY",
+            "TSA PRECHECK",
+            "US CUSTOMS",
+            "CBP"
+          ]
         }
       ],
       "sources": {
@@ -3488,7 +3500,13 @@
           "allowsPartialUse": true,
           "notes": "Bookings via Capital One Travel",
           "availableMonths": [],
-          "notificationsEnabled": true
+          "notificationsEnabled": true,
+          "merchantPatterns": [
+            "CAPITAL ONE TRAVEL",
+            "CAPITALONE TRAVEL",
+            "CAP ONE TRAVEL",
+            "CAPITAL ONE TRVL"
+          ]
         },
         {
           "name": "Global Entry/TSA PreCheck Credit",
@@ -3499,7 +3517,13 @@
           "allowsPartialUse": true,
           "notes": "Every 4 years",
           "availableMonths": [],
-          "notificationsEnabled": true
+          "notificationsEnabled": true,
+          "merchantPatterns": [
+            "GLOBAL ENTRY",
+            "TSA PRECHECK",
+            "US CUSTOMS",
+            "CBP"
+          ]
         }
       ],
       "sources": {
@@ -3731,7 +3755,11 @@
               "Use it for a hotel stay you already need, not for a booking that costs more just because it goes through the portal.",
               "Compare portal pricing against booking direct before valuing the credit at face value."
             ]
-          }
+          },
+          "merchantPatterns": [
+            "CHASE TRAVEL",
+            "TRIPCHRG"
+          ]
         }
       ],
       "sources": {
@@ -3831,7 +3859,10 @@
           "allowsPartialUse": true,
           "notes": null,
           "availableMonths": [],
-          "notificationsEnabled": true
+          "notificationsEnabled": true,
+          "merchantPatterns": [
+            "LYFT"
+          ]
         },
         {
           "name": "Peloton Credit",
@@ -3842,7 +3873,10 @@
           "allowsPartialUse": true,
           "notes": null,
           "availableMonths": [],
-          "notificationsEnabled": true
+          "notificationsEnabled": true,
+          "merchantPatterns": [
+            "PELOTON"
+          ]
         },
         {
           "name": "DoorDash Credit",
@@ -3853,7 +3887,10 @@
           "allowsPartialUse": true,
           "notes": "Through 12/31/2027",
           "availableMonths": [],
-          "notificationsEnabled": true
+          "notificationsEnabled": true,
+          "merchantPatterns": [
+            "DOORDASH"
+          ]
         },
         {
           "name": "The Edit Hotel Credit",
@@ -3876,7 +3913,10 @@
               "Compare the Chase Travel prepaid price against booking direct before treating the credit as full savings.",
               "Use it on a stay you were already planning so the two-night requirement does not force extra spend."
             ]
-          }
+          },
+          "merchantPatterns": [
+            "THE EDIT"
+          ]
         },
         {
           "name": "The Edit Hotel Credit (Second Booking)",
@@ -3910,7 +3950,10 @@
           "allowsPartialUse": true,
           "notes": null,
           "availableMonths": [],
-          "notificationsEnabled": true
+          "notificationsEnabled": true,
+          "merchantPatterns": [
+            "SAPPHIRE TABLES"
+          ]
         },
         {
           "name": "StubHub Credit",
@@ -3921,7 +3964,11 @@
           "allowsPartialUse": true,
           "notes": "Through 12/31/2027",
           "availableMonths": [],
-          "notificationsEnabled": true
+          "notificationsEnabled": true,
+          "merchantPatterns": [
+            "STUBHUB",
+            "VIAGOGO"
+          ]
         },
         {
           "name": "Travel Credit",
@@ -3944,7 +3991,11 @@
               "This is usually easy to use naturally if you put common travel purchases on the card.",
               "Track it early in the cardmember year so you know when travel purchases stop being offset by the credit."
             ]
-          }
+          },
+          "merchantPatterns": [
+            "CHASE TRAVEL",
+            "TRIPCHRG"
+          ]
         },
         {
           "name": "Select Chase Travel Hotel Credit",
@@ -3988,7 +4039,13 @@
           "allowsPartialUse": true,
           "notes": "Every 4 years",
           "availableMonths": [],
-          "notificationsEnabled": true
+          "notificationsEnabled": true,
+          "merchantPatterns": [
+            "GLOBAL ENTRY",
+            "TSA PRECHECK",
+            "US CUSTOMS",
+            "CBP"
+          ]
         }
       ],
       "sources": {
@@ -5184,7 +5241,10 @@
           "allowsPartialUse": true,
           "notes": null,
           "availableMonths": [],
-          "notificationsEnabled": true
+          "notificationsEnabled": true,
+          "merchantPatterns": [
+            "BLACKLANE"
+          ]
         },
         {
           "name": "Hotel Credit",
@@ -5195,7 +5255,10 @@
           "allowsPartialUse": true,
           "notes": "2+ night prepaid stays via Citi Travel",
           "availableMonths": [],
-          "notificationsEnabled": true
+          "notificationsEnabled": true,
+          "merchantPatterns": [
+            "CITI TRAVEL"
+          ]
         },
         {
           "name": "Splurge Credit",
@@ -5206,7 +5269,13 @@
           "allowsPartialUse": true,
           "notes": "1stDibs, AA, Best Buy, Live Nation, Future",
           "availableMonths": [],
-          "notificationsEnabled": true
+          "notificationsEnabled": true,
+          "merchantPatterns": [
+            "LIVE NATION",
+            "BEST BUY",
+            "1STDIBS",
+            "FUTURE PERSONAL"
+          ]
         },
         {
           "name": "Global Entry/TSA PreCheck Credit",
@@ -5217,7 +5286,13 @@
           "allowsPartialUse": true,
           "notes": "Every 4 years",
           "availableMonths": [],
-          "notificationsEnabled": true
+          "notificationsEnabled": true,
+          "merchantPatterns": [
+            "GLOBAL ENTRY",
+            "TSA PRECHECK",
+            "US CUSTOMS",
+            "CBP"
+          ]
         }
       ],
       "sources": {
@@ -5688,7 +5763,28 @@
           "allowsPartialUse": true,
           "notes": "$50 min airline purchase required",
           "availableMonths": [],
-          "notificationsEnabled": true
+          "notificationsEnabled": true,
+          "merchantPatterns": [
+            "ANNUAL AIRLINE CREDIT",
+            "DELTA AIR",
+            "UNITED AIR",
+            "AMERICAN AIRLINES",
+            "SOUTHWEST AIR",
+            "ALASKA AIR",
+            "JETBLUE",
+            "SPIRIT AIR",
+            "FRONTIER AIR",
+            "HAWAIIAN AIR",
+            "RYANAIR",
+            "AER LINGUS",
+            "AIR CANADA",
+            "BRITISH AIRWAYS",
+            "VIRGIN ATLANTIC",
+            "LUFTHANSA",
+            "AIR FRANCE",
+            "KLM",
+            "EASYJET"
+          ]
         }
       ],
       "sources": {
@@ -6184,7 +6280,11 @@
           "allowsPartialUse": true,
           "notes": "$50 credit for 2+ night hotel bookings via Bilt Travel portal; issued twice per year",
           "availableMonths": [],
-          "notificationsEnabled": true
+          "notificationsEnabled": true,
+          "merchantPatterns": [
+            "BILT TRAVEL",
+            "BILT HOTELS"
+          ]
         }
       ],
       "sources": {
@@ -6228,7 +6328,11 @@
           "allowsPartialUse": true,
           "notes": "$200 credit for qualifying hotel bookings via Bilt Travel portal; issued twice per year",
           "availableMonths": [],
-          "notificationsEnabled": true
+          "notificationsEnabled": true,
+          "merchantPatterns": [
+            "BILT TRAVEL",
+            "BILT HOTELS"
+          ]
         },
         {
           "name": "Bilt Cash Credit",
@@ -6941,7 +7045,11 @@
           "allowsPartialUse": true,
           "notes": null,
           "availableMonths": [],
-          "notificationsEnabled": true
+          "notificationsEnabled": true,
+          "merchantPatterns": [
+            "CHASE TRAVEL",
+            "TRIPCHRG"
+          ]
         },
         {
           "name": "The Edit Hotel Credit",
@@ -6952,7 +7060,10 @@
           "allowsPartialUse": true,
           "notes": "One of two annual statement credits for eligible prepaid The Edit bookings through Chase Travel, up to $250 per booking and up to $500 annually. Two-night minimum.",
           "availableMonths": [],
-          "notificationsEnabled": true
+          "notificationsEnabled": true,
+          "merchantPatterns": [
+            "THE EDIT"
+          ]
         },
         {
           "name": "The Edit Hotel Credit (Second Booking)",
@@ -6985,7 +7096,14 @@
           "allowsPartialUse": true,
           "notes": "Every 4 years",
           "availableMonths": [],
-          "notificationsEnabled": true
+          "notificationsEnabled": true,
+          "merchantPatterns": [
+            "GLOBAL ENTRY",
+            "TSA PRECHECK",
+            "NEXUS",
+            "US CUSTOMS",
+            "CBP"
+          ]
         }
       ],
       "sources": {

@@ -4,6 +4,10 @@ Every data change to `cards.json` or `rotating-categories.json` gets an entry he
 
 Dates are the catalog `version` tag (`YYYY.MM.DD`). Same-day follow-ups share a heading.
 
+## 2026.07.02
+
+- Extended `merchantPatterns` to five more issuers, validated against real statements: Chase Sapphire Preferred (Chase Travel/TRIPCHRG descriptors), Chase Sapphire Reserve + Business, Citi Strata Elite (CITI TRAVEL descriptor), Wells Fargo Autograph Journey (including the "ANNUAL AIRLINE CREDIT" posting Wells Fargo prints when the credit is applied), Bilt Obsidian/Palladium, and Capital One Venture X + Business. 23 benefits across 9 cards.
+
 ## 2026.07.01
 
 - Added `merchantPatterns` to the benefit schema: uppercased statement-merchant substrings that let the app match statement transactions to benefits (screenshot/statement import). Seeded for Amex Platinum (14 benefits) and Amex Gold (4 benefits), validated against real statements.
