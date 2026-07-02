@@ -269,11 +269,12 @@ Mapping rules:
     the usage signal. Credits delivered as **external / in-app balance** are NOT
     detectable and must NOT carry patterns: the credit is applied inside the
     merchant's app and the card is charged only the *residual*, so a matching
-    charge says nothing about whether the credit was used. Known in-app credits:
-    **Amex Uber Cash** (deposited to the Uber account), and likely the Chase
-    Sapphire Reserve **DoorDash** monthly promo credits and any "*Cash*" /
-    "*promo credit in the app*" style perk. When unsure which mechanism a credit
-    uses, flag it for manual review rather than authoring a pattern.
+    charge says nothing about whether the credit was used. Confirmed in-app
+    credits with patterns intentionally REMOVED (do not re-add): **Amex Uber
+    Cash** and **Uber One**, and **Chase Sapphire Reserve Lyft and DoorDash**
+    credits. Treat any ride-share / delivery / "*Cash*" / in-app-wallet perk the
+    same way. When unsure which mechanism a credit uses, flag it for manual
+    review rather than authoring a pattern.
 - Benefits should be app-trackable credits/perks. Do not add generic travel
   insurance, purchase protections, elite status, lounge access, baggage, or
   boarding perks unless there is a user-trackable amount or an explicit

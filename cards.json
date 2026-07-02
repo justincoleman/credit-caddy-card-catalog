@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "version": "2026.07.02",
-  "lastUpdated": "2026-07-02T12:00:00Z",
+  "lastUpdated": "2026-07-02T18:00:00Z",
   "cards": [
     {
       "id": "american-express-platinum-card",
@@ -185,10 +185,7 @@
               "Pay the Uber One membership fee with the Platinum to cover it — it stacks on top of your monthly Uber Cash.",
               "Uber One adds $0 delivery fees and member discounts, so it stretches the Uber Cash you're already getting."
             ]
-          },
-          "merchantPatterns": [
-            "UBER ONE"
-          ]
+          }
         },
         {
           "name": "lululemon Credit",
@@ -3838,10 +3835,7 @@
           "allowsPartialUse": true,
           "notes": null,
           "availableMonths": [],
-          "notificationsEnabled": true,
-          "merchantPatterns": [
-            "LYFT"
-          ]
+          "notificationsEnabled": true
         },
         {
           "name": "Peloton Credit",
@@ -3866,10 +3860,7 @@
           "allowsPartialUse": true,
           "notes": "Through 12/31/2027",
           "availableMonths": [],
-          "notificationsEnabled": true,
-          "merchantPatterns": [
-            "DOORDASH"
-          ]
+          "notificationsEnabled": true
         },
         {
           "name": "The Edit Hotel Credit",
