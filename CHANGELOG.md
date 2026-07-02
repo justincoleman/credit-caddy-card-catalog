@@ -6,6 +6,7 @@ Dates are the catalog `version` tag (`YYYY.MM.DD`). Same-day follow-ups share a 
 
 ## 2026.07.02
 
+- Removed `merchantPatterns` from Amex Uber Cash (Platinum, Platinum December bonus, Gold). Uber Cash is deposited into the Uber account and applied in-app; the card charge on the statement is only the residual after the credit, so a matching charge doesn't indicate the credit was used. Statement import now only carries patterns for credits that reimburse a card charge — see the agent-prompt "Only statement-reimbursed credits get patterns" rule.
 - Extended `merchantPatterns` to five more issuers, validated against real statements: Chase Sapphire Preferred (Chase Travel/TRIPCHRG descriptors), Chase Sapphire Reserve + Business, Citi Strata Elite (CITI TRAVEL descriptor), Wells Fargo Autograph Journey (including the "ANNUAL AIRLINE CREDIT" posting Wells Fargo prints when the credit is applied), Bilt Obsidian/Palladium, and Capital One Venture X + Business. 23 benefits across 9 cards.
 
 ## 2026.07.01

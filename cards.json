@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "version": "2026.07.02",
-  "lastUpdated": "2026-07-02T00:00:00Z",
+  "lastUpdated": "2026-07-02T12:00:00Z",
   "cards": [
     {
       "id": "american-express-platinum-card",
@@ -73,15 +73,7 @@
               "It's use-it-or-lose-it each month. No rides coming up? Spend it on Uber Eats (pickup avoids delivery fees).",
               "Gift-card balances in your Uber wallet can get spent before your Amex Cash — check the wallet so the credit isn't stranded."
             ]
-          },
-          "merchantPatterns": [
-            "UBER TRIP",
-            "UBER EATS",
-            "UBER *",
-            "UBER* TRIP",
-            "UBER *TRIP",
-            "UBER *EATS"
-          ]
+          }
         },
         {
           "name": "Uber Cash (December Bonus)",
@@ -106,12 +98,7 @@
               "December stacks an extra bonus on top of the usual monthly Uber Cash — plan a bigger Uber or Uber Eats spend that month.",
               "Same rule as always: pay with the Platinum set as your in-app Uber payment method, and use the Uber Cash before month-end."
             ]
-          },
-          "merchantPatterns": [
-            "UBER TRIP",
-            "UBER EATS",
-            "UBER *"
-          ]
+          }
         },
         {
           "name": "Digital Entertainment Credit",
@@ -623,15 +610,7 @@
               "Check the Uber app early in the month to confirm the credit landed.",
               "If you are not taking rides, an Uber Eats pickup order can be an easy way to avoid wasting the month."
             ]
-          },
-          "merchantPatterns": [
-            "UBER TRIP",
-            "UBER EATS",
-            "UBER *",
-            "UBER* TRIP",
-            "UBER *TRIP",
-            "UBER *EATS"
-          ]
+          }
         },
         {
           "name": "Dining Credit",
