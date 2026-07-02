@@ -269,7 +269,12 @@
           "type": "array",
           "items": { "type": "integer", "minimum": 1, "maximum": 12 }
         },
-        "notificationsEnabled": { "type": "boolean" }
+        "notificationsEnabled": { "type": "boolean" },
+        "merchantPatterns": {
+          "type": "array",
+          "items": { "type": "string", "minLength": 2 },
+          "description": "Uppercased substrings that identify this benefit's merchant on a card statement (e.g. 'SAKS', 'UBER EATS', 'BAGGAGE FEE'). Drives the screenshot/statement import feature's transaction-to-benefit matching. Matching is case-insensitive substring against the transaction row text plus its descriptor line. Only add patterns specific enough not to false-positive on unrelated merchants."
+        }
       }
     },
     "benefitGuide": {

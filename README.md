@@ -67,7 +67,7 @@ See [`schema.json`](schema.json) for the authoritative spec. Summary:
       "rewardProgram": "American Express Membership Rewards",
       "affiliateUrl": null,
       "colorHex": "BFC0C0",
-      "benefits": [ /* ... each may carry an optional editorial "guide" ... */ ],
+      "benefits": [ /* ... each may carry an optional editorial "guide" and optional "merchantPatterns" (statement-matching substrings) ... */ ],
       "cardGuide": {                     // optional, curated editorial (not agent-maintained)
         "overview": "How to think about this card…",
         "sections": [ { "title": "Is the fee worth it?", "points": ["…"] } ]
@@ -86,6 +86,8 @@ See [`schema.json`](schema.json) for the authoritative spec. Summary:
 `sources.annualFee` may be a single URL (unchanged) or an array of exactly two URLs (on change — see the two-citation rule).
 
 **Editorial content.** `benefits[].guide` (whatItIs / howItWorks / maximizingTips) and the card-level `cardGuide` are curated by hand from research — they answer "how do I get the most out of this card?" The monthly issuer-verification agent **preserves them verbatim and never authors or overwrites them**; it only verifies factual fields (fees, rates, benefit existence, signup bonus) against issuer sources. They're exempt from the issuer-only citation rule.
+
+**Merchant patterns.** `benefits[].merchantPatterns` — uppercased statement-merchant substrings (e.g. `"SAKS"`, `"UBER EATS"`, `"BAGGAGE FEE"`) that let the app match statement transactions to benefits for the screenshot/statement import feature. Validated against real statements rather than issuer pages, so like editorial content the agent preserves them verbatim; changes come from curators (with a "manual review" flag when a benefit's merchant clearly changed).
 
 ## Source of truth rules
 

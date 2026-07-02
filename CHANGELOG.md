@@ -4,6 +4,10 @@ Every data change to `cards.json` or `rotating-categories.json` gets an entry he
 
 Dates are the catalog `version` tag (`YYYY.MM.DD`). Same-day follow-ups share a heading.
 
+## 2026.07.01
+
+- Added `merchantPatterns` to the benefit schema: uppercased statement-merchant substrings that let the app match statement transactions to benefits (screenshot/statement import). Seeded for Amex Platinum (14 benefits) and Amex Gold (4 benefits), validated against real statements.
+
 ## 2026.06.09
 
 - Amex Platinum: added card-level guide content and richer per-benefit tips.

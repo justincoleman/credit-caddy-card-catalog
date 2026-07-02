@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "version": "2026.06.09",
-  "lastUpdated": "2026-06-09T00:00:00Z",
+  "version": "2026.07.01",
+  "lastUpdated": "2026-07-01T00:00:00Z",
   "cards": [
     {
       "id": "american-express-platinum-card",
@@ -73,7 +73,15 @@
               "It's use-it-or-lose-it each month. No rides coming up? Spend it on Uber Eats (pickup avoids delivery fees).",
               "Gift-card balances in your Uber wallet can get spent before your Amex Cash — check the wallet so the credit isn't stranded."
             ]
-          }
+          },
+          "merchantPatterns": [
+            "UBER TRIP",
+            "UBER EATS",
+            "UBER *",
+            "UBER* TRIP",
+            "UBER *TRIP",
+            "UBER *EATS"
+          ]
         },
         {
           "name": "Uber Cash (December Bonus)",
@@ -98,7 +106,12 @@
               "December stacks an extra bonus on top of the usual monthly Uber Cash — plan a bigger Uber or Uber Eats spend that month.",
               "Same rule as always: pay with the Platinum set as your in-app Uber payment method, and use the Uber Cash before month-end."
             ]
-          }
+          },
+          "merchantPatterns": [
+            "UBER TRIP",
+            "UBER EATS",
+            "UBER *"
+          ]
         },
         {
           "name": "Digital Entertainment Credit",
@@ -121,7 +134,19 @@
               "The cap is a TOTAL across every eligible service, not per service — pick a mix that adds up to the monthly max.",
               "Enroll a service, wait for the first credit to confirm, then you're free to switch services later."
             ]
-          }
+          },
+          "merchantPatterns": [
+            "NETFLIX",
+            "HULU",
+            "DISNEY",
+            "PEACOCK",
+            "NYTIMES",
+            "NEW YORK TIMES",
+            "WSJ",
+            "WALL STREET JOURNAL",
+            "AUDIBLE",
+            "ESPN"
+          ]
         },
         {
           "name": "Walmart+ Membership Credit",
@@ -144,7 +169,13 @@
               "No enrollment needed — just pay for Walmart+ MONTHLY (not the annual plan) with the Platinum and the whole charge is refunded.",
               "Walmart+ bundles a Paramount+ or Peacock plan plus a 10¢/gallon fuel discount — don't pay separately for that streaming."
             ]
-          }
+          },
+          "merchantPatterns": [
+            "WALMART PLUS",
+            "WAL-MART PLUS",
+            "WALMART+",
+            "WMT PLUS"
+          ]
         },
         {
           "name": "Uber One Membership Credit",
@@ -167,7 +198,10 @@
               "Pay the Uber One membership fee with the Platinum to cover it — it stacks on top of your monthly Uber Cash.",
               "Uber One adds $0 delivery fees and member discounts, so it stretches the Uber Cash you're already getting."
             ]
-          }
+          },
+          "merchantPatterns": [
+            "UBER ONE"
+          ]
         },
         {
           "name": "lululemon Credit",
@@ -190,7 +224,10 @@
               "lululemon stopped selling gift cards online — buy $50 or $100 IN-STORE (or buy items) to reach the quarterly credit.",
               "Enroll before you buy, and use it every quarter — the credit doesn't roll over."
             ]
-          }
+          },
+          "merchantPatterns": [
+            "LULULEMON"
+          ]
         },
         {
           "name": "Resy Credit",
@@ -213,7 +250,10 @@
               "You don't need a reservation — the credit triggers at ANY Resy-listed restaurant, and many are everyday spots. Check the Resy app to see which of your regulars qualify.",
               "Buying a gift card in-store at a Resy restaurant usually triggers it too. Use it before the final week of the quarter so the charge has time to post."
             ]
-          }
+          },
+          "merchantPatterns": [
+            "RESY"
+          ]
         },
         {
           "name": "Saks Fifth Avenue Credit",
@@ -236,7 +276,10 @@
               "Heads up — this credit ends July 1, 2026. Use your remaining half-year windows before then.",
               "Buy a $100 Saks gift card (covers two $50 windows) in one trip to bank both halves, then spend it across the year. Enroll first; check the sale section for value."
             ]
-          }
+          },
+          "merchantPatterns": [
+            "SAKS"
+          ]
         },
         {
           "name": "Airline Fee Credit",
@@ -259,7 +302,14 @@
               "Pre-select your airline in the Amex portal BEFORE the charge posts — it won't apply retroactively, and you can only change carriers once a year.",
               "It covers incidental fees (checked bags, seat upgrades, some award booking fees), not tickets. Airlines code charges differently — test with a small fee first to confirm it reimburses."
             ]
-          }
+          },
+          "merchantPatterns": [
+            "BAGGAGE FEE",
+            "BAG FEE",
+            "SEAT FEE",
+            "AIRLINE FEE",
+            "INFLIGHT"
+          ]
         },
         {
           "name": "Hotel Credit (FHR/THC)",
@@ -282,7 +332,13 @@
               "Book Fine Hotels + Resorts (or The Hotel Collection, 2+ nights). FHR uniquely earns hotel loyalty points AND elite perks on a third-party booking — rare and valuable.",
               "Most prepaid FHR rates are refundable, so you can book to capture the credit and adjust later. Deal tools like MaxFHR help find the strongest values."
             ]
-          }
+          },
+          "merchantPatterns": [
+            "FHR",
+            "FINE HOTELS",
+            "AMEXTRAVEL",
+            "AMEX TRAVEL"
+          ]
         },
         {
           "name": "CLEAR Plus Credit",
@@ -305,7 +361,12 @@
               "It applies automatically once you pay the CLEAR+ membership with the Platinum — no enrollment needed.",
               "Unused credit can cover a family member or friend's CLEAR membership on your account, so it never goes to waste. CLEAR isn't at every airport yet — confirm your home airport has it."
             ]
-          }
+          },
+          "merchantPatterns": [
+            "CLEAR *",
+            "CLEARME",
+            "CLEAR ME"
+          ]
         },
         {
           "name": "Equinox Credit",
@@ -328,7 +389,10 @@
               "Use it on Equinox+ (digital) or a club membership — or put the full amount toward a SoulCycle at-home bike. Enroll first.",
               "Equinox+ includes a 7-day trial; enroll mid-month to stretch a 12-month membership across two calendar years of credits."
             ]
-          }
+          },
+          "merchantPatterns": [
+            "EQUINOX"
+          ]
         },
         {
           "name": "Oura Ring Credit",
@@ -351,7 +415,10 @@
               "Only purchases on ouraring.com qualify — enroll BEFORE you buy to guarantee the credit posts.",
               "It's an annual credit, so time a ring or accessory purchase to use the full amount in one go."
             ]
-          }
+          },
+          "merchantPatterns": [
+            "OURA"
+          ]
         },
         {
           "name": "Global Entry/TSA PreCheck Credit",
@@ -374,7 +441,13 @@
               "It only resets every ~4 years. If your membership is still current, pay for a family member's Global Entry/TSA PreCheck application instead of letting the credit lapse.",
               "Charge the application or renewal fee directly to the Platinum and the credit posts automatically."
             ]
-          }
+          },
+          "merchantPatterns": [
+            "GLOBAL ENTRY",
+            "TSA PRECHECK",
+            "US CUSTOMS",
+            "CBP"
+          ]
         }
       ],
       "sources": {
@@ -550,7 +623,15 @@
               "Check the Uber app early in the month to confirm the credit landed.",
               "If you are not taking rides, an Uber Eats pickup order can be an easy way to avoid wasting the month."
             ]
-          }
+          },
+          "merchantPatterns": [
+            "UBER TRIP",
+            "UBER EATS",
+            "UBER *",
+            "UBER* TRIP",
+            "UBER *TRIP",
+            "UBER *EATS"
+          ]
         },
         {
           "name": "Dining Credit",
@@ -573,7 +654,16 @@
               "Pick one partner you naturally use and make it part of your monthly routine.",
               "Use the credit earlier in the month so a missed or delayed transaction does not become a scramble."
             ]
-          }
+          },
+          "merchantPatterns": [
+            "GRUBHUB",
+            "CHEESECAKE FACTORY",
+            "GOLDBELLY",
+            "WINE.COM",
+            "MILK BAR",
+            "SHAKE SHACK",
+            "FIVE GUYS"
+          ]
         },
         {
           "name": "Dunkin' Credit",
@@ -596,7 +686,10 @@
               "Reloading or using the Dunkin app may make the credit easier to use consistently, but confirm the charge codes as eligible for your account.",
               "Small monthly credits are easiest to waste; set a reminder before the final week."
             ]
-          }
+          },
+          "merchantPatterns": [
+            "DUNKIN"
+          ]
         },
         {
           "name": "Resy Credit",
@@ -619,7 +712,10 @@
               "Look for Resy restaurants near places you already dine instead of forcing a special meal.",
               "Because this resets less often than monthly credits, track the end date and use it before the half-year window closes."
             ]
-          }
+          },
+          "merchantPatterns": [
+            "RESY"
+          ]
         }
       ],
       "sources": {

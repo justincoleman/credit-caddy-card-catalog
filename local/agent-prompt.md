@@ -255,6 +255,13 @@ Mapping rules:
   no longer match the current issuer page (e.g. a credit amount changed), or
   when a benefit you'd otherwise flag for deletion still carries guide copy — so
   the curator can update it. Never edit the editorial copy yourself.
+- `merchantPatterns` (optional, per benefit): uppercased statement-merchant
+  substrings that let the app match statement transactions to this benefit
+  (screenshot/statement import). These are validated against real statements,
+  not issuer pages — preserve them verbatim across every refresh, exactly like
+  `guide`/`cardGuide`. Do not author patterns for new benefits; flag under
+  "Manual review needed" if a benefit's merchant clearly changed (e.g. issuer
+  swapped Uber for Lyft) so the curator can update the patterns.
 - Benefits should be app-trackable credits/perks. Do not add generic travel
   insurance, purchase protections, elite status, lounge access, baggage, or
   boarding perks unless there is a user-trackable amount or an explicit
@@ -489,7 +496,7 @@ If `cards.json` did not change, make no commit and open no PR. Print
 7. Never bump `version` or `lastUpdated` when no card data changed.
 8. Never change card data without advancing both `version` and `lastUpdated`.
 9. Never write secrets to disk, logs, commits, PR text, or source files.
-10. Never author, rewrite, or strip `benefits[].guide` or the card-level `cardGuide`. They are curated editorial content — preserve them verbatim and only flag factual conflicts for manual review.
+10. Never author, rewrite, or strip `benefits[].guide`, the card-level `cardGuide`, or `benefits[].merchantPatterns`. They are curated content (editorial copy / statement-validated matching data) — preserve them verbatim and only flag factual conflicts for manual review.
 
 ## Final report
 
