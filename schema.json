@@ -263,6 +263,16 @@
         "category": { "type": "string" },
         "allowsPartialUse": { "type": "boolean" },
         "requiresValueOnUse": { "type": "boolean" },
+        "startsOn": { "type": ["string", "null"], "format": "date" },
+        "endsOn": { "type": ["string", "null"], "format": "date" },
+        "status": { "type": "string", "enum": ["active", "retired"], "default": "active" },
+        "redemptionURL": { "type": ["string", "null"], "format": "uri" },
+        "redemptionLabel": { "type": ["string", "null"], "minLength": 1 },
+        "redemptionKind": {
+          "type": ["string", "null"],
+          "enum": ["restaurantFinder", "portal", "enrollment", "benefitDashboard", null]
+        },
+        "requiresExternalEligibilityList": { "type": "boolean" },
         "notes": { "type": ["string", "null"] },
         "guide": { "$ref": "#/$defs/benefitGuide" },
         "availableMonths": {

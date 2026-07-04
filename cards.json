@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "version": "2026.07.02",
-  "lastUpdated": "2026-07-02T18:00:00Z",
+  "lastUpdated": "2026-07-02T19:53:15Z",
   "cards": [
     {
       "id": "american-express-platinum-card",
@@ -221,6 +221,10 @@
           "category": "Dining",
           "allowsPartialUse": true,
           "notes": "A quarterly statement credit for eligible U.S. Resy restaurant purchases.",
+          "redemptionURL": "https://resy.com/resycredit",
+          "redemptionLabel": "Find Resy spots",
+          "redemptionKind": "restaurantFinder",
+          "requiresExternalEligibilityList": true,
           "availableMonths": [],
           "notificationsEnabled": true,
           "guide": {
@@ -247,6 +251,8 @@
           "category": "Shopping",
           "allowsPartialUse": true,
           "notes": "A semiannual statement credit for eligible Saks Fifth Avenue purchases.",
+          "endsOn": "2026-07-01",
+          "status": "retired",
           "availableMonths": [],
           "notificationsEnabled": true,
           "guide": {
@@ -691,7 +697,11 @@
           },
           "merchantPatterns": [
             "RESY"
-          ]
+          ],
+          "redemptionURL": "https://resy.com/resycredit",
+          "redemptionLabel": "Find Resy spots",
+          "redemptionKind": "restaurantFinder",
+          "requiresExternalEligibilityList": true
         }
       ],
       "sources": {
@@ -1199,7 +1209,11 @@
           "allowsPartialUse": true,
           "notes": "Restaurants booked on Resy",
           "availableMonths": [],
-          "notificationsEnabled": true
+          "notificationsEnabled": true,
+          "redemptionURL": "https://resy.com/resycredit",
+          "redemptionLabel": "Find Resy spots",
+          "redemptionKind": "restaurantFinder",
+          "requiresExternalEligibilityList": true
         },
         {
           "name": "Rideshare Credit",
@@ -3919,6 +3933,10 @@
           "category": "Dining",
           "allowsPartialUse": true,
           "notes": null,
+          "redemptionURL": "https://www.opentable.com/c/chase-sapphire-reserve-exclusive-tables",
+          "redemptionLabel": "Find eligible tables",
+          "redemptionKind": "restaurantFinder",
+          "requiresExternalEligibilityList": true,
           "availableMonths": [],
           "notificationsEnabled": true,
           "merchantPatterns": [

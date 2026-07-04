@@ -275,6 +275,21 @@ Mapping rules:
     credits. Treat any ride-share / delivery / "*Cash*" / in-app-wallet perk the
     same way. When unsure which mechanism a credit uses, flag it for manual
     review rather than authoring a pattern.
+- `startsOn` / `endsOn` / `status` (optional, per benefit): benefit LIFECYCLE.
+  When an issuer announces a benefit is ending or ended, do NOT delete the
+  benefit entry — set `"endsOn": "YYYY-MM-DD"` (the date the issuer stops
+  honoring it) and/or `"status": "retired"`, with an issuer citation under
+  `sources` like any other data change. The app uses these to stop showing the
+  credit as claimable while preserving user history. Never remove a benefit
+  that carries lifecycle fields; never clear an `endsOn`/`status` unless the
+  issuer verifiably reinstated the benefit (cite it). Example: Amex Platinum
+  Saks (`endsOn: 2026-07-01`, `status: retired`).
+- `redemptionURL` / `redemptionLabel` / `redemptionKind` /
+  `requiresExternalEligibilityList` (optional, per benefit): curated
+  "find somewhere to use this" links (Resy finder, OpenTable eligible-tables
+  list, portals). Preserve them verbatim like `guide`/`cardGuide`; do not
+  author new ones. You MAY flag under "Manual review needed" when a linked
+  page has clearly moved or died so the curator can update it.
 - Benefits should be app-trackable credits/perks. Do not add generic travel
   insurance, purchase protections, elite status, lounge access, baggage, or
   boarding perks unless there is a user-trackable amount or an explicit
@@ -509,7 +524,8 @@ If `cards.json` did not change, make no commit and open no PR. Print
 7. Never bump `version` or `lastUpdated` when no card data changed.
 8. Never change card data without advancing both `version` and `lastUpdated`.
 9. Never write secrets to disk, logs, commits, PR text, or source files.
-10. Never author, rewrite, or strip `benefits[].guide`, the card-level `cardGuide`, or `benefits[].merchantPatterns`. They are curated content (editorial copy / statement-validated matching data) — preserve them verbatim and only flag factual conflicts for manual review.
+10. Never author, rewrite, or strip `benefits[].guide`, the card-level `cardGuide`, `benefits[].merchantPatterns`, or the redemption fields (`redemptionURL`/`redemptionLabel`/`redemptionKind`/`requiresExternalEligibilityList`). They are curated content — preserve them verbatim and only flag factual conflicts for manual review.
+11. Never delete a benefit entry to reflect an issuer ending it — set `endsOn`/`status: "retired"` with an issuer citation instead, and never clear lifecycle fields unless the issuer verifiably reinstated the benefit.
 
 ## Final report
 

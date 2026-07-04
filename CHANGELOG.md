@@ -6,6 +6,7 @@ Dates are the catalog `version` tag (`YYYY.MM.DD`). Same-day follow-ups share a 
 
 ## 2026.07.02
 
+- Added benefit lifecycle metadata (`status`, `startsOn`, `endsOn`) and redemption-destination metadata to the schema. Marked Amex Platinum Saks retired as of 2026-07-01 (issuer source on the benefit), and added Resy finder links for Amex Platinum, Amex Gold, and Delta SkyMiles Reserve plus the Chase Sapphire Reserve Sapphire Tables eligible-tables link. The monthly agent now sets lifecycle fields instead of deleting ended benefits and preserves redemption links verbatim.
 - Removed `merchantPatterns` from all in-app / external-balance credits, which statement matching can't detect (the card charge is only the residual after the credit applied inside the merchant's app): Amex Uber Cash (Platinum, Platinum December bonus, Gold), Amex Uber One, and Chase Sapphire Reserve Lyft + DoorDash. Statement import now only carries patterns for credits that reimburse a card charge — see the agent-prompt "Only statement-reimbursed credits get patterns" rule.
 - Extended `merchantPatterns` to five more issuers, validated against real statements: Chase Sapphire Preferred (Chase Travel/TRIPCHRG descriptors), Chase Sapphire Reserve + Business, Citi Strata Elite (CITI TRAVEL descriptor), Wells Fargo Autograph Journey (including the "ANNUAL AIRLINE CREDIT" posting Wells Fargo prints when the credit is applied), Bilt Obsidian/Palladium, and Capital One Venture X + Business. 23 benefits across 9 cards.
 
