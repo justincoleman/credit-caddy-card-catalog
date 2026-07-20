@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "version": "2026.07.02",
-  "lastUpdated": "2026-07-02T19:53:15Z",
+  "version": "2026.07.16",
+  "lastUpdated": "2026-07-20T23:38:55Z",
   "cards": [
     {
       "id": "american-express-platinum-card",
@@ -465,11 +465,11 @@
       },
       "lastVerified": "2026-05-04T00:00:00Z",
       "signupBonus": {
-        "amount": 80000,
+        "amount": 175000,
         "kind": "points",
-        "minSpend": 8000,
+        "minSpend": 12000,
         "withinMonths": 6,
-        "notes": "80,000 Membership Rewards points after $8,000 in 6 months"
+        "notes": "Up to 175,000 Membership Rewards points after $12,000 in 6 months (offer amount varies)"
       },
       "cardGuide": {
         "overview": "Think of the Platinum as a credits card, not a cash-back card. There is well over $1,500 of value packed in — but it only shows up if you claim each credit on schedule. You do not have to use every one to come out ahead; you just need a routine for the ones you actually will.",
@@ -722,11 +722,11 @@
       },
       "lastVerified": "2026-05-04T00:00:00Z",
       "signupBonus": {
-        "amount": 60000,
+        "amount": 100000,
         "kind": "points",
-        "minSpend": 6000,
+        "minSpend": 8000,
         "withinMonths": 6,
-        "notes": "60,000 Membership Rewards points after $6,000 in 6 months"
+        "notes": "Up to 100,000 Membership Rewards points after $8,000 in 6 months (offer amount varies)"
       }
     },
     {
@@ -3530,7 +3530,7 @@
       "id": "capital-one-savorone",
       "cardName": "SavorOne",
       "issuer": "Capital One",
-      "annualFee": 0,
+      "annualFee": 39,
       "noForeignTransactionFees": true,
       "earnRates": [
         {
@@ -3577,7 +3577,10 @@
       "colorHex": "C0392B",
       "benefits": [],
       "sources": {
-        "annualFee": "https://www.capitalone.com/credit-cards/savorone-dining-rewards/",
+        "annualFee": [
+          "https://www.capitalone.com/credit-cards/savorone/",
+          "https://www.capitalone.com/credit-cards/compare/"
+        ],
         "noForeignTransactionFees": "https://www.capitalone.com/credit-cards/savorone-dining-rewards/",
         "baseEarnRate": "https://www.capitalone.com/credit-cards/savorone-dining-rewards/",
         "rewardProgram": "https://www.capitalone.com/credit-cards/savorone-dining-rewards/",
@@ -3766,11 +3769,11 @@
       },
       "lastVerified": "2026-05-03T00:00:00Z",
       "signupBonus": {
-        "amount": 60000,
+        "amount": 75000,
         "kind": "points",
-        "minSpend": 4000,
+        "minSpend": 5000,
         "withinMonths": 3,
-        "notes": "60,000 Ultimate Rewards points after $4,000 in 3 months"
+        "notes": "75,000 Ultimate Rewards points after $5,000 in 3 months"
       }
     },
     {
@@ -4058,15 +4061,15 @@
         "benefits.doordash-dashpass": "https://creditcards.chase.com/rewards-credit-cards/chase-sapphire-reserve",
         "benefits.apple-tv-apple-music": "https://creditcards.chase.com/rewards-credit-cards/chase-sapphire-reserve",
         "benefits.global-entry-tsa-precheck-credit": "https://creditcards.chase.com/rewards-credit-cards/chase-sapphire-reserve",
-        "signupBonus": "https://creditcards.chase.com/rewards-credit-cards/chase-sapphire-reserve"
+        "signupBonus": "https://creditcards.chase.com/rewards-credit-cards/sapphire/reserve"
       },
       "lastVerified": "2026-05-19T00:00:00Z",
       "signupBonus": {
-        "amount": 100000,
+        "amount": 125000,
         "kind": "points",
-        "minSpend": 5000,
+        "minSpend": 6000,
         "withinMonths": 3,
-        "notes": "100,000 Ultimate Rewards points after $5,000 in 3 months"
+        "notes": "125,000 Ultimate Rewards points after $6,000 in 3 months"
       }
     },
     {
@@ -5291,9 +5294,17 @@
         "earnRates.travel": "https://www.citi.com/credit-cards/citi-strata-elite-credit-card",
         "earnRates.airfare": "https://www.citi.com/credit-cards/citi-strata-elite-credit-card",
         "earnRates.dining": "https://www.citi.com/credit-cards/citi-strata-elite-credit-card",
-        "earnRates.groceries": "https://www.citi.com/credit-cards/citi-strata-elite-credit-card"
+        "earnRates.groceries": "https://www.citi.com/credit-cards/citi-strata-elite-credit-card",
+        "signupBonus": "https://www.citi.com/credit-cards/citi-strata-elite-credit-card"
       },
-      "lastVerified": "2026-05-03T00:00:00Z"
+      "lastVerified": "2026-05-03T00:00:00Z",
+      "signupBonus": {
+        "amount": 75000,
+        "kind": "points",
+        "minSpend": 6000,
+        "withinMonths": 3,
+        "notes": "75,000 ThankYou Points after $6,000 in 3 months"
+      }
     },
     {
       "id": "citi-double-cash",
@@ -7641,9 +7652,17 @@
         "earnRates.groceries": "https://www.citi.com/credit-cards/citi-strata-card",
         "earnRates.gas": "https://www.citi.com/credit-cards/citi-strata-card",
         "earnRates.dining": "https://www.citi.com/credit-cards/citi-strata-card",
-        "earnRates.transit": "https://www.citi.com/credit-cards/citi-strata-card"
+        "earnRates.transit": "https://www.citi.com/credit-cards/citi-strata-card",
+        "signupBonus": "https://www.citi.com/credit-cards/citi-strata-credit-card"
       },
-      "lastVerified": "2026-05-08T00:00:00Z"
+      "lastVerified": "2026-05-08T00:00:00Z",
+      "signupBonus": {
+        "amount": 20000,
+        "kind": "points",
+        "minSpend": 1000,
+        "withinMonths": 3,
+        "notes": "20,000 ThankYou Points after $1,000 in 3 months"
+      }
     },
     {
       "id": "citi-aadvantage-platinum-select",
@@ -7692,9 +7711,17 @@
         "rewardProgram": "https://www.citi.com/credit-cards/view-all-credit-cards",
         "earnRates.airfare": "https://www.citi.com/credit-cards/citi-aadvantage-platinum-select-credit-card",
         "earnRates.dining": "https://www.citi.com/credit-cards/citi-aadvantage-platinum-select-credit-card",
-        "earnRates.gas": "https://www.citi.com/credit-cards/citi-aadvantage-platinum-select-credit-card"
+        "earnRates.gas": "https://www.citi.com/credit-cards/citi-aadvantage-platinum-select-credit-card",
+        "signupBonus": "https://www.citi.com/credit-cards/citi-aadvantage-platinum-select-world-elite-mastercard"
       },
-      "lastVerified": "2026-05-08T00:00:00Z"
+      "lastVerified": "2026-05-08T00:00:00Z",
+      "signupBonus": {
+        "amount": 80000,
+        "kind": "points",
+        "minSpend": 3500,
+        "withinMonths": 4,
+        "notes": "80,000 AAdvantage miles after $3,500 in 4 months (limited-time offer)"
+      }
     },
     {
       "id": "citi-aadvantage-globe",
@@ -7776,9 +7803,17 @@
         "earnRates.airfare": "https://www.citi.com/credit-cards/citi-aadvantage-globe-mastercard",
         "earnRates.dining": "https://www.citi.com/credit-cards/citi-aadvantage-globe-mastercard",
         "earnRates.travel": "https://www.citi.com/credit-cards/citi-aadvantage-globe-mastercard",
-        "benefits.admirals-club-globe-passes": "https://www.citi.com/credit-cards/citi-aadvantage-globe-mastercard"
+        "benefits.admirals-club-globe-passes": "https://www.citi.com/credit-cards/citi-aadvantage-globe-mastercard",
+        "signupBonus": "https://www.citi.com/credit-cards/citi-aadvantage-globe-mastercard"
       },
-      "lastVerified": "2026-05-08T00:00:00Z"
+      "lastVerified": "2026-05-08T00:00:00Z",
+      "signupBonus": {
+        "amount": 90000,
+        "kind": "points",
+        "minSpend": 5000,
+        "withinMonths": 4,
+        "notes": "90,000 AAdvantage miles after $5,000 in 4 months (limited-time offer)"
+      }
     },
     {
       "id": "citi-aadvantage-business",
@@ -9559,6 +9594,230 @@
         "earnRates.other": "https://www.discover.com/credit-cards/cash-back/nhl-card.html"
       },
       "lastVerified": "2026-05-08T00:00:00Z"
+    },
+    {
+      "id": "chase-doordash-rewards-mastercard",
+      "cardName": "DoorDash Rewards Mastercard",
+      "issuer": "Chase",
+      "annualFee": 0,
+      "noForeignTransactionFees": true,
+      "earnRates": [
+        {
+          "category": "other",
+          "multiplier": 4,
+          "cap": null,
+          "notes": "DoorDash and Caviar orders, including restaurants, groceries, retail, and more",
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "merchant",
+              "merchant": "DoorDash and Caviar",
+              "label": "DoorDash and Caviar orders only",
+              "details": "4% cash back on all DoorDash and Caviar orders; no earning caps"
+            }
+          ]
+        },
+        {
+          "category": "dining",
+          "multiplier": 3,
+          "cap": null,
+          "notes": "Dining when purchased directly from a restaurant; DoorDash orders earn under the 4% DoorDash rate instead",
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "directBooking",
+              "label": "Direct restaurant purchase only",
+              "details": "3% cash back on dining when purchased directly from a restaurant, not through third-party delivery apps"
+            }
+          ]
+        },
+        {
+          "category": "groceries",
+          "multiplier": 2,
+          "cap": null,
+          "notes": "Grocery stores online or in-store"
+        }
+      ],
+      "baseEarnRate": 1,
+      "rewardProgram": "Cash Back",
+      "affiliateUrl": null,
+      "colorHex": null,
+      "benefits": [],
+      "sources": {
+        "annualFee": "https://creditcards.chase.com/cash-back-credit-cards/doordash",
+        "noForeignTransactionFees": "https://creditcards.chase.com/cash-back-credit-cards/doordash",
+        "baseEarnRate": "https://creditcards.chase.com/cash-back-credit-cards/doordash",
+        "rewardProgram": "https://creditcards.chase.com/cash-back-credit-cards/doordash",
+        "earnRates.other": "https://creditcards.chase.com/cash-back-credit-cards/doordash",
+        "earnRates.dining": "https://creditcards.chase.com/cash-back-credit-cards/doordash",
+        "earnRates.groceries": "https://creditcards.chase.com/cash-back-credit-cards/doordash"
+      },
+      "lastVerified": "2026-06-01T00:00:00Z"
+    },
+    {
+      "id": "chase-british-airways-visa-signature",
+      "cardName": "British Airways Visa Signature",
+      "issuer": "Chase",
+      "annualFee": 95,
+      "noForeignTransactionFees": true,
+      "earnRates": [
+        {
+          "category": "airfare",
+          "multiplier": 3,
+          "cap": null,
+          "notes": "British Airways, Aer Lingus, and Iberia flight purchases",
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "merchant",
+              "merchant": "British Airways, Aer Lingus, Iberia",
+              "label": "Specific airline purchases only",
+              "details": "3 Avios per $1 on British Airways, Aer Lingus, and Iberia flight purchases"
+            }
+          ]
+        },
+        {
+          "category": "hotels",
+          "multiplier": 2,
+          "cap": null,
+          "notes": "Hotel accommodations booked directly with the hotel",
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "directBooking",
+              "label": "Direct hotel booking required",
+              "details": "2 Avios per $1 on hotel accommodations booked directly with the hotel"
+            }
+          ]
+        }
+      ],
+      "baseEarnRate": 1,
+      "rewardProgram": "British Airways Executive Club",
+      "affiliateUrl": null,
+      "colorHex": null,
+      "benefits": [
+        {
+          "name": "Reward Flight Statement Credits",
+          "amount": 600,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Calendar Year",
+          "category": "Travel",
+          "allowsPartialUse": true,
+          "notes": "Up to $600 annually: $100 statement credit per Economy or Premium Economy Reward Flight, $200 per Business or First Class Reward Flight on British Airways, up to 3 credits per calendar year.",
+          "availableMonths": [],
+          "notificationsEnabled": true,
+          "guide": {
+            "whatItIs": "Statement credits of $100 (Economy/Premium Economy) or $200 (Business/First Class) per British Airways Reward Flight, up to 3 times per calendar year.",
+            "howItWorks": [
+              "Book a British Airways Reward Flight using Avios.",
+              "Pay the taxes, fees, and carrier charges with your British Airways Visa Signature Card.",
+              "A $100 or $200 statement credit is applied based on the cabin class booked.",
+              "Up to 3 statement credits per calendar year (max $600 total)."
+            ],
+            "maximizingTips": [
+              "Use Business or First Class Reward Flights to earn the $200 credit each time.",
+              "Book all three eligible Reward Flights per year to capture the full $600."
+            ]
+          }
+        }
+      ],
+      "sources": {
+        "annualFee": "https://creditcards.chase.com/travel-credit-cards/avios/british-airways",
+        "noForeignTransactionFees": "https://creditcards.chase.com/travel-credit-cards/avios/british-airways",
+        "baseEarnRate": "https://creditcards.chase.com/travel-credit-cards/avios/british-airways",
+        "rewardProgram": "https://creditcards.chase.com/travel-credit-cards/avios/british-airways",
+        "earnRates.airfare": "https://creditcards.chase.com/travel-credit-cards/avios/british-airways",
+        "earnRates.hotels": "https://creditcards.chase.com/travel-credit-cards/avios/british-airways",
+        "benefits.reward-flight-statement-credits": "https://creditcards.chase.com/travel-credit-cards/avios/british-airways"
+      },
+      "lastVerified": "2026-06-01T00:00:00Z"
+    },
+    {
+      "id": "chase-instacart-mastercard",
+      "cardName": "Instacart Mastercard",
+      "issuer": "Chase",
+      "annualFee": 0,
+      "noForeignTransactionFees": true,
+      "earnRates": [
+        {
+          "category": "groceries",
+          "multiplier": 5,
+          "cap": 6000,
+          "notes": "Instacart.com and Instacart app purchases, up to first $6,000 spent annually, then 1%",
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "merchant",
+              "merchant": "Instacart",
+              "label": "Instacart purchases only",
+              "details": "5% cash back on Instacart.com and app purchases on first $6,000 annually"
+            }
+          ]
+        },
+        {
+          "category": "travel",
+          "multiplier": 5,
+          "cap": null,
+          "notes": "Chase Travel purchases including flights, hotels, and more",
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "travelPortal",
+              "label": "Chase Travel required",
+              "provider": "Chase Travel",
+              "details": "5% cash back on purchases made through Chase Travel"
+            }
+          ],
+          "appliesToCategories": [
+            "travel",
+            "airfare",
+            "hotels"
+          ]
+        },
+        {
+          "category": "dining",
+          "multiplier": 2,
+          "cap": null,
+          "notes": "Restaurants, including orders on Instacart powered by Uber Eats"
+        },
+        {
+          "category": "gas",
+          "multiplier": 2,
+          "cap": null,
+          "notes": "Gas stations"
+        },
+        {
+          "category": "streaming",
+          "multiplier": 2,
+          "cap": null,
+          "notes": "Select streaming services",
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "merchant",
+              "label": "Select streaming services only",
+              "details": "2% cash back on select streaming services"
+            }
+          ]
+        }
+      ],
+      "baseEarnRate": 1,
+      "rewardProgram": "Cash Back",
+      "affiliateUrl": null,
+      "colorHex": null,
+      "benefits": [],
+      "sources": {
+        "annualFee": "https://creditcards.chase.com/cash-back-credit-cards/instacart",
+        "noForeignTransactionFees": "https://creditcards.chase.com/cash-back-credit-cards/instacart",
+        "baseEarnRate": "https://creditcards.chase.com/cash-back-credit-cards/instacart",
+        "rewardProgram": "https://creditcards.chase.com/cash-back-credit-cards/instacart",
+        "earnRates.groceries": "https://creditcards.chase.com/cash-back-credit-cards/instacart",
+        "earnRates.travel": "https://creditcards.chase.com/cash-back-credit-cards/instacart",
+        "earnRates.dining": "https://creditcards.chase.com/cash-back-credit-cards/instacart",
+        "earnRates.gas": "https://creditcards.chase.com/cash-back-credit-cards/instacart",
+        "earnRates.streaming": "https://creditcards.chase.com/cash-back-credit-cards/instacart"
+      },
+      "lastVerified": "2026-06-01T00:00:00Z"
     }
   ]
 }
