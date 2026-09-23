@@ -4,6 +4,11 @@ Every data change to `cards.json` or `rotating-categories.json` gets an entry he
 
 Dates are the catalog `version` tag (`YYYY.MM.DD`). Same-day follow-ups share a heading.
 
+## 2026.09.23
+
+- Corrected Amex Platinum Resy guidance: eligible restaurant purchases should be checked against current terms, and gift cards may not qualify.
+- Removed the retired Saks credit from current Platinum card guidance and replaced a speculative annual-fee calculation with a use-based check.
+
 ## 2026.07.02
 
 - Added benefit lifecycle metadata (`status`, `startsOn`, `endsOn`) and redemption-destination metadata to the schema. Marked Amex Platinum Saks retired as of 2026-07-01 (issuer source on the benefit), and added Resy finder links for Amex Platinum, Amex Gold, and Delta SkyMiles Reserve plus the Chase Sapphire Reserve Sapphire Tables eligible-tables link. The monthly agent now sets lifecycle fields instead of deleting ended benefits and preserves redemption links verbatim.

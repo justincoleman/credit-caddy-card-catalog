@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "version": "2026.07.16",
-  "lastUpdated": "2026-07-20T23:38:55Z",
+  "version": "2026.09.23",
+  "lastUpdated": "2026-09-23T14:51:52Z",
   "cards": [
     {
       "id": "american-express-platinum-card",
@@ -231,12 +231,12 @@
             "whatItIs": "A quarterly statement credit for eligible U.S. Resy restaurant purchases.",
             "howItWorks": [
               "Enroll in the Amex Benefits portal first.",
-              "Pay with the Platinum at any U.S. Resy-listed restaurant — a reservation is NOT required.",
+              "Pay with the Platinum at an eligible U.S. Resy restaurant. A reservation is not required; check the current eligibility details before you go.",
               "The credit resets quarterly and posts after Amex recognizes the charge."
             ],
             "maximizingTips": [
-              "You don't need a reservation — the credit triggers at ANY Resy-listed restaurant, and many are everyday spots. Check the Resy app to see which of your regulars qualify.",
-              "Buying a gift card in-store at a Resy restaurant usually triggers it too. Use it before the final week of the quarter so the charge has time to post."
+              "Check the current Resy eligibility details and use the Platinum Card for an eligible meal. Leave time for the charge and statement credit to post before the quarter ends.",
+              "Gift card purchases may not qualify. Rely on an eligible restaurant purchase instead of buying a gift card to use the credit."
             ]
           },
           "merchantPatterns": [
@@ -477,7 +477,7 @@
           {
             "title": "Is the $895 fee worth it?",
             "points": [
-              "You don't need every credit. The airline credit + a hotel credit + any two others (Resy, Saks, lululemon, Equinox, Oura) already clears ~$1,500 — comfortably past the $895 fee.",
+              "You don't need every credit. Start with benefits you would use naturally, check each one's enrollment and eligibility rules, and compare the value you actually receive with the annual fee.",
               "Most credits split into monthly or quarterly chunks (Uber, Resy, entertainment, lululemon). Those are the ones people lose — set reminders so each period's value doesn't expire.",
               "Be honest about which credits you'll actually use. If it's only one or two, a cheaper card likely nets you more."
             ]
@@ -507,7 +507,7 @@
           {
             "title": "Before you start: enroll",
             "points": [
-              "Most credits won't trigger until you enroll in the Amex Benefits portal — airline, Resy, lululemon, digital entertainment, Equinox, Oura, and Saks all require it.",
+              "Some credits require enrollment. Check the current Benefits portal for each benefit you plan to use, including Resy and digital entertainment, before making a purchase.",
               "There's usually no confirmation email. Enroll, then check the portal ~24 hours later to confirm the benefit is actually active."
             ]
           }
