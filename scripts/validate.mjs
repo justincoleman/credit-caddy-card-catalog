@@ -44,7 +44,7 @@ const ISSUER_DOMAINS = {
   'US Bank': ['usbank.com'],
   Discover: ['discover.com'],
   'Wells Fargo': ['wellsfargo.com'],
-  Barclays: ['barclaycardus.com', 'aa.com', 'hawaiianairlines.com'],
+  Barclays: ['barclaycardus.com', 'aa.com', 'hawaiianairlines.com', 'wyndhamhotels.com', 'wyndhamrewardscreditcard.com'],
   Apple: ['apple.com'],
   'Column N.A.': ['biltrewards.com'],
   'Synchrony Bank': ['synchrony.com', 'amazon.com'],

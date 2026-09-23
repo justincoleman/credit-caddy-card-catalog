@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "version": "2026.09.23",
-  "lastUpdated": "2026-09-23T14:51:52Z",
+  "lastUpdated": "2026-09-23T15:18:20Z",
   "cards": [
     {
       "id": "american-express-platinum-card",
@@ -33,8 +33,8 @@
         {
           "category": "hotels",
           "multiplier": 5,
-          "cap": 500000,
-          "notes": "Prepaid hotels booked via Amex Travel, up to $500,000 per calendar year, then 1x",
+          "cap": null,
+          "notes": "Prepaid hotels booked via Amex Travel",
           "isConditional": true,
           "conditions": [
             {
@@ -943,13 +943,13 @@
           "notificationsEnabled": true
         },
         {
-          "name": "Disney Bundle Credit",
-          "amount": 7,
+          "name": "Disney Streaming Credit",
+          "amount": 10,
           "renewalPeriod": "Monthly",
           "periodBasis": "Calendar Year",
           "category": "Entertainment",
           "allowsPartialUse": true,
-          "notes": "Statement credit toward Disney+, Hulu, or ESPN+ bundle",
+          "notes": "Up to $10 monthly for eligible Disney+, Hulu, or ESPN subscriptions purchased directly with an enrolled card.",
           "availableMonths": [],
           "notificationsEnabled": true
         }
@@ -963,7 +963,8 @@
         "earnRates.streaming": "https://www.americanexpress.com/us/credit-cards/card/blue-cash-preferred/",
         "earnRates.transit": "https://www.americanexpress.com/us/credit-cards/card/blue-cash-preferred/",
         "earnRates.gas": "https://www.americanexpress.com/us/credit-cards/card/blue-cash-preferred/",
-        "signupBonus": "https://www.americanexpress.com/us/credit-cards/card/blue-cash-preferred/"
+        "signupBonus": "https://www.americanexpress.com/us/credit-cards/card/blue-cash-preferred/",
+        "benefits.disney-streaming-credit": "https://www.americanexpress.com/us/credit-cards/card/blue-cash-preferred/"
       },
       "lastVerified": "2026-05-04T00:00:00Z",
       "signupBonus": {
@@ -1006,13 +1007,24 @@
       "colorHex": "2980B9",
       "benefits": [
         {
-          "name": "Disney Bundle Credit",
+          "name": "Disney Streaming Credit",
           "amount": 7,
           "renewalPeriod": "Monthly",
           "periodBasis": "Calendar Year",
           "category": "Entertainment",
           "allowsPartialUse": true,
-          "notes": "Statement credit toward Disney+, Hulu, or ESPN+ bundle",
+          "notes": "Up to $7 monthly for eligible Disney+, Hulu, or ESPN subscriptions with an enrolled card.",
+          "availableMonths": [],
+          "notificationsEnabled": true
+        },
+        {
+          "name": "Home Chef Credit",
+          "amount": 15,
+          "renewalPeriod": "Monthly",
+          "periodBasis": "Calendar Year",
+          "category": "Dining",
+          "allowsPartialUse": true,
+          "notes": "Up to $15 per month for a Home Chef meal kit subscription purchased at homechef.com/blue-cash-everyday with an enrolled card.",
           "availableMonths": [],
           "notificationsEnabled": true
         }
@@ -1024,7 +1036,9 @@
         "rewardProgram": "https://www.americanexpress.com/us/credit-cards/card/blue-cash-everyday/",
         "earnRates.groceries": "https://www.americanexpress.com/us/credit-cards/card/blue-cash-everyday/",
         "earnRates.onlineShopping": "https://www.americanexpress.com/us/credit-cards/card/blue-cash-everyday/",
-        "earnRates.gas": "https://www.americanexpress.com/us/credit-cards/card/blue-cash-everyday/"
+        "earnRates.gas": "https://www.americanexpress.com/us/credit-cards/card/blue-cash-everyday/",
+        "benefits.disney-streaming-credit": "https://global.americanexpress.com/card-benefits/view-all/blue-cash-everyday",
+        "benefits.home-chef-credit": "https://global.americanexpress.com/card-benefits/terms/blue-cash-everyday"
       },
       "lastVerified": "2026-05-04T00:00:00Z"
     },
@@ -2061,7 +2075,41 @@
       "rewardProgram": "Delta SkyMiles",
       "affiliateUrl": null,
       "colorHex": null,
-      "benefits": [],
+      "benefits": [
+        {
+          "name": "Resy Credit",
+          "amount": 20,
+          "renewalPeriod": "Monthly",
+          "periodBasis": "Calendar Year",
+          "category": "Dining",
+          "allowsPartialUse": true,
+          "notes": "Eligible purchases at qualifying U.S. Resy restaurants with an enrolled card.",
+          "availableMonths": [],
+          "notificationsEnabled": true
+        },
+        {
+          "name": "Rideshare Credit",
+          "amount": 10,
+          "renewalPeriod": "Monthly",
+          "periodBasis": "Calendar Year",
+          "category": "Travel",
+          "allowsPartialUse": true,
+          "notes": "Eligible U.S. rideshare purchases with select providers; enrollment required.",
+          "availableMonths": [],
+          "notificationsEnabled": true
+        },
+        {
+          "name": "Delta Stays Credit",
+          "amount": 250,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Calendar Year",
+          "category": "Travel",
+          "allowsPartialUse": true,
+          "notes": "Eligible prepaid hotel or vacation rental bookings through Delta Stays on delta.com.",
+          "availableMonths": [],
+          "notificationsEnabled": true
+        }
+      ],
       "lastVerified": "2026-05-03T00:00:00Z",
       "sources": {
         "annualFee": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/delta-skymiles-reserve/42732/",
@@ -2069,7 +2117,10 @@
         "baseEarnRate": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/delta-skymiles-reserve/42732/",
         "rewardProgram": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/delta-skymiles-reserve/42732/",
         "earnRates.airfare": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/delta-skymiles-reserve/42732/",
-        "earnRates.transit": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/delta-skymiles-reserve/42732/"
+        "earnRates.transit": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/delta-skymiles-reserve/42732/",
+        "benefits.resy-credit": "https://www.americanexpress.com/en-us/business/credit-cards/delta-skymiles-reserve/",
+        "benefits.rideshare-credit": "https://www.americanexpress.com/en-us/business/credit-cards/delta-skymiles-reserve/",
+        "benefits.delta-stays-credit": "https://www.americanexpress.com/en-us/business/credit-cards/delta-skymiles-reserve/"
       }
     },
     {
@@ -2111,7 +2162,41 @@
       "rewardProgram": "Delta SkyMiles",
       "affiliateUrl": null,
       "colorHex": null,
-      "benefits": [],
+      "benefits": [
+        {
+          "name": "Resy Credit",
+          "amount": 10,
+          "renewalPeriod": "Monthly",
+          "periodBasis": "Calendar Year",
+          "category": "Dining",
+          "allowsPartialUse": true,
+          "notes": "Eligible purchases at qualifying U.S. Resy restaurants with an enrolled card.",
+          "availableMonths": [],
+          "notificationsEnabled": true
+        },
+        {
+          "name": "Rideshare Credit",
+          "amount": 10,
+          "renewalPeriod": "Monthly",
+          "periodBasis": "Calendar Year",
+          "category": "Travel",
+          "allowsPartialUse": true,
+          "notes": "Eligible U.S. rideshare purchases with select providers; enrollment required.",
+          "availableMonths": [],
+          "notificationsEnabled": true
+        },
+        {
+          "name": "Delta Stays Credit",
+          "amount": 200,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Calendar Year",
+          "category": "Travel",
+          "allowsPartialUse": true,
+          "notes": "Eligible prepaid hotel or vacation rental bookings through Delta Stays on delta.com.",
+          "availableMonths": [],
+          "notificationsEnabled": true
+        }
+      ],
       "lastVerified": "2026-05-03T00:00:00Z",
       "sources": {
         "annualFee": "https://www.americanexpress.com/en-us/business/credit-cards/delta-skymiles-platinum/",
@@ -2120,7 +2205,10 @@
         "rewardProgram": "https://www.americanexpress.com/en-us/business/credit-cards/delta-skymiles-platinum/",
         "earnRates.airfare": "https://www.americanexpress.com/en-us/business/credit-cards/delta-skymiles-platinum/",
         "earnRates.hotels": "https://www.americanexpress.com/en-us/business/credit-cards/delta-skymiles-platinum/",
-        "earnRates.transit": "https://www.americanexpress.com/en-us/business/credit-cards/delta-skymiles-platinum/"
+        "earnRates.transit": "https://www.americanexpress.com/en-us/business/credit-cards/delta-skymiles-platinum/",
+        "benefits.resy-credit": "https://www.americanexpress.com/en-us/business/credit-cards/delta-skymiles-platinum/",
+        "benefits.rideshare-credit": "https://www.americanexpress.com/en-us/business/credit-cards/delta-skymiles-platinum/",
+        "benefits.delta-stays-credit": "https://www.americanexpress.com/en-us/business/credit-cards/delta-skymiles-platinum/"
       }
     },
     {
@@ -2631,8 +2719,8 @@
       "id": "barclays-wyndham-rewards-earner-plus",
       "cardName": "Wyndham Rewards Earner Plus",
       "issuer": "Barclays",
-      "annualFee": 75,
-      "noForeignTransactionFees": false,
+      "annualFee": 95,
+      "noForeignTransactionFees": true,
       "earnRates": [
         {
           "category": "hotels",
@@ -2672,16 +2760,45 @@
       "rewardProgram": "Other",
       "affiliateUrl": null,
       "colorHex": "004B8D",
-      "benefits": [],
+      "benefits": [
+        {
+          "name": "Anniversary Bonus (15K points)",
+          "amount": null,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Cardmember Year",
+          "category": "Travel",
+          "allowsPartialUse": false,
+          "notes": "15,000 Wyndham Rewards points each anniversary after annual fee payment; enter your points value.",
+          "availableMonths": [],
+          "notificationsEnabled": true,
+          "requiresValueOnUse": true
+        },
+        {
+          "name": "Meal Delivery Credit",
+          "amount": 25,
+          "renewalPeriod": "Every 6 months",
+          "periodBasis": "Calendar Year",
+          "category": "Dining",
+          "allowsPartialUse": true,
+          "notes": "Up to $25 each six-month calendar-year period for eligible third-party meal delivery purchases; restaurant delivery and meal kits do not qualify.",
+          "availableMonths": [],
+          "notificationsEnabled": true
+        }
+      ],
       "sources": {
-        "annualFee": "https://cards.barclaycardus.com/banking/cards/wyndham-rewards-earner-plus-card/",
-        "noForeignTransactionFees": "https://cards.barclaycardus.com/banking/cards/wyndham-rewards-earner-plus-card/",
+        "annualFee": [
+          "https://www.wyndhamrewardscreditcard.com/earner-plus-card/",
+          "https://www.wyndhamhotels.com/wyndham-rewards/terms"
+        ],
+        "noForeignTransactionFees": "https://www.wyndhamrewardscreditcard.com/earner-plus-card/",
         "baseEarnRate": "https://cards.barclaycardus.com/banking/cards/wyndham-rewards-earner-plus-card/",
         "rewardProgram": "https://cards.barclaycardus.com/banking/cards/wyndham-rewards-earner-plus-card/",
         "earnRates.hotels": "https://cards.barclaycardus.com/banking/cards/wyndham-rewards-earner-plus-card/",
         "earnRates.gas": "https://cards.barclaycardus.com/banking/cards/wyndham-rewards-earner-plus-card/",
         "earnRates.dining": "https://cards.barclaycardus.com/banking/cards/wyndham-rewards-earner-plus-card/",
-        "earnRates.groceries": "https://cards.barclaycardus.com/banking/cards/wyndham-rewards-earner-plus-card/"
+        "earnRates.groceries": "https://cards.barclaycardus.com/banking/cards/wyndham-rewards-earner-plus-card/",
+        "benefits.anniversary-bonus-15k-points": "https://www.wyndhamrewardscreditcard.com/",
+        "benefits.meal-delivery-credit": "https://www.wyndhamrewardscreditcard.com/earner-plus-card/"
       },
       "lastVerified": "2026-05-03T00:00:00Z"
     },
@@ -2967,13 +3084,13 @@
       "colorHex": "005DAA",
       "benefits": [
         {
-          "name": "Global Entry/TSA PreCheck Credit",
-          "amount": 100,
+          "name": "Global Entry/TSA PreCheck/NEXUS Credit",
+          "amount": 120,
           "renewalPeriod": "Yearly",
           "periodBasis": "Cardmember Year",
           "category": "Travel",
           "allowsPartialUse": true,
-          "notes": "Every 4 years",
+          "notes": "Up to $120 every 4 years",
           "availableMonths": [],
           "notificationsEnabled": true
         },
@@ -2999,7 +3116,8 @@
         "rewardProgram": "https://creditcards.chase.com/travel-credit-cards/united/united-explorer",
         "earnRates.airfare": "https://creditcards.chase.com/travel-credit-cards/united/united-explorer",
         "earnRates.hotels": "https://creditcards.chase.com/travel-credit-cards/united/united-explorer",
-        "earnRates.dining": "https://creditcards.chase.com/travel-credit-cards/united/united-explorer"
+        "earnRates.dining": "https://creditcards.chase.com/travel-credit-cards/united/united-explorer",
+        "benefits.global-entry-tsa-precheck-nexus-credit": "https://creditcards.chase.com/travel-credit-cards/united/united-explorer"
       },
       "lastVerified": "2026-05-03T00:00:00Z"
     },
@@ -3345,7 +3463,7 @@
         },
         {
           "name": "Global Entry/TSA PreCheck Credit",
-          "amount": 100,
+          "amount": 120,
           "renewalPeriod": "Yearly",
           "periodBasis": "Cardmember Year",
           "category": "Travel",
@@ -3370,7 +3488,8 @@
         "earnRates.airfare": "https://www.capitalone.com/credit-cards/venture-x/",
         "benefits.travel-credit": "https://www.capitalone.com/credit-cards/venture-x/",
         "benefits.anniversary-bonus-10k-miles": "https://www.capitalone.com/credit-cards/venture-x/",
-        "signupBonus": "https://www.capitalone.com/credit-cards/venture-x/"
+        "signupBonus": "https://www.capitalone.com/credit-cards/venture-x/",
+        "benefits.global-entry-tsa-precheck-credit": "https://www.capitalone.com/credit-cards/venture-x/"
       },
       "lastVerified": "2026-05-03T00:00:00Z",
       "signupBonus": {
@@ -3411,7 +3530,7 @@
       "benefits": [
         {
           "name": "Global Entry/TSA PreCheck Credit",
-          "amount": 100,
+          "amount": 120,
           "renewalPeriod": "Yearly",
           "periodBasis": "Cardmember Year",
           "category": "Travel",
@@ -3427,7 +3546,8 @@
         "baseEarnRate": "https://www.capitalone.com/credit-cards/venture/",
         "rewardProgram": "https://www.capitalone.com/credit-cards/venture/",
         "earnRates.hotels": "https://www.capitalone.com/credit-cards/venture/",
-        "signupBonus": "https://www.capitalone.com/credit-cards/venture/"
+        "signupBonus": "https://www.capitalone.com/credit-cards/venture/",
+        "benefits.global-entry-tsa-precheck-credit": "https://www.capitalone.com/credit-cards/venture/"
       },
       "lastVerified": "2026-05-03T00:00:00Z",
       "signupBonus": {
@@ -3449,7 +3569,7 @@
           "category": "hotels",
           "multiplier": 10,
           "cap": null,
-          "notes": "Hotels and rental cars booked through Capital One Travel",
+          "notes": "Hotels and rental cars booked through Capital One Business Travel",
           "isConditional": true,
           "conditions": [
             {
@@ -3464,7 +3584,7 @@
           "category": "airfare",
           "multiplier": 5,
           "cap": null,
-          "notes": "Flights booked through Capital One Travel",
+          "notes": "Flights and vacation rentals booked through Capital One Business Travel",
           "isConditional": true,
           "conditions": [
             {
@@ -3488,7 +3608,7 @@
           "periodBasis": "Cardmember Year",
           "category": "Travel",
           "allowsPartialUse": true,
-          "notes": "Bookings via Capital One Travel",
+          "notes": "Bookings through Capital One Business Travel",
           "availableMonths": [],
           "notificationsEnabled": true,
           "merchantPatterns": [
@@ -3500,7 +3620,7 @@
         },
         {
           "name": "Global Entry/TSA PreCheck Credit",
-          "amount": 100,
+          "amount": 120,
           "renewalPeriod": "Yearly",
           "periodBasis": "Cardmember Year",
           "category": "Travel",
@@ -3514,6 +3634,18 @@
             "US CUSTOMS",
             "CBP"
           ]
+        },
+        {
+          "name": "Anniversary Bonus (10K miles)",
+          "amount": null,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Cardmember Year",
+          "category": "Travel",
+          "allowsPartialUse": false,
+          "notes": "10,000 bonus miles each account anniversary; enter your miles value.",
+          "availableMonths": [],
+          "notificationsEnabled": true,
+          "requiresValueOnUse": true
         }
       ],
       "sources": {
@@ -3522,9 +3654,20 @@
         "baseEarnRate": "https://www.capitalone.com/small-business/credit-cards/venture-x-business/",
         "rewardProgram": "https://www.capitalone.com/small-business/credit-cards/venture-x-business/",
         "earnRates.hotels": "https://www.capitalone.com/small-business/credit-cards/venture-x-business/",
-        "earnRates.airfare": "https://www.capitalone.com/small-business/credit-cards/venture-x-business/"
+        "earnRates.airfare": "https://www.capitalone.com/small-business/credit-cards/venture-x-business/",
+        "benefits.global-entry-tsa-precheck-credit": "https://www.capitalone.com/small-business/credit-cards/venture-x-business/",
+        "signupBonus": "https://www.capitalone.com/small-business/credit-cards/venture-x-business/",
+        "benefits.anniversary-bonus-10k-miles": "https://www.capitalone.com/small-business/credit-cards/venture-x-business/",
+        "benefits.travel-credit": "https://www.capitalone.com/small-business/credit-cards/venture-x-business/"
       },
-      "lastVerified": "2026-05-03T00:00:00Z"
+      "lastVerified": "2026-05-03T00:00:00Z",
+      "signupBonus": {
+        "amount": 150000,
+        "kind": "points",
+        "minSpend": 30000,
+        "withinMonths": 3,
+        "notes": "Public offer: 150,000 miles after $30,000 in 3 months; offers may vary"
+      }
     },
     {
       "id": "capital-one-savorone",
@@ -3720,6 +3863,12 @@
             "hotels",
             "transit"
           ]
+        },
+        {
+          "category": "gas",
+          "multiplier": 3,
+          "cap": null,
+          "notes": "Gas stations and EV charging stations"
         }
       ],
       "baseEarnRate": 1,
@@ -3729,7 +3878,7 @@
       "benefits": [
         {
           "name": "Hotel Credit (Anniversary)",
-          "amount": 50,
+          "amount": 100,
           "renewalPeriod": "Yearly",
           "periodBasis": "Cardmember Year",
           "category": "Travel",
@@ -3765,7 +3914,8 @@
         "earnRates.streaming": "https://creditcards.chase.com/rewards-credit-cards/sapphire/preferred",
         "earnRates.onlineShopping": "https://creditcards.chase.com/rewards-credit-cards/sapphire/preferred",
         "benefits.hotel-credit-anniversary": "https://creditcards.chase.com/rewards-credit-cards/sapphire/preferred",
-        "signupBonus": "https://creditcards.chase.com/rewards-credit-cards/sapphire/preferred"
+        "signupBonus": "https://creditcards.chase.com/rewards-credit-cards/sapphire/preferred",
+        "earnRates.gas": "https://creditcards.chase.com/rewards-credit-cards/sapphire/preferred"
       },
       "lastVerified": "2026-05-03T00:00:00Z",
       "signupBonus": {
@@ -4065,11 +4215,11 @@
       },
       "lastVerified": "2026-05-19T00:00:00Z",
       "signupBonus": {
-        "amount": 125000,
+        "amount": 100000,
         "kind": "points",
         "minSpend": 6000,
         "withinMonths": 3,
-        "notes": "125,000 Ultimate Rewards points after $6,000 in 3 months"
+        "notes": "100,000 Ultimate Rewards points after $6,000 in 3 months (public offer; may vary)"
       }
     },
     {
@@ -4497,7 +4647,9 @@
           "allowsPartialUse": true,
           "notes": "Expires 12/31/2025",
           "availableMonths": [],
-          "notificationsEnabled": true
+          "notificationsEnabled": false,
+          "status": "retired",
+          "endsOn": "2026-01-01"
         },
         {
           "name": "Anniversary Bonus (7.5K points)",
@@ -4520,7 +4672,9 @@
           "allowsPartialUse": false,
           "notes": "4 per year, expires 12/31/2025",
           "availableMonths": [],
-          "notificationsEnabled": true
+          "notificationsEnabled": false,
+          "status": "retired",
+          "endsOn": "2026-01-01"
         },
         {
           "name": "Companion Pass Points (10K)",
@@ -4545,7 +4699,9 @@
         "rewardProgram": "https://creditcards.chase.com/travel-credit-cards/southwest/priority",
         "earnRates.airfare": "https://creditcards.chase.com/travel-credit-cards/southwest/priority",
         "earnRates.gas": "https://creditcards.chase.com/travel-credit-cards/southwest/priority",
-        "earnRates.dining": "https://creditcards.chase.com/travel-credit-cards/southwest/priority"
+        "earnRates.dining": "https://creditcards.chase.com/travel-credit-cards/southwest/priority",
+        "benefits.southwest-travel-credit": "https://creditcards.chase.com/travel-credit-cards/southwest/priority",
+        "benefits.upgraded-boardings": "https://creditcards.chase.com/travel-credit-cards/southwest/priority"
       },
       "lastVerified": "2026-05-03T00:00:00Z"
     },
@@ -4698,7 +4854,9 @@
           "allowsPartialUse": false,
           "notes": "2 per year, expires 12/31/2025",
           "availableMonths": [],
-          "notificationsEnabled": true
+          "notificationsEnabled": false,
+          "status": "retired",
+          "endsOn": "2026-01-01"
         },
         {
           "name": "Points Transfer Credit",
@@ -4709,7 +4867,9 @@
           "allowsPartialUse": true,
           "notes": "Expires 12/31/2025",
           "availableMonths": [],
-          "notificationsEnabled": true
+          "notificationsEnabled": false,
+          "status": "retired",
+          "endsOn": "2026-01-01"
         }
       ],
       "sources": {
@@ -4717,7 +4877,9 @@
         "noForeignTransactionFees": "https://creditcards.chase.com/business-credit-cards/southwest/premier-business",
         "baseEarnRate": "https://creditcards.chase.com/business-credit-cards/southwest/premier-business",
         "rewardProgram": "https://creditcards.chase.com/business-credit-cards/southwest/premier-business",
-        "earnRates.airfare": "https://creditcards.chase.com/business-credit-cards/southwest/premier-business"
+        "earnRates.airfare": "https://creditcards.chase.com/business-credit-cards/southwest/premier-business",
+        "benefits.earlybird-check-in": "https://creditcards.chase.com/business-credit-cards/southwest/premier-business",
+        "benefits.points-transfer-credit": "https://creditcards.chase.com/business-credit-cards/southwest/premier-business"
       },
       "lastVerified": "2026-05-03T00:00:00Z"
     },
@@ -4835,7 +4997,9 @@
           "allowsPartialUse": true,
           "notes": "Expires 12/31/2025",
           "availableMonths": [],
-          "notificationsEnabled": true
+          "notificationsEnabled": false,
+          "status": "retired",
+          "endsOn": "2026-01-01"
         },
         {
           "name": "Global Entry/TSA PreCheck Credit",
@@ -4861,7 +5025,8 @@
         "earnRates.travel": "https://creditcards.chase.com/business-credit-cards/southwest/performance-business",
         "earnRates.gas": "https://creditcards.chase.com/business-credit-cards/southwest/performance-business",
         "earnRates.dining": "https://creditcards.chase.com/business-credit-cards/southwest/performance-business",
-        "earnRates.hotels": "https://creditcards.chase.com/business-credit-cards/southwest/performance-business"
+        "earnRates.hotels": "https://creditcards.chase.com/business-credit-cards/southwest/performance-business",
+        "benefits.points-transfer-credit": "https://creditcards.chase.com/southwest/performance-business-credit-card"
       },
       "lastVerified": "2026-05-03T00:00:00Z"
     },
@@ -5210,15 +5375,9 @@
           "multiplier": 3,
           "cap": null,
           "notes": "Restaurants outside Citi Nights"
-        },
-        {
-          "category": "groceries",
-          "multiplier": 3,
-          "cap": null,
-          "notes": "Supermarkets"
         }
       ],
-      "baseEarnRate": 1,
+      "baseEarnRate": 1.5,
       "rewardProgram": "Citi ThankYou Points",
       "affiliateUrl": null,
       "colorHex": "1C1C1C",
@@ -5294,7 +5453,6 @@
         "earnRates.travel": "https://www.citi.com/credit-cards/citi-strata-elite-credit-card",
         "earnRates.airfare": "https://www.citi.com/credit-cards/citi-strata-elite-credit-card",
         "earnRates.dining": "https://www.citi.com/credit-cards/citi-strata-elite-credit-card",
-        "earnRates.groceries": "https://www.citi.com/credit-cards/citi-strata-elite-credit-card",
         "signupBonus": "https://www.citi.com/credit-cards/citi-strata-elite-credit-card"
       },
       "lastVerified": "2026-05-03T00:00:00Z",
@@ -5498,7 +5656,7 @@
         },
         {
           "name": "Airline Incidental Credit",
-          "amount": 150,
+          "amount": 300,
           "renewalPeriod": "Yearly",
           "periodBasis": "Calendar Year",
           "category": "Travel",
@@ -5509,7 +5667,7 @@
         },
         {
           "name": "Global Entry/TSA PreCheck Credit",
-          "amount": 100,
+          "amount": 120,
           "renewalPeriod": "Yearly",
           "periodBasis": "Cardmember Year",
           "category": "Travel",
@@ -5536,7 +5694,9 @@
         "baseEarnRate": "https://www.bankofamerica.com/credit-cards/products/premium-rewards-elite-credit-card/",
         "rewardProgram": "https://www.bankofamerica.com/credit-cards/products/premium-rewards-elite-credit-card/",
         "earnRates.travel": "https://www.bankofamerica.com/credit-cards/products/premium-rewards-elite-credit-card/",
-        "earnRates.dining": "https://www.bankofamerica.com/credit-cards/products/premium-rewards-elite-credit-card/"
+        "earnRates.dining": "https://www.bankofamerica.com/credit-cards/products/premium-rewards-elite-credit-card/",
+        "benefits.airline-incidental-credit": "https://www.bankofamerica.com/credit-cards/products/premium-rewards-elite-credit-card/",
+        "benefits.global-entry-tsa-precheck-credit": "https://www.bankofamerica.com/credit-cards/products/premium-rewards-elite-credit-card/"
       },
       "lastVerified": "2026-05-03T00:00:00Z"
     },
@@ -6221,8 +6381,8 @@
         {
           "category": "dining",
           "multiplier": 3,
-          "cap": 25000,
-          "notes": "Choose dining or groceries as a 3x category, up to $25,000 per calendar year, then 1x",
+          "cap": null,
+          "notes": "Choose dining or groceries as the 3x category; dining has no annual cap",
           "isConditional": true,
           "conditions": [
             {
@@ -6337,7 +6497,7 @@
           "name": "Bilt Cash Credit",
           "amount": 200,
           "renewalPeriod": "Yearly",
-          "periodBasis": "Cardmember Year",
+          "periodBasis": "Calendar Year",
           "category": "Travel",
           "allowsPartialUse": true,
           "notes": "$200 Bilt Cash awarded annually; usable toward rent/housing payments",
@@ -6350,7 +6510,8 @@
         "noForeignTransactionFees": "https://www.biltrewards.com/terms/bilt-card-offer-terms",
         "baseEarnRate": "https://www.biltrewards.com/terms/bilt-card-offer-terms",
         "rewardProgram": "https://www.biltrewards.com/terms/bilt-card-offer-terms",
-        "earnRates.rent": "https://www.biltrewards.com/terms/bilt-card-offer-terms"
+        "earnRates.rent": "https://www.biltrewards.com/terms/bilt-card-offer-terms",
+        "benefits.bilt-cash-credit": "https://www.biltrewards.com/terms/bilt-card-offer-terms"
       },
       "lastVerified": "2026-05-03T00:00:00Z"
     },
@@ -6620,13 +6781,13 @@
           "category": "gas",
           "multiplier": 2,
           "cap": 5000,
-          "notes": "Gas stations on the first $5,000 in combined purchases per account anniversary year, then 1x"
+          "notes": "Gas stations on the first $5,000 in combined gas and restaurant purchases per account anniversary year, then 1x"
         },
         {
-          "category": "groceries",
+          "category": "dining",
           "multiplier": 2,
           "cap": 5000,
-          "notes": "Grocery stores on the first $5,000 in combined purchases per account anniversary year, then 1x"
+          "notes": "Restaurants on the first $5,000 in combined gas and restaurant purchases per account anniversary year, then 1x"
         }
       ],
       "baseEarnRate": 1,
@@ -6654,8 +6815,8 @@
         "rewardProgram": "https://creditcards.chase.com/all-credit-cards",
         "earnRates.airfare": "https://creditcards.chase.com/travel-credit-cards/southwest/plus",
         "earnRates.gas": "https://creditcards.chase.com/travel-credit-cards/southwest/plus",
-        "earnRates.groceries": "https://creditcards.chase.com/travel-credit-cards/southwest/plus",
-        "benefits.anniversary-bonus-3k-points": "https://creditcards.chase.com/travel-credit-cards/southwest/plus"
+        "benefits.anniversary-bonus-3k-points": "https://creditcards.chase.com/travel-credit-cards/southwest/plus",
+        "earnRates.dining": "https://creditcards.chase.com/travel-credit-cards/southwest/plus"
       },
       "lastVerified": "2026-05-08T00:00:00Z"
     },
@@ -7574,7 +7735,7 @@
       "annualFee": 0,
       "noForeignTransactionFees": false,
       "earnRates": [],
-      "baseEarnRate": 1,
+      "baseEarnRate": 0,
       "rewardProgram": "Citi",
       "affiliateUrl": null,
       "colorHex": "9AA0A6",
@@ -7582,7 +7743,7 @@
       "sources": {
         "annualFee": "https://www.citi.com/credit-cards/view-all-credit-cards",
         "noForeignTransactionFees": "https://www.citi.com/credit-cards/view-all-credit-cards",
-        "baseEarnRate": "https://www.citi.com/credit-cards/view-all-credit-cards",
+        "baseEarnRate": "https://www.citi.com/credit-cards/citi-diamond-preferred-credit-card",
         "rewardProgram": "https://www.citi.com/credit-cards/view-all-credit-cards"
       },
       "lastVerified": "2026-05-08T00:00:00Z"
@@ -7594,7 +7755,7 @@
       "annualFee": 0,
       "noForeignTransactionFees": false,
       "earnRates": [],
-      "baseEarnRate": 1,
+      "baseEarnRate": 0,
       "rewardProgram": "Citi",
       "affiliateUrl": null,
       "colorHex": "4A90E2",
@@ -7602,7 +7763,7 @@
       "sources": {
         "annualFee": "https://www.citi.com/credit-cards/view-all-credit-cards",
         "noForeignTransactionFees": "https://www.citi.com/credit-cards/view-all-credit-cards",
-        "baseEarnRate": "https://www.citi.com/credit-cards/view-all-credit-cards",
+        "baseEarnRate": "https://www.citi.com/credit-cards/citi-simplicity-credit-card",
         "rewardProgram": "https://www.citi.com/credit-cards/view-all-credit-cards"
       },
       "lastVerified": "2026-05-08T00:00:00Z"
@@ -7628,7 +7789,7 @@
         },
         {
           "category": "dining",
-          "multiplier": 3,
+          "multiplier": 2,
           "cap": null,
           "notes": "Restaurants"
         },
@@ -7637,6 +7798,21 @@
           "multiplier": 3,
           "cap": null,
           "notes": "Select transit"
+        },
+        {
+          "category": "hotels",
+          "multiplier": 5,
+          "cap": null,
+          "notes": "Hotels booked through Citi Travel; rental cars and attractions also earn 5x but are not modeled as hotel purchases.",
+          "isConditional": true,
+          "conditions": [
+            {
+              "type": "travelPortal",
+              "label": "Citi Travel required",
+              "provider": "Citi Travel",
+              "details": "Hotels booked through Citi Travel"
+            }
+          ]
         }
       ],
       "baseEarnRate": 1,
@@ -7651,9 +7827,10 @@
         "rewardProgram": "https://www.citi.com/credit-cards/view-all-credit-cards",
         "earnRates.groceries": "https://www.citi.com/credit-cards/citi-strata-card",
         "earnRates.gas": "https://www.citi.com/credit-cards/citi-strata-card",
-        "earnRates.dining": "https://www.citi.com/credit-cards/citi-strata-card",
+        "earnRates.dining": "https://www.citi.com/credit-cards/citi-strata-credit-card",
         "earnRates.transit": "https://www.citi.com/credit-cards/citi-strata-card",
-        "signupBonus": "https://www.citi.com/credit-cards/citi-strata-credit-card"
+        "signupBonus": "https://www.citi.com/credit-cards/citi-strata-credit-card",
+        "earnRates.hotels": "https://www.citi.com/credit-cards/citi-strata-credit-card"
       },
       "lastVerified": "2026-05-08T00:00:00Z",
       "signupBonus": {
@@ -8024,7 +8201,7 @@
         },
         {
           "category": "groceries",
-          "multiplier": 3,
+          "multiplier": 2,
           "cap": null,
           "notes": "Supermarkets"
         }
@@ -8041,19 +8218,19 @@
           "periodBasis": "Calendar Year",
           "category": "Shopping",
           "allowsPartialUse": true,
-          "notes": "After qualifying spend",
+          "notes": "Up to $20 per billing cycle after $1,000 in qualifying purchases in that billing cycle.",
           "availableMonths": [],
           "notificationsEnabled": true
         }
       ],
       "sources": {
         "annualFee": "https://www.citi.com/credit-cards/view-all-credit-cards",
-        "noForeignTransactionFees": "https://www.citi.com/credit-cards/view-all-credit-cards",
+        "noForeignTransactionFees": "https://www.citi.com/credit-cards/credit-card-rewards/what-are-the-benefits-of-the-att-points-plus-card",
         "baseEarnRate": "https://www.citi.com/credit-cards/view-all-credit-cards",
         "rewardProgram": "https://www.citi.com/credit-cards/view-all-credit-cards",
         "earnRates.gas": "https://www.citi.com/credit-cards/att-points-plus-credit-card",
-        "earnRates.groceries": "https://www.citi.com/credit-cards/att-points-plus-credit-card",
-        "benefits.at-t-bill-credit": "https://www.citi.com/credit-cards/att-points-plus-credit-card"
+        "earnRates.groceries": "https://www.citi.com/credit-cards/credit-card-rewards/what-are-the-benefits-of-the-att-points-plus-card",
+        "benefits.at-t-bill-credit": "https://www.citi.com/credit-cards/credit-card-rewards/what-are-the-benefits-of-the-att-points-plus-card"
       },
       "lastVerified": "2026-05-08T00:00:00Z"
     },
@@ -8064,7 +8241,7 @@
       "annualFee": 0,
       "noForeignTransactionFees": false,
       "earnRates": [],
-      "baseEarnRate": 1,
+      "baseEarnRate": 0,
       "rewardProgram": "Citi",
       "affiliateUrl": null,
       "colorHex": "6D7278",
@@ -8072,7 +8249,7 @@
       "sources": {
         "annualFee": "https://www.citi.com/credit-cards/view-all-credit-cards",
         "noForeignTransactionFees": "https://www.citi.com/credit-cards/view-all-credit-cards",
-        "baseEarnRate": "https://www.citi.com/credit-cards/view-all-credit-cards",
+        "baseEarnRate": "https://www.citi.com/credit-cards/citi-secured-credit-card",
         "rewardProgram": "https://www.citi.com/credit-cards/view-all-credit-cards"
       },
       "lastVerified": "2026-05-08T00:00:00Z"
@@ -8703,7 +8880,7 @@
       "cardName": "Platinum Mastercard",
       "issuer": "Capital One",
       "annualFee": 0,
-      "noForeignTransactionFees": false,
+      "noForeignTransactionFees": true,
       "earnRates": [],
       "baseEarnRate": 0,
       "rewardProgram": "Capital One",
@@ -8712,7 +8889,7 @@
       "benefits": [],
       "sources": {
         "annualFee": "https://www.capitalone.com/credit-cards/platinum/",
-        "noForeignTransactionFees": "https://www.capitalone.com/credit-cards/platinum/",
+        "noForeignTransactionFees": "https://www.capitalone.com/learn-grow/money-management/no-foreign-transaction-fee-credit-card/",
         "baseEarnRate": "https://www.capitalone.com/credit-cards/platinum/",
         "rewardProgram": "https://www.capitalone.com/credit-cards/platinum/"
       },
@@ -8723,7 +8900,7 @@
       "cardName": "Quicksilver Cash Rewards",
       "issuer": "Capital One",
       "annualFee": 0,
-      "noForeignTransactionFees": false,
+      "noForeignTransactionFees": true,
       "earnRates": [
         {
           "category": "hotels",
@@ -8748,7 +8925,7 @@
       "benefits": [],
       "sources": {
         "annualFee": "https://www.capitalone.com/credit-cards/cash-back/quicksilver/",
-        "noForeignTransactionFees": "https://www.capitalone.com/credit-cards/cash-back/quicksilver/",
+        "noForeignTransactionFees": "https://www.capitalone.com/learn-grow/money-management/no-foreign-transaction-fee-credit-card/",
         "baseEarnRate": "https://www.capitalone.com/credit-cards/cash-back/quicksilver/",
         "rewardProgram": "https://www.capitalone.com/credit-cards/cash-back/quicksilver/",
         "earnRates.hotels": "https://www.capitalone.com/credit-cards/cash-back/quicksilver/"
@@ -8760,7 +8937,7 @@
       "cardName": "QuicksilverOne Cash Rewards",
       "issuer": "Capital One",
       "annualFee": 39,
-      "noForeignTransactionFees": false,
+      "noForeignTransactionFees": true,
       "earnRates": [
         {
           "category": "hotels",
@@ -8785,7 +8962,7 @@
       "benefits": [],
       "sources": {
         "annualFee": "https://www.capitalone.com/credit-cards/cash-back/quicksilver/",
-        "noForeignTransactionFees": "https://www.capitalone.com/credit-cards/cash-back/quicksilver/",
+        "noForeignTransactionFees": "https://www.capitalone.com/learn-grow/money-management/no-foreign-transaction-fee-credit-card/",
         "baseEarnRate": "https://www.capitalone.com/credit-cards/cash-back/quicksilver/",
         "rewardProgram": "https://www.capitalone.com/credit-cards/cash-back/quicksilver/",
         "earnRates.hotels": "https://www.capitalone.com/credit-cards/cash-back/quicksilver/"
@@ -8797,7 +8974,7 @@
       "cardName": "Quicksilver Secured Cash Rewards",
       "issuer": "Capital One",
       "annualFee": 0,
-      "noForeignTransactionFees": false,
+      "noForeignTransactionFees": true,
       "earnRates": [],
       "baseEarnRate": 1.5,
       "rewardProgram": "Cash Back",
@@ -8806,7 +8983,7 @@
       "benefits": [],
       "sources": {
         "annualFee": "https://www.capitalone.com/credit-cards/quicksilver-secured/",
-        "noForeignTransactionFees": "https://www.capitalone.com/credit-cards/quicksilver-secured/",
+        "noForeignTransactionFees": "https://www.capitalone.com/learn-grow/money-management/no-foreign-transaction-fee-credit-card/",
         "baseEarnRate": "https://www.capitalone.com/credit-cards/quicksilver-secured/",
         "rewardProgram": "https://www.capitalone.com/credit-cards/quicksilver-secured/"
       },
@@ -9165,7 +9342,7 @@
           "category": "dining",
           "multiplier": 4,
           "cap": null,
-          "notes": "Dining, takeout, and restaurant delivery"
+          "notes": "Dining, takeout, and restaurant delivery on the first $2,000 each quarter, then 1x"
         },
         {
           "category": "groceries",
