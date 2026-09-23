@@ -49,7 +49,7 @@ Approved issuer source domains:
 - American Express: `americanexpress.com`
 - Apple: `apple.com`
 - Bank of America: `bankofamerica.com`, `alaskaair.com`
-- Barclays: `barclaycardus.com`, `aa.com`, `hawaiianairlines.com`
+- Barclays: `barclaycardus.com`, `aa.com`, `hawaiianairlines.com`, `wyndhamhotels.com`, `wyndhamrewardscreditcard.com`
 - Capital One: `capitalone.com`
 - Chase: `chase.com`
 - Citi: `citi.com`
