@@ -6,6 +6,10 @@ Dates are the catalog `version` tag (`YYYY.MM.DD`). Same-day follow-ups share a 
 
 ## 2026.09.23
 
+- Corrected current rewards, credits, fees, and foreign-transaction-fee facts across American Express, Chase, Citi, Capital One, Bank of America, Bilt, U.S. Bank, and Wyndham cards using issuer and co-brand sources.
+- Added the trackable Resy, rideshare, and Delta Stays credits missing from both Delta SkyMiles Business premium cards, and updated Venture X Business anniversary and travel details.
+- Retired five Southwest benefits whose catalog records said they expired in 2025, while retaining their history.
+- Added Wyndham-owned source domains to the Barclays citation validator so the updated Earner Plus fee has two independent co-brand citations.
 - Corrected Amex Platinum Resy guidance: eligible restaurant purchases should be checked against current terms, and gift cards may not qualify.
 - Removed the retired Saks credit from current Platinum card guidance and replaced a speculative annual-fee calculation with a use-based check.
 
