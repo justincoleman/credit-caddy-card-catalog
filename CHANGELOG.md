@@ -4,6 +4,11 @@ Every data change to `cards.json` or `rotating-categories.json` gets an entry he
 
 Dates are the catalog `version` tag (`YYYY.MM.DD`). Same-day follow-ups share a heading.
 
+## 2026.09.24
+
+- Added `renewalIntervalYears: 4` to all 21 Global Entry/TSA PreCheck/NEXUS credits, which renew every four years but were modeled as yearly. The app previously counted them at four times their annual value and reset them every year. Older app versions ignore the field and keep treating them as yearly.
+- Corrected Capital One SavorOne's annual fee from $39 to $0. The $39 figure and its first citation came from the separate SavorOne for Good Credit product; every other field on this entry describes the $0-fee card.
+
 ## 2026.09.23
 
 - Corrected current rewards, credits, fees, and foreign-transaction-fee facts across American Express, Chase, Citi, Capital One, Bank of America, Bilt, U.S. Bank, and Wyndham cards using issuer and co-brand sources.
