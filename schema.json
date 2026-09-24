@@ -263,6 +263,11 @@
         "category": { "type": "string" },
         "allowsPartialUse": { "type": "boolean" },
         "requiresValueOnUse": { "type": "boolean" },
+        "renewalIntervalYears": {
+          "type": "integer",
+          "minimum": 2,
+          "description": "Years per period for a Yearly benefit that renews less often than annually (trusted-traveler credits: 4). Kept separate from renewalPeriod so older app versions, which ignore unknown keys, still read the benefit as Yearly."
+        },
         "startsOn": { "type": ["string", "null"], "format": "date" },
         "endsOn": { "type": ["string", "null"], "format": "date" },
         "status": { "type": "string", "enum": ["active", "retired"], "default": "active" },
