@@ -4,6 +4,11 @@ Every data change to `cards.json` or `rotating-categories.json` gets an entry he
 
 Dates are the catalog `version` tag (`YYYY.MM.DD`). Same-day follow-ups share a heading.
 
+## 2026.09.26
+
+- Corrected the Bilt Palladium Bilt Cash benefit: it said Bilt Cash was usable toward rent or housing payments. Bilt Cash can't pay rent or a mortgage directly; it's spent with Bilt partners or redeemed to unlock points on housing payments. Also moved it from a cardmember-year to a calendar-year reset (deposited every January 1, expires December 31, up to $100 rolls over).
+- Added usage guides for the Bilt Palladium Bilt Cash and hotel credits and the Bilt Obsidian hotel credit, and rewrote their notes to state the half-year split and the 2-night Bilt Travel minimum.
+
 ## 2026.09.24
 
 - Added `renewalIntervalYears: 4` to all 21 Global Entry/TSA PreCheck/NEXUS credits, which renew every four years but were modeled as yearly. The app previously counted them at four times their annual value and reset them every year. Older app versions ignore the field and keep treating them as yearly.

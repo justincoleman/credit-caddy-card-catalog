@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "version": "2026.09.24",
-  "lastUpdated": "2026-09-24T14:46:01Z",
+  "version": "2026.09.26",
+  "lastUpdated": "2026-09-27T02:28:23Z",
   "cards": [
     {
       "id": "american-express-platinum-card",
@@ -6454,13 +6454,24 @@
           "periodBasis": "Calendar Year",
           "category": "Travel",
           "allowsPartialUse": true,
-          "notes": "$50 credit for 2+ night hotel bookings via Bilt Travel portal; issued twice per year",
+          "notes": "$50 hotel credit each half of the year (January to June and July to December) for Bilt Travel bookings of 2 or more nights.",
           "availableMonths": [],
           "notificationsEnabled": true,
           "merchantPatterns": [
             "BILT TRAVEL",
             "BILT HOTELS"
-          ]
+          ],
+          "guide": {
+            "whatItIs": "$100 a year in hotel credit, as two $50 credits: one for January to June and one for July to December.",
+            "howItWorks": [
+              "Book a hotel through Bilt Travel in the Bilt app for a stay of at least 2 nights, and pay with your Obsidian card.",
+              "The credit posts as a statement credit on the qualifying booking.",
+              "Each $50 applies only in its own half of the year and doesn't roll over."
+            ],
+            "maximizingTips": [
+              "Plan a 2-night stay in each half of the year, so neither $50 expires unused."
+            ]
+          }
         }
       ],
       "sources": {
@@ -6502,13 +6513,24 @@
           "periodBasis": "Calendar Year",
           "category": "Travel",
           "allowsPartialUse": true,
-          "notes": "$200 credit for qualifying hotel bookings via Bilt Travel portal; issued twice per year",
+          "notes": "$200 hotel credit each half of the year (January to June and July to December) for Bilt Travel bookings of 2 or more nights.",
           "availableMonths": [],
           "notificationsEnabled": true,
           "merchantPatterns": [
             "BILT TRAVEL",
             "BILT HOTELS"
-          ]
+          ],
+          "guide": {
+            "whatItIs": "$400 a year in hotel credit, as two $200 credits: one for January to June and one for July to December.",
+            "howItWorks": [
+              "Book a hotel through Bilt Travel in the Bilt app for a stay of at least 2 nights, and pay with your Palladium card.",
+              "Turn on the credit when you book. Prepaid rates are charged minus the credit; pay-later rates get a statement credit after your stay.",
+              "Each $200 applies only in its own half of the year and doesn't roll over."
+            ],
+            "maximizingTips": [
+              "Plan one 2-night stay before June 30 and another before December 31, so neither half expires unused."
+            ]
+          }
         },
         {
           "name": "Bilt Cash Credit",
@@ -6517,9 +6539,23 @@
           "periodBasis": "Calendar Year",
           "category": "Travel",
           "allowsPartialUse": true,
-          "notes": "$200 Bilt Cash awarded annually; usable toward rent/housing payments",
+          "notes": "$200 in Bilt Cash deposited at account opening and every January 1. Spend it with Bilt partners or use it to unlock points on rent or mortgage payments; it can't pay rent directly.",
           "availableMonths": [],
-          "notificationsEnabled": true
+          "notificationsEnabled": true,
+          "guide": {
+            "whatItIs": "$200 in Bilt Cash, Bilt's in-app currency, added to your Bilt account when you open the card and again every January 1.",
+            "howItWorks": [
+              "It lands in your Bilt account automatically; there's nothing to activate.",
+              "Spend it in the Bilt app with Bilt partners, such as Lyft rides, hotel stays booked through Bilt Travel, fitness classes, Grubhub and Walgreens.",
+              "You can also redeem it to unlock Bilt Points on your rent or mortgage payments. It can't pay the rent or mortgage itself.",
+              "Bilt Cash expires December 31. Up to $100 of unused Bilt Cash rolls over into the next year."
+            ],
+            "maximizingTips": [
+              "Spend at least $100 by December 31: anything over $100 that's left expires.",
+              "Log what you spend here so you can see what's left before the year ends.",
+              "Check the Bilt app for the current partner list before planning around a specific merchant; it changes."
+            ]
+          }
         }
       ],
       "sources": {
