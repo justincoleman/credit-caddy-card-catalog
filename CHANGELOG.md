@@ -4,6 +4,17 @@ Every data change to `cards.json` or `rotating-categories.json` gets an entry he
 
 Dates are the catalog `version` tag (`YYYY.MM.DD`). Same-day follow-ups share a heading.
 
+## 2026.10.01
+
+- Added usage guides for every dollar benefit on the cards with fees from $95 to $299: the Southwest, United, Delta Gold, Hilton, Marriott, Hyatt, IHG, JetBlue, AAdvantage Aviator Red, Hawaiian, Wyndham, Aeroplan and Atmos Ascent co-brands, plus Amex Green and Blue Cash Preferred, Citi Strata Premier, BofA Premium Rewards, Venture, Spark Miles and Autograph Journey.
+- United Explorer: added the United travel credit ($100 after $10,000 spend), United Hotels ($100), rideshare ($5/month), Avis/Budget TravelBank ($50), Instacart ($10/month) and JSX ($100) credits. United Business: added the $25 FareLock credit; the United Hotels credit resets on the card anniversary.
+- Delta Gold: added the rideshare ($10/month after the first renewal) and $100 Delta Stays credits; the Delta Gold flight credit counts spending per calendar year.
+- Aeroplan: replaced the retired Chase Travel credit with the Air Canada credit ($50 each half-year) and added the $120 trusted-traveler credit.
+- Marriott Bonvoy Boundless: added the limited-time airline credit ($50 in each of two windows, June 2026 to June 2027). Bevy: the free night is earned after $15,000 of spending in a calendar year.
+- IHG Premier: added the $100 statement credit after $20,000 of spending; trusted-traveler credit $100 to $120. Southwest Performance Business trusted-traveler credit $100 to $120.
+- Amex Green CLEAR+ credit $209 to $219. Blue Cash Preferred Equinox+ credit retired (ended October 31, 2024).
+- Hilton Surpass: the quarterly credit applies at any Hilton hotel, not only resorts. JetBlue Business Vacations credit resets each calendar year.
+
 ## 2026.09.30
 
 - Added usage guides for every dollar benefit on the remaining cards with fees of $350 and up: United Club Business and Quest, Marriott Bonvoy Brilliant, all four Delta Reserve and Platinum cards, Ritz-Carlton, Citi AAdvantage Executive, Citi Strata Elite, Hilton Aspire, BofA Premium Rewards Elite, Citi Prestige, U.S. Bank Altitude Reserve, Venture X Business, Atmos Summit and Amex Business Gold.
