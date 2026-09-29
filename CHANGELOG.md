@@ -4,6 +4,17 @@ Every data change to `cards.json` or `rotating-categories.json` gets an entry he
 
 Dates are the catalog `version` tag (`YYYY.MM.DD`). Same-day follow-ups share a heading.
 
+## 2026.09.30
+
+- Added usage guides for every dollar benefit on the remaining cards with fees of $350 and up: United Club Business and Quest, Marriott Bonvoy Brilliant, all four Delta Reserve and Platinum cards, Ritz-Carlton, Citi AAdvantage Executive, Citi Strata Elite, Hilton Aspire, BofA Premium Rewards Elite, Citi Prestige, U.S. Bank Altitude Reserve, Venture X Business, Atmos Summit and Amex Business Gold.
+- Citi AAdvantage Executive (refreshed August 23, 2026): the Lyft credit is now $15 a month after 3 rides; the Grubhub credit ends August 31, 2027 and only applies to cards opened before August 23, 2026; added the American Airlines Vacations ($250 each half-year) and inflight and Admirals Club ($100 a year) credits; trusted-traveler credit $100 to $120.
+- Hilton Aspire: the flight credit is $50 a quarter, not $200 a year; added the $219 CLEAR+ credit; the Waldorf Astoria and Conrad credit is per stay booked with the Aspire rate.
+- United Quest: added the Renowned Hotels ($150), rideshare ($100) and JSX ($150) credits. United Club Business FareLock credit resets on the card anniversary, not January 1.
+- Delta: added the $200 Delta Stays credit to the Delta Reserve and the Resy and rideshare credits to the Delta Platinum; the Delta Platinum Delta Stays credit resets each calendar year.
+- Amex Business Gold: added the $300 ChatGPT Business and $150 Squarespace credits; FedEx leaves the flexible credit after October 1, 2026.
+- Marriott Bonvoy Brilliant: trusted-traveler credit $100 to $120; the $100 property credit is described as the per-stay Ritz-Carlton and St. Regis credit it is.
+- Ritz-Carlton: the airline credit guide says it has to be requested through J.P. Morgan Priority Services.
+
 ## 2026.09.29
 
 - Added usage guides for every dollar benefit on the Chase Sapphire Reserve, Sapphire Reserve for Business and Amex Business Platinum, and rewrote the generic guides on the Amex Platinum, Amex Gold and Capital One Venture X. Each guide's first step now names exactly where to go and what to pay, which is what the app shows as "How to use it".
