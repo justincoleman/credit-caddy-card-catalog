@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "version": "2026.10.02",
-  "lastUpdated": "2026-10-02T02:00:00Z",
+  "lastUpdated": "2026-10-02T02:30:00Z",
   "cards": [
     {
       "id": "american-express-platinum-card",
@@ -4172,7 +4172,7 @@
       "id": "chase-aeroplan",
       "cardName": "Aeroplan",
       "issuer": "Chase",
-      "annualFee": 95,
+      "annualFee": 195,
       "noForeignTransactionFees": false,
       "earnRates": [
         {
@@ -4274,7 +4274,10 @@
         }
       ],
       "sources": {
-        "annualFee": "https://creditcards.chase.com/travel-credit-cards/aircanada/aeroplan",
+        "annualFee": [
+          "https://creditcards.chase.com/travel-credit-cards/aircanada/aeroplan",
+          "https://creditcards.chase.com/all-credit-cards"
+        ],
         "noForeignTransactionFees": "https://creditcards.chase.com/travel-credit-cards/aircanada/aeroplan",
         "baseEarnRate": "https://creditcards.chase.com/travel-credit-cards/aircanada/aeroplan",
         "rewardProgram": "https://creditcards.chase.com/travel-credit-cards/aircanada/aeroplan",
@@ -5553,7 +5556,7 @@
       "id": "chase-ritz-carlton",
       "cardName": "Ritz-Carlton",
       "issuer": "Chase",
-      "annualFee": 595,
+      "annualFee": 450,
       "noForeignTransactionFees": true,
       "earnRates": [
         {
@@ -5693,7 +5696,10 @@
         }
       ],
       "sources": {
-        "annualFee": "https://marriott.chase.com/ritz-carlton/earn-redeem",
+        "annualFee": [
+          "https://marriott.chase.com/ritz-carlton",
+          "https://creditcards.chase.com/marriott/cardmember/ritz-carlton"
+        ],
         "noForeignTransactionFees": "https://marriott.chase.com/ritz-carlton/earn-redeem",
         "baseEarnRate": "https://marriott.chase.com/ritz-carlton/earn-redeem",
         "rewardProgram": "https://marriott.chase.com/ritz-carlton/earn-redeem",
@@ -6327,7 +6333,7 @@
       "id": "citi-aadvantage-executive-world-elite",
       "cardName": "AAdvantage Executive World Elite",
       "issuer": "Citi",
-      "annualFee": 595,
+      "annualFee": 695,
       "noForeignTransactionFees": true,
       "earnRates": [
         {
@@ -6497,7 +6503,10 @@
         }
       ],
       "sources": {
-        "annualFee": "https://www.citi.com/credit-cards/citi-aadvantage-executive-credit-card",
+        "annualFee": [
+          "https://www.citi.com/credit-cards/citi-aadvantage-executive-world-legend-mastercard",
+          "https://www.citi.com/credit-cards/travel-reward-credit-cards"
+        ],
         "noForeignTransactionFees": "https://www.citi.com/credit-cards/citi-aadvantage-executive-credit-card",
         "baseEarnRate": "https://www.citi.com/credit-cards/citi-aadvantage-executive-credit-card",
         "rewardProgram": "https://www.citi.com/credit-cards/citi-aadvantage-executive-credit-card",
