@@ -6,6 +6,11 @@ Dates are the catalog `version` tag (`YYYY.MM.DD`). Same-day follow-ups share a 
 
 ## 2026.10.02
 
+- Annual fees:
+  - Ritz-Carlton $595 to $450. The card is closed to new applicants and Chase's pages don't print the fee; confirmed by the catalog owner.
+  - Citi AAdvantage Executive $595 to $695, the fee since the August 23, 2026 World Legend refresh.
+  - Chase Aeroplan $95 to $195, as listed on Chase's card and all-cards pages.
+
 - Added usage guides for the last eight dollar benefits, on the no-fee cards: Amex Blue Cash Everyday, Wells Fargo Autograph and Active Cash, Citi AT&T Points Plus, and U.S. Bank Altitude Connect, Altitude Go and Altitude Go Secured. Every active dollar benefit in the catalog now has a guide.
 - Wells Fargo Autograph and Active Cash cell phone protection no longer carries a $600 amount. It's insurance you claim against, not a credit you spend, and the amount was counting as $600 "ready to use" in the app.
 - U.S. Bank Altitude Go streaming credit: notes now say it's earned after 11 consecutive months of streaming purchases.
