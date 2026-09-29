@@ -319,6 +319,49 @@ function validateEarnRateCategory(card, rate, index) {
   }
 }
 
+// -------- usage guides --------
+// The app shows a guide's first "how it works" step as the Tracker's "How to
+// use it" line, so it has to be a concrete action. Filler that restates the
+// tracker or hedges instead of stating the rule fails the PR. A dollar
+// benefit with no guide only warns: guides are curated, and the monthly agent
+// may add a benefit before the curator writes its guide.
+const GUIDE_FILLER_PATTERNS = [
+  /if the issuer requires enrollment/i,
+  /before relying on the credit/i,
+  /period tracked here/i,
+  /listed in (the )?(amex|issuer|card) (benefit )?terms/i,
+  /qualify under (the )?(amex|issuer|benefit) terms/i,
+];
+const GUIDE_FIRST_STEP_MIN_LENGTH = 30;
+
+for (const card of cards.cards || []) {
+  for (const benefit of card.benefits || []) {
+    if (benefit.status === 'retired') continue;
+    const guide = benefit.guide;
+    if (!guide) {
+      if ((benefit.amount ?? 0) > 0) {
+        warn(`${card.id}: "${benefit.name}" has a dollar amount but no usage guide`);
+      }
+      continue;
+    }
+    const strings = [guide.whatItIs, ...(guide.howItWorks || []), ...(guide.maximizingTips || [])]
+      .filter((text) => typeof text === 'string');
+    for (const text of strings) {
+      const filler = GUIDE_FILLER_PATTERNS.find((pattern) => pattern.test(text));
+      if (filler) {
+        err(`${card.id}: "${benefit.name}" guide has filler text (${filler}): "${text}"`);
+      }
+    }
+    const firstStep = (guide.howItWorks || [])[0];
+    if (typeof firstStep !== 'string' || firstStep.trim().length < GUIDE_FIRST_STEP_MIN_LENGTH) {
+      err(
+        `${card.id}: "${benefit.name}" guide needs a first howItWorks step of at least ` +
+          `${GUIDE_FIRST_STEP_MIN_LENGTH} characters saying where to go and what to pay with`
+      );
+    }
+  }
+}
+
 // -------- 3. link-rot HTTP check --------
 async function httpOk(url) {
   try {

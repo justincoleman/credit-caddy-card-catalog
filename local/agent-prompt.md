@@ -251,10 +251,21 @@ Mapping rules:
 - They are exempt from the issuer-only citation rule — their value comes from
   synthesis across sources, not a single issuer page — so you neither verify
   nor source them.
-- You MAY note under "Manual review needed" when a guide's stated facts clearly
-  no longer match the current issuer page (e.g. a credit amount changed), or
-  when a benefit you'd otherwise flag for deletion still carries guide copy — so
-  the curator can update it. Never edit the editorial copy yourself.
+- Guides state facts: amounts, reset windows, where to pay, enrollment. So you
+  MUST list under "Manual review needed", with the benefit and the fact, every
+  case where:
+  - you changed a benefit's `amount`, `renewalPeriod`, `periodBasis`, partners
+    or lifecycle and it carries a `guide` (the guide now needs the same fact
+    updated);
+  - you added a benefit with a dollar `amount` (it needs a guide; the validator
+    warns until it has one);
+  - a benefit you'd otherwise flag for deletion still carries guide copy.
+  Never edit the editorial copy yourself.
+- The validator fails a PR whose guide text contains filler (for example "If
+  the issuer requires enrollment, enroll before relying on the credit") or
+  whose first `howItWorks` step is under 30 characters. Those only come from
+  guide edits, which you don't make; if one appears, report it rather than
+  "fixing" the copy.
 - `merchantPatterns` (optional, per benefit): uppercased statement-merchant
   substrings that let the app match statement transactions to this benefit
   (screenshot/statement import). These are validated against real statements,
