@@ -4,6 +4,15 @@ Every data change to `cards.json` or `rotating-categories.json` gets an entry he
 
 Dates are the catalog `version` tag (`YYYY.MM.DD`). Same-day follow-ups share a heading.
 
+## 2026.09.29
+
+- Added usage guides for every dollar benefit on the Chase Sapphire Reserve, Sapphire Reserve for Business and Amex Business Platinum, and rewrote the generic guides on the Amex Platinum, Amex Gold and Capital One Venture X. Each guide's first step now names exactly where to go and what to pay, which is what the app shows as "How to use it".
+- Amex Business Platinum: the Dell credit is now $150 a year plus a $1,000 credit after $5,000 of Dell purchases, not two $150 half-year credits; the half-year credits are retired as of January 1, 2026 and keep their history. Added the $300 ChatGPT Business credit (from May 2026). CLEAR+ credit $209 to $219.
+- Amex Platinum: CLEAR+ credit $209 to $219. The Digital Entertainment credit's statement matching now follows Amex's current partner list (adds Paramount+ and YouTube, drops Netflix and Audible, which never qualified).
+- Amex Gold: the Dining credit's partners are now Grubhub (including Seamless), Buffalo Wild Wings, Five Guys, The Cheesecake Factory and Wonder; statement matching updated to match.
+- Chase Sapphire Reserve for Business: added the Lyft ($10/month), DoorDash ($25/month in promos), Google Workspace ($200/year), ZipRecruiter ($200 each half-year) and gift card ($50 each half-year) credits.
+- Chase Sapphire Reserve: Lyft, DoorDash, StubHub and Sapphire Tables credits can be partly used; notes now carry each credit's end date.
+
 ## 2026.09.26
 
 - Corrected the Bilt Palladium Bilt Cash benefit: it said Bilt Cash was usable toward rent or housing payments. Bilt Cash can't pay rent or a mortgage directly; it's spent with Bilt partners or redeemed to unlock points on housing payments. Also moved it from a cardmember-year to a calendar-year reset (deposited every January 1, expires December 31, up to $100 rolls over).
