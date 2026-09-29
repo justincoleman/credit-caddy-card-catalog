@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "version": "2026.09.26",
-  "lastUpdated": "2026-09-27T02:28:23Z",
+  "version": "2026.09.29",
+  "lastUpdated": "2026-09-29T18:00:00Z",
   "cards": [
     {
       "id": "american-express-platinum-card",
@@ -111,28 +111,28 @@
           "availableMonths": [],
           "notificationsEnabled": true,
           "guide": {
-            "whatItIs": "A monthly statement credit for eligible digital entertainment subscriptions and purchases with participating providers.",
+            "whatItIs": "Up to $25 back each month on participating streaming and news subscriptions.",
             "howItWorks": [
-              "Enroll the specific service(s) in the Amex Benefits portal first.",
-              "Pay with the Platinum for eligible services (Disney+, Hulu, ESPN+, Peacock, NYT, WSJ, and more).",
-              "The credit is a single monthly cap across ALL eligible services combined — not per service."
+              "Enroll in the Amex app, then pay for Disney+, Hulu, ESPN, Paramount+, Peacock, YouTube Premium, YouTube TV, The New York Times or The Wall Street Journal with the Platinum.",
+              "The $25 is one monthly total across all the services combined, not $25 each.",
+              "Disney+ bundles count too."
             ],
             "maximizingTips": [
-              "The cap is a TOTAL across every eligible service, not per service — pick a mix that adds up to the monthly max.",
-              "Enroll a service, wait for the first credit to confirm, then you're free to switch services later."
+              "Pick services that add up to about $25 a month, so none of it goes unused.",
+              "Netflix and Audible aren't on the list; charges from them won't earn the credit."
             ]
           },
           "merchantPatterns": [
-            "NETFLIX",
-            "HULU",
             "DISNEY",
+            "HULU",
+            "ESPN",
+            "PARAMOUNT",
             "PEACOCK",
+            "YOUTUBE",
             "NYTIMES",
             "NEW YORK TIMES",
             "WSJ",
-            "WALL STREET JOURNAL",
-            "AUDIBLE",
-            "ESPN"
+            "WALL STREET JOURNAL"
           ]
         },
         {
@@ -194,19 +194,19 @@
           "periodBasis": "Calendar Year",
           "category": "Shopping",
           "allowsPartialUse": true,
-          "notes": "A quarterly statement credit for eligible lululemon purchases.",
+          "notes": "Up to $75 each quarter at U.S. lululemon stores (not outlets) and lululemon.com. Enrollment required.",
           "availableMonths": [],
           "notificationsEnabled": true,
           "guide": {
-            "whatItIs": "A quarterly statement credit for eligible lululemon purchases.",
+            "whatItIs": "Up to $75 back each quarter at lululemon in the U.S.",
             "howItWorks": [
-              "If the issuer requires enrollment, enroll before relying on the credit.",
-              "Use the Platinum Card for eligible purchases at qualifying lululemon channels listed in Amex terms.",
-              "The credit resets quarterly, so unused value from one quarter should not be assumed to carry forward."
+              "Enroll in the Amex app, then shop at a U.S. lululemon store or lululemon.com with the Platinum.",
+              "Outlet stores don't qualify.",
+              "Each $75 applies only in its own quarter (Jan-Mar, Apr-Jun, Jul-Sep, Oct-Dec) and doesn't roll over."
             ],
             "maximizingTips": [
-              "lululemon stopped selling gift cards online — buy $50 or $100 IN-STORE (or buy items) to reach the quarterly credit.",
-              "Enroll before you buy, and use it every quarter — the credit doesn't roll over."
+              "Socks, bags and accessories make it easy to land close to $75 without overspending.",
+              "Buy near the start of each quarter, so a return or a slow-posting credit doesn't push it past the deadline."
             ]
           },
           "merchantPatterns": [
@@ -282,15 +282,15 @@
           "availableMonths": [],
           "notificationsEnabled": true,
           "guide": {
-            "whatItIs": "An annual statement credit for eligible incidental fees charged by one selected qualifying airline.",
+            "whatItIs": "Up to $200 back each calendar year on incidental fees from the one airline you select.",
             "howItWorks": [
-              "If the issuer requires enrollment, enroll before relying on the credit.",
-              "Choose one qualifying airline before using the credit.",
-              "Eligible incidental fees can include things like checked bags or in-flight refreshments, but airline tickets and many upgrades may not qualify."
+              "Select your airline in the Amex app, then pay that airline's fees with the Platinum: checked bags, seat fees, in-flight food and drinks, change fees or lounge day passes.",
+              "Tickets, upgrades and gift cards aren't incidental fees and don't qualify.",
+              "Credits can take up to 8 weeks to post. Amex relies on how the airline codes the charge."
             ],
             "maximizingTips": [
-              "Pre-select your airline in the Amex portal BEFORE the charge posts — it won't apply retroactively, and you can only change carriers once a year.",
-              "It covers incidental fees (checked bags, seat upgrades, some award booking fees), not tickets. Airlines code charges differently — test with a small fee first to confirm it reimburses."
+              "Choose the airline you actually fly and pay for bags or seats; those code as incidental fees most reliably.",
+              "Pick your airline before the first fee posts. You can change it once a year, in January."
             ]
           },
           "merchantPatterns": [
@@ -332,24 +332,23 @@
         },
         {
           "name": "CLEAR Plus Credit",
-          "amount": 209,
+          "amount": 219,
           "renewalPeriod": "Yearly",
           "periodBasis": "Calendar Year",
           "category": "Travel",
           "allowsPartialUse": true,
-          "notes": "An annual statement credit toward an eligible CLEAR Plus membership fee.",
+          "notes": "Up to $219 each calendar year on an auto-renewing CLEAR+ membership.",
           "availableMonths": [],
           "notificationsEnabled": true,
           "guide": {
-            "whatItIs": "An annual statement credit toward an eligible CLEAR Plus membership fee.",
+            "whatItIs": "Up to $219 back each calendar year on a CLEAR+ membership.",
             "howItWorks": [
-              "Pay for an eligible CLEAR Plus membership with the Platinum Card.",
-              "The credit is annual and tied to the CLEAR Plus membership charge.",
-              "CLEAR Plus availability and usefulness depend on airports and venues you actually use."
+              "Pay for an auto-renewing CLEAR+ membership with the Platinum; the credit posts automatically.",
+              "Taxes and fees aren't covered."
             ],
             "maximizingTips": [
-              "It applies automatically once you pay the CLEAR+ membership with the Platinum — no enrollment needed.",
-              "Unused credit can cover a family member or friend's CLEAR membership on your account, so it never goes to waste. CLEAR isn't at every airport yet — confirm your home airport has it."
+              "The credit can also cover family members added to your CLEAR+ account, up to $219 in total.",
+              "Check that CLEAR has lanes at the airports you use before you sign up."
             ]
           },
           "merchantPatterns": [
@@ -365,19 +364,17 @@
           "periodBasis": "Calendar Year",
           "category": "Lifestyle",
           "allowsPartialUse": true,
-          "notes": "An annual statement credit for eligible Equinox purchases or membership charges listed in Amex terms.",
+          "notes": "Up to $300 each calendar year on an Equinox club membership or Equinox+ subscription. Enrollment required.",
           "availableMonths": [],
           "notificationsEnabled": true,
           "guide": {
-            "whatItIs": "An annual statement credit for eligible Equinox purchases or membership charges listed in Amex terms.",
+            "whatItIs": "Up to $300 back each calendar year on an Equinox club membership or Equinox+ subscription.",
             "howItWorks": [
-              "If the issuer requires enrollment, enroll before relying on the credit.",
-              "Use the Platinum Card for eligible Equinox charges that qualify under the benefit terms.",
-              "The credit is annual, so track both the charge timing and the amount already used."
+              "Enroll in the Amex app, then pay for an Equinox club membership or an Equinox+ digital subscription with the Platinum.",
+              "The membership has to be auto-renewing."
             ],
             "maximizingTips": [
-              "Use it on Equinox+ (digital) or a club membership — or put the full amount toward a SoulCycle at-home bike. Enroll first.",
-              "Equinox+ includes a 7-day trial; enroll mid-month to stretch a 12-month membership across two calendar years of credits."
+              "A club membership uses the whole $300 in a month or two; Equinox+ spreads it across the year."
             ]
           },
           "merchantPatterns": [
@@ -391,19 +388,17 @@
           "periodBasis": "Calendar Year",
           "category": "Lifestyle",
           "allowsPartialUse": true,
-          "notes": "An annual statement credit for eligible Oura purchases.",
+          "notes": "Up to $200 each calendar year on an Oura Ring purchased at ouraring.com. Enrollment required.",
           "availableMonths": [],
           "notificationsEnabled": true,
           "guide": {
-            "whatItIs": "An annual statement credit for eligible Oura purchases.",
+            "whatItIs": "Up to $200 back each calendar year on an Oura Ring bought at ouraring.com.",
             "howItWorks": [
-              "If the issuer requires enrollment, enroll before relying on the credit.",
-              "Use the Platinum Card for eligible Oura purchases that qualify under Amex terms.",
-              "This is best treated as a once-per-year hardware or wellness purchase credit, not a monthly credit."
+              "Enroll in the Amex app, then buy an Oura Ring at ouraring.com with the Platinum.",
+              "Purchases from other retailers, like Amazon or Best Buy, don't qualify."
             ],
             "maximizingTips": [
-              "Only purchases on ouraring.com qualify — enroll BEFORE you buy to guarantee the credit posts.",
-              "It's an annual credit, so time a ring or accessory purchase to use the full amount in one go."
+              "Enroll before you buy; a purchase made before enrolling won't be credited."
             ]
           },
           "merchantPatterns": [
@@ -623,29 +618,26 @@
           "periodBasis": "Calendar Year",
           "category": "Dining",
           "allowsPartialUse": true,
-          "notes": "A monthly statement credit for eligible dining purchases with participating partners.",
+          "notes": "Up to $10 each month at Grubhub (including Seamless), Buffalo Wild Wings, Five Guys, The Cheesecake Factory and Wonder. Enrollment required.",
           "availableMonths": [],
           "notificationsEnabled": true,
           "guide": {
-            "whatItIs": "A monthly statement credit for eligible dining purchases with participating partners.",
+            "whatItIs": "Up to $10 back each month at Grubhub, Buffalo Wild Wings, Five Guys, The Cheesecake Factory and Wonder.",
             "howItWorks": [
-              "Pay with the Gold Card at eligible participating dining partners listed in the Amex benefit terms.",
-              "The credit posts as a statement credit after an eligible purchase.",
-              "Plan to use it before the monthly reset; unused monthly value typically does not roll over."
+              "Enroll in the Amex app, then pay with the Gold at Grubhub (including Seamless), Buffalo Wild Wings, Five Guys, The Cheesecake Factory or Wonder.",
+              "It's one $10 total each month across all the partners."
             ],
             "maximizingTips": [
-              "Pick one partner you naturally use and make it part of your monthly routine.",
-              "Use the credit earlier in the month so a missed or delayed transaction does not become a scramble."
+              "A Grubhub order or a Five Guys lunch covers the full $10 in one purchase.",
+              "Use it in the first half of the month, so a slow-posting charge still lands in the right month."
             ]
           },
           "merchantPatterns": [
             "GRUBHUB",
-            "CHEESECAKE FACTORY",
-            "GOLDBELLY",
-            "WINE.COM",
-            "MILK BAR",
-            "SHAKE SHACK",
-            "FIVE GUYS"
+            "SEAMLESS",
+            "BUFFALO WILD WINGS",
+            "FIVE GUYS",
+            "CHEESECAKE FACTORY"
           ]
         },
         {
@@ -655,19 +647,17 @@
           "periodBasis": "Calendar Year",
           "category": "Dining",
           "allowsPartialUse": true,
-          "notes": "A monthly statement credit for eligible U.S. Dunkin purchases paid with the Gold Card.",
+          "notes": "Up to $7 each month at U.S. Dunkin' locations. Enrollment required.",
           "availableMonths": [],
           "notificationsEnabled": true,
           "guide": {
-            "whatItIs": "A monthly statement credit for eligible U.S. Dunkin purchases paid with the Gold Card.",
+            "whatItIs": "Up to $7 back each month at Dunkin' in the U.S.",
             "howItWorks": [
-              "Use the Gold Card for eligible purchases at U.S. Dunkin locations or eligible Dunkin channels.",
-              "The credit posts as a statement credit after the qualifying purchase.",
-              "Plan to use it before the monthly reset; unused monthly value typically does not roll over."
+              "Enroll in the Amex app, then pay with the Gold at a U.S. Dunkin' location.",
+              "Unused credit doesn't carry into the next month."
             ],
             "maximizingTips": [
-              "Reloading or using the Dunkin app may make the credit easier to use consistently, but confirm the charge codes as eligible for your account.",
-              "Small monthly credits are easiest to waste; set a reminder before the final week."
+              "At $7, a coffee and a snack uses it. Save the Gold as your card in the Dunkin' app so you don't forget."
             ]
           },
           "merchantPatterns": [
@@ -681,19 +671,19 @@
           "periodBasis": "Calendar Year",
           "category": "Dining",
           "allowsPartialUse": true,
-          "notes": "A Resy dining statement credit for eligible U.S. Resy restaurant purchases.",
+          "notes": "Up to $50 each half of the year (Jan-Jun, Jul-Dec) at qualifying U.S. Resy restaurants. Enrollment required.",
           "availableMonths": [],
           "notificationsEnabled": true,
           "guide": {
-            "whatItIs": "A Resy dining statement credit for eligible U.S. Resy restaurant purchases.",
+            "whatItIs": "Up to $50 back from January to June and again from July to December at U.S. Resy restaurants.",
             "howItWorks": [
-              "Use the Gold Card at eligible U.S. Resy restaurants or for other eligible Resy purchases.",
-              "The credit resets on its semiannual schedule, not every month.",
-              "The statement credit posts after an eligible charge is recognized."
+              "Enroll in the Amex app, then pay with the Gold at a U.S. restaurant that's on Resy.",
+              "A Resy reservation isn't required; the restaurant just has to be a qualifying Resy restaurant.",
+              "Each $50 applies only in its own half of the year."
             ],
             "maximizingTips": [
-              "Look for Resy restaurants near places you already dine instead of forcing a special meal.",
-              "Because this resets less often than monthly credits, track the end date and use it before the half-year window closes."
+              "Check the Resy app for restaurants near you; many neighborhood spots qualify.",
+              "Plan one dinner in each half of the year, so neither $50 expires unused."
             ]
           },
           "merchantPatterns": [
@@ -1635,18 +1625,52 @@
           "allowsPartialUse": true,
           "notes": "Incidental fees on one selected qualifying airline",
           "availableMonths": [],
-          "notificationsEnabled": true
+          "notificationsEnabled": true,
+          "merchantPatterns": [
+            "BAGGAGE FEE",
+            "BAG FEE",
+            "SEAT FEE",
+            "AIRLINE FEE",
+            "INFLIGHT"
+          ],
+          "guide": {
+            "whatItIs": "Up to $200 back each calendar year on incidental fees from the one airline you select.",
+            "howItWorks": [
+              "Select your airline in the Amex app, then pay that airline's fees with the Business Platinum: checked bags, seat fees, in-flight food and drinks, change fees or lounge day passes.",
+              "Tickets, upgrades and gift cards aren't incidental fees and don't qualify.",
+              "Credits can take up to 8 weeks to post."
+            ],
+            "maximizingTips": [
+              "Choose the airline you fly most and pay for bags or seats; those code as incidental fees most reliably.",
+              "The same selected airline gets you 35% points back when you book flights with Pay with Points."
+            ]
+          }
         },
         {
           "name": "CLEAR Plus Credit",
-          "amount": 209,
+          "amount": 219,
           "renewalPeriod": "Yearly",
           "periodBasis": "Calendar Year",
           "category": "Travel",
           "allowsPartialUse": true,
-          "notes": "Annual CLEAR Plus membership fee",
+          "notes": "Up to $219 each calendar year on an auto-renewing CLEAR+ membership.",
           "availableMonths": [],
-          "notificationsEnabled": true
+          "notificationsEnabled": true,
+          "merchantPatterns": [
+            "CLEAR *",
+            "CLEARME",
+            "CLEAR ME"
+          ],
+          "guide": {
+            "whatItIs": "Up to $219 back each calendar year on a CLEAR+ membership.",
+            "howItWorks": [
+              "Pay for an auto-renewing CLEAR+ membership with the Business Platinum; the credit posts automatically.",
+              "Taxes and fees aren't covered."
+            ],
+            "maximizingTips": [
+              "The credit can also cover people added to your CLEAR+ account, up to $219 in total."
+            ]
+          }
         },
         {
           "name": "Dell Credit (Jan–Jun)",
@@ -1655,7 +1679,7 @@
           "periodBasis": "Calendar Year",
           "category": "Shopping",
           "allowsPartialUse": true,
-          "notes": "U.S. Dell Technologies purchases, Jan–Jun",
+          "notes": "Replaced by a yearly $150 Dell credit plus a $1,000 credit after $5,000 of Dell purchases.",
           "availableMonths": [
             1,
             2,
@@ -1664,7 +1688,9 @@
             5,
             6
           ],
-          "notificationsEnabled": true
+          "notificationsEnabled": true,
+          "status": "retired",
+          "endsOn": "2026-01-01"
         },
         {
           "name": "Dell Credit (Jul–Dec)",
@@ -1673,7 +1699,7 @@
           "periodBasis": "Calendar Year",
           "category": "Shopping",
           "allowsPartialUse": true,
-          "notes": "U.S. Dell Technologies purchases, Jul–Dec",
+          "notes": "Replaced by a yearly $150 Dell credit plus a $1,000 credit after $5,000 of Dell purchases.",
           "availableMonths": [
             7,
             8,
@@ -1682,7 +1708,74 @@
             11,
             12
           ],
-          "notificationsEnabled": true
+          "notificationsEnabled": true,
+          "status": "retired",
+          "endsOn": "2026-01-01"
+        },
+        {
+          "name": "Dell Credit",
+          "amount": 150,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Calendar Year",
+          "category": "Shopping",
+          "allowsPartialUse": true,
+          "notes": "Up to $150 each calendar year on U.S. purchases directly with Dell Technologies. Enrollment required.",
+          "availableMonths": [],
+          "notificationsEnabled": true,
+          "guide": {
+            "whatItIs": "Up to $150 back each calendar year on purchases directly from Dell.",
+            "howItWorks": [
+              "Enroll in the Amex app, then buy from Dell Technologies in the U.S. (dell.com or Dell sales) with the Business Platinum.",
+              "Dell products bought from other retailers don't qualify."
+            ],
+            "maximizingTips": [
+              "Monitors, docks and accessories are easy ways to use the $150.",
+              "Dell purchases also count toward the separate $1,000 credit after $5,000 of Dell spending."
+            ]
+          }
+        },
+        {
+          "name": "Dell Credit ($5K Spend Bonus)",
+          "amount": 1000,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Calendar Year",
+          "category": "Shopping",
+          "allowsPartialUse": false,
+          "notes": "A $1,000 statement credit after $5,000 or more of U.S. purchases directly with Dell Technologies in a calendar year. Enrollment required.",
+          "availableMonths": [],
+          "notificationsEnabled": true,
+          "guide": {
+            "whatItIs": "A $1,000 statement credit once your Dell purchases on the card reach $5,000 in a calendar year.",
+            "howItWorks": [
+              "Enroll in the Amex app, then put $5,000 or more of U.S. purchases directly with Dell Technologies on the Business Platinum in one calendar year.",
+              "The $1,000 posts after you cross $5,000. Spending resets every January 1."
+            ],
+            "maximizingTips": [
+              "Worth planning only if your business already buys laptops or servers from Dell. Group the purchases into one calendar year.",
+              "Remove this credit from your wallet if you won't reach $5,000, so it doesn't inflate what you have left."
+            ]
+          }
+        },
+        {
+          "name": "ChatGPT Business Credit",
+          "amount": 300,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Calendar Year",
+          "category": "Shopping",
+          "allowsPartialUse": true,
+          "notes": "Up to $300 each calendar year on U.S. purchases of an auto-renewing ChatGPT Business subscription. Enrollment required.",
+          "availableMonths": [],
+          "notificationsEnabled": true,
+          "guide": {
+            "whatItIs": "Up to $300 back each calendar year on a ChatGPT Business subscription.",
+            "howItWorks": [
+              "Enroll in the Amex app, then pay for an auto-renewing ChatGPT Business subscription with the Business Platinum.",
+              "ChatGPT Plus and Pro, the personal plans, don't qualify."
+            ],
+            "maximizingTips": [
+              "Monthly billing spreads the $300 across the year; a couple of seats uses it faster."
+            ]
+          }
         },
         {
           "name": "Wireless Credit",
@@ -1691,9 +1784,19 @@
           "periodBasis": "Calendar Year",
           "category": "Shopping",
           "allowsPartialUse": true,
-          "notes": "U.S. wireless telephone service providers",
+          "notes": "Up to $10 each month on wireless service bought directly from a U.S. provider. Enrollment required.",
           "availableMonths": [],
-          "notificationsEnabled": true
+          "notificationsEnabled": true,
+          "guide": {
+            "whatItIs": "Up to $10 back each month on your U.S. wireless phone bill.",
+            "howItWorks": [
+              "Enroll in the Amex app, then pay your wireless bill directly with a U.S. carrier using the Business Platinum.",
+              "Only service bought directly from the carrier qualifies; prepaid cards from other retailers don't."
+            ],
+            "maximizingTips": [
+              "Set the card as autopay on your phone bill and the credit takes care of itself every month."
+            ]
+          }
         },
         {
           "name": "Hotel Credit",
@@ -1704,7 +1807,19 @@
           "allowsPartialUse": true,
           "notes": "Prepaid Fine Hotels + Resorts or The Hotel Collection (min 2-night stay) bookings via Amex Travel",
           "availableMonths": [],
-          "notificationsEnabled": true
+          "notificationsEnabled": true,
+          "guide": {
+            "whatItIs": "Up to $300 back from January to June and again from July to December on prepaid Fine Hotels + Resorts or The Hotel Collection stays.",
+            "howItWorks": [
+              "Book a prepaid Fine Hotels + Resorts or The Hotel Collection stay through Amex Travel and pay with the Business Platinum.",
+              "The Hotel Collection requires a 2-night minimum.",
+              "Each $300 applies only in its own half of the year."
+            ],
+            "maximizingTips": [
+              "Fine Hotels + Resorts stays include breakfast, a $100 property credit and a 4 PM checkout, and still earn hotel loyalty points.",
+              "Many prepaid rates are refundable, so you can book early to capture the credit and adjust later."
+            ]
+          }
         },
         {
           "name": "Hilton Credit",
@@ -1715,7 +1830,18 @@
           "allowsPartialUse": true,
           "notes": "Eligible purchases made directly with Hilton. Hilton for Business enrollment required.",
           "availableMonths": [],
-          "notificationsEnabled": true
+          "notificationsEnabled": true,
+          "guide": {
+            "whatItIs": "Up to $50 back each quarter on purchases directly with Hilton.",
+            "howItWorks": [
+              "Enroll in the Amex app (it signs you up for Hilton for Business if needed), then pay Hilton directly with the Business Platinum.",
+              "Hotel stays and on-property charges billed by Hilton qualify. Hilton stays booked through Amex Travel or other sites don't.",
+              "Each $50 applies only in its own quarter."
+            ],
+            "maximizingTips": [
+              "A restaurant or bar tab at a Hilton hotel counts when it's charged to your room and you pay at checkout."
+            ]
+          }
         },
         {
           "name": "Adobe Credit",
@@ -1726,7 +1852,18 @@
           "allowsPartialUse": false,
           "notes": "Statement credit after spending $600 or more on U.S. purchases directly with Adobe in a calendar year. Enrollment required.",
           "availableMonths": [],
-          "notificationsEnabled": true
+          "notificationsEnabled": true,
+          "guide": {
+            "whatItIs": "A $250 statement credit once you spend $600 or more directly with Adobe in a calendar year.",
+            "howItWorks": [
+              "Enroll in the Amex app, then pay for Adobe purchases in the U.S. directly with Adobe using the Business Platinum.",
+              "The $250 posts after your Adobe spending on the card reaches $600 in the calendar year."
+            ],
+            "maximizingTips": [
+              "An annual Creative Cloud plan paid up front usually clears $600 in one charge.",
+              "Adobe apps bought through the App Store don't count."
+            ]
+          }
         },
         {
           "name": "Indeed Credit",
@@ -1737,7 +1874,17 @@
           "allowsPartialUse": true,
           "notes": "Up to $90 per quarter for U.S. purchases made directly with Indeed. Enrollment required.",
           "availableMonths": [],
-          "notificationsEnabled": true
+          "notificationsEnabled": true,
+          "guide": {
+            "whatItIs": "Up to $90 back each quarter on Indeed.",
+            "howItWorks": [
+              "Enroll in the Amex app, then pay for Indeed job postings or services in the U.S. with the Business Platinum.",
+              "Each $90 applies only in its own quarter and doesn't roll over."
+            ],
+            "maximizingTips": [
+              "Sponsored postings bill as you go, so set a budget near $90 a quarter while you're hiring."
+            ]
+          }
         },
         {
           "name": "Global Entry/TSA PreCheck Credit",
@@ -1749,7 +1896,19 @@
           "allowsPartialUse": true,
           "notes": "Every 4 years. Global Entry ($120) or TSA PreCheck (up to $85) application fee credit.",
           "availableMonths": [],
-          "notificationsEnabled": true
+          "notificationsEnabled": true,
+          "guide": {
+            "whatItIs": "A statement credit for a Global Entry or TSA PreCheck application fee, $120 for Global Entry or up to $85 for TSA PreCheck, once every four years.",
+            "howItWorks": [
+              "Pay the Global Entry or TSA PreCheck application fee with your Business Platinum; the credit posts automatically.",
+              "Apply through the official government site or an authorized TSA PreCheck enrollment provider. Third-party application services don't qualify.",
+              "Global Entry includes TSA PreCheck, so it covers both if you travel internationally."
+            ],
+            "maximizingTips": [
+              "The fee can be for anyone, not just you. If your own membership is current, use it on a family member's application.",
+              "Renew in the six months before your membership expires so the new application lands in a fresh four-year window."
+            ]
+          }
         }
       ],
       "sources": {
@@ -1765,7 +1924,12 @@
         "earnRates.hotels": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/american-express-business-platinum-credit-card-amex/",
         "benefits.adobe-credit": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/american-express-business-platinum-credit-card-amex/",
         "benefits.indeed-credit": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/american-express-business-platinum-credit-card-amex/",
-        "benefits.global-entry-tsa-precheck-credit": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/american-express-business-platinum-credit-card-amex/"
+        "benefits.global-entry-tsa-precheck-credit": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/american-express-business-platinum-credit-card-amex/",
+        "benefits.dell-credit-jan-jun": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/american-express-business-platinum-credit-card-amex/",
+        "benefits.dell-credit-jul-dec": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/american-express-business-platinum-credit-card-amex/",
+        "benefits.dell-credit": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/american-express-business-platinum-credit-card-amex/",
+        "benefits.dell-credit-5k-spend-bonus": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/american-express-business-platinum-credit-card-amex/",
+        "benefits.chatgpt-business-credit": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/american-express-business-platinum-credit-card-amex/"
       },
       "lastVerified": "2026-05-04T00:00:00Z"
     },
@@ -3423,15 +3587,15 @@
           "availableMonths": [],
           "notificationsEnabled": true,
           "guide": {
-            "whatItIs": "An annual travel credit for eligible bookings made through Capital One Travel.",
+            "whatItIs": "A $300 credit each cardmember year toward bookings in Capital One Travel.",
             "howItWorks": [
-              "Book eligible travel through Capital One Travel with the Venture X.",
-              "The credit follows the cardmember-year period tracked here.",
-              "Eligible bookings reduce the remaining annual credit until it is used."
+              "Book flights, hotels, rental cars or vacation rentals in Capital One Travel with the Venture X, and apply the credit at checkout.",
+              "You can use it on one booking or split it across several.",
+              "Each year's credit expires on your next account anniversary. A canceled booking restores the credit if it hasn't expired."
             ],
             "maximizingTips": [
-              "Use it on travel you were already going to book and compare Capital One Travel pricing against booking direct.",
-              "Because it is portal-based, do not assume every travel purchase outside Capital One Travel will qualify."
+              "Capital One Travel has price matching and price drop protection on many flights, which narrows the gap with booking direct.",
+              "The credit reduces the price at checkout, so the charge you see on your statement is only what's left."
             ]
           },
           "merchantPatterns": [
@@ -3453,15 +3617,13 @@
           "notificationsEnabled": true,
           "requiresValueOnUse": true,
           "guide": {
-            "whatItIs": "An annual anniversary miles bonus whose real value depends on how you redeem the miles.",
+            "whatItIs": "10,000 bonus miles each year, starting on your first account anniversary.",
             "howItWorks": [
-              "The miles are awarded around the card anniversary according to Capital One terms.",
-              "Credit Buddy asks for your realized value because miles are not the same as cash.",
-              "The benefit follows your cardmember-year anniversary schedule."
+              "The miles land in your rewards balance automatically after each account anniversary.",
+              "At the fixed travel-redemption rate they cover $100 of travel; transfer partners can get more."
             ],
             "maximizingTips": [
-              "Enter the value based on the trip or cash cost you actually avoided, not a generic points valuation.",
-              "Transferring miles to partners may produce more value, but only if the redemption fits your travel plans."
+              "Log what the miles actually saved you on a trip, not a generic points valuation."
             ]
           }
         },
@@ -3481,7 +3643,19 @@
             "TSA PRECHECK",
             "US CUSTOMS",
             "CBP"
-          ]
+          ],
+          "guide": {
+            "whatItIs": "A statement credit for a Global Entry or TSA PreCheck application fee, up to $120, once every four years.",
+            "howItWorks": [
+              "Pay the Global Entry or TSA PreCheck application fee with your Venture X; the credit posts automatically.",
+              "Apply through the official government site or an authorized TSA PreCheck enrollment provider. Third-party application services don't qualify.",
+              "The credit applies to whichever program you pay for first, and posts within two billing cycles."
+            ],
+            "maximizingTips": [
+              "The fee can be for anyone, not just you. If your own membership is current, use it on a family member's application.",
+              "Renew in the six months before your membership expires so the new application lands in a fresh four-year window."
+            ]
+          }
         }
       ],
       "sources": {
@@ -4007,9 +4181,21 @@
           "periodBasis": "Calendar Year",
           "category": "Travel",
           "allowsPartialUse": true,
-          "notes": null,
+          "notes": "Through 9/30/2027. Up to $10 each month on Lyft rides.",
           "availableMonths": [],
-          "notificationsEnabled": true
+          "notificationsEnabled": true,
+          "guide": {
+            "whatItIs": "$10 of Lyft credit each month, through September 30, 2027.",
+            "howItWorks": [
+              "Add the Reserve to your Lyft account and pay for a ride with it; up to $10 comes off each month.",
+              "Standard, Extra Comfort, XL and Black rides qualify. Fees, taxes, tips and gift cards don't.",
+              "One $10 credit per card account each month; unused credit is forfeited at month end."
+            ],
+            "maximizingTips": [
+              "A single short ride usually covers the whole $10, so take one early in the month.",
+              "Lyft rides on the Reserve also earn 5x points through September 30, 2027."
+            ]
+          }
         },
         {
           "name": "Peloton Credit",
@@ -4018,12 +4204,23 @@
           "periodBasis": "Calendar Year",
           "category": "Lifestyle",
           "allowsPartialUse": true,
-          "notes": null,
+          "notes": "Through 12/31/2027. Up to $10 each month on a Peloton membership; activation required.",
           "availableMonths": [],
           "notificationsEnabled": true,
           "merchantPatterns": [
             "PELOTON"
-          ]
+          ],
+          "guide": {
+            "whatItIs": "Up to $10 a month toward a Peloton membership, through December 31, 2027.",
+            "howItWorks": [
+              "Activate at onepeloton.com/digital/promotions/chase with the Reserve saved as your Peloton payment method.",
+              "Eligible memberships include All-Access, App+, App One, Guide, Strength+ and Rental, bought directly from Peloton.",
+              "Memberships billed through the App Store or Google Play don't qualify."
+            ],
+            "maximizingTips": [
+              "If you already pay through the App Store, switch billing to Peloton directly before the next renewal."
+            ]
+          }
         },
         {
           "name": "DoorDash Credit",
@@ -4032,9 +4229,21 @@
           "periodBasis": "Calendar Year",
           "category": "Dining",
           "allowsPartialUse": true,
-          "notes": "Through 12/31/2027",
+          "notes": "Through 12/31/2027. A $5 restaurant promo and two $10 non-restaurant promos each month with DashPass.",
           "availableMonths": [],
-          "notificationsEnabled": true
+          "notificationsEnabled": true,
+          "guide": {
+            "whatItIs": "$25 a month in DoorDash promos: a $5 restaurant promo and two $10 grocery or retail promos, through December 31, 2027.",
+            "howItWorks": [
+              "Activate the complimentary DashPass with the Reserve in the DoorDash app; the monthly promos then appear in your promotion wallet.",
+              "Pick the promo at checkout: $5 off one restaurant order, and $10 off each of two grocery, convenience or retail orders.",
+              "Promos apply to the order subtotal, not fees, taxes or tip. Unused promos don't carry over."
+            ],
+            "maximizingTips": [
+              "The $20 of non-restaurant promos is the bigger piece. A grocery or pharmacy order you'd place anyway uses it.",
+              "Keep the Reserve as your DoorDash default card so DashPass stays active."
+            ]
+          }
         },
         {
           "name": "The Edit Hotel Credit",
@@ -4047,15 +4256,15 @@
           "availableMonths": [],
           "notificationsEnabled": true,
           "guide": {
-            "whatItIs": "One of two annual statement credits for eligible prepaid The Edit bookings through Chase Travel.",
+            "whatItIs": "Up to $250 back on a prepaid stay from The Edit by Chase Travel; the Reserve gets two of these a year, up to $500.",
             "howItWorks": [
-              "Book an eligible prepaid The Edit stay through Chase Travel with the Sapphire Reserve.",
-              "The stay generally requires at least two nights.",
-              "Chase applies up to $250 per qualifying booking, with up to $500 available across the calendar year."
+              "Book a prepaid Pay Now stay of 2 nights or more with The Edit through Chase Travel, and pay with the Reserve.",
+              "Each qualifying booking gets up to $250 back, automatically. The two credits share a $500 calendar-year maximum.",
+              "The Edit stays include perks like daily breakfast for two and a $100 property credit."
             ],
             "maximizingTips": [
-              "Compare the Chase Travel prepaid price against booking direct before treating the credit as full savings.",
-              "Use it on a stay you were already planning so the two-night requirement does not force extra spend."
+              "Compare the Chase Travel prepaid price with booking direct before treating the credit as full savings.",
+              "Use it on a stay you already planned, so the 2-night minimum doesn't add spending."
             ]
           },
           "merchantPatterns": [
@@ -4073,15 +4282,14 @@
           "availableMonths": [],
           "notificationsEnabled": true,
           "guide": {
-            "whatItIs": "The second annual $250 statement credit for eligible prepaid The Edit bookings through Chase Travel.",
+            "whatItIs": "The second $250 credit for a prepaid stay from The Edit by Chase Travel, within the $500 calendar-year maximum.",
             "howItWorks": [
-              "Use this after the first eligible The Edit booking credit has posted.",
-              "Each qualifying booking can receive up to $250 back.",
-              "The two The Edit credits share a $500 calendar-year maximum."
+              "Make a second prepaid Pay Now booking of 2 nights or more with The Edit through Chase Travel, and pay with the Reserve.",
+              "Each qualifying booking gets up to $250 back, so one booking can't use both credits."
             ],
             "maximizingTips": [
-              "Separate eligible stays or bookings if you want to use both $250 credits.",
-              "Confirm the property is part of The Edit and choose a prepaid Pay Now rate."
+              "Two separate trips, or two separate bookings for back-to-back stays, use both credits.",
+              "Confirm the property is part of The Edit and pick a prepaid Pay Now rate."
             ]
           }
         },
@@ -4092,7 +4300,7 @@
           "periodBasis": "Calendar Year",
           "category": "Dining",
           "allowsPartialUse": true,
-          "notes": null,
+          "notes": "Up to $150 each half of the year (Jan-Jun, Jul-Dec) at participating Exclusive Tables restaurants.",
           "redemptionURL": "https://www.opentable.com/c/chase-sapphire-reserve-exclusive-tables",
           "redemptionLabel": "Find eligible tables",
           "redemptionKind": "restaurantFinder",
@@ -4101,7 +4309,19 @@
           "notificationsEnabled": true,
           "merchantPatterns": [
             "SAPPHIRE TABLES"
-          ]
+          ],
+          "guide": {
+            "whatItIs": "Up to $150 back from January to June and again from July to December at restaurants in Sapphire Reserve Exclusive Tables.",
+            "howItWorks": [
+              "Dine at a restaurant on the Sapphire Reserve Exclusive Tables list and pay the bill with the Reserve.",
+              "A reservation isn't required; walk-ins count. Adding the card to OpenTable only unlocks the reserved tables.",
+              "Takeout through delivery apps and gift cards don't qualify. Each $150 applies only in its own half of the year."
+            ],
+            "maximizingTips": [
+              "Check the list before you travel: the program covers restaurants in many U.S. cities, and the list changes.",
+              "One bigger dinner in each half of the year uses the whole $150."
+            ]
+          }
         },
         {
           "name": "StubHub Credit",
@@ -4110,13 +4330,24 @@
           "periodBasis": "Calendar Year",
           "category": "Entertainment",
           "allowsPartialUse": true,
-          "notes": "Through 12/31/2027",
+          "notes": "Through 12/31/2027. Up to $150 each half of the year (Jan-Jun, Jul-Dec); activation required.",
           "availableMonths": [],
           "notificationsEnabled": true,
           "merchantPatterns": [
             "STUBHUB",
             "VIAGOGO"
-          ]
+          ],
+          "guide": {
+            "whatItIs": "Up to $150 back from January to June and again from July to December on StubHub and viagogo, through December 31, 2027.",
+            "howItWorks": [
+              "Activate the credit once in the Chase app or on chase.com, then buy tickets on StubHub or viagogo with the Reserve.",
+              "Gift cards and UK purchases don't qualify.",
+              "Each $150 applies only in its own half of the year and doesn't roll over."
+            ],
+            "maximizingTips": [
+              "StubHub's fees count toward the purchase, so one pair of tickets usually uses the whole $150."
+            ]
+          }
         },
         {
           "name": "Travel Credit",
@@ -4125,19 +4356,19 @@
           "periodBasis": "Cardmember Year",
           "category": "Travel",
           "allowsPartialUse": true,
-          "notes": "An annual travel statement credit for eligible travel purchases.",
+          "notes": "Automatic statement credit on the first $300 of travel purchases each cardmember year.",
           "availableMonths": [],
           "notificationsEnabled": true,
           "guide": {
-            "whatItIs": "An annual travel statement credit for eligible travel purchases.",
+            "whatItIs": "Up to $300 back each cardmember year on travel purchases, applied automatically.",
             "howItWorks": [
-              "Use the Sapphire Reserve for eligible travel purchases.",
-              "The credit applies over the cardmember-year period tracked here.",
-              "Eligible travel purchases reduce the remaining credit until the annual amount is used."
+              "Pay for any travel with the Reserve: flights, hotels, car rentals, cruises, trains, transit, parking and tolls all count.",
+              "The credit applies to the first $300 of travel each cardmember year, with no booking portal or enrollment required.",
+              "It resets on your account anniversary, not January 1."
             ],
             "maximizingTips": [
-              "This is usually easy to use naturally if you put common travel purchases on the card.",
-              "Track it early in the cardmember year so you know when travel purchases stop being offset by the credit."
+              "Everyday transit, parking and rideshare count as travel, so the credit usually uses itself up within a few months.",
+              "Travel covered by the credit doesn't earn points; the bonus points start once the $300 is used."
             ]
           },
           "merchantPatterns": [
@@ -4152,9 +4383,21 @@
           "periodBasis": "Calendar Year",
           "category": "Travel",
           "allowsPartialUse": true,
-          "notes": "Prepaid Chase Travel hotel bookings at eligible select hotel brands through 12/31/2026. Two-night minimum.",
+          "notes": "Prepaid Chase Travel bookings at IHG, Montage, Pendry, Omni, Virgin, Minor and Pan Pacific through 12/31/2026. Two-night minimum.",
           "availableMonths": [],
-          "notificationsEnabled": true
+          "notificationsEnabled": true,
+          "guide": {
+            "whatItIs": "Up to $250 back on one prepaid Chase Travel stay at select hotel brands in 2026.",
+            "howItWorks": [
+              "Book a prepaid Pay Now stay of 2 nights or more through Chase Travel at IHG, Montage, Pendry, Omni, Virgin, Minor or Pan Pacific, and pay with the Reserve.",
+              "The credit posts automatically; there's nothing to activate.",
+              "It ends December 31, 2026 and is separate from the two The Edit credits."
+            ],
+            "maximizingTips": [
+              "IHG's large footprint makes this the easiest hotel credit to use for an ordinary trip.",
+              "Compare the Chase Travel prepaid rate with booking direct before you count the full $250 as savings."
+            ]
+          }
         },
         {
           "name": "DoorDash DashPass",
@@ -4174,9 +4417,19 @@
           "periodBasis": "Calendar Year",
           "category": "Entertainment",
           "allowsPartialUse": true,
-          "notes": "Through 6/22/2027",
+          "notes": "Activate by 6/22/2027. Complimentary Apple TV+ and Apple Music subscriptions.",
           "availableMonths": [],
-          "notificationsEnabled": true
+          "notificationsEnabled": true,
+          "guide": {
+            "whatItIs": "Apple TV+ and Apple Music subscriptions at no cost, activated through Chase by June 22, 2027.",
+            "howItWorks": [
+              "Activate Apple TV+ and Apple Music in the Chase app or on chase.com, then sign in with your Apple Account.",
+              "Only the primary cardmember can activate. If you already pay for either service, the paid subscription is paused while this one is active."
+            ],
+            "maximizingTips": [
+              "Log the value of the subscriptions you'd otherwise pay for, since that's the saving this benefit is worth to you."
+            ]
+          }
         },
         {
           "name": "Global Entry/TSA PreCheck Credit",
@@ -4194,7 +4447,19 @@
             "TSA PRECHECK",
             "US CUSTOMS",
             "CBP"
-          ]
+          ],
+          "guide": {
+            "whatItIs": "A statement credit for a Global Entry or TSA PreCheck application fee, up to $120, once every four years.",
+            "howItWorks": [
+              "Pay the Global Entry or TSA PreCheck application fee with your Reserve; the credit posts automatically.",
+              "Apply through the official government site or an authorized TSA PreCheck enrollment provider. Third-party application services don't qualify.",
+              "Global Entry includes TSA PreCheck, so it covers both if you travel internationally."
+            ],
+            "maximizingTips": [
+              "The fee can be for anyone, not just you. If your own membership is current, use it on a family member's application.",
+              "Renew in the six months before your membership expires so the new application lands in a fresh four-year window."
+            ]
+          }
         }
       ],
       "sources": {
@@ -4212,9 +4477,12 @@
         "benefits.the-edit-hotel-credit": "https://creditcards.chase.com/rewards-credit-cards/chase-sapphire-reserve",
         "benefits.the-edit-hotel-credit-second-booking": "https://creditcards.chase.com/rewards-credit-cards/chase-sapphire-reserve",
         "benefits.the-edit-hotel-credit--second-booking": "https://creditcards.chase.com/rewards-credit-cards/chase-sapphire-reserve",
-        "benefits.sapphire-tables-dining-credit": "https://creditcards.chase.com/rewards-credit-cards/chase-sapphire-reserve",
+        "benefits.sapphire-tables-dining-credit": [
+          "https://creditcards.chase.com/rewards-credit-cards/sapphire/reserve",
+          "https://www.chase.com/personal/credit-cards/education/basics/guide-to-chase-sapphire-reserve-exclusive-tables"
+        ],
         "benefits.stubhub-credit": "https://creditcards.chase.com/rewards-credit-cards/chase-sapphire-reserve",
-        "benefits.travel-credit": "https://creditcards.chase.com/rewards-credit-cards/chase-sapphire-reserve",
+        "benefits.travel-credit": "https://creditcards.chase.com/rewards-credit-cards/sapphire/reserve",
         "benefits.select-chase-travel-hotel-credit": "https://creditcards.chase.com/rewards-credit-cards/chase-sapphire-reserve",
         "benefits.doordash-dashpass": "https://creditcards.chase.com/rewards-credit-cards/chase-sapphire-reserve",
         "benefits.apple-tv-apple-music": "https://creditcards.chase.com/rewards-credit-cards/chase-sapphire-reserve",
@@ -7257,13 +7525,24 @@
           "periodBasis": "Cardmember Year",
           "category": "Travel",
           "allowsPartialUse": true,
-          "notes": null,
+          "notes": "Automatic statement credit on the first $300 of travel purchases each cardmember year.",
           "availableMonths": [],
           "notificationsEnabled": true,
           "merchantPatterns": [
             "CHASE TRAVEL",
             "TRIPCHRG"
-          ]
+          ],
+          "guide": {
+            "whatItIs": "Up to $300 back each cardmember year on travel purchases, applied automatically.",
+            "howItWorks": [
+              "Pay for any travel with the Reserve for Business: flights, hotels, car rentals, transit, parking and tolls all count.",
+              "The credit applies to the first $300 of travel each cardmember year, with no booking portal or enrollment required.",
+              "It resets on your account anniversary, not January 1."
+            ],
+            "maximizingTips": [
+              "Put business travel and commuting costs on the card early in the year and the credit uses itself up."
+            ]
+          }
         },
         {
           "name": "The Edit Hotel Credit",
@@ -7277,7 +7556,19 @@
           "notificationsEnabled": true,
           "merchantPatterns": [
             "THE EDIT"
-          ]
+          ],
+          "guide": {
+            "whatItIs": "Up to $250 back on a prepaid stay from The Edit by Chase Travel; the card gets two of these a year, up to $500.",
+            "howItWorks": [
+              "Book a prepaid Pay Now stay of 2 nights or more with The Edit through Chase Travel, and pay with the Reserve for Business.",
+              "Each qualifying booking gets up to $250 back, automatically. The two credits share a $500 calendar-year maximum.",
+              "Stays booked by employee cardholders don't qualify."
+            ],
+            "maximizingTips": [
+              "Chase is raising the yearly maximum to $1,000 on January 1, 2027.",
+              "Compare the Chase Travel prepaid price with booking direct before treating the credit as full savings."
+            ]
+          }
         },
         {
           "name": "The Edit Hotel Credit (Second Booking)",
@@ -7288,7 +7579,17 @@
           "allowsPartialUse": true,
           "notes": "Second annual statement credit for eligible prepaid The Edit bookings through Chase Travel, up to $250 per booking and up to $500 annually. Two-night minimum.",
           "availableMonths": [],
-          "notificationsEnabled": true
+          "notificationsEnabled": true,
+          "guide": {
+            "whatItIs": "The second $250 credit for a prepaid stay from The Edit by Chase Travel, within the $500 calendar-year maximum.",
+            "howItWorks": [
+              "Make a second prepaid Pay Now booking of 2 nights or more with The Edit through Chase Travel, and pay with the Reserve for Business.",
+              "Each qualifying booking gets up to $250 back, so one booking can't use both credits."
+            ],
+            "maximizingTips": [
+              "Two separate trips, or two separate bookings for back-to-back stays, use both credits."
+            ]
+          }
         },
         {
           "name": "Select Chase Travel Hotel Credit",
@@ -7297,9 +7598,132 @@
           "periodBasis": "Calendar Year",
           "category": "Travel",
           "allowsPartialUse": true,
-          "notes": "Prepaid Chase Travel hotel bookings through 12/31/2026; two-night minimum",
+          "notes": "Prepaid Chase Travel bookings at IHG, Montage, Pendry, Omni, Virgin, Minor and Pan Pacific through 12/31/2026. Two-night minimum.",
           "availableMonths": [],
-          "notificationsEnabled": true
+          "notificationsEnabled": true,
+          "guide": {
+            "whatItIs": "Up to $250 back on one prepaid Chase Travel stay at select hotel brands in 2026.",
+            "howItWorks": [
+              "Book a prepaid Pay Now stay of 2 nights or more through Chase Travel at IHG, Montage, Pendry, Omni, Virgin, Minor or Pan Pacific, and pay with the Reserve for Business.",
+              "The credit posts automatically. It ends December 31, 2026 and is separate from the two The Edit credits."
+            ],
+            "maximizingTips": [
+              "IHG's large footprint makes this the easiest hotel credit to use for an ordinary work trip."
+            ]
+          }
+        },
+        {
+          "name": "Lyft Credit",
+          "amount": 10,
+          "renewalPeriod": "Monthly",
+          "periodBasis": "Calendar Year",
+          "category": "Travel",
+          "allowsPartialUse": true,
+          "notes": "Through 9/30/2027. Up to $10 each month on Lyft rides.",
+          "availableMonths": [],
+          "notificationsEnabled": true,
+          "guide": {
+            "whatItIs": "$10 of Lyft credit each month, through September 30, 2027.",
+            "howItWorks": [
+              "Add the Reserve for Business to your Lyft account and pay for a ride with it; up to $10 comes off each month.",
+              "Fees, taxes, tips and gift cards don't qualify. Unused credit is forfeited at month end."
+            ],
+            "maximizingTips": [
+              "Lyft rides on the card also earn 5x points through September 30, 2027."
+            ]
+          }
+        },
+        {
+          "name": "DoorDash Credit",
+          "amount": 25,
+          "renewalPeriod": "Monthly",
+          "periodBasis": "Calendar Year",
+          "category": "Dining",
+          "allowsPartialUse": true,
+          "notes": "Through 12/31/2027. A $5 restaurant promo and two $10 non-restaurant promos each month with DashPass.",
+          "availableMonths": [],
+          "notificationsEnabled": true,
+          "guide": {
+            "whatItIs": "$25 a month in DoorDash promos: a $5 restaurant promo and two $10 grocery or retail promos, through December 31, 2027.",
+            "howItWorks": [
+              "Activate the complimentary DashPass with the Reserve for Business in the DoorDash app; the monthly promos then appear in your promotion wallet.",
+              "Pick the promo at checkout: $5 off one restaurant order, and $10 off each of two grocery, convenience or retail orders.",
+              "Promos apply to the order subtotal, not fees, taxes or tip. Unused promos don't carry over."
+            ],
+            "maximizingTips": [
+              "Office supplies and snacks from DoorDash retail partners count toward the $10 promos."
+            ]
+          }
+        },
+        {
+          "name": "Google Workspace Credit",
+          "amount": 200,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Calendar Year",
+          "category": "Shopping",
+          "allowsPartialUse": true,
+          "notes": "Through 12/31/2027. Up to $200 each calendar year on purchases directly with Google Workspace.",
+          "availableMonths": [],
+          "notificationsEnabled": true,
+          "merchantPatterns": [
+            "GOOGLE WORKSPACE",
+            "GSUITE"
+          ],
+          "guide": {
+            "whatItIs": "Up to $200 back each calendar year on Google Workspace, through December 31, 2027.",
+            "howItWorks": [
+              "Pay your Google Workspace bill directly with Google using the Reserve for Business; the credit applies automatically.",
+              "Allow 6 to 8 weeks for the statement credit to appear."
+            ],
+            "maximizingTips": [
+              "Make the card the billing method in the Workspace admin console so every monthly charge counts toward the $200."
+            ]
+          }
+        },
+        {
+          "name": "ZipRecruiter Credit",
+          "amount": 200,
+          "renewalPeriod": "Every 6 months",
+          "periodBasis": "Calendar Year",
+          "category": "Shopping",
+          "allowsPartialUse": true,
+          "notes": "Through 12/31/2027. Up to $200 each half of the year (Jan-Jun, Jul-Dec) on ziprecruiter.com.",
+          "availableMonths": [],
+          "notificationsEnabled": true,
+          "merchantPatterns": [
+            "ZIPRECRUITER"
+          ],
+          "guide": {
+            "whatItIs": "Up to $200 back from January to June and again from July to December on ZipRecruiter, through December 31, 2027.",
+            "howItWorks": [
+              "Buy job postings or plans on ziprecruiter.com with the Reserve for Business; the credit applies automatically.",
+              "Each $200 applies only in its own half of the year and doesn't roll over."
+            ],
+            "maximizingTips": [
+              "Time a posting for each half of the year if you hire regularly."
+            ]
+          }
+        },
+        {
+          "name": "Gift Card Credit",
+          "amount": 50,
+          "renewalPeriod": "Every 6 months",
+          "periodBasis": "Calendar Year",
+          "category": "Shopping",
+          "allowsPartialUse": true,
+          "notes": "Through 10/31/2028. Up to $50 each half of the year (Jan-Jun, Jul-Dec) at giftcards.com/reservebusiness.",
+          "availableMonths": [],
+          "notificationsEnabled": true,
+          "guide": {
+            "whatItIs": "Up to $50 back from January to June and again from July to December on gift cards from Chase's curated store, through October 31, 2028.",
+            "howItWorks": [
+              "Buy a gift card at giftcards.com/reservebusiness with the Reserve for Business; the credit applies automatically.",
+              "Only purchases on that page qualify. Each $50 applies only in its own half of the year."
+            ],
+            "maximizingTips": [
+              "Pick a gift card for a store you already use, and it works like $50 of cash."
+            ]
+          }
         },
         {
           "name": "Global Entry/TSA PreCheck/NEXUS Credit",
@@ -7318,7 +7742,19 @@
             "NEXUS",
             "US CUSTOMS",
             "CBP"
-          ]
+          ],
+          "guide": {
+            "whatItIs": "A statement credit for a Global Entry, TSA PreCheck or NEXUS application fee, up to $120, once every four years.",
+            "howItWorks": [
+              "Pay the Global Entry or TSA PreCheck application fee with your Reserve for Business; the credit posts automatically.",
+              "Apply through the official government site or an authorized TSA PreCheck enrollment provider. Third-party application services don't qualify.",
+              "Global Entry includes TSA PreCheck, so it covers both if you travel internationally."
+            ],
+            "maximizingTips": [
+              "The fee can be for anyone, not just you. If your own membership is current, use it on a family member's application.",
+              "Renew in the six months before your membership expires so the new application lands in a fresh four-year window."
+            ]
+          }
         }
       ],
       "sources": {
@@ -7335,7 +7771,12 @@
         "benefits.the-edit-hotel-credit-second-booking": "https://creditcards.chase.com/business-credit-cards/sapphire/reserve",
         "benefits.the-edit-hotel-credit--second-booking": "https://creditcards.chase.com/business-credit-cards/sapphire/reserve",
         "benefits.select-chase-travel-hotel-credit": "https://creditcards.chase.com/business-credit-cards/sapphire/reserve",
-        "benefits.global-entry-tsa-precheck-nexus-credit": "https://creditcards.chase.com/business-credit-cards/sapphire/reserve"
+        "benefits.global-entry-tsa-precheck-nexus-credit": "https://creditcards.chase.com/business-credit-cards/sapphire/reserve",
+        "benefits.lyft-credit": "https://creditcards.chase.com/business-credit-cards/sapphire/reserve",
+        "benefits.doordash-credit": "https://creditcards.chase.com/business-credit-cards/sapphire/reserve",
+        "benefits.google-workspace-credit": "https://creditcards.chase.com/business-credit-cards/sapphire/reserve",
+        "benefits.ziprecruiter-credit": "https://creditcards.chase.com/business-credit-cards/sapphire/reserve",
+        "benefits.gift-card-credit": "https://creditcards.chase.com/business-credit-cards/sapphire/reserve"
       },
       "lastVerified": "2026-05-19T00:00:00Z"
     },
