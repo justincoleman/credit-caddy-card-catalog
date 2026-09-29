@@ -4,6 +4,12 @@ Every data change to `cards.json` or `rotating-categories.json` gets an entry he
 
 Dates are the catalog `version` tag (`YYYY.MM.DD`). Same-day follow-ups share a heading.
 
+## 2026.10.02
+
+- Added usage guides for the last eight dollar benefits, on the no-fee cards: Amex Blue Cash Everyday, Wells Fargo Autograph and Active Cash, Citi AT&T Points Plus, and U.S. Bank Altitude Connect, Altitude Go and Altitude Go Secured. Every active dollar benefit in the catalog now has a guide.
+- Wells Fargo Autograph and Active Cash cell phone protection no longer carries a $600 amount. It's insurance you claim against, not a credit you spend, and the amount was counting as $600 "ready to use" in the app.
+- U.S. Bank Altitude Go streaming credit: notes now say it's earned after 11 consecutive months of streaming purchases.
+
 ## 2026.10.01
 
 - Added usage guides for every dollar benefit on the cards with fees from $95 to $299: the Southwest, United, Delta Gold, Hilton, Marriott, Hyatt, IHG, JetBlue, AAdvantage Aviator Red, Hawaiian, Wyndham, Aeroplan and Atmos Ascent co-brands, plus Amex Green and Blue Cash Preferred, Citi Strata Premier, BofA Premium Rewards, Venture, Spark Miles and Autograph Journey.

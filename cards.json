@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "version": "2026.10.01",
-  "lastUpdated": "2026-10-01T02:00:00Z",
+  "version": "2026.10.02",
+  "lastUpdated": "2026-10-02T02:00:00Z",
   "cards": [
     {
       "id": "american-express-platinum-card",
@@ -1079,7 +1079,17 @@
           "allowsPartialUse": true,
           "notes": "Up to $7 monthly for eligible Disney+, Hulu, or ESPN subscriptions with an enrolled card.",
           "availableMonths": [],
-          "notificationsEnabled": true
+          "notificationsEnabled": true,
+          "guide": {
+            "whatItIs": "Up to $7 back each month on Disney+, Hulu or ESPN streaming subscriptions.",
+            "howItWorks": [
+              "Enroll in the Amex app, then pay for a Disney+, Hulu or ESPN subscription, or a bundle, on their U.S. websites with the Blue Cash Everyday.",
+              "Subscriptions billed through the App Store or Google Play don't qualify. Unused credit doesn't carry over."
+            ],
+            "maximizingTips": [
+              "Most Disney+ and Hulu plans cost more than $7, so any one of them uses the whole credit."
+            ]
+          }
         },
         {
           "name": "Home Chef Credit",
@@ -1090,7 +1100,17 @@
           "allowsPartialUse": true,
           "notes": "Up to $15 per month for a Home Chef meal kit subscription purchased at homechef.com/blue-cash-everyday with an enrolled card.",
           "availableMonths": [],
-          "notificationsEnabled": true
+          "notificationsEnabled": true,
+          "guide": {
+            "whatItIs": "Up to $15 back each month on a Home Chef meal kit subscription.",
+            "howItWorks": [
+              "Enroll in the Amex app, then buy a Home Chef subscription at homechef.com/blue-cash-everyday with the Blue Cash Everyday.",
+              "Unused credit doesn't carry into the next month."
+            ],
+            "maximizingTips": [
+              "Skip weeks you don't need, but keep one delivery a month so the $15 isn't wasted."
+            ]
+          }
         }
       ],
       "sources": {
@@ -7556,14 +7576,24 @@
       "benefits": [
         {
           "name": "Cellphone Protection",
-          "amount": 600,
+          "amount": null,
           "renewalPeriod": "Yearly",
           "periodBasis": "Calendar Year",
           "category": "Shopping",
-          "allowsPartialUse": true,
-          "notes": "$25 deductible per claim; requires paying monthly phone bill with card. Not a statement credit.",
+          "allowsPartialUse": false,
+          "notes": "Insurance, not a statement credit: up to $600 per claim with a $25 deductible when the monthly phone bill is paid with the card.",
           "availableMonths": [],
-          "notificationsEnabled": false
+          "notificationsEnabled": false,
+          "guide": {
+            "whatItIs": "Insurance for your phone against damage or theft, up to $600 per claim with a $25 deductible, when you pay your monthly phone bill with the card.",
+            "howItWorks": [
+              "Pay your monthly cell phone bill with the Autograph card; that keeps the coverage active for the phones on the bill.",
+              "If a phone is damaged or stolen, file a claim with Wells Fargo's benefits administrator. There's nothing to spend or use up."
+            ],
+            "maximizingTips": [
+              "Keep the bill on autopay with this card so coverage never lapses."
+            ]
+          }
         }
       ],
       "sources": {
@@ -7593,14 +7623,24 @@
       "benefits": [
         {
           "name": "Cellphone Protection",
-          "amount": 600,
+          "amount": null,
           "renewalPeriod": "Yearly",
           "periodBasis": "Calendar Year",
           "category": "Shopping",
-          "allowsPartialUse": true,
-          "notes": "$25 deductible per claim; requires paying monthly phone bill with card. Not a statement credit.",
+          "allowsPartialUse": false,
+          "notes": "Insurance, not a statement credit: up to $600 per claim with a $25 deductible when the monthly phone bill is paid with the card.",
           "availableMonths": [],
-          "notificationsEnabled": false
+          "notificationsEnabled": false,
+          "guide": {
+            "whatItIs": "Insurance for your phone against damage or theft, up to $600 per claim with a $25 deductible, when you pay your monthly phone bill with the card.",
+            "howItWorks": [
+              "Pay your monthly cell phone bill with the Active Cash card; that keeps the coverage active for the phones on the bill.",
+              "If a phone is damaged or stolen, file a claim with Wells Fargo's benefits administrator. There's nothing to spend or use up."
+            ],
+            "maximizingTips": [
+              "Keep the bill on autopay with this card so coverage never lapses."
+            ]
+          }
         }
       ],
       "sources": {
@@ -7753,7 +7793,17 @@
           "allowsPartialUse": true,
           "notes": "Every 4 years; redeemable once per card",
           "availableMonths": [],
-          "notificationsEnabled": true
+          "notificationsEnabled": true,
+          "guide": {
+            "whatItIs": "A statement credit for a TSA PreCheck or Global Entry application fee, up to $100, once every four years.",
+            "howItWorks": [
+              "Pay the TSA PreCheck or Global Entry application fee with the Altitude Connect; the credit posts automatically.",
+              "Apply through the official government site or an authorized TSA PreCheck enrollment provider. Third-party application services don't qualify."
+            ],
+            "maximizingTips": [
+              "The fee can be for anyone, not just you. If your own membership is current, use it on a family member's application."
+            ]
+          }
         },
         {
           "name": "Priority Pass Visits",
@@ -10273,7 +10323,17 @@
           "allowsPartialUse": true,
           "notes": "Up to $20 per billing cycle after $1,000 in qualifying purchases in that billing cycle.",
           "availableMonths": [],
-          "notificationsEnabled": true
+          "notificationsEnabled": true,
+          "guide": {
+            "whatItIs": "Up to $20 back on your AT&T bill each billing cycle you spend $1,000 or more on the card.",
+            "howItWorks": [
+              "Spend $1,000 or more on the AT&T Points Plus card in a billing cycle and pay your AT&T wireless bill with it; up to $20 comes back.",
+              "It's counted by billing cycle, so it may not line up with calendar months."
+            ],
+            "maximizingTips": [
+              "Put regular bills on the card to reach $1,000 each cycle."
+            ]
+          }
         }
       ],
       "sources": {
@@ -11440,10 +11500,20 @@
           "renewalPeriod": "Yearly",
           "periodBasis": "Cardmember Year",
           "category": "Entertainment",
-          "allowsPartialUse": true,
-          "notes": "Annual streaming service credit",
+          "allowsPartialUse": false,
+          "notes": "A $15 statement credit each 12-month period after 11 consecutive months of eligible streaming purchases.",
           "availableMonths": [],
-          "notificationsEnabled": true
+          "notificationsEnabled": true,
+          "guide": {
+            "whatItIs": "A $15 statement credit after 11 months in a row of streaming purchases on the card.",
+            "howItWorks": [
+              "Pay for a streaming service like Netflix or Hulu with the Altitude Go card every month; after 11 consecutive months, $15 comes back.",
+              "The credit posts within 2 billing cycles. Missing a month restarts the count."
+            ],
+            "maximizingTips": [
+              "Set one streaming subscription to bill to this card and leave it there."
+            ]
+          }
         }
       ],
       "sources": {
@@ -11572,10 +11642,20 @@
           "renewalPeriod": "Yearly",
           "periodBasis": "Cardmember Year",
           "category": "Entertainment",
-          "allowsPartialUse": true,
-          "notes": "Annual streaming service credit",
+          "allowsPartialUse": false,
+          "notes": "A $15 statement credit each 12-month period after 11 consecutive months of eligible streaming purchases.",
           "availableMonths": [],
-          "notificationsEnabled": true
+          "notificationsEnabled": true,
+          "guide": {
+            "whatItIs": "A $15 statement credit after 11 months in a row of streaming purchases on the card.",
+            "howItWorks": [
+              "Pay for a streaming service like Netflix or Hulu with the Altitude Go Secured card every month; after 11 consecutive months, $15 comes back.",
+              "The credit posts within 2 billing cycles. Missing a month restarts the count."
+            ],
+            "maximizingTips": [
+              "Set one streaming subscription to bill to this card and leave it there."
+            ]
+          }
         }
       ],
       "sources": {
