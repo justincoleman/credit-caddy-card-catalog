@@ -105,6 +105,7 @@ No redeploy of the launchd job needed.
 - **`launchctl list` shows the job, but it doesn't fire on the 1st** — check the Mac mini was awake at 08:00. launchd skips missed runs unless you set `StartCalendarInterval` differently. If the mini sleeps, fire on next wake or use `pmset` to keep awake.
 - **`claude` command not found from launchd** — launchd doesn't load your shell rc files. The plist sets `PATH=/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin`. If `claude` lives elsewhere on your machine, edit the plist's `EnvironmentVariables` block and add the path, then re-run `install.sh`.
 - **`gh auth status` fails inside the run** — the wrapper aborts early with a clear error. Run `gh auth login` once interactively to fix.
+- **"OAuth access token has expired" / "Invalid authentication credentials"** — the Claude login on the mini lapsed (this silently stopped the July, August and September 2026 runs). On the mini, run `claude setup-token`, sign in, and put the printed token in `~/.config/credit-caddy/secrets.env` as `CLAUDE_CODE_OAUTH_TOKEN=...`. The wrapper now checks the login before the long run and opens a "Monthly catalog agent failed" GitHub issue when a run fails.
 - **PR never opens but the log says the agent ran** — read the run log; the agent prints a final report explaining "no changes" or "manual review needed". This is by design when FireCrawl can't fetch real data.
 
 ## Removing

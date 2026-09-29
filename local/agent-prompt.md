@@ -19,7 +19,7 @@ Audit the entire catalog in `cards.json`.
 Do not use a hard-coded card list. Build the work queue by reading
 `cards.json` and iterating every card in `.cards[]`.
 
-Current catalog coverage is expected to include 146 cards across these issuers:
+Current catalog coverage is expected to include about 149 cards across these issuers:
 
 - American Express
 - Apple
@@ -388,6 +388,42 @@ Benefit safety rule:
 - If an old benefit is not visible on the current product page, do not delete it
   automatically. Leave it unchanged and flag it for manual review.
 
+Benefit completeness (the September 2026 audit found about 30 statement credits
+missing from the catalog and a dozen with the wrong reset window, so check all
+of these, not just amounts):
+
+- List EVERY statement credit, travel bank credit, anniversary credit and
+  spend-triggered credit on the product page and its benefit terms, then
+  compare both ways: a credit on the page but not in the catalog gets added
+  (with a citation, and flagged "needs a guide"); a catalog credit not on the
+  page gets flagged, never deleted.
+- For each credit, verify `amount`, `renewalPeriod` and `periodBasis` together.
+  Issuer wording decides the basis: "each calendar year", "January through
+  June" → `Calendar Year`; "each anniversary year", "card membership year",
+  "after your account anniversary" → `Cardmember Year`. Quarterly or
+  semiannual credits ("up to $50 each quarter") are modeled per period, not as
+  the yearly total.
+- `allowsPartialUse`: true when several purchases can draw the credit down
+  (most statement credits and portal credits); false for all-or-nothing
+  credits (a $250 credit after $600 of spend, a free night, a single
+  membership fee).
+- Trusted-traveler credits (Global Entry, TSA PreCheck, NEXUS) renew every
+  four years: keep `renewalPeriod: "Yearly"` with `renewalIntervalYears: 4`.
+  Never remove `renewalIntervalYears`.
+- Free nights, companion certificates and point grants carry
+  `requiresValueOnUse: true`; keep it.
+- Limited-time credits with published dates get `startsOn`/`endsOn`
+  (YYYY-MM-DD, `endsOn` is the first day it no longer applies).
+- Restructured credits: when an issuer changes a credit's shape (two
+  half-year $150 credits become one $150 yearly credit plus a $1,000 spend
+  bonus; a $200 yearly credit becomes $50 a quarter), do NOT edit the old
+  record into the new one. Set `status: "retired"` and `endsOn` on the old
+  record, and add the new record(s) under their own names. Editing in place
+  rewrites users' history. A simple amount change (CLEAR+ $209 → $219) is
+  edited in place.
+- Insurance and protections (cell phone protection, trip delay, purchase
+  protection) are not spendable credits: never give them an `amount`.
+
 ### Step 4: Add new cards
 
 For each newly discovered eligible card, build a full CardTemplate record:
@@ -434,8 +470,13 @@ If no card data changed, leave `version` and `lastUpdated` untouched.
 
 When updated:
 
-- `version`: today's date in `YYYY.MM.DD`
-- `lastUpdated`: current ISO 8601 UTC timestamp
+- `version`: today's date in `YYYY.MM.DD`, unless the current `version` is
+  already later than today (hand-made PRs sometimes carry a later date). Never
+  move `version` backward: if today is earlier, keep the current `version`.
+- `lastUpdated`: current ISO 8601 UTC timestamp, unless the current
+  `lastUpdated` is later than now; then set it one minute after the current
+  value. It must always move forward, or the validator rejects the PR and the
+  app never fetches the update.
 - `schemaVersion`: stays `1` unless explicitly told otherwise
 
 Do not open a PR where `cards.json` data differs from `origin/main` but either
@@ -537,6 +578,7 @@ If `cards.json` did not change, make no commit and open no PR. Print
 9. Never write secrets to disk, logs, commits, PR text, or source files.
 10. Never author, rewrite, or strip `benefits[].guide`, the card-level `cardGuide`, `benefits[].merchantPatterns`, or the redemption fields (`redemptionURL`/`redemptionLabel`/`redemptionKind`/`requiresExternalEligibilityList`). They are curated content — preserve them verbatim and only flag factual conflicts for manual review.
 11. Never delete a benefit entry to reflect an issuer ending it — set `endsOn`/`status: "retired"` with an issuer citation instead, and never clear lifecycle fields unless the issuer verifiably reinstated the benefit.
+12. Never move `version` or `lastUpdated` backward (see Step 5).
 
 ## Final report
 
