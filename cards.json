@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "version": "2026.09.30",
-  "lastUpdated": "2026-09-30T02:00:00Z",
+  "version": "2026.10.01",
+  "lastUpdated": "2026-10-01T02:00:00Z",
   "cards": [
     {
       "id": "american-express-platinum-card",
@@ -759,14 +759,24 @@
       "benefits": [
         {
           "name": "CLEAR Plus Credit",
-          "amount": 209,
+          "amount": 219,
           "renewalPeriod": "Yearly",
           "periodBasis": "Calendar Year",
           "category": "Travel",
           "allowsPartialUse": true,
-          "notes": null,
+          "notes": "Up to $219 each calendar year on an auto-renewing CLEAR+ membership.",
           "availableMonths": [],
-          "notificationsEnabled": true
+          "notificationsEnabled": true,
+          "guide": {
+            "whatItIs": "Up to $219 back each calendar year on a CLEAR+ membership.",
+            "howItWorks": [
+              "Pay for an auto-renewing CLEAR+ membership with the Green Card; the credit posts automatically.",
+              "Taxes and fees aren't covered."
+            ],
+            "maximizingTips": [
+              "Check that CLEAR has lanes at the airports you use before you sign up."
+            ]
+          }
         }
       ],
       "sources": {
@@ -776,7 +786,11 @@
         "rewardProgram": "https://www.americanexpress.com/us/credit-cards/card/green/",
         "earnRates.travel": "https://www.americanexpress.com/us/credit-cards/card/green/",
         "earnRates.transit": "https://www.americanexpress.com/us/credit-cards/card/green/",
-        "earnRates.dining": "https://www.americanexpress.com/us/credit-cards/card/green/"
+        "earnRates.dining": "https://www.americanexpress.com/us/credit-cards/card/green/",
+        "benefits.clear-plus-credit": [
+          "https://www.americanexpress.com/us/credit-cards/card/green/",
+          "https://global.americanexpress.com/card-benefits/detail/hundred-clear-credit/amex-green"
+        ]
       },
       "lastVerified": "2026-05-04T00:00:00Z"
     },
@@ -975,9 +989,11 @@
           "periodBasis": "Calendar Year",
           "category": "Lifestyle",
           "allowsPartialUse": true,
-          "notes": "Statement credit for Equinox+ app subscription",
+          "notes": "Amex ended this credit; October 31, 2024 was the last day to earn it.",
           "availableMonths": [],
-          "notificationsEnabled": true
+          "notificationsEnabled": true,
+          "status": "retired",
+          "endsOn": "2024-11-01"
         },
         {
           "name": "Disney Streaming Credit",
@@ -988,7 +1004,17 @@
           "allowsPartialUse": true,
           "notes": "Up to $10 monthly for eligible Disney+, Hulu, or ESPN subscriptions purchased directly with an enrolled card.",
           "availableMonths": [],
-          "notificationsEnabled": true
+          "notificationsEnabled": true,
+          "guide": {
+            "whatItIs": "Up to $10 back each month on Disney+, Hulu or ESPN streaming subscriptions.",
+            "howItWorks": [
+              "Enroll in the Amex app, then pay for a Disney+, Hulu or ESPN subscription, or a bundle, on their U.S. websites with the Blue Cash Preferred.",
+              "Subscriptions billed through the App Store or Google Play don't qualify."
+            ],
+            "maximizingTips": [
+              "A Disney+ and Hulu bundle usually covers the whole $10."
+            ]
+          }
         }
       ],
       "sources": {
@@ -1001,7 +1027,8 @@
         "earnRates.transit": "https://www.americanexpress.com/us/credit-cards/card/blue-cash-preferred/",
         "earnRates.gas": "https://www.americanexpress.com/us/credit-cards/card/blue-cash-preferred/",
         "signupBonus": "https://www.americanexpress.com/us/credit-cards/card/blue-cash-preferred/",
-        "benefits.disney-streaming-credit": "https://www.americanexpress.com/us/credit-cards/card/blue-cash-preferred/"
+        "benefits.disney-streaming-credit": "https://www.americanexpress.com/us/credit-cards/card/blue-cash-preferred/",
+        "benefits.equinox-credit": "https://www.americanexpress.com/us/credit-cards/card/blue-cash-preferred/"
       },
       "lastVerified": "2026-05-04T00:00:00Z",
       "signupBonus": {
@@ -1123,12 +1150,64 @@
           "name": "Delta Flight Credit",
           "amount": 200,
           "renewalPeriod": "Yearly",
-          "periodBasis": "Cardmember Year",
+          "periodBasis": "Calendar Year",
+          "category": "Travel",
+          "allowsPartialUse": false,
+          "notes": "A $200 Delta Flight Credit after $10,000 in purchases in a calendar year.",
+          "availableMonths": [],
+          "notificationsEnabled": true,
+          "guide": {
+            "whatItIs": "A $200 Delta Flight Credit after you spend $10,000 on the card in a calendar year.",
+            "howItWorks": [
+              "Spend $10,000 on the Delta Gold in a calendar year; Delta emails you a $200 Flight Credit for future Delta travel.",
+              "Use it when you book on delta.com or in the Fly Delta app."
+            ],
+            "maximizingTips": [
+              "Delta Flight Credits expire; check the date on the email and book before then."
+            ]
+          }
+        },
+        {
+          "name": "Rideshare Credit",
+          "amount": 10,
+          "renewalPeriod": "Monthly",
+          "periodBasis": "Calendar Year",
           "category": "Travel",
           "allowsPartialUse": true,
-          "notes": "Awarded after $10K in eligible purchases per cardmember year",
+          "notes": "Up to $10 each month on U.S. rideshare purchases with select providers, starting after your first card renewal. Enrollment required.",
           "availableMonths": [],
-          "notificationsEnabled": true
+          "notificationsEnabled": true,
+          "guide": {
+            "whatItIs": "Up to $10 back each month on U.S. rideshare rides, starting after your first card renewal.",
+            "howItWorks": [
+              "Enroll in the Amex app, then pay for U.S. rideshare rides (such as Uber or Lyft) with the Delta Gold.",
+              "The credit starts after your first card renewal. Unused credit doesn't carry into the next month."
+            ],
+            "maximizingTips": [
+              "A ride to or from the airport usually uses the whole $10."
+            ]
+          }
+        },
+        {
+          "name": "Delta Stays Credit",
+          "amount": 100,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Calendar Year",
+          "category": "Travel",
+          "allowsPartialUse": true,
+          "notes": "Up to $100 each year on prepaid hotels or vacation rentals booked through Delta Stays on delta.com.",
+          "availableMonths": [],
+          "notificationsEnabled": true,
+          "guide": {
+            "whatItIs": "Up to $100 back each year on prepaid hotels or vacation rentals booked through Delta Stays.",
+            "howItWorks": [
+              "Book a prepaid hotel or vacation rental through Delta Stays on delta.com and pay with the Delta Gold.",
+              "Pay-at-property bookings don't qualify; the stay has to be prepaid."
+            ],
+            "maximizingTips": [
+              "Compare the Delta Stays price with booking the hotel directly before counting the full credit as savings."
+            ]
+          }
         }
       ],
       "sources": {
@@ -1138,7 +1217,10 @@
         "rewardProgram": "https://www.americanexpress.com/us/credit-cards/card/delta-skymiles-gold-american-express-card/",
         "earnRates.airfare": "https://www.americanexpress.com/us/credit-cards/card/delta-skymiles-gold-american-express-card/",
         "earnRates.dining": "https://www.americanexpress.com/us/credit-cards/card/delta-skymiles-gold-american-express-card/",
-        "earnRates.groceries": "https://www.americanexpress.com/us/credit-cards/card/delta-skymiles-gold-american-express-card/"
+        "earnRates.groceries": "https://www.americanexpress.com/us/credit-cards/card/delta-skymiles-gold-american-express-card/",
+        "benefits.delta-flight-credit": "https://www.americanexpress.com/us/credit-cards/card/delta-skymiles-gold-american-express-card/",
+        "benefits.rideshare-credit": "https://www.americanexpress.com/us/credit-cards/card/delta-skymiles-gold-american-express-card/",
+        "benefits.delta-stays-credit": "https://www.americanexpress.com/us/credit-cards/card/delta-skymiles-gold-american-express-card/"
       },
       "lastVerified": "2026-05-04T00:00:00Z"
     },
@@ -1446,9 +1528,19 @@
           "periodBasis": "Calendar Year",
           "category": "Travel",
           "allowsPartialUse": true,
-          "notes": "Eligible purchases at Hilton Resorts",
+          "notes": "Up to $50 each quarter on purchases made directly with a hotel in the Hilton portfolio.",
           "availableMonths": [],
-          "notificationsEnabled": true
+          "notificationsEnabled": true,
+          "guide": {
+            "whatItIs": "Up to $50 back each quarter on purchases made directly with any Hilton hotel, not only resorts.",
+            "howItWorks": [
+              "Pay a Hilton hotel directly with the Surpass, for the room or charges during a stay.",
+              "Each $50 applies only in its own quarter."
+            ],
+            "maximizingTips": [
+              "Room charges billed at checkout count, so one stay a quarter uses it."
+            ]
+          }
         }
       ],
       "sources": {
@@ -1459,7 +1551,8 @@
         "earnRates.hotels": "https://www.americanexpress.com/us/credit-cards/card/hilton-honors-surpass/",
         "earnRates.dining": "https://www.americanexpress.com/us/credit-cards/card/hilton-honors-surpass/",
         "earnRates.groceries": "https://www.americanexpress.com/us/credit-cards/card/hilton-honors-surpass/",
-        "earnRates.gas": "https://www.americanexpress.com/us/credit-cards/card/hilton-honors-surpass/"
+        "earnRates.gas": "https://www.americanexpress.com/us/credit-cards/card/hilton-honors-surpass/",
+        "benefits.hilton-resort-credit": "https://www.americanexpress.com/us/credit-cards/card/hilton-honors-surpass/"
       },
       "lastVerified": "2026-05-04T00:00:00Z"
     },
@@ -2312,13 +2405,24 @@
           "name": "Free Night Award",
           "amount": 245,
           "renewalPeriod": "Yearly",
-          "periodBasis": "Cardmember Year",
+          "periodBasis": "Calendar Year",
           "category": "Travel",
           "allowsPartialUse": false,
-          "notes": "One free night at hotels up to 50,000 Marriott Bonvoy points per calendar year.",
+          "notes": "One Free Night Award (up to 50,000 points) after $15,000 in purchases in a calendar year.",
           "availableMonths": [],
           "notificationsEnabled": true,
-          "requiresValueOnUse": true
+          "requiresValueOnUse": true,
+          "guide": {
+            "whatItIs": "One Free Night Award after you spend $15,000 on the card in a calendar year, at a hotel costing up to 50,000 points.",
+            "howItWorks": [
+              "Spend $15,000 on the Bevy in a calendar year and the Free Night Award lands in your Marriott Bonvoy account; book it on marriott.com or in the app.",
+              "Log the cash price of the night you booked as its value."
+            ],
+            "maximizingTips": [
+              "The award expires; book the night as soon as you know your dates.",
+              "You can add up to 15,000 of your own points to book a hotel above 50,000."
+            ]
+          }
         }
       ],
       "lastVerified": "2026-05-03T00:00:00Z",
@@ -2757,10 +2861,20 @@
           "renewalPeriod": "Yearly",
           "periodBasis": "Calendar Year",
           "category": "Travel",
-          "allowsPartialUse": true,
-          "notes": "Awarded after $10,000 in purchases on the Card in a calendar year.",
+          "allowsPartialUse": false,
+          "notes": "A $200 Delta Flight Credit after $10,000 in purchases in a calendar year.",
           "availableMonths": [],
-          "notificationsEnabled": true
+          "notificationsEnabled": true,
+          "guide": {
+            "whatItIs": "A $200 Delta Flight Credit after you spend $10,000 on the card in a calendar year.",
+            "howItWorks": [
+              "Spend $10,000 on the Delta Gold Business in a calendar year; Delta emails you a $200 Flight Credit for future Delta travel.",
+              "Use it when you book on delta.com or in the Fly Delta app."
+            ],
+            "maximizingTips": [
+              "Delta Flight Credits expire; check the date on the email and book before then."
+            ]
+          }
         }
       ],
       "lastVerified": "2026-05-03T00:00:00Z",
@@ -2824,7 +2938,18 @@
           "notes": "One free night at hotels up to 35,000 Marriott Bonvoy points per card renewal month. Additional award earned at $60K annual spend.",
           "availableMonths": [],
           "notificationsEnabled": true,
-          "requiresValueOnUse": true
+          "requiresValueOnUse": true,
+          "guide": {
+            "whatItIs": "One free night each year after your card renewal month, at a hotel costing up to 35,000 points, plus a second after $60,000 of spending in a calendar year.",
+            "howItWorks": [
+              "The Free Night Award lands in your Marriott Bonvoy account after your card renewal month; book it on marriott.com or in the app.",
+              "Log the cash price of the night you booked as its value."
+            ],
+            "maximizingTips": [
+              "The award expires; book the night as soon as you know your dates.",
+              "You can add up to 15,000 of your own points to book a hotel above 35,000."
+            ]
+          }
         }
       ],
       "lastVerified": "2026-05-03T00:00:00Z",
@@ -2882,7 +3007,17 @@
           "allowsPartialUse": true,
           "notes": "Up to $60 per quarter (up to $240 annually) for eligible purchases made directly with a Hilton property.",
           "availableMonths": [],
-          "notificationsEnabled": true
+          "notificationsEnabled": true,
+          "guide": {
+            "whatItIs": "Up to $60 back each quarter on purchases made directly with a Hilton hotel.",
+            "howItWorks": [
+              "Pay a Hilton hotel directly with the Hilton Business card, for the room or charges during a stay.",
+              "Each $60 applies only in its own quarter."
+            ],
+            "maximizingTips": [
+              "Room charges billed at checkout count, so one stay a quarter uses it."
+            ]
+          }
         }
       ],
       "lastVerified": "2026-05-03T00:00:00Z",
@@ -2986,7 +3121,16 @@
           "allowsPartialUse": true,
           "notes": null,
           "availableMonths": [],
-          "notificationsEnabled": true
+          "notificationsEnabled": true,
+          "guide": {
+            "whatItIs": "Up to $25 back each card anniversary year on American Airlines inflight Wi-Fi.",
+            "howItWorks": [
+              "Buy inflight Wi-Fi on an American Airlines flight with the Aviator Red; the cost comes back as a statement credit."
+            ],
+            "maximizingTips": [
+              "A single day pass on a longer flight uses most of it."
+            ]
+          }
         },
         {
           "name": "Companion Certificate ($99+tax)",
@@ -2998,7 +3142,18 @@
           "notes": "Requires $20K spend",
           "availableMonths": [],
           "notificationsEnabled": true,
-          "requiresValueOnUse": true
+          "requiresValueOnUse": true,
+          "guide": {
+            "whatItIs": "A companion certificate for a round-trip American Airlines main cabin ticket at $99 plus taxes, earned by spending $20,000 in a card year.",
+            "howItWorks": [
+              "Spend $20,000 on the Aviator Red in your card anniversary year; the certificate arrives after the anniversary.",
+              "Book the companion on the same domestic round-trip itinerary for $99 plus taxes and fees.",
+              "Log the fare you saved as its value."
+            ],
+            "maximizingTips": [
+              "It's worth the most on pricier routes; check expiration when it arrives."
+            ]
+          }
         }
       ],
       "sources": {
@@ -3065,7 +3220,17 @@
           "allowsPartialUse": true,
           "notes": null,
           "availableMonths": [],
-          "notificationsEnabled": true
+          "notificationsEnabled": true,
+          "guide": {
+            "whatItIs": "A yearly companion discount on Hawaiian Airlines, from the card's annual benefits.",
+            "howItWorks": [
+              "Use the discount code in your account when you book a companion on a Hawaiian Airlines flight with the card.",
+              "Log the amount you saved as its value."
+            ],
+            "maximizingTips": [
+              "Check the code's route and fare rules before you plan around it; it doesn't apply to every fare."
+            ]
+          }
         }
       ],
       "sources": {
@@ -3129,7 +3294,17 @@
           "allowsPartialUse": true,
           "notes": "Earned with $100+ JetBlue Vacations purchase",
           "availableMonths": [],
-          "notificationsEnabled": true
+          "notificationsEnabled": true,
+          "guide": {
+            "whatItIs": "A $100 statement credit after you buy a JetBlue Vacations package of $100 or more, once a year.",
+            "howItWorks": [
+              "Buy a JetBlue Vacations package (flight plus hotel or car) of $100 or more with the JetBlue Plus card; $100 comes back.",
+              "Only one credit a year; flights alone don't qualify."
+            ],
+            "maximizingTips": [
+              "A package with a single hotel night can cost little more than the flight alone."
+            ]
+          }
         },
         {
           "name": "First Checked Bag",
@@ -3192,12 +3367,22 @@
           "name": "JetBlue Vacations Credit",
           "amount": 100,
           "renewalPeriod": "Yearly",
-          "periodBasis": "Cardmember Year",
+          "periodBasis": "Calendar Year",
           "category": "Travel",
           "allowsPartialUse": true,
-          "notes": "Statement credit on JetBlue Vacations package",
+          "notes": "A $100 statement credit after a JetBlue Vacations package of $100 or more, once per calendar year.",
           "availableMonths": [],
-          "notificationsEnabled": true
+          "notificationsEnabled": true,
+          "guide": {
+            "whatItIs": "A $100 statement credit after you buy a JetBlue Vacations package of $100 or more, once a year.",
+            "howItWorks": [
+              "Buy a JetBlue Vacations package (flight plus hotel or car) of $100 or more with the JetBlue Business card; $100 comes back.",
+              "Only one credit a year; flights alone don't qualify."
+            ],
+            "maximizingTips": [
+              "A package with a single hotel night can cost little more than the flight alone."
+            ]
+          }
         },
         {
           "name": "First Checked Bag",
@@ -3217,7 +3402,8 @@
         "baseEarnRate": "https://cards.barclaycardus.com/banking/cards/jetblue-business-card/",
         "rewardProgram": "https://cards.barclaycardus.com/banking/cards/jetblue-business-card/",
         "earnRates.airfare": "https://cards.barclaycardus.com/banking/cards/jetblue-business-card/",
-        "earnRates.dining": "https://cards.barclaycardus.com/banking/cards/jetblue-business-card/"
+        "earnRates.dining": "https://cards.barclaycardus.com/banking/cards/jetblue-business-card/",
+        "benefits.jetblue-vacations-credit": "https://cards.barclaycardus.com/banking/cards/jetblue-business-card/"
       },
       "lastVerified": "2026-05-03T00:00:00Z"
     },
@@ -3288,7 +3474,17 @@
           "allowsPartialUse": true,
           "notes": "Up to $25 each six-month calendar-year period for eligible third-party meal delivery purchases; restaurant delivery and meal kits do not qualify.",
           "availableMonths": [],
-          "notificationsEnabled": true
+          "notificationsEnabled": true,
+          "guide": {
+            "whatItIs": "Up to $25 back from January to June and again from July to December on third-party meal delivery.",
+            "howItWorks": [
+              "Pay for a meal delivery order through a third-party delivery service with the Earner Plus card.",
+              "Delivery straight from a restaurant and meal kits don't qualify. Each $25 applies only in its own half of the year."
+            ],
+            "maximizingTips": [
+              "One delivery order each half of the year uses it."
+            ]
+          }
         }
       ],
       "sources": {
@@ -3599,7 +3795,144 @@
           "allowsPartialUse": true,
           "notes": "Up to $120 every 4 years",
           "availableMonths": [],
-          "notificationsEnabled": true
+          "notificationsEnabled": true,
+          "guide": {
+            "whatItIs": "A statement credit for a Global Entry, TSA PreCheck or NEXUS application fee, up to $120, once every four years.",
+            "howItWorks": [
+              "Pay the Global Entry or TSA PreCheck application fee with your Explorer; the credit posts automatically.",
+              "Apply through the official government site or an authorized TSA PreCheck enrollment provider. Third-party application services don't qualify.",
+              "Global Entry includes TSA PreCheck, so it covers both if you travel internationally."
+            ],
+            "maximizingTips": [
+              "The fee can be for anyone, not just you. If your own membership is current, use it on a family member's application.",
+              "Global Entry can be renewed up to a year before it expires, so a renewal can usually wait until the next credit is available."
+            ]
+          }
+        },
+        {
+          "name": "United Travel Credit",
+          "amount": 100,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Calendar Year",
+          "category": "Travel",
+          "allowsPartialUse": true,
+          "notes": "A $100 United travel credit after $10,000 in purchases in a calendar year.",
+          "availableMonths": [],
+          "notificationsEnabled": true,
+          "guide": {
+            "whatItIs": "A $100 United travel credit after you spend $10,000 on the card in a calendar year.",
+            "howItWorks": [
+              "Spend $10,000 on the Explorer in a calendar year; a $100 United travel credit follows for a future United flight."
+            ],
+            "maximizingTips": [
+              "Check the credit's expiration when it arrives and put it toward your next United booking."
+            ]
+          }
+        },
+        {
+          "name": "United Hotels Credit",
+          "amount": 100,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Cardmember Year",
+          "category": "Travel",
+          "allowsPartialUse": true,
+          "notes": "$50 back on each of your first two prepaid United Hotels stays each anniversary year.",
+          "availableMonths": [],
+          "notificationsEnabled": true,
+          "guide": {
+            "whatItIs": "$50 back on each of your first two prepaid stays booked through United Hotels, every anniversary year.",
+            "howItWorks": [
+              "Prepay a hotel stay directly through United Hotels with the Explorer; a $50 statement credit follows.",
+              "The first and second stays each anniversary year earn $50."
+            ],
+            "maximizingTips": [
+              "Only prepaid rates count; a pay-at-hotel rate won't earn the credit."
+            ]
+          }
+        },
+        {
+          "name": "Rideshare Credit",
+          "amount": 5,
+          "renewalPeriod": "Monthly",
+          "periodBasis": "Calendar Year",
+          "category": "Travel",
+          "allowsPartialUse": true,
+          "notes": "Up to $5 each month on rideshare, up to $60 each calendar year. Yearly opt-in required.",
+          "availableMonths": [],
+          "notificationsEnabled": true,
+          "guide": {
+            "whatItIs": "Up to $5 back each month on rideshare, up to $60 a year.",
+            "howItWorks": [
+              "Enroll in the benefit each year, then pay for rideshare rides with the Explorer.",
+              "Unused credit doesn't carry into the next month."
+            ],
+            "maximizingTips": [
+              "Re-enroll every January; the opt-in doesn't renew on its own."
+            ]
+          }
+        },
+        {
+          "name": "Avis/Budget TravelBank Cash",
+          "amount": 50,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Cardmember Year",
+          "category": "Travel",
+          "allowsPartialUse": true,
+          "notes": "$25 in United TravelBank cash for each of your first two Avis or Budget rentals booked through cars.united.com each anniversary year.",
+          "availableMonths": [],
+          "notificationsEnabled": true,
+          "guide": {
+            "whatItIs": "$25 of United TravelBank cash for each of your first two Avis or Budget rentals every card anniversary year.",
+            "howItWorks": [
+              "Book an Avis or Budget rental directly through cars.united.com and pay with the Explorer.",
+              "The first and second rentals each year earn $25 in TravelBank cash, which you spend on United flights."
+            ],
+            "maximizingTips": [
+              "TravelBank cash has its own expiration; use it on your next United booking."
+            ]
+          }
+        },
+        {
+          "name": "Instacart Credit",
+          "amount": 10,
+          "renewalPeriod": "Monthly",
+          "periodBasis": "Calendar Year",
+          "category": "Shopping",
+          "allowsPartialUse": true,
+          "notes": "Through 12/31/2027. A $10 credit each month for purchases directly through Instacart.",
+          "availableMonths": [],
+          "notificationsEnabled": true,
+          "guide": {
+            "whatItIs": "A $10 Instacart credit each month, up to $120 a year, through December 31, 2027.",
+            "howItWorks": [
+              "Pay for an Instacart order directly through Instacart with the Explorer; a $10 credit applies each month.",
+              "Unused credit doesn't carry into the next month."
+            ],
+            "maximizingTips": [
+              "One grocery order a month uses it."
+            ]
+          }
+        },
+        {
+          "name": "JSX Credit",
+          "amount": 100,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Cardmember Year",
+          "category": "Travel",
+          "allowsPartialUse": true,
+          "notes": "Up to $100 back each card anniversary year on flights booked directly with JSX.",
+          "availableMonths": [],
+          "notificationsEnabled": true,
+          "guide": {
+            "whatItIs": "Up to $100 back each card anniversary year on flights booked directly with JSX.",
+            "howItWorks": [
+              "Book a JSX flight directly with JSX and pay with the Explorer.",
+              "JSX is a semi-private jet service flying from private terminals on select routes."
+            ],
+            "maximizingTips": [
+              "Check JSX's route map first; it only flies between a limited set of cities."
+            ]
+          }
         },
         {
           "name": "United Club Passes",
@@ -3624,7 +3957,13 @@
         "earnRates.airfare": "https://creditcards.chase.com/travel-credit-cards/united/united-explorer",
         "earnRates.hotels": "https://creditcards.chase.com/travel-credit-cards/united/united-explorer",
         "earnRates.dining": "https://creditcards.chase.com/travel-credit-cards/united/united-explorer",
-        "benefits.global-entry-tsa-precheck-nexus-credit": "https://creditcards.chase.com/travel-credit-cards/united/united-explorer"
+        "benefits.global-entry-tsa-precheck-nexus-credit": "https://creditcards.chase.com/travel-credit-cards/united/united-explorer",
+        "benefits.united-travel-credit": "https://creditcards.chase.com/travel-credit-cards/united/united-explorer",
+        "benefits.united-hotels-credit": "https://creditcards.chase.com/travel-credit-cards/united/united-explorer",
+        "benefits.rideshare-credit": "https://creditcards.chase.com/travel-credit-cards/united/united-explorer",
+        "benefits.avis-budget-travelbank-cash": "https://creditcards.chase.com/travel-credit-cards/united/united-explorer",
+        "benefits.instacart-credit": "https://creditcards.chase.com/travel-credit-cards/united/united-explorer",
+        "benefits.jsx-credit": "https://creditcards.chase.com/travel-credit-cards/united/united-explorer"
       },
       "lastVerified": "2026-05-03T00:00:00Z"
     },
@@ -3856,9 +4195,62 @@
           "periodBasis": "Cardmember Year",
           "category": "Travel",
           "allowsPartialUse": true,
-          "notes": "Any airline ticket purchased through Chase Travel",
+          "notes": "Replaced by the Air Canada statement credit ($50 each half-year).",
           "availableMonths": [],
-          "notificationsEnabled": true
+          "notificationsEnabled": true,
+          "status": "retired"
+        },
+        {
+          "name": "Air Canada Credit",
+          "amount": 50,
+          "renewalPeriod": "Every 6 months",
+          "periodBasis": "Calendar Year",
+          "category": "Travel",
+          "allowsPartialUse": true,
+          "notes": "Up to $50 each half of the year (Jan-Jun, Jul-Dec) on purchases made directly with Air Canada.",
+          "availableMonths": [],
+          "notificationsEnabled": true,
+          "guide": {
+            "whatItIs": "Up to $50 back from January to June and again from July to December on purchases made directly with Air Canada.",
+            "howItWorks": [
+              "Pay Air Canada directly with the Aeroplan card, for flights, seats or bags; up to $50 comes back each half of the year.",
+              "Gift cards and hotel or car bookings sold through Air Canada don't qualify."
+            ],
+            "maximizingTips": [
+              "A seat selection or checked bag fee each half-year uses most of it."
+            ]
+          }
+        },
+        {
+          "name": "Global Entry/TSA PreCheck/NEXUS Credit",
+          "amount": 120,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Cardmember Year",
+          "category": "Travel",
+          "allowsPartialUse": false,
+          "renewalIntervalYears": 4,
+          "notes": "Every 4 years",
+          "availableMonths": [],
+          "notificationsEnabled": true,
+          "merchantPatterns": [
+            "GLOBAL ENTRY",
+            "TSA PRECHECK",
+            "NEXUS",
+            "US CUSTOMS",
+            "CBP"
+          ],
+          "guide": {
+            "whatItIs": "A statement credit for a Global Entry or TSA PreCheck application fee, including NEXUS, up to $120, once every four years.",
+            "howItWorks": [
+              "Pay the Global Entry or TSA PreCheck application fee with your Aeroplan card; the credit posts automatically.",
+              "Apply through the official government site or an authorized TSA PreCheck enrollment provider. Third-party application services don't qualify.",
+              "Global Entry includes TSA PreCheck, so it covers both if you travel internationally."
+            ],
+            "maximizingTips": [
+              "The fee can be for anyone, not just you. If your own membership is current, use it on a family member's application.",
+              "Global Entry can be renewed up to a year before it expires, so a renewal can usually wait until the next credit is available."
+            ]
+          }
         }
       ],
       "sources": {
@@ -3868,7 +4260,10 @@
         "rewardProgram": "https://creditcards.chase.com/travel-credit-cards/aircanada/aeroplan",
         "earnRates.airfare": "https://creditcards.chase.com/travel-credit-cards/aircanada/aeroplan",
         "earnRates.dining": "https://creditcards.chase.com/travel-credit-cards/aircanada/aeroplan",
-        "earnRates.groceries": "https://creditcards.chase.com/travel-credit-cards/aircanada/aeroplan"
+        "earnRates.groceries": "https://creditcards.chase.com/travel-credit-cards/aircanada/aeroplan",
+        "benefits.travel-credit": "https://creditcards.chase.com/travel-credit-cards/aircanada/aeroplan",
+        "benefits.air-canada-credit": "https://creditcards.chase.com/travel-credit-cards/aircanada/aeroplan",
+        "benefits.global-entry-tsa-precheck-nexus-credit": "https://creditcards.chase.com/travel-credit-cards/aircanada/aeroplan"
       },
       "lastVerified": "2026-05-03T00:00:00Z"
     },
@@ -4056,7 +4451,19 @@
           "allowsPartialUse": true,
           "notes": "Every 4 years",
           "availableMonths": [],
-          "notificationsEnabled": true
+          "notificationsEnabled": true,
+          "guide": {
+            "whatItIs": "A statement credit for a Global Entry or TSA PreCheck application fee, up to $120, once every four years.",
+            "howItWorks": [
+              "Pay the Global Entry or TSA PreCheck application fee with your Venture; the credit posts automatically.",
+              "Apply through the official government site or an authorized TSA PreCheck enrollment provider. Third-party application services don't qualify.",
+              "The credit applies to whichever program you pay for first, and posts within two billing cycles."
+            ],
+            "maximizingTips": [
+              "The fee can be for anyone, not just you. If your own membership is current, use it on a family member's application.",
+              "Global Entry can be renewed up to a year before it expires, so a renewal can usually wait until the next credit is available."
+            ]
+          }
         }
       ],
       "sources": {
@@ -4922,7 +5329,18 @@
           "notes": "Enter your redemption value",
           "availableMonths": [],
           "notificationsEnabled": true,
-          "requiresValueOnUse": true
+          "requiresValueOnUse": true,
+          "guide": {
+            "whatItIs": "One free night each account anniversary at an IHG hotel costing up to 40,000 points.",
+            "howItWorks": [
+              "The Anniversary Free Night is available in your IHG One Rewards account on your account anniversary; book it on ihg.com or in the IHG app.",
+              "Log the cash price of the night you booked as its value."
+            ],
+            "maximizingTips": [
+              "The award expires; book the night as soon as you know your dates.",
+              "You can add your own points to use it at a hotel costing more than 40,000."
+            ]
+          }
         },
         {
           "name": "United TravelBank Cash",
@@ -4931,13 +5349,23 @@
           "periodBasis": "Calendar Year",
           "category": "Travel",
           "allowsPartialUse": true,
-          "notes": null,
+          "notes": "Up to $50 in United TravelBank cash each calendar year after registering the card with MileagePlus.",
           "availableMonths": [],
-          "notificationsEnabled": true
+          "notificationsEnabled": true,
+          "guide": {
+            "whatItIs": "Up to $50 in United TravelBank cash each calendar year.",
+            "howItWorks": [
+              "Register your IHG Premier card with your United MileagePlus account; the TravelBank cash then arrives each calendar year.",
+              "Spend it on a United flight booking."
+            ],
+            "maximizingTips": [
+              "Register once and it keeps coming; TravelBank cash has its own expiration."
+            ]
+          }
         },
         {
           "name": "Global Entry/TSA PreCheck Credit",
-          "amount": 100,
+          "amount": 120,
           "renewalPeriod": "Yearly",
           "renewalIntervalYears": 4,
           "periodBasis": "Cardmember Year",
@@ -4945,7 +5373,39 @@
           "allowsPartialUse": true,
           "notes": "Every 4 years",
           "availableMonths": [],
-          "notificationsEnabled": true
+          "notificationsEnabled": true,
+          "guide": {
+            "whatItIs": "A statement credit for a Global Entry or TSA PreCheck application fee, including NEXUS, up to $120, once every four years.",
+            "howItWorks": [
+              "Pay the Global Entry or TSA PreCheck application fee with your IHG Premier; the credit posts automatically.",
+              "Apply through the official government site or an authorized TSA PreCheck enrollment provider. Third-party application services don't qualify.",
+              "Global Entry includes TSA PreCheck, so it covers both if you travel internationally."
+            ],
+            "maximizingTips": [
+              "The fee can be for anyone, not just you. If your own membership is current, use it on a family member's application.",
+              "Global Entry can be renewed up to a year before it expires, so a renewal can usually wait until the next credit is available."
+            ]
+          }
+        },
+        {
+          "name": "$20K Spend Statement Credit",
+          "amount": 100,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Calendar Year",
+          "category": "Travel",
+          "allowsPartialUse": false,
+          "notes": "A $100 statement credit and 10,000 bonus points after $20,000 in purchases each calendar year.",
+          "availableMonths": [],
+          "notificationsEnabled": true,
+          "guide": {
+            "whatItIs": "A $100 statement credit, plus 10,000 bonus points, after you spend $20,000 on the card in a calendar year.",
+            "howItWorks": [
+              "Spend $20,000 on the IHG Premier in a calendar year; the $100 statement credit and 10,000 points follow automatically."
+            ],
+            "maximizingTips": [
+              "Remove this credit from your wallet if you won't reach $20,000, so it doesn't inflate what you have left."
+            ]
+          }
         }
       ],
       "sources": {
@@ -4956,7 +5416,10 @@
         "earnRates.hotels": "https://creditcards.chase.com/travel-credit-cards/ihg-rewards-club/premier",
         "earnRates.travel": "https://creditcards.chase.com/travel-credit-cards/ihg-rewards-club/premier",
         "earnRates.dining": "https://creditcards.chase.com/travel-credit-cards/ihg-rewards-club/premier",
-        "earnRates.gas": "https://creditcards.chase.com/travel-credit-cards/ihg-rewards-club/premier"
+        "earnRates.gas": "https://creditcards.chase.com/travel-credit-cards/ihg-rewards-club/premier",
+        "benefits.united-travelbank-cash": "https://creditcards.chase.com/travel-credit-cards/ihg-rewards-club/premier",
+        "benefits.global-entry-tsa-precheck-credit": "https://creditcards.chase.com/travel-credit-cards/ihg-rewards-club/premier",
+        "benefits.20k-spend-statement-credit": "https://creditcards.chase.com/travel-credit-cards/ihg-rewards-club/premier"
       },
       "lastVerified": "2026-05-03T00:00:00Z"
     },
@@ -5016,7 +5479,41 @@
           "notes": "Enter your redemption value",
           "availableMonths": [],
           "notificationsEnabled": true,
-          "requiresValueOnUse": true
+          "requiresValueOnUse": true,
+          "guide": {
+            "whatItIs": "One free night each year after your account anniversary, at a hotel costing up to 35,000 points.",
+            "howItWorks": [
+              "The Free Night Award lands in your Marriott Bonvoy account within 8 weeks of your account anniversary; book it on marriott.com or in the app.",
+              "Log the cash price of the night you booked as its value."
+            ],
+            "maximizingTips": [
+              "The award expires; book the night as soon as you know your dates.",
+              "You can add up to 15,000 of your own points to book a hotel above 35,000."
+            ]
+          }
+        },
+        {
+          "name": "Airline Credit (Limited Time)",
+          "amount": 50,
+          "renewalPeriod": "Every 6 months",
+          "periodBasis": "Calendar Year",
+          "category": "Travel",
+          "allowsPartialUse": false,
+          "notes": "Limited-time offer: a $50 statement credit after $250 with airlines June 4 to Dec 31, 2026, and another after $250 Jan 1 to June 30, 2027. Cardmembers since before 1/7/2026 must activate once.",
+          "availableMonths": [],
+          "notificationsEnabled": true,
+          "startsOn": "2026-06-04",
+          "endsOn": "2027-07-01",
+          "guide": {
+            "whatItIs": "A limited-time $50 airline credit for each of two windows: June 4 to December 31, 2026, and January 1 to June 30, 2027.",
+            "howItWorks": [
+              "Spend $250 or more directly with airlines on the Boundless in each window; a $50 statement credit follows.",
+              "If you had the card before January 7, 2026, activate the offer once through Chase first."
+            ],
+            "maximizingTips": [
+              "One round-trip ticket usually clears $250 in a single purchase."
+            ]
+          }
         }
       ],
       "sources": {
@@ -5027,7 +5524,8 @@
         "earnRates.hotels": "https://creditcards.chase.com/travel-credit-cards/marriott-bonvoy/boundless",
         "earnRates.dining": "https://creditcards.chase.com/travel-credit-cards/marriott-bonvoy/boundless",
         "earnRates.gas": "https://creditcards.chase.com/travel-credit-cards/marriott-bonvoy/boundless",
-        "earnRates.groceries": "https://creditcards.chase.com/travel-credit-cards/marriott-bonvoy/boundless"
+        "earnRates.groceries": "https://creditcards.chase.com/travel-credit-cards/marriott-bonvoy/boundless",
+        "benefits.airline-credit-limited-time": "https://creditcards.chase.com/travel-credit-cards/marriott-bonvoy/boundless"
       },
       "lastVerified": "2026-05-03T00:00:00Z"
     },
@@ -5244,7 +5742,17 @@
           "notes": "Enter your points value",
           "availableMonths": [],
           "notificationsEnabled": true,
-          "requiresValueOnUse": true
+          "requiresValueOnUse": true,
+          "guide": {
+            "whatItIs": "6,000 bonus Rapid Rewards points each year after your card anniversary.",
+            "howItWorks": [
+              "The points post to your Rapid Rewards account automatically after each card anniversary.",
+              "Log what the points saved you when you redeem them, since points aren't cash."
+            ],
+            "maximizingTips": [
+              "Southwest points are worth the most on flights; check the cash price against the points price when you book."
+            ]
+          }
         },
         {
           "name": "Companion Pass Points (10K)",
@@ -5256,7 +5764,18 @@
           "notes": "Qualifying points boost",
           "availableMonths": [],
           "notificationsEnabled": true,
-          "requiresValueOnUse": true
+          "requiresValueOnUse": true,
+          "guide": {
+            "whatItIs": "10,000 Companion Pass qualifying points added each year, a head start toward the Companion Pass.",
+            "howItWorks": [
+              "The boost counts toward the Companion Pass automatically; it isn't spendable points.",
+              "Card points, Southwest flights and base partner points also count toward the pass. Purchased or transferred points don't.",
+              "Log a value only if the boost helps you earn the pass."
+            ],
+            "maximizingTips": [
+              "Earning the pass early in a year makes it good for the rest of that year and all of the next."
+            ]
+          }
         }
       ],
       "sources": {
@@ -5339,7 +5858,17 @@
           "notes": "Enter your points value",
           "availableMonths": [],
           "notificationsEnabled": true,
-          "requiresValueOnUse": true
+          "requiresValueOnUse": true,
+          "guide": {
+            "whatItIs": "7,500 bonus Rapid Rewards points each year after your card anniversary.",
+            "howItWorks": [
+              "The points post to your Rapid Rewards account automatically after each card anniversary.",
+              "Log what the points saved you when you redeem them, since points aren't cash."
+            ],
+            "maximizingTips": [
+              "Southwest points are worth the most on flights; check the cash price against the points price when you book."
+            ]
+          }
         },
         {
           "name": "Upgraded Boardings",
@@ -5364,7 +5893,18 @@
           "notes": "Qualifying points boost",
           "availableMonths": [],
           "notificationsEnabled": true,
-          "requiresValueOnUse": true
+          "requiresValueOnUse": true,
+          "guide": {
+            "whatItIs": "10,000 Companion Pass qualifying points added each year, a head start toward the Companion Pass.",
+            "howItWorks": [
+              "The boost counts toward the Companion Pass automatically; it isn't spendable points.",
+              "Card points, Southwest flights and base partner points also count toward the pass. Purchased or transferred points don't.",
+              "Log a value only if the boost helps you earn the pass."
+            ],
+            "maximizingTips": [
+              "Earning the pass early in a year makes it good for the rest of that year and all of the next."
+            ]
+          }
         }
       ],
       "sources": {
@@ -5439,7 +5979,18 @@
           "notes": "Enter your redemption value",
           "availableMonths": [],
           "notificationsEnabled": true,
-          "requiresValueOnUse": true
+          "requiresValueOnUse": true,
+          "guide": {
+            "whatItIs": "One free night each year after your cardmember anniversary, at any Category 1 to 4 Hyatt hotel.",
+            "howItWorks": [
+              "The free night lands in your World of Hyatt account after your cardmember anniversary; book any Category 1 to 4 hotel with it.",
+              "Log the cash price of the night you booked as its value."
+            ],
+            "maximizingTips": [
+              "The award expires; book the night as soon as you know your dates.",
+              "Category 4 hotels in big cities often cost $250 or more a night, which is where the certificate is worth the most."
+            ]
+          }
         },
         {
           "name": "Bonus Free Night ($15K spend)",
@@ -5451,7 +6002,17 @@
           "notes": "After $15K spend, Cat 1-4",
           "availableMonths": [],
           "notificationsEnabled": true,
-          "requiresValueOnUse": true
+          "requiresValueOnUse": true,
+          "guide": {
+            "whatItIs": "A second free night at any Category 1 to 4 Hyatt hotel after you spend $15,000 on the card in a calendar year.",
+            "howItWorks": [
+              "Spend $15,000 on the World of Hyatt card in a calendar year and a Category 1 to 4 free night lands in your World of Hyatt account.",
+              "Log the cash price of the night you booked as its value."
+            ],
+            "maximizingTips": [
+              "The award expires; book the night as soon as you know your dates."
+            ]
+          }
         },
         {
           "name": "Qualifying Night Credits",
@@ -5521,7 +6082,17 @@
           "notes": "Enter your points value",
           "availableMonths": [],
           "notificationsEnabled": true,
-          "requiresValueOnUse": true
+          "requiresValueOnUse": true,
+          "guide": {
+            "whatItIs": "6,000 bonus Rapid Rewards points each year after your card anniversary.",
+            "howItWorks": [
+              "The points post to your Rapid Rewards account automatically after each card anniversary.",
+              "Log what the points saved you when you redeem them, since points aren't cash."
+            ],
+            "maximizingTips": [
+              "Southwest points are worth the most on flights; check the cash price against the points price when you book."
+            ]
+          }
         },
         {
           "name": "EarlyBird Check-In",
@@ -5642,7 +6213,17 @@
           "notes": "Enter your points value",
           "availableMonths": [],
           "notificationsEnabled": true,
-          "requiresValueOnUse": true
+          "requiresValueOnUse": true,
+          "guide": {
+            "whatItIs": "9,000 bonus Rapid Rewards points each year after your card anniversary.",
+            "howItWorks": [
+              "The points post to your Rapid Rewards account automatically after each card anniversary.",
+              "Log what the points saved you when you redeem them, since points aren't cash."
+            ],
+            "maximizingTips": [
+              "Southwest points are worth the most on flights; check the cash price against the points price when you book."
+            ]
+          }
         },
         {
           "name": "Upgraded Boardings",
@@ -5681,7 +6262,7 @@
         },
         {
           "name": "Global Entry/TSA PreCheck Credit",
-          "amount": 100,
+          "amount": 120,
           "renewalPeriod": "Yearly",
           "renewalIntervalYears": 4,
           "periodBasis": "Cardmember Year",
@@ -5689,7 +6270,19 @@
           "allowsPartialUse": true,
           "notes": "Every 4 years",
           "availableMonths": [],
-          "notificationsEnabled": true
+          "notificationsEnabled": true,
+          "guide": {
+            "whatItIs": "A statement credit for a Global Entry or TSA PreCheck application fee, including NEXUS, up to $120, once every four years.",
+            "howItWorks": [
+              "Pay the Global Entry or TSA PreCheck application fee with your Performance Business; the credit posts automatically.",
+              "Apply through the official government site or an authorized TSA PreCheck enrollment provider. Third-party application services don't qualify.",
+              "Global Entry includes TSA PreCheck, so it covers both if you travel internationally."
+            ],
+            "maximizingTips": [
+              "The fee can be for anyone, not just you. If your own membership is current, use it on a family member's application.",
+              "Global Entry can be renewed up to a year before it expires, so a renewal can usually wait until the next credit is available."
+            ]
+          }
         }
       ],
       "sources": {
@@ -5705,7 +6298,8 @@
         "earnRates.gas": "https://creditcards.chase.com/business-credit-cards/southwest/performance-business",
         "earnRates.dining": "https://creditcards.chase.com/business-credit-cards/southwest/performance-business",
         "earnRates.hotels": "https://creditcards.chase.com/business-credit-cards/southwest/performance-business",
-        "benefits.points-transfer-credit": "https://creditcards.chase.com/southwest/performance-business-credit-card"
+        "benefits.points-transfer-credit": "https://creditcards.chase.com/southwest/performance-business-credit-card",
+        "benefits.global-entry-tsa-precheck-credit": "https://creditcards.chase.com/business-credit-cards/southwest/performance-business"
       },
       "lastVerified": "2026-05-03T00:00:00Z"
     },
@@ -6086,10 +6680,20 @@
           "renewalPeriod": "Yearly",
           "periodBasis": "Calendar Year",
           "category": "Travel",
-          "allowsPartialUse": true,
+          "allowsPartialUse": false,
           "notes": "$100 off $500+ hotel stay via CitiTravel",
           "availableMonths": [],
-          "notificationsEnabled": true
+          "notificationsEnabled": true,
+          "guide": {
+            "whatItIs": "$100 off one hotel stay of $500 or more booked through Citi Travel, once a calendar year.",
+            "howItWorks": [
+              "Book a hotel stay costing $500 or more before taxes and fees on cititravel.com with the Strata Premier; $100 comes off at booking.",
+              "It applies once each calendar year."
+            ],
+            "maximizingTips": [
+              "A 2- or 3-night stay usually clears $500; compare the Citi Travel price with booking direct."
+            ]
+          }
         }
       ],
       "sources": {
@@ -6103,7 +6707,8 @@
         "earnRates.gas": "https://www.citi.com/credit-cards/citi-strata-premier-credit-card",
         "earnRates.dining": "https://www.citi.com/credit-cards/citi-strata-premier-credit-card",
         "earnRates.groceries": "https://www.citi.com/credit-cards/citi-strata-premier-credit-card",
-        "signupBonus": "https://www.citi.com/credit-cards/citi-strata-premier-credit-card"
+        "signupBonus": "https://www.citi.com/credit-cards/citi-strata-premier-credit-card",
+        "benefits.hotel-credit": "https://www.citi.com/credit-cards/citi-strata-premier-credit-card"
       },
       "lastVerified": "2026-05-03T00:00:00Z",
       "signupBonus": {
@@ -6434,7 +7039,17 @@
           "allowsPartialUse": true,
           "notes": "Airline fees, seat upgrades, baggage",
           "availableMonths": [],
-          "notificationsEnabled": true
+          "notificationsEnabled": true,
+          "guide": {
+            "whatItIs": "Up to $100 back each year on airline incidentals like seat upgrades, bag fees, in-flight purchases and lounge fees.",
+            "howItWorks": [
+              "Pay airline fees with the Premium Rewards card: seat upgrades, baggage fees, in-flight services and airline lounge fees all count.",
+              "The credit applies automatically. Airline tickets don't qualify."
+            ],
+            "maximizingTips": [
+              "One checked bag on a round trip uses a good part of it."
+            ]
+          }
         },
         {
           "name": "Global Entry/TSA PreCheck Credit",
@@ -6446,7 +7061,19 @@
           "allowsPartialUse": true,
           "notes": "Every 4 years",
           "availableMonths": [],
-          "notificationsEnabled": true
+          "notificationsEnabled": true,
+          "guide": {
+            "whatItIs": "A statement credit for a Global Entry or TSA PreCheck application fee, up to $100, once every four years.",
+            "howItWorks": [
+              "Pay the Global Entry or TSA PreCheck application fee with your Premium Rewards card; the credit posts automatically.",
+              "Apply through the official government site or an authorized TSA PreCheck enrollment provider. Third-party application services don't qualify.",
+              "Global Entry includes TSA PreCheck, so it covers both if you travel internationally."
+            ],
+            "maximizingTips": [
+              "The fee can be for anyone, not just you. If your own membership is current, use it on a family member's application.",
+              "Global Entry can be renewed up to a year before it expires, so a renewal can usually wait until the next credit is available."
+            ]
+          }
         }
       ],
       "sources": {
@@ -6655,7 +7282,18 @@
           "notes": "$99 + taxes companion ticket on Alaska/Hawaiian flights; requires $6,000 annual spend",
           "availableMonths": [],
           "notificationsEnabled": true,
-          "requiresValueOnUse": true
+          "requiresValueOnUse": true,
+          "guide": {
+            "whatItIs": "A companion fare for $99 plus taxes on Alaska or Hawaiian flights, earned by spending $6,000 on the card in a year.",
+            "howItWorks": [
+              "Spend $6,000 on the Ascent card in a card year; the Companion Fare arrives in your Atmos Rewards account.",
+              "Book a companion on the same itinerary for $99 plus taxes and fees.",
+              "Log the fare you saved as its value."
+            ],
+            "maximizingTips": [
+              "It's worth the most on long or pricey routes; check expiration when it arrives."
+            ]
+          }
         },
         {
           "name": "Inflight Discount",
@@ -6819,7 +7457,7 @@
           "renewalPeriod": "Yearly",
           "periodBasis": "Calendar Year",
           "category": "Travel",
-          "allowsPartialUse": true,
+          "allowsPartialUse": false,
           "notes": "$50 min airline purchase required",
           "availableMonths": [],
           "notificationsEnabled": true,
@@ -6843,7 +7481,16 @@
             "AIR FRANCE",
             "KLM",
             "EASYJET"
-          ]
+          ],
+          "guide": {
+            "whatItIs": "A $50 statement credit each year on an airline purchase of $50 or more.",
+            "howItWorks": [
+              "Buy a ticket or other airline purchase of $50 or more with the Autograph Journey; the $50 credit follows."
+            ],
+            "maximizingTips": [
+              "Any airline counts, so your next ticket purchase uses it."
+            ]
+          }
         }
       ],
       "sources": {
@@ -7861,7 +8508,17 @@
           "notes": "Enter your points value",
           "availableMonths": [],
           "notificationsEnabled": true,
-          "requiresValueOnUse": true
+          "requiresValueOnUse": true,
+          "guide": {
+            "whatItIs": "3,000 bonus Rapid Rewards points each year after your card anniversary.",
+            "howItWorks": [
+              "The points post to your Rapid Rewards account automatically after each card anniversary.",
+              "Log what the points saved you when you redeem them, since points aren't cash."
+            ],
+            "maximizingTips": [
+              "Southwest points are worth the most on flights; check the cash price against the points price when you book."
+            ]
+          }
         }
       ],
       "sources": {
@@ -8569,18 +9226,38 @@
           "allowsPartialUse": true,
           "notes": "After making five United flight purchases of $100+ each calendar year",
           "availableMonths": [],
-          "notificationsEnabled": true
+          "notificationsEnabled": true,
+          "guide": {
+            "whatItIs": "$125 in United TravelBank cash after you make 5 United flight purchases of $100 or more in a calendar year.",
+            "howItWorks": [
+              "Buy 5 United flights of $100 or more each with the United Business card in a calendar year; $125 in TravelBank cash follows.",
+              "Spend the TravelBank cash on a future United booking."
+            ],
+            "maximizingTips": [
+              "Separate tickets count separately, so booking travelers individually reaches 5 purchases faster."
+            ]
+          }
         },
         {
           "name": "United Hotels Credit",
           "amount": 100,
           "renewalPeriod": "Yearly",
-          "periodBasis": "Calendar Year",
+          "periodBasis": "Cardmember Year",
           "category": "Travel",
           "allowsPartialUse": true,
-          "notes": "Prepaid hotel stays purchased directly through United Hotels",
+          "notes": "$50 back on each of your first two prepaid United Hotels stays each anniversary year.",
           "availableMonths": [],
-          "notificationsEnabled": true
+          "notificationsEnabled": true,
+          "guide": {
+            "whatItIs": "$50 back on each of your first two prepaid United Hotels stays, every anniversary year.",
+            "howItWorks": [
+              "Prepay a hotel stay directly through United Hotels with the United Business card; a $50 statement credit follows.",
+              "The first and second stays each anniversary year earn $50."
+            ],
+            "maximizingTips": [
+              "Only prepaid rates count; a pay-at-hotel rate won't earn the credit."
+            ]
+          }
         },
         {
           "name": "Rideshare Credit",
@@ -8591,7 +9268,17 @@
           "allowsPartialUse": true,
           "notes": "Enrollment required",
           "availableMonths": [],
-          "notificationsEnabled": true
+          "notificationsEnabled": true,
+          "guide": {
+            "whatItIs": "Up to $100 back each calendar year on rideshare: $8 a month from January to November and $12 in December.",
+            "howItWorks": [
+              "Enroll in the benefit each year, then pay for rideshare rides with the United Business card.",
+              "The monthly amount doesn't carry over, so an unused month is lost."
+            ],
+            "maximizingTips": [
+              "Re-enroll every January; the opt-in doesn't renew on its own."
+            ]
+          }
         },
         {
           "name": "Avis/Budget TravelBank Cash",
@@ -8602,7 +9289,17 @@
           "allowsPartialUse": true,
           "notes": "For eligible Avis or Budget rentals booked through cars.united.com",
           "availableMonths": [],
-          "notificationsEnabled": true
+          "notificationsEnabled": true,
+          "guide": {
+            "whatItIs": "$25 of United TravelBank cash for each of your first two Avis or Budget rentals every card anniversary year.",
+            "howItWorks": [
+              "Book an Avis or Budget rental directly through cars.united.com and pay with the United Business card.",
+              "The first and second rentals each year earn $25 in TravelBank cash, which you spend on United flights."
+            ],
+            "maximizingTips": [
+              "TravelBank cash has its own expiration; use it on your next United booking."
+            ]
+          }
         },
         {
           "name": "Instacart Credit",
@@ -8611,9 +9308,19 @@
           "periodBasis": "Calendar Year",
           "category": "Shopping",
           "allowsPartialUse": true,
-          "notes": "Up to $120 per calendar year with active Instacart+ membership",
+          "notes": "Through 12/31/2027. A $10 credit each month for purchases directly through Instacart.",
           "availableMonths": [],
-          "notificationsEnabled": true
+          "notificationsEnabled": true,
+          "guide": {
+            "whatItIs": "A $10 Instacart credit each month, up to $120 a year, through December 31, 2027.",
+            "howItWorks": [
+              "Pay for an Instacart order directly through Instacart with the United Business card; a $10 credit applies each month.",
+              "Unused credit doesn't carry into the next month."
+            ],
+            "maximizingTips": [
+              "One grocery or office-supply order a month uses it."
+            ]
+          }
         },
         {
           "name": "JSX Credit",
@@ -8624,7 +9331,38 @@
           "allowsPartialUse": true,
           "notes": "For flights booked directly with JSX",
           "availableMonths": [],
-          "notificationsEnabled": true
+          "notificationsEnabled": true,
+          "guide": {
+            "whatItIs": "Up to $100 back each card anniversary year on flights booked directly with JSX.",
+            "howItWorks": [
+              "Book a JSX flight directly with JSX and pay with the United Business card.",
+              "JSX is a semi-private jet service flying from private terminals on select routes."
+            ],
+            "maximizingTips": [
+              "Check JSX's route map first; it only flies between a limited set of cities."
+            ]
+          }
+        },
+        {
+          "name": "FareLock Credit",
+          "amount": 25,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Cardmember Year",
+          "category": "Travel",
+          "allowsPartialUse": true,
+          "notes": "Up to $25 back each card anniversary year on FareLock for United or United Express flights.",
+          "availableMonths": [],
+          "notificationsEnabled": true,
+          "guide": {
+            "whatItIs": "Up to $25 back each card anniversary year on United FareLock purchases.",
+            "howItWorks": [
+              "Buy FareLock on a United or United Express flight with the United Business card to hold the fare for 3, 7 or 14 days.",
+              "The FareLock fee comes back as a statement credit."
+            ],
+            "maximizingTips": [
+              "Lock a fare while plans firm up; the credit makes the hold free."
+            ]
+          }
         }
       ],
       "sources": {
@@ -8641,7 +9379,8 @@
         "benefits.rideshare-credit": "https://creditcards.chase.com/business-credit-cards/united/united-business-card",
         "benefits.avis-budget-travelbank-cash": "https://creditcards.chase.com/business-credit-cards/united/united-business-card",
         "benefits.instacart-credit": "https://creditcards.chase.com/business-credit-cards/united/united-business-card",
-        "benefits.jsx-credit": "https://creditcards.chase.com/business-credit-cards/united/united-business-card"
+        "benefits.jsx-credit": "https://creditcards.chase.com/business-credit-cards/united/united-business-card",
+        "benefits.farelock-credit": "https://creditcards.chase.com/business-credit-cards/united/united-business-card"
       },
       "lastVerified": "2026-05-08T00:00:00Z"
     },
@@ -8926,7 +9665,19 @@
           "allowsPartialUse": true,
           "notes": "Every 4 years",
           "availableMonths": [],
-          "notificationsEnabled": true
+          "notificationsEnabled": true,
+          "guide": {
+            "whatItIs": "A statement credit for a Global Entry or TSA PreCheck application fee, including NEXUS, up to $120, once every four years.",
+            "howItWorks": [
+              "Pay the Global Entry or TSA PreCheck application fee with your IHG Premier Business; the credit posts automatically.",
+              "Apply through the official government site or an authorized TSA PreCheck enrollment provider. Third-party application services don't qualify.",
+              "Global Entry includes TSA PreCheck, so it covers both if you travel internationally."
+            ],
+            "maximizingTips": [
+              "The fee can be for anyone, not just you. If your own membership is current, use it on a family member's application.",
+              "Global Entry can be renewed up to a year before it expires, so a renewal can usually wait until the next credit is available."
+            ]
+          }
         }
       ],
       "sources": {
@@ -9001,9 +9752,19 @@
           "periodBasis": "Cardmember Year",
           "category": "Travel",
           "allowsPartialUse": true,
-          "notes": "Up to $100 in Hyatt statement credits each anniversary year",
+          "notes": "A $50 statement credit after $50 or more at Hyatt, up to twice each anniversary year.",
           "availableMonths": [],
-          "notificationsEnabled": true
+          "notificationsEnabled": true,
+          "guide": {
+            "whatItIs": "Two $50 statement credits each anniversary year when you spend $50 or more at Hyatt, up to $100.",
+            "howItWorks": [
+              "Spend $50 or more at a Hyatt property with the World of Hyatt Business card; a $50 statement credit follows.",
+              "It works twice each anniversary year."
+            ],
+            "maximizingTips": [
+              "Two separate stays, or a stay plus a restaurant bill at a Hyatt, use both credits."
+            ]
+          }
         }
       ],
       "sources": {
@@ -9016,7 +9777,7 @@
         "earnRates.airfare": "https://creditcards.chase.com/travel-credit-cards/world-of-hyatt",
         "earnRates.gas": "https://creditcards.chase.com/travel-credit-cards/world-of-hyatt",
         "earnRates.transit": "https://creditcards.chase.com/travel-credit-cards/world-of-hyatt",
-        "benefits.hyatt-credit": "https://creditcards.chase.com/travel-credit-cards/world-of-hyatt"
+        "benefits.hyatt-credit": "https://www.chase.com/personal/credit-cards/hyatt/world-hyatt-business/exclusive-benefits"
       },
       "lastVerified": "2026-05-08T00:00:00Z"
     },
@@ -10525,7 +11286,19 @@
           "allowsPartialUse": true,
           "notes": "Every 4 years",
           "availableMonths": [],
-          "notificationsEnabled": true
+          "notificationsEnabled": true,
+          "guide": {
+            "whatItIs": "A statement credit for a Global Entry or TSA PreCheck application fee, up to $120, once every four years.",
+            "howItWorks": [
+              "Pay the Global Entry or TSA PreCheck application fee with your Spark Miles; the credit posts automatically.",
+              "Apply through the official government site or an authorized TSA PreCheck enrollment provider. Third-party application services don't qualify.",
+              "The credit applies to whichever program you pay for first, and posts within two billing cycles."
+            ],
+            "maximizingTips": [
+              "The fee can be for anyone, not just you. If your own membership is current, use it on a family member's application.",
+              "Global Entry can be renewed up to a year before it expires, so a renewal can usually wait until the next credit is available."
+            ]
+          }
         }
       ],
       "sources": {
