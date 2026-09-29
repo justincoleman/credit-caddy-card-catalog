@@ -24,6 +24,26 @@ log() {
   printf '[%s] %s\n' "$(date -u +%Y-%m-%dT%H:%M:%SZ)" "$*" | tee -a "${LOG_FILE}"
 }
 
+# A failed run used to show only as a banner on the mini itself, and the
+# agent failed silently for three months (Jul-Sep 2026: expired Claude login).
+# Failures now open (or comment on) a GitHub issue so they're seen anywhere.
+FAILURE_ISSUE_TITLE="Monthly catalog agent failed"
+report_failure() {
+  local reason="$1"
+  osascript -e "display notification \"${reason}\" with title \"Credit Caddy: catalog refresh ERROR\" sound name \"Basso\"" 2>/dev/null || true
+  local body="The monthly catalog agent on $(hostname -s) failed at $(date -u +%Y-%m-%dT%H:%M:%SZ): ${reason}
+
+Log: ${LOG_FILE}"
+  local existing
+  existing=$(gh issue list --repo justincoleman/credit-caddy-card-catalog --state open \
+    --search "in:title \"${FAILURE_ISSUE_TITLE}\"" --json number --jq '.[0].number // empty' 2>/dev/null || true)
+  if [[ -n "${existing}" ]]; then
+    gh issue comment "${existing}" --repo justincoleman/credit-caddy-card-catalog --body "${body}" >/dev/null 2>&1 || true
+  else
+    gh issue create --repo justincoleman/credit-caddy-card-catalog --title "${FAILURE_ISSUE_TITLE}" --body "${body}" >/dev/null 2>&1 || true
+  fi
+}
+
 log "Run started"
 log "Repo dir:    ${REPO_DIR}"
 log "Prompt file: ${PROMPT_FILE}"
@@ -104,7 +124,26 @@ if [[ ! -f "${PROMPT_FILE}" ]]; then
   exit 1
 fi
 
-log "Invoking claude -p (model: claude-sonnet-4-6, budget cap: \$5)"
+# Model and budget can be overridden in secrets.env. A full 149-card audit
+# needs more than the original $5: the June 2026 run re-verified only 75 cards.
+AGENT_MODEL="${CATALOG_AGENT_MODEL:-claude-sonnet-5-5}"
+AGENT_BUDGET_USD="${CATALOG_AGENT_BUDGET_USD:-15}"
+
+# Pre-flight: Claude login. A 20-second check here beats finding out a month
+# later. For an unattended machine, run `claude setup-token` once and put the
+# result in secrets.env as CLAUDE_CODE_OAUTH_TOKEN (valid for a year).
+set +e
+AUTH_CHECK=$(claude -p "Reply with the single word OK." --model "${AGENT_MODEL}" \
+  --max-budget-usd 0.05 --no-session-persistence --output-format text 2>&1)
+AUTH_EXIT=$?
+set -e
+if [[ ${AUTH_EXIT} -ne 0 ]]; then
+  log "ERROR: claude pre-flight failed (exit ${AUTH_EXIT}): ${AUTH_CHECK}"
+  report_failure "Claude pre-flight failed: ${AUTH_CHECK}. On the mini, run 'claude setup-token' and set CLAUDE_CODE_OAUTH_TOKEN in ~/.config/credit-caddy/secrets.env."
+  exit 1
+fi
+
+log "Invoking claude -p (model: ${AGENT_MODEL}, budget cap: \$${AGENT_BUDGET_USD})"
 log "Tools: Bash Read Write Edit Glob Grep WebFetch"
 log "----- agent output begins -----"
 
@@ -115,10 +154,10 @@ log "----- agent output begins -----"
 # --no-session-persistence keeps each monthly run self-contained.
 set +e
 claude -p "$(cat "${PROMPT_FILE}")" \
-  --model claude-sonnet-4-6 \
+  --model "${AGENT_MODEL}" \
   --allowedTools "Bash Read Write Edit Glob Grep WebFetch" \
   --permission-mode bypassPermissions \
-  --max-budget-usd 5 \
+  --max-budget-usd "${AGENT_BUDGET_USD}" \
   --no-session-persistence \
   --output-format text \
   >>"${LOG_FILE}" 2>&1
@@ -142,7 +181,7 @@ elif [[ "${EXIT}" -eq 0 ]]; then
   osascript -e "display notification \"No changes this month.\" with title \"Credit Caddy: catalog refresh\" sound name \"Pop\"" 2>/dev/null || true
 else
   log "Run failed — see log above"
-  osascript -e "display notification \"Run failed (exit ${EXIT}). Check logs.\" with title \"Credit Caddy: catalog refresh ERROR\" sound name \"Basso\"" 2>/dev/null || true
+  report_failure "claude exited with status ${EXIT}. $(grep -m1 -iE 'error|failed' "${LOG_FILE}" | cut -c1-300)"
 fi
 
 # Rotate logs: keep last 12 (one year of monthly runs)
