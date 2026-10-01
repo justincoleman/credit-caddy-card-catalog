@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "version": "2026.10.02",
-  "lastUpdated": "2026-10-02T02:30:00Z",
+  "lastUpdated": "2026-10-02T03:00:00Z",
   "cards": [
     {
       "id": "american-express-platinum-card",
@@ -73,6 +73,10 @@
               "It's use-it-or-lose-it each month. No rides coming up? Spend it on Uber Eats (pickup avoids delivery fees).",
               "Gift-card balances in your Uber wallet can get spent before your Amex Cash — check the wallet so the credit isn't stranded."
             ]
+          },
+          "setup": {
+            "label": "Add card to Uber",
+            "detail": "Add the card to your Uber account; the Uber Cash then appears in the Uber app each month."
           }
         },
         {
@@ -98,6 +102,10 @@
               "December stacks an extra bonus on top of the usual monthly Uber Cash — plan a bigger Uber or Uber Eats spend that month.",
               "Same rule as always: pay with the Platinum set as your in-app Uber payment method, and use the Uber Cash before month-end."
             ]
+          },
+          "setup": {
+            "label": "Add card to Uber",
+            "detail": "Add the card to your Uber account; the Uber Cash then appears in the Uber app each month."
           }
         },
         {
@@ -133,7 +141,11 @@
             "NEW YORK TIMES",
             "WSJ",
             "WALL STREET JOURNAL"
-          ]
+          ],
+          "setup": {
+            "label": "Enroll in Amex app",
+            "detail": "Enroll in this benefit in the Amex app before you use it."
+          }
         },
         {
           "name": "Walmart+ Membership Credit",
@@ -211,7 +223,11 @@
           },
           "merchantPatterns": [
             "LULULEMON"
-          ]
+          ],
+          "setup": {
+            "label": "Enroll in Amex app",
+            "detail": "Enroll in this benefit in the Amex app before you use it."
+          }
         },
         {
           "name": "Resy Credit",
@@ -241,7 +257,11 @@
           },
           "merchantPatterns": [
             "RESY"
-          ]
+          ],
+          "setup": {
+            "label": "Enroll in Amex app",
+            "detail": "Enroll in this benefit in the Amex app before you use it."
+          }
         },
         {
           "name": "Saks Fifth Avenue Credit",
@@ -299,7 +319,11 @@
             "SEAT FEE",
             "AIRLINE FEE",
             "INFLIGHT"
-          ]
+          ],
+          "setup": {
+            "label": "Pick your airline",
+            "detail": "Select one qualifying airline in the Amex app before the first fee posts; you can change it once a year, in January."
+          }
         },
         {
           "name": "Hotel Credit (FHR/THC)",
@@ -328,7 +352,10 @@
             "FINE HOTELS",
             "AMEXTRAVEL",
             "AMEX TRAVEL"
-          ]
+          ],
+          "redemptionURL": "https://www.americanexpress.com/en-us/travel/platinum-card-hotel-programs/",
+          "redemptionLabel": "Browse FHR hotels",
+          "redemptionKind": "portal"
         },
         {
           "name": "CLEAR Plus Credit",
@@ -355,7 +382,10 @@
             "CLEAR *",
             "CLEARME",
             "CLEAR ME"
-          ]
+          ],
+          "redemptionURL": "https://www.clearme.com",
+          "redemptionLabel": "Join CLEAR+",
+          "redemptionKind": "portal"
         },
         {
           "name": "Equinox Credit",
@@ -379,7 +409,11 @@
           },
           "merchantPatterns": [
             "EQUINOX"
-          ]
+          ],
+          "setup": {
+            "label": "Enroll in Amex app",
+            "detail": "Enroll in this benefit in the Amex app before you use it."
+          }
         },
         {
           "name": "Oura Ring Credit",
@@ -403,7 +437,14 @@
           },
           "merchantPatterns": [
             "OURA"
-          ]
+          ],
+          "setup": {
+            "label": "Enroll in Amex app",
+            "detail": "Enroll in this benefit in the Amex app before you use it."
+          },
+          "redemptionURL": "https://ouraring.com",
+          "redemptionLabel": "Shop Oura",
+          "redemptionKind": "portal"
         },
         {
           "name": "Global Entry/TSA PreCheck Credit",
@@ -609,6 +650,10 @@
               "Check the Uber app early in the month to confirm the credit landed.",
               "If you are not taking rides, an Uber Eats pickup order can be an easy way to avoid wasting the month."
             ]
+          },
+          "setup": {
+            "label": "Add card to Uber",
+            "detail": "Add the card to your Uber account; the Uber Cash then appears in the Uber app each month."
           }
         },
         {
@@ -638,7 +683,11 @@
             "BUFFALO WILD WINGS",
             "FIVE GUYS",
             "CHEESECAKE FACTORY"
-          ]
+          ],
+          "setup": {
+            "label": "Enroll in Amex app",
+            "detail": "Enroll in this benefit in the Amex app before you use it."
+          }
         },
         {
           "name": "Dunkin' Credit",
@@ -662,7 +711,11 @@
           },
           "merchantPatterns": [
             "DUNKIN"
-          ]
+          ],
+          "setup": {
+            "label": "Enroll in Amex app",
+            "detail": "Enroll in this benefit in the Amex app before you use it."
+          }
         },
         {
           "name": "Resy Credit",
@@ -692,7 +745,11 @@
           "redemptionURL": "https://resy.com/resycredit",
           "redemptionLabel": "Find Resy spots",
           "redemptionKind": "restaurantFinder",
-          "requiresExternalEligibilityList": true
+          "requiresExternalEligibilityList": true,
+          "setup": {
+            "label": "Enroll in Amex app",
+            "detail": "Enroll in this benefit in the Amex app before you use it."
+          }
         }
       ],
       "sources": {
@@ -776,7 +833,10 @@
             "maximizingTips": [
               "Check that CLEAR has lanes at the airports you use before you sign up."
             ]
-          }
+          },
+          "redemptionURL": "https://www.clearme.com",
+          "redemptionLabel": "Join CLEAR+",
+          "redemptionKind": "portal"
         }
       ],
       "sources": {
@@ -1014,6 +1074,10 @@
             "maximizingTips": [
               "A Disney+ and Hulu bundle usually covers the whole $10."
             ]
+          },
+          "setup": {
+            "label": "Enroll in Amex app",
+            "detail": "Enroll in this benefit in the Amex app before you use it."
           }
         }
       ],
@@ -1089,6 +1153,10 @@
             "maximizingTips": [
               "Most Disney+ and Hulu plans cost more than $7, so any one of them uses the whole credit."
             ]
+          },
+          "setup": {
+            "label": "Enroll in Amex app",
+            "detail": "Enroll in this benefit in the Amex app before you use it."
           }
         },
         {
@@ -1110,7 +1178,14 @@
             "maximizingTips": [
               "Skip weeks you don't need, but keep one delivery a month so the $15 isn't wasted."
             ]
-          }
+          },
+          "setup": {
+            "label": "Enroll in Amex app",
+            "detail": "Enroll in this benefit in the Amex app before you use it."
+          },
+          "redemptionURL": "https://www.homechef.com/blue-cash-everyday",
+          "redemptionLabel": "Open the Home Chef offer",
+          "redemptionKind": "portal"
         }
       ],
       "sources": {
@@ -1206,6 +1281,10 @@
             "maximizingTips": [
               "A ride to or from the airport usually uses the whole $10."
             ]
+          },
+          "setup": {
+            "label": "Enroll in Amex app",
+            "detail": "Enroll in this benefit in the Amex app before you use it."
           }
         },
         {
@@ -1227,7 +1306,10 @@
             "maximizingTips": [
               "Compare the Delta Stays price with booking the hotel directly before counting the full credit as savings."
             ]
-          }
+          },
+          "redemptionURL": "https://www.delta.com/us/en/delta-stays",
+          "redemptionLabel": "Book Delta Stays",
+          "redemptionKind": "portal"
         }
       ],
       "sources": {
@@ -1309,7 +1391,10 @@
             "maximizingTips": [
               "Compare the Delta Stays price with booking the hotel directly before counting the full credit as savings."
             ]
-          }
+          },
+          "redemptionURL": "https://www.delta.com/us/en/delta-stays",
+          "redemptionLabel": "Book Delta Stays",
+          "redemptionKind": "portal"
         },
         {
           "name": "Resy Credit",
@@ -1335,6 +1420,10 @@
             "maximizingTips": [
               "Check the Resy app for restaurants near you; many neighborhood spots qualify."
             ]
+          },
+          "setup": {
+            "label": "Enroll in Amex app",
+            "detail": "Enroll in this benefit in the Amex app before you use it."
           }
         },
         {
@@ -1356,6 +1445,10 @@
             "maximizingTips": [
               "A ride to or from the airport usually uses the whole $10."
             ]
+          },
+          "setup": {
+            "label": "Enroll in Amex app",
+            "detail": "Enroll in this benefit in the Amex app before you use it."
           }
         },
         {
@@ -1437,6 +1530,10 @@
             "maximizingTips": [
               "Check the Resy app for restaurants near you; many neighborhood spots qualify."
             ]
+          },
+          "setup": {
+            "label": "Enroll in Amex app",
+            "detail": "Enroll in this benefit in the Amex app before you use it."
           }
         },
         {
@@ -1458,6 +1555,10 @@
             "maximizingTips": [
               "A ride to or from the airport usually uses the whole $10."
             ]
+          },
+          "setup": {
+            "label": "Enroll in Amex app",
+            "detail": "Enroll in this benefit in the Amex app before you use it."
           }
         },
         {
@@ -1479,7 +1580,10 @@
             "maximizingTips": [
               "Compare the Delta Stays price with booking the hotel directly before counting the full credit as savings."
             ]
-          }
+          },
+          "redemptionURL": "https://www.delta.com/us/en/delta-stays",
+          "redemptionLabel": "Book Delta Stays",
+          "redemptionKind": "portal"
         }
       ],
       "sources": {
@@ -1735,7 +1839,10 @@
             "maximizingTips": [
               "Check that CLEAR has lanes at the airports you use before you sign up."
             ]
-          }
+          },
+          "redemptionURL": "https://www.clearme.com",
+          "redemptionLabel": "Join CLEAR+",
+          "redemptionKind": "portal"
         }
       ],
       "sources": {
@@ -1877,6 +1984,10 @@
             "maximizingTips": [
               "Printer ink or a Grubhub lunch uses the whole $20 in one purchase."
             ]
+          },
+          "setup": {
+            "label": "Enroll in Amex app",
+            "detail": "Enroll in this benefit in the Amex app before you use it."
           }
         },
         {
@@ -1919,6 +2030,10 @@
             "maximizingTips": [
               "Monthly billing spreads the $300 across the year; a couple of seats uses it faster."
             ]
+          },
+          "setup": {
+            "label": "Enroll in Amex app",
+            "detail": "Enroll in this benefit in the Amex app before you use it."
           }
         },
         {
@@ -1942,6 +2057,10 @@
             "maximizingTips": [
               "An annual website plan paid up front uses most of the $150 in one charge."
             ]
+          },
+          "setup": {
+            "label": "Enroll in Amex app",
+            "detail": "Enroll in this benefit in the Amex app before you use it."
           }
         }
       ],
@@ -2034,6 +2153,10 @@
               "Choose the airline you fly most and pay for bags or seats; those code as incidental fees most reliably.",
               "The same selected airline gets you 35% points back when you book flights with Pay with Points."
             ]
+          },
+          "setup": {
+            "label": "Pick your airline",
+            "detail": "Select one qualifying airline in the Amex app before the first fee posts; you can change it once a year, in January."
           }
         },
         {
@@ -2060,7 +2183,10 @@
             "maximizingTips": [
               "The credit can also cover people added to your CLEAR+ account, up to $219 in total."
             ]
-          }
+          },
+          "redemptionURL": "https://www.clearme.com",
+          "redemptionLabel": "Join CLEAR+",
+          "redemptionKind": "portal"
         },
         {
           "name": "Dell Credit (Jan–Jun)",
@@ -2122,6 +2248,10 @@
               "Monitors, docks and accessories are easy ways to use the $150.",
               "Dell purchases also count toward the separate $1,000 credit after $5,000 of Dell spending."
             ]
+          },
+          "setup": {
+            "label": "Enroll in Amex app",
+            "detail": "Enroll in this benefit in the Amex app before you use it."
           }
         },
         {
@@ -2144,6 +2274,10 @@
               "Worth planning only if your business already buys laptops or servers from Dell. Group the purchases into one calendar year.",
               "Remove this credit from your wallet if you won't reach $5,000, so it doesn't inflate what you have left."
             ]
+          },
+          "setup": {
+            "label": "Enroll in Amex app",
+            "detail": "Enroll in this benefit in the Amex app before you use it."
           }
         },
         {
@@ -2165,6 +2299,10 @@
             "maximizingTips": [
               "Monthly billing spreads the $300 across the year; a couple of seats uses it faster."
             ]
+          },
+          "setup": {
+            "label": "Enroll in Amex app",
+            "detail": "Enroll in this benefit in the Amex app before you use it."
           }
         },
         {
@@ -2186,6 +2324,10 @@
             "maximizingTips": [
               "Set the card as autopay on your phone bill and the credit takes care of itself every month."
             ]
+          },
+          "setup": {
+            "label": "Enroll in Amex app",
+            "detail": "Enroll in this benefit in the Amex app before you use it."
           }
         },
         {
@@ -2209,7 +2351,10 @@
               "Fine Hotels + Resorts stays include breakfast, a $100 property credit and a 4 PM checkout, and still earn hotel loyalty points.",
               "Many prepaid rates are refundable, so you can book early to capture the credit and adjust later."
             ]
-          }
+          },
+          "redemptionURL": "https://www.americanexpress.com/en-us/travel/platinum-card-hotel-programs/",
+          "redemptionLabel": "Browse FHR hotels",
+          "redemptionKind": "portal"
         },
         {
           "name": "Hilton Credit",
@@ -2231,6 +2376,10 @@
             "maximizingTips": [
               "A restaurant or bar tab at a Hilton hotel counts when it's charged to your room and you pay at checkout."
             ]
+          },
+          "setup": {
+            "label": "Enroll in Amex app",
+            "detail": "Enroll in this benefit in the Amex app before you use it; it signs you up for Hilton for Business if needed."
           }
         },
         {
@@ -2253,6 +2402,10 @@
               "An annual Creative Cloud plan paid up front usually clears $600 in one charge.",
               "Adobe apps bought through the App Store don't count."
             ]
+          },
+          "setup": {
+            "label": "Enroll in Amex app",
+            "detail": "Enroll in this benefit in the Amex app before you use it."
           }
         },
         {
@@ -2274,6 +2427,10 @@
             "maximizingTips": [
               "Sponsored postings bill as you go, so set a budget near $90 a quarter while you're hiring."
             ]
+          },
+          "setup": {
+            "label": "Enroll in Amex app",
+            "detail": "Enroll in this benefit in the Amex app before you use it."
           }
         },
         {
@@ -2664,6 +2821,10 @@
             "maximizingTips": [
               "Check the Resy app for restaurants near you; many neighborhood spots qualify."
             ]
+          },
+          "setup": {
+            "label": "Enroll in Amex app",
+            "detail": "Enroll in this benefit in the Amex app before you use it."
           }
         },
         {
@@ -2685,6 +2846,10 @@
             "maximizingTips": [
               "A ride to or from the airport usually uses the whole $10."
             ]
+          },
+          "setup": {
+            "label": "Enroll in Amex app",
+            "detail": "Enroll in this benefit in the Amex app before you use it."
           }
         },
         {
@@ -2706,7 +2871,10 @@
             "maximizingTips": [
               "Compare the Delta Stays price with booking the hotel directly before counting the full credit as savings."
             ]
-          }
+          },
+          "redemptionURL": "https://www.delta.com/us/en/delta-stays",
+          "redemptionLabel": "Book Delta Stays",
+          "redemptionKind": "portal"
         }
       ],
       "lastVerified": "2026-05-03T00:00:00Z",
@@ -2782,6 +2950,10 @@
             "maximizingTips": [
               "Check the Resy app for restaurants near you; many neighborhood spots qualify."
             ]
+          },
+          "setup": {
+            "label": "Enroll in Amex app",
+            "detail": "Enroll in this benefit in the Amex app before you use it."
           }
         },
         {
@@ -2803,6 +2975,10 @@
             "maximizingTips": [
               "A ride to or from the airport usually uses the whole $10."
             ]
+          },
+          "setup": {
+            "label": "Enroll in Amex app",
+            "detail": "Enroll in this benefit in the Amex app before you use it."
           }
         },
         {
@@ -2824,7 +3000,10 @@
             "maximizingTips": [
               "Compare the Delta Stays price with booking the hotel directly before counting the full credit as savings."
             ]
-          }
+          },
+          "redemptionURL": "https://www.delta.com/us/en/delta-stays",
+          "redemptionLabel": "Book Delta Stays",
+          "redemptionKind": "portal"
         }
       ],
       "lastVerified": "2026-05-03T00:00:00Z",
@@ -3868,7 +4047,10 @@
             "maximizingTips": [
               "Only prepaid rates count; a pay-at-hotel rate won't earn the credit."
             ]
-          }
+          },
+          "redemptionURL": "https://hotels.united.com",
+          "redemptionLabel": "Book United Hotels",
+          "redemptionKind": "portal"
         },
         {
           "name": "Rideshare Credit",
@@ -3889,6 +4071,10 @@
             "maximizingTips": [
               "Re-enroll every January; the opt-in doesn't renew on its own."
             ]
+          },
+          "setup": {
+            "label": "Enroll each year",
+            "detail": "Opt in to the rideshare credit each calendar year; last year's enrollment doesn't carry over."
           }
         },
         {
@@ -3910,7 +4096,10 @@
             "maximizingTips": [
               "TravelBank cash has its own expiration; use it on your next United booking."
             ]
-          }
+          },
+          "redemptionURL": "https://cars.united.com",
+          "redemptionLabel": "Book on cars.united.com",
+          "redemptionKind": "portal"
         },
         {
           "name": "Instacart Credit",
@@ -3931,7 +4120,10 @@
             "maximizingTips": [
               "One grocery order a month uses it."
             ]
-          }
+          },
+          "redemptionURL": "https://www.instacart.com",
+          "redemptionLabel": "Open Instacart",
+          "redemptionKind": "portal"
         },
         {
           "name": "JSX Credit",
@@ -3952,7 +4144,10 @@
             "maximizingTips": [
               "Check JSX's route map first; it only flies between a limited set of cities."
             ]
-          }
+          },
+          "redemptionURL": "https://www.jsx.com",
+          "redemptionLabel": "Book JSX",
+          "redemptionKind": "portal"
         },
         {
           "name": "United Club Passes",
@@ -4360,7 +4555,10 @@
             "CAPITALONE TRAVEL",
             "CAP ONE TRAVEL",
             "CAPITAL ONE TRVL"
-          ]
+          ],
+          "redemptionURL": "https://travel.capitalone.com",
+          "redemptionLabel": "Book in Capital One Travel",
+          "redemptionKind": "portal"
         },
         {
           "name": "Anniversary Bonus (10K miles)",
@@ -4987,6 +5185,10 @@
               "A single short ride usually covers the whole $10, so take one early in the month.",
               "Lyft rides on the Reserve also earn 5x points through September 30, 2027."
             ]
+          },
+          "setup": {
+            "label": "Add card to Lyft",
+            "detail": "Add the Reserve to your Lyft account and pay for rides with it."
           }
         },
         {
@@ -5012,6 +5214,10 @@
             "maximizingTips": [
               "If you already pay through the App Store, switch billing to Peloton directly before the next renewal."
             ]
+          },
+          "setup": {
+            "label": "Activate first",
+            "detail": "Activate at onepeloton.com/digital/promotions/chase with the Reserve saved as your Peloton payment method."
           }
         },
         {
@@ -5035,6 +5241,10 @@
               "The $20 of non-restaurant promos is the bigger piece. A grocery or pharmacy order you'd place anyway uses it.",
               "Keep the Reserve as your DoorDash default card so DashPass stays active."
             ]
+          },
+          "setup": {
+            "label": "Activate DashPass",
+            "detail": "Activate the complimentary DashPass with the Reserve in the DoorDash app; the monthly promos appear after that."
           }
         },
         {
@@ -5061,7 +5271,10 @@
           },
           "merchantPatterns": [
             "THE EDIT"
-          ]
+          ],
+          "redemptionURL": "https://www.chase.com/travel/the-edit",
+          "redemptionLabel": "Browse The Edit",
+          "redemptionKind": "portal"
         },
         {
           "name": "The Edit Hotel Credit (Second Booking)",
@@ -5083,7 +5296,10 @@
               "Two separate trips, or two separate bookings for back-to-back stays, use both credits.",
               "Confirm the property is part of The Edit and pick a prepaid Pay Now rate."
             ]
-          }
+          },
+          "redemptionURL": "https://www.chase.com/travel/the-edit",
+          "redemptionLabel": "Browse The Edit",
+          "redemptionKind": "portal"
         },
         {
           "name": "Sapphire Tables Dining Credit",
@@ -5139,6 +5355,10 @@
             "maximizingTips": [
               "StubHub's fees count toward the purchase, so one pair of tickets usually uses the whole $150."
             ]
+          },
+          "setup": {
+            "label": "Activate in Chase app",
+            "detail": "Activate the credit once in the Chase app or on chase.com."
           }
         },
         {
@@ -5189,7 +5409,10 @@
               "IHG's large footprint makes this the easiest hotel credit to use for an ordinary trip.",
               "Compare the Chase Travel prepaid rate with booking direct before you count the full $250 as savings."
             ]
-          }
+          },
+          "redemptionURL": "https://www.chase.com/travel",
+          "redemptionLabel": "Book in Chase Travel",
+          "redemptionKind": "portal"
         },
         {
           "name": "DoorDash DashPass",
@@ -5221,6 +5444,10 @@
             "maximizingTips": [
               "Log the value of the subscriptions you'd otherwise pay for, since that's the saving this benefit is worth to you."
             ]
+          },
+          "setup": {
+            "label": "Activate in Chase app",
+            "detail": "Activate Apple TV+ and Apple Music in the Chase app or on chase.com, then sign in with your Apple Account."
           }
         },
         {
@@ -5384,6 +5611,10 @@
             "maximizingTips": [
               "Register once and it keeps coming; TravelBank cash has its own expiration."
             ]
+          },
+          "setup": {
+            "label": "Link MileagePlus",
+            "detail": "Register your IHG Premier card with your United MileagePlus account to start receiving the TravelBank cash."
           }
         },
         {
@@ -5536,6 +5767,10 @@
             "maximizingTips": [
               "One round-trip ticket usually clears $250 in a single purchase."
             ]
+          },
+          "setup": {
+            "label": "Activate offer",
+            "detail": "If you had the card before January 7, 2026, activate the offer once through Chase before spending."
           }
         }
       ],
@@ -6412,6 +6647,10 @@
             "maximizingTips": [
               "Short rides count toward the three, so a single commute week can earn it."
             ]
+          },
+          "setup": {
+            "label": "Add card to Lyft",
+            "detail": "Add the AAdvantage Executive card to your Lyft account; the $15 credit follows each month you take 3 rides."
           }
         },
         {
@@ -6455,7 +6694,10 @@
             "maximizingTips": [
               "Flight-and-hotel packages are the easiest way to use it; compare against booking the pieces separately."
             ]
-          }
+          },
+          "redemptionURL": "https://www.aavacations.com",
+          "redemptionLabel": "Book AA Vacations",
+          "redemptionKind": "portal"
         },
         {
           "name": "Inflight & Admirals Club Credit",
@@ -6722,7 +6964,10 @@
             "maximizingTips": [
               "A 2- or 3-night stay usually clears $500; compare the Citi Travel price with booking direct."
             ]
-          }
+          },
+          "redemptionURL": "https://www.cititravel.com",
+          "redemptionLabel": "Book in Citi Travel",
+          "redemptionKind": "portal"
         }
       ],
       "sources": {
@@ -6841,7 +7086,10 @@
             "maximizingTips": [
               "An airport transfer in each half of the year uses most of it."
             ]
-          }
+          },
+          "redemptionURL": "https://www.blacklane.com",
+          "redemptionLabel": "Book Blacklane",
+          "redemptionKind": "portal"
         },
         {
           "name": "Hotel Credit",
@@ -6865,7 +7113,10 @@
             "maximizingTips": [
               "Compare the Citi Travel price with booking direct before counting the full $300 as savings."
             ]
-          }
+          },
+          "redemptionURL": "https://www.cititravel.com",
+          "redemptionLabel": "Book in Citi Travel",
+          "redemptionKind": "portal"
         },
         {
           "name": "Splurge Credit",
@@ -6892,6 +7143,10 @@
             "maximizingTips": [
               "Best Buy or an American Airlines flight is the easiest way to use the full $200."
             ]
+          },
+          "setup": {
+            "label": "Pick 2 brands",
+            "detail": "Activate up to 2 Splurge Credit brands in your Citi account; you can change them later."
           }
         },
         {
@@ -8407,6 +8662,10 @@
             "maximizingTips": [
               "Re-enroll every January; the opt-in doesn't renew on its own."
             ]
+          },
+          "setup": {
+            "label": "Enroll each year",
+            "detail": "Opt in to the rideshare credit each calendar year; last year's enrollment doesn't carry over."
           }
         },
         {
@@ -8428,7 +8687,10 @@
             "maximizingTips": [
               "Check JSX's route map first; it only flies between a limited set of cities."
             ]
-          }
+          },
+          "redemptionURL": "https://www.jsx.com",
+          "redemptionLabel": "Book JSX",
+          "redemptionKind": "portal"
         },
         {
           "name": "Avis/Budget TravelBank Cash",
@@ -8449,7 +8711,10 @@
             "maximizingTips": [
               "TravelBank cash has its own expiration; use it on your next United booking."
             ]
-          }
+          },
+          "redemptionURL": "https://cars.united.com",
+          "redemptionLabel": "Book on cars.united.com",
+          "redemptionKind": "portal"
         },
         {
           "name": "Instacart Credit",
@@ -8470,7 +8735,10 @@
             "maximizingTips": [
               "Two orders a month use both credits; one order uses only one."
             ]
-          }
+          },
+          "redemptionURL": "https://www.instacart.com",
+          "redemptionLabel": "Open Instacart",
+          "redemptionKind": "portal"
         },
         {
           "name": "Global Entry/TSA PreCheck/NEXUS Credit",
@@ -9018,7 +9286,10 @@
               "Chase is raising the yearly maximum to $1,000 on January 1, 2027.",
               "Compare the Chase Travel prepaid price with booking direct before treating the credit as full savings."
             ]
-          }
+          },
+          "redemptionURL": "https://www.chase.com/travel/the-edit",
+          "redemptionLabel": "Browse The Edit",
+          "redemptionKind": "portal"
         },
         {
           "name": "The Edit Hotel Credit (Second Booking)",
@@ -9039,7 +9310,10 @@
             "maximizingTips": [
               "Two separate trips, or two separate bookings for back-to-back stays, use both credits."
             ]
-          }
+          },
+          "redemptionURL": "https://www.chase.com/travel/the-edit",
+          "redemptionLabel": "Browse The Edit",
+          "redemptionKind": "portal"
         },
         {
           "name": "Select Chase Travel Hotel Credit",
@@ -9060,7 +9334,10 @@
             "maximizingTips": [
               "IHG's large footprint makes this the easiest hotel credit to use for an ordinary work trip."
             ]
-          }
+          },
+          "redemptionURL": "https://www.chase.com/travel",
+          "redemptionLabel": "Book in Chase Travel",
+          "redemptionKind": "portal"
         },
         {
           "name": "Lyft Credit",
@@ -9081,6 +9358,10 @@
             "maximizingTips": [
               "Lyft rides on the card also earn 5x points through September 30, 2027."
             ]
+          },
+          "setup": {
+            "label": "Add card to Lyft",
+            "detail": "Add the Reserve for Business to your Lyft account and pay for rides with it."
           }
         },
         {
@@ -9103,6 +9384,10 @@
             "maximizingTips": [
               "Office supplies and snacks from DoorDash retail partners count toward the $10 promos."
             ]
+          },
+          "setup": {
+            "label": "Activate DashPass",
+            "detail": "Activate the complimentary DashPass with the Reserve for Business in the DoorDash app; the monthly promos appear after that."
           }
         },
         {
@@ -9173,7 +9458,10 @@
             "maximizingTips": [
               "Pick a gift card for a store you already use, and it works like $50 of cash."
             ]
-          }
+          },
+          "redemptionURL": "https://www.giftcards.com/reservebusiness",
+          "redemptionLabel": "Open the gift card store",
+          "redemptionKind": "portal"
         },
         {
           "name": "Global Entry/TSA PreCheck/NEXUS Credit",
@@ -9316,7 +9604,10 @@
             "maximizingTips": [
               "Only prepaid rates count; a pay-at-hotel rate won't earn the credit."
             ]
-          }
+          },
+          "redemptionURL": "https://hotels.united.com",
+          "redemptionLabel": "Book United Hotels",
+          "redemptionKind": "portal"
         },
         {
           "name": "Rideshare Credit",
@@ -9337,6 +9628,10 @@
             "maximizingTips": [
               "Re-enroll every January; the opt-in doesn't renew on its own."
             ]
+          },
+          "setup": {
+            "label": "Enroll each year",
+            "detail": "Opt in to the rideshare credit each calendar year; last year's enrollment doesn't carry over."
           }
         },
         {
@@ -9358,7 +9653,10 @@
             "maximizingTips": [
               "TravelBank cash has its own expiration; use it on your next United booking."
             ]
-          }
+          },
+          "redemptionURL": "https://cars.united.com",
+          "redemptionLabel": "Book on cars.united.com",
+          "redemptionKind": "portal"
         },
         {
           "name": "Instacart Credit",
@@ -9379,7 +9677,10 @@
             "maximizingTips": [
               "One grocery or office-supply order a month uses it."
             ]
-          }
+          },
+          "redemptionURL": "https://www.instacart.com",
+          "redemptionLabel": "Open Instacart",
+          "redemptionKind": "portal"
         },
         {
           "name": "JSX Credit",
@@ -9400,7 +9701,10 @@
             "maximizingTips": [
               "Check JSX's route map first; it only flies between a limited set of cities."
             ]
-          }
+          },
+          "redemptionURL": "https://www.jsx.com",
+          "redemptionLabel": "Book JSX",
+          "redemptionKind": "portal"
         },
         {
           "name": "FareLock Credit",
@@ -9545,6 +9849,10 @@
               "Re-enroll every January; the opt-in doesn't renew on its own.",
               "One ride a month usually uses the $12."
             ]
+          },
+          "setup": {
+            "label": "Enroll each year",
+            "detail": "Opt in to the rideshare credit each calendar year; last year's enrollment doesn't carry over."
           }
         },
         {
@@ -9566,7 +9874,10 @@
             "maximizingTips": [
               "TravelBank cash has its own expiration; use it on your next United booking."
             ]
-          }
+          },
+          "redemptionURL": "https://cars.united.com",
+          "redemptionLabel": "Book on cars.united.com",
+          "redemptionKind": "portal"
         },
         {
           "name": "Instacart Credit",
@@ -9587,7 +9898,10 @@
             "maximizingTips": [
               "Two smaller orders a month use both credits; one big order uses only one."
             ]
-          }
+          },
+          "redemptionURL": "https://www.instacart.com",
+          "redemptionLabel": "Open Instacart",
+          "redemptionKind": "portal"
         },
         {
           "name": "JSX Credit",
@@ -9608,7 +9922,10 @@
             "maximizingTips": [
               "Check JSX's route map first; it only flies between a limited set of cities."
             ]
-          }
+          },
+          "redemptionURL": "https://www.jsx.com",
+          "redemptionLabel": "Book JSX",
+          "redemptionKind": "portal"
         },
         {
           "name": "FareLock Credit",

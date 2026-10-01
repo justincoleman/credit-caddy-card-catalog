@@ -278,6 +278,17 @@
           "enum": ["restaurantFinder", "portal", "enrollment", "benefitDashboard", null]
         },
         "requiresExternalEligibilityList": { "type": "boolean" },
+        "setup": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["label", "detail"],
+          "description": "A one-time step before the credit works (enroll, activate, pick an airline, add the card to an app). `label` is the short chip text the app shows on the credit's row until the credit is first used; `detail` is the full sentence; `url` is optional.",
+          "properties": {
+            "label": { "type": "string", "minLength": 1, "maxLength": 24 },
+            "detail": { "type": "string", "minLength": 1 },
+            "url": { "type": "string", "format": "uri" }
+          }
+        },
         "notes": { "type": ["string", "null"] },
         "guide": { "$ref": "#/$defs/benefitGuide" },
         "availableMonths": {

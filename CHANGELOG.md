@@ -6,6 +6,8 @@ Dates are the catalog `version` tag (`YYYY.MM.DD`). Same-day follow-ups share a 
 
 ## 2026.10.02
 
+- Added a one-time `setup` step to 50 credits that need one before they work: enrolling in the Amex app, activating in the Chase app, picking an airline for the airline fee credits, adding the card to Uber or Lyft, linking MileagePlus, picking Splurge brands, and the yearly United rideshare opt-in. The app shows it on the credit until the credit is first used.
+- Added "where to use it" links to 39 more credits (44 in total): Fine Hotels + Resorts, The Edit and Chase Travel, Capital One Travel, Citi Travel, Delta Stays, United Hotels, cars.united.com, JSX, Instacart, CLEAR+, Oura, Blacklane, AA Vacations, the Home Chef offer and the Reserve for Business gift card store.
 - Annual fees:
   - Ritz-Carlton $595 to $450. The card is closed to new applicants and Chase's pages don't print the fee; confirmed by the catalog owner.
   - Citi AAdvantage Executive $595 to $695, the fee since the August 23, 2026 World Legend refresh.
