@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "version": "2026.10.02",
-  "lastUpdated": "2026-10-02T03:00:00Z",
+  "version": "2026.10.09",
+  "lastUpdated": "2026-10-09T18:00:00Z",
   "cards": [
     {
       "id": "american-express-platinum-card",
@@ -5227,11 +5227,11 @@
           "periodBasis": "Calendar Year",
           "category": "Dining",
           "allowsPartialUse": true,
-          "notes": "Through 12/31/2027. A $5 restaurant promo and two $10 non-restaurant promos each month with DashPass.",
+          "notes": "Ended September 30, 2026. Chase replaced it with the DoorDash Promo ($15 a month, any order) and the DoorDash Grocery and Retail Promos (two $10 a month).",
           "availableMonths": [],
           "notificationsEnabled": true,
           "guide": {
-            "whatItIs": "$25 a month in DoorDash promos: a $5 restaurant promo and two $10 grocery or retail promos, through December 31, 2027.",
+            "whatItIs": "$25 a month in DoorDash promos: a $5 restaurant promo and two $10 grocery or retail promos. Note: Chase replaced this on October 1, 2026 with the $15 DoorDash Promo and the DoorDash Grocery and Retail Promos.",
             "howItWorks": [
               "Activate the complimentary DashPass with the Reserve in the DoorDash app; the monthly promos then appear in your promotion wallet.",
               "Pick the promo at checkout: $5 off one restaurant order, and $10 off each of two grocery, convenience or retail orders.",
@@ -5240,6 +5240,64 @@
             "maximizingTips": [
               "The $20 of non-restaurant promos is the bigger piece. A grocery or pharmacy order you'd place anyway uses it.",
               "Keep the Reserve as your DoorDash default card so DashPass stays active."
+            ]
+          },
+          "setup": {
+            "label": "Activate DashPass",
+            "detail": "Activate the complimentary DashPass with the Reserve in the DoorDash app; the monthly promos appear after that."
+          },
+          "endsOn": "2026-10-01",
+          "status": "retired"
+        },
+        {
+          "name": "DoorDash Promo",
+          "amount": 15,
+          "renewalPeriod": "Monthly",
+          "periodBasis": "Calendar Year",
+          "category": "Dining",
+          "allowsPartialUse": true,
+          "notes": "Through 12/31/2029. $15 off one DoorDash order a month, restaurant or not, with DashPass. Unused value on the order is forfeited.",
+          "startsOn": "2026-10-01",
+          "availableMonths": [],
+          "notificationsEnabled": true,
+          "guide": {
+            "whatItIs": "$15 off one DoorDash order each month, restaurant, grocery or retail, through December 31, 2029.",
+            "howItWorks": [
+              "Activate the complimentary DashPass with the Reserve in the DoorDash app; the $15 promo then appears in your promotion wallet each month.",
+              "Apply it at checkout on one order. It covers the subtotal, not fees, taxes or tip.",
+              "It's one order only: anything under $15 forfeits the rest, and it doesn't carry over to next month."
+            ],
+            "maximizingTips": [
+              "Use it on an order of at least $15 so none of it is lost.",
+              "It works on grocery and retail orders too, so it can cover a month you don't order restaurant food."
+            ]
+          },
+          "setup": {
+            "label": "Activate DashPass",
+            "detail": "Activate the complimentary DashPass with the Reserve in the DoorDash app; the monthly promos appear after that."
+          }
+        },
+        {
+          "name": "DoorDash Grocery and Retail Promos",
+          "amount": 20,
+          "renewalPeriod": "Monthly",
+          "periodBasis": "Calendar Year",
+          "category": "Shopping",
+          "allowsPartialUse": true,
+          "notes": "Through 12/31/2029. Two $10 promos a month on separate non-restaurant DoorDash orders (grocery, convenience, retail) with DashPass.",
+          "startsOn": "2026-10-01",
+          "availableMonths": [],
+          "notificationsEnabled": true,
+          "guide": {
+            "whatItIs": "Two $10 DoorDash promos each month for grocery, convenience or retail orders, through December 31, 2029.",
+            "howItWorks": [
+              "Activate the complimentary DashPass with the Reserve in the DoorDash app; the two $10 promos then appear in your promotion wallet each month.",
+              "Use each one on a separate non-restaurant order: grocery, convenience, pharmacy or retail. Restaurant orders don't qualify.",
+              "Each covers the order subtotal, not fees, taxes or tip. Unused promos don't carry over."
+            ],
+            "maximizingTips": [
+              "Split a grocery run into two orders of at least $10 each to use both.",
+              "Pharmacy and household restocks you'd buy anyway are an easy way to use them."
             ]
           },
           "setup": {
@@ -5421,7 +5479,7 @@
           "periodBasis": "Calendar Year",
           "category": "Dining",
           "allowsPartialUse": false,
-          "notes": "Through 12/31/2027",
+          "notes": "Activate by 12/31/2029; membership runs through 12/31/2029 or 12 months, whichever is longer.",
           "availableMonths": [],
           "notificationsEnabled": true
         },
@@ -5493,6 +5551,8 @@
         "benefits.lyft-credit": "https://creditcards.chase.com/rewards-credit-cards/chase-sapphire-reserve",
         "benefits.peloton-credit": "https://creditcards.chase.com/rewards-credit-cards/chase-sapphire-reserve",
         "benefits.doordash-credit": "https://creditcards.chase.com/rewards-credit-cards/chase-sapphire-reserve",
+        "benefits.doordash-promo": "https://creditcards.chase.com/rewards-credit-cards/chase-sapphire-reserve",
+        "benefits.doordash-grocery-and-retail-promos": "https://creditcards.chase.com/rewards-credit-cards/chase-sapphire-reserve",
         "benefits.the-edit-hotel-credit": "https://creditcards.chase.com/rewards-credit-cards/chase-sapphire-reserve",
         "benefits.the-edit-hotel-credit-second-booking": "https://creditcards.chase.com/rewards-credit-cards/chase-sapphire-reserve",
         "benefits.the-edit-hotel-credit--second-booking": "https://creditcards.chase.com/rewards-credit-cards/chase-sapphire-reserve",
