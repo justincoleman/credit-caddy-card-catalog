@@ -4,6 +4,10 @@ Every data change to `cards.json` or `rotating-categories.json` gets an entry he
 
 Dates are the catalog `version` tag (`YYYY.MM.DD`). Same-day follow-ups share a heading.
 
+## 2026.10.09
+
+- Chase Sapphire Reserve: Chase replaced the $5 restaurant DoorDash promo with a $15 promo for any DoorDash order on October 1, 2026, so the monthly DoorDash value goes from $25 to $35. The single DoorDash Credit is now two credits, because they're used on different orders: DoorDash Promo ($15 a month, any order) and DoorDash Grocery and Retail Promos (two $10 promos a month on non-restaurant orders). The old DoorDash Credit is retired as of September 30. Both new credits and the complimentary DashPass now run through December 31, 2029 (was 2027). Sapphire Reserve for Business is unchanged: Chase still lists $5 + $10 + $10 through 2027.
+
 ## 2026.10.02
 
 - Added a one-time `setup` step to 50 credits that need one before they work: enrolling in the Amex app, activating in the Chase app, picking an airline for the airline fee credits, adding the card to Uber or Lyft, linking MileagePlus, picking Splurge brands, and the yearly United rideshare opt-in. The app shows it on the credit until the credit is first used.
