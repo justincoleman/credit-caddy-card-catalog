@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "version": "2026.10.09",
-  "lastUpdated": "2026-10-09T18:00:00Z",
+  "version": "2026.10.23",
+  "lastUpdated": "2026-10-23T18:00:00Z",
   "cards": [
     {
       "id": "american-express-platinum-card",
@@ -34,14 +34,14 @@
           "category": "hotels",
           "multiplier": 5,
           "cap": null,
-          "notes": "Prepaid hotels booked via Amex Travel",
+          "notes": "Prepaid hotels and prepaid Airbnb stays booked via Amex Travel",
           "isConditional": true,
           "conditions": [
             {
               "type": "travelPortal",
               "label": "Amex Travel required",
               "provider": "Amex Travel",
-              "details": "Prepaid hotels booked via Amex Travel, up to $500,000 per calendar year, then 1x"
+              "details": "Prepaid hotels and prepaid Airbnb stays booked via Amex Travel, up to $500,000 per calendar year, then 1x"
             }
           ]
         }
@@ -332,19 +332,21 @@
           "periodBasis": "Calendar Year",
           "category": "Travel",
           "allowsPartialUse": true,
-          "notes": "A semiannual statement credit for prepaid Fine Hotels + Resorts or The Hotel Collection bookings through American Express Travel.",
+          "notes": "Amex's Lodging Credit (formerly the hotel credit): up to $300 back from January to June and again from July to December on prepaid Fine Hotels + Resorts, The Hotel Collection or Airbnb Luxe bookings through Amex Travel. The Hotel Collection and Airbnb Luxe need 2+ nights; from January 1, 2027, Fine Hotels + Resorts does too.",
           "availableMonths": [],
           "notificationsEnabled": true,
           "guide": {
-            "whatItIs": "A semiannual statement credit for prepaid Fine Hotels + Resorts or The Hotel Collection bookings through American Express Travel.",
+            "whatItIs": "Amex now calls this the Lodging Credit. It's up to $300 back from January to June and again from July to December on prepaid Fine Hotels + Resorts, The Hotel Collection or Airbnb Luxe stays booked through Amex Travel.",
             "howItWorks": [
-              "Book an eligible prepaid Fine Hotels + Resorts or The Hotel Collection stay through American Express Travel with the Platinum Card.",
-              "The Hotel Collection bookings generally require a minimum two-night stay.",
-              "The credit resets every six months, so timing the prepaid charge matters."
+              "Book a prepaid (Pay Now) Fine Hotels + Resorts, The Hotel Collection or Airbnb Luxe stay through AmexTravel.com or the Amex Travel app, and pay with the Platinum Card.",
+              "The Hotel Collection and Airbnb Luxe bookings need a stay of at least two nights.",
+              "Starting January 1, 2027, Fine Hotels + Resorts bookings also need at least two nights. A one-night FHR stay still gets the FHR perks but not the credit.",
+              "Each $300 applies only in its own half of the year."
             ],
             "maximizingTips": [
-              "Book Fine Hotels + Resorts (or The Hotel Collection, 2+ nights). FHR uniquely earns hotel loyalty points AND elite perks on a third-party booking — rare and valuable.",
-              "Most prepaid FHR rates are refundable, so you can book to capture the credit and adjust later. Deal tools like MaxFHR help find the strongest values."
+              "Have a one-night Fine Hotels + Resorts stay in mind? Book it with the July to December credit before the end of 2026, while one night still qualifies.",
+              "Fine Hotels + Resorts stays include breakfast, a $100 property credit and a 4 PM checkout, and still earn hotel loyalty points.",
+              "A prepaid Airbnb Luxe stay also unlocks the $250 Airbnb Experiences Credit for the rest of that calendar year."
             ]
           },
           "merchantPatterns": [
@@ -353,8 +355,39 @@
             "AMEXTRAVEL",
             "AMEX TRAVEL"
           ],
-          "redemptionURL": "https://www.americanexpress.com/en-us/travel/platinum-card-hotel-programs/",
-          "redemptionLabel": "Browse FHR hotels",
+          "redemptionURL": "https://www.americanexpress.com/en-us/travel/benefits/lodging-credit/",
+          "redemptionLabel": "See Lodging Credit stays",
+          "redemptionKind": "portal"
+        },
+        {
+          "name": "Airbnb Experiences Credit",
+          "amount": 250,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Calendar Year",
+          "category": "Travel",
+          "allowsPartialUse": true,
+          "notes": "Up to $250 back each calendar year on Airbnb Experiences bought directly with Airbnb. Unlocks after you book a prepaid Airbnb Luxe stay through Amex Travel, and covers experiences bought from then through December 31.",
+          "availableMonths": [],
+          "notificationsEnabled": true,
+          "guide": {
+            "whatItIs": "Up to $250 back in statement credits each calendar year on Airbnb Experiences, once you've booked a prepaid Airbnb Luxe stay through Amex Travel that year.",
+            "howItWorks": [
+              "Book a prepaid Airbnb Luxe stay through AmexTravel.com or the Amex Travel app with the Platinum Card. That unlocks the credit for the rest of the calendar year.",
+              "Then buy Airbnb Experiences directly with Airbnb and pay with the Platinum Card.",
+              "Only experiences bought after the Luxe booking is confirmed count, and they must be bought by December 31. Experiences that send you to a third-party site, like live event tickets, don't qualify."
+            ],
+            "maximizingTips": [
+              "The experience itself can happen later, even next year, as long as you buy it by December 31.",
+              "The Luxe stay doesn't have to use the Lodging Credit to unlock this one."
+            ]
+          },
+          "setup": {
+            "label": "Book Airbnb Luxe first",
+            "detail": "Each calendar year, book a prepaid Airbnb Luxe stay through Amex Travel to unlock this credit before you buy Experiences.",
+            "url": "https://www.americanexpress.com/en-us/travel/airbnb/"
+          },
+          "redemptionURL": "https://www.airbnb.com/s/experiences",
+          "redemptionLabel": "Browse Airbnb Experiences",
           "redemptionKind": "portal"
         },
         {
@@ -479,7 +512,7 @@
       ],
       "sources": {
         "annualFee": "https://www.americanexpress.com/us/credit-cards/card/platinum/",
-        "benefits.hotel-credit-fhr-thc": "https://www.americanexpress.com/us/credit-cards/card/platinum/",
+        "benefits.hotel-credit-fhr-thc": "https://www.americanexpress.com/en-us/travel/benefits/lodging-credit/",
         "benefits.global-entry-tsa-precheck-credit": "https://www.americanexpress.com/us/credit-cards/card/platinum/",
         "noForeignTransactionFees": "https://www.americanexpress.com/us/credit-cards/card/platinum/",
         "baseEarnRate": "https://www.americanexpress.com/us/credit-cards/card/platinum/",
@@ -498,7 +531,8 @@
         "benefits.clear-plus-credit": "https://www.americanexpress.com/us/credit-cards/card/platinum/",
         "benefits.equinox-credit": "https://www.americanexpress.com/us/credit-cards/card/platinum/",
         "benefits.oura-ring-credit": "https://www.americanexpress.com/us/credit-cards/card/platinum/",
-        "signupBonus": "https://www.americanexpress.com/us/credit-cards/card/platinum/"
+        "signupBonus": "https://www.americanexpress.com/us/credit-cards/card/platinum/",
+        "benefits.airbnb-experiences-credit": "https://www.americanexpress.com/en-us/travel/airbnb/"
       },
       "lastVerified": "2026-05-04T00:00:00Z",
       "signupBonus": {
@@ -2108,14 +2142,14 @@
           "category": "hotels",
           "multiplier": 5,
           "cap": null,
-          "notes": "Prepaid hotels booked via Amex Travel",
+          "notes": "Prepaid hotels and prepaid Airbnb stays booked via Amex Travel",
           "isConditional": true,
           "conditions": [
             {
               "type": "travelPortal",
               "label": "Amex Travel required",
               "provider": "Amex Travel",
-              "details": "Prepaid hotels booked via Amex Travel"
+              "details": "Prepaid hotels and prepaid Airbnb stays booked via Amex Travel"
             }
           ]
         }
@@ -2337,23 +2371,56 @@
           "periodBasis": "Calendar Year",
           "category": "Travel",
           "allowsPartialUse": true,
-          "notes": "Prepaid Fine Hotels + Resorts or The Hotel Collection (min 2-night stay) bookings via Amex Travel",
+          "notes": "Amex's Lodging Credit (formerly the hotel credit): up to $300 back from January to June and again from July to December on prepaid Fine Hotels + Resorts, The Hotel Collection or Airbnb Luxe bookings through Amex Travel. The Hotel Collection and Airbnb Luxe need 2+ nights; from January 1, 2027, Fine Hotels + Resorts does too.",
           "availableMonths": [],
           "notificationsEnabled": true,
           "guide": {
-            "whatItIs": "Up to $300 back from January to June and again from July to December on prepaid Fine Hotels + Resorts or The Hotel Collection stays.",
+            "whatItIs": "Amex now calls this the Lodging Credit. It's up to $300 back from January to June and again from July to December on prepaid Fine Hotels + Resorts, The Hotel Collection or Airbnb Luxe stays booked through Amex Travel.",
             "howItWorks": [
-              "Book a prepaid Fine Hotels + Resorts or The Hotel Collection stay through Amex Travel and pay with the Business Platinum.",
-              "The Hotel Collection requires a 2-night minimum.",
+              "Book a prepaid (Pay Now) Fine Hotels + Resorts, The Hotel Collection or Airbnb Luxe stay through AmexTravel.com or the Amex Travel app, and pay with the Business Platinum.",
+              "The Hotel Collection and Airbnb Luxe bookings need a stay of at least two nights.",
+              "Starting January 1, 2027, Fine Hotels + Resorts bookings also need at least two nights. A one-night FHR stay still gets the FHR perks but not the credit.",
               "Each $300 applies only in its own half of the year."
             ],
             "maximizingTips": [
+              "Have a one-night Fine Hotels + Resorts stay in mind? Book it with the July to December credit before the end of 2026, while one night still qualifies.",
               "Fine Hotels + Resorts stays include breakfast, a $100 property credit and a 4 PM checkout, and still earn hotel loyalty points.",
-              "Many prepaid rates are refundable, so you can book early to capture the credit and adjust later."
+              "A prepaid Airbnb Luxe stay also unlocks the $250 Airbnb Experiences Credit for the rest of that calendar year."
             ]
           },
-          "redemptionURL": "https://www.americanexpress.com/en-us/travel/platinum-card-hotel-programs/",
-          "redemptionLabel": "Browse FHR hotels",
+          "redemptionURL": "https://www.americanexpress.com/en-us/travel/benefits/lodging-credit/",
+          "redemptionLabel": "See Lodging Credit stays",
+          "redemptionKind": "portal"
+        },
+        {
+          "name": "Airbnb Experiences Credit",
+          "amount": 250,
+          "renewalPeriod": "Yearly",
+          "periodBasis": "Calendar Year",
+          "category": "Travel",
+          "allowsPartialUse": true,
+          "notes": "Up to $250 back each calendar year on Airbnb Experiences bought directly with Airbnb. Unlocks after you book a prepaid Airbnb Luxe stay through Amex Travel, and covers experiences bought from then through December 31.",
+          "availableMonths": [],
+          "notificationsEnabled": true,
+          "guide": {
+            "whatItIs": "Up to $250 back in statement credits each calendar year on Airbnb Experiences, once you've booked a prepaid Airbnb Luxe stay through Amex Travel that year.",
+            "howItWorks": [
+              "Book a prepaid Airbnb Luxe stay through AmexTravel.com or the Amex Travel app with the Business Platinum. That unlocks the credit for the rest of the calendar year.",
+              "Then buy Airbnb Experiences directly with Airbnb and pay with the Business Platinum.",
+              "Only experiences bought after the Luxe booking is confirmed count, and they must be bought by December 31. Experiences that send you to a third-party site, like live event tickets, don't qualify."
+            ],
+            "maximizingTips": [
+              "The experience itself can happen later, even next year, as long as you buy it by December 31.",
+              "The Luxe stay doesn't have to use the Lodging Credit to unlock this one."
+            ]
+          },
+          "setup": {
+            "label": "Book Airbnb Luxe first",
+            "detail": "Each calendar year, book a prepaid Airbnb Luxe stay through Amex Travel to unlock this credit before you buy Experiences.",
+            "url": "https://www.americanexpress.com/en-us/travel/airbnb/"
+          },
+          "redemptionURL": "https://www.airbnb.com/s/experiences",
+          "redemptionLabel": "Browse Airbnb Experiences",
           "redemptionKind": "portal"
         },
         {
@@ -2460,7 +2527,7 @@
       ],
       "sources": {
         "annualFee": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/american-express-business-platinum-credit-card-amex/",
-        "benefits.hotel-credit": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/american-express-business-platinum-credit-card-amex/",
+        "benefits.hotel-credit": "https://www.americanexpress.com/en-us/travel/benefits/lodging-credit/",
         "benefits.clear-plus-credit": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/american-express-business-platinum-credit-card-amex/",
         "benefits.wireless-credit": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/american-express-business-platinum-credit-card-amex/",
         "benefits.hilton-credit": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/american-express-business-platinum-credit-card-amex/",
@@ -2476,7 +2543,8 @@
         "benefits.dell-credit-jul-dec": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/american-express-business-platinum-credit-card-amex/",
         "benefits.dell-credit": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/american-express-business-platinum-credit-card-amex/",
         "benefits.dell-credit-5k-spend-bonus": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/american-express-business-platinum-credit-card-amex/",
-        "benefits.chatgpt-business-credit": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/american-express-business-platinum-credit-card-amex/"
+        "benefits.chatgpt-business-credit": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/american-express-business-platinum-credit-card-amex/",
+        "benefits.airbnb-experiences-credit": "https://www.americanexpress.com/en-us/travel/airbnb/"
       },
       "lastVerified": "2026-05-04T00:00:00Z"
     },

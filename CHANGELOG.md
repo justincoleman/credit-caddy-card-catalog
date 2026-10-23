@@ -4,6 +4,12 @@ Every data change to `cards.json` or `rotating-categories.json` gets an entry he
 
 Dates are the catalog `version` tag (`YYYY.MM.DD`). Same-day follow-ups share a heading.
 
+## 2026.10.23
+
+- Amex Platinum and Business Platinum: Amex renamed the $600 hotel credit the Lodging Credit and added prepaid Airbnb Luxe stays (2+ nights) booked through Amex Travel. Starting January 1, 2027, Fine Hotels + Resorts bookings also need at least two nights to get the credit. Amounts and the January to June / July to December split are unchanged. The credit keeps its name in the app so existing usage carries over.
+- Amex Platinum and Business Platinum: added the Airbnb Experiences Credit, up to $250 a calendar year on Airbnb Experiences bought directly with Airbnb. It unlocks once you book a prepaid Airbnb Luxe stay through Amex Travel that year.
+- Amex Platinum and Business Platinum: the 5X Amex Travel rate now also covers prepaid Airbnb stays booked through Amex Travel.
+
 ## 2026.10.09
 
 - Chase Sapphire Reserve: Chase replaced the $5 restaurant DoorDash promo with a $15 promo for any DoorDash order on October 1, 2026, so the monthly DoorDash value goes from $25 to $35. The single DoorDash Credit is now two credits, because they're used on different orders: DoorDash Promo ($15 a month, any order) and DoorDash Grocery and Retail Promos (two $10 promos a month on non-restaurant orders). The old DoorDash Credit is retired as of September 30. Both new credits and the complimentary DashPass now run through December 31, 2029 (was 2027). Sapphire Reserve for Business is unchanged: Chase still lists $5 + $10 + $10 through 2027.
