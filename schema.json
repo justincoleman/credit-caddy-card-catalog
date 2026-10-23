@@ -271,6 +271,12 @@
         "startsOn": { "type": ["string", "null"], "format": "date" },
         "endsOn": { "type": ["string", "null"], "format": "date" },
         "status": { "type": "string", "enum": ["active", "retired"], "default": "active" },
+        "previousNames": {
+          "type": "array",
+          "description": "Names this benefit had in earlier catalogs. App builds with rename support move a user's credit from one of these to `name` in place; older builds see a removed credit and a new one, so only rename once most users run a build that reads this.",
+          "uniqueItems": true,
+          "items": { "type": "string", "minLength": 1 }
+        },
         "redemptionURL": { "type": ["string", "null"], "format": "uri" },
         "redemptionLabel": { "type": ["string", "null"], "minLength": 1 },
         "redemptionKind": {
