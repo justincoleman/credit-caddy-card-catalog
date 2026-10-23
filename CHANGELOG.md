@@ -6,7 +6,8 @@ Dates are the catalog `version` tag (`YYYY.MM.DD`). Same-day follow-ups share a 
 
 ## 2026.10.23
 
-- Amex Platinum and Business Platinum: Amex renamed the $600 hotel credit the Lodging Credit and added prepaid Airbnb Luxe stays (2+ nights) booked through Amex Travel. Starting January 1, 2027, Fine Hotels + Resorts bookings also need at least two nights to get the credit. Amounts and the January to June / July to December split are unchanged. The credit keeps its name in the app so existing usage carries over.
+- Amex Platinum and Business Platinum: the hotel credit is now named Lodging Credit, matching Amex. Your existing credit is renamed in place, with its usage kept.
+- Amex Platinum and Business Platinum: Amex renamed the $600 hotel credit the Lodging Credit and added prepaid Airbnb Luxe stays (2+ nights) booked through Amex Travel. Starting January 1, 2027, Fine Hotels + Resorts bookings also need at least two nights to get the credit. Amounts and the January to June / July to December split are unchanged.
 - Amex Platinum and Business Platinum: added the Airbnb Experiences Credit, up to $250 a calendar year on Airbnb Experiences bought directly with Airbnb. It unlocks once you book a prepaid Airbnb Luxe stay through Amex Travel that year.
 - Amex Platinum and Business Platinum: the 5X Amex Travel rate now also covers prepaid Airbnb stays booked through Amex Travel.
 

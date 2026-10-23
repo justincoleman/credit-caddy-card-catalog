@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "version": "2026.10.23",
-  "lastUpdated": "2026-10-23T18:00:00Z",
+  "lastUpdated": "2026-10-23T19:00:00Z",
   "cards": [
     {
       "id": "american-express-platinum-card",
@@ -326,7 +326,10 @@
           }
         },
         {
-          "name": "Hotel Credit (FHR/THC)",
+          "name": "Lodging Credit",
+          "previousNames": [
+            "Hotel Credit (FHR/THC)"
+          ],
           "amount": 300,
           "renewalPeriod": "Every 6 months",
           "periodBasis": "Calendar Year",
@@ -512,7 +515,7 @@
       ],
       "sources": {
         "annualFee": "https://www.americanexpress.com/us/credit-cards/card/platinum/",
-        "benefits.hotel-credit-fhr-thc": "https://www.americanexpress.com/en-us/travel/benefits/lodging-credit/",
+        "benefits.lodging-credit": "https://www.americanexpress.com/en-us/travel/benefits/lodging-credit/",
         "benefits.global-entry-tsa-precheck-credit": "https://www.americanexpress.com/us/credit-cards/card/platinum/",
         "noForeignTransactionFees": "https://www.americanexpress.com/us/credit-cards/card/platinum/",
         "baseEarnRate": "https://www.americanexpress.com/us/credit-cards/card/platinum/",
@@ -2365,7 +2368,10 @@
           }
         },
         {
-          "name": "Hotel Credit",
+          "name": "Lodging Credit",
+          "previousNames": [
+            "Hotel Credit"
+          ],
           "amount": 300,
           "renewalPeriod": "Every 6 months",
           "periodBasis": "Calendar Year",
@@ -2527,7 +2533,7 @@
       ],
       "sources": {
         "annualFee": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/american-express-business-platinum-credit-card-amex/",
-        "benefits.hotel-credit": "https://www.americanexpress.com/en-us/travel/benefits/lodging-credit/",
+        "benefits.lodging-credit": "https://www.americanexpress.com/en-us/travel/benefits/lodging-credit/",
         "benefits.clear-plus-credit": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/american-express-business-platinum-credit-card-amex/",
         "benefits.wireless-credit": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/american-express-business-platinum-credit-card-amex/",
         "benefits.hilton-credit": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/american-express-business-platinum-credit-card-amex/",
